@@ -23,7 +23,7 @@ beltLevels:
 
 programs:
   - link: mindset
-    icon: brain
+    icon: seedling
 
 engagement:
   - link: impact
