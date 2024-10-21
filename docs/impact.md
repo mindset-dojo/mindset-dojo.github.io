@@ -65,15 +65,15 @@ The financial impact? **Tens of thousands of dollars (and continuing savings)** 
 
 ### What People Have Said
 
-- *“Michael’s ability to provide stimulating questions and guidance as a Sensei has been instrumental in fostering a culture of continuous learning and improvement. His innovative approach to problem-solving and dedication to the Dojo’s principles have not only contributed to the growth of the community but have also inspired many, including myself, to strive for excellence.”* (Jesse Mar Chun)&#8203;:contentReference[oaicite:0]{index=0}
+- *“Michael’s ability to provide stimulating questions and guidance as a Sensei has been instrumental in fostering a culture of continuous learning and improvement. His innovative approach to problem-solving and dedication to the Dojo’s principles have not only contributed to the growth of the community but have also inspired many, including myself, to strive for excellence.”*
 
-- *“Michael’s knack for building communities and uniting diverse teams toward a shared goal has been instrumental in fostering collaboration and driving success. His proactive mentorship and continuous learning elevate not only his own expertise but also that of the entire team.”* (Juliette Southern)&#8203;:contentReference[oaicite:1]{index=1}
+- *“Michael’s knack for building communities and uniting diverse teams toward a shared goal has been instrumental in fostering collaboration and driving success. His proactive mentorship and continuous learning elevate not only his own expertise but also that of the entire team.”*
 
-- *“He has an unparalleled ability to simplify complex topics and make them engaging for his team.”* (Ignacio Pedregon)&#8203;:contentReference[oaicite:2]{index=2}
+- *"He has an unparalleled ability to simplify complex topics and make them engaging for his team."* 
 
-- *“Even during occasional conflicts, Michael navigates with calm and wisdom, transforming critics into active participants.”* (Sean Graver)&#8203;:contentReference[oaicite:3]{index=3}
+- *“Even during occasional conflicts, Michael navigates with calm and wisdom, transforming critics into active participants.”*
 
-- *“Michael is water. He adapts fluidly to different situations, whether gently guiding discussions with clarifying questions or diving deep to resolve complex problems. His approach varies based on the need, but he always keeps the focus on the work, blocking ego from derailing progress.”* (Rev Darragh)&#8203;:contentReference[oaicite:4]{index=4}
+- *“Michael is water. He adapts fluidly to different situations, whether gently guiding discussions with clarifying questions or diving deep to resolve complex problems. His approach varies based on the need, but he always keeps the focus on the work, blocking ego from derailing progress.”*
 
 ---
 
