@@ -5,7 +5,7 @@ layout: page
 
 At **Mindset Dojo**, we’ve seen that the real challenge leaders face isn’t getting agreement—it’s in ensuring that decisions come to life with clarity, emotional connection, and alignment. Execution often falls short because decisions are made without mastering the emotional and cultural dynamics that make them stick.
 
-Our formula is simple: **Mastery of emotional intelligence, conflict dynamics, and systems thinking** creates well-informed, efficient, and emotionally connected decisions. These are the decisions that drive real impact—not just temporary outcomes that need to be revisited like a game of whack-a-mole.
+Our formula is simple: **Mastery of emotional intelligence, conflict dynamics, and systems thinking** creates well-informed, efficient, and emotionally connected decisions. These are the decisions that drive real impact—not just temporary outcomes that need to be revisited like a game of Whac-A-Mole.
 
 When people say things "cannot be done," it’s often a belief impediment. Many leaders recognize this, but few know how to systematically work through these barriers. At Mindset Dojo, we equip leaders to **methodically transform their culture** and **unlock impact** that lasts.
 
