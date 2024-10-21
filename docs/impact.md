@@ -26,6 +26,9 @@ The financial impact? This shift generated multiple millions of dollars per year
 - A cultural transformation that drove the execution of key revenue-generating initiatives.
 - Sustainable innovation practices that yielded **millions in recurring revenue** and long-term adaptability.
 
+**Explore further:**
+- [How to manage DevOps culture? From traditional IT practices, to DevOps and beyond](https://www.youtube.com/watch?v=5TWsIeeYu7k)
+
 ---
 
 ### Agile Transformation: Tailored Mindset + Agile Program for Cultural Alignment
@@ -41,13 +44,17 @@ This wasn’t just an operational transformation—it was a shift toward a **sus
 
 **Impact:**
 - Teams rapidly adopted Agile practices, improving collaboration and decision-making.
-- A **unified culture** that supported sustained growth and operational efficiency.
+- An **aligned and adaptable culture** that supported sustained growth and operational efficiency.
 
+**Explore further:**
+- **From Challenges to Transformation: The Data Services Organization Dojo Tale**
+  - [Read SAP blog](https://community.sap.com/t5/sap-for-higher-education-and-research-blogs/from-challenges-to-transformation-the-data-services-organization-dojo-tale/ba-p/13646867)
+  
 ---
 
 ### Personal Conflict Mastery: Emotional Intelligence for Financial and Emotional Savings
 
-The principles behind Mindset Dojo extend beyond business. In a high-conflict personal situation, these methodologies were used to rebuild trust and foster a positive co-parenting dynamic. By mastering emotional intelligence and conflict dynamics, the emotionally charged environment was transformed, and decisions that would have once been contentious were made with clarity and emotional connection.
+The principles behind Mindset Dojo extend beyond business. In a high-conflict and extremely inflamed personal situation, these methodologies were used to rebuild trust and foster a positive co-parenting dynamic. By mastering emotional intelligence and conflict dynamics, the emotionally charged environment was transformed, and decisions that would have once been contentious were made with clarity and emotional connection.
 
 The financial impact? **Tens of thousands of dollars (and continuing savings)** were realized by avoiding mediators, court battles, and ongoing litigation. This financial stability, combined with the trust-building, created a more peaceful and cooperative environment for the children, positively influencing their emotional well-being and **fostering a positive co-parenting influence** that will impact them for years to come.
 
@@ -58,7 +65,7 @@ The financial impact? **Tens of thousands of dollars (and continuing savings)** 
 
 **Impact:**
 - A trusting co-parenting relationship that continues to have positive effects on both family and financial outcomes.
-- **Tens of thousands of dollars saved** by avoiding court costs, creating a more stable environment for the children, who now experience trust and cooperation instead of conflict.
+- **Tens of thousands of dollars saved** by avoiding further court costs, creating a more stable environment for the children, who now experience trust and cooperation instead of conflict.
 - **Positive co-parenting influence**, fostering a healthier emotional environment for the children.
 
 ---
