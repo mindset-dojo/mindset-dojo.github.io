@@ -23,11 +23,11 @@ beltLevels:
 
 programs:
   - link: mindset
-    icon: seedling
+    icon: lightbulb
 
 engagement:
   - link: impact
-    icon: lightbulb
+    icon: lightning-bolt
   - link: offerings
     icon: handshake
 
