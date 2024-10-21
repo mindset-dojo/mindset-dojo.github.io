@@ -51,7 +51,7 @@ This wasn’t just an operational transformation—it was a shift toward a **sus
 **Explore further:**
 - [From Challenges to Transformation: The Data Services Organization Dojo Tale](https://community.sap.com/t5/sap-for-higher-education-and-research-blogs/from-challenges-to-transformation-the-data-services-organization-dojo-tale/ba-p/13646867)
 - [From Learner to Leader: The Power of Senpai](https://community.sap.com/t5/open-source-blogs/from-learner-to-leader-the-power-of-senpai/ba-p/13662823)
-- [From Learner to Leader: The Power of Senpai](https://community.sap.com/t5/sap-for-higher-education-and-research-blogs/dojo-mindset-and-agile-circles-the-socratic-method-practically-applied-to/ba-p/13678600)
+- [Dojo Mindset and Agile Circles: The Socratic method practically applied to your organization](https://community.sap.com/t5/sap-for-higher-education-and-research-blogs/dojo-mindset-and-agile-circles-the-socratic-method-practically-applied-to/ba-p/13678600)
 
 ---
 
