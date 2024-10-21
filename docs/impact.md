@@ -28,6 +28,8 @@ The financial impact? This shift generated multiple millions of dollars per year
 
 **Explore further:**
 - [How to manage DevOps culture? From traditional IT practices, to DevOps and beyond](https://www.youtube.com/watch?v=5TWsIeeYu7k)
+- [Insightful Learning: InnerSource Dojo Way](https://www.youtube.com/watch?v=fXoVm5iTSCc)
+- [Insightful Learning: Metashift Method (Centered Excellence: DevSecOps Ignition)](https://www.youtube.com/watch?v=cTM58Rzxcbs)
 
 ---
 
@@ -47,9 +49,10 @@ This wasn’t just an operational transformation—it was a shift toward a **sus
 - An **aligned and adaptable culture** that supported sustained growth and operational efficiency.
 
 **Explore further:**
-- **From Challenges to Transformation: The Data Services Organization Dojo Tale**
-  - [Read SAP blog](https://community.sap.com/t5/sap-for-higher-education-and-research-blogs/from-challenges-to-transformation-the-data-services-organization-dojo-tale/ba-p/13646867)
-  
+- [From Challenges to Transformation: The Data Services Organization Dojo Tale](https://community.sap.com/t5/sap-for-higher-education-and-research-blogs/from-challenges-to-transformation-the-data-services-organization-dojo-tale/ba-p/13646867)
+- [From Learner to Leader: The Power of Senpai](https://community.sap.com/t5/open-source-blogs/from-learner-to-leader-the-power-of-senpai/ba-p/13662823)
+- [From Learner to Leader: The Power of Senpai](https://community.sap.com/t5/sap-for-higher-education-and-research-blogs/dojo-mindset-and-agile-circles-the-socratic-method-practically-applied-to/ba-p/13678600)
+
 ---
 
 ### Personal Conflict Mastery: Emotional Intelligence for Financial and Emotional Savings

@@ -15,6 +15,12 @@ Explore how individuals and teams are cultivating mastery and driving change in 
 - **How SAP built a Dojo Community of Practice to support a cultural shift to DevOps**
   - [Read Sumo Logic blog](https://www.sumologic.com/blog/how-sap-built-a-dojo-community-of-practice-to-support-a-cultural-shift-to-devops/)
 
+- **Insightful Learning: InnerSource Dojo Way**
+  - [InnerSource Commons presentation](https://www.youtube.com/watch?v=fXoVm5iTSCc)
+
+- **Insightful Learning: Metashift Method (Centered Excellence: DevSecOps Ignition)**
+  - [Cloud Security Office Hours presentation](https://www.youtube.com/watch?v=cTM58Rzxcbs)
+
 - **From Challenges to Transformation: The Data Services Organization Dojo Tale**
   - [Read SAP blog](https://community.sap.com/t5/sap-for-higher-education-and-research-blogs/from-challenges-to-transformation-the-data-services-organization-dojo-tale/ba-p/13646867)
 
