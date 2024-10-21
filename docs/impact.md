@@ -1,5 +1,5 @@
 ---
-title: Elevated Impact
+title: Elevate Impact
 layout: page
 ---
 
