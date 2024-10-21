@@ -1,5 +1,5 @@
 ---
-title: Impact: Unlocking Real Change
+title: Unlocking Impactful Change
 layout: page
 ---
 
