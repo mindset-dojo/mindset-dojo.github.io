@@ -78,12 +78,18 @@ The financial impact? **Tens of thousands of dollars (and continuing savings)** 
 - *“Michael’s ability to provide stimulating questions and guidance as a Sensei has been instrumental in fostering a culture of continuous learning and improvement. His innovative approach to problem-solving and dedication to the Dojo’s principles have not only contributed to the growth of the community but have also inspired many, including myself, to strive for excellence.”*
 
 - *“Michael’s knack for building communities and uniting diverse teams toward a shared goal has been instrumental in fostering collaboration and driving success. His proactive mentorship and continuous learning elevate not only his own expertise but also that of the entire team.”*
+  - Project Management Leader
 
 - *"He has an unparalleled ability to simplify complex topics and make them engaging for his team."* 
+  - Senior Technologist
 
 - *“Even during occasional conflicts, Michael navigates with calm and wisdom, transforming critics into active participants.”*
+  - Executive
 
-- *“Michael is water. He adapts fluidly to different situations, whether gently guiding discussions with clarifying questions or diving deep to resolve complex problems. His approach varies based on the need, but he always keeps the focus on the work, blocking ego from derailing progress.”*
+- *"Michael is water. He adapts fluidly to different situations, whether gently guiding discussions with clarifying questions or diving deep to resolve complex problems. His approach varies based on the need, but he always keeps the focus on the work, blocking ego from derailing progress.”* -- Cybersecurity Leader
+
+- *"I always find it interesting how well the teams are doing after going through this ... how coherent they all are on the back end. They've never talked to each other before, but they all just [started] ... aligning together."*
+  - Agile Leader
 
 ---
 
