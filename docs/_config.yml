@@ -27,7 +27,7 @@ programs:
 
 engagement:
   - link: impact
-    icon: lightning-bolt
+    icon: bolt-lightning
   - link: offerings
     icon: handshake
 
