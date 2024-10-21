@@ -76,6 +76,7 @@ The financial impact? **Tens of thousands of dollars (and continuing savings)** 
 ### What People Have Said
 
 - *“Michael’s ability to provide stimulating questions and guidance as a Sensei has been instrumental in fostering a culture of continuous learning and improvement. His innovative approach to problem-solving and dedication to the Dojo’s principles have not only contributed to the growth of the community but have also inspired many, including myself, to strive for excellence.”*
+  - Senior Executive
 
 - *“Michael’s knack for building communities and uniting diverse teams toward a shared goal has been instrumental in fostering collaboration and driving success. His proactive mentorship and continuous learning elevate not only his own expertise but also that of the entire team.”*
   - Project Management Leader
