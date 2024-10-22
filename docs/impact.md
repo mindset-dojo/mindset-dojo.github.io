@@ -13,7 +13,7 @@ When people say things "cannot be done," it’s often a belief impediment. Many 
 
 ### Project Everest: DevOps and Cultural Shift for Impact
 
-A business unit at SAP struggled for years to adopt DevOps practices that would open new revenue streams. The problem wasn’t in getting agreement—it was in overcoming deeply entrenched silos and internal resistance. By leveraging the methodologies that now define Mindset Dojo, we unlocked the barriers and catalyzed a **cultural shift** that allowed the organization to fully embrace DevOps, InnerSource, and OpenSource practices.
+A business unit at a Fortune 500 company struggled for years to adopt DevOps practices that would open new revenue streams. The problem wasn’t in getting agreement—it was in overcoming deeply entrenched silos and internal resistance. By leveraging the methodologies that now define Mindset Dojo, we unlocked the barriers and catalyzed a **cultural shift** that allowed the organization to fully embrace DevOps, InnerSource, and OpenSource practices.
 
 The financial impact? This shift generated multiple millions of dollars per year in recurring revenue **in the first few years alone**. Furthermore, this cultural transformation allowed the business to **pivot in response to macroeconomic turbulence and AI disruption**, ensuring resilience and adaptability in a fast-changing environment.
 
@@ -35,7 +35,7 @@ The financial impact? This shift generated multiple millions of dollars per year
 
 ### Agile Transformation: Tailored Mindset + Agile Program for Cultural Alignment
 
-In another example, a traditional data organization at SAP needed to adopt Agile and DevOps practices. By implementing a tailored version of the **Mindset Program** (Mindset + Agile), we helped align multiple operational cultures into one adaptable and cohesive unit. Through emotional intelligence and conflict mastery, the teams were able to embrace Agile practices and align emotionally, fostering a culture that was **adaptable and unified**.
+In another example, a traditional data organization at a Fortue 500 needed to adopt Agile and DevOps practices. By implementing a tailored version of the **Mindset Program** (Mindset + Agile), we helped align multiple operational cultures into one adaptable and cohesive unit. Through emotional intelligence and conflict mastery, the teams were able to embrace Agile practices and align emotionally, fostering a culture that was **adaptable and unified**.
 
 This wasn’t just an operational transformation—it was a shift toward a **sustainable, aligned, and adaptable culture** that could thrive in rapidly changing environments.
 
@@ -82,12 +82,19 @@ The financial impact? **Tens of thousands of dollars (and continuing savings)** 
   - Project Management Leader
 
 - *"He has an unparalleled ability to simplify complex topics and make them engaging for his team."* 
-  - Senior Technologist
+  - Senior Technology Leader
 
 - *“Even during occasional conflicts, Michael navigates with calm and wisdom, transforming critics into active participants.”*
-  - Executive
+  - Executive Leader
 
-- *"Michael is water. He adapts fluidly to different situations, whether gently guiding discussions with clarifying questions or diving deep to resolve complex problems. His approach varies based on the need, but he always keeps the focus on the work, blocking ego from derailing progress.”* -- Cybersecurity Leader
+- *"Michael is water. He adapts fluidly to different situations, whether gently guiding discussions with clarifying questions or diving deep to resolve complex problems. His approach varies based on the need, but he always keeps the focus on the work, blocking ego from derailing progress.”* 
+  - Cybersecurity Leader
+
+- *"I can say without a doubt that the Dojo made a large impact on my direct team and many others when it came to not only learning about Agile but adopting it as well. Most organizations are filled with folks that are used to the Waterfall methodology and without the Dojo (to understand the What, Why and How) we would never have been as successful as we were."*
+  - Executive Leader
+
+- *"Micheal has spent "10k hours" uncovering hidden conflict and mindset challenges as he built the dojo practice at SAP. This skill set is rare today but critical when taking on any large scale transformation."
+  - Executive Leader
 
 - *"I always find it interesting how well the teams are doing after going through this ... how coherent they all are on the back end. They've never talked to each other before, but they all just [started] ... aligning together."*
   - Agile Leader
