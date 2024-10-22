@@ -93,7 +93,7 @@ The financial impact? **Tens of thousands of dollars (and continuing savings)** 
 - *"I can say without a doubt that the Dojo made a large impact on my direct team and many others when it came to not only learning about Agile but adopting it as well. Most organizations are filled with folks that are used to the Waterfall methodology and without the Dojo (to understand the What, Why and How) we would never have been as successful as we were."*
   - Executive Leader
 
-- *"Micheal has spent "10k hours" uncovering hidden conflict and mindset challenges as he built the dojo practice at SAP. This skill set is rare today but critical when taking on any large scale transformation."
+- *"Micheal has spent "10k hours" uncovering hidden conflict and mindset challenges as he built the dojo practice at SAP. This skill set is rare today but critical when taking on any large scale transformation."*
   - Executive Leader
 
 - *"I always find it interesting how well the teams are doing after going through this ... how coherent they all are on the back end. They've never talked to each other before, but they all just [started] ... aligning together."*
