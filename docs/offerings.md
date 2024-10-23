@@ -3,7 +3,7 @@ title: Cultivating Real-Time Mastery
 layout: page
 ---
 
-**It’s been our experience** that most programs on **emotional intelligence** and **leadership** remain largely conceptual. They’ll tell you **why** emotional intelligence matters, but they often fall short of helping you how to demonstrate it in the moment—when the stakes are high, when conflict arises, or when crucial decisions need to be made.
+**It’s been our experience** that most programs on **emotional intelligence** and **leadership** remain largely conceptual. They’ll tell you **why** emotional intelligence matters or prescribe solutions, but they often fall short of helping you demonstrate it in the moment—when the stakes are high, when conflict arises, or when crucial decisions need to be made.
 
 **At Mindset Dojo, we designed a system** to bridge that gap. You don’t just learn concepts—you **practice** them in real-world, high-pressure situations until they become second nature. With **sensei mentorship** and **group interaction**, you master the ability to lead with clarity, confidence, and composure under pressure. Whether you’re handling conflict, navigating high-stakes negotiations, or leading teams, you’ll remain centered and effective when it matters most—taking decisive action, not just reflecting afterward.
 
