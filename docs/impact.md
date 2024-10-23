@@ -14,6 +14,7 @@ The following are high-level scenarios showcasing the real impact of this approa
 A Fortune 500 business unit, struggling to adopt DevOps for years, unlocked new revenue streams by aligning strategically and executing with passion. The cultural shift allowed the organization to embrace innovation and achieve long-term growth.
 
 **Impact:**
+
 - Millions in recurring revenue.
 - Rapid adaptation to economic changes and AI disruption.
 - Lasting cultural transformation, ensuring continued success and agility.
@@ -64,28 +65,28 @@ Explore more:
 
 ### **Reflections from the Journey**
 
-1. *“Michael’s knack for building communities and uniting diverse teams toward a shared goal has been instrumental in fostering collaboration and driving success. His proactive mentorship and continuous learning elevate not only his own expertise but also that of the entire team.”*  
+- *“Michael’s knack for building communities and uniting diverse teams toward a shared goal has been instrumental in fostering collaboration and driving success. His proactive mentorship and continuous learning elevate not only his own expertise but also that of the entire team.”*  
    - Project Management Leader
 
-2. *"He has an unparalleled ability to simplify complex topics and make them engaging for his team."*  
+- *"He has an unparalleled ability to simplify complex topics and make them engaging for his team."*  
    - Senior Technology Leader
 
-3. *"Michael is water. He adapts fluidly to different situations, whether gently guiding discussions with clarifying questions or diving deep to resolve complex problems. His approach varies based on the need, but he always keeps the focus on the work, blocking ego from derailing progress.”*  
+- *"Michael is water. He adapts fluidly to different situations, whether gently guiding discussions with clarifying questions or diving deep to resolve complex problems. His approach varies based on the need, but he always keeps the focus on the work, blocking ego from derailing progress.”*  
    - Cybersecurity Leader
 
-4. *“Michael’s ability to provide stimulating questions and guidance as a Sensei has been instrumental in fostering a culture of continuous learning and improvement. His innovative approach to problem-solving and dedication to the Dojo’s principles have not only contributed to the growth of the community but also inspired many, including myself, to strive for excellence.”*  
+- *“Michael’s ability to provide stimulating questions and guidance as a Sensei has been instrumental in fostering a culture of continuous learning and improvement. His innovative approach to problem-solving and dedication to the Dojo’s principles have not only contributed to the growth of the community but also inspired many, including myself, to strive for excellence.”*  
    - Senior Executive
 
-5. *"Micheal has spent '10k hours' uncovering hidden conflict and mindset challenges as he built the dojo practice at SAP. This skill set is rare today but critical when taking on any large-scale transformation."*  
+- *"Micheal has spent '10k hours' uncovering hidden conflict and mindset challenges as he built the dojo practice at SAP. This skill set is rare today but critical when taking on any large-scale transformation."*  
    - Executive Leader
 
-6. *"I always find it interesting how well the teams are doing after going through this ... how coherent they all are on the back end. They've never talked to each other before, but they all just [started] ... aligning together."*  
+- *"I always find it interesting how well the teams are doing after going through this ... how coherent they all are on the back end. They've never talked to each other before, but they all just [started] ... aligning together."*  
    - Agile Leader
 
-7. *"I can say without a doubt that the Dojo made a large impact on my direct team and many others when it came to not only learning about Agile but adopting it as well. Most organizations are filled with folks that are used to the Waterfall methodology and without the Dojo (to understand the What, Why and How) we would never have been as successful as we were."*  
+- *"I can say without a doubt that the Dojo made a large impact on my direct team and many others when it came to not only learning about Agile but adopting it as well. Most organizations are filled with folks that are used to the Waterfall methodology and without the Dojo (to understand the What, Why and How) we would never have been as successful as we were."*  
    - Executive Leader
 
-8. *“Even during occasional conflicts, Michael navigates with calm and wisdom, transforming critics into active participants.”*  
+- *“Even during occasional conflicts, Michael navigates with calm and wisdom, transforming critics into active participants.”*  
    - Executive Leader
 
 ---
