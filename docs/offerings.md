@@ -32,15 +32,15 @@ Address specific challenges and goals through individualized or team-focused ses
 #### 2. The Mindset Black Belt Program
 The **Mindset Black Belt Program** offers a comprehensive journey from White Belt to Black Belt, integrating **emotional intelligence with systems thinking** and deepening your leadership ability through **reflective practice for clarity**, especially in conflict situations.
 
-- **Sensei-Guided Reflection** – Receive ongoing, personalized feedback from a sensei who helps you reflect for clarity and ensures your learning is applied with precision, particularly when managing conflict in high-stakes situations.
-- **Community Interaction and Pressure Testing** – Participate in group sessions and **pressure-testing exercises**, ensuring that your conflict resolution skills are practiced and refined in real-time, high-pressure scenarios.
-- **Emotional Integration into Systems Thinking** – At higher levels, you’ll not only master systems thinking but learn how to integrate emotional intelligence and conflict dynamics, allowing you to understand how emotions and conflicts influence the systems you lead and how to navigate complex dynamics with emotional clarity.
-- **Reflection for Clarity** – Throughout the program, reflective exercises ensure that your decision-making becomes clearer and more aligned with both personal and organizational goals, helping you refine your approach to conflict as you progress.
-- **Real-Time Mastery** – Through repeated practice and reflection, you’ll develop the ability to remain emotionally grounded, handle conflict with ease, and make wise decisions instinctively, even in the most challenging situations.
+- **Sensei-Guided Reflection** – Receive ongoing, personalized feedback from a sensei who helps you reflect for clarity and ensures your learning is applied with precision.
+- **Community Interaction and Pressure Testing** – Participate in group sessions and **pressure-testing exercises**, ensuring that your skills are practiced and refined in real-time, high-pressure scenarios.
+- **Emotional Integration into Systems Thinking** – At higher levels, you’ll not only master systems thinking but learn how to integrate emotional intelligence and conflict dynamics, allowing you to understand how emotions and conflicts influence the systems you lead and how to navigate with emotional clarity.
+- **Reflection for Clarity** – Throughout the program, reflective exercises ensure that your decision-making becomes clearer and more aligned with both personal and organizational goals, helping you refine your approach as you progress.
+- **Real-Time Mastery** – Through repeated practice and reflection, you’ll develop the ability to remain emotionally grounded, handle complexity and change with ease, and make wise decisions instinctively, even in the most challenging situations.
 
 ---
 
 ### Master the Moment
-At Mindset Dojo, it’s not about theoretical knowledge—it’s about having the tools to lead with clarity, emotional intelligence, and strategic insight when it matters most. Through sensei-guided practice, group-based interaction, and systems thinking integrated with emotional mastery, you’ll be prepared for every challenge life throws your way—especially those involving conflict.
+At Mindset Dojo, it’s not about theoretical knowledge—it’s about having the tools to lead with clarity, emotional intelligence, and strategic insight when it matters most. Through sensei-guided practice, group-based interaction, and systems thinking integrated with emotional mastery, you’ll be prepared for the vayious challenges life throws your way.
 
 **[Book your discovery call today](https://connect.mindset.dojo.center)** and start your journey toward better conversations, wise decision-making, and authentic trust.
