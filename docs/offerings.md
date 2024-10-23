@@ -34,7 +34,7 @@ Ideal for individuals or teams with specific goals or pressing challenges, these
 
 #### **2. The Mindset Black Belt Program: For Comprehensive Mastery**
 
-This journey takes you from White Belt to Black Belt, combining **emotional intelligence**, **systems thinking**, and **conflict mastery**. You’ll build skills that are not only learned but practiced and internalized through repeated exercises and simulations.
+This journey takes you from White Belt to Black Belt, integrating **emotional intelligence**, **systems thinking**, and **conflict mastery**. You’ll build skills that are not only learned but practiced and internalized through repeated exercises and simulations.
 
 - **Sensei-Guided Reflection** – Personalized feedback ensures your growth aligns with real-world challenges.
 - **Group-Based Pressure Testing** – Engage in high-stakes scenarios to refine your instincts in action.
