@@ -3,7 +3,7 @@ title: Cultivating Mastery
 layout: page
 ---
 
-At Mindset Dojo, transformation is about **living your mastery**—not just understanding emotional intelligence, leadership, and conflict dynamics but practicing them in the real world. Our approach combines **personalized guidance**, **community-based learning**, and **systems thinking** integrated with emotional intelligence, ensuring that you can lead with clarity, confidence, and resilience in critical moments.
+At Mindset Dojo, transformation is about **living your mastery**—not just understanding emotional intelligence, leadership, and conflict dynamics but practicing them in the real world instintively. Our approach combines **personalized guidance**, **community-based learning**, and **systems thinking** integrated with emotional intelligence, ensuring that you can lead with clarity, confidence, and resilience in critical moments.
 
 **Mindset Dojo helps you realize:**
 - **Better conversations** that foster trust, connection, and growth, even under pressure or in conflict.
