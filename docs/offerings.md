@@ -13,7 +13,7 @@ At Mindset Dojo, transformation isn’t just about learning—it’s about **mas
 
 From the first session, you’ll begin to experience the benefits—clearer conversations, less tension, and better decision-making in key moments. Mindset Dojo ensures that **change happens quickly**, so you start seeing improvements in how you handle difficult situations early on.
 
-#### What sets Mindset Dojo apart is how you apply these skills:
+#### What sets Mindset Dojo apart is how you integrate these skills:
 
 Guided by **sensei mentorship** and supported through **group interaction**, you’ll practice these skills in **real-time, high-pressure situations**. Whether it’s leading a difficult team meeting, navigating a high-stakes negotiation, or handling a conflict with clarity, these skills will become instinctive and available when confusion or conflict dynamics are at play. You won’t just reflect afterward—you’ll have the tools to remain centered and effective **in the moment**.
 
