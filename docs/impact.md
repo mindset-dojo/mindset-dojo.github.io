@@ -107,4 +107,4 @@ Leaders often find that the hardest part isn’t getting initial buy-in—it’s
 
 Ready to make decisions that don’t just stay on paper? Let’s explore how Mindset Dojo can help you unlock lasting impact.
 
-**[Let’s talk impact](https://connect.mindset.dojo.center)** and start your journey today.
+**[Let’s talk impact](https://connect.mindset.dojo.center)** and start your journey today. 🙏🌿

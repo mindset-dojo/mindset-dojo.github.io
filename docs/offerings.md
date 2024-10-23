@@ -52,4 +52,4 @@ Leaders who lack mastery over emotional intelligence and conflict dynamics risk 
 
 Don’t wait for a crisis to test your abilities. **Start mastering the skills today** that will keep you centered, confident, and effective in high-pressure situations.
 
-**[Book your discovery call today](https://connect.mindset.dojo.center)** and take the first step toward better conversations, wise decision-making, and authentic trust.
+**[Book your discovery call today](https://connect.mindset.dojo.center)** and take the first step toward better conversations, wise decision-making, and authentic trust. 🙏🌿
