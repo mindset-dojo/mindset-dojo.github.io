@@ -8,7 +8,7 @@
     </div>
 </div>
 
-## BCentered Within, Exceptional Beyond
+## Centered Within, Exceptional Beyond
 
 We started Mindset Dojo because we found that leaders from Fortune 500 companies (among other smaller and medium sized businesses) were all confronting the same issues with themselves and their teams—it was easy to get a “yes” to an idea but not to get reasonable execution of that idea, and that resulted in revenue and culture issues that often cost key performers and sleepless nights. 
 
