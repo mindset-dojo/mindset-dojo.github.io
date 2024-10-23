@@ -7,7 +7,7 @@ layout: page
 
 **At Mindset Dojo, we designed a system** to bridge that gap. You don’t just learn concepts—you **practice** them in real-world, high-pressure situations until they become second nature. With **sensei mentorship** and **group interaction**, you master the ability to lead with clarity, confidence, and composure under pressure. Whether you’re handling conflict, navigating high-stakes negotiations, or leading teams, you’ll remain centered and effective when it matters most—taking decisive action, not just reflecting afterward.
 
-#### **No Matter the Stakes, this system leads to:**
+#### **No Matter the Stakes, You Realize:**
 
 - **Better conversations** that foster trust and connection.
 - **Wise decision-making** that keeps you centered and strategic.
