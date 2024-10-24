@@ -55,12 +55,6 @@ In a high-conflict personal situation, the use of emotional intelligence led to 
 - Lasting co-parenting relationship built on trust, positively impacting the children.
 - Emotionally stable environment, supporting the children’s long-term well-being.
 
-Explore more:  
-
-- [Conflict Mastery in Relationships](https://www.mediation.org/impact-in-family-dynamics)  
-- [Emotional Intelligence in Co-Parenting](https://www.co-parenting-101.org/restoring-trust)  
-- [Fostering Emotional Resilience](https://www.childdevelopmentinfo.com/parenting/fostering-emotional-resilience)
-
 ---
 
 ### **Reflections from the Journey**
