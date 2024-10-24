@@ -9,7 +9,9 @@
 
 ## Master Emotions. Lead with Wisdom. Build Authentic Trust.
 
-At Mindset Dojo, we help individuals who are ready for personal evolution through the integration of systems thinking and emotional awareness. Unlike other programs that only focus on concepts, we emphasize the practical application of emotional intelligence in real time. You'll master emotions, lead with wisdom, and build authentic trust when it matters most. By honing these skills in high-pressure situations, you’ll foster better conversations, make wiser decisions, and create authentic connections that drive sustainable success both personally and professionally.
+**Timing is everything. What value is emotional intelligence if it fails to show up in key moments or decisions that shape the trajectory of your personal and professional life?**
+
+At Mindset Dojo, we help individuals who are ready for personal evolution through the integration of **systems thinking** and **emotional awareness**. Unlike other programs that only focus on concepts, we emphasize the **practical application** of emotional intelligence in **real time**. You’ll master emotions, lead with wisdom, and build authentic trust when it matters most. By honing these skills in high-pressure situations, you’ll foster **better connections**, make **wiser decisions**, and create **authentic connections** that drive sustainable success both personally and professionally.
 
 ---
 
