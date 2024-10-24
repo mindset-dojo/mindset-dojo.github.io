@@ -30,7 +30,7 @@ Explore more:
 
 ### **Cultural Unification for Operational Efficiency and Growth**
 
-Following a major reorganization, a data organization successfully consolidated multiple cultures and adopted Agile practices, guided by **systems thinking** and **emotional intelligence** principles. This transformation created a unified, adaptable team, enhancing operational efficiency and positioning the organization for sustained growth.
+Following a major reorganization, a Fortue 500 data organization successfully consolidated multiple cultures and adopted Agile practices, guided by **systems thinking** and **emotional intelligence** principles. This transformation created a unified, adaptable team, enhancing operational efficiency and positioning the organization for sustained growth.
 
 **Impact:**
 
