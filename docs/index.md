@@ -1,4 +1,3 @@
-
 <div class="row">
     <div class="col-md-5 col-sm-4 text-center">
         <img class="img-fluid" src="images/DojoLogo-Black-Center.png" style="max-height:350px">
@@ -10,9 +9,15 @@
 
 ## Master Emotions. Lead with Wisdom. Build Authentic Trust.
 
-We started Mindset Dojo because we found that leaders from Fortune 500 companies (among other smaller and medium sized businesses) were all confronting the same issues with themselves and their teams—it was easy to get a “yes” to an idea but not to get reasonable execution of that idea, and that resulted in revenue and culture issues that often cost key performers and sleepless nights. 
+At Mindset Dojo, we help individuals who are ready for personal evolution through the integration of systems thinking and emotional awareness. Unlike other programs that only focus on concepts, we emphasize the practical application of emotional intelligence in real time. You'll master emotions, lead with wisdom, and build authentic trust when it matters most. By honing these skills in high-pressure situations, you’ll foster better conversations, make wiser decisions, and create authentic connections that drive sustainable success both personally and professionally.
 
-We found that understanding the decision-making process and the role of emotions in it was essential. By creating the space for deeply informed decisions, with full emotional commitment from both leaders and teams, the chances of short-term success significantly improved. This approach also guaranteed long-term learning, which positively impacted employee retention, enhanced culture, and led to the efficient and passionate execution of revenue-generating ideas.
+---
+
+### Why We Started Mindset Dojo
+
+We started Mindset Dojo because we saw a common issue in leadership—from Fortune 500 companies to small businesses. It was easy to get a “yes” to an idea, but hard to get that idea executed effectively, often leading to revenue challenges and cultural breakdowns that cost key performers and resulted in sleepless nights.
+
+We found that understanding the decision-making process and the role of emotions within it was essential. By creating the space for deeply informed decisions, with full emotional commitment from both leaders and teams, short-term success improved and long-term learning took root. This approach not only enhanced employee retention and strengthened culture, but also ensured passionate execution of revenue-generating ideas.
 
 ---
 
