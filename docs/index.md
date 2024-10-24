@@ -13,7 +13,7 @@ At Mindset Dojo, we help individuals who are ready for personal evolution throug
 
 ---
 
-### Why We Started Mindset Dojo
+### The Common Challenge That Motivated Mindset Dojo
 
 We started Mindset Dojo because we saw a common issue in leadership—from Fortune 500 companies to small businesses. It was easy to get a “yes” to an idea, but hard to get that idea executed effectively, often leading to revenue challenges and cultural breakdowns that cost key performers and resulted in sleepless nights.
 
