@@ -11,7 +11,7 @@ The following high-level scenarios showcase the real-world impact of this approa
 
 ### **Breaking Down Silos to Drive Cultural Shift and Revenue Growth**
 
-A Fortune 500 business unit, struggling to adopt DevOps for years, unlocked new revenue streams by aligning strategically and executing with passion. The cultural shift, achieved through the integration of **systems thinking, emotional intelligence**, and **collaborative frameworks** like Agile, InnerSource, and Cybersecurity, built cohesion between development, operations, project management, cybersecurity, and compliance departments. This alignment allowed the organization to embrace innovation and achieve long-term growth.
+A Fortune 500 business unit, struggling to adopt DevOps for years, unlocked new revenue streams by aligning strategically and executing with passion. The cultural shift, achieved through the integration of **systems thinking, emotional intelligence**, and **collaborative frameworks** like Agile and InnerSource, built cohesion between development, operations, project management, cybersecurity, and compliance departments. This alignment allowed the organization to embrace innovation and achieve long-term growth.
 
 **Impact:**
 
