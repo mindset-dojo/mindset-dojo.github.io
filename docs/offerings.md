@@ -7,7 +7,7 @@ layout: page
 
 **At Mindset Dojo, we designed a system** to bridge that gap. You don’t just learn concepts—you **practice** them in real-world, high-pressure situations until they become second nature. With **sensei mentorship** and **group interaction**, you master the ability to lead with clarity, confidence, and composure under pressure. Whether you’re handling conflict, navigating high-stakes negotiations, or leading teams, you’ll remain centered and effective when it matters most—taking decisive action, not just reflecting afterward.
 
-#### **No Matter the Stakes, You Realize:**
+#### No Matter the Stakes, You Realize:
 
 - **Better conversations** that foster trust and connection.
 - **Wise decision-making** that keeps you centered and strategic.
@@ -15,11 +15,11 @@ layout: page
 
 ---
 
-### **Two Pathways to Mastery**
+### Two Pathways to Mastery
 
 From your very first session, you’ll start seeing improvements—whether in the way you handle challenging conversations, make high-stakes decisions, or resolve conflict under pressure. Mindset Dojo offers two clear pathways:
 
-#### **1. Focused Mastery Sessions: For Immediate Challenges**
+#### 1. Focused Mastery Sessions: For Immediate Challenges
 
 Ideal for individuals or teams with specific goals or pressing challenges, these sessions provide **real-time tools** that you can immediately apply.
 
@@ -32,7 +32,7 @@ Ideal for individuals or teams with specific goals or pressing challenges, these
   Equip your team to perform effectively under pressure, with improved communication and alignment.  
   - **12-Session Package** – Build emotional intelligence and practice decision-making in real-time group settings, fostering trust and collaboration even in high-stress environments.
 
-#### **2. The Mindset Black Belt Program: For Comprehensive Mastery**
+#### 2. The Mindset Black Belt Program: For Comprehensive Mastery
 
 This journey takes you from White Belt to Black Belt, integrating **emotional intelligence**, **systems thinking**, and **conflict mastery**. You’ll build skills that are not only learned but practiced and internalized through repeated exercises and simulations.
 
@@ -42,7 +42,7 @@ This journey takes you from White Belt to Black Belt, integrating **emotional in
 
 ---
 
-### **Master the Moment**
+### Master the Moment
 
 Most leadership programs teach you **why** emotional intelligence matters. At **Mindset Dojo**, we ensure you’re **ready when it counts**—equipped to lead with confidence and decisiveness, even in the most challenging moments.
 
