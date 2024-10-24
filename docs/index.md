@@ -38,6 +38,6 @@ These methods help individuals approach challenging conversations and high-stake
 
 ### Invitation For Engagement
 
-At **Mindset Dojo**, we believe that the mind—and by extension, your organization’s culture—is like a garden. It requires **attention, care, and the right tools** to flourish. We invite you to take the next step in cultivating a **well-trained mind** and a **thriving culture** with our tailored coaching and consulting packages:
+At **Mindset Dojo**, we believe that the mind—and by extension, your organization’s culture—is like a garden. It requires **attention, care, and the right tools** to flourish. We invite you to take the next step in cultivating a **well-trained mind** and a **thriving culture**.
 
 To learn how you can cultivate real-time mastery in emotional intelligence and leadership, [start here](./offerings). 🙏🌿

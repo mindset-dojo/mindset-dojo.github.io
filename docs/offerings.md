@@ -48,4 +48,4 @@ Most leadership programs teach you **why** emotional intelligence matters. At **
 
 Don’t wait for a crisis—**start mastering these skills today** to stay centered, confident, and effective under pressure.
 
-**[Book your discovery call today](https://connect.mindset.dojo.center)** and take the first step toward better conversations, wise decision-making, and authentic trust. 🙏🌿
+**[Book your discovery call today](https://connect.mindset.dojo.center)** and take the step toward better conversations, wise decision-making, and authentic trust when it matters most. 🙏🌿
