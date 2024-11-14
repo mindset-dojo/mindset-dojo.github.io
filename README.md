@@ -1,1 +1,0 @@
-# mindset-dojo.github.io
