@@ -14,7 +14,7 @@ css_id: home
     <p>Unlike other programs that only focus on concepts, we emphasize the <strong>practical application</strong> of emotional intelligence in <strong>real time.</strong></p>
     <p>You’ll master emotions, lead with wisdom, and build authentic trust when it matters most. By honing these skills in high-pressure situations, you’ll foster <strong>better, more meaningful conversations</strong>, make <strong>wiser decisions</strong>, and create authentic connections that <strong>drive sustainable success</strong> both personally and professionally.</p>
     <div class="md-cta-group">
-        <a href="/impact/">Explore Impact</a><a href="/offerings/">View Offerings</a>
+        <a href="/impact">Explore Impact</a><a href="/offerings">View Offerings</a>
     </div>
     <h2>The Common Challenge, and Beyond</h2>
     <hr>
