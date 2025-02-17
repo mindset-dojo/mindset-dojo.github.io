@@ -1,0 +1,23 @@
+<footer>
+	<nav>
+		<ul role="menu">
+			<li role="presentation"><a href="/" {% if page.url=="/" %}aria-current="page" {% endif %} role="menuitem">HOME</a></li>
+			<li role="presentation"><a href="/impact/" {% if page.url=="/impact/" %}aria-current="page" {% endif %} role="menuitem">IMPACT</a></li>
+			<li role="presentation"><a href="/offerings/" {% if page.url=="/offerings/" %}aria-current="page" {% endif %} role="menuitem">OFFERINGS</a></li>
+			<li role="presentation"><a href="/community/" {% if page.url=="/community/" %}aria-current="page" {% endif %} role="menuitem">COMMUNITY</a></li>
+			<li role="presentation"><a href="{{site.connect_url}}" target="_blank" role="menuitem">CONTACT</a></li>
+		</ul>
+	</nav>
+	<nav>
+		<ul role="menu">
+			<li role="presentation">
+				<p>© 2025 Mindset Dojo</p>
+			</li>
+			<li role="presentation">
+				<a href="/privacy-policy/" {% if page.url=="/privacy-policy/" %}aria-current="page" {% endif %} role="menuitem">Privacy Policy</a>
+			</li>
+		</ul>
+	</nav>
+	<img src="/assets/mindset-dojo-torii-gate.png" alt="Mindset Dojo Torii Gate Background Image" width="800" height="601" decoding="async" loading="lazy" sizes="(max-width: 800px) 100vw, 800px">
+</footer>
+<script src="/assets/js/md.js"></script>

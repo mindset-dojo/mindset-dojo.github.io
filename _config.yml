@@ -1,0 +1,5 @@
+connect_url: https://connect.mindset.dojo.center
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
