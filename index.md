@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Agility Reveald: Difficult Conversations are where the Magic Happens
+title: Agility Revealed
 description: At Mindset Dojo, we help leaders turn difficult conversations into catalysts for change. Build emotional intelligence and critical thinking skills to thrive in life-defining moments, personally and professionally.
 css_id: home
 ---
 <main aria-label="Content">
-    <h1><mark>Agility Revealed:</mark> Difficult Conversations are where the <mark>Magic Happens</mark></h1>
+    <h1><mark>Difficult Conversations are where the <mark>Magic Happens</mark></h1>
     <hr>
     <div class="md-youtube-player" data-id="YF8HEO1phWw" data-preview="intentional-insightful-conversation-preview.webp"></div>
     <blockquote>
