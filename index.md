@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Master the Art of Intelligent Leadership with Mindset Dojo
+title: Agility Reveald: Difficult Conversations are where the Magic Happens
 description: At Mindset Dojo, we help leaders turn difficult conversations into catalysts for change. Build emotional intelligence and critical thinking skills to thrive in life-defining moments, personally and professionally.
 css_id: home
 ---
 <main aria-label="Content">
-    <h1>Master the Art of <mark>Intelligent Leadership</mark><br><small><em>Turn <mark>Difficult Conversation</mark> into Catalysts for Change</em></small></h1>
+    <h1><mark>Agility Revealed:</mark> Difficult Conversations are where the <mark>Magic Happens</mark></h1>
     <hr>
     <div class="md-youtube-player" data-id="YF8HEO1phWw" data-preview="intentional-insightful-conversation-preview.webp"></div>
     <blockquote>
