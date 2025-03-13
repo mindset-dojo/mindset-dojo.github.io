@@ -5,7 +5,7 @@ description: At Mindset Dojo, we help leaders turn difficult conversations into 
 css_id: home
 ---
 <main aria-label="Content">
-    <h1><mark>Negotiation</mark> is the New Currency</h1>
+    <h1><mark>Negotiation</mark> is the New <mark>Currency</mark></h1>
     <hr>
     <div class="md-youtube-player" data-id="YF8HEO1phWw" data-preview="intentional-insightful-conversation-preview.webp"></div>
     <blockquote>
