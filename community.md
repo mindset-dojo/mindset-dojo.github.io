@@ -15,7 +15,7 @@ css_id: community
 		{% for associate in site.data.associates %}
 			{% assign associates = associates | push: associate[1] %}
 		{% endfor %}
-		{% assign associates = associates | sort: "order" %}
+		{% assign associates = associates | sort: "display_rank" %}
 		{% for associate in associates %}
 		{% unless associate.active %}{% continue %}{% endunless %}
 		<section>
