@@ -431,12 +431,28 @@ section.md-grid-3 blockquote p {
     stroke: white;
 }
 
-.md-belt-svg.red path {
-    fill: red;
+.md-belt-svg.yellow path {
+    fill: yellow;
 }
 
 .md-belt-svg.green path {
     fill: green;
+}
+
+.md-belt-svg.blue path {
+    fill: blue;
+}
+
+.md-belt-svg.purple path {
+    fill: purple;
+}
+
+.md-belt-svg.brown path {
+    fill: brown;
+}
+
+.md-belt-svg.red path {
+    fill: red;
 }
 
 /* [ HEADER ] */
