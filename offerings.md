@@ -50,7 +50,7 @@ css_id: offerings
 		</ul>
 	</hgroup>
 	<hgroup>
-		<h2>Mindset Agility Program</h2>
+		<h2>Negotiation Mastery Program</h2>
 		<hr>
 		<p>This journey takes you from White Belt to Black Belt, integrating <strong>emotional intelligence</strong>, <strong>systems thinking</strong>, and <strong>conflict mastery</strong>. You’ll build skills that are not only learned but practiced and internalized through repeated exercises and simulations.</p>
 		<ul>
