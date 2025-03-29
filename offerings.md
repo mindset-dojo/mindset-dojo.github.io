@@ -18,7 +18,7 @@ css_id: offerings
 			<li>
 				<strong>For Individuals:</strong>
 				<ul>
-					<li>Understand how your tendencies shape your decisions and interactions, empowering you to navigate challenges effectively.</li>
+					<li>Understand how your tendencies shape your decisions and interactions, making targeted shifts.</li>
 				</ul>
 			</li>
 			<li>
