@@ -10,7 +10,7 @@ css_id: offerings
 	<p>From your very first session, you’ll start seeing improvements—whether in the way you <strong>handle challenging conversations</strong>, make high-stakes decisions, or <strong>resolve conflict under pressure.</strong></p>
 	<p>We offer the following pathways:</p>
 	<hgroup>
-		<h2>Mindset Awareness Assessment</h2>
+		<h2>Negotiation Tendencies Assessment</h2>
 		<hr>
 		<p>Enhance self-awareness by understanding your thinking, behaviors, and perceptions, empowering better decisions, conflict resolution, and collaboration when it matters most.</p>
 		<h3>Assessment + Debrief</h3>
@@ -30,7 +30,7 @@ css_id: offerings
 		</ul>
 	</hgroup>
 	<hgroup>
-		<h2>Focused Mastery Sessions For Immediate Challenges</h2>
+		<h2>Focused Sessions For Immediate Challenges</h2>
 		<hr>
 		<p>Ideal for individuals or teams with specific goals or pressing challenges, these sessions provide&nbsp;<strong>real-time tools</strong>&nbsp;that you can immediately apply.</p>
 		<h3>12-Session Package</h3>
