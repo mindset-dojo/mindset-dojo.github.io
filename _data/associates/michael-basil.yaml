@@ -14,7 +14,11 @@ links:
     url: https://www.linkedin.com/feed/update/urn:li:activity:7270106763566166017
   - label: Distilling Conflation
     url: https://www.linkedin.com/posts/michaelrbasil_mindset-dojo-reflection-activity-7310643830255456256-jwyT
-  - label: Professional Exploration
+  - label: Circle Communities Pattern
+    url: https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/1-initial/circle-communities.md
+  - label: Why Did Agile Fail?
+    url: https://www.linkedin.com/posts/michaelrbasil_mindset-agile-dojo-activity-7260441419134246916-I_1u
+  - label: Professional Journey
     url: https://michael.basil.one
   - label: Living Garden
     url: https://garden.basil.one
