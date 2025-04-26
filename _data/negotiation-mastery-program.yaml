@@ -155,10 +155,8 @@ belt level:
         - url: https://a.co/d/2vxaK20
   - black:
     - kyu: Shodan
-    # For Michael: I am pretty sure that Shodan isn't a kyu level, since it is the first level of Black Belt and kyu is the lower belt levels, as I understand it.
     # For Michael: Do you want to make unique labels for this belt level, or standardize them with the rest of the document? 
     - principle: "None given"
-    # For Michael: Do you want to leave the principle as TBD, do you want to make it Metaphor again, or do you want to remove the principle label for this level?
     - challenge: 
       - Find your own with the agreement and guidance of a sensei
       - Demonstrate a shift in metaphorical framing through paraphrase.
