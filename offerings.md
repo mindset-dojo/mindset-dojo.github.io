@@ -10,7 +10,7 @@ css_id: offerings
 	<p>From your very first session, you’ll start seeing improvements—whether in the way you <strong>handle challenging conversations</strong>, make high-stakes decisions, or <strong>resolve conflict under pressure.</strong></p>
 	<p>We offer the following pathways:</p>
 	<hgroup>
-		<h2>Mindset Awareness Assessment</h2>
+		<h2>Negotiation Tendencies Assessment</h2>
 		<hr>
 		<p>Enhance self-awareness by understanding your thinking, behaviors, and perceptions, empowering better decisions, conflict resolution, and collaboration when it matters most.</p>
 		<h3>Assessment + Debrief</h3>
@@ -18,7 +18,7 @@ css_id: offerings
 			<li>
 				<strong>For Individuals:</strong>
 				<ul>
-					<li>Understand how your tendencies shape your decisions and interactions, empowering you to navigate challenges effectively.</li>
+					<li>Understand how your tendencies shape your decisions and interactions, making targeted shifts.</li>
 				</ul>
 			</li>
 			<li>
@@ -30,7 +30,7 @@ css_id: offerings
 		</ul>
 	</hgroup>
 	<hgroup>
-		<h2>Focused Mastery Sessions For Immediate Challenges</h2>
+		<h2>Focused Sessions For Immediate Challenges</h2>
 		<hr>
 		<p>Ideal for individuals or teams with specific goals or pressing challenges, these sessions provide&nbsp;<strong>real-time tools</strong>&nbsp;that you can immediately apply.</p>
 		<h3>12-Session Package</h3>
@@ -50,7 +50,7 @@ css_id: offerings
 		</ul>
 	</hgroup>
 	<hgroup>
-		<h2>Mindset Agility Program</h2>
+		<h2>Negotiation Mastery Program</h2>
 		<hr>
 		<p>This journey takes you from White Belt to Black Belt, integrating <strong>emotional intelligence</strong>, <strong>systems thinking</strong>, and <strong>conflict mastery</strong>. You’ll build skills that are not only learned but practiced and internalized through repeated exercises and simulations.</p>
 		<ul>
