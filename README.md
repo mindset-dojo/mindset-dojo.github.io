@@ -1,4 +1,4 @@
-# 🥋 Mindset Dojo & Negotiation Mastery Program
+# 🥋 Mindset Dojo
 
 Start your exploration at https://dojo.center
 
