@@ -1,10 +1,10 @@
 title: Negotiation Mastery Program
 mission: Awaken the negotiator within—calm, clear, and creative.
 principles:
-  - 1st: Relax completely
-  - 2nd: Feel into emotional waves
-  - 3rd: Release tension inviting clarity
-  - 4th: Form reflection into reflex
+  - label: Relax completely
+  - label: Feel into emotional waves
+  - label: Release tension inviting clarity
+  - label: Form reflection into reflex
 community:
   - url: https://dojo.center/community
 practices:
