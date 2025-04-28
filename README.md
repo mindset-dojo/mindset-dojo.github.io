@@ -4,4 +4,4 @@ Start your journey today: build emotional wisdom, master authentic conversation,
 
 See the community at https://dojo.center/community
 
-Please respect the CC BY-SA 4.0 license when contributing.
+Please respect the [LICENSE](https://github.com/mindset-dojo/mindset-dojo.github.io/blob/main/LICENSE.md)
