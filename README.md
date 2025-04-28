@@ -2,4 +2,4 @@
 
 Start your exploration at https://dojo.center
 
-Please respect the [LICENSE](main/LICENSE.md)
+Please respect the [LICENSE](LICENSE.md)
