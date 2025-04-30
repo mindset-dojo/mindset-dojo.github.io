@@ -5,8 +5,6 @@ principles:
   - label: Feel into emotional waves
   - label: Release tension inviting clarity
   - label: Form reflection into reflex
-community:
-  - url: https://dojo.center/community
 practices:
   - reflection:
     - Continuous
@@ -21,6 +19,8 @@ awareness:
   - Energetic
   - Somatic
   - Metaphorical
+community:
+  - url: https://dojo.center/community
 levels:
   - white:
     - kyu: -7
