@@ -134,7 +134,7 @@ levels:
       challenge: 
         - Utilize all Negotiation 9 Moves and some of the Zen Leader Flips in Negotiation.
       exercises:
-        - negotiation 9 moves:
+        - label: Negotiation 9 Moves
           - Tone
         - zen leader flips:
           - Local Self to Whole Self
