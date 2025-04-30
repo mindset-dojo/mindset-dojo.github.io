@@ -94,40 +94,40 @@ levels:
         - Tension to Extension
         - Or to And
     - color: purple
-      kyu: -3
-      focus: Presence
-      challenge: 
-        - TBD
-      exercises:
-        - label: Why Did Agile Fail?
-        - url: https://www.linkedin.com/posts/michaelrbasil_mindset-agile-dojo-activity-7260441419134246916-I_1u?utm_source=share&utm_medium=member_android&rcm=ACoAAETrLT4B27LcbnDr0JNGm-Ngj9HoidcoxKs
-        - label: "Breaking the Cycle: From Intellectual Burnout to Integrated Flow"
-        - url: https://www.linkedin.com/posts/michaelrbasil_breaking-the-cycle-from-intellectual-burnout-activity-7247773142536859648-dUec?utm_source=share&utm_medium=member_ios&rcm=ACoAAETrLT4B27LcbnDr0JNGm-Ngj9HoidcoxKs
-        - label: A neuroscientist’s guide to fixing your mind in 15 mins
-        - url: https://bigthink.com/series/the-big-think-interview/anne-laure-mindsets/
-        - negotiation 9 moves:
-          - Paraphrasing
-          - Summary
-          - Calibrated Questions
-        - zen leader flips:
-          - Out There to In Here
-          - Playing Your Strength to Strengthening Your Play
-          - Controlling to Connecting
-    - color: brown
-    - kyu: -2
-    - focus: Integration
+    - kyu: -3
+    - focus: Presence
     - challenge: 
-      - label: Breathing to Support the FEBI Patterns
-      - url: https://www.youtube.com/watch?v=C53IKjDvU2g
+      - TBD
     - exercises:
-      - label: Control vs Adjustment
-      - url: https://www.youtube.com/shorts/2erEr5grqAk
+      - label: Why Did Agile Fail?
+      - url: https://www.linkedin.com/posts/michaelrbasil_mindset-agile-dojo-activity-7260441419134246916-I_1u?utm_source=share&utm_medium=member_android&rcm=ACoAAETrLT4B27LcbnDr0JNGm-Ngj9HoidcoxKs
+      - label: "Breaking the Cycle: From Intellectual Burnout to Integrated Flow"
+      - url: https://www.linkedin.com/posts/michaelrbasil_breaking-the-cycle-from-intellectual-burnout-activity-7247773142536859648-dUec?utm_source=share&utm_medium=member_ios&rcm=ACoAAETrLT4B27LcbnDr0JNGm-Ngj9HoidcoxKs
+      - label: A neuroscientist’s guide to fixing your mind in 15 mins
+      - url: https://bigthink.com/series/the-big-think-interview/anne-laure-mindsets/
       - negotiation 9 moves:
-        - “I” Messages
-        - Encouragers
+        - Paraphrasing
+        - Summary
+        - Calibrated Questions
       - zen leader flips:
-        - Drivers Results to Attracting the Future
-        - It is All About Me to I am All About It
+        - Out There to In Here
+        - Playing Your Strength to Strengthening Your Play
+        - Controlling to Connecting
+    - color: brown
+      kyu: -2
+      focus: Integration
+      challenge: 
+        - label: Breathing to Support the FEBI Patterns
+        - url: https://www.youtube.com/watch?v=C53IKjDvU2g
+      exercises:
+        - label: Control vs Adjustment
+        - url: https://www.youtube.com/shorts/2erEr5grqAk
+        - negotiation 9 moves:
+          - “I” Messages
+          - Encouragers
+        - zen leader flips:
+          - Drivers Results to Attracting the Future
+          - It is All About Me to I am All About It
     - color: red
     - kyu: -1
     - focus: Embodiment
