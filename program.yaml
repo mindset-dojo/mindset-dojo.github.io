@@ -61,16 +61,16 @@ levels:
           - Cynefin
           - Map of Consciousness
       exercises:
-      - label: Bias - Duck Rabbit
-      - url: https://www.youtube.com/watch?v=36AqMX5uua4
-      - label: The Value of Allowing Multiple Perspectives
-      - url: https://www.linkedin.com/feed/update/urn:li:activity:7267614153354166273
-      - label: Map of Consciousness - David Hawkins
-      - url: https://www.youtube.com/watch?v=QBxVzTphkik
-      - label: Cynefin Framework
-      - url: https://en.wikipedia.org/wiki/Cynefin_framework
-      - label: Herbie and the Goal
-      - url: https://m.youtube.com/watch?v=p3b7-U99UeA
+        - label: Bias - Duck Rabbit
+        - url: https://www.youtube.com/watch?v=36AqMX5uua4
+        - label: The Value of Allowing Multiple Perspectives
+        - url: https://www.linkedin.com/feed/update/urn:li:activity:7267614153354166273
+        - label: Map of Consciousness - David Hawkins
+        - url: https://www.youtube.com/watch?v=QBxVzTphkik
+        - label: Cynefin Framework
+        - url: https://en.wikipedia.org/wiki/Cynefin_framework
+        - label: Herbie and the Goal
+        - url: https://m.youtube.com/watch?v=p3b7-U99UeA
     - color: blue
       level: -4
       focus: Emotions
