@@ -144,7 +144,7 @@ levels:
         - url: https://a.co/d/5N4pV0r
         - label: Never Split the Difference
         - url: https://a.co/d/2vxaK20
-    - black:
+    - color: black
     - shodan: 1
     - focus: "None given"
     - challenge: 
