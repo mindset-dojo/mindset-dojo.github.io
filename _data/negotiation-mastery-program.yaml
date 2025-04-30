@@ -68,7 +68,7 @@ levels:
       - label: Herbie and the Goal
       - url: https://m.youtube.com/watch?v=p3b7-U99UeA
   - blue:
-    - kyu: 4th
+    - kyu: -4
     - principle: Emotions
     - challenge: 
       - Create a neutralizing rewrite of an emotionally charged situation or text.
