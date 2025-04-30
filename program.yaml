@@ -141,7 +141,7 @@ levels:
         - label: Zen Leader Flips
           - Local Self to Whole Self
           - Delusion to Awakening 
-        - Have a discussion with 3 people individually and then in a group about
+        - label: Have a discussion with 3 people individually and then in a group about
           - label: Zen Leader
             url: https://a.co/d/5N4pV0r
           - label: Never Split the Difference
