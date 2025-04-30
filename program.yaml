@@ -115,7 +115,7 @@ levels:
         - Controlling to Connecting
     - brown:
     - kyu: -2
-    - principle: Integration
+    - focus: Integration
     - challenge: 
       - label: Breathing to Support the FEBI Patterns
       - url: https://www.youtube.com/watch?v=C53IKjDvU2g
