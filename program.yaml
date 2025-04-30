@@ -24,7 +24,7 @@ community:
 levels:
   - white:
     - kyu: -7
-    - principle: Focus
+    - principle: Orientation
     - challenge: FEBI assessment
     - exercises:
       - label: How to Start a Movement
