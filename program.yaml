@@ -113,7 +113,7 @@ levels:
         - Out There to In Here
         - Playing Your Strength to Strengthening Your Play
         - Controlling to Connecting
-    - brown:
+    - color: brown
     - kyu: -2
     - focus: Integration
     - challenge: 
