@@ -58,7 +58,7 @@ levels:
       level: -5
       focus: Perception
       challenge: 
-        - label: Analyze a spirited conversation from the following models of understanding 
+        - label: "Analyze a spirited conversation from the following models of understanding:"
           - FEBI
           - Cynefin
           - Map of Consciousness
