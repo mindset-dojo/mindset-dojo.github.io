@@ -37,7 +37,7 @@ levels:
       - url: https://zenleader.global/s/FEBI-Choice-Article-Jan-2017-3p5x.pdf
       - label: Focused Energy Balance (FEBI) Technical Background
       - url: https://zenleader.global/s/FEBI-Technical-Manual-2024.pdf
-    - yellow:
+    - color: yellow
     - kyu: -6
     - focus: Plasticity
     - challenge: Draw Toast with partner
