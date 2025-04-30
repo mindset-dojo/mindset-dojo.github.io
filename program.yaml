@@ -118,7 +118,7 @@ levels:
       focus: Integration
       challenge: 
         - label: Breathing to Support the FEBI Patterns
-        - url: https://www.youtube.com/watch?v=C53IKjDvU2g
+          url: https://www.youtube.com/watch?v=C53IKjDvU2g
       exercises:
         - label: Control vs Adjustment
         - url: https://www.youtube.com/shorts/2erEr5grqAk
