@@ -21,6 +21,8 @@ awareness:
   - Metaphorical
 community:
   - url: https://dojo.center/community
+
+---
 levels:
     - white:
     - kyu: -7
