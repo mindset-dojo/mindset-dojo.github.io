@@ -89,7 +89,7 @@ levels:
           - Labels
           - Mirrors
           - Dynamic Silence
-        - zen leader flips:
+        - label: Zen Leader Flips
           - Coping to Transformation
           - Tension to Extension
           - Or to And
