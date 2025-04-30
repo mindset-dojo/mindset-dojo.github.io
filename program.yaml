@@ -25,7 +25,7 @@ community:
 # levels document
 levels:
     - color: white
-      kyu: -7
+      level: -7
       focus: Orientation
       challenge: FEBI assessment
       exercises:
