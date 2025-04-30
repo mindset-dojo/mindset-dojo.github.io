@@ -25,10 +25,10 @@ community:
 # levels document
 levels:
     - color: white
-    - kyu: -7
-    - focus: Orientation
-    - challenge: FEBI assessment
-    - exercises:
+      kyu: -7
+      focus: Orientation
+      challenge: FEBI assessment
+      exercises:
       - label: How to Start a Movement
       - url: https://www.ted.com/talks/derek_sivers_how_to_start_a_movement
       - label: Focused Energy Balance Indicator (FEBI)
