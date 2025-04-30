@@ -145,7 +145,7 @@ levels:
           - label: Never Split the Difference
           - url: https://a.co/d/2vxaK20
     - color: black
-      shodan: 1
+      level: 1
       focus: "None given"
       challenge: 
         - Find your own with the agreement and guidance of a sensei
