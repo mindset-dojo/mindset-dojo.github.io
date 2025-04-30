@@ -71,7 +71,7 @@ levels:
       - url: https://en.wikipedia.org/wiki/Cynefin_framework
       - label: Herbie and the Goal
       - url: https://m.youtube.com/watch?v=p3b7-U99UeA
-    - blue:
+    - color: blue
     - kyu: -4
     - focus: Emotions
     - challenge: 
