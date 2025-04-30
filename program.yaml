@@ -94,7 +94,7 @@ levels:
         - Tension to Extension
         - Or to And
     - color: purple
-      kyu: -3
+      level: -3
       focus: Presence
       challenge: 
         - TBD
