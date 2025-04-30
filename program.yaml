@@ -29,14 +29,14 @@ levels:
       focus: Orientation
       challenge: FEBI assessment
       exercises:
-      - label: How to Start a Movement
-      - url: https://www.ted.com/talks/derek_sivers_how_to_start_a_movement
-      - label: Focused Energy Balance Indicator (FEBI)
-      - url: https://zenleader.global/febi-offerings/
-      - label: Focused Energy Balance (FEBI) Choice
-      - url: https://zenleader.global/s/FEBI-Choice-Article-Jan-2017-3p5x.pdf
-      - label: Focused Energy Balance (FEBI) Technical Background
-      - url: https://zenleader.global/s/FEBI-Technical-Manual-2024.pdf
+        - label: How to Start a Movement
+        - url: https://www.ted.com/talks/derek_sivers_how_to_start_a_movement
+        - label: Focused Energy Balance Indicator (FEBI)
+        - url: https://zenleader.global/febi-offerings/
+        - label: Focused Energy Balance (FEBI) Choice
+        - url: https://zenleader.global/s/FEBI-Choice-Article-Jan-2017-3p5x.pdf
+        - label: Focused Energy Balance (FEBI) Technical Background
+        - url: https://zenleader.global/s/FEBI-Technical-Manual-2024.pdf
     - color: yellow
       level: -6
       focus: Plasticity
