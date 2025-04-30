@@ -142,6 +142,7 @@ levels:
           - Local Self to Whole Self
           - Delusion to Awakening 
         - label: "Have a discussion with 3 people individually and then in a group about:"
+        - discussion_points:
           - label: Zen Leader
             url: https://a.co/d/5N4pV0r
           - label: Never Split the Difference
