@@ -53,7 +53,7 @@ levels:
       - label: "Life Without ‘Should’: A Simple Practice for Deeper Awareness 💡"
       - url: https://www.linkedin.com/posts/michaelrbasil_emotionalintelligence-selfawareness-mindset-activity-7270106763566166017-Xb1c?utm_source=share&utm_medium=member_android&rcm=ACoAAETrLT4B27LcbnDr0JNGm-Ngj9HoidcoxKs
     - color: green
-      kyu: -5
+      level: -5
       focus: Perception
       challenge: 
         - Analyze a spirited conversation from the following models of understanding:
