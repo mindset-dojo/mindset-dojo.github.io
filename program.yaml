@@ -146,7 +146,7 @@ levels:
         - url: https://a.co/d/2vxaK20
     - black:
     - shodan: 1
-    - principle: "None given"
+    - focus: "None given"
     - challenge: 
       - Find your own with the agreement and guidance of a sensei
       - Demonstrate a shift in metaphorical framing through paraphrase.
