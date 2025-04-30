@@ -141,9 +141,9 @@ levels:
           - Delusion to Awakening 
         - Have a discussion with 3 people individually and then in a group about:
           - label: Zen Leader
-          - url: https://a.co/d/5N4pV0r
+            url: https://a.co/d/5N4pV0r
           - label: Never Split the Difference
-          - url: https://a.co/d/2vxaK20
+            url: https://a.co/d/2vxaK20
     - color: black
       level: 1
       focus: "None given"
