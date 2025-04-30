@@ -129,21 +129,21 @@ levels:
           - Drivers Results to Attracting the Future
           - It is All About Me to I am All About It
     - color: red
-    - kyu: -1
-    - focus: Embodiment
-    - challenge: 
-      - Utilize all Negotiation 9 Moves and some of the Zen Leader Flips in Negotiation.
-    - exercises:
-      - negotiation 9 moves:
-        - Tone
-      - zen leader flips:
-        - Local Self to Whole Self
-        - Delusion to Awakening 
-      - Have a discussion with 3 people individually and then in a group about:
-        - label: Zen Leader
-        - url: https://a.co/d/5N4pV0r
-        - label: Never Split the Difference
-        - url: https://a.co/d/2vxaK20
+      kyu: -1
+      focus: Embodiment
+      challenge: 
+        - Utilize all Negotiation 9 Moves and some of the Zen Leader Flips in Negotiation.
+      exercises:
+        - negotiation 9 moves:
+          - Tone
+        - zen leader flips:
+          - Local Self to Whole Self
+          - Delusion to Awakening 
+        - Have a discussion with 3 people individually and then in a group about:
+          - label: Zen Leader
+          - url: https://a.co/d/5N4pV0r
+          - label: Never Split the Difference
+          - url: https://a.co/d/2vxaK20
     - color: black
     - shodan: 1
     - focus: "None given"
