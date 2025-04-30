@@ -145,20 +145,20 @@ levels:
           - label: Never Split the Difference
           - url: https://a.co/d/2vxaK20
     - color: black
-    - shodan: 1
-    - focus: "None given"
-    - challenge: 
-      - Find your own with the agreement and guidance of a sensei
-      - Demonstrate a shift in metaphorical framing through paraphrase.
-      - Negotiation Randori
-    - exercises:
-      - label: The Backwards Brain Tractor
-      - url: https://youtu.be/lylCYkgC63Q?si=FzuWfAHq4Yie_AHC
-      - Have a discussion with 3 people individually and then in a group about:
-        - label: The Goal
-        - url: https://a.co/d/71cVAMd
-        - label: Power versus Force
-        - url: https://a.co/d/eUfbz3h  
+      shodan: 1
+      focus: "None given"
+      challenge: 
+        - Find your own with the agreement and guidance of a sensei
+        - Demonstrate a shift in metaphorical framing through paraphrase.
+        - Negotiation Randori
+      exercises:
+        - label: The Backwards Brain Tractor
+        - url: https://youtu.be/lylCYkgC63Q?si=FzuWfAHq4Yie_AHC
+        - Have a discussion with 3 people individually and then in a group about:
+          - label: The Goal
+          - url: https://a.co/d/71cVAMd
+          - label: Power versus Force
+          - url: https://a.co/d/eUfbz3h  
 
 
 
