@@ -146,7 +146,6 @@ levels:
         - url: https://a.co/d/2vxaK20
     - black:
     - shodan: 1
-    # For Michael: Do you want to make unique labels for this belt level, or standardize them with the rest of the document? 
     - principle: "None given"
     - challenge: 
       - Find your own with the agreement and guidance of a sensei
