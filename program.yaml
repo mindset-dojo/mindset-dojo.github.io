@@ -22,7 +22,7 @@ awareness:
 community:
   - url: https://dojo.center/community
 levels:
-  - white:
+    - white:
     - kyu: -7
     - principle: Orientation
     - challenge: FEBI assessment
