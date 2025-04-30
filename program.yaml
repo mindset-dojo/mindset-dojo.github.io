@@ -72,11 +72,11 @@ levels:
       - label: Herbie and the Goal
       - url: https://m.youtube.com/watch?v=p3b7-U99UeA
     - color: blue
-    - kyu: -4
-    - focus: Emotions
-    - challenge: 
-      - Create a neutralizing rewrite of an emotionally charged situation or text.
-    - exercises:
+      kyu: -4
+      focus: Emotions
+      challenge: 
+        - Create a neutralizing rewrite of an emotionally charged situation or text.
+      exercises:
       - label: How To Master & Control Your Emotions
       - url: https://www.youtube.com/watch?v=hYZmK46--Mc
       - label: Navigating Polarization with Emotional Intelligence This Holiday Season
