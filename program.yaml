@@ -114,7 +114,7 @@ levels:
           - Playing Your Strength to Strengthening Your Play
           - Controlling to Connecting
     - color: brown
-      kyu: -2
+      level: -2
       focus: Integration
       challenge: 
         - label: Breathing to Support the FEBI Patterns
