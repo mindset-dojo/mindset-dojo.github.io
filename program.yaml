@@ -128,9 +128,11 @@ levels:
           sublabel: Calibrated Questions
           url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
         - label: Zen Leader Flips
-          - Out There to In Here
-          - Playing Your Strength to Strengthening Your Play
-          - Controlling to Connecting
+          sublabel: Out There to In Here
+        - label: Zen Leader Flips
+          sublabel: Playing Your Strength to Strengthening Your Play
+        - label: Zen Leader Flips
+          sublabel: Controlling to Connecting
     - color: brown
       level: -2
       focus: Integration
