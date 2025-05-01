@@ -128,6 +128,7 @@ levels:
         - label: Zen Leader Essential Flip - Controlling to Connecting
           url: https://cdn.dirigible.studio/wp-content/uploads/sites/24/2021/09/04073619/TZL-graphic-izl.pdf
     - color: brown
+      label: 2nd Kyu
       level: -2
       focus: Integration
       challenge: 
