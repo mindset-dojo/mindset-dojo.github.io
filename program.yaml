@@ -119,9 +119,11 @@ levels:
         - label: "A neuroscientist’s guide to fixing your mind in 15 mins"
           url: https://bigthink.com/series/the-big-think-interview/anne-laure-mindsets/
         - label: Negotiation 9 Moves
-          - Paraphrasing
-          - Summary
-          - Calibrated Questions
+          sublabel: Paraphrasing
+        - label: Negotiation 9 Moves
+          sublabel: Summary
+        - label: Negotiation 9 Moves
+          sublabel: Calibrated Questions
         - label: Zen Leader Flips
           - Out There to In Here
           - Playing Your Strength to Strengthening Your Play
