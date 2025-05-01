@@ -126,8 +126,9 @@ levels:
         - label: Control vs Adjustment
           url: https://www.youtube.com/shorts/2erEr5grqAk
         - label: Negotiation 9 Moves
-          - “I” Messages
-          - Encouragers
+          move: “I” Messages
+        - label: Negotiation 9 Moves
+          move: Encouragers
         - label: Zen Leader Flips
           - Drivers Results to Attracting the Future
           - It is All About Me to I am All About It
