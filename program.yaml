@@ -39,6 +39,7 @@ levels:
         - label: Focused Energy Balance (FEBI) Technical Background
           url: https://zenleader.global/s/FEBI-Technical-Manual-2024.pdf
     - color: yellow
+      label: 6th Kyu
       level: -6
       focus: Plasticity
       challenge: Draw Toast with partner
