@@ -76,6 +76,7 @@ levels:
         - label: Herbie and the Goal
           url: https://m.youtube.com/watch?v=p3b7-U99UeA
     - color: blue
+      label: 4th Kyu
       level: -4
       focus: Emotions
       challenge: 
