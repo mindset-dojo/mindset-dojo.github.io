@@ -165,7 +165,7 @@ levels:
     - color: black
       label: Shodan
       level: 1
-      focus: "None given"
+      focus: Wu-Wei
       challenge: 
         - Find your own with the agreement and guidance of a sensei
         - Demonstrate a shift in metaphorical framing through paraphrase.
