@@ -25,6 +25,7 @@ community:
   - url: https://dojo.center/community
 levels:
     - color: white
+      label: 7th Kyu
       level: -7
       focus: Orientation
       challenge: FEBI assessment
