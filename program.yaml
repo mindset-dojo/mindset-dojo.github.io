@@ -23,8 +23,6 @@ awareness:
   - Metaphorical
 community:
   - url: https://dojo.center/community
----
-# levels document
 levels:
     - color: white
       level: -7
