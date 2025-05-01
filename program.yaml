@@ -153,12 +153,10 @@ levels:
           url: https://cdn.dirigible.studio/wp-content/uploads/sites/24/2021/09/04073619/TZL-graphic-izl.pdf
         - label: Zen Leader Essential Flip - Delusion to Awakening 
           url: https://cdn.dirigible.studio/wp-content/uploads/sites/24/2021/09/04073619/TZL-graphic-izl.pdf
-        - label: "Have a discussion with 3 people individually and then in a group about:"
-        - discussion_points:
-          - label: Zen Leader
-            url: https://a.co/d/5N4pV0r
-          - label: Never Split the Difference
-            url: https://a.co/d/2vxaK20
+        - label: Have a discussion with 3 people individually and then in a group about - Zen Leader
+          url: https://a.co/d/5N4pV0r
+        - label: Have a discussion with 3 people individually and then in a group about - Never Split the Difference
+          url: https://a.co/d/2vxaK20
     - color: black
       level: 1
       focus: "None given"
