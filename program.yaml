@@ -98,11 +98,11 @@ levels:
           sublabel: Dynamic Silence 
           url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9   
         - label: Zen Leader Flips
-        - sublabel: Coping to Transformation
+          sublabel: Coping to Transformation
         - label: Zen Leader Flips
-        - sublabel: Tension to Extension
+          sublabel: Tension to Extension
         - label: Zen Leader Flips
-        - sublabel: Or to And
+          sublabel: Or to And
     - color: purple
       level: -3
       focus: Presence
