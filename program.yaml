@@ -100,8 +100,7 @@ levels:
       label: 3rd Kyu
       level: -3
       focus: Presence
-      challenge: 
-        - TBD
+      challenge: TBD
       exercises:
         - label: Why Did Agile Fail?
           url: https://www.linkedin.com/posts/michaelrbasil_mindset-agile-dojo-activity-7260441419134246916-I_1u
