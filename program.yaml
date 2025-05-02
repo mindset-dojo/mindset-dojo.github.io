@@ -15,12 +15,12 @@ practices:
     - label: Zen Leader Essential Flips (Static)
       url: https://cdn.dirigible.studio/wp-content/uploads/sites/24/2021/09/04073619/TZL-graphic-izl.pdf
 awareness:
-  - Emotional
-  - Social
-  - Relational
-  - Energetic
-  - Somatic
-  - Metaphorical
+  - label: Emotional
+  - label: Social
+  - label: Relational
+  - label: Energetic
+  - label: Somatic
+  - label: Metaphorical
 community:
   - url: https://dojo.center/community
 levels:
