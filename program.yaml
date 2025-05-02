@@ -124,12 +124,10 @@ levels:
       label: 2nd Kyu
       level: -2
       focus: Integration
-      challenge: 
+      challenge: TBD
+      exercises:
         - label: Breathing to Support the FEBI Patterns
           url: https://www.youtube.com/watch?v=C53IKjDvU2g
-      exercises:
-        - label: Control vs Adjustment
-          url: https://www.youtube.com/shorts/2erEr5grqAk
         - label: Negotiation 9 Move - “I” Messages
           url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
         - label: Negotiation 9 Move - Encouragers
