@@ -59,11 +59,9 @@ levels:
       level: -5
       focus: Perception
       challenge: 
-        - label: "Analyze a spirited conversation from the following models of understanding:"
-        - challenge_points:
-          - FEBI
-          - Cynefin
-          - Map of Consciousness
+        - label: Analyze a spirited conversation from the following model of understanding - FEBI
+        - label: Analyze a spirited conversation from the following model of understanding - Cynefin
+        - label: Analyze a spirited conversation from the following model of understanding - Map of Consciousness
       exercises:
         - label: Bias - Duck Rabbit
           url: https://www.youtube.com/watch?v=36AqMX5uua4
