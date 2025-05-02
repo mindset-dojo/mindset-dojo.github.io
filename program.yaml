@@ -58,8 +58,7 @@ levels:
       label: 5th Kyu
       level: -5
       focus: Perception
-      challenge: 
-        - Analyze a spirited conversation from the following models of understanding - FEBI, Cynefin, and Map of Consciousness
+      challenge: Analyze a spirited conversation from the following models of understanding - FEBI, Cynefin, and Map of Consciousness
       exercises:
         - label: Bias - Duck Rabbit
           url: https://www.youtube.com/watch?v=36AqMX5uua4
