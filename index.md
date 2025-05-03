@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Agility Revealed
+title: Conversational Mastery Revealed
 description: At Mindset Dojo, we help leaders turn difficult conversations into catalysts for change. Build emotional intelligence and critical thinking skills to thrive in life-defining moments, personally and professionally.
 css_id: home
 ---
 <main aria-label="Content">
-    <h1><mark>Negotiation Mastery, Mindset Nirvana</mark></h1>
+    <h1><mark>Conversational Mastery, Mindset Nirvana</mark></h1>
     <hr>
     <div class="md-youtube-player" data-id="YF8HEO1phWw" data-preview="intentional-insightful-conversation-preview.webp"></div>
     <blockquote>
