@@ -5,7 +5,7 @@ description: At Mindset Dojo, we help leaders turn difficult conversations into 
 css_id: home
 ---
 <main aria-label="Content">
-    <h1><mark>Conversational Leadership, Inner-Game Mastery</mark></h1>
+    <h1><mark>Conversational Leadership Revealed</mark></h1>
     <hr>
     <div class="md-youtube-player" data-id="YF8HEO1phWw" data-preview="intentional-insightful-conversation-preview.webp"></div>
     <blockquote>
