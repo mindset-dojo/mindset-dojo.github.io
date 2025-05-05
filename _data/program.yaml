@@ -74,16 +74,8 @@ levels:
       label: 4th Kyu
       level: -4
       focus: Emotions
-      challenge: Create a neutralizing rewrite of an emotionally charged situation or text
+      challenge: Improve a conversation or negotiation using the new moves and flips you have learned
       exercises:
-        - label: How To Master & Control Your Emotions
-          url: https://www.youtube.com/watch?v=hYZmK46--Mc
-        - label: Navigating Polarization with Emotional Intelligence This Holiday Season
-          url: https://www.linkedin.com/feed/update/urn:li:activity:7265077314198134786/
-        - label: What if He Falls? The Terrifying Reality Behind Filming “Free Solo”
-          url: https://m.youtube.com/watch?v=3-wjmIFlnNo
-        - label: Distilling Conflation
-          url: https://www.linkedin.com/posts/michaelrbasil_mindset-dojo-reflection-activity-7310643830255456256-jwyT
         - label: Negotiation 9 Move - Labels
           url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
         - label: Negotiation 9 Move - Mirrors
@@ -100,14 +92,8 @@ levels:
       label: 3rd Kyu
       level: -3
       focus: Presence
-      challenge: TBD
+      challenge: Improve a conversation or negotiation using the new moves and flips you have learned
       exercises:
-        - label: Why Did Agile Fail?
-          url: https://www.linkedin.com/posts/michaelrbasil_mindset-agile-dojo-activity-7260441419134246916-I_1u
-        - label: "Breaking the Cycle: From Intellectual Burnout to Integrated Flow"
-          url: https://www.linkedin.com/posts/michaelrbasil_breaking-the-cycle-from-intellectual-burnout-activity-7247773142536859648-dUec
-        - label: "A neuroscientist’s guide to fixing your mind in 15 mins"
-          url: https://bigthink.com/series/the-big-think-interview/anne-laure-mindsets/
         - label: Negotiation 9 Move - Paraphrasing
           url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
         - label: Negotiation 9 Move - Summary
@@ -124,7 +110,7 @@ levels:
       label: 2nd Kyu
       level: -2
       focus: Integration
-      challenge: TBD
+      challenge: Improve a conversation or negotiation using the new moves, flips and breathwork you have learned
       exercises:
         - label: Breathing to Support the FEBI Patterns
           url: https://www.youtube.com/watch?v=C53IKjDvU2g
@@ -140,8 +126,10 @@ levels:
       label: 1st Kyu
       level: -1
       focus: Embodiment
-      challenge: Live demonstration of each FEBI pattern and each Negotiation 9 move with smooth transition timing
+      challenge: Live demonstration of the FEBI patterns and Negotiation 9 moves with wise transition, timing and tone
       exercises:
+        - label: Buddha in Blue Jeans
+          url: https://www.youtube.com/watch?v=FYTqRfJyArM
         - label: Negotiation 9 Move - Tone
           url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
         - label: Zen Leader Essential Flip - Local Self to Whole Self
@@ -152,7 +140,7 @@ levels:
       label: Shodan
       level: 1
       focus: Wu-Wei
-      challenge: Converstional Randori unpacking essay about all you have learned
+      challenge: Converstional Randori unpacking you reflective essay about all you have learned and applied
       exercises:
         - label: The Backwards Brain Tractor
           url: https://youtu.be/lylCYkgC63Q?si=FzuWfAHq4Yie_AHC
