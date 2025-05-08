@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Conversational Mastery Revealed
+title: Conversational Leadership Revealed
 description: At Mindset Dojo, we help leaders turn difficult conversations into catalysts for change. Build emotional intelligence and critical thinking skills to thrive in life-defining moments, personally and professionally.
 css_id: home
 ---
