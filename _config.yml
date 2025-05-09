@@ -1,6 +1,16 @@
+# Theme setup (works for both upstream and forks)
+remote_theme: mindset-dojo/mindset-dojo.github.io@main
+
+plugins:
+  - jekyll-remote-theme
+
+# Optional custom permalink structure
 permalink: /:title
+
+# Custom site variable for external linking (you can reference this in layouts/templates as `site.connect_url`)
 connect_url: https://connect.mindset.dojo.center
 
+# Files excluded from GitHub Pages build
 exclude:
   - Gemfile
   - Gemfile.lock
