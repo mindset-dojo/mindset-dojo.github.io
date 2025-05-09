@@ -26,7 +26,7 @@ function initMD() {
         var playerElements = document.querySelectorAll('.md-youtube-player');
         for (var n = 0; n < playerElements.length; n++) {
             var videoId = playerElements[n].dataset.id;
-            var bgimgsrc = '/assets/video-previews/' + playerElements[n].dataset.preview;
+            var bgimgsrc = './assets/video-previews/' + playerElements[n].dataset.preview;
             var bgimgnosrc = '//i.ytimg.com/vi/ID/hqdefault.jpg'.replace('ID', videoId);
             if (playerElements[n].dataset.preview !== undefined && playerElements[n].dataset.preview !== '') {
                 playerElements[n].style.backgroundImage = 'url('+bgimgsrc+')';
