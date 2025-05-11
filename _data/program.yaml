@@ -42,23 +42,19 @@ levels:
       label: 6th Kyu
       level: -6
       focus: Plasticity
-      challenge: Draw Toast with partner
+      challenge: Analyze the experience of life without should for part of a day and how it influences the FEBi energy patterns
       exercises:
         - label: The Backwards Brain Bicycle
           url: https://www.youtube.com/watch?v=MFzDaBzBlL0
-        - label: Got a Wicked Problem? First, Tell Me How You Make Toast
-          url: https://youtu.be/_vS_b7cJn2A
         - label: How Does Cognitive Reflection Hone Emotional Instinct?
           url: https://www.linkedin.com/feed/update/urn:li:activity:7249821210509778944/
-        - label: Atomic Habits - How to Get 1% Better Every Day
-          url: https://www.youtube.com/watch?v=U_nzqnXWvSo
         - label: "Life Without ‘Should’: A Simple Practice for Deeper Awareness 💡"
           url: https://www.linkedin.com/posts/michaelrbasil_emotionalintelligence-selfawareness-mindset-activity-7270106763566166017-Xb1c
     - color: green
       label: 5th Kyu
       level: -5
       focus: Perception
-      challenge: Analyze a spirited conversation from the following models of understanding - FEBI, Cynefin, and Map of Consciousness
+      challenge: Analyze a spirited conversation from the following models of understanding - FEBI, and Map of Consciousness
       exercises:
         - label: Bias - Duck Rabbit
           url: https://www.youtube.com/watch?v=36AqMX5uua4
@@ -66,10 +62,6 @@ levels:
           url: https://www.linkedin.com/feed/update/urn:li:activity:7267614153354166273
         - label: Map of Consciousness - David Hawkins
           url: https://www.youtube.com/watch?v=QBxVzTphkik
-        - label: Cynefin Framework
-          url: https://en.wikipedia.org/wiki/Cynefin_framework
-        - label: Herbie and the Goal
-          url: https://m.youtube.com/watch?v=p3b7-U99UeA
     - color: blue
       label: 4th Kyu
       level: -4
