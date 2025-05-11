@@ -17,7 +17,6 @@ css_id: community
 	{% endfor %}
 	{% assign members = members | sort: "join_date" | reverse %}
 	{% assign members = members | sort: "belt_level" %}
-	{% assign members = members | reverse %}
 	{% for member in members %}
 	{% unless member.active %}{% continue %}{% endunless %}
 	<section>
