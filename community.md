@@ -13,7 +13,7 @@ css_id: community
 <div class="md-members">
 	{% assign members = "" | split: "" %}
 	{% for member in site.data.members %}
-		{% assign members = members | push: members[1] %}
+		{% assign members = members | push: member[1] %}
 	{% endfor %}
 	{% assign members = members | sort: "display_rank" %}
 	{% for member in members %}
