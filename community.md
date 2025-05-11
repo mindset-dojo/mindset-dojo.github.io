@@ -16,9 +16,8 @@ css_id: community
 		{% assign member = member[1] %}
 		{% unless member.active %}{% continue %}{% endunless %}
 		{% assign belt_sort = 1000 | minus: member.belt_level %}
-		{%- assign clean_date = member.join_date | remove: "." -%}
-		{%- assign padded_date = clean_date | slice: 0,4 | append: clean_date | slice: 4,2 | append: clean_date | slice: 6,2 -%}
-		{% assign sort_key = belt_sort | append: "_" | append: padded_date %}
+		{% assign date_str = member.join_date | remove: "." | plus: 0 %}
+		{% assign sort_key = belt_sort | append: "_" | append: date_str %}
 		{% assign member = member | merge: { "sort_key": sort_key } %}
 		{% assign enriched_members = enriched_members | push: member %}
 	{% endfor %}
