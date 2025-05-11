@@ -19,7 +19,7 @@ css_id: community
 {% assign sorted_levels = site.data.program.levels | sort: "level" | reverse %}
 {% for level in sorted_levels %}
 	{% assign level_members = members | where: "belt_level", level.level" %}
-	{% assign level_members = level_members | sort: "join_date" | reverse %}
+	{% assign level_members = level_members | sort: "join_date" %}
 	{% for member in level_members %}
 	<section>
 		<img src="{{member.profile_picture}}" width="100" height="100" alt="{{ member.name }}" />
