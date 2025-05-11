@@ -708,7 +708,7 @@ hgroup + a {
 
 /* [PAGE SPECIFIC] */
 /* [COMMUNITY] */
-.md-associates {
+.md-members {
     display: grid;
     align-items: initial;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -717,7 +717,7 @@ hgroup + a {
     margin-top: 60px;
 }
 
-.md-associates section {
+.md-members section {
     border: 2px solid var(--border-dark-color);
     border-radius: 24px;
     padding: 20px;
@@ -728,7 +728,7 @@ hgroup + a {
     font-size: 14px;
 }
 
-.md-associates section > img {
+.md-members section > img {
     width: 100px;
     height: 100px;
     border: 2px solid var(--border-dark-color);
@@ -738,26 +738,26 @@ hgroup + a {
     overflow: hidden;
 }
 
-.md-associates section h2 {
+.md-members section h2 {
     font-size: var(--h4);
 }
 
-.md-associates section h2 + ul {
+.md-members section h2 + ul {
     text-align: center;
     align-self: center;
     margin-bottom: 12px;
     padding: 0;
 }
 
-.md-associates section h2 + ul li {
+.md-members section h2 + ul li {
     display: inline;
 }
 
-.md-associates section h2 + ul li:not(:last-of-type):after {
+.md-members section h2 + ul li:not(:last-of-type):after {
     content: ", ";
 }
 
-.md-associates section .md-group {
+.md-members section .md-group {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -767,7 +767,7 @@ hgroup + a {
     font-size: 0;
 }
 
-.md-associates section blockquote {
+.md-members section blockquote {
     color: var(--light-color-primary);
     margin-bottom: 12px;
     padding: 0 12px;
