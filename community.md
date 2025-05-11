@@ -11,18 +11,15 @@ css_id: community
 <p>This group is a space for leaders, professionals, and individuals committed to <strong>personal growth</strong>, <strong>relational excellence</strong>, and <strong>systems thinking</strong>. It’s designed for those who value confidentiality, connection, and thoughtful engagement as we practice navigating complexity and building trust through intentional conversation.</p>
 <a href="{{site.connect_url}}" target="_blank">Schedule an Exploratory Call</a>
 <div class="md-members">
-	{% assign enriched_members = "" | split: "" %}
+	{% assign members = "" | split: "" %}
 	{% for member in site.data.members %}
-		{% assign member = member[1] %}
-		{% unless member.active %}{% continue %}{% endunless %}
-		{% assign belt_sort = 1000 | minus: member.belt_level %}
-		{% assign date_str = member.join_date | remove: "." | plus: 0 %}
-		{% assign sort_key = belt_sort | append: "_" | append: date_str %}
-		{% assign member = member | merge: { "sort_key": sort_key } %}
-		{% assign enriched_members = enriched_members | push: member %}
+		{% assign members = members | push: member[1] %}
 	{% endfor %}
-	{% assign members = enriched_members | sort: "sort_key" %}
+	{% assign members = members | sort: "join_date" %}
+	{% assign members = members | sort: "belt_level" %}
+	{% assign members = members | reverse %}
 	{% for member in members %}
+	{% unless member.active %}{% continue %}{% endunless %}
 	<section>
 		<img src="{{member.profile_picture}}" width="100" height="100" alt="{{ member.name }}" />
 		<h2>{{ member.name }}</h2>
