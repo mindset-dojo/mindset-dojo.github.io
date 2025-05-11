@@ -431,6 +431,10 @@ section.md-grid-3 blockquote p {
     stroke: white;
 }
 
+.md-belt-svg.gray path {
+    fill: gray;
+}
+
 .md-belt-svg.yellow path {
     fill: yellow;
 }
