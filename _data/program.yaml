@@ -24,7 +24,7 @@ awareness:
 community:
   - url: https://dojo.center/community
 levels:
-    - color: white
+    - color: gray
       label: 7th Kyu
       level: -7
       focus: Orientation
