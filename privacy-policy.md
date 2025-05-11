@@ -4,7 +4,9 @@ title: Mindset Dojo Privacy Policy
 description: Privacy Policy
 css_id: privacy-policy
 ---
+
 # Privacy Policy
+---
 
 ## Introduction
 
