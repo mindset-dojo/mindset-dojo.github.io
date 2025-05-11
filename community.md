@@ -16,7 +16,7 @@ css_id: community
 	{% unless member[1].active %}{% continue %}{% endunless %}
 	{% assign members = members | push: member[1] %}
 {% endfor %}
-{% for level in site.data.program.levels %}
+{% for level in site.data.program.levels | sort: "level" | reverse %}
 	{% assign level_members = members | where: "belt_level", level.level" %}
 	{% assign level_members = level_members | sort: "join_date" | reverse %}
 	{% for member in level_members %}
