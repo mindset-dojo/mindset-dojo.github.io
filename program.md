@@ -38,7 +38,7 @@ css_id: program
 </section>
 
 <section>
-  <h2>Awareness Dimensions</h2>
+  <h2>Awareness</h2>
   <ul>
     {% for item in program.awareness %}
       <li>{{ item.label }}</li>
