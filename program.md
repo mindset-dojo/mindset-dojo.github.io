@@ -15,8 +15,8 @@ css_id: program
   <h2>Principles</h2>
   <br>
   <ul>
-    {% for principle in program.principles %}
-      <li>{{ principle.label }}</li>
+    {% for item in program.principles %}
+      <li>{{ item.label }}</li>
     {% endfor %}
   </ul>
 </section>
@@ -24,16 +24,8 @@ css_id: program
 <section>
   <h2>Practices</h2>
   <br>
-  <h3>Reflection</h3>
   <ul>
-    {% for item in program.practices[0].reflection %}
-      <li>{{ item.label }}</li>
-    {% endfor %}
-  </ul>
-
-  <h3>Forms</h3>
-  <ul>
-    {% for item in program.practices[1].forms %}
+    {% for item in program.practices %}
       <li><a href="{{ item.url }}" target="_blank">{{ item.label }}</a></li>
     {% endfor %}
   </ul>
@@ -60,8 +52,8 @@ css_id: program
       <p><strong>Challenge</strong></p> <p>{{ level.challenge }}</p>
       <ul>
         <p><strong>Exercises</strong></p>
-        {% for exercise in level.exercises %}
-          <li><a href="{{ exercise.url }}" target="_blank">{{ exercise.label }}</a></li>
+        {% for item in level.exercises %}
+          <li><a href="{{ item.url }}" target="_blank">{{ item.label }}</a></li>
         {% endfor %}
       </ul>
   {% endfor %}
