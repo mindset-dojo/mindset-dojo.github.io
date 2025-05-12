@@ -19,7 +19,9 @@ css_id: program
     {% endfor %}
   </ul>
 </section>
+
 <br>
+
 <section>
   <h2>Practices</h2>
   <h3>Reflection</h3>
