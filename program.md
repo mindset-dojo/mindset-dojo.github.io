@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Program
+title: Conversational Leadership Program
 description: Conversational Leadership Program
 css_id: program
 ---
