@@ -62,9 +62,6 @@ css_id: program
   {% endfor %}
 </section>
 
-<section>
-<h2>Call to Action</h2>
 <div class="md-cta-group">
     <a href="{{site.connect_url}}" target="_blank">Schedule an Exploratory Call</a>
 </div>
-</section>
