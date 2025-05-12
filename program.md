@@ -13,6 +13,7 @@ css_id: program
 
 <section>
   <h2>Principles</h2>
+  <br>
   <ul>
     {% for principle in program.principles %}
       <li>{{ principle.label }}</li>
