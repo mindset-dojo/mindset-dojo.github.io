@@ -39,6 +39,8 @@ css_id: program
   </ul>
 </section>
 
+<br>
+
 <section>
   <h2>Awareness</h2>
   <ul>
@@ -47,6 +49,8 @@ css_id: program
     {% endfor %}
   </ul>
 </section>
+
+<br>
 
 <section>
   <h2>Levels</h2>
