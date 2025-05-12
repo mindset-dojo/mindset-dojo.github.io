@@ -13,6 +13,7 @@ css_id: program
 
 <section>
   <h2>Principles</h2>
+  <br>
   <ul>
     {% for principle in program.principles %}
       <li>{{ principle.label }}</li>
@@ -20,10 +21,9 @@ css_id: program
   </ul>
 </section>
 
-<br>
-
 <section>
   <h2>Practices</h2>
+  <br>
   <h3>Reflection</h3>
   <ul>
     {% for item in program.practices[0].reflection %}
@@ -39,18 +39,15 @@ css_id: program
   </ul>
 </section>
 
-<br>
-
 <section>
   <h2>Awareness</h2>
+  <br>
   <ul>
     {% for item in program.awareness %}
       <li>{{ item.label }}</li>
     {% endfor %}
   </ul>
 </section>
-
-<br>
 
 <section>
   <h2>Levels</h2>
