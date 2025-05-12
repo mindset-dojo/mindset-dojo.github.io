@@ -55,4 +55,4 @@ We may update this policy periodically to reflect changes in our practices. Plea
 
 ## Contact Us
 
-If you have any questions about this Privacy Policy, please [contact us](https://connect.mindset.dojo.center/).
+If you have any questions about this Privacy Policy, please [contact us]({{site.connect_url}}).
