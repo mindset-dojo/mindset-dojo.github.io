@@ -13,14 +13,13 @@ css_id: program
 
 <section>
   <h2>Principles</h2>
-  <br>
   <ul>
     {% for principle in program.principles %}
       <li>{{ principle.label }}</li>
     {% endfor %}
   </ul>
 </section>
-
+<br>
 <section>
   <h2>Practices</h2>
   <h3>Reflection</h3>
