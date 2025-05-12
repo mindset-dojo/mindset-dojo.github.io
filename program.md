@@ -54,7 +54,7 @@ css_id: program
 <section>
   <h2>Levels</h2>
   {% for level in program.levels %}
-      {% if level.level > -7}
+      {% if level.level > -7 %}
       <hr>
       {% endif %}
       <h3> {% if level.level %}
