@@ -41,7 +41,7 @@ levels:
       label: 6th Kyu
       level: -6
       focus: Plasticity
-      challenge: Analyze the experience of `Life Without Should` for part of a day, reflecting on how your energy patterns (FEBI) were influenced
+      challenge: Analyze the experience of `Life Without Should` for part of a day
       exercises:
         - label: The Backwards Brain Bicycle
           url: https://www.youtube.com/watch?v=MFzDaBzBlL0
@@ -117,7 +117,7 @@ levels:
       label: 1st Kyu
       level: -1
       focus: Embodiment
-      challenge: Live demonstration of the FEBI patterns and Negotiation 9 moves with wise transition, timing, and tone
+      challenge: Live demonstration of the moves and flips with wise transition, timing, and tone
       exercises:
         - label: Buddha in Blue Jeans
           url: https://www.youtube.com/watch?v=FYTqRfJyArM
@@ -131,7 +131,7 @@ levels:
       label: Shodan
       level: 1
       focus: Wu-Wei
-      challenge: Converstional Randori unpacking your reflective essay about all you have learned and applied so far
+      challenge: Converstional Randori unpacking your reflective essay about your journey
       exercises:
         - label: The Backwards Brain Tractor
           url: https://youtu.be/lylCYkgC63Q?si=FzuWfAHq4Yie_AHC
