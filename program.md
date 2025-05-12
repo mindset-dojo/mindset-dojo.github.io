@@ -56,6 +56,7 @@ css_id: program
       <p><strong>Focus</strong></p> <p>{{ level.focus }}</p>
       <p><strong>Challenge</strong></p> <p>{{ level.challenge }}</p>
       <ul>
+        <p><strong>Exercises</strong></p>
         {% for exercise in level.exercises %}
           <li><a href="{{ exercise.url }}" target="_blank">{{ exercise.label }}</a></li>
         {% endfor %}
