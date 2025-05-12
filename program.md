@@ -55,7 +55,7 @@ css_id: program
   <h2>Levels</h2>
   {% for level in program.levels %}
     <div style="border-left: 5px solid {{ level.color }}; padding-left: 1em; margin-bottom: 2em;">
-      <h3>{{ level.label }} (Level {{ level.level }})</h3>
+      <h3>{{ level.label }}</h3>
       <p><strong>Focus:</strong> {{ level.focus }}</p>
       <p><strong>Challenge:</strong> {{ level.challenge }}</p>
       <ul>
