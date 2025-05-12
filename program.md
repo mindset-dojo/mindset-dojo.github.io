@@ -47,11 +47,6 @@ css_id: program
 </section>
 
 <section>
-  <h2>Community</h2>
-  <p><a href="{{ program.community[0].url }}" target="_blank">Join the Community</a></p>
-</section>
-
-<section>
   <h2>Levels</h2>
   {% for level in program.levels %}
       <h3> {% if level.level %}
