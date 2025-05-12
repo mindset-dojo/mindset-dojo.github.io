@@ -14,7 +14,7 @@ css_id: home
 <p>Unlike other programs that only focus on concepts, we emphasize the <strong>practical application</strong> of emotional intelligence in <strong>real time.</strong></p>
 <p>You’ll master emotions, lead with wisdom, and build authentic trust when it matters most. By honing these skills in high-pressure situations, you’ll foster <strong>better, more meaningful conversations</strong>, make <strong>wiser decisions</strong>, and create authentic connections that <strong>drive sustainable success</strong> both personally and professionally.</p>
 <div class="md-cta-group">
-    <a href="./impact">Explore Impact</a><a href="./offerings">View Offerings</a>
+    <a href="./impact">Explore Impact</a><a href="./program">View Program</a>
 </div>
 <h2>The Common Challenge, and Beyond</h2>
 <hr>
@@ -36,4 +36,6 @@ css_id: home
         <p>Our approach transforms conflict into trust, turning tension into opportunities to mend relationships, deepen understanding, and build stronger connections. This extends beyond the workplace, helping individuals navigate personal challenges—whether raising children, strengthening partnerships, or reconnecting with loved ones. What once felt like conflict becomes a pathway to trust and lasting growth.</p>
     </hgroup>
 </section>
-<a href="{{site.connect_url}}" target="_blank">Schedule an Exploratory Call</a>
+<div class="md-cta-group">
+    <a href="{{site.connect_url}}" target="_blank">Schedule an Exploratory Call</a>
+</div>

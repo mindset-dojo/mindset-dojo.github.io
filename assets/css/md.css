@@ -838,3 +838,42 @@ footer img {
     object-position: 0;
     z-index: -1;
 }
+
+/* [PROGRAM PAGE CENTERING] */
+#program {
+    text-align: center;
+}
+
+#program section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;
+}
+
+#program section ul {
+    max-width: 700px;
+    margin: 0 auto 1.5rem;
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+#program section ul li {
+    text-align: left;
+}
+
+/* Responsive tweaks for small screens */
+@media (max-width: 600px) {
+    #program section {
+        padding: 1rem 0.5rem;
+    }
+
+    #program section ul {
+        max-width: 100%;
+        padding: 0 1rem;
+    }
+
+    #program section ul li {
+        font-size: var(--text-s);
+    }
+}

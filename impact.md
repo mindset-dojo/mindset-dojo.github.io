@@ -96,4 +96,6 @@ css_id: impact
 		<footer>&#8211; Executive Leader</footer>
 	</blockquote>
 </section>
-<a href="{{site.connect_url}}" target="_blank">Schedule an Exploratory Call</a>
+<div class="md-cta-group">
+    <a href="{{site.connect_url}}" target="_blank">Schedule an Exploratory Call</a>
+</div>
