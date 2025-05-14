@@ -35,6 +35,4 @@ css_id: home
         <p>Our approach transforms conflict into trust, turning tension into opportunities to mend relationships, deepen understanding, and build stronger connections. This extends beyond the workplace, helping individuals navigate personal challenges—whether raising children, strengthening partnerships, or reconnecting with loved ones. What once felt like conflict becomes a pathway to trust and lasting growth.</p>
     </hgroup>
 </section>
-<div class="md-cta-group">
-    <a href="{{site.connect_url}}" target="_blank">Schedule an Exploratory Call</a>
-</div>
+
