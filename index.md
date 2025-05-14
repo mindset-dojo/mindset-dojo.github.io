@@ -7,7 +7,6 @@ css_id: home
 
 <h1><mark>Conversational Leadership Revealed</mark></h1>
 <hr>
-<div class="md-youtube-player" data-id="YF8HEO1phWw" data-preview="intentional-insightful-conversation-preview.webp"></div>
 <blockquote>
     <p>What good is <strong>emotional intelligence</strong> and <strong>critical thinking</strong> if they don’t show up in life-defining moments—personally or professionally?</p>
 </blockquote>
