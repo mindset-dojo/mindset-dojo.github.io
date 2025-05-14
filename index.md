@@ -33,5 +33,5 @@ css_id: home
     </hgroup>
 </section>
 <div class="md-cta-group">
-    <a href="./impact">Explore Impact</a><a href="./program">View Program</a>
+    <<a href="./community">Explore Community</a><a href="./program">View Program</a>
 </div>
