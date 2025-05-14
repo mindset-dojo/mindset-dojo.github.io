@@ -97,5 +97,5 @@ css_id: impact
 	</blockquote>
 </section>
 <div class="md-cta-group">
-    <a href="{{site.connect_url}}" target="_blank">Schedule an Exploratory Call</a>
+    <a href="{{site.connect_url}}" target="_blank">Schedule Call</a>
 </div>
