@@ -61,5 +61,5 @@ css_id: program
 </section>
 
 <div class="md-cta-group">
-    <a href="{{site.connect_url}}" target="_blank">Schedule Call</a>
+    <a href="./community">Explore Community</a><a href="{{site.connect_url}}" target="_blank">Schedule Call</a>
 </div>
