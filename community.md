@@ -10,7 +10,8 @@ css_id: community
 <p>Our community is dedicated to the practice of intentional conversations. Here, we explore and develop <strong>Mindset Intelligence</strong>—the art of seeing clearly, acting decisively, and building trust. Our conversations dive into deeply interesting, often charged topics in a way that not only avoids eroding trust but actively strengthens it. Through mindful dialogue, we transcend the need for agreement, thus transforming contrast, and even conflict, into insight and connection.</p>
 <p>This group is a space for leaders, professionals, and individuals committed to <strong>personal growth</strong>, <strong>relational excellence</strong>, and <strong>systems thinking</strong>. It’s designed for those who value confidentiality, connection, and thoughtful engagement as we practice navigating complexity and building trust through intentional conversation.</p>
 <div class="md-cta-group">
-    <a href="./program">View Program</a><a href="{{site.connect_url}}" target="_blank">Schedule Call</a>
+    <a href="./program">View Program</a>
+	<a href="{{site.connect_url}}" target="_blank">Schedule Call</a>
 </div>
 <div class="md-members">
 {% assign members = "" | split: "" %}
