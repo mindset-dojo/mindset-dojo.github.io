@@ -292,6 +292,7 @@ hgroup hr {
 /* Hyperlink buttons */
 .md-cta-group {
     display: flex;
+    flex-direction: row;
     gap: 36px;
     justify-content: center;
     margin: 40px 0 80px;
