@@ -307,7 +307,7 @@ hgroup hr {
 }
 
 /* mobile: stack the buttons and turn the divider into an <hr>-style */
-@media (max-width: 600px) {
+@media (max-width: 576px) {
   .md-cta-group {
     flex-direction: column;    /* stack them */
     gap: 0;                     /* we’ll use margins for spacing */
@@ -320,12 +320,6 @@ hgroup hr {
     height: 0;                  /* no extra height beyond border */
     margin: 16px 0;             /* match your hr’s vertical spacing */
   }
-}
-
-@media (max-width: 576px) {
-    .md-cta-group {
-        flex-direction: column;
-    }
 }
 
 .md-grid-2,
