@@ -290,6 +290,7 @@ hgroup hr {
 }
 
 /* Hyperlink buttons */
+/* desktop first: row of buttons with a vertical divider */
 .md-cta-group {
     display: flex;
     flex-direction: row;
