@@ -289,17 +289,21 @@ hgroup hr {
     display: none;
 }
 
+/* Hyperlink buttons */
+/* desktop first: row of buttons with a vertical divider */
 .md-cta-group {
     display: flex;
+    flex-direction: row;
     gap: 36px;
     justify-content: center;
     margin: 40px 0 80px;
 }
 
+/* mobile: stack the buttons */
 @media (max-width: 576px) {
-    .md-cta-group {
-        flex-direction: column;
-    }
+  .md-cta-group {
+    flex-direction: column;    /* stack them */
+  }
 }
 
 .md-grid-2,
@@ -343,70 +347,6 @@ section.md-grid-3 blockquote {
 section.md-grid-2 blockquote p,
 section.md-grid-3 blockquote p {
     font-size: var(--text-s);
-}
-
-.md-youtube-player {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-    max-width: 100%;
-    border: 1px solid var(--border-dark-color);
-    border-radius: 24px;
-    background-color: var(--dark-color-primary);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    cursor: pointer;
-    margin-bottom: 20px;
-}
-
-.md-youtube-player iframe {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: calc(100% + 1px);
-    height: 100%;
-    z-index: 100;
-    background: transparent;
-}
-
-.md-youtube-player img {
-    object-fit: cover;
-    display: block;
-    left: 0;
-    bottom: 0;
-    margin: auto;
-    max-width: 100%;
-    width: 100%;
-    position: absolute;
-    right: 0;
-    top: 0;
-    border: none;
-    height: auto;
-    cursor: pointer;
-    -webkit-transition: 0.4s all;
-    -moz-transition: 0.4s all;
-    transition: 0.4s all;
-}
-
-.md-youtube-player img:hover {
-    -webkit-filter: brightness(75%);
-    filter: brightness(75%);
-}
-
-.md-youtube-player .play {
-    height: 48px;
-    width: 68px;
-    left: 50%;
-    top: 50%;
-    margin-left: -34px;
-    margin-top: -24px;
-    position: absolute;
-    background: url('../yt.webp') no-repeat;
-    cursor: pointer;
 }
 
 .md-icon-svg {
