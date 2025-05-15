@@ -289,6 +289,7 @@ hgroup hr {
     display: none;
 }
 
+
 .md-cta-group {
     display: flex;
     gap: 36px;
@@ -301,6 +302,17 @@ hgroup hr {
   display: inline-block; /* allow height/width */
   border-left: 3px solid var(--light-color-primary); /* match <hr> style */
   align-self: stretch;   /* match the height of the button group */
+}
+
+/* On small screens, switch to a horizontal divider */
+@media (max-width: 600px) {
+  .button-vertical-divider {
+    border-left: none;
+    border-top: 3px solid var(--light-color-primary);
+    width: 100%;         /* full width */
+    height: 0;           /* no height needed */
+    margin: 16px 0;      /* match the <hr> spacing */
+  }
 }
 
 @media (max-width: 576px) {
