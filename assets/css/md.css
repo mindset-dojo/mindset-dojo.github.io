@@ -306,14 +306,19 @@ hgroup hr {
   align-self: stretch;   /* match the height of the button group */
 }
 
-/* On small screens, switch to a horizontal divider */
+/* mobile: stack the buttons and turn the divider into an <hr>-style */
 @media (max-width: 600px) {
+  .md-cta-group {
+    flex-direction: column;    /* stack them */
+    gap: 0;                     /* we’ll use margins for spacing */
+  }
   .button-vertical-divider {
-    border-left: none;
-    border-top: 3px solid var(--light-color-primary);
-    width: 100%;         /* full width */
-    height: 0;           /* no height needed */
-    margin: 16px 0;      /* match the <hr> spacing */
+    display: block;             /* full-width block */
+    border-left: none;          /* turn off the vertical line */
+    border-top: 3px solid var(--light-color-primary); /* horizontal rule */
+    width: 100%;                /* fill the container */
+    height: 0;                  /* no extra height beyond border */
+    margin: 16px 0;             /* match your hr’s vertical spacing */
   }
 }
 
