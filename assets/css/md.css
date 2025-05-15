@@ -296,6 +296,14 @@ hgroup hr {
     margin: 40px 0 80px;
 }
 
+.button-vertical-divider {
+  /* create the “vertical hr” */
+  display: inline-block;           /* allow height/width */
+  border-left: 1px solid white;    /* the actual line */
+  height: 24px;                     /* adjust to match button height */
+  margin: 0 12px;                   /* horizontal spacing */
+}
+
 @media (max-width: 576px) {
     .md-cta-group {
         flex-direction: column;
