@@ -33,5 +33,6 @@ css_id: home
     </hgroup>
 </section>
 <div class="md-cta-group">
-    <a href="./community">Explore Community</a> <br> <a href="./program">View Program</a>
+    <a href="./community">Explore Community</a> 
+    <a href="./program">View Program</a>
 </div>
