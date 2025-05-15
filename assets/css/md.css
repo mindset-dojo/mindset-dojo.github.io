@@ -298,10 +298,9 @@ hgroup hr {
 
 .button-vertical-divider {
   /* create the “vertical hr” */
-  display: inline-block;           /* allow height/width */
-  border-left: 3px solid var(--light-color-primary);    /* the actual line */
-  height: 40px;                     /* adjust to match button height */
-  margin: 0 12px;                   /* horizontal spacing */
+  display: inline-block; /* allow height/width */
+  border-left: 3px solid var(--light-color-primary); /* match <hr> style */
+  align-self: stretch;   /* match the height of the button group */
 }
 
 @media (max-width: 576px) {
