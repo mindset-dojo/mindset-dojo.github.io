@@ -12,7 +12,7 @@ css_id: program
 </section>
 
 <section>
-  <h1>Invitation <hr> </h1>
+  <h1>Invitation </h1>
   <p><em>{{ program.invitation }}</em></p>
 </section>
 
