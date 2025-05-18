@@ -34,5 +34,5 @@ css_id: home
 </section>
 <div class="md-cta-group">
     <a href="./community">Explore Community</a> 
-    <a href="./program">View Program</a>
+    <a href="./program">Open Source Program</a>
 </div>
