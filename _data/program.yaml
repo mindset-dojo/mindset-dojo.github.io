@@ -52,7 +52,7 @@ levels:
       label: 5th Kyu
       level: -5
       focus: Perception
-      challenge: Analyze a spirited conversation through the lenses of FEBI and Map of Consciousness
+      challenge: Analyze a spirited conversation through the lenses of FEBI and Consciousness
       exercises:
         - label: Bias - Duck Rabbit
           url: https://www.youtube.com/watch?v=36AqMX5uua4
@@ -82,7 +82,7 @@ levels:
       label: 3rd Kyu
       level: -3
       focus: Presence
-      challenge: Improve a conversation that matters using the new moves and flips you have learned
+      challenge: Improve a conversation that matters using the new moves and flips
       exercises:
         - label: Negotiation 9™ Move - Paraphrasing
           url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
@@ -100,7 +100,7 @@ levels:
       label: 2nd Kyu
       level: -2
       focus: Integration
-      challenge: Improve a conversation that matters using the new moves, flips, and breathwork you have learned
+      challenge: Improve a conversation that matters using the new moves and flips
       exercises:
         - label: Breathing to Support the FEBI Patterns
           url: https://www.youtube.com/watch?v=C53IKjDvU2g
