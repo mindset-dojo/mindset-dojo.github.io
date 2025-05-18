@@ -48,5 +48,5 @@ css_id: community
 </div>
 <div class="md-cta-group">
 	<a href="./impact">Explore Impact</a>
-    <a href="./program">View Program</a>
+    <a href="./program">Open Source Program</a>
 </div>
