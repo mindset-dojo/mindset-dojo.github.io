@@ -97,6 +97,6 @@ css_id: impact
 	</blockquote>
 </section>
 <div class="md-cta-group">
-    <a href="./program">View Program</a> 
+    <a href="./program">Open Source Program</a> 
     <a href="{{site.connect_url}}" target="_blank">Schedule Call</a>
 </div>

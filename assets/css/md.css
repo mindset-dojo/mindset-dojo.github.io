@@ -789,6 +789,16 @@ footer img {
     flex-direction: column;
     align-items: center;
     padding: 2rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#program section h2, 
+#program section p {
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto 1rem;
+    padding: 0 1rem;
 }
 
 #program section ul {
