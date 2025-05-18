@@ -13,6 +13,7 @@ css_id: program
 
 <section>
   <h1>Invitation </h1>
+  <br>
   <p><em>{{ program.invitation }}</em></p>
 </section>
 
