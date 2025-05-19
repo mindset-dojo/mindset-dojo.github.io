@@ -26,15 +26,15 @@ levels:
       label: 7th Kyu
       level: -7
       focus: Orientation
-      challenge: Focused Energy Balance (FEBI) Assessment
+      challenge: FEBI™ (Focus Energy Balance Indicator) Assessment
       exercises:
         - label: How to Start a Movement
           url: https://www.ted.com/talks/derek_sivers_how_to_start_a_movement
-        - label: Focused Energy Balance Indicator (FEBI) Information
-          url: https://zenleader.global/febi-offerings/
-        - label: Focused Energy Balance (FEBI) Choice
+        - label: FEBI™ Information
+          url: https://zenleader.global/resources/febi-assessment
+        - label: FEBI™ Choice
           url: https://zenleader.global/s/FEBI-Choice-Article-Jan-2017-3p5x.pdf
-        - label: Focused Energy Balance (FEBI) Technical Background
+        - label: FEBI™ Technical Background
           url: https://zenleader.global/s/FEBI-Technical-Manual-2024.pdf
     - color: yellow
       label: 6th Kyu
@@ -52,7 +52,7 @@ levels:
       label: 5th Kyu
       level: -5
       focus: Perception
-      challenge: Analyze a spirited conversation through the lenses of FEBI and Consciousness
+      challenge: Analyze a spirited conversation through the lenses of FEBI™ and Consciousness
       exercises:
         - label: Bias - Duck Rabbit
           url: https://www.youtube.com/watch?v=36AqMX5uua4
@@ -102,7 +102,7 @@ levels:
       focus: Integration
       challenge: Improve a conversation that matters using the new moves and flips
       exercises:
-        - label: Breathing to Support the FEBI Patterns
+        - label: Breathing to Support the FEBI™ Patterns
           url: https://www.youtube.com/watch?v=C53IKjDvU2g
         - label: Negotiation 9™ Move - “I” Messages
           url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
