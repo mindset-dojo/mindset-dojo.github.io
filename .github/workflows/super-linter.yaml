@@ -20,15 +20,12 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Import Super-Linter Environment Variables
+        # Append all lines from .github/super-linter.env into the GitHub Actions environment
+        run: |
+          # Replace placeholder for GITHUB_TOKEN, then export all variables
+          sed "s|__GITHUB_TOKEN__|${{ secrets.GITHUB_TOKEN }}|g" .github/super-linter.env >> "$GITHUB_ENV"
+
       - name: Run Super-Linter
         uses: super-linter/super-linter@v7.4.0
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          DEFAULT_BRANCH: main
-          LOG_LEVEL: DEBUG
-          ENABLE_GITHUB_ACTIONS_STEP_SUMMARY: true
-          SAVE_SUPER_LINTER_SUMMARY: true
-          SAVE_SUPER_LINTER_OUTPUT: true
-          SUPER_LINTER_OUTPUT_DIRECTORY_NAME: super-linter-report
-          VALIDATE_ALL_CODEBASE: false    # only lint changed files in this PR
-          AUTO_FIX: false                 # disable all auto-fix behavior
+        # No additional env: block is needed because all variables are now in $GITHUB_ENV
