@@ -23,10 +23,11 @@ jobs:
           fetch-depth: 0
 
       - name: Import Super-Linter Environment Variables
-        # Append all lines from .github/super-linter.env into the GitHub Actions environment
         run: |
-          # Replace placeholder for GITHUB_TOKEN, then export all variables
-          sed "s|__GITHUB_TOKEN__|${{ secrets.GITHUB_TOKEN }}|g" .github/super-linter.env >> "$GITHUB_ENV"
+          sed '/^\s*#/d;/^\s*$/d' .github/super-linter.env \
+          | sed 's|__GITHUB_TOKEN__|'"${{ secrets.GITHUB_TOKEN }}"'|g' \
+          >> "$GITHUB_ENV"
+
 
       - name: Run Super-Linter
         uses: super-linter/super-linter@v7.4.0
