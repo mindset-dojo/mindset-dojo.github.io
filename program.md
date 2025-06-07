@@ -6,8 +6,10 @@ css_id: program
 ---
 {% assign program = site.data.program %}
 
+<h1>Program</h1>
+<hr>
+
 <section>
-  <h1>Program <hr> </h1>
   <p><em>{{ program.mission }}</em></p>
 </section>
 
