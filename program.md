@@ -67,6 +67,5 @@ css_id: program
 </section>
 
 <div class="md-cta-group">
-	  <a href="./impact">Explore Impact</a>
     <a href="./">Engage Community</a> 
 </div>

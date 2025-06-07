@@ -78,6 +78,5 @@ It’s not just coaching.</p>
 </div>
 
 <div class="md-cta-group">
-	<a href="./impact">Explore Impact</a>
     <a href="./program">Open Source Program</a>
 </div>
