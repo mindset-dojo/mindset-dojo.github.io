@@ -37,7 +37,7 @@ It’s not just coaching.</p>
 
 <blockquote><strong>It’s training for any and all life arenas—through conversations that matter.</strong></blockquote>
 
-<p><strong>🧭 Come ready. Come as you are.</strong></p>
+<p><strong>⛩️ Get on the Mat.</strong></p>
 
 <div class="md-members">
 {% assign members = "" | split: "" %}
