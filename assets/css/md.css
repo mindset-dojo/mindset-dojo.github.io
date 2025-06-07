@@ -651,7 +651,17 @@ hgroup + a {
 }
 
 /* [PAGE SPECIFIC] */
-/* [COMMUNITY] */
+/* [HOME | COMMUNITY] */
+#home main {
+    max-width: 800px;
+}
+
+#home ul {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
 .md-members {
     display: grid;
     align-items: initial;
