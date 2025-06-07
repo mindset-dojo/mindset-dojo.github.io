@@ -27,7 +27,7 @@ But to move differently, when it counts.</p>
   <li>🥋 We <strong>role play in dynamic conversations</strong>—live and online via <strong>Jitsi Meet</strong>—where pressure, emotion, and timing are real.</li>
   <li>🔁 We <strong>reflect and recalibrate asynchronously</strong> through <strong>Signal</strong> voice notes.</li>
   <li>🌀 We <strong>stay in rhythm</strong>—through practice, not performance.</li>
-  <li>🧭 We <strong>train with static flips and dynamic moves</strong>, using simple, powerful perception models that reveal what’s usually unconscious.</li>
+  <li>🧭 We <strong>train with static flips and dynamic moves</strong>, using simple, powerful perception tools that reveal what’s usually unconscious.</li>
   <li>🎯 We commit to a <strong>belt-leveled program</strong> inspired by <strong>Zen and Aikido</strong>, with embodied thresholds and meaningful progression.</li>
 </ul>
 
