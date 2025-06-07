@@ -6,8 +6,10 @@ css_id: program
 ---
 {% assign program = site.data.program %}
 
+<h1><mark>Training</mark> Program</h1>
+<hr>
+
 <section>
-  <h1>Program <hr> </h1>
   <p><em>{{ program.mission }}</em></p>
 </section>
 
@@ -67,6 +69,5 @@ css_id: program
 </section>
 
 <div class="md-cta-group">
-	  <a href="./impact">Explore Impact</a>
-    <a href="./community">Engage Community</a> 
+    <a href="./">Engage Community</a> 
 </div>

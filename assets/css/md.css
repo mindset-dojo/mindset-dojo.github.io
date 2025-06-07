@@ -251,10 +251,6 @@ hr {
     margin-bottom: 32px;
 }
 
-hgroup hr {
-    width: 20%;
-}
-
 /* utility */
 .md-text-xl {
     font-size: var(--text-xl);
@@ -329,11 +325,6 @@ hgroup hr {
         grid-template-columns: 1fr;
         grid-gap: 24px;
     }
-}
-
-section.md-grid-2 hgroup,
-section.md-grid-3 hgroup {
-    margin: 0;
 }
 
 section.md-grid-2 blockquote,
@@ -636,22 +627,18 @@ main > a:hover {
     background-color: var(--button-background-hover-color);
 }
 
-/* cards */
-hgroup {
-    display: flex;
-    flex-direction: column;
-    border-radius: 24px;
-    background-color: var(--dark-color-secondary);
-    padding: 48px;
-    margin-bottom: 40px;
-}
-
-hgroup + a {
-    margin-top: 0;
-}
-
 /* [PAGE SPECIFIC] */
-/* [COMMUNITY] */
+/* [HOME | COMMUNITY] */
+#home main {
+    max-width: 800px;
+}
+
+#home ul {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
 .md-members {
     display: grid;
     align-items: initial;
