@@ -19,8 +19,6 @@ awareness:
   - label: Energetic
   - label: Somatic
   - label: Metaphorical
-community:
-  - url: https://dojo.center/community
 levels:
     - color: gray
       label: 7th Kyu
