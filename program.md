@@ -1,7 +1,6 @@
 ---
 layout: default
-title: Conversational Leadership Program
-description: Conversational Leadership Program
+title: Training Program
 css_id: program
 ---
 {% assign program = site.data.program %}
