@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Don’t Think. Train.
+title: Don’t Complain. Train.
 description: Mindset Dojo is a global training ground for the inner game of presence, leadership, and emotional clarity. For conversations that matter—across all life arenas.
 css_id: home
 ---
 
-<h1>Don’t Think. <mark>Train.</mark></h1>
+<h1>Don’t Complain <mark>Train.</mark></h1>
 <hr>
 
 <p>When the pressure hits, you don’t rise to the level of your best intentions.<br>
@@ -22,7 +22,7 @@ In that flash between stimulus and response…</p>
 <p>Not to collect more insight—<br>
 But to move differently, when it counts.</p>
 
-<h2>What We Practice</h2>
+<h2>How We Train</h2>
 <ul>
   <li>🥋 We <strong>role play in dynamic conversations</strong>—live and online via <strong>Jitsi Meet</strong>—where pressure, emotion, and timing are real.</li>
   <li>🔁 We <strong>reflect and recalibrate asynchronously</strong> through <strong>Signal</strong> voice notes.</li>
