@@ -5,8 +5,6 @@ description: Privacy Policy
 css_id: privacy-policy
 ---
 
-
-
 ## Introduction
 
 We value your privacy and are committed to being transparent about the information we collect and how it is used. This Privacy Policy explains our practices and highlights our limited use of analytics.
