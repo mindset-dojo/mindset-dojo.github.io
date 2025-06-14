@@ -22,7 +22,7 @@ In that flash between stimulus and response…</p>
 <p>Not to collect more insight—<br>
 But to move differently, when it counts.</p>
 
-<h2>What We Practice</h2>
+<h2>How We Train</h2>
 <ul>
   <li>🥋 We <strong>role play in dynamic conversations</strong>—live and online via <strong>Jitsi Meet</strong>—where pressure, emotion, and timing are real.</li>
   <li>🔁 We <strong>reflect and recalibrate asynchronously</strong> through <strong>Signal</strong> voice notes.</li>
