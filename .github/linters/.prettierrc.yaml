@@ -1,27 +1,77 @@
-# Sane default formatting for Prettier in Mindset Dojo
+# Top-level defaults for all file types
+---
+trailingComma: es5
+tabWidth: 2
+useTabs: false
+semi: true
+singleQuote: false
+bracketSpacing: true
+bracketSameLine: false
+arrowParens: always
+embeddedLanguageFormatting: auto
+endOfLine: lf
+printWidth: 80
+proseWrap: preserve
+quoteProps: as-needed
+htmlWhitespaceSensitivity: css
+---
 
-# Shared config matching Prettier's recommended defaults:
-trailingComma: es5        # trailing commas in ES5 context (e.g., objects, arrays) :contentReference[oaicite:4]{index=4}
-tabWidth: 2               # 2 spaces per indent level :contentReference[oaicite:5]{index=5}
-useTabs: false            # use spaces, not tabs :contentReference[oaicite:6]{index=6}
-semi: true                # use semicolons where applicable :contentReference[oaicite:7]{index=7}
-singleQuote: false        # use double-quotes for strings :contentReference[oaicite:8]{index=8}
-bracketSpacing: true      # include spaces between object brackets :contentReference[oaicite:9]{index=9}
-bracketSameLine: false    # put closing bracket on new line :contentReference[oaicite:10]{index=10}
-arrowParens: always       # always include parentheses in arrow functions :contentReference[oaicite:11]{index=11}
-embeddedLanguageFormatting: auto  # format code inside markdown/YAML :contentReference[oaicite:12]{index=12}
-endOfLine: lf             # use Unix-style line endings :contentReference[oaicite:13]{index=13}
-htmlWhitespaceSensitivity: css  # handle whitespace based on CSS rules :contentReference[oaicite:14]{index=14}
-printWidth: 80            # wrap lines at 80 chars for readability :contentReference[oaicite:15]{index=15}
-proseWrap: preserve       # don’t re-wrap prose in markdown or YAML front matter :contentReference[oaicite:16]{index=16}
-quoteProps: as-needed     # only quote object keys when necessary :contentReference[oaicite:17]{index=17}
-
-# Specific overrides for YAML files:
+# YAML-specific overrides
+---
 overrides:
-  - files: ["*.yaml", "*.yml"]
+  - files: ["*.yml", "*.yaml"]
     options:
+      parser: yaml
       tabWidth: 2
       singleQuote: false
+      printWidth: 120
+      trailingComma: none
       proseWrap: preserve
-      printWidth: 120      # allow longer lines for long URLs/meta in Jekyll :contentReference[oaicite:18]{index=18}
-      trailingComma: none  # avoid trailing commas in YAML (not supported) :contentReference[oaicite:19]{index=19}
+---
+
+# Markdown files (including front-matter)
+---
+overrides:
+  - files: ["*.md"]
+    options:
+      parser: markdown
+      proseWrap: preserve
+      printWidth: 100
+      singleQuote: false
+---
+
+# HTML (layouts and includes with Liquid)
+---
+overrides:
+  - files: ["_layouts/**/*.html", "_includes/**/*.html", "*.html"]
+    options:
+      parser: html
+      htmlWhitespaceSensitivity: css
+      printWidth: 100
+      singleQuote: false
+---
+
+# CSS & SCSS
+---
+overrides:
+  - files: ["*.css", "*.scss"]
+    options:
+      parser: css
+      tabWidth: 2
+      singleQuote: false
+      trailingComma: none
+      printWidth: 100
+---
+
+# JavaScript (also site scripts)
+---
+overrides:
+  - files: ["*.js"]
+    options:
+      parser: babel
+      tabWidth: 2
+      trailingComma: es5
+      semi: true
+      singleQuote: false
+      printWidth: 80
+---
