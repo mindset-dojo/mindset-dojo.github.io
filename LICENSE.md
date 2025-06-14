@@ -25,7 +25,7 @@ other material subject to copyright and certain other rights specified in the pu
 license below. The following considerations are for informational purposes only, are 
 not exhaustive, and do not form part of our licenses.
 
-* __Considerations for licensors:__ Our public licenses are intended for use by those 
+- __Considerations for licensors:__ Our public licenses are intended for use by those 
 authorized to give the public permission to use material in ways otherwise restricted 
 by copyright and certain other rights. Our licenses are irrevocable. Licensors should 
 read and understand the terms and conditions of the license they choose before 
@@ -36,7 +36,7 @@ material, or material used under an exception or limitation to copyright. [More
 considerations for licensors](http://wiki.creativecommons.org/
 Considerations_for_licensors_and_licensees#Considerations_for_licensors).
 
-* __Considerations for the public:__ By using one of our public licenses, a licensor 
+- __Considerations for the public:__ By using one of our public licenses, a licensor 
 grants the public permission to use the licensed material under specified terms and 
 conditions. If the licensor’s permission is not necessary for any reason–for example, 
 because of any applicable exception or limitation to copyright–then that use is not 
