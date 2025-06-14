@@ -1,115 +1,67 @@
 ---
-# -------------------------------------------------------------------
 # .github/linters/.yamllint.yml
-#
-# Custom yamllint configuration for Mindset Dojo Jekyll site.
-# This file extends yamllint's default ruleset, adjusting
-# those rules that best suit a Jekyll project with front-matter.
-# -------------------------------------------------------------------
+# Minimal yamllint config for Mindset Dojo to avoid conflicts with Prettier
 
-# 1. Inherit from the default yamllint configuration
 extends: default
 
-# 2. Define which file extensions to check
 yaml-files:
   - '*.yml'
   - '*.yaml'
   - '_config.yml'
-  - '*/_config.yml'
   - '_data/**/*.yml'
-  - '_includes/**/*.html'     # Jekyll includes may contain front-matter-like YAML
-  - '_posts/**/*.md'          # Markdown posts with front-matter
+  - '_posts/**/*.md'
 
-# 3. Lint rules and their custom settings
 rules:
-  # 3.1 Indentation: always 2 spaces, including block sequences
+  # Structural safety checks only
   indentation:
     spaces: 2
-    indent-sequences: consistent   # enforce same level for lists
-    check-multi-lines: true
     level: error
 
-  # 3.2 Line length: warn if >120 characters (allows URLs, long metadata)
-  line-length:
-    max: 120
-    level: warning
-
-  # 3.3 Key duplication: never allow duplicate keys
   key-duplicates:
     level: error
 
-  # 3.4 Key ordering: disable, as Jekyll's natural ordering might differ
-  key-ordering:
-    level: disable
-
-  # 3.5 Document start: disable because Jekyll front-matter always uses '---'
-  document-start:
-    level: disable
-
-  # 3.6 Document end: warn if missing newline at end-of-file
   document-end:
     level: warning
 
-  # 3.7 Empty lines: enable checks around too many or too few blank lines
-  empty-lines:
-    max: 2         # no more than 2 consecutive blank lines
-    level: warning
-
-  # 3.8 Empty values: disable, Jekyll front-matter often leaves fields blank
-  empty-values:
-    level: disable
-
-  # 3.9 Colons: ensure proper spacing after key colons
-  colons:
-    max-spaces-before: 0
-    max-spaces-after: 1
-    level: error
-
-  # 3.10 Commas: ensure consistent spacing in inline sequences
-  commas:
-    max-spaces-before: 0
-    max-spaces-after: 1
-    level: warning
-
-  # 3.11 Brackets: ensure inline mappings/lists are well-formed
-  brackets:
-    max-spaces-inside-square-brackets: 1
-    max-spaces-inside-curly-brackets: 1
-    level: warning
-
-  # 3.12 Comments: treat missing comments about complex sections as warnings
-  comments:
-    min-spaces-before: 1   # at least one space after '#'
-    level: warning
-
-  # 3.13 Comments indentation: warn if comment is not aligned
-  comments-indentation:
-    spaces: 1
-    level: warning
-
-  # 3.14 Trailing spaces: warn to keep diffs clean
-  trailing-spaces:
-    level: warning
-
-  # 3.15 Truthy/Falsey: warn if using YAML keywords like 'yes'/'no' instead of 'true'/'false'
-  truthy:
-    level: warning
-
-  # 3.16 Anchors & Aliases
-  anchors:
-    forbid-undeclared-aliases: true    # catch typos in alias names
-    forbid-duplicated-anchors: false   # Jekyll anchors rarely needed; keep disabled
-    forbid-unused-anchors: false       # Anchors are seldom used in front-matter; disable
-    level: error
-
-  # 3.17 Hyphens: ensure dashes in lists are followed by a space
   hyphens:
     max-spaces-after: 1
     level: error
 
-  # 3.18 New lines at EOF: warning if missing final newline
-  new-lines:
-    max: 1
-    level: warning
+  anchors:
+    forbid-undeclared-aliases: true
+    level: error
 
-# 4. End of configuration
+  # Disable any formatting/style rules that Prettier already covers:
+  line-length:
+    level: disable
+
+  trailing-spaces:
+    level: disable
+
+  empty-lines:
+    level: disable
+
+  comments:
+    level: disable
+
+  truthy:
+    level: disable
+
+  colons:
+    level: disable
+
+  commas:
+    level: disable
+
+  brackets:
+    level: disable
+
+  key-ordering:
+    level: disable
+
+  document-start:
+    level: disable
+
+  empty-values:
+    level: disable
+---
