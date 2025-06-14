@@ -13,7 +13,7 @@ Creative Commons Corporation (“Creative Commons”) is not a law firm and does
 provide legal services or legal advice. Distribution of Creative Commons public
 licenses does not create a lawyer-client or other relationship. Creative Commons
 makes its licenses and related information available on an “as-is” basis. Creative
-Commons gives no warranties regarding its licenses, any material licensed under their 
+Commons gives no warranties regarding its licenses, any material licensed under their
 terms and conditions, or any related information. Creative Commons disclaims all
 liability for damages resulting from their use to the fullest extent possible.
 
@@ -38,7 +38,7 @@ Considerations_for_licensors_and_licensees#Considerations_for_licensors).
 
 - **Considerations for the public:** By using one of our public licenses, a licensor
 grants the public permission to use the licensed material under specified terms and
-conditions. If the licensor’s permission is not necessary for any reason–for example, 
+conditions. If the licensor’s permission is not necessary for any reason–for example,
 because of any applicable exception or limitation to copyright–then that use is not
 regulated by the license. Our licenses grant only permissions under copyright and
 certain other rights that a licensor has authority to grant. Use of the licensed
@@ -56,7 +56,7 @@ by the terms and conditions of this Creative Commons Attribution-ShareAlike 4.0
 International Public License ("Public License"). To the extent this Public License
 may be interpreted as a contract, You are granted the Licensed Rights in
 consideration of Your acceptance of these terms and conditions, and the Licensor
-grants You such rights in consideration of benefits the Licensor receives from making 
+grants You such rights in consideration of benefits the Licensor receives from making
 the Licensed Material available under these terms and conditions.
 
 ### Section 1 – Definitions.
@@ -335,7 +335,7 @@ c. No term or condition of this Public License will be waived and no failure to
 comply consented to unless expressly agreed to by the Licensor.
 
 d. Nothing in this Public License constitutes or may be interpreted as a limitation
-upon, or waiver of, any privileges and immunities that apply to the Licensor or You, 
+upon, or waiver of, any privileges and immunities that apply to the Licensor or You,
 including from the legal processes of any jurisdiction or authority.
 
 > Creative Commons is not a party to its public licenses. Notwithstanding, Creative
