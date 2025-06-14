@@ -5,8 +5,7 @@ description: Privacy Policy
 css_id: privacy-policy
 ---
 
-# Privacy Policy
----
+
 
 ## Introduction
 
