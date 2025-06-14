@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-prettier/recommended"
+  ],
+  "rules": {
+    "block-no-empty": true,
+    "color-no-invalid-hex": true,
+    "declaration-no-important": true,
+    "no-descending-specificity": null,
+    "prettier/prettier": true
+  }
+}
