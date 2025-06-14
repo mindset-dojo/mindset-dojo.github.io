@@ -32,7 +32,8 @@ read and understand the terms and conditions of the license they choose before
 applying it. Licensors should also secure all rights necessary before applying our
 licenses so that the public can reuse the material as expected. Licensors should
 clearly mark any material not subject to the license. This includes other CC-licensed
-material, or material used under an exception or limitation to copyright. [More considerations for licensors]<http://wiki.creativecommons.org/Considerations_for_licensors_and_licensees#Considerations_for_licensors>.
+material, or material used under an exception or limitation to copyright.
+[More considerations for licensors](<http://wiki.creativecommons.org/Considerations_for_licensors_and_licensees#Considerations_for_licensors>).
 
 - **Considerations for the public:** By using one of our public licenses, a licensor
 grants the public permission to use the licensed material under specified terms and
@@ -43,7 +44,8 @@ certain other rights that a licensor has authority to grant. Use of the licensed
 material may still be restricted for other reasons, including because others have
 copyright or other rights in the material. A licensor may make special requests, such
 as asking that all changes be marked or described. Although not required by our
-licenses, you are encouraged to respect those requests where reasonable. [More considerations for the public]<http://wiki.creativecommons.org/Considerations_for_licensors_and_licensees#Considerations_for_licensees>.
+licenses, you are encouraged to respect those requests where reasonable.
+[More considerations for the public](<http://wiki.creativecommons.org/Considerations_for_licensors_and_licensees#Considerations_for_licensees>).
 
 ## Creative Commons Attribution-ShareAlike 4.0 International Public License
 
