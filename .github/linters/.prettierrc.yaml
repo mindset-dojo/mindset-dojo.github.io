@@ -1,6 +1,5 @@
 # Top-level defaults for Prettier across site files
 ---
-logLevel: debug
 trailingComma: es5
 tabWidth: 2
 useTabs: false
