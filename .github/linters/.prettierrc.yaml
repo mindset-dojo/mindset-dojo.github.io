@@ -1,4 +1,4 @@
-# Top-level defaults for all file types
+# Top-level defaults for Prettier across site files
 ---
 trailingComma: es5
 tabWidth: 2
@@ -11,67 +11,67 @@ arrowParens: always
 embeddedLanguageFormatting: auto
 endOfLine: lf
 printWidth: 80
+htmlWhitespaceSensitivity: css
 proseWrap: preserve
 quoteProps: as-needed
-htmlWhitespaceSensitivity: css
 ---
 
-# YAML-specific overrides
+# YAML override
 ---
 overrides:
-  - files: ["*.yml", "*.yaml"]
+  - files: ["*.yaml", "*.yml"]
     options:
       parser: yaml
-      tabWidth: 2
-      singleQuote: false
       printWidth: 120
       trailingComma: none
-      proseWrap: preserve
 ---
 
-# Markdown files (including front-matter)
+# Markdown override
 ---
 overrides:
   - files: ["*.md"]
     options:
       parser: markdown
-      proseWrap: preserve
       printWidth: 100
-      singleQuote: false
 ---
 
-# HTML (layouts and includes with Liquid)
+# HTML override
 ---
 overrides:
-  - files: ["_layouts/**/*.html", "_includes/**/*.html", "*.html"]
+  - files: ["*.html"]
     options:
       parser: html
-      htmlWhitespaceSensitivity: css
       printWidth: 100
-      singleQuote: false
+      htmlWhitespaceSensitivity: css
 ---
 
-# CSS & SCSS
+# CSS & SCSS override
 ---
 overrides:
   - files: ["*.css", "*.scss"]
     options:
       parser: css
-      tabWidth: 2
-      singleQuote: false
-      trailingComma: none
       printWidth: 100
+      trailingComma: none
 ---
 
-# JavaScript (also site scripts)
+# JavaScript override
 ---
 overrides:
   - files: ["*.js"]
     options:
       parser: babel
-      tabWidth: 2
-      trailingComma: es5
-      semi: true
-      singleQuote: false
       printWidth: 80
+      trailingComma: es5
+---
+
+# JSON & JSONC override
+---
+overrides:
+  - files: ["*.json", "*.jsonc"]
+    options:
+      parser: json
+      printWidth: 100
+      trailingComma: none
+      singleQuote: false
 ---
