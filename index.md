@@ -22,7 +22,7 @@ In that flash between stimulus and response…</p>
 <p>Not to collect more insight—<br>
 But to move differently, when it counts.</p>
 
-<blockquote><strong>Through transition, what we need isn’t more insight, but a place to train the new self that’s emerging.</strong></blockquote>
+<blockquote><strong>Through transition, what's needed isn't more insight, but a place to train the emerging new self.</strong></blockquote>
 
 <p>We call this base practice <strong>Self-distillation</strong>: the art of refining how you show up—especially under pressure—by training with what’s already alive in you.</p>
 
