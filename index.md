@@ -22,6 +22,10 @@ In that flash between stimulus and response…</p>
 <p>Not to collect more insight—<br>
 But to move differently, when it counts.</p>
 
+<blockquote><strong>Through transition, what we need isn’t more insight, but a place to train the new self that’s emerging.</strong></blockquote>
+
+<p>We call this base practice <strong>Self-distillation</strong>: the art of refining how you show up—especially under pressure—by training with what’s already alive in you.</p>
+
 <h2>How We Train</h2>
 <ul>
   <li>🥋 We <strong>role play in dynamic conversations</strong>—live and online via <strong>Jitsi Meet</strong>—where pressure, emotion, and timing are real.</li>
