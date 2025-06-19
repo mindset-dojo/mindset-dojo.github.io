@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Don’t Complain. Let's Train.
+title: Don’t Complain. Train.
 description: Mindset Dojo is a global training ground for the inner game of presence, leadership, and emotional clarity. For conversations that matter—across all life arenas.
 css_id: home
 ---
