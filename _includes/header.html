@@ -4,8 +4,24 @@
     </a>
     <nav id="Menu">
         <ul role="menu">
-            <li role="presentation"><a href="./" {% if page.url=="./" %}aria-current="page" {% endif %} role="menuitem">COMMUNITY</a></li>
-            <li role="presentation"><a href="./program" {% if page.url=="./program" %}aria-current="page" {% endif %} role="menuitem">PROGRAM</a></li>
+            <li role="presentation">
+                <a 
+                  href="./"
+                  role="menuitem"
+                  {% if page.url=="./" %}
+                    aria-current="page" 
+                  {% endif %} 
+                >COMMUNITY</a>
+            </li>
+            <li role="presentation">
+                <a 
+                  href="./program"
+                  role="menuitem" 
+                  {% if page.url=="./program" %
+                    aria-current="page" 
+                  {% endif %} 
+                >PROGRAM</a>
+            </li>
         </ul>
         <button aria-label="Menu Toggle" aria-expanded="false" aria-controls="Menu" aria-haspopup="true">
             <span class="bar bar1"></span>
