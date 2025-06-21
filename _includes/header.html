@@ -5,22 +5,18 @@
     <nav id="Menu">
         <ul role="menu">
             <li role="presentation">
-                {% raw %}
                 <a 
                   href="./"
                   role="menuitem"
                   {% include aria_current.html page_url="./" %} 
                 >COMMUNITY</a>
-                {% endraw %}
             </li>
             <li role="presentation">
-                {% raw %}
                 <a 
                   href="./program"
                   role="menuitem" 
                   {% include aria_current.html page_url="./program" %} 
                 >PROGRAM</a>
-                {% endraw %}
             </li>
         </ul>
         <button aria-label="Menu Toggle" aria-expanded="false" aria-controls="Menu" aria-haspopup="true">
