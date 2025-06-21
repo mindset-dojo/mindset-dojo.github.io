@@ -9,9 +9,7 @@
                 <a 
                   href="./"
                   role="menuitem"
-                  {% if page.url=="./" %}
-                    aria-current="page" 
-                  {% endif %} 
+                  {% include aria_current.html href="./" %} 
                 >COMMUNITY</a>
                 {% endraw %}
             </li>
@@ -20,9 +18,7 @@
                 <a 
                   href="./program"
                   role="menuitem" 
-                  {% if page.url=="./program" %
-                    aria-current="page" 
-                  {% endif %} 
+                  {% include aria_current.html href="./program" %} 
                 >PROGRAM</a>
                 {% endraw %}
             </li>
