@@ -21,8 +21,10 @@ permissions:
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+# Allow only one concurrent deployment, 
+# skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want 
+# to allow these production deployments to complete.
 concurrency:
   group: "pages"
   cancel-in-progress: false
@@ -38,9 +40,12 @@ jobs:
         # https://github.com/ruby/setup-ruby/releases/tag/v1.207.0
         uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
         with:
-          ruby-version: '3.1' # Not needed with a .ruby-version file
-          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-          cache-version: 0 # Increment this number if you need to re-download cached gems
+          ruby-version: '3.1' 
+          # Not needed with a .ruby-version file
+          bundler-cache: true 
+          # runs 'bundle install' and caches installed gems automatically
+          cache-version: 0 
+          # Increment this number if you need to re-download cached gems
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
@@ -50,7 +55,8 @@ jobs:
         env:
           JEKYLL_ENV: production
       - name: Upload artifact
-        # Automatically uploads an artifact from the './_site' directory by default
+        # Automatically uploads an artifact from 
+        # the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
 
   # Deployment job
