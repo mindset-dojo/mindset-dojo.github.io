@@ -1,6 +1,6 @@
 {% comment %}
-  Renders an aria-current="page" attribute if current_url matches the page_url parameter
+  If the current page’s URL matches the link’s href, render aria-current.
 {% endcomment %}
-{% if page.url == include.page_url %}
+{% if page.url == include.href %}
   aria-current="page"
 {% endif %}
