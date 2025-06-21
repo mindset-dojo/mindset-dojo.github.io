@@ -1,0 +1,77 @@
+# Top-level defaults for Prettier across site files
+---
+trailingComma: es5
+tabWidth: 2
+useTabs: false
+semi: true
+singleQuote: false
+bracketSpacing: true
+bracketSameLine: false
+arrowParens: always
+embeddedLanguageFormatting: auto
+endOfLine: lf
+printWidth: 80
+htmlWhitespaceSensitivity: css
+proseWrap: preserve
+quoteProps: as-needed
+---
+
+# YAML override
+---
+overrides:
+  - files: ["*.yaml", "*.yml"]
+    options:
+      parser: yaml
+      printWidth: 120
+      trailingComma: none
+---
+
+# Markdown override
+---
+overrides:
+  - files: ["*.md"]
+    options:
+      parser: markdown
+      printWidth: 100
+---
+
+# HTML override
+---
+overrides:
+  - files: ["*.html"]
+    options:
+      parser: html
+      printWidth: 100
+      htmlWhitespaceSensitivity: css
+---
+
+# CSS & SCSS override
+---
+overrides:
+  - files: ["*.css", "*.scss"]
+    options:
+      parser: css
+      printWidth: 100
+      trailingComma: none
+---
+
+# JavaScript override
+---
+overrides:
+  - files: ["*.js"]
+    options:
+      parser: babel
+      printWidth: 80
+      trailingComma: es5
+---
+
+# JSON & JSONC override
+---
+overrides:
+  - files: ["*.json", "*.jsonc"]
+    options:
+      parser: json
+      printWidth: 100
+      trailingComma: none
+      singleQuote: false
+---
