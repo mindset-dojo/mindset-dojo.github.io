@@ -2,6 +2,7 @@
 	<nav>
 		<ul role="menu">
 			<li role="presentation">
+				{% raw %}
 				<a 
 				  href="./"
 				  role="menuitem"
@@ -9,8 +10,10 @@
 				    aria-current="page" 
 				  {% endif %} 
 				>COMMUNITY</a>
+				{% endraw %}
 			</li>
 			<li role="presentation">
+				{% raw %}
 				<a 
 				  href="./program" 
 				  role="menuitem"
@@ -18,6 +21,7 @@
 				    aria-current="page" 
 			      {% endif %} 
 				>PROGRAM</a>
+				{% endraw %}
 			</li>
 			<li role="presentation"><a href="{{site.connect_url}}" target="_blank" role="menuitem">CONTACT</a></li>
 		</ul>
@@ -28,6 +32,7 @@
 				<p>© 2025 Mindset Dojo</p>
 			</li>
 			<li role="presentation">
+				{% raw %}
 				<a 
 				  href="./privacy-policy" 
 				  role="menuitem"
@@ -35,8 +40,10 @@
 				    aria-current="page" 
 				  {% endif %} 
 				>Privacy Policy</a>
+				{% endraw %}
 			</li>
 			<li role="presentation">
+				{% raw %}
 				<a 
 				  href="./license"
 				  role="menuitem" 
@@ -44,6 +51,7 @@
 				    aria-current="page" 
 				  {% endif %} 
 				>Open Source License</a>
+				{% endraw %}
 			</li>
 		</ul>
 	</nav>
