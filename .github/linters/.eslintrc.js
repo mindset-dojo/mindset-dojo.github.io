@@ -1,52 +1,34 @@
 // .eslintrc.js
 module.exports = {
   root: true,
-  env: {
-    browser: true,
-    es2021: true,
-    node: true
-  },
-  parserOptions: {
-    ecmaVersion: 12,
-    sourceType: "module"
-  },
-  plugins: [
-    "md",
-    "jsonc"
-  ],
+  env: { browser: true, es2021: true, node: true },
+  parserOptions: { ecmaVersion: 12, sourceType: "module" },
+  plugins: ["md", "jsonc"],
   extends: [
     "eslint:recommended",
-    "plugin:prettier/recommended",           // runs Prettier as an ESLint rule
-    "plugin:jsonc/recommended-with-jsonc",    // JSONC core rules
-    "plugin:jsonc/prettier"                  // turn off JSON rules conflicting with Prettier
+    "plugin:jsonc/recommended-with-jsonc",
+    "plugin:md/recommended"
   ],
   overrides: [
-    // Markdown code-block linting
     {
       files: ["*.md"],
-      plugins: ["md"],
-      extends: ["plugin:md/recommended"],
-      rules: {
-        // you can add or tweak markdown-specific rules here
-      }
+      processor: "markdown/markdown"
     },
-
-    // JSON / JSONC linting
     {
       files: ["*.json", "*.jsonc"],
       parser: "jsonc-eslint-parser",
       rules: {
-        "jsonc/auto": "error",         // catch structural problems
-        "jsonc/no-comment": "off"      // allow comments in JSONC
+        "jsonc/auto": "error",
+        "jsonc/no-comment": "off"
       }
     }
   ],
   rules: {
-    // JavaScript quality rules
+    "indent": ["error", 2],
+    "quotes": ["error", "double"],
+    "semi": ["error", "always"],
+    "max-len": ["error", { code: 80, ignoreUrls: true }],
     "no-unused-vars": ["warn", { argsIgnorePattern: "^_" }],
-    "no-console": ["warn", { allow: ["warn", "error"] }],
-
-    // Prettier formatting enforcement
-    "prettier/prettier": "error"
+    "no-console": ["warn", { allow: ["warn", "error"] }]
   }
 };
