@@ -1,8 +1,10 @@
 {
   "default": true,
-  "line-length": false,
-  "MD013": false,
-  "MD041": false,
-  "MD033": { "allowed_elements": ["br"] },
-  "MD032": false
+  "MD013": { "line_length": 100, "severity": "error" },
+  "MD041": { "level": "error" },
+  "MD022": { "lines": 1, "level": "error" },
+  "MD029": { "style": "ordered", "level": "error" },
+  "MD032": { "level": "error" },
+  "MD033": { "allowed_elements": ["br"], "level": "warning" },
+  "MD034": false
 }
