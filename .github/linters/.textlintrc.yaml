@@ -1,24 +1,13 @@
----
-# textlint config — focuses on clarity and consistency in prose
-
 rules:
-  # Basic writing hygiene
-  no-todo: true            # disallow "TODO" in content
-  no-dead-link: true       # warns on broken links (requires plugin)
+  no-todo: true
+  no-dead-link: true
   max-length:
-    max: 120               # line length cap
-    severity: warning
-  max-ten: true            # discourage “very” >10 times
-  no-space-around-heading-text: true
-  heading-start-left: true # headings must start with text
-
-  # Enhance Markdown/HTML consistency
+    max: 120
+    severity: error
   sentence-length:
     max: 120
-    severity: warning
+    severity: error
   list-item-spacing: true
   no-consecutive-blank-lines: true
-
-  # Reduce stylistic conflicts with Prettier
-  period-in-list-item: false           # handled by formatter
-  no-mixed-full-width-half-width-spaces: false
+  no-mixed-full-width-half-width-spaces: true
+  period-in-list-item: true
