@@ -9,7 +9,9 @@
   "style-disabled": true,
   "inline-style-disabled": true,
   "inline-script-disabled": true,
-  "id-class-value": false,
   "attr-no-duplication": true,
-  "title-require": true
+  "title-require": true,
+  "indent-width": 2,
+  "line-length": { "value": 100, "level": "error" },
+  "attr-value-not-empty": true
 }
