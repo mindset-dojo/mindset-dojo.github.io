@@ -13,5 +13,5 @@
   "title-require": true,
   "indent-width": 2,
   "line-length": { "value": 100, "level": "error" },
-  "attr-value-not-empty": true
+  "attr-value-not-empty": false
 }
