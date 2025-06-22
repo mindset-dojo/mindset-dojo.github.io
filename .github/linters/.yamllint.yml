@@ -1,7 +1,3 @@
----
-# .github/linters/.yamllint.yml
-# Minimal yamllint config for Mindset Dojo to avoid conflicts with Prettier
-
 extends: default
 
 yaml-files:
@@ -12,16 +8,17 @@ yaml-files:
   - '_posts/**/*.md'
 
 rules:
-  # Structural safety checks only
   indentation:
     spaces: 2
+    indent-sequences: consistent
+    level: error
+
+  line-length:
+    max: 120
     level: error
 
   key-duplicates:
     level: error
-
-  document-end:
-    level: warning
 
   hyphens:
     max-spaces-after: 1
@@ -29,39 +26,48 @@ rules:
 
   anchors:
     forbid-undeclared-aliases: true
+    forbid-duplicated-anchors: true
+    forbid-unused-anchors: true
     level: error
 
-  # Disable any formatting/style rules that Prettier already covers:
-  line-length:
-    level: disable
-
+  # Enable all stylistic rules
   trailing-spaces:
-    level: disable
-
-  empty-lines:
-    level: disable
+    level: error
 
   comments:
-    level: disable
+    min-spaces-before: 1
+    level: warning
 
-  truthy:
-    level: disable
-
-  colons:
-    level: disable
-
-  commas:
-    level: disable
-
-  brackets:
-    level: disable
-
-  key-ordering:
-    level: disable
-
-  document-start:
-    level: disable
+  empty-lines:
+    max: 2
+    level: warning
 
   empty-values:
-    level: disable
----
+    level: error
+
+  colons:
+    max-spaces-before: 0
+    max-spaces-after: 1
+    level: error
+
+  commas:
+    max-spaces-before: 0
+    max-spaces-after: 1
+    level: error
+
+  brackets:
+    max-spaces-inside-square-brackets: 1
+    max-spaces-inside-curly-brackets: 1
+    level: error
+
+  truthy:
+    level: error
+
+  key-ordering:
+    level: warning
+
+  document-start:
+    level: warning
+
+  document-end:
+    level: warning
