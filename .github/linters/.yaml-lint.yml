@@ -35,7 +35,7 @@ rules:
     level: error
 
   comments:
-    min-spaces-before: 1
+    min-spaces-from-content: 1
     level: warning
 
   empty-lines:
