@@ -56,8 +56,7 @@ rules:
     level: error
 
   brackets:
-    max-spaces-inside-square-brackets: 1
-    max-spaces-inside-curly-brackets: 1
+    max-spaces-inside-empty: 1
     level: error
 
   truthy:
