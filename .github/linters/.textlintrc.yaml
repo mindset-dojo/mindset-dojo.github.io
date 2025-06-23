@@ -12,3 +12,4 @@ rules:
   sentence-length:
     max: 120
     severity: error
+...
