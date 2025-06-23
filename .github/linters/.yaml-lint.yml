@@ -56,7 +56,7 @@ rules:
     level: error
 
   key-ordering:
-    level: warning
+    level: disable
 
   line-length:
     max: 120
