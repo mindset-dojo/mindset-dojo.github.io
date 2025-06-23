@@ -1,3 +1,4 @@
+---
 rules:
   no-todo: true
   no-dead-link: true
