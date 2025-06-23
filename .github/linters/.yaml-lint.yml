@@ -74,3 +74,4 @@ yaml-files:
   - '_config.yml'
   - '_data/**/*.yml'
   - '_posts/**/*.md'
+...
