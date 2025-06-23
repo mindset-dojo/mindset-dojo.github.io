@@ -59,6 +59,10 @@ rules:
     max-spaces-inside-empty: 1
     level: error
 
+  braces:
+    max-spaces-inside-empty: 1
+    level: error
+
   truthy:
     level: error
 
