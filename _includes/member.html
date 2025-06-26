@@ -1,5 +1,5 @@
-{%- assign key = member.profile_picture_key -%}
-{%- assign b64 = site.data.profile_pictures[key] -%}
+{% assign raw = site.data.profile_pictures[member.profile_picture_key] %}
+{% assign b64 = raw | strip_newlines | strip %}
 <img
   src="data:image/png;base64,{{ b64 }}"
   width="100"
