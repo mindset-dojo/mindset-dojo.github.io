@@ -50,36 +50,7 @@ It’s not just coaching.</p>
     {% assign level_members = members | where: "belt_level", level.level" %}
     {% assign level_members = level_members | sort: "join_date" %}
     {% for member in level_members %}
-      <section>
-        <img src="{{ member.profile_picture }}" width="100" height="100" alt="{{ member.name }}" />
-        <h2>{{ member.name }}</h2>
-
-        {% if member.linkedin or member.belt_level %}
-        <div class="md-group">
-          {% if member.linkedin %}
-            <a href="{{ member.linkedin }}" target="_blank" aria-label="LinkedIn">
-              {% include icons/linkedin.svg class="md-icon-svg" %}
-            </a>
-          {% endif %}
-
-          {% if member.belt_level %}
-            {% assign level = site.data.belts[member.belt_level] %}
-            {% include icons/belt.svg
-              class="md-belt-svg"
-              color=level.color
-              title=level.label %}
-          {% endif %}
-        </div>
-        {% endif %}
-
-        {% if member.links %}
-        <ul>
-          {% for link in member.links %}
-          <li><a href="{{ link.url }}">{{ link.label }}</a></li>
-          {% endfor %}
-        </ul>
-        {% endif %}
-      </section>
+      
 
     {% endfor %}
 {% endfor %}
