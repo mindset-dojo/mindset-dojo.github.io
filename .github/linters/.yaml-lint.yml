@@ -55,8 +55,7 @@ rules:
   key-duplicates:
     level: error
 
-  key-ordering:
-    level: disable
+  key-ordering: disable
 
   line-length:
     max: 120
