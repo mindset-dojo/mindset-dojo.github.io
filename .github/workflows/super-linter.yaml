@@ -1,4 +1,4 @@
-# yamllint disable-file rule:truthy
+# yamllint disable rule:truthy
 ---
 name: "Super-Linter Check"
 
