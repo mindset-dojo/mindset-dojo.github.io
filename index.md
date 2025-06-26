@@ -50,8 +50,7 @@ It’s not just coaching.</p>
     {% assign level_members = members | where: "belt_level", level.level" %}
     {% assign level_members = level_members | sort: "join_date" %}
     {% for member in level_members %}
-      
-
+      {% include member.html member=member %}
     {% endfor %}
 {% endfor %}
 </div>
