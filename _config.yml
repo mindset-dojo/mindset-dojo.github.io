@@ -12,3 +12,4 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - .github/
+...
