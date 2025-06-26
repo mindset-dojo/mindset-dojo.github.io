@@ -1,7 +1,7 @@
 {% assign raw = site.data.profile_pictures[member.profile_picture_key] %}
 {% assign b64 = raw | strip_newlines | strip %}
 <img
-  src="./data:image/jpeg;base64,{{ b64 }}"
+  src="data:image/jpeg;base64,{{ b64 }}"
   width="100"
   height="100"
   alt="{{ member.name }}"
