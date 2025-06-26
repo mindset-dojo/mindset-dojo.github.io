@@ -1,4 +1,4 @@
-# yamllint disable-file rule:truthy
+# yamllint disable rule:truthy
 ---
 # This workflow uses actions that are not certified by GitHub.
 # They are provided by a third-party and are governed by
