@@ -1,20 +1,19 @@
 ---
-member:
-  name: Michael Basil
-  active: true
-  belt_level: 1
-  join_date: 2019-01-01
-  linkedin: https://www.linkedin.com/in/michaelrbasil
-  links:
-    - label: Inner-Game Lessons
-      url: https://michael-basil.medium.com
-    - label: Artful Conversation
-      url: https://www.youtube.com/watch?v=YF8HEO1phWw
-    - label: Circle Communities
-      url: https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/1-initial/circle-communities.md
-    - label: Professional Journey
-      url: https://michael.basil.one
-    - label: Living Garden
-      url: https://garden.basil.one
-  profile_picture_key: michael-basil
+name: Michael Basil
+active: true
+belt_level: 1
+join_date: 2019-01-01
+linkedin: https://www.linkedin.com/in/michaelrbasil
+links:
+  - label: Inner-Game Lessons
+    url: https://michael-basil.medium.com
+  - label: Artful Conversation
+    url: https://www.youtube.com/watch?v=YF8HEO1phWw
+  - label: Circle Communities
+    url: https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/1-initial/circle-communities.md
+  - label: Professional Journey
+    url: https://michael.basil.one
+  - label: Living Garden
+    url: https://garden.basil.one
+profile_picture_key: michael-basil
 ...
