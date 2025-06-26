@@ -3,7 +3,7 @@ name: "Super-Linter Check"
 
 on:
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
   workflow_dispatch:
 
