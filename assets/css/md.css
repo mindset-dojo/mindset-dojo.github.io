@@ -1,6 +1,6 @@
 @font-face {
     font-display: swap;
-    font-family: "Roboto";
+    font-family: Roboto;
     font-style: normal;
     font-weight: 400;
     src: url("../libs/google/fonts/roboto-v47-latin-regular.woff2") format("woff2");
@@ -8,7 +8,7 @@
 
 @font-face {
     font-display: swap;
-    font-family: "Afacad";
+    font-family: Afacad;
     font-style: normal;
     font-weight: 700;
     src: url('../libs/google/fonts/afacad-v1-latin-700.woff2') format('woff2');
