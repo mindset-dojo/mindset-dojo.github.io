@@ -1,4 +1,4 @@
-function initMD() {
+function initMD () {
     // moblie nav toggle
     var body = document.querySelector("body");
     var nav_menu_toggle = document.querySelector("header button");
