@@ -3,7 +3,7 @@ module.exports = {
   root: true,
   env: { browser: true, es2021: true, node: true },
   parserOptions: { ecmaVersion: 12, sourceType: "module" },
-  plugins: ["md", "jsonc"],
+  plugins: ["markdown", "jsonc"],
   extends: [
     "eslint:recommended",
     "plugin:jsonc/recommended-with-jsonc",
