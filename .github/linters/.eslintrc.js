@@ -7,7 +7,7 @@ module.exports = {
   extends: [
     "eslint:recommended",
     "plugin:jsonc/recommended-with-jsonc",
-    "plugin:eslint-plugin-markdown/recommended"
+    "plugin:markdown/recommended-legacy"
   ],
   overrides: [
     {
