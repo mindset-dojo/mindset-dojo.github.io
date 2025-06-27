@@ -1,0 +1,62 @@
+{
+  "plugins": {
+    "@textlint/markdown": {
+      "extensions": [".md"]
+    }
+  },
+  "filters": {
+    "comments": true
+  },
+  "rules": {
+    "no-todo": {
+      "severity": "warning"
+    },
+    "no-dead-link": {
+      "severity": "warning"
+    },
+    "max-length": {
+      "max": 120,
+      "severity": "warning"
+    },
+    "sentence-length": {
+      "max": 120,
+      "severity": "warning"
+    },
+    "max-ten": {
+      "severity": "warning"
+    },
+    "no-space-around-heading-text": {
+      "severity": "warning"
+    },
+    "heading-start-left": {
+      "severity": "warning"
+    },
+    "list-item-spacing": {
+      "severity": "warning"
+    },
+    "no-consecutive-blank-lines": {
+      "severity": "warning"
+    },
+    "terminology": {
+      "severity": "warning"
+    },
+    "apostrophe": {
+      "severity": "warning"
+    },
+    "diacritics": {
+      "severity": "warning"
+    },
+    "period-in-list-item": false,
+    "no-mixed-full-width-half-width-spaces": false,
+    "@textlint-rule/pattern": {
+      "severity": "warning",
+      "patterns": [
+        {
+          "message": "Use YYYY-MM-DD date format",
+          "pattern": "\\b(\\d{4})\\/(\\d{2})\\/(\\d{2})\\b",
+          "replace": "$1-$2-$3"
+        }
+      ]
+    }
+  }
+}
