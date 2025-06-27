@@ -22,7 +22,7 @@
     --font-style-normal: normal;
     --font-stlye-italic: italic;
     --dark-color-primary: #000;
-    --dark-color-secondary: rgba(33, 33, 33, 0.8);
+    --dark-color-secondary: rgb(33 33 33 / 80%);
     --light-color-primary: #fffff0;
     --light-color-secondary: #bbbbbb;
     --brand-color-primary: #ffbb08;
