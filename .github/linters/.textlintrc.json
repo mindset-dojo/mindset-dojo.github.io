@@ -2,6 +2,9 @@
   "plugins": {
     "@textlint/markdown": {
       "extensions": [".md"]
+    },
+    "html": {
+      "extensions": [".html"]
     }
   },
   "filters": {
