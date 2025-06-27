@@ -20,6 +20,11 @@ module.exports = {
       ]
     }],
 
+    "property-no-vendor-prefix": [true, {
+      ignoreAtRules: ["text-size-adjust"]
+    }],
+
+
     // Formatting & style rules (mirroring stylelintrc.json)
     "indentation": [2, { "ignore": ["inside-parens"] }],                // 2-space indent
     "max-line-length": [100, { "ignore": ["comments", "url"] }],        // wrap at 100 chars
