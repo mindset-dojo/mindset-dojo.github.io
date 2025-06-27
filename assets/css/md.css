@@ -63,14 +63,14 @@
 }
 
 *,
-:after,
-:before,
+::after,
+::before,
 html {
     box-sizing: border-box;
 }
 
-:after,
-:before {
+::after,
+::before {
     outline: none;
 }
 
