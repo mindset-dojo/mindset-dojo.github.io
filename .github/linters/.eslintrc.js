@@ -23,7 +23,7 @@ module.exports = {
     "indent": ["error", 2],
     "quotes": ["error", "double"],
     "semi": ["error", "always"],
-     // default for JS files
+    // default for JS files
     "max-len": ["warn", {
       code: 100,
       tabWidth: 2,
