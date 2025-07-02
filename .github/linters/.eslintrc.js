@@ -22,7 +22,16 @@ module.exports = {
     "indent": ["error", 2],
     "quotes": ["error", "double"],
     "semi": ["error", "always"],
-    "max-len": ["error", { code: 80, ignoreUrls: true }],
+     // default for JS files
+    "max-len": ["warn", {
+      code: 100,
+      tabWidth: 2,
+      ignoreUrls: true,
+      ignoreStrings: true,
+      ignoreTemplateLiterals: true,
+      ignoreRegExpLiterals: true,
+      ignoreComments: true
+    }],
     "no-unused-vars": ["warn", { argsIgnorePattern: "^_" }],
     "no-console": ["warn", { allow: ["warn", "error"] }]
   }
