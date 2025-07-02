@@ -6,6 +6,7 @@ module.exports = {
   plugins: ["jsonc"],
   extends: [
     "eslint:recommended",
+    "plugin:react/recommended",
     "plugin:jsonc/recommended-with-jsonc",
   ],
   overrides: [
