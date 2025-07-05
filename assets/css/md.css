@@ -121,6 +121,15 @@ main ul {
     padding-left: 20px;
 }
 
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 30px;
+}
+
 main ul:last-child,
 main ol:last-child {
     margin-bottom: 0;
@@ -418,15 +427,6 @@ header img {
 nav {
     align-items: center;
     display: inline-flex;
-}
-
-nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    gap: 30px;
 }
 
 nav a {
