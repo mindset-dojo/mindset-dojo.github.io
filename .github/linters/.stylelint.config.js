@@ -38,6 +38,9 @@ module.exports = {
 
     // Reporting
     "reportInvalidScopeDisables": true,
-    "reportNeedlessDisables": true
+    "reportNeedlessDisables": true,
+
+    // Handle vendor prefixes manually
+    "at-rule-no-vendor-prefix": false
   }
 };
