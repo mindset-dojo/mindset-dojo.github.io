@@ -408,7 +408,7 @@ header img {
     width: auto;
 }
 
-@media (max-width: 991px) {
+@media (width <= 991px) {
     header img {
         height: 60px;
     }
