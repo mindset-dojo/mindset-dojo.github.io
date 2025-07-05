@@ -572,7 +572,7 @@ main > blockquote {
     margin-bottom: 40px;
 }
 
-@media (max-width: 767px) {
+@media (width <= 767px) {
     main > blockquote {
         font-size: 24px;
     }
