@@ -275,8 +275,8 @@ hr {
     display: none;
 }
 
-/* Hyperlink buttons */
-/* desktop first: row of buttons with a vertical divider */
+/* Hyperlink buttons 
+   desktop first: row of buttons with a vertical divider */
 .md-cta-group {
     display: flex;
     flex-direction: row;
