@@ -443,7 +443,7 @@ nav a:hover {
     color: var(--nav-text-active-color);
 }
 
-@media (max-width: 767px) {
+@media (width <= 767px) {
     header nav ul {
         display: none;
     }
