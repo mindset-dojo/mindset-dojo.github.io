@@ -41,6 +41,6 @@ module.exports = {
     "reportNeedlessDisables": true,
 
     // Handle vendor prefixes manually
-    "at-rule-no-vendor-prefix": false
+    "property-no-vendor-prefix": false
   }
 };
