@@ -520,7 +520,7 @@ header button .bar4 {
     width: 40px;
 }
 
-@media (max-width: 767px) {
+@media (width <= 767px) {
     header button {
         display: flex;
     }
