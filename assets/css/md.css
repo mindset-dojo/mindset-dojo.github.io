@@ -97,10 +97,6 @@ body {
     line-height: var(--text-m-line-height);
 }
 
-header {
-    background-color: var(--dark-color-primary);
-}
-
 section {
     margin-bottom: 20px;
 }
@@ -392,6 +388,7 @@ header {
     left: 0;
     transition: background-color .2s, transform .4s;
     z-index: 2;
+    background-color: var(--dark-color-primary);
 }
 
 @media (max-width: 767px) {
