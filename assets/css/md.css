@@ -218,6 +218,15 @@ a {
     text-decoration: none;
 }
 
+nav a {
+    display: block;
+    color: var(--nav-text-color);
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    overflow: hidden;
+}
+
 p a:not(header a, footer a),
 ul a:not(header a, footer a) {
     color: var(--brand-color-secondary);
@@ -427,15 +436,6 @@ header img {
 nav {
     align-items: center;
     display: inline-flex;
-}
-
-nav a {
-    display: block;
-    color: var(--nav-text-color);
-    font-size: 18px;
-    font-weight: 700;
-    letter-spacing: 2px;
-    overflow: hidden;
 }
 
 nav a[aria-current="page"],
