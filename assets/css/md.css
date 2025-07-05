@@ -391,7 +391,7 @@ header {
     background-color: var(--dark-color-primary);
 }
 
-@media (max-width: 767px) {
+@media (width <= 767px) {
     header {
         flex-wrap: nowrap;
     }
