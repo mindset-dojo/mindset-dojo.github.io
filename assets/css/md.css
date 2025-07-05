@@ -228,6 +228,31 @@ nav a {
     overflow: hidden;
 }
 
+main > a {
+    margin-top: 20px;
+}
+
+main > a,
+.md-cta-group a {
+    align-items: center;
+    border-width: 0;
+    display: inline-flex;
+    gap: 10px;
+    justify-content: center;
+    letter-spacing: .5px;
+    text-align: center;
+    align-self: center;
+    background-color: var(--button-background-color);
+    transition: all 0.5s ease;
+    border-radius: 36px;
+    color: var(--button-text-color);
+    font-weight: 700;
+    font-style: italic;
+    padding: 16px 40px;
+    width: 100%;
+    max-width: 328px;
+}
+
 p a:not(header a, footer a),
 ul a:not(header a, footer a) {
     color: var(--brand-color-secondary);
@@ -576,31 +601,6 @@ body > footer {
     main > blockquote {
         font-size: 24px;
     }
-}
-
-main > a {
-    margin-top: 20px;
-}
-
-main > a,
-.md-cta-group a {
-    align-items: center;
-    border-width: 0;
-    display: inline-flex;
-    gap: 10px;
-    justify-content: center;
-    letter-spacing: .5px;
-    text-align: center;
-    align-self: center;
-    background-color: var(--button-background-color);
-    transition: all 0.5s ease;
-    border-radius: 36px;
-    color: var(--button-text-color);
-    font-weight: 700;
-    font-style: italic;
-    padding: 16px 40px;
-    width: 100%;
-    max-width: 328px;
 }
 
 main > a:hover {
