@@ -20,7 +20,8 @@ module.exports = {
       ]
     }],
 
-    "property-no-vendor-prefix": [true, {
+    // Handle vendor prefixes manually
+    "property-no-vendor-prefix": [false, {
       ignoreAtRules: ["text-size-adjust"]
     }],
 
@@ -40,7 +41,5 @@ module.exports = {
     "reportInvalidScopeDisables": true,
     "reportNeedlessDisables": true,
 
-    // Handle vendor prefixes manually
-    "property-no-vendor-prefix": false
   }
 };
