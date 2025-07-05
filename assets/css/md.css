@@ -332,6 +332,14 @@ hr {
     }
 }
 
+main > blockquote {
+    padding-left: 32px;
+    border-left: solid 8px;
+    border-left-color: var(--brand-color-primary);
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
 section.md-grid-2 blockquote,
 section.md-grid-3 blockquote {
     border-radius: 24px;
@@ -562,14 +570,6 @@ body > footer {
     padding-left: var(--site-padding);
     max-width: var(--site-width);
     width: 100%;
-}
-
-main > blockquote {
-    padding-left: 32px;
-    border-left: solid 8px;
-    border-left-color: var(--brand-color-primary);
-    margin-top: 20px;
-    margin-bottom: 40px;
 }
 
 @media (width <= 767px) {
