@@ -309,7 +309,7 @@ hr {
     grid-gap: 24px;
 }
 
-@media (max-width: 767px) {
+@media (width <= 767px) {
     section.md-grid-2,
     section.md-grid-3 {
         grid-template-columns: 1fr;
