@@ -286,7 +286,7 @@ hr {
 }
 
 /* mobile: stack the buttons */
-@media (max-width: 576px) {
+@media (width <= 576px) {
   .md-cta-group {
     flex-direction: column;    /* stack them */
   }
