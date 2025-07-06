@@ -661,7 +661,7 @@ footer img {
     width: 60%;
     position: fixed;
     opacity: 0.08;
-    bottom: 0px;
+    bottom: 0;
     left: 50%;
     transform: translateX(-50%);
     object-position: 0;
