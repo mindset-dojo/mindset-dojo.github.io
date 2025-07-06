@@ -724,8 +724,8 @@ footer nav + nav {
     gap: 8px 24px;
 }
 
-footer nav + nav,
-footer nav + nav a {
+:where(footer nav + nav,
+footer nav + nav a) {
     letter-spacing: normal;
 }
 
