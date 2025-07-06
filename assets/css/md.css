@@ -720,9 +720,8 @@ footer nav + nav {
     margin-bottom: 24px;
     display: flex;
     flex-direction: row;
-    column-gap: 24px;
     justify-content: center;
-    row-gap: 8px;
+    gap: 8px 24px;
 }
 
 footer nav + nav,
