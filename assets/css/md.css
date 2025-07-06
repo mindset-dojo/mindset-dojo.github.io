@@ -660,7 +660,7 @@ main > a:hover {
 footer img {
     width: 60%;
     position: fixed;
-    opacity: 8%;
+    opacity: 0.08;
     bottom: 0px;
     left: 50%;
     transform: translateX(-50%);
