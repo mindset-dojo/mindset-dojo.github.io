@@ -657,6 +657,17 @@ main > a:hover {
     font-size: 14px;
 }
 
+footer img {
+    width: 60%;
+    position: fixed;
+    opacity: 8%;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    object-position: 0;
+    z-index: -1;
+}
+
 .md-members section > img {
     width: 100px;
     height: 100px;
@@ -732,17 +743,6 @@ footer nav + nav {
     flex-direction: row;
     justify-content: center;
     gap: 8px 24px;
-}
-
-footer img {
-    width: 60%;
-    position: fixed;
-    opacity: 8%;
-    bottom: 0px;
-    left: 50%;
-    transform: translateX(-50%);
-    object-position: 0;
-    z-index: -1;
 }
 
 /* [PROGRAM PAGE CENTERING] */
