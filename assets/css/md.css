@@ -228,17 +228,6 @@ nav a {
     overflow: hidden;
 }
 
-main > a {
-    margin-top: 20px;
-}
-
-p a:not(header a, footer a),
-ul a:not(header a, footer a) {
-    color: var(--brand-color-secondary);
-    font-style: var(--font-stlye-italic);
-    border-bottom: 2px dotted var(--brand-color-secondary);
-}
-
 main > a, 
 .md-cta-group a {
     align-items: center;
@@ -258,6 +247,14 @@ main > a,
     padding: 16px 40px;
     width: 100%;
     max-width: 328px;
+    margin-top: 20px;
+}
+
+p a:not(header a, footer a),
+ul a:not(header a, footer a) {
+    color: var(--brand-color-secondary);
+    font-style: var(--font-stlye-italic);
+    border-bottom: 2px dotted var(--brand-color-secondary);
 }
 
 img {
