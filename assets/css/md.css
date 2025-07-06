@@ -131,6 +131,11 @@ nav ul {
     gap: 30px;
 }
 
+body > footer nav ul {
+    justify-content: center;
+    gap: 14px 0;
+}
+
 main ul:last-child,
 main ol:last-child {
     margin-bottom: 0;
@@ -727,11 +732,6 @@ footer nav + nav {
     flex-direction: row;
     justify-content: center;
     gap: 8px 24px;
-}
-
-body > footer nav ul {
-    justify-content: center;
-    gap: 14px 0;
 }
 
 footer img {
