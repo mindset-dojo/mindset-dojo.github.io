@@ -779,7 +779,7 @@ footer nav + nav {
 }
 
 /* Responsive tweaks for small screens */
-@media (max-width: 600px) {
+@media (width <= 600px) {
     #program section {
         padding: 1rem 0.5rem;
     }
