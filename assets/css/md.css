@@ -664,7 +664,7 @@ main > a:hover {
     display: inline;
 }
 
-.md-members section h2 + ul li:not(:last-of-type):after {
+.md-members section h2 + ul li::not(::last-of-type)::after {
     content: ", ";
 }
 
