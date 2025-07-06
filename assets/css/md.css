@@ -249,6 +249,13 @@ main > a {
     margin-top: 20px;
 }
 
+p a:not(header a, footer a),
+ul a:not(header a, footer a) {
+    color: var(--brand-color-secondary);
+    font-style: var(--font-stlye-italic);
+    border-bottom: 2px dotted var(--brand-color-secondary);
+}
+
 .md-cta-group a {
     align-items: center;
     border-width: 0;
@@ -267,13 +274,6 @@ main > a {
     padding: 16px 40px;
     width: 100%;
     max-width: 328px;
-}
-
-p a:not(header a, footer a),
-ul a:not(header a, footer a) {
-    color: var(--brand-color-secondary);
-    font-style: var(--font-stlye-italic);
-    border-bottom: 2px dotted var(--brand-color-secondary);
 }
 
 img {
