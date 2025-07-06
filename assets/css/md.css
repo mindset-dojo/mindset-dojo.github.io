@@ -604,8 +604,8 @@ main > a:hover {
     background-color: var(--button-background-hover-color);
 }
 
-/* [PAGE SPECIFIC] */
-/* [HOME | COMMUNITY] */
+/* [PAGE SPECIFIC] 
+ [HOME | COMMUNITY] */
 #home main {
     max-width: 800px;
 }
