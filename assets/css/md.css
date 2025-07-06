@@ -610,6 +610,13 @@ main > a:hover {
     max-width: 800px;
 }
 
+.md-members section h2 + ul {
+    text-align: center;
+    align-self: center;
+    margin-bottom: 12px;
+    padding: 0;
+}
+
 #home ul {
   list-style: none;
   padding-left: 0;
@@ -648,13 +655,6 @@ main > a:hover {
 
 .md-members section h2 {
     font-size: var(--h4);
-}
-
-.md-members section h2 + ul {
-    text-align: center;
-    align-self: center;
-    margin-bottom: 12px;
-    padding: 0;
 }
 
 .md-members section h2 + ul li {
