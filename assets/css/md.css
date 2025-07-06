@@ -715,6 +715,11 @@ body > footer {
     margin-top: auto;
 }
 
+:where(footer nav + nav,
+footer nav + nav a) {
+    letter-spacing: normal;
+}
+
 footer nav + nav {
     margin-top: 24px;
     margin-bottom: 24px;
@@ -722,11 +727,6 @@ footer nav + nav {
     flex-direction: row;
     justify-content: center;
     gap: 8px 24px;
-}
-
-:where(footer nav + nav,
-footer nav + nav a) {
-    letter-spacing: normal;
 }
 
 body > footer nav ul {
