@@ -230,7 +230,6 @@ nav a {
 
 /* zero specificity: applies to both main>a and .md-cta-group a */
 :where(main > a, .md-cta-group a) {
-  margin-top: 20px;
   align-items: center;
   border-width: 0;
   display: inline-flex;
@@ -250,25 +249,7 @@ nav a {
   max-width: 328px;
 }
 
-main > a, 
-.md-cta-group a {
-    align-items: center;
-    border-width: 0;
-    display: inline-flex;
-    gap: 10px;
-    justify-content: center;
-    letter-spacing: .5px;
-    text-align: center;
-    align-self: center;
-    background-color: var(--button-background-color);
-    transition: all 0.5s ease;
-    border-radius: 36px;
-    color: var(--button-text-color);
-    font-weight: 700;
-    font-style: italic;
-    padding: 16px 40px;
-    width: 100%;
-    max-width: 328px;
+main > a {
     margin-top: 20px;
 }
 
