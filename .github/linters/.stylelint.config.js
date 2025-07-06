@@ -22,7 +22,7 @@ module.exports = {
 
     // Handle vendor prefixes manually
     "property-no-vendor-prefix": [false, {
-      ignoreAtRules: ["text-size-adjust"]
+      ignoreAtRules: []
     }],
 
 
