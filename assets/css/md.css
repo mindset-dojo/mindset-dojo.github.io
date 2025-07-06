@@ -253,6 +253,12 @@ main > a {
     margin-top: 20px;
 }
 
+footer nav a {
+    font-size: 14px;
+    margin-right: 14px;
+    margin-left: 14px;
+}
+
 p a:not(header a, footer a),
 ul a:not(header a, footer a) {
     color: var(--brand-color-secondary);
@@ -707,12 +713,6 @@ body > footer {
     padding-bottom: 40px;
     border-top: 2px solid var(--border-dark-color);
     margin-top: auto;
-}
-
-footer nav a {
-    font-size: 14px;
-    margin-right: 14px;
-    margin-left: 14px;
 }
 
 footer nav + nav {
