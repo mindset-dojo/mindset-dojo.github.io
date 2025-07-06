@@ -21,9 +21,7 @@ module.exports = {
     }],
 
     // Handle vendor prefixes manually
-    "property-no-vendor-prefix": [false, {
-      ignoreAtRules: []
-    }],
+    "property-no-vendor-prefix": false,
 
 
     // Formatting & style rules (mirroring stylelintrc.json)
