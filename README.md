@@ -1,5 +1,5 @@
 # 🥋 Mindset Dojo
 
-Start your exploration at <https://dojo.center>
+⛩️ https://mindset.dojo.center
 
-Please respect the [LICENSE](LICENSE.md)
+Respect: [LICENSE](LICENSE.md)
