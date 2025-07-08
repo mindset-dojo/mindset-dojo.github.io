@@ -1,5 +1,5 @@
 # 🥋 Mindset Dojo
 
-⛩️ https://mindset.dojo.center
+⛩️ <https://mindset.dojo.center>
 
 Respect: [LICENSE](LICENSE.md)
