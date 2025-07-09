@@ -1,0 +1,76 @@
+---
+extends: default
+
+rules:
+  anchors:
+    forbid-undeclared-aliases: true
+    forbid-duplicated-anchors: true
+    forbid-unused-anchors: true
+    level: error
+
+  braces:
+    max-spaces-inside-empty: 1
+    level: error
+
+  brackets:
+    max-spaces-inside-empty: 1
+    level: error
+
+  colons:
+    max-spaces-before: 0
+    max-spaces-after: 1
+    level: error
+
+  commas:
+    max-spaces-before: 0
+    max-spaces-after: 1
+    level: error
+
+  comments:
+    min-spaces-from-content: 1
+    level: warning
+
+  document-end:
+    level: warning
+
+  document-start:
+    level: warning
+
+  empty-lines:
+    max: 2
+    level: warning
+
+  empty-values:
+    level: error
+
+  hyphens:
+    max-spaces-after: 1
+    level: error
+
+  indentation:
+    spaces: 2
+    indent-sequences: consistent
+    level: error
+
+  key-duplicates:
+    level: error
+
+  key-ordering: disable
+
+  line-length:
+    max: 120
+    level: error
+
+  trailing-spaces:
+    level: error
+
+  truthy:
+    level: error
+
+yaml-files:
+  - '*.yml'
+  - '*.yaml'
+  - '_config.yml'
+  - '_data/**/*.yml'
+  - '_posts/**/*.md'
+...

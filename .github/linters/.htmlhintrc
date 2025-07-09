@@ -1,0 +1,17 @@
+{
+  "tag-pair": true,
+  "attr-lowercase": true,
+  "attr-value-double-quotes": true,
+  "doctype-first": false,
+  "id-unique": true,
+  "img-alt-require": true,
+  "href-abs-or-rel": true,
+  "style-disabled": true,
+  "inline-style-disabled": true,
+  "inline-script-disabled": true,
+  "attr-no-duplication": true,
+  "title-require": true,
+  "indent-width": 2,
+  "line-length": { "value": 100, "level": "error" },
+  "attr-value-not-empty": false
+}

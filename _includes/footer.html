@@ -1,8 +1,20 @@
 <footer>
 	<nav>
 		<ul role="menu">
-			<li role="presentation"><a href="./" {% if page.url=="./" %}aria-current="page" {% endif %} role="menuitem">COMMUNITY</a></li>
-			<li role="presentation"><a href="./program" {% if page.url=="./program" %}aria-current="page" {% endif %} role="menuitem">PROGRAM</a></li>
+			<li role="presentation">
+				<a 
+				  href="./"
+				  role="menuitem"
+				  {% include aria_current.html page_url="./" %}
+				>COMMUNITY</a>
+			</li>
+			<li role="presentation">
+				<a 
+				  href="./program" 
+				  role="menuitem"
+				  {% include aria_current.html page_url="./program" %}
+				>PROGRAM</a>
+			</li>
 			<li role="presentation"><a href="{{site.connect_url}}" target="_blank" role="menuitem">CONTACT</a></li>
 		</ul>
 	</nav>
@@ -12,10 +24,18 @@
 				<p>© 2025 Mindset Dojo</p>
 			</li>
 			<li role="presentation">
-				<a href="./privacy-policy" {% if page.url=="./privacy-policy" %}aria-current="page" {% endif %} role="menuitem">Privacy Policy</a>
+				<a 
+				  href="./privacy-policy" 
+				  role="menuitem"
+				  {% include aria_current.html page_url="./privacy-policy" %}
+				>Privacy Policy</a>
 			</li>
 			<li role="presentation">
-				<a href="./license" {% if page.url=="./license" %}aria-current="page" {% endif %} role="menuitem">Open Source License</a>
+				<a 
+				  href="./license"
+				  role="menuitem" 
+				  {% include aria_current.html page_url="./license" %}
+				>Open Source License</a>
 			</li>
 		</ul>
 	</nav>

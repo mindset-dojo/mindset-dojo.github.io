@@ -1,6 +1,15 @@
+---
 permalink: /:title
 connect_url: https://connect.mindset.dojo.center
 
 exclude:
   - Gemfile
   - Gemfile.lock
+  - node_modules
+  - vendor/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .github/
+...
