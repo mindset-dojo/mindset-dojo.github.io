@@ -12,6 +12,6 @@ Inspirations:
 * [Cloud Secuirty office Hours](https://csoh.org)
 * [Fearless Change](https://fearlesschangepatterns.com)
 
-Respect: 
+Respect:
 
 * [LICENSE](LICENSE.md)
