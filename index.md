@@ -24,7 +24,7 @@ But to move differently, when it counts.</p>
 
 <blockquote><strong>Transitions call not for insight, but for training the emerging new self.</strong></blockquote>
 
-<p>We call this base practice <strong>Self-distillation</strong>: a practice of tuning in and refining how you show up—especially under pressure—by trusting what’s already alive inside you.</p>
+<p><strong>Self-distillation</strong>: tuning in and refining how you show up—especially under pressure—by trusting what’s already alive inside you.</p>
 
 <h2>How We Train</h2>
 <ul>
