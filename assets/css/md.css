@@ -1,6 +1,6 @@
 @font-face {
     font-display: swap;
-    font-family: "Roboto";
+    font-family: Roboto;
     font-style: normal;
     font-weight: 400;
     src: url("../libs/google/fonts/roboto-v47-latin-regular.woff2") format("woff2");
@@ -8,7 +8,7 @@
 
 @font-face {
     font-display: swap;
-    font-family: "Afacad";
+    font-family: Afacad;
     font-style: normal;
     font-weight: 700;
     src: url('../libs/google/fonts/afacad-v1-latin-700.woff2') format('woff2');
@@ -17,29 +17,21 @@
 :root {
     --site-width: 1100px;
     --site-padding: calc(8px + 1.5625vw);
-
     --primary-font: "Afacad";
     --secondary-font: "Roboto";
     --font-style-normal: normal;
     --font-stlye-italic: italic;
-
-    --dark-color-primary: #000000;
-    --dark-color-secondary: rgba(33, 33, 33, 0.8);
-
+    --dark-color-primary: #000;
+    --dark-color-secondary: rgb(33 33 33 / 80%);
     --light-color-primary: #fffff0;
-    --light-color-secondary: #bbbbbb;
-
+    --light-color-secondary: #bbb;
     --brand-color-primary: #ffbb08;
     --brand-color-secondary: #ff6e15;
-
     --text-dark-color: var(--dark-color-primary);
     --text-light-color: var(--light-color-secondary);
-
-    --border-dark-color: #212121;
-    
+    --border-dark-color: #212121; 
     --nav-text-color: var(--light-color-primary);
     --nav-text-active-color: var(--brand-color-secondary);
-
     --button-background-color: var(--brand-color-primary);
     --button-background-hover-color: #b38300;
     --button-text-color: var(--text-dark-color);
@@ -71,20 +63,23 @@
 }
 
 *,
-:after,
-:before,
+::after,
+::before,
 html {
     box-sizing: border-box;
 }
 
-:after,
-:before {
+::after,
+::before {
     outline: none;
 }
 
 html {
+    text-size-adjust: 100%;          /* standard, W3C-supported property */
+    /* stylelint-disable property-no-vendor-prefix */
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
+    /* stylelint-enable property-no-vendor-prefix */
     font-size: 100%;
     height: 100%;
 }
@@ -104,10 +99,6 @@ body {
     line-height: var(--text-m-line-height);
 }
 
-header {
-    background-color: var(--dark-color-primary);
-}
-
 section {
     margin-bottom: 20px;
 }
@@ -120,6 +111,7 @@ main ol > li {
 main {
     margin-top: 20px;
     margin-bottom: 60px;
+    flex-flow: column;
 }
 
 main ul,
@@ -128,22 +120,33 @@ main ol {
     margin-bottom: 20px;
 }
 
+main ul {
+    padding-left: 20px;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 30px;
+}
+
+body > footer nav ul {
+    justify-content: center;
+    gap: 14px 0;
+}
+
 main ul:last-child,
 main ol:last-child {
     margin-bottom: 0;
-}
-
-main ul {
-    padding-left: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
     color: var(--light-color-primary);
     font-family: var(--primary-font);
     margin: 0 0 8px;
-}
-
-h1, h2, h3, h4, h5, h6 {
     text-rendering: optimizelegibility;
     font-weight: 700;
 }
@@ -153,7 +156,7 @@ h1, h2 {
 }
 
 h3, h4, h5, h6 {
-    margin: 0 0 12px 0;
+    margin: 0 0 12px;
 }
 
 h1 {
@@ -223,6 +226,46 @@ a {
     text-decoration: none;
 }
 
+nav a {
+    display: block;
+    color: var(--nav-text-color);
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    overflow: hidden;
+}
+
+/* zero specificity: applies to both main>a and .md-cta-group a */
+:where(main > a, .md-cta-group a) {
+  align-items: center;
+  border-width: 0;
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  letter-spacing: .5px;
+  text-align: center;
+  align-self: center;
+  background-color: var(--button-background-color);
+  transition: all 0.5s ease;
+  border-radius: 36px;
+  color: var(--button-text-color);
+  font-weight: 700;
+  font-style: italic;
+  padding: 16px 40px;
+  width: 100%;
+  max-width: 328px;
+}
+
+main > a {
+    margin-top: 20px;
+}
+
+footer nav a {
+    font-size: 14px;
+    margin-right: 14px;
+    margin-left: 14px;
+}
+
 p a:not(header a, footer a),
 ul a:not(header a, footer a) {
     color: var(--brand-color-secondary);
@@ -285,8 +328,8 @@ hr {
     display: none;
 }
 
-/* Hyperlink buttons */
-/* desktop first: row of buttons with a vertical divider */
+/* Hyperlink buttons 
+   desktop first: row of buttons with a vertical divider */
 .md-cta-group {
     display: flex;
     flex-direction: row;
@@ -296,7 +339,7 @@ hr {
 }
 
 /* mobile: stack the buttons */
-@media (max-width: 576px) {
+@media (width <= 576px) {
   .md-cta-group {
     flex-direction: column;    /* stack them */
   }
@@ -319,12 +362,20 @@ hr {
     grid-gap: 24px;
 }
 
-@media (max-width: 767px) {
+@media (width <= 767px) {
     section.md-grid-2,
     section.md-grid-3 {
         grid-template-columns: 1fr;
         grid-gap: 24px;
     }
+}
+
+main > blockquote {
+    padding-left: 32px;
+    border-left: solid 8px;
+    border-left-color: var(--brand-color-primary);
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 section.md-grid-2 blockquote,
@@ -402,9 +453,10 @@ header {
     left: 0;
     transition: background-color .2s, transform .4s;
     z-index: 2;
+    background-color: var(--dark-color-primary);
 }
 
-@media (max-width: 767px) {
+@media (width <= 767px) {
     header {
         flex-wrap: nowrap;
     }
@@ -421,7 +473,7 @@ header img {
     width: auto;
 }
 
-@media (max-width: 991px) {
+@media (width <= 991px) {
     header img {
         height: 60px;
     }
@@ -433,30 +485,12 @@ nav {
     display: inline-flex;
 }
 
-nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    gap: 30px;
-}
-
-nav a {
-    display: block;
-    color: var(--nav-text-color);
-    font-size: 18px;
-    font-weight: 700;
-    letter-spacing: 2px;
-    overflow: hidden;
-}
-
 nav a[aria-current="page"],
 nav a:hover {
     color: var(--nav-text-active-color);
 }
 
-@media (max-width: 767px) {
+@media (width <= 767px) {
     header nav ul {
         display: none;
     }
@@ -533,7 +567,7 @@ header button .bar4 {
     width: 40px;
 }
 
-@media (max-width: 767px) {
+@media (width <= 767px) {
     header button {
         display: flex;
     }
@@ -546,16 +580,12 @@ header button .bar4 {
 .md-no-scroll header nav ul {
     background-color: var(--dark-color-primary);
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
+    flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
     overflow-y: auto;
     position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    inset: 0;
     z-index: 1;
 }
 
@@ -580,57 +610,27 @@ body > footer {
     width: 100%;
 }
 
-main {
-    flex-direction: column;
-}
-
-main > blockquote {
-    padding-left: 32px;
-    border-left: solid 8px;
-    border-left-color: var(--brand-color-primary);
-    margin-top: 20px;
-    margin-bottom: 40px;
-}
-
-@media (max-width: 767px) {
+@media (width <= 767px) {
     main > blockquote {
         font-size: 24px;
     }
-}
-
-main > a {
-    margin-top: 20px;
-}
-
-main > a,
-.md-cta-group a {
-    align-items: center;
-    border-width: 0;
-    display: inline-flex;
-    gap: 10px;
-    justify-content: center;
-    letter-spacing: .5px;
-    text-align: center;
-    align-self: center;
-    background-color: var(--button-background-color);
-    transition: all 0.5s ease;
-    border-radius: 36px;
-    color: var(--button-text-color);
-    font-weight: 700;
-    font-style: italic;
-    padding: 16px 40px;
-    width: 100%;
-    max-width: 328px;
 }
 
 main > a:hover {
     background-color: var(--button-background-hover-color);
 }
 
-/* [PAGE SPECIFIC] */
-/* [HOME | COMMUNITY] */
+/* [PAGE SPECIFIC] 
+ [HOME | COMMUNITY] */
 #home main {
     max-width: 800px;
+}
+
+.md-members section h2 + ul {
+    text-align: center;
+    align-self: center;
+    margin-bottom: 12px;
+    padding: 0;
 }
 
 #home ul {
@@ -659,6 +659,17 @@ main > a:hover {
     font-size: 14px;
 }
 
+footer img {
+    width: 60%;
+    position: fixed;
+    opacity: 0.08;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    object-position: 0;
+    z-index: -1;
+}
+
 .md-members section > img {
     width: 100px;
     height: 100px;
@@ -673,18 +684,11 @@ main > a:hover {
     font-size: var(--h4);
 }
 
-.md-members section h2 + ul {
-    text-align: center;
-    align-self: center;
-    margin-bottom: 12px;
-    padding: 0;
-}
-
 .md-members section h2 + ul li {
     display: inline;
 }
 
-.md-members section h2 + ul li:not(:last-of-type):after {
+.md-members section h2 + ul li:not(:last-of-type)::after {
     content: ", ";
 }
 
@@ -729,10 +733,9 @@ body > footer {
     margin-top: auto;
 }
 
-footer nav a {
-    font-size: 14px;
-    margin-right: 14px;
-    margin-left: 14px;
+:where(footer nav + nav,
+footer nav + nav a) {
+    letter-spacing: normal;
 }
 
 footer nav + nav {
@@ -740,30 +743,8 @@ footer nav + nav {
     margin-bottom: 24px;
     display: flex;
     flex-direction: row;
-    column-gap: 24px;
     justify-content: center;
-    row-gap: 8px;
-}
-
-footer nav + nav,
-footer nav + nav a {
-    letter-spacing: normal;
-}
-
-body > footer nav ul {
-    justify-content: center;
-    gap: 14px 0;
-}
-
-footer img {
-    width: 60%;
-    position: fixed;
-    opacity: 8%;
-    bottom: 0px;
-    left: 50%;
-    transform: translateX(-50%);
-    object-position: 0;
-    z-index: -1;
+    gap: 8px 24px;
 }
 
 /* [PROGRAM PAGE CENTERING] */
@@ -800,7 +781,7 @@ footer img {
 }
 
 /* Responsive tweaks for small screens */
-@media (max-width: 600px) {
+@media (width <= 600px) {
     #program section {
         padding: 1rem 0.5rem;
     }

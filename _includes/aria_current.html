@@ -1,0 +1,6 @@
+{% comment %}
+  Renders an aria-current="page" attribute if current_url matches the page_url parameter
+{% endcomment %}
+{% if page.url == include.page_url %}
+  aria-current="page"
+{% endif %}

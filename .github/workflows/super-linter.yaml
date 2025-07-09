@@ -1,0 +1,36 @@
+# yamllint disable rule:truthy
+---
+name: "Super-Linter Check"
+
+on:
+  pull_request:
+    branches: [main]
+
+  workflow_dispatch: null
+
+permissions:
+  contents: read
+  packages: read
+  statuses: write
+
+jobs:
+  super-linter:
+    name: "Run Super-Linter"
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Import Super-Linter Environment Variables (with CRLF & comments stripping)
+        run: |
+          sed -e 's/\r$//' \
+              -e '/^\s*#/d' \
+              -e '/^\s*$/d' \
+              -e 's|__GITHUB_TOKEN__|'"${{ secrets.GITHUB_TOKEN }}"'|g' \
+              .github/super-linter.env >> "$GITHUB_ENV"
+      - name: Run Super-Linter
+        uses: super-linter/super-linter@v7.4.0
+        # No additional env: block is needed because all variables are now in $GITHUB_ENV
+...

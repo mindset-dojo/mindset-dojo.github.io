@@ -1,6 +1,6 @@
 # 🥋 Mindset Dojo
 
-⛩️ https://mindset.dojo.center
+⛩️ <https://mindset.dojo.center>
 
 Inspirations:
 
