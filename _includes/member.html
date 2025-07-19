@@ -1,6 +1,6 @@
 <section>
   {%- comment -%} Pull the picture metadata by slug {%- endcomment -%}
-{% assign pic = site.data.profile_pictures[include.member.profile_picture_key] %}
+{% assign pic = site.data.profile_pictures[member.profile_picture_key] %}
 
 {%- comment -%} Include the raw Base64 from the specified file {% endcomment -%}
 {% capture raw_b64 -%}
