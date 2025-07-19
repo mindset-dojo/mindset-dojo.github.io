@@ -1,4 +1,3 @@
-# yamllint disable-file rule:line-length
 ---
 jeremy-mcmillan:
   type: "image/jpeg"
