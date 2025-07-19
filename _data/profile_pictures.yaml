@@ -2,21 +2,21 @@
 ---
 jeremy-mcmillan:
   type: "image/jpeg"
-  b64: |
+  b64: 
     
 kyle-ingersoll:
   type: "image/jpeg"
-  b64: |
+  b64: 
     
 
 michael-basil:
   type: "image/jpeg"
-  b64: |
+  b64: 
     
 
 patrick-burke:
   type: "image/jpeg"
-  b64: |
+  b64: 
     
 
 ...
