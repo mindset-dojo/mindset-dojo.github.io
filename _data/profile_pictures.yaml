@@ -1,17 +1,17 @@
 ---
 jeremy-mcmillan:
   type: "image/jpeg"
-  b64_file_path: "profile_pictures/jeremy-mcmillan.b64"
+  path: "profile_pictures/jeremy-mcmillan.b64"
     
 kyle-ingersoll:
   type: "image/jpeg"
-  b64_file_path: "profile_pictures/kyle-ingersoll.b64"
+  path: "profile_pictures/kyle-ingersoll.b64"
     
 michael-basil:
   type: "image/jpeg"
-  b64_file_path: "profile_pictures/michael-basil.b64"
+  path: "profile_pictures/michael-basil.b64"
     
 patrick-burke:
   type: "image/jpeg"
-  b64_file_path: "profile_pictures/patrick-burke.b64"   
+  path: "profile_pictures/patrick-burke.b64"   
 ...
