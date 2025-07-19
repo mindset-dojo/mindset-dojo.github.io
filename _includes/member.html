@@ -1,4 +1,28 @@
 <section>
+  {%- comment -%} Pull the picture metadata by slug {%- endcomment -%}
+{% assign pic = site.data.profile_pictures[include.member.profile_picture_key] %}
+
+{%- comment -%} Include the raw Base64 from the specified file {% endcomment -%}
+{% capture raw_b64 -%}
+  {% include {{ pic.path }} %}
+{%- endcapture -%}
+
+{%- comment -%}
+  Clean up any whitespace/newlines so the blob is valid
+{%- endcomment -%}
+{% assign b64 = raw_b64
+     | replace: '\n', ''
+     | replace: '\r', ''
+     | strip
+-%}
+
+<img
+  src="data:{{ pic.type }};base64,{{ b64 }}"
+  width="100"
+  height="100"
+  alt="{{ include.member.name }}"
+/>
+
         {%- assign pic = site.data.profile_pictures[member.profile_picture_key] -%}
         <img
           src="data:{{ pic.type }};base64,{{ pic.b64 | strip_newlines | strip }}"
