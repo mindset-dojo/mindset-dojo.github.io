@@ -42,38 +42,35 @@ It’s not just coaching.</p>
 <p><strong>⛩️ Get on the Mat.</strong></p>
 
 <div class="md-members">
-  {%- comment -%} 1: All your member slugs {%- endcomment -%}
-  {% assign slugs = site.data.members | keys %}
-
-  {%- comment -%} 2: Sort belt levels descending {%- endcomment -%}
-  {% assign sorted_levels = site.data.program.levels | sort: "level" | reverse %}
-
+  {% comment %} for each belt level… {% endcomment %}
   {% for level in sorted_levels %}
     <h2>{{ level.label }}</h2>
 
-    {%- comment -%} 
-      3: Collect and sort this level’s members by join_date 
-    {%- endcomment -%}
-   {% assign hits = "" | split: "|" %} {# yields [""] #}
-   {% assign hits = hits | where_exp: "item", "item != ''" %} {# now [] #}
+  {% comment %} 1) init hits as [] {% endcomment %}
+    {% assign hits = "" | split: "|" %}
+    {% assign hits = hits | where_exp: "item", "item != ''" %}
+
+  {% comment %} 2) collect date|slug {% endcomment %}
     {% for slug in slugs %}
       {% assign m = site.data.members[slug] %}
-      {% if m.active and m.belt_level == level.level %}
+      {% if m.active and m.belt_level | plus:0 == level.level | plus:0 %}
         {% capture pair %}{{ m.join_date }}|{{ slug }}{% endcapture %}
         {% assign hits = hits | push: pair %}
       {% endif %}
     {% endfor %}
-    {% assign sorted = hits | sort %}
 
-    {%- comment -%} 4: Render profile cards in date order {%- endcomment -%}
+  {% comment %} 3) sort safely {% endcomment %}
+    {% assign sorted = hits | default: [] | sort %}
+
+  {% comment %} 4) render each member {% endcomment %}
     {% for entry in sorted %}
       {% assign parts  = entry | split: "|" %}
       {% assign slug   = parts[1] %}
       {% assign member = site.data.members[slug] %}
       {% include member.html member=member slug=slug %}
     {% endfor %}
-
   {% endfor %}
+
 </div>
 
 
