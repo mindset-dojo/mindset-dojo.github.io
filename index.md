@@ -54,7 +54,7 @@ It’s not just coaching.</p>
     {%- comment -%} 
       3: Collect and sort this level’s members by join_date 
     {%- endcomment -%}
-    {% assign hits = "" | split: "" %}
+    {% assign hits = [] %}
     {% for slug in slugs %}
       {% assign m = site.data.members[slug] %}
       {% if m.active and m.belt_level == level.level %}
