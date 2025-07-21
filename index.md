@@ -69,7 +69,7 @@ It’s not just coaching.</p>
     {% include member.html member=member slug=member.slug %}
   {% endfor %}
 {% endfor %}
-
+</div>
 
 <div class="md-cta-group">
     <a href="./program">Open Source Program</a>
