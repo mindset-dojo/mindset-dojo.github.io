@@ -43,32 +43,50 @@ It’s not just coaching.</p>
 
 <div class="md-members">
 {%- comment -%}
-  Build an array of active members, each tagged with its slug
+  1) Build an array of active member objects that include their slug
 {%- endcomment -%}
 {% assign members = "" | split: "" %}
-{% for slug, member in site.data.members %}
+
+{%- comment -%}
+  Grab the array of slugs (the top‑level keys in site.data.members)
+{%- endcomment -%}
+{% assign slugs = site.data.members | keys %}
+
+{% for slug in slugs %}
+  {% assign member = site.data.members[slug] %}
   {% unless member.active %}{% continue %}{% endunless %}
-  {%- comment -%} we capture a tiny one‑off object with both member + slug {%- endcomment -%}
+
+  {%- comment -%}
+    Pack both slug and member data into a JSON string so we can re‑materialize it later
+  {%- endcomment -%}
   {% capture item -%}
-    { "slug":"{{ slug }}", "data":{{ member | jsonify }} }
+    {
+      "slug": "{{ slug }}",
+      "data": {{ member | jsonify }}
+    }
   {%- endcapture -%}
+
   {% assign members = members | push: item | map: "data" %}
 {% endfor %}
 
-{%- comment -%} Sort by belt level descending, then by join_date ascending {%- endcomment -%}
+{%- comment -%}
+  2) Sort levels as before
+{%- endcomment -%}
 {% assign sorted_levels = site.data.program.levels | sort: "level" | reverse %}
 
 {% for level in sorted_levels %}
-  {%- comment -%} Filter members in this level {%- endcomment -%}
-  {% assign level_members = members | where: "belt_level", level.level | sort: "join_date" %}
-
+  {% assign level_members = members 
+       | where: "belt_level", level.level 
+       | sort: "join_date" %}
   {% for member in level_members %}
     {%- comment -%}
-      Now we still have access to the slug because we carried it in our “item” object
+      Now we have `member` (the original data hash) and
+      `member.slug` is available if your JSON included it.
     {%- endcomment -%}
     {% include member.html member=member slug=member.slug %}
   {% endfor %}
 {% endfor %}
+
 </div>
 
 <div class="md-cta-group">
