@@ -42,20 +42,34 @@ It’s not just coaching.</p>
 <p><strong>⛩️ Get on the Mat.</strong></p>
 
 <div class="md-members">
+{%- comment -%}
+  Build an array of active members, each tagged with its slug
+{%- endcomment -%}
 {% assign members = "" | split: "" %}
-{% for member in site.data.members %}
-    {% unless member[1].active %}{% continue %}{% endunless %}
-    {% assign members = members | push: member[1] %}
+{% for slug, member in site.data.members %}
+  {% unless member.active %}{% continue %}{% endunless %}
+  {%- comment -%} we capture a tiny one‑off object with both member + slug {%- endcomment -%}
+  {% capture item -%}
+    { "slug":"{{ slug }}", "data":{{ member | jsonify }} }
+  {%- endcapture -%}
+  {% assign members = members | push: item | map: "data" %}
 {% endfor %}
+
+{%- comment -%} Sort by belt level descending, then by join_date ascending {%- endcomment -%}
 {% assign sorted_levels = site.data.program.levels | sort: "level" | reverse %}
+
 {% for level in sorted_levels %}
-    {% assign level_members = members | where: "belt_level", level.level" %}
-    {% assign level_members = level_members | sort: "join_date" %}
-    {% for member in level_members %}
-      {% include member.html member=member %}
-    {% endfor %}
+  {%- comment -%} Filter members in this level {%- endcomment -%}
+  {% assign level_members = members | where: "belt_level", level.level | sort: "join_date" %}
+
+  {% for member in level_members %}
+    {%- comment -%}
+      Now we still have access to the slug because we carried it in our “item” object
+    {%- endcomment -%}
+    {% include member.html member=member slug=member.slug %}
+  {% endfor %}
 {% endfor %}
-</div>
+
 
 <div class="md-cta-group">
     <a href="./program">Open Source Program</a>
