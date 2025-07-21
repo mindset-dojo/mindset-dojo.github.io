@@ -43,44 +43,29 @@ It’s not just coaching.</p>
 
 <div class="md-members">
 {%- comment -%}
-  1: Collect active members into a real array
+  1: Grab all slugs (the filenames under _data/members)
 {%- endcomment -%}
-{% assign members = [] %}
-{% assign slugs   = site.data.members | keys %}
-
-{% for slug in slugs %}
-  {% assign m = site.data.members[slug] %}
-  {% unless m.active %}{% continue %}{% endunless %}
-
-  {% capture item -%}
-    {
-      "slug": "{{ slug }}",
-      "data": {{ m | jsonify }}
-    }
-  {%- endcapture -%}
-
-  {% assign members = members | push: item | map: "data" %}
-{% endfor %}
+{% assign slugs = site.data.members | keys %}
 
 {%- comment -%}
-  2: Sort levels
+  2: Sort belt levels descending by level number
 {%- endcomment -%}
 {% assign sorted_levels = site.data.program.levels | sort: "level" | reverse %}
 
+{%- comment -%}
+  3: For each level, render a group of member cards
+{%- endcomment -%}
 {% for level in sorted_levels %}
-  {%- comment -%}
-    3: Filter members by this level (fixed the stray quote!)
-  {%- endcomment -%}
-  {% assign level_members = members 
-       | where: "belt_level", level.level 
-       | sort: "join_date" %}
-  
-  {% for member in level_members %}
-    {% include member.html member=member slug=member.slug %}
-  {% endfor %}
+  <h2>{{ level.label }}</h2>
+  <div class="level-group">
+    {% for slug in slugs %}
+      {% assign member = site.data.members[slug] %}
+      {% if member.active and member.belt_level == level.level %}
+        {% include member.html member=member slug=slug %}
+      {% endif %}
+    {% endfor %}
+  </div>
 {% endfor %}
-
-
 </div>
 
 <div class="md-cta-group">
