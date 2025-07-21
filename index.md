@@ -42,36 +42,50 @@ It’s not just coaching.</p>
 <p><strong>⛩️ Get on the Mat.</strong></p>
 
 <div class="md-members">
-  {% comment %} for each belt level… {% endcomment %}
+
+  {%- comment -%}
+    1) Get each [slug, member] pair directly
+  {%- endcomment -%}
+  {% assign pairs = site.data.members %}
+
+  {%- comment -%}
+    2) Sort levels descending
+  {%- endcomment -%}
+  {% assign sorted_levels = site.data.program.levels | sort: "level" | reverse %}
+
   {% for level in sorted_levels %}
     <h2>{{ level.label }}</h2>
 
-  {% comment %} 1) init hits as [] {% endcomment %}
+    {%- comment -%} 3) Build hits as empty array {% endcomment -%}
     {% assign hits = "" | split: "|" %}
     {% assign hits = hits | where_exp: "item", "item != ''" %}
 
-  {% comment %} 2) collect date|slug {% endcomment %}
-    {% for slug in slugs %}
-      {% assign m = site.data.members[slug] %}
+    {%- comment -%}
+      4) For each [slug, member] pair, filter by active & belt_level
+    {%- endcomment -%}
+    {% for pair in pairs %}
+      {% assign slug = pair[0] %}
+      {% assign m    = pair[1] %}
       {% if m.active and m.belt_level | plus:0 == level.level | plus:0 %}
-        {% capture pair %}{{ m.join_date }}|{{ slug }}{% endcapture %}
-        {% assign hits = hits | push: pair %}
+        {% capture entry %}{{ m.join_date }}|{{ slug }}{% endcapture %}
+        {% assign hits = hits | push: entry %}
       {% endif %}
     {% endfor %}
 
-  {% comment %} 3) sort safely {% endcomment %}
+    {%- comment -%} 5) Sort by join_date safely {% endcomment -%}
     {% assign sorted = hits | default: [] | sort %}
 
-  {% comment %} 4) render each member {% endcomment %}
+    {%- comment -%} 6) Render each member card {% endcomment -%}
     {% for entry in sorted %}
       {% assign parts  = entry | split: "|" %}
       {% assign slug   = parts[1] %}
       {% assign member = site.data.members[slug] %}
       {% include member.html member=member slug=slug %}
     {% endfor %}
-  {% endfor %}
 
+  {% endfor %}
 </div>
+
 
 
 <div class="md-cta-group">
