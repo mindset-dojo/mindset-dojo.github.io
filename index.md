@@ -42,51 +42,36 @@ It’s not just coaching.</p>
 <p><strong>⛩️ Get on the Mat.</strong></p>
 
 <div class="md-members">
-  {%- comment -%}
-    1: All your member slugs
-  {%- endcomment -%}
+  {%- comment -%} 1: All your member slugs {%- endcomment -%}
   {% assign slugs = site.data.members | keys %}
 
-  {%- comment -%}
-    2: Sort levels descending
-  {%- endcomment -%}
+  {%- comment -%} 2: Sort belt levels descending {%- endcomment -%}
   {% assign sorted_levels = site.data.program.levels | sort: "level" | reverse %}
 
   {% for level in sorted_levels %}
     <h2>{{ level.label }}</h2>
-    <div class="level-group">
 
-      {%- comment -%}
-        3: Collect "date|slug" strings for active members in this level
-      {%- endcomment -%}
-      {% assign hits = "" | split: "" %}
-      {% for slug in slugs %}
-        {% assign m = site.data.members[slug] %}
-        {% if m.active and m.belt_level == level.level %}
-          {%- comment -%}
-            Format: "2022-03-15|jeremy-mcmillan"
-          {%- endcomment -%}
-          {% capture pair -%}{{ m.join_date }}|{{ slug }}{%- endcapture -%}
-          {% assign hits = hits | push: pair %}
-        {% endif %}
-      {% endfor %}
+    {%- comment -%} 
+      3: Collect and sort this level’s members by join_date 
+    {%- endcomment -%}
+    {% assign hits = "" | split: "" %}
+    {% for slug in slugs %}
+      {% assign m = site.data.members[slug] %}
+      {% if m.active and m.belt_level == level.level %}
+        {% capture pair %}{{ m.join_date }}|{{ slug }}{% endcapture %}
+        {% assign hits = hits | push: pair %}
+      {% endif %}
+    {% endfor %}
+    {% assign sorted = hits | sort %}
 
-      {%- comment -%}
-        4: Sort by the date prefix (ISO format sorts lex correctly)
-      {%- endcomment -%}
-      {% assign sorted = hits | sort %}
+    {%- comment -%} 4: Render profile cards in date order {%- endcomment -%}
+    {% for entry in sorted %}
+      {% assign parts  = entry | split: "|" %}
+      {% assign slug   = parts[1] %}
+      {% assign member = site.data.members[slug] %}
+      {% include member.html member=member slug=slug %}
+    {% endfor %}
 
-      {%- comment -%}
-        5: Render each member in ascending join_date order
-      {%- endcomment -%}
-      {% for entry in sorted %}
-        {% assign parts = entry | split: "|" %}
-        {% assign slug  = parts[1] %}
-        {% assign member = site.data.members[slug] %}
-        {% include member.html member=member slug=slug %}
-      {% endfor %}
-
-    </div>
   {% endfor %}
 </div>
 
