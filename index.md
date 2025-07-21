@@ -43,26 +43,19 @@ It’s not just coaching.</p>
 
 <div class="md-members">
 {%- comment -%}
-  1) Build an array of active member objects that include their slug
+  1: Collect active members into a real array
 {%- endcomment -%}
-{% assign members = "" | split: "" %}
-
-{%- comment -%}
-  Grab the array of slugs (the top‑level keys in site.data.members)
-{%- endcomment -%}
-{% assign slugs = site.data.members | keys %}
+{% assign members = [] %}
+{% assign slugs   = site.data.members | keys %}
 
 {% for slug in slugs %}
-  {% assign member = site.data.members[slug] %}
-  {% unless member.active %}{% continue %}{% endunless %}
+  {% assign m = site.data.members[slug] %}
+  {% unless m.active %}{% continue %}{% endunless %}
 
-  {%- comment -%}
-    Pack both slug and member data into a JSON string so we can re‑materialize it later
-  {%- endcomment -%}
   {% capture item -%}
     {
       "slug": "{{ slug }}",
-      "data": {{ member | jsonify }}
+      "data": {{ m | jsonify }}
     }
   {%- endcapture -%}
 
@@ -70,22 +63,23 @@ It’s not just coaching.</p>
 {% endfor %}
 
 {%- comment -%}
-  2) Sort levels as before
+  2: Sort levels
 {%- endcomment -%}
 {% assign sorted_levels = site.data.program.levels | sort: "level" | reverse %}
 
 {% for level in sorted_levels %}
+  {%- comment -%}
+    3: Filter members by this level (fixed the stray quote!)
+  {%- endcomment -%}
   {% assign level_members = members 
        | where: "belt_level", level.level 
        | sort: "join_date" %}
+  
   {% for member in level_members %}
-    {%- comment -%}
-      Now we have `member` (the original data hash) and
-      `member.slug` is available if your JSON included it.
-    {%- endcomment -%}
     {% include member.html member=member slug=member.slug %}
   {% endfor %}
 {% endfor %}
+
 
 </div>
 
