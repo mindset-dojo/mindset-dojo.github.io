@@ -9,28 +9,26 @@ css_id: home
 <hr>
 
 <p>When the pressure hits, you don’t rise to the level of your best intentions.<br>
-You fall to the level of your practice.</p>
+You reveal the level of your conditioning.</p>
 
 <p>In the middle of a hard conversation…<br>
 When trust is on the line…<br>
 In that flash between stimulus and response…</p>
 
-<blockquote><strong>Your body leads, not your bullet points.</strong></blockquote>
+<blockquote><strong>The body speaks, not the polished script.</strong></blockquote>
 
-<p>That’s why we train.</p>
-
-<p>Not to collect more insight—<br>
-But to move differently, when it counts.</p>
-
-<blockquote><strong>Transitions call not for insight, but for training the emerging new self.</strong></blockquote>
+<h2>Why We Train</h2>
+<ul>
+  <li>🧠 Because awareness isn’t enough — you can name the pattern and still fall into it.</li>
+  <li>⏱️ Because in high-stakes moments, you won’t have time to think — only time to respond.</li>
+  <li>🤼 Because pressure doesn’t reveal your potential — it reveals your practice.</li>
+</ul>
 
 <h2>How We Train</h2>
 <ul>
-  <li>🥋 We <strong>role play in dynamic conversations</strong>—live and online via <strong>Jitsi Meet</strong>—where pressure, emotion, and timing are real.</li>
-  <li>🔁 We <strong>reflect and recalibrate asynchronously</strong> through <strong>Signal</strong> voice notes.</li>
-  <li>🌀 We <strong>stay in rhythm</strong>—through practice, not performance.</li>
-  <li>🧭 We <strong>train with static flips and dynamic moves</strong>, using simple, powerful perception tools that reveal what’s usually unconscious.</li>
-  <li>🎯 We commit to a <strong>belt-leveled program</strong> inspired by <strong>Zen and Aikido</strong>, with embodied thresholds and meaningful progression.</li>
+  <li>🥋 We practice live, in real conversations — where timing, tone, and tension are felt.</li>
+  <li>🔁 We reflect between reps — using voice notes to recalibrate and deepen awareness.</li>
+  <li>🎯 We progress with purpose — using a belt path that honors embodied thresholds.</li>
 </ul>
 
 <p>This isn’t theory.<br>
