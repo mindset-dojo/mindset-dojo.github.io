@@ -56,27 +56,18 @@ It’s not just coaching.</p>
   {%- comment -%}
     3) Loop through each belt level
   {%- endcomment -%}
-
-  {% assign count = 0 %}
-
   {% for level in sorted_levels %}
 
     {%- assign level_members = "" | split: "" -%}
-
-    {%- assign pairs = "" | split: "" -%}
-
-    {%- assign pair = "" | split: "" -%}
 
     {%- for pair in all_members -%}
       {% assign slug = pair[0] %}
       {% assign member = pair[1] %}
 
       {%- if member.active and member.belt_level == level.level -%}
-        {% assign pairs[count] = pair %}
+        {% assign member = member | merge: { "slug": slug } %}
+        {% assign level_members = level_members | push: member %}
       {%- endif -%}
-
-      {% assign count = count + 1 %}
-      
     {%- endfor -%}
 
     {%- assign level_members = level_members | sort: "join_date" -%}
