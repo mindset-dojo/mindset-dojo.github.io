@@ -42,43 +42,31 @@ It’s not just coaching.</p>
 <p><strong>⛩️ Get on the Mat.</strong></p>
 
 <div class="md-members">
-
   {% assign all_pairs     = site.data.members.profiles %}
   {% assign sorted_levels = site.data.program.levels | sort: "level" | reverse %}
 
   {% for level in sorted_levels %}
-    {%- comment -%} 1) Build raw pairs for this level {%- endcomment -%}
-    {% assign level_pairs = "" | split: "" %}
+    <h2>{{ level.label }}</h2>
 
+    {% assign level_pairs = "" | split: "|" %}
     {% for pair in all_pairs %}
       {% assign slug   = pair[0] %}
       {% assign member = pair[1] %}
       {% if member.active and member.belt_level | plus:0 == level.level | plus:0 %}
-        {% assign level_pairs = level_pairs | push: pair %}
+        {% assign level_pairs = level_pairs | push: member | push: slug %}
       {% endif %}
     {% endfor %}
 
-    {%- comment -%}
-      2) Convert each [slug, member] → member-with-slug,
-         collecting into level_members array
-    {%- endcomment -%}
-    {% assign level_members = "" | split: "" %}
-    {% for pair in level_pairs %}
-      {% assign slug        = pair[0] %}
-      {% assign member_data = pair[1] | merge: {"slug": slug} %}
-      {% assign level_members = level_members | push: member_data %}
-    {% endfor %}
-
-    {%- comment -%}
-      3) Sort your flat member objects by join_date
-    {%- endcomment -%}
-    {% assign level_members = level_members | sort: "join_date" %}
-
-    {%- comment -%}
-      4) Render each profile card in order
-    {%- endcomment -%}
-    {% for member in level_members %}
-      {% include member.html member=member slug=member.slug %}
+    {% comment %}
+      Now level_pairs is actually [member, slug, member, slug, ...]
+      We’ll loop in pairs
+    {% endcomment %}
+    {% for i in (0..level_pairs.size) %}
+      {% if forloop.index0 | modulo:2 == 0 %}
+        {% assign member = level_pairs[forloop.index0] %}
+        {% assign slug   = level_pairs[forloop.index0 | plus:1] %}
+        {% include member.html member=member slug=slug %}
+      {% endif %}
     {% endfor %}
   {% endfor %}
 </div>
