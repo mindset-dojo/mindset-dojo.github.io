@@ -58,7 +58,7 @@ It’s not just coaching.</p>
   {%- endcomment -%}
   {% for level in sorted_levels %}
 
-    {%- assign level_members = "" | split: "" -%}
+    {%- assign level_pairs = "" | split: "" -%}
 
     {%- for pair in all_members -%}
       {% assign slug = pair[0] %}
@@ -66,13 +66,13 @@ It’s not just coaching.</p>
 
       {%- if member.active and member.belt_level == level.level -%}
         {% assign member = member | merge: { "slug": slug } %}
-        {% assign level_members = level_members | push: member %}
+        {% assign level_pairs = level_pairs | push: member %}
       {%- endif -%}
     {%- endfor -%}
 
-    {%- assign level_members = level_members | sort: "join_date" -%}
+    {%- assign level_pairs = level_pairs | sort: "join_date" -%}
 
-    {%- for member in level_members -%}
+    {%- for member in level_pairs -%}
       {% include member.html member=member slug=slug %}
     {%- endfor -%}
   {% endfor %}
