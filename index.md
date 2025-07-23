@@ -43,40 +43,45 @@ It’s not just coaching.</p>
 
 <div class="md-members">
 
-  {%- comment -%}
-    1) Get members as [slug, data] pairs from profiles
-  {%- endcomment -%}
-  {% assign all_members = site.data.members.profiles %}
-
-  {%- comment -%}
-    2) Sort belt levels descending
-  {%- endcomment -%}
+  {% assign all_pairs     = site.data.members.profiles %}
   {% assign sorted_levels = site.data.program.levels | sort: "level" | reverse %}
 
-  {%- comment -%}
-    3) Loop through each belt level
-  {%- endcomment -%}
   {% for level in sorted_levels %}
+    <h2>{{ level.label }}</h2>
 
-    {%- assign level_pairs = "" | split: "" -%}
+    {%- comment -%} 1) Build raw pairs for this level {%- endcomment -%}
+    {% assign level_pairs = "" | split: "" %}
 
-    {%- for pair in all_members -%}
-      {% assign slug = pair[0] %}
+    {% for pair in all_pairs %}
+      {% assign slug   = pair[0] %}
       {% assign member = pair[1] %}
-
-      {%- if member.active and member.belt_level == level.level -%}
+      {% if member.active and member.belt_level | plus:0 == level.level | plus:0 %}
         {% assign level_pairs = level_pairs | push: pair %}
-      {%- endif -%}
-    {%- endfor -%}
+      {% endif %}
+    {% endfor %}
 
-    {%- assign sorted_pairs = level_pairs | sort_natural: "1.join_date" -%}
-    
-    {%- for pair in sorted_pairs -%}
-      {%- assign slug = pair[0] -%}
-      {%- assign member = pair[1] -%}
-      {%- include member.html member=member slug=slug -%}
-    {%- endfor -%}
+    {%- comment -%}
+      2) Convert each [slug, member] → member-with-slug,
+         collecting into level_members array
+    {%- endcomment -%}
+    {% assign level_members = "" | split: "" %}
+    {% for pair in level_pairs %}
+      {% assign slug        = pair[0] %}
+      {% assign member_data = pair[1] | merge: {"slug": slug} %}
+      {% assign level_members = level_members | push: member_data %}
+    {% endfor %}
 
+    {%- comment -%}
+      3) Sort your flat member objects by join_date
+    {%- endcomment -%}
+    {% assign level_members = level_members | sort: "join_date" %}
+
+    {%- comment -%}
+      4) Render each profile card in order
+    {%- endcomment -%}
+    {% for member in level_members %}
+      {% include member.html member=member slug=member.slug %}
+    {% endfor %}
   {% endfor %}
 </div>
 
