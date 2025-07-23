@@ -8,8 +8,10 @@
 
 <section>
   {%- capture slugs -%}
+    {% assign count = 0 %}
     {% for filename in site.members.profiles %}
-      {% assign slugs = filename[1] %}
+      {% assign slugs[count] = filename %}
+      {% count = count + 1 %}
     {% endfor %}
   {%- endcapture -%}
 
