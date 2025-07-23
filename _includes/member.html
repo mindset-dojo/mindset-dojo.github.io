@@ -7,8 +7,10 @@
 {%- endcomment -%}
 
 <section>
-  {%- capture slug -%}
-    {% ../_data/members/profiles/{{ slug }}.yaml %}
+  {%- capture slugs -%}
+    {% for filename in site.members.profiles %}
+      {% assign slugs = filename[1] %}
+    {% endfor %}
   {%- endcapture -%}
   {%- capture raw_b64 -%}
     {% ../_data/members/avatars/{{ include.slug }}.b64 %}
