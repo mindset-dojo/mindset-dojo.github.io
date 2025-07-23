@@ -47,7 +47,6 @@ It’s not just coaching.</p>
   {%- assign levels = site.data.program.levels | sort: "level" | reverse -%}
 
   {%- for level in levels -%}
-    <h2>{{ level.label }}</h2>
 
     {%- assign hits = "" | split: "|" -%}
 
