@@ -6,14 +6,12 @@
 {%- endcomment -%}
 
 <section class="md-member-card">
-  {% capture file %}
-  {% include_relative avatars/{{ include.slug }}.b64 %}
-  {% endcapture %}
+  {% assign file = "avatars/" | append: include.slug | append: ".b64" %}
 
   {% capture raw_b64 %}
     {% include {{ file }} %}
   {% endcapture %}
-  
+
   {% assign b64 = raw_b64 | strip_newlines | strip %}
 
   <img
