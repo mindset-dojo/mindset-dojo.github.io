@@ -6,7 +6,7 @@
 {%- endcomment -%}
 
 <section class="md-member-card">
-  {% assign file = "avatars/" | append: include.slug | append: ".b64" %}
+  {% include_relative avatars/{{ include.slug }}.b64 %}
   {% capture raw_b64 %}
     {% include {{ file }} %}
   {% endcapture %}
