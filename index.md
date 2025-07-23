@@ -52,20 +52,23 @@ It’s not just coaching.</p>
     {%- assign hits = "" | split: "|" -%}
 
     {%- for slug in profiles %}
-      {%- assign member = profiles[slug] -%}
+      {%- assign member = profiles[count] -%}
       {%- if member.active and member.belt_level == level.level -%}
         {%- capture entry -%}{{ member.join_date }}|{{ slug }}{%- endcapture -%}
         {%- assign hits = hits | push: entry -%}
+        {%- assign count = count + 1 -%}
       {%- endif -%}
     {%- endfor -%}
 
     {%- assign sorted = hits | sort -%}
+    {%- assign count = 0 -%}
 
     {%- for entry in sorted -%}
       {%- assign parts = entry | split: "|" -%}
       {%- assign slug = parts[1] -%}
-      {%- assign member = profiles[slug] -%}
+      {%- assign member = profiles[count] -%}
       {%- include member.html member=member slug=slug -%}
+      {%- assign count = count + 1 -%}
     {%- endfor -%}
   {%- endfor -%}
 
