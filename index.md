@@ -57,7 +57,6 @@ It’s not just coaching.</p>
     3) Loop through each belt level
   {%- endcomment -%}
   {% for level in sorted_levels %}
-    <h2>{{ level.label }}</h2>
 
     {%- assign level_members = "" | split: "" -%}
 
