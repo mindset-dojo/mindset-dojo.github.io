@@ -42,27 +42,14 @@ It’s not just coaching.</p>
 <p><strong>⛩️ Get on the Mat.</strong></p>
 
 <div class="md-members">
-
-  {%- comment -%}
-    1) Get each [slug, member] pair directly
-  {%- endcomment -%}
-  {% assign pairs = site.data.members %}
-
-  {%- comment -%}
-    2) Sort levels descending
-  {%- endcomment -%}
+  {% assign pairs = site.data.members.profiles %}
   {% assign sorted_levels = site.data.program.levels | sort: "level" | reverse %}
 
   {% for level in sorted_levels %}
     <h2>{{ level.label }}</h2>
 
-    {%- comment -%} 3) Build hits as empty array {% endcomment -%}
     {% assign hits = "" | split: "|" %}
     {% assign hits = hits | where_exp: "item", "item != ''" %}
-
-    {%- comment -%}
-      4) For each [slug, member] pair, filter by active & belt_level
-    {%- endcomment -%}
     {% for pair in pairs %}
       {% assign slug = pair[0] %}
       {% assign m    = pair[1] %}
@@ -72,17 +59,13 @@ It’s not just coaching.</p>
       {% endif %}
     {% endfor %}
 
-    {%- comment -%} 5) Sort by join_date safely {% endcomment -%}
-    {% assign sorted = hits | default: [] | sort %}
-
-    {%- comment -%} 6) Render each member card {% endcomment -%}
-    {% for entry in sorted %}
+    {% assign sorted_entries = hits | default: [] | sort %}
+    {% for entry in sorted_entries %}
       {% assign parts  = entry | split: "|" %}
       {% assign slug   = parts[1] %}
-      {% assign member = site.data.members[slug] %}
+      {% assign member = site.data.members.profiles[slug] %}
       {% include member.html member=member slug=slug %}
     {% endfor %}
-
   {% endfor %}
 </div>
 
