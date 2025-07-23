@@ -60,6 +60,8 @@ It’s not just coaching.</p>
 
     {%- assign level_members = "" | split: "" -%}
 
+    {%- assign pairs = "" | split: "" -%}
+
     {%- assign pair = "" | split: "" -%}
 
     {%- for pair in all_members -%}
