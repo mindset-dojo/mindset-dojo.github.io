@@ -45,6 +45,7 @@ It’s not just coaching.</p>
 
   {%- assign profiles = site.data.members.profiles -%}
   {%- assign levels = site.data.program.levels | sort: "level" | reverse -%}
+  {%- assign count = 0 -%}
 
   {%- for level in levels -%}
 
