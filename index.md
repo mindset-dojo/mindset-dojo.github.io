@@ -65,7 +65,7 @@ It’s not just coaching.</p>
       {% assign member = pair[1] %}
 
       {%- if member.active and member.belt_level == level.level -%}
-        {% assign level_pairs = level_pairs | push: member %}
+        {% assign level_pairs = level_pairs | push: pair %}
       {%- endif -%}
     {%- endfor -%}
 
