@@ -69,8 +69,10 @@ It’s not just coaching.</p>
       {%- endif -%}
     {%- endfor -%}
 
-    {%- assign level_pairs = level_pairs | sort: "join_date" -%}
-
+    {%- for pair in level_pairs -%}
+      {%- assign level_pairs = level_pairs | sort: "join_date" -%}
+    {%- endfor -%}
+    
     {%- for member in level_pairs -%}
       {% include member.html member=member slug=slug %}
     {%- endfor -%}
