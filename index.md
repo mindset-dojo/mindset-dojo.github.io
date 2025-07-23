@@ -48,7 +48,12 @@ It’s not just coaching.</p>
   {%- endcomment -%}
   {% assign pairs = site.data.members.profiles %}
 
-  
+  {%- comment -%}
+    2) Sort belt levels descending
+  {%- endcomment -%}
+  {% assign sorted_levels = site.data.program.levels | sort: "level" | reverse %}
+
+  {% for level in sorted_levels %}
 
     {%- comment -%}
       3) Initialize hits = []
@@ -63,12 +68,6 @@ It’s not just coaching.</p>
       {% assign slug = pair[0] %}
       {% assign m    = pair[1] %}
 
-  {%- comment -%}
-    2) Sort belt levels descending
-  {%- endcomment -%}
-  {% assign sorted_levels = site.data.program.levels | sort: "level" | reverse %}
-
-  {% for level in sorted_levels %}
       {%- comment -%} Quick type‑coerce check {%- endcomment -%}
       {% if m.active == true
          and m.belt_level | plus:0 == level.level | plus:0 %}
