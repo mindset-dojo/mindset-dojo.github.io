@@ -44,52 +44,41 @@ It’s not just coaching.</p>
 <div class="md-members">
 
   {%- comment -%}
-    1) Grab each [slug, member] from the *profiles* sub‑hash
+    1) Get members as [slug, data] pairs from profiles
   {%- endcomment -%}
-  {% assign pairs = site.data.members.profiles %}
+  {% assign all_members = site.data.members.profiles %}
 
   {%- comment -%}
     2) Sort belt levels descending
   {%- endcomment -%}
   {% assign sorted_levels = site.data.program.levels | sort: "level" | reverse %}
 
+  {%- comment -%}
+    3) Loop through each belt level
+  {%- endcomment -%}
   {% for level in sorted_levels %}
     <h2>{{ level.label }}</h2>
 
-    {%- comment -%}
-      3) Initialize hits = []
-    {%- endcomment -%}
-    {% assign hits = "" | split: "|" %}
-    {% assign hits = hits | where_exp: "item", "item != ''" %}
+    {%- assign level_members = "" | split: "" -%}
 
-    {%- comment -%}
-      4) For each profile pair, filter by active & belt_level
-    {%- endcomment -%}
-    {% for pair in pairs %}
+    {%- for pair in all_members -%}
       {% assign slug = pair[0] %}
-      {% assign m    = pair[1] %}
+      {% assign member = pair[1] %}
 
-      {%- comment -%} Quick type‑coerce check {%- endcomment -%}
-      {% if m.active == true
-         and m.belt_level | plus:0 == level.level | plus:0 %}
-        {% capture entry %}{{ m.join_date }}|{{ slug }}{% endcapture %}
-        {% assign hits = hits | push: entry %}
-      {% endif %}
-    {% endfor %}
+      {%- if member.active and member.belt_level == level.level -%}
+        {% assign member = member | merge: { "slug": slug } %}
+        {% assign level_members = level_members | push: member %}
+      {%- endif -%}
+    {%- endfor -%}
 
-    {%- comment -%}
-      5) Sort by join_date (ISO) and render
-    {%- endcomment -%}
-    {% assign sorted_entries = hits | default: [] | sort %}
+    {%- assign level_members = level_members | sort: "join_date" -%}
 
-    {% for entry in sorted_entries %}
-      {% assign parts  = entry | split: "|" %}
-      {% assign slug   = parts[1] %}
-      {% assign member = site.data.members.profiles[slug] %}
-      {% include member.html member=member slug=slug %}
-    {% endfor %}
+    {%- for member in level_members -%}
+      {% include member.html member=member slug=member.slug %}
+    {%- endfor -%}
   {% endfor %}
 </div>
+
 
 
 
