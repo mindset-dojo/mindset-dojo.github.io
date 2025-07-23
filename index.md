@@ -50,30 +50,26 @@ It’s not just coaching.</p>
   {% endfor %}
 
   {%- assign sorted_levels = site.data.program.levels | sort: "level" | reverse -%}
-  {%- assign count = 0 -%}
 
   {%- for level in sorted_levels -%}
 
     {%- assign hits = "" | split: "|" -%}
 
     {%- for slug in profiles %}
-      {%- assign member = profiles[count] -%}
+      {%- assign member = profiles[slug] -%}
       {%- if member.active and member.belt_level == level.level -%}
         {%- capture entry -%}{{ member.join_date }}|{{ slug }}{%- endcapture -%}
         {%- assign hits = hits | push: entry -%}
-        {%- assign count = count + 1 -%}
       {%- endif -%}
     {%- endfor -%}
 
     {%- assign sorted = hits | sort -%}
-    {%- assign count = 0 -%}
 
     {%- for entry in sorted -%}
       {%- assign parts = entry | split: "|" -%}
       {%- assign slug = parts[1] -%}
-      {%- assign member = profiles[count] -%}
+      {%- assign member = profiles[slug] -%}
       {%- include member.html member=member slug=slug -%}
-      {%- assign count = count + 1 -%}
     {%- endfor -%}
   {%- endfor -%}
 
