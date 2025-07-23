@@ -42,38 +42,37 @@ It’s not just coaching.</p>
 <p><strong>⛩️ Get on the Mat.</strong></p>
 
 <div class="md-members">
-  {%- assign profiles = "" | split: "" -%}
 
-  {%- for profile in site.data.members.profiles -%}
-    {% unless profile[1].active %}{% continue %}{% endunless %}
-    {% assign profiles = profiles | push: profile[1] %}
+  {% assign all_profiles   = site.data.members.profiles %}
+  {% assign sorted_levels  = site.data.program.levels | sort: "level" | reverse %}
+
+  {% for level in sorted_levels %}
+    <h2>{{ level.label }}</h2>
+
+    {%- comment -%} 1) Collect entries for this level: join_date|slug {%- endcomment -%}
+    {% assign entries = "" | split: "|" %}
+
+    {% for slug in all_profiles %}
+      {% assign member = all_profiles[slug] %}
+      {% if member.active and member.belt_level | plus: 0 == level.level | plus: 0 %}
+        {% capture entry %}{{ member.join_date }}|{{ slug }}{% endcapture %}
+        {% assign entries = entries | push: entry %}
+      {% endif %}
+    {% endfor %}
+
+    {%- comment -%} 2) Sort entries by join_date (ISO lexicographic) {%- endcomment -%}
+    {% assign sorted_entries = entries | sort %}
+
+    {%- comment -%} 3) Loop and split into [join_date, slug] {%- endcomment -%}
+    {% for entry in sorted_entries %}
+      {% assign parts  = entry | split: "|" %}
+      {% assign slug   = parts[1] %}
+      {% assign member = all_profiles[slug] %}
+      {% include member.html member=member slug=slug %}
+    {% endfor %}
   {% endfor %}
-
-  {%- assign sorted_levels = site.data.program.levels | sort: "level" | reverse -%}
-
-  {%- for level in sorted_levels -%}
-
-    {%- assign hits = "" | split: "|" -%}
-
-    {%- for slug in profiles %}
-      {%- assign member = profiles[slug] -%}
-      {%- if member.active and member.belt_level == level.level -%}
-        {%- capture entry -%}{{ member.join_date }}|{{ slug }}{%- endcapture -%}
-        {%- assign hits = hits | push: entry -%}
-      {%- endif -%}
-    {%- endfor -%}
-
-    {%- assign sorted = hits | sort -%}
-
-    {%- for entry in sorted -%}
-      {%- assign parts = entry | split: "|" -%}
-      {%- assign slug = parts[1] -%}
-      {%- assign member = profiles[slug] -%}
-      {%- include member.html member=member slug=slug -%}
-    {%- endfor -%}
-  {%- endfor -%}
-
 </div>
+
 
 <div class="md-cta-group">
     <a href="./program">Open Source Program</a>
