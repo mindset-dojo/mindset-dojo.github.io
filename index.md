@@ -54,7 +54,6 @@ It’s not just coaching.</p>
   {% assign sorted_levels = site.data.program.levels | sort: "level" | reverse %}
 
   {% for level in sorted_levels %}
-    <h2>{{ level.label }}</h2>
 
     {%- comment -%}
       3) Initialize hits = []
