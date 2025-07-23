@@ -47,8 +47,6 @@ It’s not just coaching.</p>
   {% assign sorted_levels = site.data.program.levels | sort: "level" | reverse %}
 
   {% for level in sorted_levels %}
-    <h2>{{ level.label }}</h2>
-
     {%- comment -%} 1) Build raw pairs for this level {%- endcomment -%}
     {% assign level_pairs = "" | split: "" %}
 
