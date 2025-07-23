@@ -1,38 +1,41 @@
 {%- comment -%}
   _includes/member.html
   Expects:
-    include.member → the YAML object
-    include.slug   → the slug string
+    include.member → YAML object (profile data)
+    include.slug   → string identifier (filename without extension)
 {%- endcomment -%}
 
 <section class="md-member-card">
-  {% assign file = "avatars/" | append: include.slug | append: ".b64" %}
-
+  {%- comment -%} Load Base64 avatar from _includes/avatars/{{ slug }}.b64 {%- endcomment -%}
   {% capture raw_b64 %}
-    {% include {{ file }} %}
+    {% include avatars/{{ include.slug }}.b64 %}
   {% endcapture %}
-
   {% assign b64 = raw_b64 | strip_newlines | strip %}
 
   <img
     src="data:image/jpeg;base64,{{ b64 }}"
     alt="{{ include.member.name }}"
-    width="100" height="100"
+    width="100"
+    height="100"
   />
+
   <h2>{{ include.member.name }}</h2>
 
   {%- if include.member.linkedin or include.member.belt_level -%}
-    <div class="md-group">
-      {%- if include.member.linkedin -%}
-        <a href="{{ include.member.linkedin }}" target="_blank">
-          {% include icons/linkedin.svg class="md-icon-svg" %}
-        </a>
-      {%- endif -%}
-      {%- if include.member.belt_level -%}
-        {% assign level = site.data.belts[include.member.belt_level] %}
-        {% include icons/belt.svg class="md-belt-svg" color=level.color title=level.label %}
-      {%- endif -%}
-    </div>
+  <div class="md-group">
+    {%- if include.member.linkedin -%}
+      <a href="{{ include.member.linkedin }}" target="_blank" aria-label="LinkedIn">
+        {% include icons/linkedin.svg class="md-icon-svg" %}
+      </a>
+    {%- endif -%}
+    {%- if include.member.belt_level -%}
+      {% assign level = site.data.belts[include.member.belt_level] %}
+      {% include icons/belt.svg
+         class="md-belt-svg"
+         color=level.color
+         title=level.label %}
+    {%- endif -%}
+  </div>
   {%- endif -%}
 
   {%- if include.member.links -%}
