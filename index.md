@@ -42,24 +42,46 @@ It’s not just coaching.</p>
 <p><strong>⛩️ Get on the Mat.</strong></p>
 
 <div class="md-members">
+
+  {%- comment -%}
+    1) Grab each [slug, member] from the *profiles* sub‑hash
+  {%- endcomment -%}
   {% assign pairs = site.data.members.profiles %}
+
+  {%- comment -%}
+    2) Sort belt levels descending
+  {%- endcomment -%}
   {% assign sorted_levels = site.data.program.levels | sort: "level" | reverse %}
 
   {% for level in sorted_levels %}
     <h2>{{ level.label }}</h2>
 
+    {%- comment -%}
+      3) Initialize hits = []
+    {%- endcomment -%}
     {% assign hits = "" | split: "|" %}
     {% assign hits = hits | where_exp: "item", "item != ''" %}
+
+    {%- comment -%}
+      4) For each profile pair, filter by active & belt_level
+    {%- endcomment -%}
     {% for pair in pairs %}
       {% assign slug = pair[0] %}
       {% assign m    = pair[1] %}
-      {% if m.active and m.belt_level | plus:0 == level.level | plus:0 %}
+
+      {%- comment -%} Quick type‑coerce check {%- endcomment -%}
+      {% if m.active == true
+         and m.belt_level | plus:0 == level.level | plus:0 %}
         {% capture entry %}{{ m.join_date }}|{{ slug }}{% endcapture %}
         {% assign hits = hits | push: entry %}
       {% endif %}
     {% endfor %}
 
+    {%- comment -%}
+      5) Sort by join_date (ISO) and render
+    {%- endcomment -%}
     {% assign sorted_entries = hits | default: [] | sort %}
+
     {% for entry in sorted_entries %}
       {% assign parts  = entry | split: "|" %}
       {% assign slug   = parts[1] %}
@@ -68,6 +90,7 @@ It’s not just coaching.</p>
     {% endfor %}
   {% endfor %}
 </div>
+
 
 
 
