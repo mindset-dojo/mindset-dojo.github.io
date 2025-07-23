@@ -12,9 +12,9 @@
       {% assign slugs = filename[1] %}
     {% endfor %}
   {%- endcapture -%}
-  
+
   {%- capture raw_b64 -%}
-    {% ../_data/members/avatars/{{ include.slug }}.b64 %}
+    {% ../_data/members/avatars/{{ slugs }}.b64 %}
   {%- endcapture -%}
 
   {%- assign b64 = raw_b64
