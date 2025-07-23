@@ -42,12 +42,17 @@ It’s not just coaching.</p>
 <p><strong>⛩️ Get on the Mat.</strong></p>
 
 <div class="md-members">
+  {%- assign profiles = "" | split: "" -%}
 
-  {%- assign profiles = site.data.members.profiles -%}
-  {%- assign levels = site.data.program.levels | sort: "level" | reverse -%}
+  {%- for profile in site.data.members.profiles -%}
+    {% unless profile[1].active %}{% continue %}{% endunless %}
+    {% assign profiles = profiles | push: profile[1] %}
+  {% endfor %}
+
+  {%- assign sorted_levels = site.data.program.levels | sort: "level" | reverse -%}
   {%- assign count = 0 -%}
 
-  {%- for level in levels -%}
+  {%- for level in sorted_levels -%}
 
     {%- assign hits = "" | split: "|" -%}
 
