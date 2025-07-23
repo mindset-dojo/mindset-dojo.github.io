@@ -69,13 +69,14 @@ It’s not just coaching.</p>
       {%- endif -%}
     {%- endfor -%}
 
-    {%- for member in level_pairs[][1] -%}
-      {%- assign level_pairs = level_pairs | sort: "join_date" -%}
+    {%- assign sorted_pairs = level_pairs | sort_natural: "1.join_date" -%}
+    
+    {%- for pair in sorted_pairs -%}
+      {%- assign slug = pair[0] -%}
+      {%- assign member = pair[1] -%}
+      {%- include member.html member=member slug=slug -%}
     {%- endfor -%}
 
-    {%- for pair in level_pairs -%}
-      {% include member.html member=member slug=slug %}
-    {%- endfor -%}
   {% endfor %}
 </div>
 
