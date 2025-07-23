@@ -48,13 +48,6 @@ It’s not just coaching.</p>
   {%- endcomment -%}
   {% assign pairs = site.data.members.profiles %}
 
-  {%- comment -%}
-    2) Sort belt levels descending
-  {%- endcomment -%}
-  {% assign sorted_levels = site.data.program.levels | sort: "level" | reverse %}
-
-  {% for level in sorted_levels %}
-
     {%- comment -%}
       3) Initialize hits = []
     {%- endcomment -%}
@@ -87,7 +80,6 @@ It’s not just coaching.</p>
       {% assign member = site.data.members.profiles[slug] %}
       {% include member.html member=member slug=slug %}
     {% endfor %}
-  {% endfor %}
 </div>
 
 
