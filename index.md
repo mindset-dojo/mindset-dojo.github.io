@@ -74,7 +74,7 @@ It’s not just coaching.</p>
     {%- endfor -%}
 
     {%- for pair in level_pairs -%}
-      {% include member.html member=pair[1] slug=pair[0] %}
+      {% include member.html member=member slug=slug %}
     {%- endfor -%}
   {% endfor %}
 </div>
