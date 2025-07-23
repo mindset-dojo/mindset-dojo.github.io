@@ -7,6 +7,9 @@
 {%- endcomment -%}
 
 <section>
+  {%- capture slug -%}
+    {% ../_data/members/profiles/{{ slug }}.yaml %}
+  {%- endcapture -%}
   {%- capture raw_b64 -%}
     {% ../_data/members/avatars/{{ include.slug }}.b64 %}
   {%- endcapture -%}
