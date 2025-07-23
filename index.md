@@ -42,34 +42,55 @@ It’s not just coaching.</p>
 <p><strong>⛩️ Get on the Mat.</strong></p>
 
 <div class="md-members">
-  {% assign all_pairs     = site.data.members.profiles %}
+
+  {%- comment -%}
+    1) Grab each [slug, member] from the *profiles* sub‑hash
+  {%- endcomment -%}
+  {% assign pairs = site.data.members.profiles %}
+
+  {%- comment -%}
+    2) Sort belt levels descending
+  {%- endcomment -%}
   {% assign sorted_levels = site.data.program.levels | sort: "level" | reverse %}
 
   {% for level in sorted_levels %}
     <h2>{{ level.label }}</h2>
 
-    {% assign level_pairs = "" | split: "|" %}
-    {% for pair in all_pairs %}
-      {% assign slug   = pair[0] %}
-      {% assign member = pair[1] %}
-      {% if member.active and member.belt_level | plus:0 == level.level | plus:0 %}
-        {% assign level_pairs = level_pairs | push: member | push: slug %}
+    {%- comment -%}
+      3) Initialize hits = []
+    {%- endcomment -%}
+    {% assign hits = "" | split: "|" %}
+    {% assign hits = hits | where_exp: "item", "item != ''" %}
+
+    {%- comment -%}
+      4) For each profile pair, filter by active & belt_level
+    {%- endcomment -%}
+    {% for pair in pairs %}
+      {% assign slug = pair[0] %}
+      {% assign m    = pair[1] %}
+
+      {%- comment -%} Quick type‑coerce check {%- endcomment -%}
+      {% if m.active == true
+         and m.belt_level | plus:0 == level.level | plus:0 %}
+        {% capture entry %}{{ m.join_date }}|{{ slug }}{% endcapture %}
+        {% assign hits = hits | push: entry %}
       {% endif %}
     {% endfor %}
 
-    {% comment %}
-      Now level_pairs is actually [member, slug, member, slug, ...]
-      We’ll loop in pairs
-    {% endcomment %}
-    {% for i in (0..level_pairs.size) %}
-      {% if forloop.index0 | modulo:2 == 0 %}
-        {% assign member = level_pairs[forloop.index0] %}
-        {% assign slug   = level_pairs[forloop.index0 | plus:1] %}
-        {% include member.html member=member slug=slug %}
-      {% endif %}
+    {%- comment -%}
+      5) Sort by join_date (ISO) and render
+    {%- endcomment -%}
+    {% assign sorted_entries = hits | default: [] | sort %}
+
+    {% for entry in sorted_entries %}
+      {% assign parts  = entry | split: "|" %}
+      {% assign slug   = parts[1] %}
+      {% assign member = site.data.members.profiles[slug] %}
+      {% include member.html member=member slug=slug %}
     {% endfor %}
   {% endfor %}
 </div>
+
 
 
 
