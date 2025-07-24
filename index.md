@@ -43,44 +43,40 @@ It’s not just coaching.</p>
 
 <div class="md-members">
 
+  {%- assign sorted_levels = site.data.program.levels | sort: "level" | reverse -%}
+
   {%- comment -%}
-    1) Gather only active slugs from the [slug,member] pairs
+    1) Gather all active [slug, member] pairs
   {%- endcomment -%}
-  {% assign active_slugs = "" | split: "|" %}
+  {% assign active_pairs = "" | split: "|" %}
   {% for pair in site.data.members.profiles %}
-    {% assign slug   = pair[0] %}
+    {% assign slug = pair[0] %}
     {% assign member = pair[1] %}
     {% if member.active %}
-      {% assign active_slugs = active_slugs | push: slug %}
+      {% capture joined %}{{ member.join_date }}|{{ slug }}{% endcapture %}
+      {% assign active_pairs = active_pairs | push: joined %}
     {% endif %}
   {% endfor %}
 
   {%- comment -%}
-    2) Sort those slugs by join_date ascending
+    2) Sort by join_date
   {%- endcomment -%}
-  {% assign by_date_slugs = active_slugs | sort: "join_date" %}
+  {% assign sorted_pairs = active_pairs | sort %}
 
   {%- comment -%}
-    3) Group by belt level (desc), selecting from the date‑sorted list
+    3) For each belt level, display members of that level
   {%- endcomment -%}
-  {% assign final_slugs = "" | split: "|" %}
-  {% for level in site.data.program.levels | sort: "level" | reverse %}
-    {% for slug in by_date_slugs %}
+  {% for level in sorted_levels %}
+    <h2>{{ level.label }}</h2>
+    {% for entry in sorted_pairs %}
+      {% assign parts  = entry | split: "|" %}
+      {% assign slug   = parts[1] %}
       {% assign member = site.data.members.profiles[slug] %}
+
       {% if member.belt_level | plus:0 == level.level | plus:0 %}
-        {% assign final_slugs = final_slugs | push: slug %}
+        {% include member.html member=member slug=slug %}
       {% endif %}
     {% endfor %}
-  {% endfor %}
-
-  {%- comment -%}
-    4) Render each card once, but still extract slug+member from pairs
-  {%- endcomment -%}
-  {% for slug in final_slugs %}
-    {% assign pair   = site.data.members.profiles | where: "first", slug | first %}
-    {% assign slug   = pair[0] %}
-    {% assign member = pair[1] %}
-    {% include member.html member=member slug=slug %}
   {% endfor %}
 
 </div>
