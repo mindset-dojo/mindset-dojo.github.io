@@ -79,7 +79,7 @@ It’s not just coaching.</p>
     {% for entry in sorted %}
       {% assign parts  = entry | split: "|" %}
       {% assign slug   = parts[1] %}
-      {% assign member = site.data.members[slug] %}
+      {% assign member = site.data.members.profiles[slug] %}
       {% include member.html member=member slug=slug %}
     {% endfor %}
 
