@@ -74,7 +74,7 @@ It’s not just coaching.</p>
     {%- comment -%} 5) Sort by join_date safely {% endcomment -%}
     {% assign sorted = hits | default: [] | sort %}
 
-   {% for level in sorted_levels %}
+  {% for level in sorted_levels %}
     <h2>{{ level.label }}</h2>
     {%- comment -%} 6) Render each member card {% endcomment -%}
     {% for entry in sorted %}
