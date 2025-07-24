@@ -29,11 +29,12 @@
       </a>
     {%- endif -%}
     {%- if include.member.belt_level -%}
-      {% assign level = site.data.program.levels[include.member.belt_level] %}
+      {% assign belt_level = include.member.belt_level | plus: 0 %}
+      {% assign level = site.data.program.levels | where: "level", belt_level | first %}
       {% include icons/belt.svg
-         class="md-belt-svg"
-         color=level.color
-         title=level.label %}
+        class="md-belt-svg"
+        color=level.color
+        title=level.label %}
     {%- endif -%}
   </div>
   {%- endif -%}
