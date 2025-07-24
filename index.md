@@ -43,35 +43,49 @@ It’s not just coaching.</p>
 
 <div class="md-members">
 
-  {% assign all_profiles   = site.data.members.profiles %}
-  {% assign sorted_levels  = site.data.program.levels | sort: "level" | reverse %}
+  {%- comment -%}
+    1) Get each [slug, member] pair directly
+  {%- endcomment -%}
+  {% assign pairs = site.data.members.profiles %}
+
+  {%- comment -%}
+    2) Sort levels descending
+  {%- endcomment -%}
+  {% assign sorted_levels = site.data.program.levels | sort: "level" | reverse %}
 
   {% for level in sorted_levels %}
     <h2>{{ level.label }}</h2>
 
-    {%- comment -%} 1) Collect entries for this level: join_date|slug {%- endcomment -%}
-    {% assign entries = "" | split: "|" %}
+    {%- comment -%} 3) Build hits as empty array {% endcomment -%}
+    {% assign hits = "" | split: "|" %}
+    {% assign hits = hits | where_exp: "item", "item != ''" %}
 
-    {% for slug in all_profiles %}
-      {% assign member = all_profiles[slug] %}
-      {% if member.active and member.belt_level == level.level %}
-        {% capture entry %}{{ member.join_date }}|{{ slug }}{% endcapture %}
-        {% assign entries = entries | push: entry %}
+    {%- comment -%}
+      4) For each [slug, member] pair, filter by active & belt_level
+    {%- endcomment -%}
+    {% for pair in pairs %}
+      {% assign slug = pair[0] %}
+      {% assign m    = pair[1] %}
+      {% if m.active and m.belt_level | plus:0 == level.level | plus:0 %}
+        {% capture entry %}{{ m.join_date }}|{{ slug }}{% endcapture %}
+        {% assign hits = hits | push: entry %}
       {% endif %}
     {% endfor %}
 
-    {%- comment -%} 2) Sort entries by join_date (ISO lexicographic) {%- endcomment -%}
-    {% assign sorted_entries = entries | sort %}
+    {%- comment -%} 5) Sort by join_date safely {% endcomment -%}
+    {% assign sorted = hits | default: [] | sort %}
 
-    {%- comment -%} 3) Loop and split into [join_date, slug] {%- endcomment -%}
-    {% for entry in sorted_entries %}
+    {%- comment -%} 6) Render each member card {% endcomment -%}
+    {% for entry in sorted %}
       {% assign parts  = entry | split: "|" %}
       {% assign slug   = parts[1] %}
-      {% assign member = all_profiles[slug] %}
+      {% assign member = site.data.members[slug] %}
       {% include member.html member=member slug=slug %}
     {% endfor %}
+
   {% endfor %}
 </div>
+
 
 
 <div class="md-cta-group">
