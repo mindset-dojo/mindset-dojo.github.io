@@ -43,16 +43,14 @@ It’s not just coaching.</p>
 
 <div class="md-members">
 
-  {%- assign profiles = site.data.members.profiles -%}
-  {%- assign sorted_levels = site.data.program.levels | sort: "level" | reverse -%}
+  {% assign profiles = site.data.members.profiles %}
+  {% assign slugs = profiles | keys %}
+  {% assign sorted_levels = site.data.program.levels | sort: "level" | reverse %}
 
-  {%- comment -%}
-    1. For each belt level, gather matching active members
-  {%- endcomment -%}
   {% for level in sorted_levels %}
     {% assign level_members = "" | split: "|" %}
 
-    {% for slug in profiles %}
+    {% for slug in slugs %}
       {% assign member = profiles[slug] %}
       {% if member.active and member.belt_level | plus:0 == level.level | plus:0 %}
         {% capture entry %}{{ member.join_date }}|{{ slug }}{% endcapture %}
@@ -65,15 +63,15 @@ It’s not just coaching.</p>
     {% if level_members != empty %}
       <h2>{{ level.label }}</h2>
       {% for entry in level_members %}
-        {% assign parts  = entry | split: "|" %}
-        {% assign slug   = parts[1] %}
+        {% assign parts = entry | split: "|" %}
+        {% assign slug = parts[1] %}
         {% assign member = profiles[slug] %}
         {% include member.html member=member slug=slug %}
       {% endfor %}
     {% endif %}
   {% endfor %}
-
 </div>
+
 
 
 
