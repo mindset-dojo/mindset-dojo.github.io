@@ -1,8 +1,9 @@
 ---
-name: Patrick Burke
-active: true
-belt_level: -5
-join_date: 2024-12-01
-linkedin: https://www.linkedin.com/in/patrick-j-burke
-links: []
+patrick-burke:
+  name: Patrick Burke
+  active: true
+  belt_level: -5
+  join_date: 2024-12-01
+  linkedin: https://www.linkedin.com/in/patrick-j-burke
+  links: []
 ...
