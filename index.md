@@ -43,32 +43,45 @@ It’s not just coaching.</p>
 
 <div class="md-members">
 
-  {%- comment -%} 1) Gather only active members into date|slug strings {%- endcomment -%}
-{% assign entries = "" | split: "|" %}
-{% for slug in site.data.members.profiles %}
-  {% assign m = site.data.members.profiles[slug] %}
-  {% if m.active %}
-    {% capture pair %}{{ m.join_date }}|{{ slug }}{% endcapture %}
-    {% assign entries = entries | push: pair %}
-  {% endif %}
-{% endfor %}
+  {%- comment -%}
+    1) Gather only active slugs from the [slug,member] pairs
+  {%- endcomment -%}
+  {% assign active_slugs = "" | split: "|" %}
+  {% for pair in site.data.members.profiles %}
+    {% assign slug   = pair[0] %}
+    {% assign member = pair[1] %}
+    {% if member.active %}
+      {% assign active_slugs = active_slugs | push: slug %}
+    {% endif %}
+  {% endfor %}
 
-{%- comment -%} 2) Sort those by date prefix (ISO dates sort correctly) {%- endcomment -%}
-{% assign sorted_entries = entries | sort %}
+  {%- comment -%}
+    2) Sort those slugs by join_date ascending
+  {%- endcomment -%}
+  {% assign by_date_slugs = active_slugs | sort: "join_date" %}
 
-{%- comment -%} 3) Extract the slugs in that order {%- endcomment -%}
-{% assign final_slugs = "" | split: "|" %}
-{% for entry in sorted_entries %}
-  {% assign parts = entry | split: "|" %}
-  {% assign slug  = parts[1] %}
-  {% assign final_slugs = final_slugs | push: slug %}
-{% endfor %}
+  {%- comment -%}
+    3) Group by belt level (desc), selecting from the date‑sorted list
+  {%- endcomment -%}
+  {% assign final_slugs = "" | split: "|" %}
+  {% for level in site.data.program.levels | sort: "level" | reverse %}
+    {% for slug in by_date_slugs %}
+      {% assign member = site.data.members.profiles[slug] %}
+      {% if member.belt_level | plus:0 == level.level | plus:0 %}
+        {% assign final_slugs = final_slugs | push: slug %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
 
-{%- comment -%} 4) Now loop those slugs to render cards {%- endcomment -%}
-{% for slug in final_slugs %}
-  {% assign member = site.data.members.profiles[slug] %}
-  {% include member.html member=member slug=slug %}
-{% endfor %}
+  {%- comment -%}
+    4) Render each card once, but still extract slug+member from pairs
+  {%- endcomment -%}
+  {% for slug in final_slugs %}
+    {% assign pair   = site.data.members.profiles | where: "first", slug | first %}
+    {% assign slug   = pair[0] %}
+    {% assign member = pair[1] %}
+    {% include member.html member=member slug=slug %}
+  {% endfor %}
 
 </div>
 
