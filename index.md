@@ -54,7 +54,6 @@ It’s not just coaching.</p>
 
     {% for slug in all_profiles %}
       {% assign member = all_profiles[slug] %}
-      <pre>DEBUG: slug="{{ slug }}", member.name="{{ member.name }}"</pre>
       {% if member.active and member.belt_level == level.level %}
         {% capture entry %}{{ member.join_date }}|{{ slug }}{% endcapture %}
         {% assign entries = entries | push: entry %}
