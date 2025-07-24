@@ -52,19 +52,21 @@ It’s not just coaching.</p>
   {% for pair in all_pairs %}
     {% assign slug = pair[0] %}
     {% assign member = pair[1] %}
+
     {% if member.active %}
-      {% capture entry %}{{ member.belt_level | plus: 0 | prepend: "000" | slice: -3, 3 }}|{{ member.join_date }}|{{ slug }}{% endcapture %}
+      {%- assign neg_belt = member.belt_level | times: -1 | plus: 1000 | prepend: "0000" | slice: -4, 4 -%}
+      {% capture entry %}{{ neg_belt }}|{{ member.join_date }}|{{ slug }}{% endcapture %}
       {% assign active_entries = active_entries | push: entry %}
     {% endif %}
   {% endfor %}
 
   {%- comment -%}
-    2) Sort entries by belt_level DESC (using padded number) and then join_date ASC
+    2) Sort entries → belt_level DESC, join_date ASC
   {%- endcomment -%}
-  {% assign sorted_entries = active_entries | sort | reverse %}
+  {% assign sorted_entries = active_entries | sort %}
 
   {%- comment -%}
-    3) Render each unique member
+    3) Render each member once
   {%- endcomment -%}
   {% for entry in sorted_entries %}
     {% assign parts = entry | split: "|" %}
@@ -73,12 +75,6 @@ It’s not just coaching.</p>
     {% include member.html member=member slug=slug %}
   {% endfor %}
 </div>
-
-
-
-
-
-
 
 <div class="md-cta-group">
     <a href="./program">Open Source Program</a>
