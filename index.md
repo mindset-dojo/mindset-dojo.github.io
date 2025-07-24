@@ -62,8 +62,8 @@ It’s not just coaching.</p>
     {% for pair in pairs %}
       {% assign slug   = pair[0] %}
       {% assign member = pair[1] %}
-      {% if member.active and (member.belt_level | plus:0 == level.level | plus:0) %}
-        {% capture entry %}{{ member.join_date }}|{{ slug }}{% endcapture %}
+      {% if member.slug.active and (member.slug.belt_level | plus:0 == level.level | plus:0) %}
+        {% capture entry %}{{ member.slug.join_date }}|{{ slug }}{% endcapture %}
         {% assign level_members = level_members | push: entry %}
       {% endif %}
     {% endfor %}
