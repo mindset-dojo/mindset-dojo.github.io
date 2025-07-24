@@ -43,48 +43,39 @@ It’s not just coaching.</p>
 
 <div class="md-members">
 
-  {%- comment -%}
-    1) Get each [slug, member] pair directly
-  {%- endcomment -%}
-  {% assign pairs = site.data.members.profiles %}
+  {%- comment -%} 1) Gather active slugs {%- endcomment -%}
+  {% assign active_slugs = "" | split: "|" %}
+  {% for slug in site.data.members.profiles %}
+    {% assign m = site.data.members.profiles[slug] %}
+    {% if m.active %}
+      {% assign active_slugs = active_slugs | push: slug %}
+    {% endif %}
+  {% endfor %}
+
+  {%- comment -%} 2) Sort those slugs by join_date ascending {%- endcomment -%}
+  {% assign by_date_slugs = active_slugs | sort: "join_date" %}
 
   {%- comment -%}
-    2) Sort levels descending
+    3) Now group by belt level (desc), selecting from the date‑sorted list
   {%- endcomment -%}
-  {% assign sorted_levels = site.data.program.levels | sort: "level" | reverse %}
-
-  {% for level in sorted_levels %}
-    <h2>{{ level.label }}</h2>
-
-    {%- comment -%} 3) Build hits as empty array {% endcomment -%}
-    {% assign hits = "" | split: "|" %}
-    {% assign hits = hits | where_exp: "item", "item != ''" %}
-
-    {%- comment -%}
-      4) For each [slug, member] pair, filter by active & belt_level
-    {%- endcomment -%}
-    {% for pair in pairs %}
-      {% assign slug = pair[0] %}
-      {% assign m    = pair[1] %}
-      {% if m.active and m.belt_level | plus:0 == level.level | plus:0 %}
-        {% capture entry %}{{ m.join_date }}|{{ slug }}{% endcapture %}
-        {% assign hits = hits | push: entry %}
+  {% assign final_slugs = "" | split: "|" %}
+  {% for level in site.data.program.levels | sort: "level" | reverse %}
+    {% for slug in by_date_slugs %}
+      {% assign m = site.data.members.profiles[slug] %}
+      {% if m.belt_level | plus:0 == level.level | plus:0 %}
+        {% assign final_slugs = final_slugs | push: slug %}
       {% endif %}
     {% endfor %}
-
-    {%- comment -%} 5) Sort by join_date safely {% endcomment -%}
-    {% assign sorted = hits | default: [] | sort %}
-
-    {%- comment -%} 6) Render each member card {% endcomment -%}
-    {% for entry in sorted %}
-      {% assign parts  = entry | split: "|" %}
-      {% assign slug   = parts[1] %}
-      {% assign member = site.data.members.profiles[slug] %}
-      {% include member.html member=member slug=slug %}
-    {% endfor %}
-
   {% endfor %}
+
+  {%- comment -%} 4) Render each card once, passing slug + member explicitly {%- endcomment -%}
+  {% for slug in final_slugs %}
+    {% assign member = site.data.members.profiles[slug] %}
+    {% include member.html member=member slug=slug %}
+  {% endfor %}
+
 </div>
+
 
 
 
