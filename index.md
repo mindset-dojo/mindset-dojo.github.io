@@ -43,43 +43,38 @@ It’s not just coaching.</p>
 
 <div class="md-members">
 
+  {%- assign profiles = site.data.members.profiles -%}
   {%- assign sorted_levels = site.data.program.levels | sort: "level" | reverse -%}
 
   {%- comment -%}
-    1) Gather all active [slug, member] pairs
+    1. For each belt level, gather matching active members
   {%- endcomment -%}
-  {% assign active_pairs = "" | split: "|" %}
-  {% for pair in site.data.members.profiles %}
-    {% assign slug = pair[0] %}
-    {% assign member = pair[1] %}
-    {% if member.active %}
-      {% capture joined %}{{ member.join_date }}|{{ slug }}{% endcapture %}
-      {% assign active_pairs = active_pairs | push: joined %}
+  {% for level in sorted_levels %}
+    {% assign level_members = "" | split: "|" %}
+
+    {% for slug in profiles %}
+      {% assign member = profiles[slug] %}
+      {% if member.active and member.belt_level | plus:0 == level.level | plus:0 %}
+        {% capture entry %}{{ member.join_date }}|{{ slug }}{% endcapture %}
+        {% assign level_members = level_members | push: entry %}
+      {% endif %}
+    {% endfor %}
+
+    {% assign level_members = level_members | sort %}
+
+    {% if level_members != empty %}
+      <h2>{{ level.label }}</h2>
+      {% for entry in level_members %}
+        {% assign parts  = entry | split: "|" %}
+        {% assign slug   = parts[1] %}
+        {% assign member = profiles[slug] %}
+        {% include member.html member=member slug=slug %}
+      {% endfor %}
     {% endif %}
   {% endfor %}
 
-  {%- comment -%}
-    2) Sort by join_date
-  {%- endcomment -%}
-  {% assign sorted_pairs = active_pairs | sort %}
-
-  {%- comment -%}
-    3) For each belt level, display members of that level
-  {%- endcomment -%}
-  {% for level in sorted_levels %}
-    <h2>{{ level.label }}</h2>
-    {% for entry in sorted_pairs %}
-      {% assign parts  = entry | split: "|" %}
-      {% assign slug   = parts[1] %}
-      {% assign member = site.data.members.profiles[slug] %}
-
-      {% if member.belt_level | plus:0 == level.level | plus:0 %}
-        {% include member.html member=member slug=slug %}
-      {% endif %}
-    {% endfor %}
-  {% endfor %}
-
 </div>
+
 
 
 
