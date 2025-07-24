@@ -68,7 +68,7 @@ It’s not just coaching.</p>
       {% endif %}
     {% endfor %}
 
-    {% assign level_members = level_members | default: [] | sort %}
+    {% assign level_members = level_members | sort %}
 
     {% if level_members != empty %}
       <h2>{{ level.label }}</h2>
