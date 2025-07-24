@@ -66,14 +66,14 @@ It’s not just coaching.</p>
   {%- comment -%}
     3) For each belt level, display members of that level
   {%- endcomment -%}
-  {% for l in sorted_levels %}
-    <h2>{{ l.label }}</h2>
+  {% for level in sorted_levels %}
+    <h2>{{ level.label }}</h2>
     {% for entry in sorted_pairs %}
       {% assign parts  = entry | split: "|" %}
       {% assign slug   = parts[1] %}
       {% assign member = site.data.members.profiles[slug] %}
 
-      {% if member.belt_level | plus:0 == l.level | plus:0 %}
+      {% if member.belt_level | plus:0 == level.level | plus:0 %}
         {% include member.html member=member slug=slug %}
       {% endif %}
     {% endfor %}
