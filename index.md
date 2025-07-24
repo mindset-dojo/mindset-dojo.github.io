@@ -55,7 +55,7 @@ It’s not just coaching.</p>
   {% for level in sorted_levels %}
     {% assign level_members = "" | split: "|" %}
     {% assign level_members = level_members | where_exp: "item", "item != ''" %}
-    
+
     {%- comment -%}
       3) Filter active members with this belt level
     {%- endcomment -%}
@@ -68,7 +68,7 @@ It’s not just coaching.</p>
       {% endif %}
     {% endfor %}
 
-    {% assign level_members = level_members | sort %}
+    {% assign level_members = level_members | default: [] | sort %}
 
     {% if level_members != empty %}
       <h2>{{ level.label }}</h2>
