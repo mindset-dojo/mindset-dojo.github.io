@@ -53,8 +53,7 @@ It’s not just coaching.</p>
   {%- endcomment -%}
   {% assign sorted_levels = site.data.program.levels | sort: "level" | reverse %}
 
-  {% for level in sorted_levels %}
-    <h2>{{ level.label }}</h2>
+ 
 
     {%- comment -%} 3) Build hits as empty array {% endcomment -%}
     {% assign hits = "" | split: "|" %}
@@ -75,6 +74,8 @@ It’s not just coaching.</p>
     {%- comment -%} 5) Sort by join_date safely {% endcomment -%}
     {% assign sorted = hits | default: [] | sort %}
 
+ {% for level in sorted_levels %}
+    <h2>{{ level.label }}</h2>
     {%- comment -%} 6) Render each member card {% endcomment -%}
     {% for entry in sorted %}
       {% assign parts  = entry | split: "|" %}
