@@ -53,7 +53,10 @@ It’s not just coaching.</p>
   {%- endcomment -%}
   {% assign sorted_levels = site.data.program.levels | sort: "level" | reverse %}
 
-  {% for level in sorted_levels %}
+  {%- comment -%}
+    note: changed level to l so that the loop variable doesn't overwrite the profile card level variable.
+  {%- endcomment -%}
+  {% for l in sorted_levels %}
     <h2>{{ level.label }}</h2>
 
     {%- comment -%} 3) Build hits as empty array {% endcomment -%}
