@@ -29,7 +29,7 @@
       </a>
     {%- endif -%}
     {%- if include.member.belt_level -%}
-      {% assign level = site.data.belts[include.member.belt_level] %}
+      {% assign level = site.data.program.levels[include.member.belt_level] %}
       {% include icons/belt.svg
          class="md-belt-svg"
          color=level.color
