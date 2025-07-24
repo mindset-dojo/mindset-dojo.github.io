@@ -1,13 +1,12 @@
 ---
-kyle-ingersoll:
-  name: Kyle Ingersoll
-  active: true
-  belt_level: -4
-  join_date: 2024-08-01
-  linkedin: https://www.linkedin.com/in/kyle-ingersoll
-  links:
-    - label: Resume
-      url: https://docs.google.com/document/d/1lG_xULGM5NAMUyY7XYfHYHlJeQ4-khK6S-m5qzHPW9g/edit?usp=sharing
-    - label: GitHub Account
-      url: https://github.com/Computer8543
+name: Kyle Ingersoll
+active: true
+belt_level: -4
+join_date: 2024-08-01
+linkedin: https://www.linkedin.com/in/kyle-ingersoll
+links:
+  - label: Resume
+    url: https://docs.google.com/document/d/1lG_xULGM5NAMUyY7XYfHYHlJeQ4-khK6S-m5qzHPW9g/edit?usp=sharing
+  - label: GitHub Account
+    url: https://github.com/Computer8543
 ...
