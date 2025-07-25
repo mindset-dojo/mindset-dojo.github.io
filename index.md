@@ -44,28 +44,34 @@ It’s not just coaching.</p>
 <div class="md-members">
 
   {%- comment -%}
-    1. Gather all active members as [belt, join, slug] entries
+    1. Get all [slug, member] pairs from flattened YAMLs
   {%- endcomment -%}
   {% assign all_profiles = site.data.members.profiles %}
   {% assign active_entries = "" | split: "|" %}
 
+  {%- comment -%}
+    2. Filter for active members, capture belt_level & join_date for sorting
+       - We negate belt_level and pad so higher ranks appear first (e.g., -1 → 1001)
+  {%- endcomment -%}
   {% for pair in all_profiles %}
     {% assign slug = pair[0] %}
     {% assign member = pair[1] %}
 
     {% if member.active %}
-      {%- comment -%}
-        Pad belt_level for sorting (belt: high to low, join_date: low to high)
-      {%- endcomment -%}
-      {% capture entry %}
-        {{ member.belt_level | plus: 0 | prepend: "000" | slice: -3, 3 }}|{{ member.join_date }}|{{ slug }}
-      {% endcapture %}
+      {%- assign neg_belt = member.belt_level | times: -1 | plus: 1000 | prepend: "0000" | slice: -4, 4 -%}
+      {% capture entry %}{{ neg_belt }}|{{ member.join_date }}|{{ slug }}{% endcapture %}
       {% assign active_entries = active_entries | push: entry %}
     {% endif %}
   {% endfor %}
 
-  {%- assign sorted_entries = active_entries | sort | reverse -%}
+  {%- comment -%}
+    3. Sort by belt_level DESC (negated), then join_date ASC
+  {%- endcomment -%}
+  {% assign sorted_entries = active_entries | sort %}
 
+  {%- comment -%}
+    4. Render each member card
+  {%- endcomment -%}
   {% for entry in sorted_entries %}
     {% assign parts = entry | split: "|" %}
     {% assign slug = parts[2] %}
@@ -74,6 +80,7 @@ It’s not just coaching.</p>
   {% endfor %}
 
 </div>
+
 
 
 <div class="md-cta-group">
