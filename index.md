@@ -44,37 +44,37 @@ It’s not just coaching.</p>
 <div class="md-members">
 
   {%- comment -%}
-    1) Collect active [slug, member] pairs into an array
+    1. Gather all active members as [belt, join, slug] entries
   {%- endcomment -%}
-  {% assign all_pairs = site.data.members.profiles %}
+  {% assign all_profiles = site.data.members.profiles %}
   {% assign active_entries = "" | split: "|" %}
 
-  {% for pair in all_pairs %}
+  {% for pair in all_profiles %}
     {% assign slug = pair[0] %}
     {% assign member = pair[1] %}
 
     {% if member.active %}
-      {%- assign neg_belt = member.belt_level | times: -1 | plus: 1000 | prepend: "0000" | slice: -4, 4 -%}
-      {% capture entry %}{{ neg_belt }}|{{ member.join_date }}|{{ slug }}{% endcapture %}
+      {%- comment -%}
+        Pad belt_level for sorting (belt: high to low, join_date: low to high)
+      {%- endcomment -%}
+      {% capture entry %}
+        {{ member.belt_level | plus: 0 | prepend: "000" | slice: -3, 3 }}|{{ member.join_date }}|{{ slug }}
+      {% endcapture %}
       {% assign active_entries = active_entries | push: entry %}
     {% endif %}
   {% endfor %}
 
-  {%- comment -%}
-    2) Sort entries → belt_level DESC, join_date ASC
-  {%- endcomment -%}
-  {% assign sorted_entries = active_entries | sort %}
+  {%- assign sorted_entries = active_entries | sort | reverse -%}
 
-  {%- comment -%}
-    3) Render each member once
-  {%- endcomment -%}
   {% for entry in sorted_entries %}
     {% assign parts = entry | split: "|" %}
     {% assign slug = parts[2] %}
-    {% assign member = site.data.members.profiles[slug] %}
+    {% assign member = all_profiles[slug] %}
     {% include member.html member=member slug=slug %}
   {% endfor %}
+
 </div>
+
 
 <div class="md-cta-group">
     <a href="./program">Open Source Program</a>
