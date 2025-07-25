@@ -40,19 +40,36 @@ It’s not just coaching.</p>
 <p><strong>⛩️ Get on the Mat.</strong></p>
 
 <div class="md-members">
-{% assign members = "" | split: "" %}
-{% for member in site.data.members %}
-    {% unless member[1].active %}{% continue %}{% endunless %}
-    {% assign members = members | push: member[1] %}
-{% endfor %}
-{% assign sorted_levels = site.data.program.levels | sort: "level" | reverse %}
-{% for level in sorted_levels %}
-    {% assign level_members = members | where: "belt_level", level.level" %}
-    {% assign level_members = level_members | sort: "join_date" %}
-    {% for member in level_members %}
-      {% include member.html member=member %}
-    {% endfor %}
-{% endfor %}
+
+  {%- assign profiles = site.data.members.profiles -%}
+  {%- assign avatars  = site.data.members.avatars -%}
+  {%- assign entries  = "" | split: "|" -%}
+
+  {%- comment -%}
+    1) Build sortable list of active members
+       Format: [padded -belt]|[join_date]|[key]
+  {%- endcomment -%}
+  {% for pair in profiles %}
+    {% assign key = pair[0] %}
+    {% assign member = pair[1] %}
+    {% if member.active %}
+      {%- assign neg_belt = member.belt_level | times: -1 | plus: 1000 | prepend: "0000" | slice: -4, 4 -%}
+      {% capture entry %}{{ neg_belt }}|{{ member.join_date }}|{{ key }}{% endcapture %}
+      {% assign entries = entries | push: entry %}
+    {% endif %}
+  {% endfor %}
+
+  {%- comment -%} 2) Sort by belt_level DESC, then join_date ASC {%- endcomment -%}
+  {% assign sorted_entries = entries | sort %}
+
+  {%- comment -%} 3) Render each profile card {%- endcomment -%}
+  {% for entry in sorted_entries %}
+    {% assign parts  = entry | split: "|" %}
+    {% assign key    = parts[2] %}
+    {% assign member = profiles[key] %}
+    {% assign avatar = avatars[key] %}
+    {% include member.html member=member avatar=avatar %}
+  {% endfor %}
 </div>
 
 <div class="md-cta-group">
