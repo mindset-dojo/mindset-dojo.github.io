@@ -49,8 +49,9 @@ It’s not just coaching.</p>
     1) Build sortable list of active members
        Format: [padded -belt]|[join_date]|[key]
   {%- endcomment -%}
-  {% for key in profiles %}
-    {% assign member = profiles[key] %}
+  {% for pair in profiles %}
+    {% assign key = pair[0] %}
+    {% assign member = pair[1] %}
     {% if member.active %}
       {%- assign neg_belt = member.belt_level | times: -1 | plus: 1000 | prepend: "0000" | slice: -4, 4 -%}
       {% capture entry %}{{ neg_belt }}|{{ member.join_date }}|{{ key }}{% endcapture %}
