@@ -53,7 +53,7 @@ Roles are voluntary and reviewed periodically to ensure mutual clarity and care.
 
 ## 🔄 PR Guidance
 
-1. **Fork** the repo and create a topic branch.
+1. **Fork** the repository and create a topic branch.
 2. Use **Conventional Commits** in your messages.
 3. Submit a **clear, minimal PR** and link any relevant issues.
 4. Any PR will be vetted through the automated GitHub Action-based quality gates.
