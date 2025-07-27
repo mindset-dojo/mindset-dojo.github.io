@@ -15,3 +15,7 @@ Inspirations:
 Respect:
 
 * [LICENSE](LICENSE.md)
+
+Engage:
+
+* [CONTRIBUTING](CONTRIBUTING.md)
