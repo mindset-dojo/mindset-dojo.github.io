@@ -1,3 +1,4 @@
+---
 name: HTMLProofer Gate
 
 on:
@@ -37,3 +38,5 @@ jobs:
           source .github/config/htmlproofer.env
           set +o allexport
           bundle exec htmlproofer ./_site $HTMLPROOFER_FLAGS
+...
+
