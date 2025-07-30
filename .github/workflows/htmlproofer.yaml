@@ -1,0 +1,37 @@
+name: HTMLProofer Gate
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  htmlproofer:
+    name: Validate Built Jekyll Site with HTMLProofer
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 💎 Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.2
+          bundler-cache: true
+
+      - name: 📦 Install dependencies
+        run: |
+          bundle config set --local path 'vendor/bundle'
+          bundle install
+
+      - name: 🏗️ Build GitHub Pages-compliant Jekyll site
+        env:
+          JEKYLL_ENV: production
+        run: bundle exec jekyll build --config _config.yml,_config.production.yml
+
+      - name: ✅ Run HTMLProofer with external flags
+        run: |
+          set -o allexport
+          source .github/config/htmlproofer.env
+          set +o allexport
+          bundle exec htmlproofer ./_site $HTMLPROOFER_FLAGS
