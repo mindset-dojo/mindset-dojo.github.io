@@ -2,6 +2,8 @@ name: HTMLProofer Gate
 
 on:
   pull_request:
+    branches: [main]
+
   workflow_dispatch:
 
 jobs:
