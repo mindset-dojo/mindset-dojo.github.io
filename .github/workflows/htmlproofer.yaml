@@ -5,17 +5,28 @@ name: HTMLProofer Gate
 on:
   pull_request:
     branches: [main]
-
+    
   workflow_dispatch: null
+
+permissions:
+  contents: read    # Only read repo contents
+  pages: none        # Not publishing in this job
+  checks: read       # Allow checking existing status / run Super-Linter
 
 jobs:
   htmlproofer:
     name: Validate Built Jekyll Site with HTMLProofer
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: read
+      checks: read
+
     steps:
       - name: 📥 Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # get full history if needed
 
       - name: 💎 Set up Ruby
         uses: ruby/setup-ruby@v1
@@ -28,7 +39,7 @@ jobs:
           bundle config set --local path 'vendor/bundle'
           bundle install
 
-      - name: 🏗️ Build GitHub Pages-compliant Jekyll site
+      - name: 🏗️ Build GitHub Pages‑compliant Jekyll site
         env:
           JEKYLL_ENV: production
         run: bundle exec jekyll build --config _config.yml,_config.production.yml
@@ -40,4 +51,5 @@ jobs:
           set +o allexport
           bundle exec htmlproofer ./_site "$HTMLPROOFER_FLAGS"
 ...
+
 
