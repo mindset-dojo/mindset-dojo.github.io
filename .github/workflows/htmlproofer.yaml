@@ -71,4 +71,3 @@ jobs:
           set +o allexport
           bundle exec htmlproofer ./_site "$HTMLPROOFER_FLAGS"
 ...
-
