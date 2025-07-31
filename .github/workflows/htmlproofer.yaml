@@ -42,7 +42,7 @@ jobs:
       - name: 📝 Generate production config
         run: |
           # Detect central repo vs forks:
-          if [[ "${GITHUB_REPOSITORY}" == "your-org/your-repo" ]]; then
+          if [[ "${GITHUB_REPOSITORY}" == "mindset-dojo/mindset-dojo.github.io" ]]; then
             URL="https://mindset.dojo.center"
             BASEURL=""
           else
