@@ -69,5 +69,5 @@ jobs:
           set -o allexport
           source .github/config/htmlproofer.env
           set +o allexport
-          bundle exec htmlproofer ./_site "$HTMLPROOFER_FLAGS"
+          bundle exec htmlproofer ./_site ${HTMLPROOFER_FLAGS}
 ...
