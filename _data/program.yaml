@@ -9,13 +9,17 @@ principles:
   - label: Feel into emotional waves
   - label: Meet tension with presence
   - label: Form reflection into reflex
-practices:
+forms:
   - label: Reflection
     url: https://en.wikipedia.org/wiki/Self-reflection
+  - label: Consciousness
+    url: https://www.pranacafe.love/post/exploring-the-levels-of-consciousness
   - label: Moves
     url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
   - label: Flips
     url: https://cdn.dirigible.studio/wp-content/uploads/sites/24/2021/09/04073619/TZL-graphic-izl.pdf
+  - label: Stances
+    url: https://info.blackswanltd.com/hubfs/Content/3%20Types%20of%20Negotiators.pdf
 awareness:
   - label: Emotional
   - label: Social
@@ -42,26 +46,28 @@ levels:
     label: 6th Kyu
     level: -6
     focus: Plasticity
-    challenge: Analyze the experience of `Life Without Should` for part of a day
+    challenge: Analyze a spirited conversation through the lenses of FEBI™, Consciousness, and Tone
     exercises:
       - label: The Backwards Brain Bicycle
         url: https://www.youtube.com/watch?v=MFzDaBzBlL0
-      - label: How Does Cognitive Reflection Hone Emotional Instinct?
-        url: https://www.linkedin.com/feed/update/urn:li:activity:7249821210509778944/
-      - label: "Life Without ‘Should’: A Simple Practice for Deeper Awareness 💡"
-        url: https://medium.com/@michael-basil/life-without-should-a-simple-practice-for-deeper-awareness-697c7ce902bb
+      - label: Negotiation 9™ Move - Tone
+        url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
+      - label: Map of Consciousness - David Hawkins
+        url: https://www.youtube.com/watch?v=QBxVzTphkik
   - color: green
     label: 5th Kyu
     level: -5
     focus: Perception
-    challenge: Analyze a spirited conversation through the lenses of FEBI™ and Consciousness
+    challenge: Engage in and analyze a spirited conversation utilizing the techniques and frameworks you have learned
     exercises:
+      - label: Breathing to Support the FEBI™ Patterns
+        url: https://www.youtube.com/watch?v=C53IKjDvU2g
       - label: Bias - Duck Rabbit
         url: https://www.youtube.com/watch?v=36AqMX5uua4
-      - label: The Value of Allowing Multiple Perspectives
-        url: https://www.linkedin.com/feed/update/urn:li:activity:7267614153354166273
-      - label: Map of Consciousness - David Hawkins
-        url: https://www.youtube.com/watch?v=QBxVzTphkik
+      - label: Negotiation 9™ Move - Dynamic Silence
+        url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
+      - label: Stances
+        url: https://info.blackswanltd.com/hubfs/Content/3%20Types%20of%20Negotiators.pdf
   - color: blue
     label: 4th Kyu
     level: -4
@@ -71,8 +77,6 @@ levels:
       - label: Negotiation 9™ Move - Labels
         url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
       - label: Negotiation 9™ Move - Mirrors
-        url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
-      - label: Negotiation 9™ Move - Dynamic Silence
         url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
       - label: Zen Leader Essential Flip - Coping to Transformation
         url: https://cdn.dirigible.studio/wp-content/uploads/sites/24/2021/09/04073619/TZL-graphic-izl.pdf
@@ -104,8 +108,6 @@ levels:
     focus: Integration
     challenge: Improve a conversation that matters using the new moves and flips
     exercises:
-      - label: Breathing to Support the FEBI™ Patterns
-        url: https://www.youtube.com/watch?v=C53IKjDvU2g
       - label: Negotiation 9™ Move - “I” Messages
         url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
       - label: Negotiation 9™ Move - Encouragers
@@ -122,8 +124,6 @@ levels:
     exercises:
       - label: Buddha in Blue Jeans
         url: https://www.youtube.com/watch?v=FYTqRfJyArM
-      - label: Negotiation 9™ Move - Tone
-        url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
       - label: Zen Leader Essential Flip - Local Self to Whole Self
         url: https://cdn.dirigible.studio/wp-content/uploads/sites/24/2021/09/04073619/TZL-graphic-izl.pdf
       - label: Zen Leader Essential Flip - Delusion to Awakening

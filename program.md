@@ -29,10 +29,10 @@ css_id: program
 </section>
 
 <section>
-  <h2>Practices</h2>
+  <h2>Forms</h2>
   <br>
   <ul>
-    {% for item in program.practices %}
+    {% for item in program.forms %}
       <li><a href="{{ item.url }}" target="_blank">{{ item.label }}</a></li>
     {% endfor %}
   </ul>
