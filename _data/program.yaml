@@ -58,6 +58,8 @@ levels:
     focus: Perception
     challenge: Analyze a spirited conversation utilizing FEBI™, Map of Consciousness, and the 3 Negotiator Stances.
     exercises:
+      - label: Breathing to Support the FEBI™ Patterns
+        url: https://www.youtube.com/watch?v=C53IKjDvU2g
       - label: Bias - Duck Rabbit
         url: https://www.youtube.com/watch?v=36AqMX5uua4
       - label: Negotiation 9™ Move - Dynamic Silence
@@ -104,8 +106,6 @@ levels:
     focus: Integration
     challenge: Improve a conversation that matters using the new moves and flips
     exercises:
-      - label: Breathing to Support the FEBI™ Patterns
-        url: https://www.youtube.com/watch?v=C53IKjDvU2g
       - label: Negotiation 9™ Move - “I” Messages
         url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
       - label: Negotiation 9™ Move - Encouragers
