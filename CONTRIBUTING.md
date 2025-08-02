@@ -48,7 +48,7 @@ Roles are voluntary and reviewed periodically to ensure mutual clarity and care.
 - Attunes to the identity, integrity, and resonance of the project
 - Stewards and fine tunes the Way of the Dojo
 - Demonstrates and enrolls through various social, personal and professional circles
-- Has the authority to temporarily grant elevated access to other community members
+- Responsible for managing provisional access (elevation and removal) to facilitate feature deployment
 
 ---
 
