@@ -9,7 +9,15 @@
 	<link rel="preload" href="./assets/libs/google/fonts/afacad-v1-latin-700.woff2" crossorigin="anonymous" as="font" type="font/woff2">
 	<link rel="preload" href="./assets/libs/google/fonts/roboto-v47-latin-regular.woff2" crossorigin="anonymous" as="font" type="font/woff2">
 	<link rel="stylesheet" href="./assets/css/md.css" media="all">
-	<link rel="canonical" href="{{ page.permalink }}">
+	
+	{% comment %}
+    Canonical URL only included if page.url exists and is not the root.
+    Avoids HTMLProofer complaints on forks or blank values.
+    {% endcomment %}
+    {% if page.url and page.url != "/" %}
+      <link rel="canonical" href="{{ page.url | relative_url }}">
+    {% endif %}
+
 	<link rel="icon" href="./assets/favicon.png" sizes="32x32">
 	<link rel="icon" href="./assets/favicon.png" sizes="192x192">
 	<link rel="apple-touch-icon" href="./assets/favicon.png">
