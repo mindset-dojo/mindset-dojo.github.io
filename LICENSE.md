@@ -30,7 +30,7 @@ applying it. Licensors should also secure all rights necessary before applying o
 licenses so that the public can reuse the material as expected. Licensors should
 clearly mark any material not subject to the license. This includes other CC-licensed
 material, or material used under an exception or limitation to copyright.
-[More considerations for licensors](<http://wiki.creativecommons.org/Considerations_for_licensors_and_licensees#Considerations_for_licensors>).
+[More considerations for licensors](<https://wiki.creativecommons.org/Considerations_for_licensors_and_licensees#Considerations_for_licensors>).
 
 - **Considerations for the public:** By using one of our public licenses, a licensor
 grants the public permission to use the licensed material under specified terms and
@@ -42,7 +42,7 @@ material may still be restricted for other reasons, including because others hav
 copyright or other rights in the material. A licensor may make special requests, such
 as asking that all changes be marked or described. Although not required by our
 licenses, you are encouraged to respect those requests where reasonable.
-[More considerations for the public](<http://wiki.creativecommons.org/Considerations_for_licensors_and_licensees#Considerations_for_licensees>).
+[More considerations for the public](<https://wiki.creativecommons.org/Considerations_for_licensors_and_licensees#Considerations_for_licensees>).
 
 ## Creative Commons Attribution-ShareAlike 4.0 International Public License
 
@@ -69,7 +69,7 @@ Rights in Your contributions to Adapted Material in accordance with the terms an
 conditions of this Public License.
 
 c. **BY-SA Compatible License** means a license listed at [creativecommons.org/
-compatiblelicenses](http://creativecommons.org/compatiblelicenses), approved by
+compatiblelicenses](https://creativecommons.org/compatiblelicenses), approved by
 Creative Commons as essentially the equivalent of this Public License.
 
 d. **Copyright and Similar Rights** means copyright and/or similar rights closely
@@ -340,7 +340,7 @@ public licenses is dedicated to the public domain under the [CC0 Public Domain
 Dedication](https://creativecommons.org/publicdomain/zero/1.0/legalcode). Except for
 the limited purpose of indicating that material is shared under a Creative Commons
 public license or as otherwise permitted by the Creative Commons policies published
-at [creativecommons.org/policies](http://creativecommons.org/policies), Creative
+at [creativecommons.org/policies](https://creativecommons.org/policies), Creative
 Commons does not authorize the use of the trademark “Creative Commons” or any other
 trademark or logo of Creative Commons without its prior written consent including,
 without limitation, in connection with any unauthorized modifications to any of its
