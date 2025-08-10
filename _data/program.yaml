@@ -124,6 +124,8 @@ levels:
     exercises:
       - label: Buddha in Blue Jeans
         url: https://www.youtube.com/watch?v=FYTqRfJyArM
+      - label: Eight Dragons Breathing - Chosei Zen
+        url: https://www.choseizen.org/go/8-dragons
       - label: Zen Leader Essential Flip - Local Self to Whole Self
         url: https://cdn.dirigible.studio/wp-content/uploads/sites/24/2021/09/04073619/TZL-graphic-izl.pdf
       - label: Zen Leader Essential Flip - Delusion to Awakening
@@ -138,6 +140,6 @@ levels:
         url: https://youtu.be/lylCYkgC63Q?si=FzuWfAHq4Yie_AHC
       - label: For Something New To Come, Something Old Must Go
         url: https://www.youtube.com/watch?v=_to_w-R0JjQ
-      - label: Eight Dragons Breathing
-        url: https://www.choseizen.org/go/8-dragons
+      - label: Hara Development - Chosei Zen
+        url: https://www.choseizen.org/hara-development
 ...
