@@ -19,7 +19,7 @@ PREFIX_ESCAPED="${REPO_NAME//./\\.}"
 
 # If this is NOT the central repo, prepare URL swap to strip prefix from internal links
 if [[ "${GITHUB_REPOSITORY}" != "mindset-dojo/mindset-dojo.github.io" ]]; then
-  URL_SWAP="--url-swap ^/${PREFIX_ESCAPED}:/"
+  URL_SWAP="--swap_urls ^/${PREFIX_ESCAPED}:/"
 else
   URL_SWAP=""
 fi
