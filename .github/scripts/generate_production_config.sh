@@ -7,11 +7,14 @@ if [[ -f _config.production.yml ]]; then
 fi
 
 if [[ "${GITHUB_REPOSITORY}" == "mindset-dojo/mindset-dojo.github.io" ]]; then
+  # Central repo — custom domain
   URL="https://mindset.dojo.center"
-  BASEURL=""
+  BASEURL="" # No subpath for root domain
 else
+  # Fork — served from <user>.github.io/<repo-name>
   URL="https://${GITHUB_REPOSITORY_OWNER}.github.io"
-  BASEURL="/${GITHUB_REPOSITORY#*/}"
+  REPO_NAME="$(basename "${GITHUB_REPOSITORY}")"
+  BASEURL="/${REPO_NAME}" # Must match actual repo folder name in deployment URL
 fi
 
 cat > _config.production.yml <<EOF
@@ -19,3 +22,6 @@ cat > _config.production.yml <<EOF
 url: "${URL}"
 baseurl: "${BASEURL}"
 EOF
+
+echo "_config.production.yml generated with:"
+cat _config.production.yml
