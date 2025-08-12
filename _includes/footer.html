@@ -3,16 +3,16 @@
 		<ul role="menu">
 			<li role="presentation">
 				<a 
-				  href="./"
+				  href="{{'/' | relative_url }}"
 				  role="menuitem"
-				  {% include aria_current.html page_url="./" %}
+				  {% include aria_current.html page_url="{{'/' | relative_url }}" %}
 				>COMMUNITY</a>
 			</li>
 			<li role="presentation">
 				<a 
-				  href="./program" 
+				  href="{{'/program' | relative_url}}" 
 				  role="menuitem"
-				  {% include aria_current.html page_url="./program" %}
+				  {% include aria_current.html page_url="{{'/program' | relative_url}}" %}
 				>PROGRAM</a>
 			</li>
 			<li role="presentation"><a href="{{site.connect_url}}" target="_blank" role="menuitem">CONTACT</a></li>
@@ -25,16 +25,16 @@
 			</li>
 			<li role="presentation">
 				<a 
-				  href="./privacy-policy" 
+				  href="{{'/privacy-policy' | relative_url}}" 
 				  role="menuitem"
-				  {% include aria_current.html page_url="./privacy-policy" %}
+				  {% include aria_current.html page_url="{{'/privacy-policy' | relative_url}}" %}
 				>Privacy Policy</a>
 			</li>
 			<li role="presentation">
 				<a 
-				  href="./license"
+				  href="{{'/license' | relative_url}}"
 				  role="menuitem" 
-				  {% include aria_current.html page_url="./license" %}
+				  {% include aria_current.html page_url="{{'/license' | relative_url}}" %}
 				>Open Source License</a>
 			</li>
 		</ul>
