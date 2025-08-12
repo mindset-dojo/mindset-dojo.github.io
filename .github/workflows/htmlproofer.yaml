@@ -49,10 +49,6 @@ jobs:
           bundle exec jekyll build \
             --config _config.yml,_config.production.yml
 
-      - name: ✅ Run HTMLProofer with external flags
-        run: |
-          set -o allexport
-          source .github/config/htmlproofer.env
-          set +o allexport
-          bundle exec htmlproofer ./_site ${HTMLPROOFER_FLAGS}
+      - name: ✅ Run HTMLProofer
+        run: bash .github/scripts/run_htmlproofer.sh
 ...
