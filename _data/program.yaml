@@ -14,6 +14,8 @@ forms:
     url: https://en.wikipedia.org/wiki/Self-reflection
   - label: Consciousness
     url: https://www.pranacafe.love/post/exploring-the-levels-of-consciousness
+  - label: Ki
+    url: https://mindbodyaikido.com/plus-ki-and-minus-ki/
   - label: Moves
     url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
   - label: Flips
@@ -54,6 +56,8 @@ levels:
         url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
       - label: Map of Consciousness - David Hawkins
         url: https://www.youtube.com/watch?v=QBxVzTphkik
+      - label: Plus Ki and Minus Ki
+        url: https://mindbodyaikido.com/plus-ki-and-minus-ki/
   - color: green
     label: 5th Kyu
     level: -5
@@ -140,6 +144,8 @@ levels:
         url: https://youtu.be/lylCYkgC63Q?si=FzuWfAHq4Yie_AHC
       - label: For Something New To Come, Something Old Must Go
         url: https://www.youtube.com/watch?v=_to_w-R0JjQ
+      - label: Ki in Daily Life
+        url: https://www.amazon.com/Ki-Daily-Life-Koichi-Tohei/dp/4889960716
       - label: Your Unique Expression
         url: https://en.wikipedia.org/wiki/Self-reflection
 ...
