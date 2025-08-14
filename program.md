@@ -59,11 +59,11 @@ css_id: program
       color=level.color
       title=level.label %}
       </h3>
-      <p><strong>Focus</strong></p> <p>{{ level.focus }}</p>
-      <p><strong>Challenge</strong></p> <p>{{ level.challenge }}</p>
+      <p><strong>Intention</strong></p> <p>{{ level.intention }}</p>
+      <p><strong>Edge</strong></p> <p>{{ level.edge }}</p>
       <ul>
-        <p><strong>Exercises</strong></p>
-        {% for item in level.exercises %}
+        <p><strong>Flows</strong></p>
+        {% for item in level.flows %}
           <li><a href="{{ item.url }}" target="_blank">{{ item.label }}</a></li>
         {% endfor %}
       </ul>
