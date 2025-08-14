@@ -33,9 +33,9 @@ levels:
   - color: gray
     label: 7th Kyu
     level: -7
-    focus: Orientation
-    challenge: FEBI™ (Focus Energy Balance Indicator) Assessment
-    exercises:
+    intention: Orientation
+    edge: FEBI™ (Focus Energy Balance Indicator) Assessment
+    flows:
       - label: How to Start a Movement
         url: https://www.ted.com/talks/derek_sivers_how_to_start_a_movement
       - label: FEBI™ Information
@@ -47,9 +47,9 @@ levels:
   - color: yellow
     label: 6th Kyu
     level: -6
-    focus: Plasticity
-    challenge: Analyze a spirited conversation through the lenses of FEBI™, Consciousness, and Tone
-    exercises:
+    intention: Recalibration
+    edge: Analyze a spirited conversation through the lenses of FEBI™, Consciousness, and Tone
+    flows:
       - label: The Backwards Brain Bicycle
         url: https://www.youtube.com/watch?v=MFzDaBzBlL0
       - label: Negotiation 9™ Move - Tone
@@ -61,9 +61,9 @@ levels:
   - color: green
     label: 5th Kyu
     level: -5
-    focus: Perception
-    challenge: Engage in and analyze a spirited conversation utilizing the techniques and frameworks you have learned
-    exercises:
+    intention: Perception
+    edge: Engage in and analyze a spirited conversation utilizing the techniques and frameworks you have learned
+    flows:
       - label: Breathing to Support the FEBI™ Patterns
         url: https://www.youtube.com/watch?v=C53IKjDvU2g
       - label: Bias - Duck Rabbit
@@ -75,9 +75,9 @@ levels:
   - color: blue
     label: 4th Kyu
     level: -4
-    focus: Emotions
-    challenge: Improve a conversation that matters using the new moves and flips
-    exercises:
+    intention: Emotioncraft
+    edge: Improve a conversation that matters using the new moves and flips
+    flows:
       - label: Negotiation 9™ Move - Labels
         url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
       - label: Negotiation 9™ Move - Mirrors
@@ -91,9 +91,9 @@ levels:
   - color: purple
     label: 3rd Kyu
     level: -3
-    focus: Presence
-    challenge: Improve a conversation that matters using the new moves and flips
-    exercises:
+    intention: Presence
+    edge: Improve a conversation that matters using the new moves and flips
+    flows:
       - label: Negotiation 9™ Move - Paraphrasing
         url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
       - label: Negotiation 9™ Move - Summary
@@ -109,9 +109,9 @@ levels:
   - color: brown
     label: 2nd Kyu
     level: -2
-    focus: Integration
-    challenge: Improve a conversation that matters using the new moves and flips
-    exercises:
+    intention: Synthesis
+    edge: Improve a conversation that matters using the new moves and flips
+    flows:
       - label: Negotiation 9™ Move - “I” Messages
         url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
       - label: Negotiation 9™ Move - Encouragers
@@ -123,9 +123,9 @@ levels:
   - color: red
     label: 1st Kyu
     level: -1
-    focus: Embodiment
-    challenge: Live demonstration of wisely timed FEBI™ transitions and Negotiation 9™ moves
-    exercises:
+    intention: Embodiment
+    edge: Live demonstration of wisely timed FEBI™ transitions and Negotiation 9™ moves
+    flows:
       - label: Buddha in Blue Jeans
         url: https://www.youtube.com/watch?v=FYTqRfJyArM
       - label: Making Hara Breathing Automatic
@@ -137,9 +137,9 @@ levels:
   - color: black
     label: Shodan
     level: 1
-    focus: Wu-Wei
-    challenge: Converstional Randori unpacking your reflective essay about your journey
-    exercises:
+    intention: Wu-Wei
+    edge: Converstional Randori unpacking your reflective essay about your journey
+    flows:
       - label: The Backwards Brain Tractor
         url: https://youtu.be/lylCYkgC63Q?si=FzuWfAHq4Yie_AHC
       - label: For Something New To Come, Something Old Must Go
