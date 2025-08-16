@@ -71,7 +71,7 @@ Roles are *voluntary* and reviewed periodically to ensure mutual clarity and car
 
 ---
 
-## 🔄 PR Guidance
+## 🔄 Pull Request Guidance
 
 1. **Fork** the repository and create a topic branch
 2. Use ***Conventional Commits*** in your messages
