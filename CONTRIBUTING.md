@@ -75,8 +75,9 @@ Roles are voluntary and reviewed periodically to ensure mutual clarity and care.
 
 ### Who merges?
 
-The merge should be done by **whoever has the most context** about the change — **as long as they have merge permissions.**
-If they don’t, then someone with permissions will merge it **on their behalf**, after confirming that the intention and review have been addressed.
+- Whoever is initiating the change should merge if they have permissions.
+- When the initiator does not have permission then the approver should merge.
+- When there are issues with the build of the site post-merge that were not caught by quality gates (human and automated) reach out liberally to Trusted Committers, Project Maintainers and Organizational Owners with a bias to who is perceived to have the most context about the effect of the change.
 
 ---
 
