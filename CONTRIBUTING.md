@@ -75,7 +75,7 @@ Roles are *voluntary* and reviewed periodically to ensure mutual clarity and car
 
 1. **Fork** the repository and create a topic branch
 2. Use [***Conventional Commits***](https://www.conventionalcommits.org/en/v1.0.0/) in your messages
-3. Submit a **clear, minimal PR** and link any relevant issues
+3. Submit a **clear, minimal pull request** and link any relevant issues
 4. All PRs are vetted through automated **GitHub Actions**–based quality gates
 5. Contributors with roles may help review or refine the PR
 6. **Merges** happen through mutual discernment — both technical *and* energetic fit matter
