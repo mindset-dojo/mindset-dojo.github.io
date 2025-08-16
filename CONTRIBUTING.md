@@ -18,23 +18,14 @@ This helps ensure alignment between our inner work and our outward contributions
 
 ---
 
-## 💡 Our Contribution Principles
-
-- **Minimal by design** — Space is held for emergent agreements.
-- **Human-first, Agile-friendly** — We value presence over process.
-- **Conventional Commits** — Please use [conventional commit](https://www.conventionalcommits.org/en/v1.0.0/) format for commit messages (`feat:`, `fix:`, `docs:`, etc.)
-- **Open by invitation** — We value transparency, but also stewardship.
-
----
-
 ## Principles of Practice
 
 In this dojo, our work is not just technical — it is a shared practice.  The following principles guide how we contribute and collaborate together:
 
-- **Keep One Point** – Focus on a single intention at a time.  Each change, issue, or idea should be centered around one clear purpose.
-- **Mind Moves Body** – Before writing code, state *why* the change matters.  A clear intention guides effective execution.
-- **Relax Completely** – We assume good intent and offer calm, constructive feedback.  Reviews are a space for learning, not contest.
-- **Keep Weight Underside** – Prefer small, steady improvements built on solid foundations.  We value simplicity and reversibility over heroic complexity.
+- **Focus & Smallness** — Aim each issue or change at a single clear intention and keep work bite-sized. Small, focused contributions make learning and review easier.
+- **State Intention** — Say why you’re doing something before you do it (a short “why” in the PR or issue). A clear intention guides better execution and kinder feedback.
+- **Calm, Human Reviews** — Assume good intent; give specific, curious, and modest feedback. Reviews are for learning together, not scoring points.
+- **Open Stewardship & Clear Trail** — Be transparent while respecting stewardship: welcome participation, let roles form through practice, and keep history readable (we use Conventional Commits to help with that).
 
 ### How We Review
 
