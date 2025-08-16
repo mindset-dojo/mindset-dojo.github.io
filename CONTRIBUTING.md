@@ -50,7 +50,7 @@ Roles are voluntary and reviewed periodically to ensure mutual clarity and care.
 - May merge PRs and curate discussions
 - Operates as a steward and ambassador
 
-### ⚡ Project Maintainer (Black Belt+)
+### ⚡ Project Maintainer (Black Belt+ and has read Ki in Daily Life)
 - Curates both the **codebase** and the **program structure**
 - Embodies the intention of the Dojo at a higher level of intention
 - Guides others in principled contribution and pattern expression
