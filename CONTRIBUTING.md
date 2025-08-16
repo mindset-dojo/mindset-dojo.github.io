@@ -26,6 +26,7 @@ This helps ensure alignment between our inner work and our outward contributions
 - **Open by invitation** — We value transparency, but also stewardship.
 
 ---
+
 ## Principles of Practice
 
 In this dojo, our work is not just technical — it is a shared practice.  The following principles guide how we contribute and collaborate together:
@@ -45,7 +46,9 @@ Reviews are an extension of practice — a chance to grow together.  We aim to:
 ### Joining the Community
 
 If you’re new here, you’re welcome to reach out to an existing member when starting your first contribution.  There is no formal mentorship structure — simply a space for connection and shared learning.  Let the conversation grow naturally, and see what emerges.
+
 ---
+
 ## 🧭 Roles in the Dojo
 
 Roles are voluntary and reviewed periodically to ensure mutual clarity and care. Cultivating a role is an opportunity for deeper training and responsibility—not a requirement for contribution or community engagement.
