@@ -51,6 +51,7 @@ Roles are voluntary and reviewed periodically to ensure mutual clarity and care.
 - Operates as a steward and ambassador
 
 ### ⚡ Project Maintainer (Black Belt+)
+- Black Belt plus a deep mindset exercise aligned with existing Project Maintainers and Sensei
 - Curates both the **codebase** and the **program structure**
 - Embodies the intention of the Dojo at a higher level of intention
 - Guides others in principled contribution and pattern expression
