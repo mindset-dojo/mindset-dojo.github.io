@@ -90,7 +90,7 @@ Roles are *voluntary* and reviewed periodically to ensure mutual clarity and car
 
 ## 🙏 A Note on Spirit
 
-Whether you're fixing a typo or offering a full pattern, thank you for engaging with **presence**. *Your practice matters.*
+Whether you're fixing a typo or offering a comprehensive refactor, thank you for engaging with **presence**. *Your practice matters.*
 
 ---
 
