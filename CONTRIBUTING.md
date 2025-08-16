@@ -12,7 +12,7 @@ We welcome:
 
 **Pull requests (PRs)** are open to all, but deeper integration happens through practice. Before taking on core roles or becoming a regular contributor, we ask that you first:
 
-* Complete at least the ***Gray Belt*** level in the [https://dojo.center/program](https://dojo.center/program)
+* Complete at least the ***Gray Belt*** level in the [program](https://mindset.dojo.center/program)
 * Understand our **rhythm**, **principles**, and **tone of engagement**
 
 This helps ensure alignment between our inner work and our outward contributions.
