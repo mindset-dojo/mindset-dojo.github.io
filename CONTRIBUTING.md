@@ -29,10 +29,10 @@ In this dojo, our work is not just technical — it is a shared practice.  The f
 
 ### How We Review
 
-Reviews are an extension of practice — a chance to grow together.  We aim to:
-- respond with clarity and curiosity,
-- offer specific suggestions rather than judgments,
-- remain modest and open to being changed by another’s point of view.
+- Responds with clarity and curiosity
+- Offers specific suggestions rather than judgments
+- Remains modest and open to being changed by another’s point of view
+- Treats reviews as a shared opportunity for practice and growth
 
 ### Joining the Community
 
