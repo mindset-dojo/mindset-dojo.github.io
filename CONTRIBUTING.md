@@ -23,7 +23,7 @@ This helps ensure alignment between our inner work and our outward contributions
 In this dojo, our work is not just technical — it is a shared practice.  The following principles guide how we contribute and collaborate together:
 
 - **Focus & Smallness** — Aim each issue or change at a single clear intention and keep work bite-sized. Small, focused contributions make learning and review easier.
-- **State Intention** — Say *why* you’re doing something before you do it. Use a short user story (e.g., “As a member…, I want…, so that…”) in the issue or Pull Request description to reveal the value behind the change. A clear intention guides better execution and kinder feedback.
+- **State Intention** — Say *why* you’re doing something before you do it. Use a short user story (e.g., “As a member…, I want…, so that…”) in the Issue or Pull Request description to reveal the value behind the change. A clear intention guides better execution and kinder feedback.
 - **Calm, Human Reviews** — Assume good intent; give specific, curious, and modest feedback. Reviews are for learning together, not scoring points.
 - **Open Stewardship & Clear Trail** — Be transparent while respecting stewardship: welcome participation, let roles form through practice, and keep history readable (we use Conventional Commits to help with that).
 
