@@ -94,5 +94,5 @@ Whether you're fixing a typo or offering a comprehensive refactor, thank you for
 
 ---
 
-For deeper participation, check out the [program](https://dojo.center/program) or reach out to a community member.
+For deeper participation, check out the [program](https://mindset.dojo.center/program) or reach out to a community member.
 
