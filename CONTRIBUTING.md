@@ -37,7 +37,7 @@ In this dojo, our work is not just technical — it is a *shared practice*. The 
 
 ### 🤝 Joining the Community
 
-If you’re new here, you’re welcome to **reach out to an existing member** when starting your first contribution. There is *no formal mentorship structure* — just a space for connection and shared learning. Let the conversation grow naturally, and see what emerges.
+If you’re new here, you’re warmly encouraged to **reach out to an existing member** when starting your first contribution. While there is *no rigid or prescriptive mentorship program*, informal mentoring and peer pairing are **highly encouraged** — they reflect our Agile mindset of co-learning and shared stewardship. Let the connection form naturally and see what emerges.
 
 ---
 
