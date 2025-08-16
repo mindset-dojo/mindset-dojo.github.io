@@ -57,7 +57,7 @@ Roles are *voluntary* and reviewed periodically to ensure mutual clarity and car
 
 * **Qualification:** ***Black Belt*** in the program plus a deep mindset exercise
 * **Curates** both the **codebase** and the **program structure**
-* **Embodies** the intention of the Dojo at a higher level of practice
+* **Embodies** the **intention of Mindset Dojo's program and community** at a higher level of practice
 * **Guides** others in principled contribution and pattern expression
 * **Observes and evolves** the connective tissue between project and program
 
