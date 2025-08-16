@@ -41,7 +41,7 @@ If you’re new here, you’re warmly encouraged to **reach out to an existing m
 
 ---
 
-## 🧭 Roles in the Dojo
+## 🧭 Project Roles
 
 Roles are *voluntary* and reviewed periodically to ensure mutual clarity and care. Cultivating a role is an opportunity for deeper training and responsibility — **not** a prerequisite for contribution or community engagement.
 
