@@ -24,7 +24,7 @@ This helps ensure alignment between our inner work and our outward contributions
 In this dojo, our work is not just technical — it is a *shared practice*. The following principles guide how we contribute and collaborate together:
 
 * 🎯 **Focus & Clarity** — Aim each issue or change at a single, clear intention and keep work bite-sized. **Atomic, focused contributions** make learning and review easier.
-* 🧭 **State Intention** — Say *why* you’re doing something before you do it. Use a short user story (*“As a contributor to Mindset Dojo, I want to Refactor the Website, so that I can have a better viewer experience”*) in the **Issue** or **Pull Request** description to reveal the value behind the change. A clear intention guides better execution and calibrated feedback.
+* 🧭 **State Intention** — Say *why* you’re doing something before you do it. Use a short user story (*“As a contributor to Mindset Dojo, I want to Refactor the Site, so that I can have a better viewer experience”*) in the **Issue** or **Pull Request** description to reveal the value behind the change. A clear intention guides better execution and calibrated feedback.
 * 🤝 **Calm, Human Reviews** — *Assume good intent* and give **specific**, **curious**, and **modest** feedback. Reviews are for learning together, not for scoring points.
 * 🛡️ **Open Stewardship & Clear Trail** — Be transparent while respecting stewardship: welcome participation, let roles form through practice, and keep history readable (we use [***Conventional Commits***](https://www.conventionalcommits.org/en/v1.0.0/) to help with that).
 
