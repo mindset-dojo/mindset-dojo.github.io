@@ -44,7 +44,8 @@ If you’re new here, you’re welcome to reach out to an existing member when s
 
 Roles are voluntary and reviewed periodically to ensure mutual clarity and care. Cultivating a role is an opportunity for deeper training and responsibility—not a requirement for contribution or community engagement.
 
-### ✅ Trusted Committer (Purple Belt+)
+### ✅ Trusted Committer
+- Qualification includes program Purple Belt 
 - Demonstrates technical fluency and principled contribution
 - Understands the codebase and the ethos of the program
 - May merge PRs and curate discussions
