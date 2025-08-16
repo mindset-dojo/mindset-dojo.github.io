@@ -59,10 +59,12 @@ Roles are voluntary and reviewed periodically to ensure mutual clarity and care.
 - Observes and evolves the connective tissue between project and program
 
 ### 🌐 Organizational Owner
+- Qualification requires program Black Belt with scope and appointment being considered on a case-by-case basis
 - Responsible for managing provisional access (elevation and removal) to facilitate feature deployment
 - Oversees the broader digital ecosystem (domain, branding, analytics)
 - Demonstrates and enrolls through various social, personal and professional circles
 - Attunes to the identity, integrity, and resonance of the project
+
 ---
 
 ## 🔄 PR Guidance
