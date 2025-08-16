@@ -55,7 +55,7 @@ Roles are *voluntary* and reviewed periodically to ensure mutual clarity and car
 
 ### ⚡ Project Maintainer
 
-* **Qualification:** ***Black Belt*** in the program, completed a deep mindset exercise, and vetted by Organizational Ownership 
+* **Qualification:** ***Black Belt*** in the program, completed a deep mindset exercise, and vetted by Organizational Ownership
 * **Curates** both the **codebase** and the **program structure**
 * **Embodies** the **intention of Mindset Dojo's program and community** at a higher level of practice
 * **Guides** others in principled contribution and practical expression
