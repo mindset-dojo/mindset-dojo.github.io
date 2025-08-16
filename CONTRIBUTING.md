@@ -74,7 +74,8 @@ Roles are voluntary and reviewed periodically to ensure mutual clarity and care.
 
 ### Who merges?
 
-The person with the most context IF they have the ability to merge. If they don't have the ability, the person with the ability to merge will do so.
+The merge should be done by **whoever has the most context** about the change — **as long as they have merge permissions.**
+If they don’t, then someone with permissions will merge it **on their behalf**, after confirming that the intention and review have been addressed.
 
 ---
 
