@@ -50,8 +50,8 @@ Roles are voluntary and reviewed periodically to ensure mutual clarity and care.
 - May merge PRs and curate discussions
 - Operates as a steward and ambassador
 
-### ⚡ Project Maintainer (Black Belt+)
-- Black Belt plus a deep mindset exercise aligned with existing Project Maintainers and Sensei
+### ⚡ Project Maintainer
+- Qualification includes program Black Belt plus a deep mindset exercise aligned with existing Project Maintainers and Sensei
 - Curates both the **codebase** and the **program structure**
 - Embodies the intention of the Dojo at a higher level of intention
 - Guides others in principled contribution and pattern expression
