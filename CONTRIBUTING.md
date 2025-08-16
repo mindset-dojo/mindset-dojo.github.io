@@ -1,6 +1,6 @@
 # Contributing to Mindset Dojo ⛩️🌿
 
-Welcome to Mindset Dojo. This project is both technical and transformational, reflecting a deeper rhythm of inner practice, community learning, and social contribution. Contributing here means participating in an evolving dojo—not just a code repository.
+Welcome to Mindset Dojo. This project is both technical and transformational, reflecting a deeper rhythm of inner practice, community learning, and social contribution. Contributing here means participating in an evolving dojo — not just a code repository.
 
 ## 🥋 Before You Contribute
 
@@ -29,10 +29,10 @@ In this dojo, our work is not just technical — it is a shared practice.  The f
 
 ### How We Review
 
-- Responds with clarity and curiosity
-- Offers specific suggestions rather than judgments
-- Remains modest and open to being changed by another’s point of view
-- Treats reviews as a shared opportunity for practice and growth
+- Respond with clarity and curiosity
+- Offer specific suggestions rather than judgments
+- Remain modest and open to being changed by another’s point of view
+- Treat reviews as a shared opportunity for practice and growth
 
 ### Joining the Community
 
@@ -42,7 +42,7 @@ If you’re new here, you’re welcome to reach out to an existing member when s
 
 ## 🧭 Roles in the Dojo
 
-Roles are voluntary and reviewed periodically to ensure mutual clarity and care. Cultivating a role is an opportunity for deeper training and responsibility—not a requirement for contribution or community engagement.
+Roles are voluntary and reviewed periodically to ensure mutual clarity and care. Cultivating a role is an opportunity for deeper training and responsibility — not a requirement for contribution or community engagement.
 
 ### ✅ Trusted Committer
 - Qualification requires program Purple Belt
