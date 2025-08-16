@@ -81,6 +81,10 @@ Roles are voluntary and reviewed periodically to ensure mutual clarity and care.
 5. Contributors with roles may help review or refine the PR.
 6. Merge happens through mutual discernment—technical *and* energetic fit matter.
 
+### Who merges?
+
+The person with the most context IF they have the ability to merge. If they don't have the ability, the person with the ability to merge will do so.
+
 ---
 
 ## 🙏 A Note on Spirit
