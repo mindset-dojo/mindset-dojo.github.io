@@ -30,10 +30,10 @@ In this dojo, our work is not just technical — it is a *shared practice*. The 
 
 ### ✅ How We Review
 
-* **Responds with clarity and curiosity**
-* **Offers specific suggestions rather than judgments**
-* **Remains modest and open to being changed by another’s point of view**
-* **Treats reviews as a shared opportunity for practice and growth**
+* **Respond with clarity and curiosity**
+* **Offer specific suggestions rather than judgments**
+* **Remain modest and open to being changed by another’s point of view**
+* **Treat reviews as a shared opportunity for practice and growth**
 
 ### 🤝 Joining the Community
 
