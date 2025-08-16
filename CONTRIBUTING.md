@@ -84,7 +84,7 @@ Roles are *voluntary* and reviewed periodically to ensure mutual clarity and car
 
 * **The initiator** should merge if they have permission
 * **If the initiator lacks permission**, an approver should merge after confirming intention and review are complete
-* **If build problems appear post-merge**, reach out to Trusted Committers, Project Maintainers, or Organizational Owners — ideally whoever has the *most context* about the change
+* **If build problems appear post-merge**, reach out to **Trusted Committers, Project Maintainers, or Organizational Owners** — ideally whoever has the *most context* about the change
 
 ---
 
