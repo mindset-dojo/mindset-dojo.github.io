@@ -58,7 +58,7 @@ Roles are *voluntary* and reviewed periodically to ensure mutual clarity and car
 * **Qualification:** ***Black Belt*** in the program, completed a deep mindset exercise, and vetted by Organizational Ownership 
 * **Curates** both the **codebase** and the **program structure**
 * **Embodies** the **intention of Mindset Dojo's program and community** at a higher level of practice
-* **Guides** others in principled contribution and pattern expression
+* **Guides** others in principled contribution and practical expression
 * **Observes and evolves** the connective tissue between project and program
 
 ### 🌐 Organizational Owner
