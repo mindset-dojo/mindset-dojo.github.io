@@ -50,7 +50,7 @@ Roles are *voluntary* and reviewed periodically to ensure mutual clarity and car
 * **Qualification:** ***Purple Belt*** in the program
 * **Demonstrates** technical fluency and principled contribution
 * **Understands** the codebase and the ethos of the program
-* **May** merge PRs and curate discussions
+* **May** merge pull requests and curate discussions
 * **Operates** as a steward and ambassador
 
 ### ⚡ Project Maintainer
