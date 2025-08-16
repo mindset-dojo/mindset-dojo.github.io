@@ -7,7 +7,7 @@ Welcome to [**Mindset Dojo**](https://mindset.dojo.center). This project is both
 We welcome:
 
 * 💬 **Suggestions via issues**
-* ✍️ *Practice reflections and insights* shared externally (e.g., Medium)
+* ✍️ *Practice reflections and insights* shared externally (e.g., [LinkedIn](https://www.linkedin.com/), [Medium](https://medium.com/))
 * 🧩 Documentation, design, or structural improvements
 
 **Pull requests (PRs)** are open to all, but deeper integration happens through practice. Before taking on core roles or becoming a regular contributor, we ask that you first:
