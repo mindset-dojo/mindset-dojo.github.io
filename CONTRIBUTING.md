@@ -45,14 +45,14 @@ If you’re new here, you’re welcome to reach out to an existing member when s
 Roles are voluntary and reviewed periodically to ensure mutual clarity and care. Cultivating a role is an opportunity for deeper training and responsibility—not a requirement for contribution or community engagement.
 
 ### ✅ Trusted Committer
-- Qualification includes program Purple Belt 
+- Qualification requires program Purple Belt 
 - Demonstrates technical fluency and principled contribution
 - Understands the codebase and the ethos of the program
 - May merge PRs and curate discussions
 - Operates as a steward and ambassador
 
 ### ⚡ Project Maintainer
-- Qualification includes program Black Belt plus a deep mindset exercise aligned with existing Project Maintainers and Sensei
+- Qualification requires program Black Belt plus a deep mindset exercise
 - Curates both the **codebase** and the **program structure**
 - Embodies the intention of the Dojo at a higher level of intention
 - Guides others in principled contribution and pattern expression
