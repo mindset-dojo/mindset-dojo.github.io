@@ -26,7 +26,26 @@ This helps ensure alignment between our inner work and our outward contributions
 - **Open by invitation** — We value transparency, but also stewardship.
 
 ---
+## Principles of Practice
 
+In this dojo, our work is not just technical — it is a shared practice.  The following principles guide how we contribute and collaborate together:
+
+- **Keep One Point** – Focus on a single intention at a time.  Each change, issue, or idea should be centered around one clear purpose.
+- **Mind Moves Body** – Before writing code, state *why* the change matters.  A clear intention guides effective execution.
+- **Relax Completely** – We assume good intent and offer calm, constructive feedback.  Reviews are a space for learning, not contest.
+- **Keep Weight Underside** – Prefer small, steady improvements built on solid foundations.  We value simplicity and reversibility over heroic complexity.
+
+### How We Review
+
+Reviews are an extension of practice — a chance to grow together.  We aim to:
+- respond with clarity and curiosity,
+- offer specific suggestions rather than judgments,
+- remain modest and open to being changed by another’s point of view.
+
+### Joining the Community
+
+If you’re new here, you’re welcome to reach out to an existing member when starting your first contribution.  There is no formal mentorship structure — simply a space for connection and shared learning.  Let the conversation grow naturally, and see what emerges.
+---
 ## 🧭 Roles in the Dojo
 
 Roles are voluntary and reviewed periodically to ensure mutual clarity and care. Cultivating a role is an opportunity for deeper training and responsibility—not a requirement for contribution or community engagement.
