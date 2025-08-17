@@ -25,7 +25,7 @@ else
   # Two swaps:
   #   1) remove "/<reponame>" or "<reponame>" prefix (slash optional)
   #   2) collapse protocol-relative URLs ("//program") back to "/program"
-  SWAP_ARGS="--swap_urls ^/?${PREFIX_ESCAPED}:/ --swap_urls ^//:/"
+  SWAP_ARGS="--swap-urls ^/?${PREFIX_ESCAPED}:/ --swap-urls ^//:/"
 fi 
 
 echo "Running HTMLProofer with flags: ${HTMLPROOFER_FLAGS} ${SWAP_ARGS}"
