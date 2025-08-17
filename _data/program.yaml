@@ -25,12 +25,13 @@ forms:
   - label: Stances
     url: https://info.blackswanltd.com/hubfs/Content/3%20Types%20of%20Negotiators.pdf
 awareness:
+  - label: Energetic
   - label: Emotional
   - label: Social
   - label: Relational
-  - label: Energetic
   - label: Somatic
   - label: Metaphorical
+  - label: Shadow
 levels:
   - color: gray
     label: 7th Kyu
