@@ -6,11 +6,11 @@ set -euo pipefail
 
 # Load CLI flags from your config file
 if [[ -f ".github/config/htmlproofer.env" ]]; then
-  # shellcheck source=/dev/null
-  source .github/config/htmlproofer.env
+	# shellcheck source=/dev/null
+	source .github/config/htmlproofer.env
 else
-  echo "ERROR: .github/config/htmlproofer.env not found" >&2
-  exit 1
+	echo "ERROR: .github/config/htmlproofer.env not found" >&2
+	exit 1
 fi
 
 # Ensure site is built with production config
@@ -21,16 +21,16 @@ BASEURL=$(grep "^baseurl:" _config.production.yml | awk '{print $2}' | tr -d '"'
 
 # Ensure leading slash for consistency
 if [[ -n "$BASEURL" && "${BASEURL:0:1}" != "/" ]]; then
-  BASEURL="/$BASEURL"
+	BASEURL="/$BASEURL"
 fi
 
 # Determine SWAP_ARGS for HTML-Proofer
 if [[ -z "${BASEURL}" || "${BASEURL}" == "/" ]]; then
-  SWAP_ARGS=""
+	SWAP_ARGS=""
 else
-  # Escape dots for regex, include trailing slash, no quotes
-  BASEURL_ESCAPED="${BASEURL//./\\.}"
-  SWAP_ARGS="--swap_urls ^${BASEURL_ESCAPED}/:/"
+	# Escape dots for regex, include trailing slash, no quotes
+	BASEURL_ESCAPED="${BASEURL//./\\.}"
+	SWAP_ARGS="--swap_urls ^${BASEURL_ESCAPED}/:/"
 fi
 
 echo "Using SWAP_ARGS: ${SWAP_ARGS}"

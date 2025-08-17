@@ -3,19 +3,19 @@ set -euo pipefail
 
 # Skip if file already exists
 if [[ -f _config.production.yml ]]; then
-  echo "_config.production.yml already exists, skipping generation."
-  exit 0
+	echo "_config.production.yml already exists, skipping generation."
+	exit 0
 fi
 
 # Central repository
 if [[ "${GITHUB_REPOSITORY}" == "mindset-dojo/mindset-dojo.github.io" ]]; then
-  URL="https://mindset.dojo.center"
-  BASEURL=""
+	URL="https://mindset.dojo.center"
+	BASEURL=""
 else
-  # Fork (GitHub Pages serves at https://<user>.github.io/<repo>)
-  URL="https://${GITHUB_REPOSITORY_OWNER}.github.io"
-  REPO_NAME="$(basename "${GITHUB_REPOSITORY}")"
-  BASEURL="/${REPO_NAME}"
+	# Fork (GitHub Pages serves at https://<user>.github.io/<repo>)
+	URL="https://${GITHUB_REPOSITORY_OWNER}.github.io"
+	REPO_NAME="$(basename "${GITHUB_REPOSITORY}")"
+	BASEURL="/${REPO_NAME}"
 fi
 
 cat > _config.production.yml <<EOF
