@@ -1,3 +1,5 @@
+# yamllint disable rule:truthy
+---
 name: Deploy Site
 
 on:
@@ -57,3 +59,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+...
