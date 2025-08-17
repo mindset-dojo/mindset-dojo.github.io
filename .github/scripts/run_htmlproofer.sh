@@ -4,7 +4,7 @@
 
 set -euo pipefail
 
-# Load common environment flags (must be defined in .github/config/htmlproofer.env)
+# Load CLI flags from your config file
 if [[ -f ".github/config/htmlproofer.env" ]]; then
   # shellcheck source=/dev/null
   source .github/config/htmlproofer.env
@@ -13,20 +13,20 @@ else
   exit 1
 fi
 
-# Compute repo name and escape dots for regex use
-REPO_NAME="$(basename "$GITHUB_REPOSITORY")"
-PREFIX_ESCAPED="${REPO_NAME//./\\.}"
-
-# If this is NOT the central repo, prepare URL swap arguments
-#  1) remove "/<reponame>" prefix
-#  2) collapse protocol-relative URLs ("//program") back to "/program"
-if [[ "${GITHUB_REPOSITORY}" != "mindset-dojo/mindset-dojo.github.io" ]]; then
-  URL_SWAP="--swap_urls ^/${PREFIX_ESCAPED}:/ --swap_urls ^//:/"
+# Determine if we’re in the central repo or a fork
+if [[ "${GITHUB_REPOSITORY}" == "mindset-dojo/mindset-dojo.github.io" ]]; then
+  # Central repo => no baseurl prefix, no need for swaps
+  SWAP_ARGS=""
 else
-  URL_SWAP=""
+  # Fork => baseurl="/<repo>" in the build, so strip it for internal checks
+  REPO_NAME="$(basename "${GITHUB_REPOSITORY}")"
+  PREFIX_ESCAPED="${REPO_NAME//./\\.}"
+
+  # Two swaps:
+  #   1) remove "/<reponame>" prefix
+  #   2) collapse protocol-relative URLs ("//program") back to "/program"
+  SWAP_ARGS="--swap_urls ^/${PREFIX_ESCAPED}:/ --swap_urls ^//:/"
 fi
 
-# Run HTMLProofer
-echo "Running HTMLProofer with flags: ${HTMLPROOFER_FLAGS} ${URL_SWAP}"
-bundle exec htmlproofer ./_site ${HTMLPROOFER_FLAGS} ${URL_SWAP}
-
+echo "Running HTMLProofer with flags: ${HTMLPROOFER_FLAGS} ${SWAP_ARGS}"
+bundle exec htmlproofer ./_site ${HTMLPROOFER_FLAGS} ${SWAP_ARGS}

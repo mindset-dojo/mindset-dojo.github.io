@@ -1,20 +1,21 @@
 #!/bin/bash
 set -euo pipefail
 
+# Skip if file already exists
 if [[ -f _config.production.yml ]]; then
   echo "_config.production.yml already exists, skipping generation."
   exit 0
 fi
 
+# Central repository
 if [[ "${GITHUB_REPOSITORY}" == "mindset-dojo/mindset-dojo.github.io" ]]; then
-  # Central repo — custom domain
   URL="https://mindset.dojo.center"
-  BASEURL="" # No subpath for root domain
+  BASEURL=""
 else
-  # Fork — served from <user>.github.io/<repo-name>
+  # Fork (GitHub Pages serves at https://<user>.github.io/<repo>)
   URL="https://${GITHUB_REPOSITORY_OWNER}.github.io"
   REPO_NAME="$(basename "${GITHUB_REPOSITORY}")"
-  BASEURL="/${REPO_NAME}" # Must match actual repo folder name in deployment URL
+  BASEURL="/${REPO_NAME}"
 fi
 
 cat > _config.production.yml <<EOF
@@ -22,6 +23,3 @@ cat > _config.production.yml <<EOF
 url: "${URL}"
 baseurl: "${BASEURL}"
 EOF
-
-echo "_config.production.yml generated with:"
-cat _config.production.yml
