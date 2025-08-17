@@ -19,14 +19,20 @@ bundle exec jekyll build --config _config.yml,_config.production.yml
 # Dynamically read baseurl from _config.production.yml
 BASEURL=$(grep "^baseurl:" _config.production.yml | awk '{print $2}')
 
-# Determine SWAP_ARGS for htmlproofer
+# Ensure baseurl starts with a slash for consistency
+if [[ -n "$BASEURL" && "${BASEURL:0:1}" != "/" ]]; then
+  BASEURL="/$BASEURL"
+fi
+
+# Determine SWAP_ARGS for HTML-Proofer
 if [[ -z "${BASEURL}" || "${BASEURL}" == "/" ]]; then
   SWAP_ARGS=""
 else
-  # Escape dots for regex (no quotes!)
+  # Escape dots for regex and include trailing slash
   BASEURL_ESCAPED="${BASEURL//./\\.}"
   SWAP_ARGS="--swap_urls ^${BASEURL_ESCAPED}/:/"
 fi
 
+echo "Using SWAP_ARGS: ${SWAP_ARGS}"
 echo "Running HTMLProofer with flags: ${HTMLPROOFER_FLAGS} ${SWAP_ARGS}"
 bundle exec htmlproofer ./_site ${HTMLPROOFER_FLAGS} ${SWAP_ARGS}
