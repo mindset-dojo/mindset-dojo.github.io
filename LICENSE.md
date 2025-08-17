@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Open Source License
-permalink: "{{'/LICENSE' | relative_url}}"
 ---
 
 ## Creative Commons Attribution-ShareAlike 4.0 International
