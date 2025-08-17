@@ -39,12 +39,12 @@ levels:
     intention: Orientation
     edge: FEBI™ (Focus Energy Balance Indicator) Assessment
     flows:
-      - label: How to Start a Movement
-        url: https://www.ted.com/talks/derek_sivers_how_to_start_a_movement
       - label: FEBI™ Inspiration
         url: http://www.zenshinkan.com/zenshinkan-lineage-ginny.html
       - label: FEBI™ Context
         url: https://zenleader.global/s/FEBI-Technical-Manual-2024.pdf
+      - label: How to Start a Movement
+        url: https://www.ted.com/talks/derek_sivers_how_to_start_a_movement
   - color: yellow
     label: 6th Kyu
     level: -6
