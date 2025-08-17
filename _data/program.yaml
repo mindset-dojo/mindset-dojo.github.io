@@ -38,11 +38,9 @@ levels:
     flows:
       - label: How to Start a Movement
         url: https://www.ted.com/talks/derek_sivers_how_to_start_a_movement
-      - label: FEBI™ Information
-        url: https://zenleader.global/resources/febi-assessment
-      - label: FEBI™ Choice
-        url: https://zenleader.global/s/FEBI-Choice-Article-Jan-2017-3p5x.pdf
-      - label: FEBI™ Technical Background
+      - label: FEBI™ Inspiration
+        url: http://www.zenshinkan.com/zenshinkan-lineage-ginny.html
+      - label: FEBI™ Context
         url: https://zenleader.global/s/FEBI-Technical-Manual-2024.pdf
   - color: yellow
     label: 6th Kyu
