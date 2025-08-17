@@ -30,7 +30,7 @@ if [[ -z "${BASEURL}" || "${BASEURL}" == "/" ]]; then
 else
 	# Escape dots for regex, include trailing slash, no quotes
 	BASEURL_ESCAPED="${BASEURL//./\\.}"
-	SWAP_ARGS="--swap-urls ^${BASEURL_ESCAPED}/:/"
+	SWAP_ARGS="--swap-urls '^${BASEURL_ESCAPED}/:/'"
 fi
 
 echo "Using SWAP_ARGS: ${SWAP_ARGS}"
