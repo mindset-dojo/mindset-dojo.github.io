@@ -10,6 +10,8 @@ principles:
   - label: Meet tension with presence
   - label: Form reflection into reflex
 forms:
+  - label: Breathing
+    url: https://en.wikipedia.org/wiki/Conscious_breathing
   - label: Reflection
     url: https://en.wikipedia.org/wiki/Self-reflection
   - label: Consciousness
@@ -23,12 +25,13 @@ forms:
   - label: Stances
     url: https://info.blackswanltd.com/hubfs/Content/3%20Types%20of%20Negotiators.pdf
 awareness:
+  - label: Energetic
   - label: Emotional
   - label: Social
   - label: Relational
-  - label: Energetic
   - label: Somatic
   - label: Metaphorical
+  - label: Shadow
 levels:
   - color: gray
     label: 7th Kyu
@@ -38,17 +41,15 @@ levels:
     flows:
       - label: How to Start a Movement
         url: https://www.ted.com/talks/derek_sivers_how_to_start_a_movement
-      - label: FEBI™ Information
-        url: https://zenleader.global/resources/febi-assessment
-      - label: FEBI™ Choice
-        url: https://zenleader.global/s/FEBI-Choice-Article-Jan-2017-3p5x.pdf
-      - label: FEBI™ Technical Background
+      - label: FEBI™ Inspiration
+        url: http://www.zenshinkan.com/zenshinkan-lineage-ginny.html
+      - label: FEBI™ Context
         url: https://zenleader.global/s/FEBI-Technical-Manual-2024.pdf
   - color: yellow
     label: 6th Kyu
     level: -6
     intention: Recalibration
-    edge: Analyze a spirited conversation through the lenses of FEBI™, Consciousness, and Tone
+    edge: Analyze a spirited conversation through your new lenses
     flows:
       - label: The Backwards Brain Bicycle
         url: https://www.youtube.com/watch?v=MFzDaBzBlL0
@@ -62,7 +63,7 @@ levels:
     label: 5th Kyu
     level: -5
     intention: Perception
-    edge: Engage in and analyze a spirited conversation utilizing the techniques and frameworks you have learned
+    edge: Engage in and analyze a spirited conversation using what you have learned
     flows:
       - label: Breathing to Support the FEBI™ Patterns
         url: https://www.youtube.com/watch?v=C53IKjDvU2g
@@ -76,7 +77,7 @@ levels:
     label: 4th Kyu
     level: -4
     intention: Emotioncraft
-    edge: Improve a conversation that matters using the new moves and flips
+    edge: Improve a conversation that matters using what you have learned
     flows:
       - label: Negotiation 9™ Move - Labels
         url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
@@ -92,7 +93,7 @@ levels:
     label: 3rd Kyu
     level: -3
     intention: Presence
-    edge: Improve a conversation that matters using the new moves and flips
+    edge: Improve a conversation that matters using what you have learned
     flows:
       - label: Negotiation 9™ Move - Paraphrasing
         url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
@@ -110,7 +111,7 @@ levels:
     label: 2nd Kyu
     level: -2
     intention: Synthesis
-    edge: Improve a conversation that matters using the new moves and flips
+    edge: Improve a conversation that matters using what you have learned
     flows:
       - label: Negotiation 9™ Move - “I” Messages
         url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
@@ -124,7 +125,7 @@ levels:
     label: 1st Kyu
     level: -1
     intention: Embodiment
-    edge: Live demonstration of wisely timed FEBI™ transitions and Negotiation 9™ moves
+    edge: Live demonstration of wisely timed MetaShifting
     flows:
       - label: Buddha in Blue Jeans
         url: https://www.youtube.com/watch?v=FYTqRfJyArM
