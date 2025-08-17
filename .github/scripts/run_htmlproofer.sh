@@ -17,9 +17,11 @@ fi
 REPO_NAME="$(basename "$GITHUB_REPOSITORY")"
 PREFIX_ESCAPED="${REPO_NAME//./\\.}"
 
-# If this is NOT the central repo, prepare URL swap to strip prefix from internal links
+# If this is NOT the central repo, prepare URL swap arguments
+#  1) remove "/<reponame>" prefix
+#  2) collapse protocol-relative URLs ("//program") back to "/program"
 if [[ "${GITHUB_REPOSITORY}" != "mindset-dojo/mindset-dojo.github.io" ]]; then
-  URL_SWAP="--swap_urls ^/${PREFIX_ESCAPED}:/"
+  URL_SWAP="--swap_urls ^/${PREFIX_ESCAPED}:/ --swap_urls ^//:/"
 else
   URL_SWAP=""
 fi
@@ -27,3 +29,4 @@ fi
 # Run HTMLProofer
 echo "Running HTMLProofer with flags: ${HTMLPROOFER_FLAGS} ${URL_SWAP}"
 bundle exec htmlproofer ./_site ${HTMLPROOFER_FLAGS} ${URL_SWAP}
+
