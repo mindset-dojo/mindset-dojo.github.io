@@ -13,12 +13,22 @@ else
   exit 1
 fi
 
-if [[ "${GITHUB_REPOSITORY}" == "mindset-dojo/mindset-dojo.github.io" ]]; then
+# Make sure the site is built
+bundle exec jekyll build
+
+# Detect baseurl from _config.yml
+BASEURL=$(bundle exec jekyll config baseurl)
+
+# Determine SWAP_ARGS for htmlproofer
+if [[ -z "${BASEURL}" || "${BASEURL}" == "/" ]]; then
+  # Central repo or no baseurl
   SWAP_ARGS=""
 else
-  REPO_NAME="$(basename "${GITHUB_REPOSITORY}")"
-  PREFIX_ESCAPED="${REPO_NAME//./\\.}"
-  SWAP_ARGS="--swap_urls ^/?${PREFIX_ESCAPED}:/ --swap_urls ^//:/"
+  # Fork: replace baseurl with root for internal checks
+  # Escape dots for regex
+  BASEURL_ESCAPED="${BASEURL//./\\.}"
+  # Swap /baseurl/... => /... so htmlproofer can find files in _site
+  SWAP_ARGS="--swap_urls ^${BASEURL_ESCAPED}/:/"
 fi
 
 echo "Running HTMLProofer with flags: ${HTMLPROOFER_FLAGS} ${SWAP_ARGS}"
