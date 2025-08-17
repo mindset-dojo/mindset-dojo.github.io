@@ -13,21 +13,18 @@ else
   exit 1
 fi
 
-# Make sure the site is built
-bundle exec jekyll build
+# Ensure site is built
+bundle exec jekyll build --config _config.yml,_config.production.yml
 
-# Detect baseurl from _config.yml
-BASEURL=$(bundle exec jekyll config baseurl)
+# Dynamically read baseurl from _config.production.yml
+BASEURL=$(grep "^baseurl:" _config.production.yml | awk '{print $2}')
 
 # Determine SWAP_ARGS for htmlproofer
 if [[ -z "${BASEURL}" || "${BASEURL}" == "/" ]]; then
-  # Central repo or no baseurl
   SWAP_ARGS=""
 else
-  # Fork: replace baseurl with root for internal checks
-  # Escape dots for regex
+  # Escape dots for regex and swap baseurl to root for internal checks
   BASEURL_ESCAPED="${BASEURL//./\\.}"
-  # Swap /baseurl/... => /... so htmlproofer can find files in _site
   SWAP_ARGS="--swap_urls ^${BASEURL_ESCAPED}/:/"
 fi
 
