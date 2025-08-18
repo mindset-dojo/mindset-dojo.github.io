@@ -1,57 +1,39 @@
 #!/bin/bash
-# .github/scripts/run_htmlproofer.sh
-# Run HTMLProofer with dynamic URL swap for forked repos
+# Run HTMLProofer on Docker with dynamic URL swap
 
 set -euo pipefail
 
-# Load CLI flags from your config file
+# Load CLI flags from .env file
 if [[ -f ".github/config/htmlproofer.env" ]]; then
-	# shellcheck source=/dev/null
-	source .github/config/htmlproofer.env
+    source .github/config/htmlproofer.env
 else
-	echo "ERROR: .github/config/htmlproofer.env not found" >&2
-	exit 1
+    echo "ERROR: .github/config/htmlproofer.env not found" >&2
+    exit 1
 fi
 
-# Build up CLI flags for HTMLProofer
+# Build CLI flags array
 PROOFER_FLAGS=()
 
-if [[ "${ASSUME_EXTENSION:-false}" == "true" ]]; then
-	PROOFER_FLAGS+=(--assume-extension)
-fi
+[[ "${ASSUME_EXTENSION:-false}" == "true" ]] && PROOFER_FLAGS+=(--assume-extension)
+[[ "${ONLY_4XX:-false}" == "true" ]] && PROOFER_FLAGS+=(--only-4xx)
+[[ "${ENFORCE_HTTPS:-false}" == "true" ]] && PROOFER_FLAGS+=(--enforce-https)
+[[ -n "${IGNORE_URLS:-}" ]] && PROOFER_FLAGS+=(--ignore-urls="${IGNORE_URLS}")
 
-if [[ "${ONLY_4XX:-false}" == "true" ]]; then
-	PROOFER_FLAGS+=(--only-4xx)
-fi
-
-if [[ "${ENFORCE_HTTPS:-false}" == "true" ]]; then
-	PROOFER_FLAGS+=(--enforce-https)
-fi
-
-if [[ -n "${IGNORE_URLS:-}" ]]; then
-	PROOFER_FLAGS+=(--ignore-urls="${IGNORE_URLS}")
-fi
-
-# Ensure site is built with production config
-bundle exec jekyll build --config _config.yml,_config.production.yml
-
-# Dynamically read baseurl from _config.production.yml and remove quotes
+# Determine BASEURL from production config
 BASEURL=$(grep "^baseurl:" _config.production.yml | awk '{print $2}' | tr -d '"')
+[[ -n "$BASEURL" && "${BASEURL:0:1}" != "/" ]] && BASEURL="/$BASEURL"
 
-# Ensure leading slash for consistency
-if [[ -n "$BASEURL" && "${BASEURL:0:1}" != "/" ]]; then
-	BASEURL="/$BASEURL"
-fi
+# Determine SWAP_ARGS
+SWAP_ARGS=()
+[[ -n "$BASEURL" && "$BASEURL" != "/" ]] && SWAP_ARGS+=(--swap-urls "^${BASEURL//./\\.}/:/")
 
-# Determine SWAP_ARGS for HTML-Proofer
-if [[ -z "${BASEURL}" || "${BASEURL}" == "/" ]]; then
-	SWAP_ARGS=""
-else
-	BASEURL_ESCAPED="${BASEURL//./\\.}"
-	SWAP_ARGS="--swap-urls '^${BASEURL_ESCAPED}/:/'"
-fi
+echo "Using SWAP_ARGS: ${SWAP_ARGS[*]}"
+echo "Running HTMLProofer with flags: ${PROOFER_FLAGS[*]} ${SWAP_ARGS[*]}"
 
-echo "Using SWAP_ARGS: ${SWAP_ARGS}"
-echo "Running HTMLProofer with flags: ${PROOFER_FLAGS[*]} ${SWAP_ARGS}"
-
-bundle exec htmlproofer ./_site "${PROOFER_FLAGS[@]}" "${SWAP_ARGS}"
+# Run HTMLProofer in Docker
+docker run --rm \
+    -v "${PWD}/_site:/site" \
+    klakegg/html-proofer \
+    /site \
+    "${PROOFER_FLAGS[@]}" \
+    "${SWAP_ARGS[@]}"
