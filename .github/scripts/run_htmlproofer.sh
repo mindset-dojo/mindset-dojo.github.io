@@ -54,4 +54,4 @@ fi
 echo "Using SWAP_ARGS: ${SWAP_ARGS}"
 echo "Running HTMLProofer with flags: ${PROOFER_FLAGS[*]} ${SWAP_ARGS}"
 
-bundle exec htmlproofer ./_site "${PROOFER_FLAGS[@]}" ${SWAP_ARGS}
+bundle exec htmlproofer ./_site "${PROOFER_FLAGS[@]}" "${SWAP_ARGS}"
