@@ -11,5 +11,5 @@ docker run --rm \
     -v "${REPO_ROOT}:/srv/jekyll" \
     -v "${REPO_ROOT}/_site:/srv/jekyll/_site" \
     -e JEKYLL_ENV=production \
-    jekyll/jekyll:4.3.2 \
+    jekyll/jekyll:3.8 \
     jekyll build --config _config.yml,_config.production.yml
