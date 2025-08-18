@@ -13,6 +13,25 @@ else
 	exit 1
 fi
 
+# Build up CLI flags for HTMLProofer
+PROOFER_FLAGS=()
+
+if [[ "${ASSUME_EXTENSION:-false}" == "true" ]]; then
+	PROOFER_FLAGS+=(--assume-extension)
+fi
+
+if [[ "${ONLY_4XX:-false}" == "true" ]]; then
+	PROOFER_FLAGS+=(--only-4xx)
+fi
+
+if [[ "${ENFORCE_HTTPS:-false}" == "true" ]]; then
+	PROOFER_FLAGS+=(--enforce-https)
+fi
+
+if [[ -n "${IGNORE_URLS:-}" ]]; then
+	PROOFER_FLAGS+=(--ignore-urls="${IGNORE_URLS}")
+fi
+
 # Ensure site is built with production config
 bundle exec jekyll build --config _config.yml,_config.production.yml
 
@@ -28,11 +47,11 @@ fi
 if [[ -z "${BASEURL}" || "${BASEURL}" == "/" ]]; then
 	SWAP_ARGS=""
 else
-	# Escape dots for regex, include trailing slash, no quotes
 	BASEURL_ESCAPED="${BASEURL//./\\.}"
 	SWAP_ARGS="--swap-urls '^${BASEURL_ESCAPED}/:/'"
 fi
 
 echo "Using SWAP_ARGS: ${SWAP_ARGS}"
-echo "Running HTMLProofer with flags: ${HTMLPROOFER_FLAGS} ${SWAP_ARGS}"
-bundle exec htmlproofer ./_site "${HTMLPROOFER_FLAGS[@]}" "${SWAP_ARGS}"
+echo "Running HTMLProofer with flags: ${PROOFER_FLAGS[*]} ${SWAP_ARGS}"
+
+bundle exec htmlproofer ./_site "${PROOFER_FLAGS[@]}" ${SWAP_ARGS}
