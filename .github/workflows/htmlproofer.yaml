@@ -32,12 +32,7 @@ jobs:
         run: bash .github/scripts/generate_production_config.sh
 
       - name: 🏗️ Build Jekyll Site (Docker)
-        run: |
-          docker run --rm \
-            -v "${PWD}:/srv/jekyll" \
-            -v "${PWD}/_site:/srv/jekyll/_site" \
-            -e JEKYLL_ENV=production \
-            jekyll/jekyll:4.3.2 jekyll build --config _config.yml,_config.production.yml
+        run: bash .github/scripts/build_jekyll_docker.sh
 
       - name: ✅ Run HTMLProofer (Docker)
         run: bash .github/scripts/run_htmlproofer.sh
