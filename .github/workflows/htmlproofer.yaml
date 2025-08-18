@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   htmlproofer:
-    name: Validate Built Jekyll Site with HTMLProofer
+    name: Validate Jekyll Site with HTMLProofer (Docker)
     runs-on: ubuntu-latest
 
     permissions:
@@ -28,27 +28,17 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: 💎 Set up Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: 3.2
-          bundler-cache: true
-
-      - name: 📦 Install dependencies
-        run: |
-          bundle config set --local path 'vendor/bundle'
-          bundle install
-
       - name: 📝 Generate _config.production.yml
         run: bash .github/scripts/generate_production_config.sh
 
-      - name: 🏗️ Build GitHub Pages-compliant Jekyll site
-        env:
-          JEKYLL_ENV: production
+      - name: 🏗️ Build Jekyll Site (Docker)
         run: |
-          bundle exec jekyll build \
-            --config _config.yml,_config.production.yml
+          docker run --rm \
+            -v "${PWD}:/srv/jekyll" \
+            -v "${PWD}/_site:/srv/jekyll/_site" \
+            -e JEKYLL_ENV=production \
+            jekyll/jekyll:4.3.2 jekyll build --config _config.yml,_config.production.yml
 
-      - name: ✅ Run HTMLProofer
+      - name: ✅ Run HTMLProofer (Docker)
         run: bash .github/scripts/run_htmlproofer.sh
 ...
