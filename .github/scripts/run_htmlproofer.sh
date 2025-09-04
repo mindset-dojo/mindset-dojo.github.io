@@ -32,16 +32,25 @@ if [[ -n "${IGNORE_URLS:-}" ]]; then
     PROOFER_FLAGS+=(--ignore-urls="${IGNORE_URLS}")
 fi
 
-# Ensure Jekyll is installed
-if ! command -v jekyll >/dev/null 2>&1; then
-    echo "Jekyll not found, installing..."
-    gem install jekyll --no-document
-else
-    echo "Jekyll already installed"
+# ------------------------------
+# Build the site with Jekyll
+# ------------------------------
+
+# Ensure Bundler is available
+if ! command -v bundle >/dev/null 2>&1; then
+    echo "Bundler not found, installing..."
+    gem install bundler --no-document
 fi
 
-# Ensure site is built with production config
-jekyll build --config _config.yml,_config.production.yml
+# Install dependencies from Gemfile (ephemeral in workflow)
+bundle install --jobs=4 --retry=3 --path vendor/bundle
+
+# Build site using Bundler (resolves all Gemfile plugin version conflicts)
+bundle exec jekyll build --config _config.yml,_config.production.yml
+
+# ------------------------------
+# Prepare dynamic URL swap
+# ------------------------------
 
 # Dynamically read baseurl from _config.production.yml and remove quotes
 BASEURL=$(grep "^baseurl:" _config.production.yml | awk '{print $2}' | tr -d '"')
@@ -62,7 +71,9 @@ fi
 echo "Using SWAP_ARGS: ${SWAP_ARGS}"
 echo "Running HTMLProofer with flags: ${PROOFER_FLAGS[*]} ${SWAP_ARGS}"
 
-# Ephemeral installation: only install if not already installed
+# ------------------------------
+# Install and run HTMLProofer ephemerally
+# ------------------------------
 if ! command -v htmlproofer >/dev/null 2>&1; then
     echo "HTMLProofer not found, installing..."
     gem install html-proofer --no-document
@@ -72,4 +83,3 @@ fi
 
 # Run HTMLProofer directly
 htmlproofer ./_site "${PROOFER_FLAGS[@]}" ${SWAP_ARGS}
-
