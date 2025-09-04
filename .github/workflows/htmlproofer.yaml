@@ -1,0 +1,54 @@
+# yamllint disable rule:truthy
+---
+name: HTMLProofer Gate
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch: null
+
+permissions:
+  contents: read
+  checks: read
+  pages: none
+
+jobs:
+  htmlproofer:
+    name: Validate Built Jekyll Site with HTMLProofer
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      checks: read
+      pages: none
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 💎 Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.2
+          bundler-cache: true
+
+      - name: 📦 Install dependencies
+        run: |
+          bundle config set --local path 'vendor/bundle'
+          bundle install
+
+      - name: 📝 Generate _config.production.yml
+        run: bash .github/scripts/generate_production_config.sh
+
+      - name: 🏗️ Build GitHub Pages-compliant Jekyll site
+        env:
+          JEKYLL_ENV: production
+        run: |
+          bundle exec jekyll build \
+            --config _config.yml,_config.production.yml
+
+      - name: ✅ Run HTMLProofer
+        run: bash .github/scripts/run_htmlproofer.sh
+...
