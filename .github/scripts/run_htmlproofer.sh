@@ -32,6 +32,14 @@ if [[ -n "${IGNORE_URLS:-}" ]]; then
     PROOFER_FLAGS+=(--ignore-urls="${IGNORE_URLS}")
 fi
 
+# Ensure Jekyll is installed
+if ! command -v jekyll >/dev/null 2>&1; then
+    echo "Jekyll not found, installing..."
+    gem install jekyll --no-document
+else
+    echo "Jekyll already installed"
+fi
+
 # Ensure site is built with production config
 jekyll build --config _config.yml,_config.production.yml
 
