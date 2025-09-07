@@ -33,7 +33,7 @@ jobs:
         with:
           ruby-version: 3.2
           bundler-cache: true
-      
+
       - name: 📦 Install HTMLProofer
         run: gem install html-proofer
 
