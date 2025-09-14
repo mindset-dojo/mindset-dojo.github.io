@@ -43,6 +43,8 @@ levels:
         url: http://www.zenshinkan.com/zenshinkan-lineage-ginny.html
       - label: FEBI™ Context
         url: https://zenleader.global/s/FEBI-Technical-Manual-2024.pdf
+      - label: FEBI™ Experience
+        url: https://www.youtube.com/watch?v=uVTGeFjsD3s
       - label: How to Start a Movement
         url: https://www.ted.com/talks/derek_sivers_how_to_start_a_movement
   - color: yellow
@@ -84,11 +86,11 @@ levels:
       - label: Negotiation 9™ Move - Mirrors
         url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
       - label: Zen Leader Essential Flip - Coping to Transformation
-        url: https://cdn.dirigible.studio/wp-content/uploads/sites/24/2021/09/04073619/TZL-graphic-izl.pdf
+        url: https://www.youtube.com/watch?v=zCdHllT5XOY
       - label: Zen Leader Essential Flip - Tension to Extension
-        url: https://cdn.dirigible.studio/wp-content/uploads/sites/24/2021/09/04073619/TZL-graphic-izl.pdf
+        url: https://www.youtube.com/watch?v=l-_KMzx8U7Y
       - label: Zen Leader Essential Flip - Or to And
-        url: https://cdn.dirigible.studio/wp-content/uploads/sites/24/2021/09/04073619/TZL-graphic-izl.pdf
+        url: https://www.youtube.com/watch?v=uaLDcv1NVCU
   - color: purple
     label: 3rd Kyu
     level: -3
@@ -104,9 +106,9 @@ levels:
       - label: Zen Leader Essential Flip - Out There to In Here
         url: https://cdn.dirigible.studio/wp-content/uploads/sites/24/2021/09/04073619/TZL-graphic-izl.pdf
       - label: Zen Leader Essential Flip - Playing Your Strength to Strengthening Your Play
-        url: https://cdn.dirigible.studio/wp-content/uploads/sites/24/2021/09/04073619/TZL-graphic-izl.pdf
+        url: https://www.youtube.com/watch?v=Jz1b2GK6Whg
       - label: Zen Leader Essential Flip - Controlling to Connecting
-        url: https://cdn.dirigible.studio/wp-content/uploads/sites/24/2021/09/04073619/TZL-graphic-izl.pdf
+        url: https://www.youtube.com/watch?v=OFxdn9v5avk
   - color: brown
     label: 2nd Kyu
     level: -2
@@ -120,7 +122,7 @@ levels:
       - label: Never Split the Difference - Negotiating As If Your Life Depended On It
         url: https://www.amazon.com/Never-Split-Difference-Negotiating-Depended/dp/0062407805
       - label: Zen Leader Essential Flip - Driving Results to Attracting the Future
-        url: https://cdn.dirigible.studio/wp-content/uploads/sites/24/2021/09/04073619/TZL-graphic-izl.pdf
+        url: https://www.youtube.com/watch?v=bn1E5owWCNM
       - label: Zen Leader Essential Flip - It is All About Me to I am All About It
         url: https://cdn.dirigible.studio/wp-content/uploads/sites/24/2021/09/04073619/TZL-graphic-izl.pdf
   - color: red
