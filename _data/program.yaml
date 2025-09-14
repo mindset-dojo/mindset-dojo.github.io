@@ -55,22 +55,24 @@ levels:
     flows:
       - label: The Backwards Brain Bicycle
         url: https://www.youtube.com/watch?v=MFzDaBzBlL0
+      - label: Zen Toolkit - One Breath
+        url: https://vimeo.com/944618879/47e96945a4
       - label: Negotiation 9™ Move - Tone
         url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
       - label: Map of Consciousness - David Hawkins
         url: https://www.youtube.com/watch?v=QBxVzTphkik
       - label: Plus Ki and Minus Ki
-        url: https://mindbodyaikido.com/plus-ki-and-minus-ki/
+        url: https://mindbodyaikido.com/plus-ki-and-minus-ki
   - color: green
     label: 5th Kyu
     level: -5
     intention: Perception
     edge: Engage in and analyze a spirited conversation using what you have learned
     flows:
-      - label: Breathing to Support the FEBI™ Patterns
-        url: https://www.youtube.com/watch?v=C53IKjDvU2g
       - label: Bias - Duck Rabbit
         url: https://www.youtube.com/watch?v=36AqMX5uua4
+      - label: Zen Toolkit - Two Sides
+        url: https://vimeo.com/944663134/d4f1c4f333
       - label: Negotiation 9™ Move - Dynamic Silence
         url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
       - label: Stances
@@ -131,8 +133,8 @@ levels:
     intention: Embodiment
     edge: Live demonstration of wisely timed MetaShifting
     flows:
-      - label: Buddha in Blue Jeans
-        url: https://www.youtube.com/watch?v=FYTqRfJyArM
+      - label: Zen Toolkit - Three Centers
+        url: https://vimeo.com/944672806/e099593826?share=copy
       - label: Making Hara Breathing Automatic
         url: https://youtu.be/UVz1E_cKxp4?si=hl5c7qB4iR6R7ZSs
       - label: Mindset Dojo as Ma-Ai
@@ -149,6 +151,8 @@ levels:
     intention: Wu-Wei
     edge: Converstional Randori unpacking your reflective essay about your journey
     flows:
+      - label: Zen Toolkit - Four Patterns
+        url: https://vimeo.com/944675826/c57a7ce142
       - label: The Backwards Brain Tractor
         url: https://youtu.be/lylCYkgC63Q?si=FzuWfAHq4Yie_AHC
       - label: For Something New To Come, Something Old Must Go
