@@ -24,6 +24,7 @@ forms:
     url: https://cdn.dirigible.studio/wp-content/uploads/sites/24/2021/09/04073619/TZL-graphic-izl.pdf
   - label: Stances
     url: https://medium.com/p/1638c7ef8e52
+awareness:
   - label: Energetic
   - label: Emotional
   - label: Social
