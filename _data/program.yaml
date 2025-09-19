@@ -15,7 +15,7 @@ forms:
   - label: Reflection
     url: https://en.wikipedia.org/wiki/Self-reflection
   - label: Consciousness
-    url: https://www.pranacafe.love/post/exploring-the-levels-of-consciousness
+    url: https://www.nondualitylife.com/levels-of-consciousness
   - label: Ki
     url: https://mindbodyaikido.com/plus-ki-and-minus-ki/
   - label: Moves
@@ -47,6 +47,8 @@ levels:
         url: https://www.youtube.com/watch?v=uVTGeFjsD3s
       - label: How to Start a Movement
         url: https://www.ted.com/talks/derek_sivers_how_to_start_a_movement
+      - label: Mindset Dojo Insight - A Fable on Opposition
+        url: https://medium.com/p/1e9078621d7f
   - color: yellow
     label: 6th Kyu
     level: -6
