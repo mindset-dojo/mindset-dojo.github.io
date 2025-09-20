@@ -55,15 +55,16 @@ Roles are *voluntary* and reviewed periodically to ensure mutual clarity and car
 
 ### ⚡ Project Maintainer
 
-* **Qualification:** ***Black Belt*** in the program, completed a deep mindset exercise, and vetted by Organizational Ownership
+* **Qualification:** ***Black Belt*** in the program; completed the first step of the [Zen Leadership Instructor](https://zenleader.global/programs/coachinstructor/zlinstructor) pathway; and vetted by Organizational Ownership
 * **Curates** both the **codebase** and the **program structure**
 * **Embodies** the **intention of Mindset Dojo's program and community** at a higher level of practice
 * **Guides** others in principled contribution and practical expression
 * **Observes and evolves** the connective tissue between project and program
+* **Consults with** with Organizational Ownership when it makes sense
 
 ### 🌐 Organizational Owner
 
-* **Qualification:** ***Black Belt*** level; membership and scoping considered *case-by-case*
+* **Qualification:** ***Black Belt*** level; [Zen Leadership Instructor](https://zenleader.global/programs/coachinstructor/zlinstructor) designation; and vetted by Organizational Ownership
 * **Responsible** for managing provisional access (elevation and removal) to facilitate feature deployment
 * **Oversees** the broader digital ecosystem (domain, branding, analytics)
 * **Demonstrates and enrolls** through various social, personal, and professional circles
