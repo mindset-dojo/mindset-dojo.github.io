@@ -60,6 +60,7 @@ Roles are *voluntary* and reviewed periodically to ensure mutual clarity and car
 * **Embodies** the **intention of Mindset Dojo's program and community** at a higher level of practice
 * **Guides** others in principled contribution and practical expression
 * **Observes and evolves** the connective tissue between project and program
+* Note: some changes require **consultation** with Organizational Ownership and will be handled **case by case**
 
 ### 🌐 Organizational Owner
 
