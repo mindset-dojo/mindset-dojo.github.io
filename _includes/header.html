@@ -1,21 +1,21 @@
 <header>
-    <a href="./" aria-current="page">
-        <img src="./assets/mindset-dojo-logo.png" alt="Mindset Dojo Logo" width="292" height="80" decoding="async" fetchpriority="high">
+    <a href="{{'/' | relative_url }}" aria-current="page">
+        <img src="{{'/assets/mindset-dojo-logo.png' | relative_url}}" alt="Mindset Dojo Logo" width="292" height="80" decoding="async" fetchpriority="high">
     </a>
     <nav id="Menu">
         <ul role="menu">
             <li role="presentation">
                 <a 
-                  href="./"
+                  href="{{'/' | relative_url }}"
                   role="menuitem"
-                  {% include aria_current.html page_url="./" %} 
+                  {% include aria_current.html page_url="{{'/' | relative_url }}" %} 
                 >COMMUNITY</a>
             </li>
             <li role="presentation">
                 <a 
-                  href="./program"
+                  href="{{'/program' | relative_url}}"
                   role="menuitem" 
-                  {% include aria_current.html page_url="./program" %} 
+                  {% include aria_current.html page_url="{{'/program' | relative_url}}" %} 
                 >PROGRAM</a>
             </li>
         </ul>

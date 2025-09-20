@@ -73,5 +73,5 @@ It’s not just coaching.</p>
 </div>
 
 <div class="md-cta-group">
-    <a href="./program">Open Source Program</a>
+    <a href="{{ '/program' | relative_url }}">Open Source Program</a>
 </div>
