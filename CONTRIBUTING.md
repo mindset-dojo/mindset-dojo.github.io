@@ -64,7 +64,7 @@ Roles are *voluntary* and reviewed periodically to ensure mutual clarity and car
 
 ### 🌐 Organizational Owner
 
-* **Qualification:** ***Black Belt*** level; [Zen Leadership Instructor](https://zenleader.global/programs/coachinstructor/zlinstructor) designation; three years actively contributing to and participating in the program; and vetted by Organizational Ownership
+* **Qualification:** ***Black Belt*** level; [Zen Leadership Instructor](https://zenleader.global/programs/coachinstructor/zlinstructor) designation and vetted by Organizational Ownership
 * **Responsible** for managing provisional access (elevation and removal) to facilitate feature deployment
 * **Oversees** the broader digital ecosystem (domain, branding, analytics)
 * **Demonstrates and enrolls** through various social, personal, and professional circles
