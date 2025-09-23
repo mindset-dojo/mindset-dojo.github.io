@@ -52,7 +52,7 @@ levels:
   - color: yellow
     label: 6th Kyu
     level: -6
-    intention: Recalibration
+    intention: Centering
     edge: Analyze a spirited conversation through your new lenses
     flows:
       - label: The Backwards Brain Bicycle
@@ -82,7 +82,7 @@ levels:
   - color: blue
     label: 4th Kyu
     level: -4
-    intention: Emotioncraft
+    intention: Listening
     edge: Improve a conversation that matters using what you have learned
     flows:
       - label: Negotiation 9™ Move - Labels
@@ -116,7 +116,7 @@ levels:
   - color: brown
     label: 2nd Kyu
     level: -2
-    intention: Synthesis
+    intention: Integration
     edge: Improve a conversation that matters using what you have learned
     flows:
       - label: Negotiation 9™ Move - “I” Messages
@@ -132,7 +132,7 @@ levels:
   - color: red
     label: 1st Kyu
     level: -1
-    intention: Embodiment
+    intention: Resonance
     edge: Live demonstration of wisely timed MetaShifting
     flows:
       - label: Zen Toolkit - Three Centers
