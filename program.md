@@ -39,16 +39,6 @@ css_id: program
 </section>
 
 <section>
-  <h2>Awareness</h2>
-  <br>
-  <ul>
-    {% for item in program.awareness %}
-      <li>{{ item.label }}</li>
-    {% endfor %}
-  </ul>
-</section>
-
-<section>
   <h2>Levels</h2>
   {% for level in program.levels %}
       <br>
@@ -73,3 +63,4 @@ css_id: program
 <div class="md-cta-group">
     <a href="./">Engage Community</a>
 </div>
+
