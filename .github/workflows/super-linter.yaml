@@ -29,7 +29,7 @@ jobs:
               -e '/^\s*#/d' \
               -e '/^\s*$/d' \
               -e 's|__GITHUB_TOKEN__|'"${{ secrets.GITHUB_TOKEN }}"'|g' \
-              .github/super-linter.env >> "$GITHUB_ENV"
+              .github/config/super-linter.env >> "$GITHUB_ENV"
       - name: Run Super-Linter
         uses: super-linter/super-linter@v7.4.0
         # No additional env: block is needed because all variables are now in $GITHUB_ENV

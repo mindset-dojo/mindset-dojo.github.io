@@ -24,14 +24,6 @@ forms:
     url: https://cdn.dirigible.studio/wp-content/uploads/sites/24/2021/09/04073619/TZL-graphic-izl.pdf
   - label: Stances
     url: https://medium.com/p/1638c7ef8e52
-awareness:
-  - label: Energetic
-  - label: Emotional
-  - label: Social
-  - label: Relational
-  - label: Somatic
-  - label: Metaphorical
-  - label: Shadow
 levels:
   - color: gray
     label: 7th Kyu
@@ -52,7 +44,7 @@ levels:
   - color: yellow
     label: 6th Kyu
     level: -6
-    intention: Recalibration
+    intention: Centering
     edge: Analyze a spirited conversation through your new lenses
     flows:
       - label: The Backwards Brain Bicycle
@@ -82,7 +74,7 @@ levels:
   - color: blue
     label: 4th Kyu
     level: -4
-    intention: Emotioncraft
+    intention: Listening
     edge: Improve a conversation that matters using what you have learned
     flows:
       - label: Negotiation 9™ Move - Labels
@@ -116,7 +108,7 @@ levels:
   - color: brown
     label: 2nd Kyu
     level: -2
-    intention: Synthesis
+    intention: Shadow
     edge: Improve a conversation that matters using what you have learned
     flows:
       - label: Negotiation 9™ Move - “I” Messages
@@ -132,7 +124,7 @@ levels:
   - color: red
     label: 1st Kyu
     level: -1
-    intention: Embodiment
+    intention: Resonance
     edge: Live demonstration of wisely timed MetaShifting
     flows:
       - label: Zen Toolkit - Three Centers
