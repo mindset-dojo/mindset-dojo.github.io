@@ -116,7 +116,7 @@ levels:
   - color: brown
     label: 2nd Kyu
     level: -2
-    intention: Integration
+    intention: Shadow
     edge: Improve a conversation that matters using what you have learned
     flows:
       - label: Negotiation 9™ Move - “I” Messages
