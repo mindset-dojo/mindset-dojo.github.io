@@ -6,12 +6,20 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="robots" content="max-image-preview:large">
-	<link rel="preload" href="./assets/libs/google/fonts/afacad-v1-latin-700.woff2" crossorigin="anonymous" as="font" type="font/woff2">
-	<link rel="preload" href="./assets/libs/google/fonts/roboto-v47-latin-regular.woff2" crossorigin="anonymous" as="font" type="font/woff2">
-	<link rel="stylesheet" href="./assets/css/md.css" media="all">
-	<link rel="canonical" href="{{ page.permalink }}">
-	<link rel="icon" href="./assets/favicon.png" sizes="32x32">
-	<link rel="icon" href="./assets/favicon.png" sizes="192x192">
-	<link rel="apple-touch-icon" href="./assets/favicon.png">
-	<meta name="msapplication-TileImage" content="./assets/favicon.png">
+	<link rel="preload" href="{{'/assets/libs/google/fonts/afacad-v1-latin-700.woff2' | relative_url}}" crossorigin="anonymous" as="font" type="font/woff2">
+	<link rel="preload" href="{{'/assets/libs/google/fonts/roboto-v47-latin-regular.woff2' | relative_url}}" crossorigin="anonymous" as="font" type="font/woff2">
+	<link rel="stylesheet" href="{{'/assets/css/md.css' | relative_url}}" media="all">
+	
+	{% comment %}
+    Canonical URL only included if page.url exists and is not the root.
+    Avoids HTMLProofer complaints on forks or blank values.
+    {% endcomment %}
+    {% if page.url and page.url != "/" %}
+      <link rel="canonical" href="{{ page.url | relative_url }}">
+    {% endif %}
+
+	<link rel="icon" href="{{'/assets/favicon.png' | relative_url}}" sizes="32x32">
+	<link rel="icon" href="{{'/assets/favicon.png' | relative_url}}" sizes="192x192">
+	<link rel="apple-touch-icon" href="{{'/assets/favicon.png' | relative_url}}">
+	<meta name="msapplication-TileImage" content="{{'/assets/favicon.png' | relative_url}}">
 </head>

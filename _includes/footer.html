@@ -3,16 +3,16 @@
 		<ul role="menu">
 			<li role="presentation">
 				<a 
-				  href="./"
+				  href="{{'/' | relative_url }}"
 				  role="menuitem"
-				  {% include aria_current.html page_url="./" %}
+				  {% include aria_current.html page_url="{{'/' | relative_url }}" %}
 				>COMMUNITY</a>
 			</li>
 			<li role="presentation">
 				<a 
-				  href="./program" 
+				  href="{{'/program' | relative_url}}" 
 				  role="menuitem"
-				  {% include aria_current.html page_url="./program" %}
+				  {% include aria_current.html page_url="{{'/program' | relative_url}}" %}
 				>PROGRAM</a>
 			</li>
 			<li role="presentation"><a href="{{site.connect_url}}" target="_blank" role="menuitem">CONTACT</a></li>
@@ -25,20 +25,20 @@
 			</li>
 			<li role="presentation">
 				<a 
-				  href="./privacy-policy" 
+				  href="{{'/privacy-policy' | relative_url}}" 
 				  role="menuitem"
-				  {% include aria_current.html page_url="./privacy-policy" %}
+				  {% include aria_current.html page_url="{{'/privacy-policy' | relative_url}}" %}
 				>Privacy Policy</a>
 			</li>
 			<li role="presentation">
 				<a 
-				  href="./license"
+				  href="{{'/LICENSE' | relative_url}}"
 				  role="menuitem" 
-				  {% include aria_current.html page_url="./license" %}
+				  {% include aria_current.html page_url="{{'/LICENSE' | relative_url}}" %}
 				>Open Source License</a>
 			</li>
 		</ul>
 	</nav>
-	<img src="./assets/mindset-dojo-torii-gate.png" alt="Mindset Dojo Torii Gate Background Image" width="800" height="601" decoding="async" loading="lazy" sizes="(max-width: 800px) 100vw, 800px">
+	<img src="{{'/assets/mindset-dojo-torii-gate.png' | relative_url}}" alt="Mindset Dojo Torii Gate Background Image" width="800" height="601" decoding="async" loading="lazy" sizes="(max-width: 800px) 100vw, 800px">
 </footer>
-<script src="./assets/js/md.js"></script>
+<script src="{{'/assets/js/md.js' | relative_url}}"></script>
