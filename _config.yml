@@ -20,7 +20,7 @@ footer_primary_links:
   - label: PROJECT
     href: /project
   - label: CONTACT
-    connect_url: https://connect.mindset.dojo.center
+    href: https://connect.mindset.dojo.center
     external: true
 
 footer_secondary_links:
