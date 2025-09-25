@@ -19,7 +19,7 @@ We’ve released the Mindset Dojo site under an **Open Source [License]({{'/LICE
   
 You don’t have to be technically savvy — contributions can be as simple as:
 
-* 💬 Sharing **suggestions** in our GitHub [Issues]("{{repo_url}}"/issues)  
+* 💬 Sharing **suggestions** in our GitHub [Issues]({{site.repo_url}}/issues)  
 * ✍️ Writing about your **practice reflections and insights** on [LinkedIn](https://www.linkedin.com/) or [Medium](https://medium.com/)  
 * 🧩 Helping with **design, writing, or small improvements** to the site  
 
