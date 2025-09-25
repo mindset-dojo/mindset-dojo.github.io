@@ -1,6 +1,8 @@
 ---
 permalink: /:title/
 connect_url: https://connect.mindset.dojo.center
+live_url: https://mindset.dojo.center
+repo_url: https://github.com/mindset-dojo/mindset-dojo.github.io
 
 exclude:
   - Gemfile
