@@ -19,7 +19,7 @@ You don’t have to be technically savvy — contributions can be as simple as:
 * ✍️ Writing about your **practice reflections and insights** on [LinkedIn](https://www.linkedin.com/) or [Medium](https://medium.com/)  
 * 🧩 Helping with **design, writing, or small improvements** to the site  
 
-If you’d like to go deeper — taking on bigger roles or regular contributions — we invite you to first:
+If you’d like to go deeper — stepping into leadership opportunities or regular contributions — we invite you to first:
 
 * Explore at least the ***Gray Level*** of the [Program]({{'/program' | relative_url}})  
 * Get a feel for our **rhythm, principles, and tone**  
@@ -94,4 +94,3 @@ Project leadership designations are *voluntary* and reviewed periodically to ens
 <div class="md-cta-group">
     <a href="{{ '/program' | relative_url }}">Explore Program</a>
 </div>
-
