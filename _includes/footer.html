@@ -10,7 +10,7 @@
           		{%- else -%}
             		{%- assign rel = item.href | relative_url -%}
             	<a href="{{ rel }}" role="menuitem"
-					{% include aria_current.html page_url=rel %}>
+					{% if current == rel %} aria-current="page"{% endif %}>
               		{{ item.label }}
             	</a>
           		{%- endif -%}
@@ -25,7 +25,7 @@
         		{%- assign rel = item.href | relative_url -%}
         	<li role="presentation">
           		<a href="{{ rel }}" role="menuitem"
-             		{% include aria_current.html page_url=rel %}>
+             		{% if current == rel %} aria-current="page"{% endif %}>
             		{{ item.label }}
           		</a>
         	</li>
