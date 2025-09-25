@@ -34,7 +34,7 @@ This keeps our inner practice aligned with what we create together.
 
 ## 💡 Principles of Practice
 
-In this dojo, contributing is not only about building a website — it is about *shared practice*.  
+In this dojo, contributing is not only about building a site — it is about *shared practice*.  
 Here are the principles we keep close:
 
 * 🎯 **Keep it simple and clear** — Focus each change on one thing at a time. Small, clear steps are easier to learn from.  
