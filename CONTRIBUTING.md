@@ -1,5 +1,5 @@
 # Contributing ⛩️🌿
 
-[Local]({{site.repo_url}}/project.md)
+[Local]({{repo_url}}/project.md)
 
-[Live]({{site.live_url}}/project)
+[Live]({{live_url}}/project)
