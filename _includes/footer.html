@@ -12,23 +12,37 @@
 
 <footer>
 	<nav>
-		<ul role="menu">
-    	{%- for item in primary_links -%}
-			<li role="presentation">
-        		{% include nav_item.html href=item.href label=item.label external=item.external %}
-			</li>
-		{%- endfor -%}
-		</ul>
-  	</nav>
-	<nav>
-		<ul role="menu">
-			<li role="presentation"><p>© 2025 Mindset Dojo</p></li>
-			{%- for item in secondary_links -%}
-			<li role="presentation">
-          		{% include nav_item.html href=item.href label=item.label %}
+    	<ul role="menu">
+    		{%- for item in primary_links -%}
+        	<li role="presentation">
+          		{%- if item.external -%}
+            	<a href="{{ item.href }}" target="_blank" rel="noopener" role="menuitem">
+              		{{ item.label }}
+            	</a>
+          		{%- else -%}
+            		{%- assign rel = item.href | relative_url -%}
+            	<a href="{{ rel }}" role="menuitem"
+               		{% include aria_current.html page_url=rel %}>
+              		{{ item.label }}
+            	</a>
+          		{%- endif -%}
         	</li>
       		{%- endfor -%}
-		</ul>
+    	</ul>
+  	</nav>
+	<nav>
+    	<ul role="menu">
+      		<li role="presentation"><p>© 2025 Mindset Dojo</p></li>
+      		{%- for item in secondary_links -%}
+        		{%- assign rel = item.href | relative_url -%}
+        	<li role="presentation">
+          		<a href="{{ rel }}" role="menuitem"
+             		{% include aria_current.html page_url=rel %}>
+            		{{ item.label }}
+          		</a>
+        	</li>
+      		{%- endfor -%}
+    	</ul>
 	</nav>
 	<img src="{{'/assets/mindset-dojo-torii-gate.png' | relative_url}}" alt="Mindset Dojo Torii Gate Background Image" width="800" height="601" decoding="async" loading="lazy" sizes="(max-width: 800px) 100vw, 800px">
 </footer>
