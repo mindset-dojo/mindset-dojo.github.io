@@ -15,6 +15,13 @@
 				  {% include aria_current.html page_url="{{'/program' | relative_url}}" %}
 				>PROGRAM</a>
 			</li>
+			<li role="presentation">
+                <a 
+                  href="{{'/CONTRIBUTING' | relative_url}}"
+                  role="menuitem" 
+                  {% include aria_current.html page_url="{{'/CONTRIBUTING' | relative_url}}" %} 
+                >PROJECT</a>
+            </li>
 			<li role="presentation"><a href="{{site.connect_url}}" target="_blank" role="menuitem">CONTACT</a></li>
 		</ul>
 	</nav>
