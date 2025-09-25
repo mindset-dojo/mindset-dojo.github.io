@@ -94,5 +94,5 @@ Project leadership designations are *voluntary* and reviewed periodically to ens
 * **Attunes** to the identity, integrity, and resonance of the project
 
 <div class="md-cta-group">
-    <a href="{{repo_url}}">GitHub Project</a>
+    <a href="{{site.repo_url}}">GitHub Project</a>
 </div>
