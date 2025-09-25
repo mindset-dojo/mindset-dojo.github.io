@@ -1,36 +1,24 @@
-{%- comment -%}
-Normalize current URL and precompute aria-current attributes (linter-safe).
-{%- endcomment -%}
 {%- assign current_norm = page.url | replace:'/index.html','/' | relative_url | append:'/' | replace:'//','/' -%}
-{%- assign home_path   = '/' | relative_url -%}
-{%- assign home_norm   = home_path | append:'/' | replace:'//','/' -%}
-{%- capture home_aria -%}{% if current_norm == home_norm %} aria-current="page"{% endif %}{%- endcapture -%}
+{%- assign home_path = '/' | relative_url -%}
+{%- assign home_norm = home_path | append:'/' | replace:'//','/' -%}
 
 <header>
-    <!-- htmlhint {"tag-pair": false} -->
-    <a href="{{ home_path }}"{{ home_aria }}>
-        <img
-            src="{{ '/assets/mindset-dojo-logo.png' | relative_url }}"
-            alt="Mindset Dojo Logo"
-            width="292"
-            height="80"
-            decoding="async"
-            fetchpriority="high">
-    </a>
-    <!-- htmlhint {"tag-pair": true} -->
+    {%- if current_norm == home_norm -%}
+        <a href="{{ home_path }}" aria-current="page">
+    {%- else -%}
+        <a href="{{ home_path }}">
+    {%- endif -%}
+            <img
+                src="{{ '/assets/mindset-dojo-logo.png' | relative_url }}"
+                alt="Mindset Dojo Logo"
+                width="292" height="80"
+                decoding="async"
+                fetchpriority="high">
+        </a>
 
     <nav id="Menu">
         <ul role="menu">
-            {%- for item in site.header_links -%}
-                {%- assign href_path = item.href | replace:'/index.html','/' | relative_url -%}
-                {%- assign href_norm = href_path | append:'/' | replace:'//','/' -%}
-                {%- capture aria -%}{% if current_norm == href_norm %} aria-current="page"{% endif %}{%- endcapture -%}
-                <li role="presentation">
-                    <!-- htmlhint {"tag-pair": false} -->
-                    <a href="{{ href_path }}" role="menuitem"{{ aria }}>{{ item.label }}</a>
-                    <!-- htmlhint {"tag-pair": true} -->
-                </li>
-            {%- endfor -%}
+            {% include nav_items.html items=site.header_links current_norm=current_norm %}
         </ul>
 
         <button aria-label="Menu Toggle" aria-expanded="false" aria-controls="Menu" aria-haspopup="true">

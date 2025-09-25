@@ -1,47 +1,17 @@
-{%- comment -%}
-Normalize current path for reliable comparisons
-{%- endcomment -%}
+{%- comment -%} normalize current path for reliable comparisons {%- endcomment -%}
 {%- assign current_norm = page.url | replace:'/index.html','/' | relative_url | append:'/' | replace:'//','/' -%}
 
 <footer>
     <nav>
         <ul role="menu">
-            {%- for item in site.footer_primary_links -%}
-                {%- comment -%} Resolve href from literal or key {%- endcomment -%}
-                {%- assign href_value = item.href -%}
-                {%- if item.href_key -%}{%- assign href_value = site[item.href_key] -%}{%- endif -%}
-
-                {%- if item.external -%}
-                    <li role="presentation">
-                        <a href="{{ href_value }}" target="_blank" rel="noopener" role="menuitem">{{ item.label }}</a>
-                    </li>
-                {%- else -%}
-                    {%- assign href_path = href_value | replace:'/index.html','/' | relative_url -%}
-                    {%- assign href_norm = href_path | append:'/' | replace:'//','/' -%}
-                    {%- capture aria -%}{% if current_norm == href_norm %} aria-current="page"{% endif %}{%- endcapture -%}
-                    <li role="presentation">
-						<!-- htmlhint {"tag-pair": false} -->
-                        <a href="{{ href_path }}" role="menuitem"{{ aria }}>{{ item.label }}</a>
-						<!-- htmlhint {"tag-pair": true, "attr-value-double-quotes": true} -->
-                    </li>
-                {%- endif -%}
-            {%- endfor -%}
+            {% include nav_items.html items=site.footer_primary_links current_norm=current_norm %}
         </ul>
     </nav>
 
     <nav>
         <ul role="menu">
             <li role="presentation"><p>© 2025 Mindset Dojo</p></li>
-            {%- for item in site.footer_secondary_links -%}
-                {%- assign href_path = item.href | replace:'/index.html','/' | relative_url -%}
-                {%- assign href_norm = href_path | append:'/' | replace:'//','/' -%}
-                {%- capture aria -%}{% if current_norm == href_norm %} aria-current="page"{% endif %}{%- endcapture -%}
-                <li role="presentation">
-					<!-- htmlhint {"tag-pair": false} -->
-                    <a href="{{ href_path }}" role="menuitem"{{ aria }}>{{ item.label }}</a>
-					<!-- htmlhint {"tag-pair": true, "attr-value-double-quotes": true} -->
-                </li>
-            {%- endfor -%}
+            {% include nav_items.html items=site.footer_secondary_links current_norm=current_norm %}
         </ul>
     </nav>
 
