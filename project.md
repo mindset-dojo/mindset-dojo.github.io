@@ -7,7 +7,7 @@ css-id: project
 ---
 
 ## Open Source Infrastructure
-The Mindset Dojo website is hosted on [GitHub](https://github.com/), a platform where communities build and improve software together in the open. The Mindset Dojo infrastructure is built as an [Open Source](https://opensource.com/resources/what-open-source) project, which means anyone can see how it works, suggest improvements, and even contribute directly. We’ve released the Mindset Dojo website under an **open source [license]({{'/LICENSE' | relative_url}})**, which simply means the code and content is shared freely for anyone to learn from, use, or improve — much like leaving the workshop door open so the whole community can join in.
+The Mindset Dojo site is hosted on [GitHub](https://github.com/), a platform where communities build and improve software together in the open. The Mindset Dojo infrastructure is built as an [Open Source](https://opensource.com/resources/what-open-source) project, which means anyone can see how it works, suggest improvements, and even contribute directly. We’ve released the Mindset Dojo site under an **open source [license]({{'/LICENSE' | relative_url}})**, which simply means the code and content is shared freely for anyone to learn from, use, or improve — much like leaving the workshop door open so the whole community can join in.
 
 ---
 
