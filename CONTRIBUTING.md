@@ -2,4 +2,4 @@
 
 [Local](/project.md)
 
-[Live](https://mindset.dojo.center/project)
+[Live]("live_url" + "/project")
