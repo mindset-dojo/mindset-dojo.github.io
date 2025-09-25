@@ -3,6 +3,9 @@ layout: default
 title: Open Source License
 ---
 
+<h1>Open Source License</h1>
+<hr>
+
 ## Creative Commons Attribution-ShareAlike 4.0 International
 
 Creative Commons Corporation (“Creative Commons”) is not a law firm and does not
@@ -347,4 +350,5 @@ public licenses or any other arrangements, understandings, or agreements concern
 use of licensed material. For the avoidance of doubt, this paragraph does not form
 part of the public licenses.
 >
+
 > Creative Commons may be contacted at creativecommons.org.
