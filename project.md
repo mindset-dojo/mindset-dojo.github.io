@@ -25,7 +25,7 @@ You don’t have to be a coder — contributions can be as simple as:
 
 If you’d like to go deeper — taking on bigger roles or regular contributions — we invite you to first:
 
-* Explore at least the ***Gray Level*** of the [program](https://mindset.dojo.center/program)  
+* Explore at least the ***Gray Level*** of the [program]({{'/program' | relative_url}})  
 * Get a feel for our **rhythm, principles, and tone**  
 
 This keeps our inner practice aligned with what we create together.
@@ -64,7 +64,7 @@ Designations are *voluntary* and reviewed periodically to ensure mutual clarity 
 ### ✅ Trusted Committer
 
 * **Qualifications:**
-  * ***Purple Level*** in the [Mindset Dojo Program](https://mindset.dojo.center/program)
+  * ***Purple Level*** in the [Mindset Dojo Program]({{'/program' | relative_url}})
 * **Demonstrates** technical fluency and principled contribution
 * **Understands** the codebase and the ethos of the program
 * **May** merge pull requests and curate discussions
@@ -73,7 +73,7 @@ Designations are *voluntary* and reviewed periodically to ensure mutual clarity 
 ### ⚡ Project Maintainer
 
 * **Qualifications:**
-  * ***Black Level*** in the [Mindset Dojo Program](https://mindset.dojo.center/program)
+  * ***Black Level*** in the [Mindset Dojo Program]({{'/program' | relative_url}})
   * Completion of the first step of the [Zen Leadership Instructor](https://zenleader.global/programs/coachinstructor/zlinstructor) pathway
   * Successful vetting by Organizational Ownership
 * **Curates** both the **codebase** and the **program structure**
@@ -85,7 +85,7 @@ Designations are *voluntary* and reviewed periodically to ensure mutual clarity 
 ### 🌐 Organizational Owner
 
 * **Qualification:**
-  * ***Black Level*** in the [Mindset Dojo Program](https://mindset.dojo.center/program)
+  * ***Black Level*** in the [Mindset Dojo Program]({{'/program' | relative_url}})
   * [Zen Leadership Instructor](https://zenleader.global/programs/coachinstructor/zlinstructor) designation
   * Successful vetting by Organizational Ownership
 * **Responsible** for managing provisional access (elevation and removal) to facilitate feature deployment
@@ -120,4 +120,4 @@ Whether you fix a typo or rework an entire section, thank you for contributing w
 
 ---
 
-For deeper participation, explore the [program](https://mindset.dojo.center/program) or connect with a community member.  
+For deeper participation, explore the [program]({{'/program' | relative_url}}) or connect with a community member.  
