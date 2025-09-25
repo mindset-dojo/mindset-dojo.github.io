@@ -21,7 +21,7 @@ You don’t have to be technically savvy — contributions can be as simple as:
 
 If you’d like to go deeper — taking on bigger roles or regular contributions — we invite you to first:
 
-* Explore at least the ***Gray Level*** of the [program]({{'/program' | relative_url}})  
+* Explore at least the ***Gray Level*** of the [Program]({{'/program' | relative_url}})  
 * Get a feel for our **rhythm, principles, and tone**  
 
 This keeps our inner practice aligned with what we create together.
