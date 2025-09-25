@@ -29,6 +29,8 @@ If you’d like to go deeper — taking on bigger roles or regular contributions
 
 This keeps our inner practice aligned with what we create together.
 
+Contributions are always welcome and voluntary — and just as kindly, the community may choose which ones to accept, keeping the spirit and direction of the dojo in harmony.  
+
 ---
 
 ## 💡 Principles of Practice
