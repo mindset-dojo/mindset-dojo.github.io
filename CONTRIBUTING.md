@@ -1,3 +1,3 @@
 # Contributing ⛩️🌿
 
-See this project [Page](https://mindset.dojo.center/project) for further details.
+[Live Page](https://mindset.dojo.center/project)
