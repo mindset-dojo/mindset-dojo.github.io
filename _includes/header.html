@@ -7,11 +7,9 @@
         {%- for item in site.header_links -%}
             {%- assign rel = item.href | relative_url -%}
             <li role="presentation">
-                <a href="{{ rel }}"
-                   role="menuitem"
-                   {% if current == rel %} aria-current="page"{% endif %}>
-                    {{ item.label }}
-                </a>
+				<a href="{{ rel }}" role="menuitem"{% if current == rel %} aria-current="page"{% endif %}>
+  					{{ item.label }}
+				</a>
             </li>
         {%- endfor -%}
         </ul>
