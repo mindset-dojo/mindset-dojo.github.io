@@ -90,5 +90,5 @@ Project leadership designations are *voluntary* and reviewed periodically to ens
 * **Attunes** to the identity, integrity, and resonance of the project
 
 <div class="md-cta-group">
-    <a href="{{ '/program' | relative_url }}">Explore Program</a>
+    <a href="https://github.com/mindset-dojo/mindset-dojo.github.io">Explore Project</a>
 </div>
