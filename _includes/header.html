@@ -5,9 +5,6 @@
 <header>
     {%- if current_norm == home_norm -%}
         <a href="{{ home_path }}" aria-current="page">
-    {%- else -%}
-        <a href="{{ home_path }}">
-    {%- endif -%}
             <img
                 src="{{ '/assets/mindset-dojo-logo.png' | relative_url }}"
                 alt="Mindset Dojo Logo"
@@ -15,6 +12,16 @@
                 decoding="async"
                 fetchpriority="high">
         </a>
+    {%- else -%}
+        <a href="{{ home_path }}">
+            <img
+                src="{{ '/assets/mindset-dojo-logo.png' | relative_url }}"
+                alt="Mindset Dojo Logo"
+                width="292" height="80"
+                decoding="async"
+                fetchpriority="high">
+        </a>
+    {%- endif -%}
 
     <nav id="Menu">
         <ul role="menu">
