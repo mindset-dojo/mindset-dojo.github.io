@@ -1,34 +1,36 @@
 <footer>
 	<nav>
-    	<ul role="menu">
-    		{%- for item in site.footer_primary_links -%}
-        	<li role="presentation">
-          		{%- if item.external -%}
-            	<a href="{{ item.href }}" target="_blank" rel="noopener" role="menuitem">
-              		{{ item.label }}
-            	</a>
-          		{%- else -%}
-            		{%- assign rel = item.href | relative_url -%}
-				<a href="{{ rel }}" role="menuitem"{% if current == rel %} aria-current="page"{% endif %}>
-  					{{ item.label }}
-				</a>
-          		{%- endif -%}
-        	</li>
-      		{%- endfor -%}
-    	</ul>
+		<ul role="menu">
+  			{%- for item in site.footer_primary_links -%}
+    		<li role="presentation">
+      			{%- if item.external -%}
+        		<a href="{{ item.href }}" target="_blank" rel="noopener" role="menuitem">{{ item.label }}</a>
+      			{%- else -%}
+        			{%- assign rel = item.href | relative_url -%}
+        			{%- if current == rel -%}
+          		<a href="{{ rel }}" role="menuitem" aria-current="page">{{ item.label }}</a>
+        			{%- else -%}
+          		<a href="{{ rel }}" role="menuitem">{{ item.label }}</a>
+        			{%- endif -%}
+      			{%- endif -%}
+    		</li>
+  			{%- endfor -%}
+		</ul>
   	</nav>
 	<nav>
-    	<ul role="menu">
-      		<li role="presentation"><p>© 2025 Mindset Dojo</p></li>
-      		{%- for item in site.footer_secondary_links -%}
-        		{%- assign rel = item.href | relative_url -%}
-        	<li role="presentation">
-				<a href="{{ rel }}" role="menuitem"{% if current == rel %} aria-current="page"{% endif %}>
-  					{{ item.label }}
-				</a>
-        	</li>
-      		{%- endfor -%}
-    	</ul>
+		<ul role="menu">
+  			<li role="presentation"><p>© 2025 Mindset Dojo</p></li>
+  			{%- for item in site.footer_secondary_links -%}
+    			{%- assign rel = item.href | relative_url -%}
+    		<li role="presentation">
+      		{%- if current == rel -%}
+        		<a href="{{ rel }}" role="menuitem" aria-current="page">{{ item.label }}</a>
+      		{%- else -%}
+        		<a href="{{ rel }}" role="menuitem">{{ item.label }}</a>
+      		{%- endif -%}
+    		</li>
+  			{%- endfor -%}
+		</ul>
 	</nav>
 	<img src="{{'/assets/mindset-dojo-torii-gate.png' | relative_url}}" alt="Mindset Dojo Torii Gate Background Image" width="800" height="601" decoding="async" loading="lazy" sizes="(max-width: 800px) 100vw, 800px">
 </footer>
