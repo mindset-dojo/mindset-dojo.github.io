@@ -1,19 +1,7 @@
-{%- assign primary_links_json = 
-  '[{"label":"COMMUNITY","href":"/"},
-    {"label":"PROGRAM","href":"/program"},
-    {"label":"PROJECT","href":"/project"},
-    {"label":"CONTACT","href":"{{site.connect_url}}","external":true}]' -%}
-{%- assign secondary_links_json = 
-  '[{"label":"Privacy Policy","href":"/privacy"},
-    {"label":"Open Source License","href":"/LICENSE"}]' -%}
-
-{%- assign primary_links = primary_links_json | parse_json -%}
-{%- assign secondary_links = secondary_links_json | parse_json -%}
-
 <footer>
 	<nav>
     	<ul role="menu">
-    		{%- for item in primary_links -%}
+    		{%- for item in site.footer_primary_links -%}
         	<li role="presentation">
           		{%- if item.external -%}
             	<a href="{{ item.href }}" target="_blank" rel="noopener" role="menuitem">
@@ -33,7 +21,7 @@
 	<nav>
     	<ul role="menu">
       		<li role="presentation"><p>© 2025 Mindset Dojo</p></li>
-      		{%- for item in secondary_links -%}
+      		{%- for item in site.footer_secondary_links -%}
         		{%- assign rel = item.href | relative_url -%}
         	<li role="presentation">
           		<a href="{{ rel }}" role="menuitem"
