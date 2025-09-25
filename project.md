@@ -6,9 +6,9 @@ css-id: project
 
 ---
 
-## 🧭 Project Roles
+## 🧭 Project Designations
 
-Roles are *voluntary* and reviewed periodically to ensure mutual clarity and care. Cultivating a role is an opportunity for deeper training and responsibility — **not** a prerequisite for contribution or community engagement.
+Designations are *voluntary* and reviewed periodically to ensure mutual clarity and care. Cultivating a designation is an opportunity for deeper training and responsibility — **not** a prerequisite for contribution or community engagement.
 
 ### ✅ Trusted Committer
 
