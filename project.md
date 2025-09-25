@@ -1,10 +1,11 @@
 ---
 layout: default
-title: Project Contribution Guidelines
+title: Project Overview
 css-id: project
 ---
 
----
+<h1>Project Overview</h1>
+<hr>
 
 ## Open Source Infrastructure
 The [Site]({{'/' | relative_url}}) is hosted on [GitHub](https://github.com/), a platform where communities build and improve software together in the open.
