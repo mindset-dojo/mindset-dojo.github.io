@@ -1,5 +1,5 @@
 # Contributing ⛩️🌿
 
-[Local](/project.md)
+[Local]({{site.repo_url}}/project.md)
 
-[Live]("live_url" + "/project")
+[Live]({{site.live_url}}/project)
