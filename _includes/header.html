@@ -3,18 +3,29 @@
         <img src="{{'/assets/mindset-dojo-logo.png' | relative_url}}" alt="Mindset Dojo Logo" width="292" height="80" decoding="async" fetchpriority="high">
     </a>
     <nav id="Menu">
-		<ul role="menu">
-  			{%- for item in site.header_links -%}
-    			{%- assign rel = item.href | relative_url -%}
-    		<li role="presentation">
-      			{%- if current == rel -%}
-        		<a href="{{ rel }}" role="menuitem" aria-current="page">{{ item.label }}</a>
-      			{%- else -%}
-        		<a href="{{ rel }}" role="menuitem">{{ item.label }}</a>
-      			{%- endif -%}
-    		</li>
-  			{%- endfor -%}
-		</ul>
+        <ul role="menu">
+            <li role="presentation">
+                <a 
+                  href="{{'/' | relative_url }}"
+                  role="menuitem"
+                  {% include aria_current.html page_url="{{'/' | relative_url }}" %} 
+                >COMMUNITY</a>
+            </li>
+            <li role="presentation">
+                <a 
+                  href="{{'/program' | relative_url}}"
+                  role="menuitem" 
+                  {% include aria_current.html page_url="{{'/program' | relative_url}}" %} 
+                >PROGRAM</a>
+            </li>
+            <li role="presentation">
+                <a 
+                  href="{{'/project' | relative_url}}"
+                  role="menuitem" 
+                  {% include aria_current.html page_url="{{'/project' | relative_url}}" %} 
+                >PROJECT</a>
+            </li>
+        </ul>
         <button aria-label="Menu Toggle" aria-expanded="false" aria-controls="Menu" aria-haspopup="true">
             <span class="bar bar1"></span>
             <span class="bar bar2"></span>
