@@ -1,30 +1,25 @@
+{%- assign header_links_json = 
+  '[{"label":"COMMUNITY","href":"/"},
+    {"label":"PROGRAM","href":"/program"},
+    {"label":"PROJECT","href":"/project"}]' -%}
+{%- assign header_links = header_links_json | parse_json -%}
+
 <header>
     <a href="{{'/' | relative_url }}" aria-current="page">
         <img src="{{'/assets/mindset-dojo-logo.png' | relative_url}}" alt="Mindset Dojo Logo" width="292" height="80" decoding="async" fetchpriority="high">
     </a>
     <nav id="Menu">
         <ul role="menu">
+        {%- for item in header_links -%}
+            {%- assign rel = item.href | relative_url -%}
             <li role="presentation">
-                <a 
-                  href="{{'/' | relative_url }}"
-                  role="menuitem"
-                  {% include aria_current.html page_url="{{'/' | relative_url }}" %} 
-                >COMMUNITY</a>
+                <a href="{{ rel }}"
+                   role="menuitem"
+                 {% include aria_current.html page_url=rel %}>
+                    {{ item.label }}
+                </a>
             </li>
-            <li role="presentation">
-                <a 
-                  href="{{'/program' | relative_url}}"
-                  role="menuitem" 
-                  {% include aria_current.html page_url="{{'/program' | relative_url}}" %} 
-                >PROGRAM</a>
-            </li>
-            <li role="presentation">
-                <a 
-                  href="{{'/project' | relative_url}}"
-                  role="menuitem" 
-                  {% include aria_current.html page_url="{{'/project' | relative_url}}" %} 
-                >PROJECT</a>
-            </li>
+        {%- endfor -%}
         </ul>
         <button aria-label="Menu Toggle" aria-expanded="false" aria-controls="Menu" aria-haspopup="true">
             <span class="bar bar1"></span>
