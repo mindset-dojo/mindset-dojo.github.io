@@ -1,16 +1,10 @@
-{%- assign header_links_json = 
-  '[{"label":"COMMUNITY","href":"/"},
-    {"label":"PROGRAM","href":"/program"},
-    {"label":"PROJECT","href":"/project"}]' -%}
-{%- assign header_links = header_links_json | parse_json -%}
-
 <header>
     <a href="{{'/' | relative_url }}" aria-current="page">
         <img src="{{'/assets/mindset-dojo-logo.png' | relative_url}}" alt="Mindset Dojo Logo" width="292" height="80" decoding="async" fetchpriority="high">
     </a>
     <nav id="Menu">
         <ul role="menu">
-        {%- for item in header_links -%}
+        {%- for item in site.header_links -%}
             {%- assign rel = item.href | relative_url -%}
             <li role="presentation">
                 <a href="{{ rel }}"
