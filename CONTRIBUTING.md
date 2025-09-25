@@ -1,5 +1,5 @@
 # Contributing ⛩️🌿
 
-[Local]({{repo_url}}/project.md)
+[Local](https://github.com/mindset-dojo/mindset-dojo.github.io/blob/main/project.md)
 
-[Live]({{live_url}}/project)
+[Live](https://mindset.dojo.center/project/)
