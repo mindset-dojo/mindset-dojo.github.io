@@ -42,7 +42,7 @@ Here are the principles we keep close:
 * 🎯 **Keep it simple and clear** — Focus each change on one thing at a time. Small, clear steps are easier to learn from.  
 * 🧭 **Share your intention** — Let others know *why* you’re doing something. A short note like “I’m updating the menu so it’s easier to navigate” helps everyone understand the value.  
 * 🤝 **Review with kindness** — Assume good intent. Be specific, curious, and respectful in feedback. Reviews are for learning together.  
-* 🛡️ **Work openly** — Be transparent, welcome others in, and keep changes easy to follow. We use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) to keep history clear.  
+* 🛡️ **Work openly** — Be transparent, welcome others in, and keep changes easy to follow. We use [Conventional Commits](https://www.conventionalcommits.org/) to keep history clear.  
 
 ### ✅ How We Review
 
