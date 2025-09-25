@@ -348,7 +348,6 @@ trademark or logo of Creative Commons without its prior written consent includin
 without limitation, in connection with any unauthorized modifications to any of its
 public licenses or any other arrangements, understandings, or agreements concerning
 use of licensed material. For the avoidance of doubt, this paragraph does not form
-part of the public licenses.
->
-
+part of the public licenses.<br><br>
 > Creative Commons may be contacted at creativecommons.org.
+
