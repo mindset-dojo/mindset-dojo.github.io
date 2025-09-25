@@ -55,9 +55,9 @@ Reach out to a member when making your first contribution. There’s no formal m
 
 ---
 
-## 🧭 Project Designations
+## 🧭 Leadership Designations
 
-Designations are *voluntary* and reviewed periodically to ensure mutual clarity and care. Cultivating a designation is an opportunity for deeper training and responsibility — **not** a prerequisite for contribution or community engagement.
+Project leadership designations are *voluntary* and reviewed periodically to ensure mutual clarity and care. Cultivating a designation is an opportunity for deeper training and responsibility — **not** a prerequisite for contribution or community engagement.
 
 ### ✅ Trusted Committer
 
