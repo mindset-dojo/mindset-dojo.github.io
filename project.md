@@ -94,3 +94,30 @@ Designations are *voluntary* and reviewed periodically to ensure mutual clarity 
 * **Attunes** to the identity, integrity, and resonance of the project
 
 ---
+
+## 🔄 Pull Request Guidance
+
+When you’re ready to share a change, here’s how to do it:
+
+1. **Make your own copy** of the project (a “fork”) and work on a new branch.  
+2. Write commit messages using [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) — this just means keeping them short and clear.  
+3. Submit a **pull request (PR)** with your change, linking to any related issue.  
+4. Automated checks will run to make sure nothing is broken.  
+5. Community members may review or refine your PR.  
+6. **Merging** is a shared decision — we look at both the technical and the energetic fit of your change.  
+
+### 🔀 Who Merges?
+
+* If you have permission, you can merge your own PR after review.  
+* If you don’t, someone with approval will merge it for you once it’s ready.  
+* If problems show up after merging, reach out to a community maintainer — ideally the person with the most context about the change.  
+
+---
+
+## 🙏 A Note on Spirit
+
+Whether you fix a typo or rework an entire section, thank you for contributing with presence and care. *Every practice matters.*  
+
+---
+
+For deeper participation, explore the [program](https://mindset.dojo.center/program) or connect with a community member.  
