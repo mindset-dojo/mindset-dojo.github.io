@@ -1,30 +1,34 @@
-{%- comment -%}
-Normalize current URL and precompute aria-current attributes (linter-safe).
-{%- endcomment -%}
-{%- assign current_norm = page.url | replace:'/index.html','/' | relative_url | append:'/' | replace:'//','/' -%}
-{%- assign home_path   = '/' | relative_url -%}
-{%- assign home_norm   = home_path | append:'/' | replace:'//','/' -%}
-{%- capture home_aria -%}{% if current_norm == home_norm %} aria-current="page"{% endif %}{%- endcapture -%}
+{%- comment -%} Normalize current/home paths for reliable comparison {%- endcomment -%}
+{%- assign current_norm = page.url | replace:'/index.html','/' | relative_url | append:'/' -%}
+{%- assign home_path    = '/' | relative_url -%}
+{%- assign home_norm    = home_path | append:'/' -%}
 
 <header>
-    <a href="{{ home_path }}"{{ home_aria }}>
-        <img
-            src="{{ '/assets/mindset-dojo-logo.png' | relative_url }}"
-            alt="Mindset Dojo Logo"
-            width="292"
-            height="80"
-            decoding="async"
-            fetchpriority="high">
-    </a>
+    {%- if current_norm == home_norm -%}
+        <a href="{{ home_path }}" aria-current="page">
+    {%- else -%}
+        <a href="{{ home_path }}">
+    {%- endif -%}
+            <img
+                src="{{ '/assets/mindset-dojo-logo.png' | relative_url }}"
+                alt="Mindset Dojo Logo"
+                width="292"
+                height="80"
+                decoding="async"
+                fetchpriority="high">
+        </a>
 
     <nav id="Menu">
         <ul role="menu">
             {%- for item in site.header_links -%}
                 {%- assign href_path = item.href | replace:'/index.html','/' | relative_url -%}
-                {%- assign href_norm = href_path | append:'/' | replace:'//','/' -%}
-                {%- capture aria -%}{% if current_norm == href_norm %} aria-current="page"{% endif %}{%- endcapture -%}
+                {%- assign href_norm = href_path | append:'/' -%}
                 <li role="presentation">
-                    <a href="{{ href_path }}" role="menuitem"{{ aria }}>{{ item.label }}</a>
+                    {%- if current_norm == href_norm -%}
+                        <a href="{{ href_path }}" role="menuitem" aria-current="page">{{ item.label }}</a>
+                    {%- else -%}
+                        <a href="{{ href_path }}" role="menuitem">{{ item.label }}</a>
+                    {%- endif -%}
                 </li>
             {%- endfor -%}
         </ul>

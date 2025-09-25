@@ -1,14 +1,28 @@
+{%- comment -%}
+Normalize current path for reliable comparisons
+{%- endcomment -%}
+{%- assign current_norm = page.url | replace:'/index.html','/' | relative_url | append:'/' | replace:'//','/' -%}
+
 <footer>
     <nav>
         <ul role="menu">
             {%- for item in site.footer_primary_links -%}
-                <li role="presentation">
-                    {%- if item.external -%}
-                        <a href="{{ item.href | relative_url }}" target="_blank" rel="noopener" role="menuitem">{{ item.label }}</a>
-                    {%- else -%}
-                        <a href="{{ item.href | relative_url }}" role="menuitem">{{ item.label }}</a>
-                    {%- endif -%}
-                </li>
+                {%- comment -%} Resolve href from literal or key {%- endcomment -%}
+                {%- assign href_value = item.href -%}
+                {%- if item.href_key -%}{%- assign href_value = site[item.href_key] -%}{%- endif -%}
+
+                {%- if item.external -%}
+                    <li role="presentation">
+                        <a href="{{ href_value }}" target="_blank" rel="noopener" role="menuitem">{{ item.label }}</a>
+                    </li>
+                {%- else -%}
+                    {%- assign href_path = href_value | replace:'/index.html','/' | relative_url -%}
+                    {%- assign href_norm = href_path | append:'/' | replace:'//','/' -%}
+                    {%- capture aria -%}{% if current_norm == href_norm %} aria-current="page"{% endif %}{%- endcapture -%}
+                    <li role="presentation">
+                        <a href="{{ href_path }}" role="menuitem"{{ aria }}>{{ item.label }}</a>
+                    </li>
+                {%- endif -%}
             {%- endfor -%}
         </ul>
     </nav>
@@ -17,8 +31,11 @@
         <ul role="menu">
             <li role="presentation"><p>© 2025 Mindset Dojo</p></li>
             {%- for item in site.footer_secondary_links -%}
+                {%- assign href_path = item.href | replace:'/index.html','/' | relative_url -%}
+                {%- assign href_norm = href_path | append:'/' | replace:'//','/' -%}
+                {%- capture aria -%}{% if current_norm == href_norm %} aria-current="page"{% endif %}{%- endcapture -%}
                 <li role="presentation">
-                    <a href="{{ item.href | relative_url }}" role="menuitem">{{ item.label }}</a>
+                    <a href="{{ href_path }}" role="menuitem"{{ aria }}>{{ item.label }}</a>
                 </li>
             {%- endfor -%}
         </ul>
