@@ -20,7 +20,7 @@ Normalize current path for reliable comparisons
                     {%- assign href_norm = href_path | append:'/' | replace:'//','/' -%}
                     {%- capture aria -%}{% if current_norm == href_norm %} aria-current="page"{% endif %}{%- endcapture -%}
                     <li role="presentation">
-						<!-- htmlhint {"tag-pair": false, "attr-value-double-quotes": false} -->
+						<!-- htmlhint {"tag-pair": false} -->
                         <a href="{{ href_path }}" role="menuitem"{{ aria }}>{{ item.label }}</a>
 						<!-- htmlhint {"tag-pair": true, "attr-value-double-quotes": true} -->
                     </li>
@@ -37,7 +37,7 @@ Normalize current path for reliable comparisons
                 {%- assign href_norm = href_path | append:'/' | replace:'//','/' -%}
                 {%- capture aria -%}{% if current_norm == href_norm %} aria-current="page"{% endif %}{%- endcapture -%}
                 <li role="presentation">
-					<!-- htmlhint {"tag-pair": false, "attr-value-double-quotes": false} -->
+					<!-- htmlhint {"tag-pair": false} -->
                     <a href="{{ href_path }}" role="menuitem"{{ aria }}>{{ item.label }}</a>
 					<!-- htmlhint {"tag-pair": true, "attr-value-double-quotes": true} -->
                 </li>

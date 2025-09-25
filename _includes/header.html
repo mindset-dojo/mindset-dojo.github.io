@@ -7,7 +7,7 @@ Normalize current URL and precompute aria-current attributes (linter-safe).
 {%- capture home_aria -%}{% if current_norm == home_norm %} aria-current="page"{% endif %}{%- endcapture -%}
 
 <header>
-    <!-- htmlhint {"tag-pair": false, "attr-value-double-quotes": false} -->
+    <!-- htmlhint {"tag-pair": false} -->
     <a href="{{ home_path }}"{{ home_aria }}>
         <img
             src="{{ '/assets/mindset-dojo-logo.png' | relative_url }}"
@@ -17,7 +17,7 @@ Normalize current URL and precompute aria-current attributes (linter-safe).
             decoding="async"
             fetchpriority="high">
     </a>
-    <!-- htmlhint {"tag-pair": true, "attr-value-double-quotes": true} -->
+    <!-- htmlhint {"tag-pair": true} -->
 
     <nav id="Menu">
         <ul role="menu">
@@ -26,9 +26,9 @@ Normalize current URL and precompute aria-current attributes (linter-safe).
                 {%- assign href_norm = href_path | append:'/' | replace:'//','/' -%}
                 {%- capture aria -%}{% if current_norm == href_norm %} aria-current="page"{% endif %}{%- endcapture -%}
                 <li role="presentation">
-                    <!-- htmlhint {"tag-pair": false, "attr-value-double-quotes": false} -->
+                    <!-- htmlhint {"tag-pair": false} -->
                     <a href="{{ href_path }}" role="menuitem"{{ aria }}>{{ item.label }}</a>
-                    <!-- htmlhint {"tag-pair": true, "attr-value-double-quotes": true} -->
+                    <!-- htmlhint {"tag-pair": true} -->
                 </li>
             {%- endfor -%}
         </ul>
