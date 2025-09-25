@@ -15,8 +15,7 @@ This approach makes our work transparent, collaborative, and always evolving wit
 ---
 
 ## 🥋 Before You Contribute
-
-Everyone is welcome to contribute to Mindset Dojo.  
+  
 You don’t have to be a coder — contributions can be as simple as:
 
 * 💬 Sharing **suggestions** in our GitHub issues  
