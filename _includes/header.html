@@ -18,6 +18,13 @@
                   {% include aria_current.html page_url="{{'/program' | relative_url}}" %} 
                 >PROGRAM</a>
             </li>
+            <li role="presentation">
+                <a 
+                  href="{{'/project' | relative_url}}"
+                  role="menuitem" 
+                  {% include aria_current.html page_url="{{'/project' | relative_url}}" %} 
+                >PROJECT</a>
+            </li>
         </ul>
         <button aria-label="Menu Toggle" aria-expanded="false" aria-controls="Menu" aria-haspopup="true">
             <span class="bar bar1"></span>
