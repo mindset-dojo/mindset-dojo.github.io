@@ -8,7 +8,7 @@ css-id: project
 
 ## Open Source Infrastructure
 
-The Mindset Dojo infrastructure is built as an [Open Source](https://opensource.com/resources/what-open-source) project, which means anyone can see how it works, suggest improvements, and even contribute directly. Our project is hosted on [GitHub](https://github.com/), a platform where communities collaborate to build software together. 
+The Mindset Dojo infrastructure is built as an [Open Source](https://opensource.com/resources/what-open-source) project, which means anyone can see how it works, suggest improvements, and even contribute directly. Our project is hosted on [GitHub](https://github.com/), a platform where communities collaborate to build software together.
 
 This approach makes our work transparent, collaborative, and always evolving with input from the wider community. If you’re not technical, think of it like a public workshop where anyone can walk in, see what’s being built, and lend a hand.
 
