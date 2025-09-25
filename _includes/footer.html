@@ -9,10 +9,9 @@
             	</a>
           		{%- else -%}
             		{%- assign rel = item.href | relative_url -%}
-            	<a href="{{ rel }}" role="menuitem"
-					{% if current == rel %} aria-current="page"{% endif %}>
-              		{{ item.label }}
-            	</a>
+				<a href="{{ rel }}" role="menuitem"{% if current == rel %} aria-current="page"{% endif %}>
+  					{{ item.label }}
+				</a>
           		{%- endif -%}
         	</li>
       		{%- endfor -%}
@@ -24,10 +23,9 @@
       		{%- for item in site.footer_secondary_links -%}
         		{%- assign rel = item.href | relative_url -%}
         	<li role="presentation">
-          		<a href="{{ rel }}" role="menuitem"
-             		{% if current == rel %} aria-current="page"{% endif %}>
-            		{{ item.label }}
-          		</a>
+				<a href="{{ rel }}" role="menuitem"{% if current == rel %} aria-current="page"{% endif %}>
+  					{{ item.label }}
+				</a>
         	</li>
       		{%- endfor -%}
     	</ul>
