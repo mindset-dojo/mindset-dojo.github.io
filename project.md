@@ -91,4 +91,3 @@ Project leadership designations are *voluntary* and reviewed periodically to ens
 * **Demonstrates and enrolls** through various social, personal, and professional circles
 * **Attunes** to the identity, integrity, and resonance of the project
 
----
