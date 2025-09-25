@@ -2,13 +2,11 @@
     <nav>
         <ul role="menu">
             {%- for item in site.footer_primary_links -%}
-                {%- assign href_value = item.href -%}
-                {%- if item.href_key -%}{%- assign href_value = site[item.href_key] -%}{%- endif -%}
                 <li role="presentation">
                     {%- if item.external -%}
-                        <a href="{{ href_value }}" target="_blank" rel="noopener" role="menuitem">{{ item.label }}</a>
+                        <a href="{{ item.href | relative_url }}" target="_blank" rel="noopener" role="menuitem">{{ item.label }}</a>
                     {%- else -%}
-                        <a href="{{ href_value | relative_url }}" role="menuitem">{{ item.label }}</a>
+                        <a href="{{ item.href | relative_url }}" role="menuitem">{{ item.label }}</a>
                     {%- endif -%}
                 </li>
             {%- endfor -%}
