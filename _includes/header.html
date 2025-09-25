@@ -9,7 +9,7 @@
             <li role="presentation">
                 <a href="{{ rel }}"
                    role="menuitem"
-                   {% include aria_current.html page_url=rel %}>
+                   {% if current == rel %} aria-current="page"{% endif %}>
                     {{ item.label }}
                 </a>
             </li>
