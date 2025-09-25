@@ -62,7 +62,7 @@ Project leadership designations are *voluntary* and reviewed periodically to ens
 ### ✅ Trusted Committer
 
 * **Qualifications:**
-  * ***Purple Level*** in the [Mindset Dojo Program]({{'/program' | relative_url}})
+  * ***Purple Level*** in the [Program]({{'/program' | relative_url}})
 * **Demonstrates** technical fluency and principled contribution
 * **Understands** the codebase and the ethos of the program
 * **May** merge pull requests and curate discussions
@@ -71,7 +71,7 @@ Project leadership designations are *voluntary* and reviewed periodically to ens
 ### ⚡ Project Maintainer
 
 * **Qualifications:**
-  * ***Black Level*** in the [Mindset Dojo Program]({{'/program' | relative_url}})
+  * ***Black Level*** in the [Program]({{'/program' | relative_url}})
   * Completion of the first step of the [Zen Leadership Instructor](https://zenleader.global/programs/coachinstructor/zlinstructor) pathway
   * Successful vetting by Organizational Ownership
 * **Curates** both the **codebase** and the **program structure**
@@ -83,7 +83,7 @@ Project leadership designations are *voluntary* and reviewed periodically to ens
 ### 🌐 Organizational Owner
 
 * **Qualification:**
-  * ***Black Level*** in the [Mindset Dojo Program]({{'/program' | relative_url}})
+  * ***Black Level*** in the [Program]({{'/program' | relative_url}})
   * [Zen Leadership Instructor](https://zenleader.global/programs/coachinstructor/zlinstructor) designation
   * Successful vetting by Organizational Ownership
 * **Responsible** for managing provisional access (elevation and removal) to facilitate feature deployment
