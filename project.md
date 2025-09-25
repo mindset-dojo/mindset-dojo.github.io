@@ -13,7 +13,7 @@ The Mindset Dojo site is hosted on [GitHub](https://github.com/), a platform whe
 
 ## 🥋 Before You Contribute
   
-You don’t have to be a coder — contributions can be as simple as:
+You don’t have to be technically savvy — contributions can be as simple as:
 
 * 💬 Sharing **suggestions** in our GitHub issues  
 * ✍️ Writing about your **practice reflections and insights** on [LinkedIn](https://www.linkedin.com/) or [Medium](https://medium.com/)  
