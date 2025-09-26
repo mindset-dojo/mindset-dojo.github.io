@@ -7,8 +7,6 @@ description: Privacy Policy
 css_id: privacy
 ---
 
-<!-- TRACE layout={{ page.layout }} path={{ page.path }} h1_hr={{ page.h1_hr }} css_id={{ page.css_id }} -->
-
 ## Introduction
 
 We value your privacy and are committed to being transparent about the information we collect and how it is used. This Privacy Policy explains our practices and highlights our limited use of analytics.

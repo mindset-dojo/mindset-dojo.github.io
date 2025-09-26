@@ -4,9 +4,6 @@
 <body id="{{ page.css_id }}">
     {% include header.html %}
 
-<!-- DEBUG h1_hr="{{ page.h1_hr }}" -->
-<!-- DEBUG css_id="{{ page.css_id }}" -->
-
     <main aria-label="Content">
         {%- assign base_h1 = page.h1 | default: page.title -%}
         {%- if base_h1 -%}
