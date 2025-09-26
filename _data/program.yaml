@@ -58,6 +58,7 @@ levels:
       - label: Plus Ki and Minus Ki
         url: https://mindbodyaikido.com/plus-ki-and-minus-ki
       - label: 5 minute Zazen
+        url: https://www.youtube.com/watch?v=Qf1vmcP7otk
   - color: green
     label: 5th Kyu
     level: -5
@@ -73,6 +74,7 @@ levels:
       - label: Mindset Dojo Insights - The Breath of a Stance Shifts the Mountain
         url: https://medium.com/p/1638c7ef8e52
       - label: 10 minute Zazen
+        url: https://www.youtube.com/watch?v=Qf1vmcP7otk
   - color: blue
     label: 4th Kyu
     level: -4
@@ -90,6 +92,7 @@ levels:
       - label: Zen Leader Essential Flip - Or to And
         url: https://www.youtube.com/watch?v=uaLDcv1NVCU
       - label: 15 minute Zazen
+        url: https://www.youtube.com/watch?v=Qf1vmcP7otk
   - color: purple
     label: 3rd Kyu
     level: -3
@@ -111,6 +114,7 @@ levels:
       - label: Your Unique MetaShift Expression
         url: https://lessons.basil.one/houston-we-have-an-attitude-097fa422edf0
       - label: 20 minute Zazen
+        url: https://www.youtube.com/watch?v=Qf1vmcP7otk
   - color: brown
     label: 2nd Kyu
     level: -2
@@ -128,6 +132,7 @@ levels:
       - label: Zen Leader Essential Flip - It is All About Me to I am All About It
         url: https://cdn.dirigible.studio/wp-content/uploads/sites/24/2021/09/04073619/TZL-graphic-izl.pdf
       - label: 25 minute Zazen
+        url: https://www.youtube.com/watch?v=Qf1vmcP7otk
   - color: red
     label: 1st Kyu
     level: -1
@@ -147,6 +152,7 @@ levels:
       - label: Resonate - Zen and the Way of Making a Difference
         url: https://www.choseizen.org/store/p/resonate
       - label: 30 minute Zazen
+        url: https://www.youtube.com/watch?v=Qf1vmcP7otk
   - color: black
     label: Shodan
     level: 1
