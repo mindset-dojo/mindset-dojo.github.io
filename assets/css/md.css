@@ -110,7 +110,7 @@ main ol > li {
 
 main {
     max-width: 800px;
-    margin: 20px auto 60px auto;
+    margin: 20px auto 60px;
     flex-flow: column;
     display: flex;
     padding-right: var(--site-padding);
@@ -606,7 +606,6 @@ body > footer {
     padding-right: var(--site-padding);
     padding-left: var(--site-padding);
     max-width: var(--site-width);
-    width: 100%;
 }
 
 @media (width <= 767px) {
