@@ -105,6 +105,8 @@ levels:
         url: https://www.youtube.com/watch?v=Jz1b2GK6Whg
       - label: Zen Leader Essential Flip - Controlling to Connecting
         url: https://www.youtube.com/watch?v=OFxdn9v5avk
+      - label: Your Unique MetaShift Expression
+        url: https://lessons.basil.one/houston-we-have-an-attitude-097fa422edf0
   - color: brown
     label: 2nd Kyu
     level: -2
@@ -153,6 +155,4 @@ levels:
         url: https://www.youtube.com/watch?v=_to_w-R0JjQ
       - label: Ki in Daily Life
         url: https://www.amazon.com/Ki-Daily-Life-Koichi-Tohei/dp/4889960716
-      - label: Your Unique MetaShift Expression
-        url: https://lessons.basil.one/houston-we-have-an-attitude-097fa422edf0
 ...
