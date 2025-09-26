@@ -113,6 +113,12 @@ main {
     margin-top: 20px;
     margin-bottom: 60px;
     flex-flow: column;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: var(--site-padding);
+    padding-left: var(--site-padding);
+    width: 100%;
 }
 
 main ul,
@@ -600,7 +606,6 @@ body > footer {
 }
 
 header,
-main,
 body > footer {
     display: flex;
     margin-left: auto;
