@@ -7,6 +7,9 @@ description: Mindset Dojo is a global training ground for the inner game of pres
 css_id: home
 ---
 
+<!-- DEBUG h1_hr="{{ page.h1_hr }}" -->
+<!-- DEBUG css_id="{{ page.css_id }}" -->
+
 <p>When the pressure hits, you don’t rise to the level of your best intentions.<br>
 You reveal the level of your conditioning.</p>
 
