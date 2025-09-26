@@ -57,7 +57,7 @@ levels:
         url: https://medium.com/p/560662d2e5aa
       - label: Plus Ki and Minus Ki
         url: https://mindbodyaikido.com/plus-ki-and-minus-ki
-      - label: Engage in 5 minutes of Zazen 
+      - label: Engage in 5 minutes of Zazen
   - color: green
     label: 5th Kyu
     level: -5
@@ -115,7 +115,7 @@ levels:
     label: 2nd Kyu
     level: -2
     intention: Shadow
-    edge: Live demonstration of wisely timed MetaShifting with support at a presentation at Zen Leader Off The Cushion 
+    edge: Live demonstration of wisely timed MetaShifting with support at a presentation at Zen Leader Off The Cushion
     flows:
       - label: Negotiation 9™ Move - “I” Messages
         url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
@@ -151,8 +151,8 @@ levels:
     label: Shodan
     level: 1
     intention: Wu-Wei
-    edge: >- 
-      Converstional Randori unpacking your reflective essay about your journey. 
+    edge: >-
+      Converstional Randori unpacking your reflective essay about your journey.
       Meditate for 30 minutes before and after the Randori.
     flows:
       - label: Zen Toolkit - Four Patterns
