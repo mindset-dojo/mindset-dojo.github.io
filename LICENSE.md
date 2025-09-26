@@ -3,7 +3,10 @@ layout: default
 title: Open Source License
 h1_mark: License
 h1_hr: true
+css_id: license
 ---
+
+<!-- TRACE layout={{ page.layout }} path={{ page.path }} h1_hr={{ page.h1_hr }} css_id={{ page.css_id }} -->
 
 ## Creative Commons Attribution-ShareAlike 4.0 International
 

@@ -7,6 +7,8 @@ css_id: program
 ---
 {% assign program = site.data.program %}
 
+<!-- TRACE layout={{ page.layout }} path={{ page.path }} h1_hr={{ page.h1_hr }} css_id={{ page.css_id }} -->
+
 <section>
   <p><em>{{ program.mission }}</em></p>
 </section>
