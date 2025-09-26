@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Project Contribution Guidelines
-css-id: project
----
-
+title: Project Overview
+h1_mark: Project
+h1_hr: true
+css_id: project
 ---
 
 ## Open Source Infrastructure

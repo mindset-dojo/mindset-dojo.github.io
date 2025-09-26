@@ -1,51 +1,27 @@
+{%- comment -%} normalize current path for reliable comparisons {%- endcomment -%}
+{%- assign current_norm = page.url | replace:'/index.html','/' | relative_url | append:'/' | replace:'//','/' -%}
+
 <footer>
-	<nav>
-		<ul role="menu">
-			<li role="presentation">
-				<a 
-				  href="{{'/' | relative_url }}"
-				  role="menuitem"
-				  {% include aria_current.html page_url="{{'/' | relative_url }}" %}
-				>COMMUNITY</a>
-			</li>
-			<li role="presentation">
-				<a 
-				  href="{{'/program' | relative_url}}" 
-				  role="menuitem"
-				  {% include aria_current.html page_url="{{'/program' | relative_url}}" %}
-				>PROGRAM</a>
-			</li>
-			<li role="presentation">
-                <a 
-                  href="{{'/project' | relative_url}}"
-                  role="menuitem" 
-                  {% include aria_current.html page_url="{{'/project' | relative_url}}" %} 
-                >PROJECT</a>
-            </li>
-			<li role="presentation"><a href="{{site.connect_url}}" target="_blank" role="menuitem">CONTACT</a></li>
-		</ul>
-	</nav>
-	<nav>
-		<ul role="menu">
-			<li role="presentation">
-				<p>© 2025 Mindset Dojo</p>
-			</li>
-			<li role="presentation">
-				<a 
-				  href="{{'/privacy-policy' | relative_url}}" 
-				  role="menuitem"
-				  {% include aria_current.html page_url="{{'/privacy-policy' | relative_url}}" %}
-				>Privacy Policy</a>
-			</li>
-			<li role="presentation">
-				<a 
-				  href="{{'/LICENSE' | relative_url}}"
-				  role="menuitem" 
-				  {% include aria_current.html page_url="{{'/LICENSE' | relative_url}}" %}
-				>Open Source License</a>
-			</li>
-		</ul>
-	</nav>
-	<img src="{{'/assets/mindset-dojo-torii-gate.png' | relative_url}}" alt="Mindset Dojo Torii Gate Background Image" width="800" height="601" decoding="async" loading="lazy" sizes="(max-width: 800px) 100vw, 800px">
+    <nav>
+        <ul role="menu">
+            {% include nav_items.html items=site.footer_primary_links current_norm=current_norm %}
+        </ul>
+    </nav>
+
+    <nav>
+        <ul role="menu">
+            <li role="presentation"><p>© 2025 Mindset Dojo</p></li>
+            {% include nav_items.html items=site.footer_secondary_links current_norm=current_norm %}
+        </ul>
+    </nav>
+
+    <img
+        src="{{ '/assets/mindset-dojo-torii-gate.png' | relative_url }}"
+        alt="Mindset Dojo Torii Gate Background Image"
+        width="800" height="601"
+        decoding="async"
+        loading="lazy"
+        sizes="(max-width: 800px) 100vw, 800px">
 </footer>
-<script src="{{'/assets/js/md.js' | relative_url}}"></script>
+
+<script src="{{ '/assets/js/md.js' | relative_url }}"></script>

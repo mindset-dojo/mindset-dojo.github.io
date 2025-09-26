@@ -1,31 +1,33 @@
+{%- assign current_norm = page.url | replace:'/index.html','/' | relative_url | append:'/' | replace:'//','/' -%}
+{%- assign home_path = '/' | relative_url -%}
+{%- assign home_norm = home_path | append:'/' | replace:'//','/' -%}
+
 <header>
-    <a href="{{'/' | relative_url }}" aria-current="page">
-        <img src="{{'/assets/mindset-dojo-logo.png' | relative_url}}" alt="Mindset Dojo Logo" width="292" height="80" decoding="async" fetchpriority="high">
-    </a>
+    {%- if current_norm == home_norm -%}
+        <a href="{{ home_path }}" aria-current="page">
+            <img
+                src="{{ '/assets/mindset-dojo-logo.png' | relative_url }}"
+                alt="Mindset Dojo Logo"
+                width="292" height="80"
+                decoding="async"
+                fetchpriority="high">
+        </a>
+    {%- else -%}
+        <a href="{{ home_path }}">
+            <img
+                src="{{ '/assets/mindset-dojo-logo.png' | relative_url }}"
+                alt="Mindset Dojo Logo"
+                width="292" height="80"
+                decoding="async"
+                fetchpriority="high">
+        </a>
+    {%- endif -%}
+
     <nav id="Menu">
         <ul role="menu">
-            <li role="presentation">
-                <a 
-                  href="{{'/' | relative_url }}"
-                  role="menuitem"
-                  {% include aria_current.html page_url="{{'/' | relative_url }}" %} 
-                >COMMUNITY</a>
-            </li>
-            <li role="presentation">
-                <a 
-                  href="{{'/program' | relative_url}}"
-                  role="menuitem" 
-                  {% include aria_current.html page_url="{{'/program' | relative_url}}" %} 
-                >PROGRAM</a>
-            </li>
-            <li role="presentation">
-                <a 
-                  href="{{'/project' | relative_url}}"
-                  role="menuitem" 
-                  {% include aria_current.html page_url="{{'/project' | relative_url}}" %} 
-                >PROJECT</a>
-            </li>
+            {% include nav_items.html items=site.header_links current_norm=current_norm %}
         </ul>
+
         <button aria-label="Menu Toggle" aria-expanded="false" aria-controls="Menu" aria-haspopup="true">
             <span class="bar bar1"></span>
             <span class="bar bar2"></span>

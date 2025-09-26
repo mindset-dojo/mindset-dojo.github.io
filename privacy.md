@@ -1,8 +1,10 @@
 ---
 layout: default
-title: Mindset Dojo Privacy Policy
+title: Privacy Policy
+h1_mark: Privacy
+h1_hr: true
 description: Privacy Policy
-css_id: privacy-policy
+css_id: privacy
 ---
 
 ## Introduction
