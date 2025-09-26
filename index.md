@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Don’t Complain. Train.
-h1_mark: Complain
-h1_hr: false
+h1_mark: Train
+h1_hr: true
 description: Mindset Dojo is a global training ground for the inner game of presence, leadership, and emotional clarity. For conversations that matter—across all life arenas.
 css_id: home
 ---

@@ -1,12 +1,11 @@
 ---
 layout: default
 title: Training Program
+h1_mark: Training
+h1_hr: true
 css_id: program
 ---
 {% assign program = site.data.program %}
-
-<h1><mark>Training</mark> Program</h1>
-<hr>
 
 <section>
   <p><em>{{ program.mission }}</em></p>

@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Open Source License
+h1_mark: License
+h1_hr: true
 ---
-
-<h1>Open Source License</h1>
-<hr>
 
 ## Creative Commons Attribution-ShareAlike 4.0 International
 
