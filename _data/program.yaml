@@ -62,7 +62,9 @@ levels:
     label: 5th Kyu
     level: -5
     intention: Perception
-    edge: Engage in and analyze a spirited conversation using what you have learned through multiple points of view at once
+    edge: >-
+     Engage in and analyze a spirited conversation using what you have learned 
+     through multiple points of view at once
     flows:
       - label: Mindset Dojo Insights - The Way of Paradox
         url: https://medium.com/p/a816cdbe685e
