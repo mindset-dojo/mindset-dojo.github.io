@@ -53,7 +53,12 @@ Here are the principles we keep close:
 
 ### 🤝 Joining the Community
 
-If you’re new, don’t worry — you don’t have to figure it out alone. Reach out to a member when making your first contribution. There’s no formal mentorship program, but informal support and pairing are common here. We learn and grow together.  
+If you’re new, don’t worry — you don’t have to figure it out alone. Reach out to a member when making your first contribution. There’s no formal mentorship program, but informal support and pairing are common here. We learn and grow together.
+
+<div class="md-cta-group">
+    <a href="{{ '/' | relative_url }}">Join Community</a>
+</div>
+
 
 ---
 
