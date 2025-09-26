@@ -6,9 +6,6 @@ h1_hr: true
 css-id: project
 ---
 
-<!-- DEBUG h1_hr="{{ page.h1_hr }}" -->
-<!-- DEBUG css_id="{{ page.css_id }}" -->
-
 ## Open Source Infrastructure
 The [Site]({{'/' | relative_url}}) is hosted on [GitHub](https://github.com/), a platform where communities build and improve software together in the open.
 
