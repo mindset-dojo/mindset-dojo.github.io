@@ -620,11 +620,12 @@ main > a:hover {
     background-color: var(--button-background-hover-color);
 }
 
-/* [PAGE SPECIFIC] 
- [HOME | COMMUNITY] */
-#home main {
+main {
     max-width: 800px;
 }
+
+/* [PAGE SPECIFIC] 
+ [HOME | COMMUNITY] */
 
 .md-members section h2 + ul {
     text-align: center;
@@ -706,11 +707,6 @@ footer img {
     color: var(--light-color-primary);
     margin-bottom: 12px;
     padding: 0 12px;
-}
-
-/* [PROJECT] */
-#project main {
-    max-width: 800px;
 }
 
 /* [PRIVACY] */
