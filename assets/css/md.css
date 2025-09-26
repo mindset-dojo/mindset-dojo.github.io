@@ -109,9 +109,13 @@ main ol > li {
 }
 
 main {
-    margin-top: 20px;
-    margin-bottom: 60px;
+    max-width: 800px;
+    margin: 20px auto 60px;
     flex-flow: column;
+    display: flex;
+    padding-right: var(--site-padding);
+    padding-left: var(--site-padding);
+    width: 100%;
 }
 
 main ul,
@@ -596,18 +600,12 @@ body > footer {
     align-items: center;
     justify-content: center;
     justify-content: space-between;
-}
-
-header,
-main,
-body > footer {
     display: flex;
     margin-left: auto;
     margin-right: auto;
     padding-right: var(--site-padding);
     padding-left: var(--site-padding);
     max-width: var(--site-width);
-    width: 100%;
 }
 
 @media (width <= 767px) {
@@ -622,9 +620,6 @@ main > a:hover {
 
 /* [PAGE SPECIFIC] 
  [HOME | COMMUNITY] */
-#home main {
-    max-width: 800px;
-}
 
 .md-members section h2 + ul {
     text-align: center;
@@ -708,8 +703,8 @@ footer img {
     padding: 0 12px;
 }
 
-/* [PRIVACY POLICY] */
-#privacy-policy h2 {
+/* [PRIVACY] */
+#privacy h2 {
     text-align: left;
 }
 
