@@ -109,6 +109,7 @@ main ol > li {
 }
 
 main {
+    max-width: 800px;
     margin-top: 20px;
     margin-bottom: 60px;
     flex-flow: column;
@@ -618,10 +619,6 @@ body > footer {
 
 main > a:hover {
     background-color: var(--button-background-hover-color);
-}
-
-main {
-    max-width: 800px;
 }
 
 /* [PAGE SPECIFIC] 
