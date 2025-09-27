@@ -80,7 +80,7 @@ Project leadership designations are *voluntary* and reviewed periodically to ens
 * **Qualifications:**
   * ***Black Level*** in the [Program]({{'/program' | relative_url}})
   * Completion of the first step of the [Zen Leadership Instructor](https://zenleader.global/programs/coachinstructor/zlinstructor) pathway
-  * Successful vetting by Organizational Ownership
+  * Successful vetting by Organizational Ownership for a cultural fit
 * **Curates** both the **codebase** and the **program structure**
 * **Embodies** the **intention of Mindset Dojo's program and community** at a higher level of practice
 * **Guides** others in principled contribution and practical expression
@@ -92,7 +92,8 @@ Project leadership designations are *voluntary* and reviewed periodically to ens
 * **Qualification:**
   * ***Black Level*** in the [Program]({{'/program' | relative_url}})
   * [Zen Leadership Instructor](https://zenleader.global/programs/coachinstructor/zlinstructor) designation
-  * Successful vetting by Organizational Ownership
+  * Successful vetting by Organizational Ownership for a cultural fit
+  * Matriculated at least one student all the way through to ***Black Level***
 * **Responsible** for managing provisional access (elevation and removal) to facilitate feature deployment
 * **Oversees** the broader digital ecosystem (domain, branding, analytics)
 * **Demonstrates and enrolls** through various social, personal, and professional circles
