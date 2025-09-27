@@ -93,7 +93,7 @@ Project leadership designations are *voluntary* and reviewed periodically to ens
   * ***Black Level*** in the [Program]({{'/program' | relative_url}})
   * [Zen Leadership Instructor](https://zenleader.global/programs/coachinstructor/zlinstructor) designation
   * Successful vetting by Organizational Ownership for a cultural fit
-  * Matriculated at least one student all the way through to ***Black Level***
+  * Matriculated at least one student from ***Gray Level*** through ***Black Level***
 * **Responsible** for managing provisional access (elevation and removal) to facilitate feature deployment
 * **Oversees** the broader digital ecosystem (domain, branding, analytics)
 * **Demonstrates and enrolls** through various social, personal, and professional circles
