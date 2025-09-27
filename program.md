@@ -8,11 +8,7 @@ css_id: program
 {% assign program = site.data.program %}
 
 <section>
-  <p><em>{{ program.mission }}</em></p>
-</section>
-
-<section>
-  <h2>Invitation </h2>
+  <h2>{{ program.mission }}</h2>
   <br>
   <p>{{ program.invitation }}</p>
 </section>
@@ -62,4 +58,5 @@ css_id: program
 <div class="md-cta-group">
     <a href="{{'/' | relative_url }}">Engage Community</a>
 </div>
+
 
