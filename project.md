@@ -29,7 +29,7 @@ We are inspired by lightweight practices and process to keep innovation flowing;
 * Project flow is inspired by [Kanban](https://en.wikipedia.org/wiki/Kanban_(development)):
   * Cards in a state of ***TODO***
     * *Open* [Issues]({{site.repo_url}}/issues) without assignment
-    * *Draft* [Pull Requests]({{site.repo_url}}/pulls) without assignment 
+    * *Draft* [Pull Requests]({{site.repo_url}}/pulls) without assignment
   * Cards in a state of ***In Progress***
     * *Open* [Issues]({{site.repo_url}}/issues) with at least one person who has assigned themself
     * *Draft* or *Open* [Pull Requests]({{site.repo_url}}/pulls) with at least one person who has assigned themself
