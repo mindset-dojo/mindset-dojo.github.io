@@ -103,7 +103,7 @@ Project leadership designations are *voluntary* and reviewed periodically to ens
 * **Qualifications:**
   * ***Black Level*** in the [Program]({{'/program' | relative_url}})
   * Completion of the first step of the [Zen Leadership Instructor](https://zenleader.global/programs/coachinstructor/zlinstructor) pathway
-  * Supports the training of students from ***Gray Level*** through ***Brown Level***
+  * Supports the training of students from ***Gray Level*** through ***Black Level***
   * Sponsored by an Organizational Cultivator
 * **Curates** both the **codebase** and the **program structure**
 * **Embodies** the **intention of Mindset Dojo's program and community** at a higher level of practice
