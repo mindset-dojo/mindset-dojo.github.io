@@ -121,6 +121,8 @@ levels:
         url: https://www.youtube.com/watch?v=bn1E5owWCNM
       - label: Zen Leader Essential Flip - It is All About Me to I am All About It
         url: https://cdn.dirigible.studio/wp-content/uploads/sites/24/2021/09/04073619/TZL-graphic-izl.pdf
+      - label: Mindset Dojo Insights - Spiraling with the Shadow in Star Wars
+        url: https://medium.com/p/d080717aec9b
   - color: red
     label: 1st Kyu
     level: -1
@@ -128,7 +130,7 @@ levels:
     edge: Live demonstration of wisely timed MetaShifting
     flows:
       - label: Zen Toolkit - Three Centers
-        url: https://vimeo.com/944672806/e099593826?share=copy
+        url: https://vimeo.com/944672806/e099593826
       - label: Making Hara Breathing Automatic
         url: https://youtu.be/UVz1E_cKxp4?si=hl5c7qB4iR6R7ZSs
       - label: Mindset Dojo as Ma-Ai
