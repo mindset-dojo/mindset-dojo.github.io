@@ -172,5 +172,5 @@ levels:
       - label: 30 minute Zazen with Chosei Zen Virtual Dojo
         url: https://www.choseizen.org/virtual-dojo
       - label: Conversational Randori to prepare for Edge challenge
-      - url: https://aikidodiscovery.net/randori-the-art-of-taking-control-in-chaos/
+        url: https://aikidodiscovery.net/randori-the-art-of-taking-control-in-chaos/
 ...
