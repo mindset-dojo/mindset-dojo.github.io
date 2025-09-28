@@ -71,7 +71,7 @@ Project leadership designations are *voluntary* and reviewed periodically to ens
 * **Qualifications:**
   * ***Purple Level*** in the [Program]({{'/program' | relative_url}})
 * **Demonstrates** technical fluency and principled contribution
-* **Understands** the codebase and the ethos of the program
+* **Curates** the **codebase**
 * **May** merge pull requests and curate discussions
 * **Operates** as a steward and ambassador
 
