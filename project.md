@@ -7,6 +7,7 @@ css_id: project
 ---
 
 ## Open Source Infrastructure
+
 The [Site]({{'/' | relative_url}}) is hosted on [GitHub](https://github.com/), a platform where communities build and improve software together in the open.
 
 The Mindset Dojo infrastructure is built as an [Open Source](https://opensource.com/resources/what-open-source) project, which means anyone can see how it works, suggest improvements, and even contribute directly.
@@ -15,13 +16,31 @@ We’ve released the Mindset Dojo site under an **Open Source [License]({{'/LICE
 
 ---
 
-## 🥋 Before You Contribute
+## 🥋 Agile Natured Contribution
   
 You don’t have to be technically savvy — contributions can be as simple as:
 
 * 💬 Sharing **suggestions** in our GitHub [Issues]({{site.repo_url}}/issues)  
 * ✍️ Writing about your **practice reflections and insights** on [LinkedIn](https://www.linkedin.com/) or [Medium](https://medium.com/)  
-* 🧩 Helping with **design, writing, or small improvements** to the site  
+* 🧩 Helping with **design, writing, or small improvements** to the site
+
+We are inspired by lightweight practices and process to keep innovation flowing;
+
+* Project flow is inspired by [Kanban](https://en.wikipedia.org/wiki/Kanban_(development)):
+  * Cards in a state of ***TODO***
+    * *Open* [Issues]({{site.repo_url}}/issues) without assignment
+    * *Draft* [Pull Requests]({{site.repo_url}}/pulls) without assignment
+  * Cards in a state of ***In Progress***
+    * *Open* [Issues]({{site.repo_url}}/issues) with at least one person who has assigned themself
+    * *Draft* or *Open* [Pull Requests]({{site.repo_url}}/pulls) with at least one person who has assigned themself
+  * Cards in a state of ***Done***
+    * *Closed* [Issues]({{site.repo_url}}/issues) which have resulted in the realization of desired future state
+    * *Closed* [Pull Requests]({{site.repo_url}}/pulls) which have resulted in the realization of desired future state
+  * Cards in a state of ***Cancelled***
+    * *Closed* [Issues]({{site.repo_url}}/issues) which did not come to fruition
+    * *Closed* [Pull Requests]({{site.repo_url}}/pulls) which did not come to fruition
+* Cards are collectively created and refined inspired by [User Story](https://en.wikipedia.org/wiki/User_story) form
+* We are inspired by [Empirical Principles](https://www.scrum.org/resources/blog/three-pillars-empiricism-scrum) collaborating continuously as it makes sense
 
 If you’d like to go deeper — stepping into leadership opportunities or regular contributions — we invite you to first:
 
