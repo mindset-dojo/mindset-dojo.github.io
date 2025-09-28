@@ -160,7 +160,7 @@ levels:
     label: Shodan
     level: 1
     intention: Wu-Wei
-    edge: Converstional Randori preceded and followed by 30 minute Zazen
+    edge: Conversational Randori demonstrating your signature MetaShift
     flows:
       - label: Zen Toolkit - Four Patterns
         url: https://vimeo.com/944675826/c57a7ce142
