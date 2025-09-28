@@ -67,8 +67,7 @@ We are inspired by lightweight practices and process to keep innovation flowing;
     * *Closed* [Issues]({{site.repo_url}}/issues) which did not come to fruition
     * *Closed* [Pull Requests]({{site.repo_url}}/pulls) which did not come to fruition
 * Cards are collectively created and refined inspired by [User Story](https://en.wikipedia.org/wiki/User_story) form
-* We are inspired by [Empirical Principles](https://www.scrum.org/resources/blog/three-pillars-empiricism-scrum) when collaborating
-* We collaborate continuously in a weekly hour long Mat session in this following form:
+* We are inspired by [Empirical Principles](https://www.scrum.org/resources/blog/three-pillars-empiricism-scrum) performing a weekly inspection in a hour long mat session:
   1. [One Breath](https://vimeo.com/944618879/47e96945a4) and [Two Sides](https://vimeo.com/944663134/d4f1c4f333)
   2. Inflection where we go over the [Issues]({{site.repo_url}}/issues) and [Pull Requests]({{site.repo_url}}/pulls) to calibrate our priority and intention
   3. 10-15 minutes of [Zazen](https://www.youtube.com/watch?v=Qf1vmcP7otk)
