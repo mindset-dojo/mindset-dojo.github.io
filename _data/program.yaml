@@ -29,16 +29,14 @@ levels:
     label: 7th Kyu
     level: -7
     intention: Orientation
-    edge: FEBI™ (Focus Energy Balance Indicator) Assessment
+    edge: Four Patterns Reflection
     flows:
-      - label: FEBI™ Inspiration
+      - label: Zen Toolkit Inspiration
         url: http://www.zenshinkan.com/zenshinkan-lineage-ginny.html
-      - label: FEBI™ Context
+      - label: FEBI™ (Focus Energy Balance Indicator) Context
         url: https://zenleader.global/s/FEBI-Technical-Manual-2024.pdf
-      - label: FEBI™ Experience
+      - label: Four Patterns Experience
         url: https://www.youtube.com/watch?v=uVTGeFjsD3s
-      - label: How to Start a Movement
-        url: https://www.ted.com/talks/derek_sivers_how_to_start_a_movement
       - label: Mindset Dojo Insights - A Fable on Opposition
         url: https://medium.com/p/1e9078621d7f
   - color: yellow
@@ -119,7 +117,7 @@ levels:
     label: 2nd Kyu
     level: -2
     intention: Shadow
-    edge: Demonstrate wisely timed MetaShifting at Zen Leader Off The Cushion
+    edge: Support live demonstration of MetaShift expression
     flows:
       - label: Negotiation 9™ Move - “I” Messages
         url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
@@ -135,12 +133,13 @@ levels:
         url: https://medium.com/p/d080717aec9b
       - label: 15 minute Zazen with Senpai
         url: https://www.youtube.com/watch?v=Qf1vmcP7otk
-
+      - label: Zen Leader Off the Cusion
+        url: https://zenleader.global/events
   - color: red
     label: 1st Kyu
     level: -1
     intention: Resonance
-    edge: Live demonstration of your signature MetaShift expression
+    edge: Lead an integrative conversation demonstrating MetaShift expression
     flows:
       - label: Zen Toolkit - Three Centers
         url: https://vimeo.com/944672806/e099593826
@@ -160,7 +159,7 @@ levels:
     label: Shodan
     level: 1
     intention: Wu-Wei
-    edge: Conversational Randori demonstrating your signature MetaShift
+    edge: Lead an immersive session introducing Zen Toolkit
     flows:
       - label: Zen Toolkit - Four Patterns
         url: https://vimeo.com/944675826/c57a7ce142
