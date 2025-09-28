@@ -69,7 +69,7 @@ We are inspired by lightweight practices and process to keep innovation flowing;
 * Cards are collectively created and refined inspired by [User Story](https://en.wikipedia.org/wiki/User_story) form
 * We embody [Empirical Principles](https://www.scrum.org/resources/blog/three-pillars-empiricism-scrum) performing a weekly inspection in a hour long Mat session:
   1. [One Breath](https://vimeo.com/944618879/47e96945a4) and [Two Sides](https://vimeo.com/944663134/d4f1c4f333)
-  2. Inflection where we go over the [Issues]({{site.repo_url}}/issues) and [Pull Requests]({{site.repo_url}}/pulls) to calibrate our priority and intention
+  2. Review of [Issues]({{site.repo_url}}/issues) and [Pull Requests]({{site.repo_url}}/pulls) to calibrate priority and intention
   3. 10-15 minutes of [Zazen](https://www.youtube.com/watch?v=Qf1vmcP7otk)
   4. Finalize refinements and commitments
 
