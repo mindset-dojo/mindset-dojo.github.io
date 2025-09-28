@@ -92,6 +92,7 @@ Project leadership designations are *voluntary* and reviewed periodically to ens
 
 * **Qualifications:**
   * ***Purple Level*** in the [Program]({{'/program' | relative_url}})
+  * Sponsored by a Project Cultivator
 * **Demonstrates** technical fluency and principled contribution
 * **Curates** the **codebase**
 * **May** merge pull requests and curate discussions
@@ -102,8 +103,8 @@ Project leadership designations are *voluntary* and reviewed periodically to ens
 * **Qualifications:**
   * ***Black Level*** in the [Program]({{'/program' | relative_url}})
   * Completion of the first step of the [Zen Leadership Instructor](https://zenleader.global/programs/coachinstructor/zlinstructor) pathway
-  * Successful vetting by Organizational Ownership for a cultural fit
-  * Supported the progression of at least one student from ***Gray Level*** through ***Brown Level***
+  * Supports the training of students from ***Gray Level*** through ***Black Level***
+  * Sponsored by an Organizational Cultivator
 * **Curates** both the **codebase** and the **program structure**
 * **Embodies** the **intention of Mindset Dojo's program and community** at a higher level of practice
 * **Guides** others in principled contribution and practical expression
@@ -115,8 +116,8 @@ Project leadership designations are *voluntary* and reviewed periodically to ens
 * **Qualification:**
   * ***Black Level*** in the [Program]({{'/program' | relative_url}})
   * [Zen Leadership Instructor](https://zenleader.global/programs/coachinstructor/zlinstructor) designation
-  * Successful vetting by Organizational Ownership for a cultural fit
-  * Matriculated at least one student from ***Gray Level*** through ***Black Level***
+  * Matriculates students from ***Gray Level*** through ***Black Level***
+  * Sponsored by an Organizational Cultivator
 * **Responsible** for managing provisional access (elevation and removal) to facilitate feature deployment
 * **Oversees** the broader digital ecosystem (domain, branding, analytics)
 * **Demonstrates and enrolls** through various social, personal, and professional circles
