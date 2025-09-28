@@ -159,7 +159,7 @@ levels:
     label: Shodan
     level: 1
     intention: Wu-Wei
-    edge: Introduce Zen Toolkit and MetaShift to another community
+    edge: Introduce MetaShift + Zen Toolkit to another community
     flows:
       - label: Zen Toolkit - Four Patterns
         url: https://vimeo.com/944675826/c57a7ce142
