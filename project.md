@@ -16,6 +16,33 @@ We’ve released the Mindset Dojo site under an **Open Source [License]({{'/LICE
 
 ---
 
+## 💡 Principles of Practice
+
+In this dojo, contributing is not only about building a site — it is about *shared practice*.  
+Here are the principles we keep close:
+
+* 🎯 **Keep it simple and clear** — Focus each change on one thing at a time. Small, clear steps are easier to learn from.  
+* 🧭 **Share your intention** — Let others know *why* you’re doing something. A short note like “I’m updating the menu so it’s easier to navigate” helps everyone understand the value.  
+* 🤝 **Review with kindness** — Assume good intent. Be specific, curious, and respectful in feedback. Reviews are for learning together.  
+* 🛡️ **Work openly** — Be transparent, welcome others in, and keep changes easy to follow. We use [Conventional Commits](https://www.conventionalcommits.org/) to keep history clear.  
+
+### ✅ How We Review
+
+* Respond with clarity and curiosity  
+* Offer suggestions, not judgments  
+* Stay open to learning from each other  
+* Treat reviews as shared practice  
+
+### 🤝 Joining the Community
+
+If you’re new, don’t worry — you don’t have to figure it out alone. Reach out to a member when making your first contribution. There’s no formal mentorship program, but informal support and pairing are common here. We learn and grow together.
+
+<div class="md-cta-group">
+    <a href="{{ '/' | relative_url }}">Explore Community</a>
+</div>
+
+---
+
 ## 🥋 Agile Natured Contribution
   
 You don’t have to be technically savvy — contributions can be as simple as:
@@ -50,34 +77,6 @@ If you’d like to go deeper — stepping into leadership opportunities or regul
 This keeps our inner practice aligned with what we create together.
 
 Contributions are always welcome and voluntary — and just as kindly, the community may choose which ones to accept, keeping the spirit and direction of the dojo in harmony.  
-
----
-
-## 💡 Principles of Practice
-
-In this dojo, contributing is not only about building a site — it is about *shared practice*.  
-Here are the principles we keep close:
-
-* 🎯 **Keep it simple and clear** — Focus each change on one thing at a time. Small, clear steps are easier to learn from.  
-* 🧭 **Share your intention** — Let others know *why* you’re doing something. A short note like “I’m updating the menu so it’s easier to navigate” helps everyone understand the value.  
-* 🤝 **Review with kindness** — Assume good intent. Be specific, curious, and respectful in feedback. Reviews are for learning together.  
-* 🛡️ **Work openly** — Be transparent, welcome others in, and keep changes easy to follow. We use [Conventional Commits](https://www.conventionalcommits.org/) to keep history clear.  
-
-### ✅ How We Review
-
-* Respond with clarity and curiosity  
-* Offer suggestions, not judgments  
-* Stay open to learning from each other  
-* Treat reviews as shared practice  
-
-### 🤝 Joining the Community
-
-If you’re new, don’t worry — you don’t have to figure it out alone. Reach out to a member when making your first contribution. There’s no formal mentorship program, but informal support and pairing are common here. We learn and grow together.
-
-<div class="md-cta-group">
-    <a href="{{ '/' | relative_url }}">Explore Community</a>
-</div>
-
 
 ---
 
