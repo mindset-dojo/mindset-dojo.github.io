@@ -45,7 +45,7 @@ levels:
     label: 6th Kyu
     level: -6
     intention: Centering
-    edge: Analyze a spirited conversation through your new lenses
+    edge: Meditate until a spirited conversation makes sense and share your learnings
     flows:
       - label: The Backwards Brain Bicycle
         url: https://www.youtube.com/watch?v=MFzDaBzBlL0
@@ -57,11 +57,13 @@ levels:
         url: https://medium.com/p/560662d2e5aa
       - label: Plus Ki and Minus Ki
         url: https://mindbodyaikido.com/plus-ki-and-minus-ki
+      - label: 5 minute Zazen with Senpai
+        url: https://www.youtube.com/watch?v=Qf1vmcP7otk
   - color: green
     label: 5th Kyu
     level: -5
     intention: Perception
-    edge: Engage in and analyze a spirited conversation using what you have learned
+    edge: Reflect upon a spirited conversation through multiple points of view at once
     flows:
       - label: Mindset Dojo Insights - The Way of Paradox
         url: https://medium.com/p/a816cdbe685e
@@ -71,11 +73,13 @@ levels:
         url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
       - label: Mindset Dojo Insights - The Breath of a Stance Shifts the Mountain
         url: https://medium.com/p/1638c7ef8e52
+      - label: 5 minute Zazen by yourself
+        url: https://www.youtube.com/watch?v=Qf1vmcP7otk
   - color: blue
     label: 4th Kyu
     level: -4
     intention: Listening
-    edge: Improve a conversation that matters using what you have learned
+    edge: Deeply listen to a conversational partner with new ears and reflect back what you hear
     flows:
       - label: Negotiation 9™ Move - Labels
         url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
@@ -87,11 +91,13 @@ levels:
         url: https://www.youtube.com/watch?v=l-_KMzx8U7Y
       - label: Zen Leader Essential Flip - Or to And
         url: https://www.youtube.com/watch?v=uaLDcv1NVCU
+      - label: 10 minute Zazen with Senpai
+        url: https://www.youtube.com/watch?v=Qf1vmcP7otk
   - color: purple
     label: 3rd Kyu
     level: -3
     intention: Presence
-    edge: Improve a conversation that matters using what you have learned
+    edge: MetaShift a spirited conversation
     flows:
       - label: Negotiation 9™ Move - Paraphrasing
         url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
@@ -105,11 +111,15 @@ levels:
         url: https://www.youtube.com/watch?v=Jz1b2GK6Whg
       - label: Zen Leader Essential Flip - Controlling to Connecting
         url: https://www.youtube.com/watch?v=OFxdn9v5avk
+      - label: Your Unique MetaShift Expression
+        url: https://lessons.basil.one/houston-we-have-an-attitude-097fa422edf0
+      - label: 10 minute Zazen by yourself
+        url: https://www.youtube.com/watch?v=Qf1vmcP7otk
   - color: brown
     label: 2nd Kyu
     level: -2
     intention: Shadow
-    edge: Improve a conversation that matters using what you have learned
+    edge: Demonstrate wisely timed MetaShifting at Zen Leader Off The Cushion
     flows:
       - label: Negotiation 9™ Move - “I” Messages
         url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
@@ -123,11 +133,14 @@ levels:
         url: https://cdn.dirigible.studio/wp-content/uploads/sites/24/2021/09/04073619/TZL-graphic-izl.pdf
       - label: Mindset Dojo Insights - Spiraling with the Shadow in Star Wars
         url: https://medium.com/p/d080717aec9b
+      - label: 15 minute Zazen with Senpai
+        url: https://www.youtube.com/watch?v=Qf1vmcP7otk
+
   - color: red
     label: 1st Kyu
     level: -1
     intention: Resonance
-    edge: Live demonstration of wisely timed MetaShifting
+    edge: Live demonstration of your signature MetaShift expression
     flows:
       - label: Zen Toolkit - Three Centers
         url: https://vimeo.com/944672806/e099593826
@@ -141,11 +154,13 @@ levels:
         url: https://cdn.dirigible.studio/wp-content/uploads/sites/24/2021/09/04073619/TZL-graphic-izl.pdf
       - label: Resonate - Zen and the Way of Making a Difference
         url: https://www.choseizen.org/store/p/resonate
+      - label: 15 minute Zazen by yourself
+        url: https://www.youtube.com/watch?v=Qf1vmcP7otk
   - color: black
     label: Shodan
     level: 1
     intention: Wu-Wei
-    edge: Converstional Randori unpacking your reflective essay about your journey
+    edge: Conversational Randori demonstrating your signature MetaShift
     flows:
       - label: Zen Toolkit - Four Patterns
         url: https://vimeo.com/944675826/c57a7ce142
@@ -153,8 +168,6 @@ levels:
         url: https://youtu.be/lylCYkgC63Q?si=FzuWfAHq4Yie_AHC
       - label: For Something New To Come, Something Old Must Go
         url: https://www.youtube.com/watch?v=_to_w-R0JjQ
-      - label: Ki in Daily Life
-        url: https://www.amazon.com/Ki-Daily-Life-Koichi-Tohei/dp/4889960716
-      - label: Your Unique MetaShift Expression
-        url: https://lessons.basil.one/houston-we-have-an-attitude-097fa422edf0
+      - label: Online Introduction to Zazen at Chosei Zen
+        url: https://www.choseizen.org/online-intro-to-zazen
 ...
