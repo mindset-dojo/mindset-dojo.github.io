@@ -66,7 +66,7 @@ If you’re new, don’t worry — you don’t have to figure it out alone. Reac
 
 Project leadership designations are *voluntary* and reviewed periodically to ensure mutual clarity and care. Cultivating a designation is an opportunity for deeper training and responsibility — **not** a prerequisite for contribution or community engagement.
 
-### ✅ Trusted Committer
+### ✅ Infrastructure Cultivator
 
 * **Qualifications:**
   * ***Purple Level*** in the [Program]({{'/program' | relative_url}})
@@ -75,7 +75,7 @@ Project leadership designations are *voluntary* and reviewed periodically to ens
 * **May** merge pull requests and curate discussions
 * **Operates** as a steward and ambassador
 
-### ⚡ Project Maintainer
+### ⚡ Project Cultivator
 
 * **Qualifications:**
   * ***Black Level*** in the [Program]({{'/program' | relative_url}})
@@ -87,7 +87,7 @@ Project leadership designations are *voluntary* and reviewed periodically to ens
 * **Observes and evolves** the connective tissue between project and program
 * **Consults with** with Organizational Ownership when it makes sense
 
-### 🌐 Organizational Owner
+### 🌐 Organizational Cultivator
 
 * **Qualification:**
   * ***Black Level*** in the [Program]({{'/program' | relative_url}})
