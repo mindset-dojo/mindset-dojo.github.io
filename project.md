@@ -55,7 +55,7 @@ We are inspired by lightweight practices:
 
 * Project flow is inspired by [Kanban](https://en.wikipedia.org/wiki/Kanban_(development))
 * Cards are collectively created and refined inspired by [User Story](https://en.wikipedia.org/wiki/User_story) form
-* We embody [Empirical Principles](https://www.scrum.org/resources/blog/three-pillars-empiricism-scrum), performing a weekly inspection on the Mat
+* [Empirical Inspection](https://www.scrum.org/resources/blog/three-pillars-empiricism-scrum) occurs weekly in a Cultivator-only Mat session
 
 Contributions are welcome and voluntary; the community accepts those that align with the dojo’s harmony and direction.  
 
