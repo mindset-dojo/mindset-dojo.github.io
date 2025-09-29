@@ -173,7 +173,7 @@ levels:
         url: https://www.choseizen.org/virtual-dojo
       - label: Conversational Randori to prepare for Edge challenge
         url: https://aikidodiscovery.net/randori-the-art-of-taking-control-in-chaos/
-designations:
+orientations:
   - label: Kōhai
     intention: To learn from and defer to Senpai and Sensei
     edge: Cross Grey Level threshold
