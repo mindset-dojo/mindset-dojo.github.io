@@ -55,6 +55,23 @@ css_id: program
   {% endfor %}
 </section>
 
+<section>
+  <h2>Designations</h2>
+  {% for designation in program.designations %}
+    <br>
+    <br>
+    <h3>{{ designation.label }}</h3>
+    <p><strong>Intention</strong></p> <p>{{ designation.intention }}</p>
+    <p><strong>Edge</strong></p> <p>{{ designation.edge }}</p>
+     <ul>
+        <p><strong>Flows</strong></p>
+        {% for item in designation.flows %}
+          <li>{{ item.label }}</li>
+        {% endfor %}
+      </ul>
+  {% endfor %}
+</section>
+
 <div class="md-cta-group">
     <a href="{{'/' | relative_url }}">Engage Community</a>
 </div>
