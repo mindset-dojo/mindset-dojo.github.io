@@ -175,7 +175,7 @@ levels:
         url: https://aikidodiscovery.net/randori-the-art-of-taking-control-in-chaos/
 relationships:
   - label: Kōhai
-    intention: To eagerly learn from and defer to Senpai and Sensei
+    intention: I learn by following, and teach through my striving
     aspects:
       - label: Attend the Mat regularly
       - label: Practice the forms regularly
@@ -183,7 +183,7 @@ relationships:
       - label: Deepen your learning through the creation and sharing of Insights articles
       - label: Live the program principles
   - label: Senpai
-    intention: To mentor Kōhai and learn from Sensei
+    intention: I guide by teaching, and learn through guiding
     aspects:
       - label: Lead the Mat periodically
       - label: Practice the forms regularly
@@ -191,7 +191,7 @@ relationships:
       - label: Deepen your learning through the creation and sharing of Insights articles
       - label: Live the program principles
   - label: Sensei
-    intention: To lead the dojo and mentor Senpai and Kōhai
+    intention: I lead by teaching, and learn through reflection
     aspects:
       - label: Lead the Mat regularly
       - label: Practice the forms regularly
