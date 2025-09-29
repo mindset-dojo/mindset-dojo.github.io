@@ -181,7 +181,7 @@ relationships:
       - label: Practice the forms regularly
       - label: Bring curiosity
       - label: Deepen your learning through the creation and sharing of Insights articles
-      - label: Treat others with respect and kindness
+      - label: Live the program principles
   - label: Senpai
     intention: To mentor Kōhai and learn from Sensei
     aspects:
@@ -189,7 +189,7 @@ relationships:
       - label: Practice the forms regularly
       - label: Mentor Kōhai through their learning journey
       - label: Deepen your learning through the creation and sharing of Insights articles
-      - label: Treat others with respect and kindness
+      - label: Live the program principles
   - label: Sensei
     intention: To lead the dojo and mentor Senpai and Kōhai
     aspects:
@@ -197,5 +197,5 @@ relationships:
       - label: Practice the forms regularly
       - label: Mentor Senpai and Kōhai through their learning journey
       - label: Deepen your learning through the creation and sharing of Insights articles
-      - label: Treat others with respect and kindness
+      - label: Live the program principles
 ...
