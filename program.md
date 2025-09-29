@@ -62,7 +62,6 @@ css_id: program
     <br>
     <h3>{{ orientation.label }}</h3>
     <p><strong>Intention</strong></p> <p>{{ orientation.intention }}</p>
-    <p><strong>Edge</strong></p> <p>{{ orientation.edge }}</p>
      <ul>
         <p><strong>Flows</strong></p>
         {% for item in orientation.flows %}
