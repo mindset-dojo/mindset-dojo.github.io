@@ -177,9 +177,9 @@ relationships:
   - label: Kōhai
     intention: To learn from and defer to Senpai and Sensei
     aspects:
-      - label: Attend the Mat regularly
-      - label: Practice the forms daily
-      - label: Demonstrate what you have learned through creating Mindset Dojo Insights articles
+      - label: Learn through practice
+      - label: Ask questions
+      - label: Bring curiosity
       - label: Treat others with respect and kindness
   - label: Senpai
     intention: To mentor Kōhai and learn from Sensei
