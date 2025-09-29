@@ -173,4 +173,31 @@ levels:
         url: https://www.choseizen.org/virtual-dojo
       - label: Conversational Randori to prepare for Edge challenge
         url: https://aikidodiscovery.net/randori-the-art-of-taking-control-in-chaos/
+designations:
+  - label: Kōhai
+    intention: To learn from and defer to Senpai and Sensei
+    edge: Cross Grey Level threshold
+    flows:
+      - label: Attend the Mat regularly
+      - label: Practice the forms daily
+      - label: Demonstrate what you have learned through creating Mindset Dojo Insights articles
+      - label: Treat others with respect and kindness
+  - label: Senpai
+    intention: To mentor Kōhai and learn from Sensei
+    edge: Cross Yellow Level threshold and be nominated by Sensei and Kōhai
+    flows:
+      - label: Lead the Mat regularly
+      - label: Practice the forms daily
+      - label: Mentor Kōhai through their learning journey
+      - label: Demonstrate what you have learned through creating Mindset Dojo Insights articles
+      - label: Treat others with respect and kindness
+  - label: Sensei
+    intention: To lead the dojo and mentor Senpai and Kōhai
+    edge: Cross Black Level threshold and obtain Zen Leadership Instructor designation
+    flows:
+      - label: Lead the Mat regularly
+      - label: Practice the forms daily
+      - label: Mentor Senpai and Kōhai through their learning journey
+      - label: Demonstrate what you have learned through creating Mindset Dojo Insights articles
+      - label: Treat others with respect and kindness
 ...
