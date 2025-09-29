@@ -56,15 +56,15 @@ css_id: program
 </section>
 
 <section>
-  <h2>Orientations</h2>
-  {% for orientation in program.orientations %}
+  <h2>Relationships</h2>
+  {% for relationship in program.relationships %}
     <br>
     <br>
-    <h3>{{ orientation.label }}</h3>
-    <p><strong>Intention</strong></p> <p>{{ orientation.intention }}</p>
+    <h3>{{ relationship.label }}</h3>
+    <p><strong>Intention</strong></p> <p>{{ relationship.intention }}</p>
      <ul>
         <p><strong>Aspects</strong></p>
-        {% for item in orientation.aspects %}
+        {% for item in relationship.aspects %}
           <li>{{ item.label }}</li>
         {% endfor %}
       </ul>
