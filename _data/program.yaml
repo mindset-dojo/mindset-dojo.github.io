@@ -178,7 +178,7 @@ relationships:
     intention: To eagerly learn from and defer to Senpai and Sensei
     aspects:
       - label: Attend the Mat regularly
-      - label: Practice the forms daily
+      - label: Practice the forms regularly
       - label: Bring curiosity
       - label: Deepen your learning through the creation and sharing of Insights articles
       - label: Treat others with respect and kindness
@@ -186,7 +186,7 @@ relationships:
     intention: To mentor Kōhai and learn from Sensei
     aspects:
       - label: Lead the Mat periodically
-      - label: Practice the forms daily
+      - label: Practice the forms regularly
       - label: Mentor Kōhai through their learning journey
       - label: Deepen your learning through the creation and sharing of Insights articles
       - label: Treat others with respect and kindness
@@ -194,7 +194,7 @@ relationships:
     intention: To lead the dojo and mentor Senpai and Kōhai
     aspects:
       - label: Lead the Mat regularly
-      - label: Practice the forms daily
+      - label: Practice the forms regularly
       - label: Mentor Senpai and Kōhai through their learning journey
       - label: Deepen your learning through the creation and sharing of Insights articles
       - label: Treat others with respect and kindness
