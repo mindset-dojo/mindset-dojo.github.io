@@ -185,7 +185,7 @@ relationships:
   - label: Senpai
     intention: To mentor Kōhai and learn from Sensei
     aspects:
-      - label: Lead the Mat regularly
+      - label: Lead the Mat periodically
       - label: Practice the forms daily
       - label: Mentor Kōhai through their learning journey
       - label: Deepen your learning through the creation and sharing of Insights articles
