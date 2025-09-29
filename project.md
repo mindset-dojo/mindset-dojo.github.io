@@ -34,7 +34,7 @@ Contributions are welcome and voluntary; the community accepts those that align 
 
 ---
 
-## Principles of Practice
+## Principles of Contribution
 
 In this dojo, contributing is not only about building a site — it is about *shared practice*.  
 Here are the principles we keep close:
@@ -44,7 +44,7 @@ Here are the principles we keep close:
 * **Review with kindness** — Assume good intent. Be specific, curious, and respectful in feedback. Reviews are for learning together.  
 * **Work openly** — Be transparent, welcome others in, and keep changes easy to follow. We use [Conventional Commits](https://www.conventionalcommits.org/) to keep history clear.  
 
-### How We Review
+### Principles of Review
 
 * Respond with clarity and curiosity  
 * Offer suggestions, not judgments  
