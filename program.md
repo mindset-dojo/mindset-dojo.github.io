@@ -63,8 +63,8 @@ css_id: program
     <h3>{{ orientation.label }}</h3>
     <p><strong>Intention</strong></p> <p>{{ orientation.intention }}</p>
      <ul>
-        <p><strong>Flows</strong></p>
-        {% for item in orientation.flows %}
+        <p><strong>Aspects</strong></p>
+        {% for item in orientation.aspects %}
           <li>{{ item.label }}</li>
         {% endfor %}
       </ul>
