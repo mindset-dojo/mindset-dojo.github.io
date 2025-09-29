@@ -18,16 +18,16 @@ In that flash between stimulus and response…</p>
 
 <h2>Why We Train</h2>
 <ul>
-  <li>🧠 Because awareness isn’t enough — you can name the pattern and still fall into it.</li>
-  <li>⏱️ Because in high-stakes moments, you won’t have time to think — only time to respond.</li>
-  <li>🤼 Because pressure doesn’t reveal your potential — it reveals your practice.</li>
+  <li>Because awareness isn’t enough — you can name the pattern and still fall into it.</li>
+  <li>Because in high-stakes moments, you won’t have time to think — only time to respond.</li>
+  <li>Because pressure doesn’t reveal your potential — it reveals your practice.</li>
 </ul>
 
 <h2>How We Train</h2>
 <ul>
-  <li>🥋 We practice live, in real conversations — where timing, tone, and tension are felt.</li>
-  <li>🔁 We reflect between reps — using voice notes to recalibrate and deepen awareness.</li>
-  <li>🎯 We progress with purpose — using a belt path that honors embodied thresholds.</li>
+  <li>We practice live, in real conversations — where timing, tone, and tension are felt.</li>
+  <li>We reflect between reps — using voice notes to recalibrate and deepen awareness.</li>
+  <li>We progress with purpose — using a belt path that honors embodied thresholds.</li>
 </ul>
 
 <p>This isn’t theory.<br>
