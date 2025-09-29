@@ -16,6 +16,24 @@ We’ve released the Mindset Dojo site under an **Open Source [License]({{'/LICE
 
 ---
 
+## Agile Natured Contribution
+  
+You don’t have to be technically savvy — contributions can be as simple as:
+
+* Sharing **suggestions** in our GitHub [Issues]({{site.repo_url}}/issues)  
+* Writing about your **practice reflections and insights** on [LinkedIn](https://www.linkedin.com/) or [Medium](https://medium.com/)  
+* Helping with **design, writing, or small improvements** to the site
+
+We are inspired by lightweight practices:
+
+* Project flow is inspired by [Kanban](https://en.wikipedia.org/wiki/Kanban_(development))
+* Cards are collectively created and refined inspired by [User Story](https://en.wikipedia.org/wiki/User_story) form
+* [Empirical Inspection](https://www.scrum.org/resources/blog/three-pillars-empiricism-scrum) occurs weekly in a Cultivator-only Mat session
+
+Contributions are welcome and voluntary; the community accepts those that align with the dojo’s harmony and direction.  
+
+---
+
 ## Principles of Practice
 
 In this dojo, contributing is not only about building a site — it is about *shared practice*.  
@@ -40,24 +58,6 @@ If you’re new, don’t worry — you don’t have to figure it out alone. Reac
 <div class="md-cta-group">
     <a href="{{ '/' | relative_url }}">Explore Community</a>
 </div>
-
----
-
-## Agile Natured Contribution
-  
-You don’t have to be technically savvy — contributions can be as simple as:
-
-* Sharing **suggestions** in our GitHub [Issues]({{site.repo_url}}/issues)  
-* Writing about your **practice reflections and insights** on [LinkedIn](https://www.linkedin.com/) or [Medium](https://medium.com/)  
-* Helping with **design, writing, or small improvements** to the site
-
-We are inspired by lightweight practices:
-
-* Project flow is inspired by [Kanban](https://en.wikipedia.org/wiki/Kanban_(development))
-* Cards are collectively created and refined inspired by [User Story](https://en.wikipedia.org/wiki/User_story) form
-* [Empirical Inspection](https://www.scrum.org/resources/blog/three-pillars-empiricism-scrum) occurs weekly in a Cultivator-only Mat session
-
-Contributions are welcome and voluntary; the community accepts those that align with the dojo’s harmony and direction.  
 
 ---
 
