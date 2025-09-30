@@ -55,6 +55,22 @@ css_id: program
   {% endfor %}
 </section>
 
+<section>
+  <h2>Relationships</h2>
+  {% for relationship in program.relationships %}
+    <br>
+    <br>
+    <h3>{{ relationship.label }}</h3>
+    <p><strong>Intention</strong></p> <p>{{ relationship.intention }}</p>
+     <ul>
+        <p><strong>Aspects</strong></p>
+        {% for item in relationship.aspects %}
+          <li>{{ item.label }}</li>
+        {% endfor %}
+      </ul>
+  {% endfor %}
+</section>
+
 <div class="md-cta-group">
     <a href="{{'/' | relative_url }}">Engage Community</a>
 </div>
