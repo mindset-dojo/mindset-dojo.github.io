@@ -173,4 +173,26 @@ levels:
         url: https://www.choseizen.org/virtual-dojo
       - label: Conversational Randori to prepare for Edge challenge
         url: https://aikidodiscovery.net/randori-the-art-of-taking-control-in-chaos/
+relationships:
+  - label: Kōhai
+    intention: Growth through attentive following and contribution through fresh experimentation
+    aspects:
+      - label: Attend Mat sessions regularly
+      - label: Create and share Insight periodically
+      - label: Connect with Senpai periodically for one-on-one training
+      - label: Active orientation when training with someone more senior by Level (Senpai)
+  - label: Senpai
+    intention: Guidance through lived example and deepening through co-learning
+    aspects:
+      - label: Attend Mat sessions regularly, lead periodically
+      - label: Create and share Insight regularly, guiding Kōhai
+      - label: Connect with Kōhai and Sensei periodically for one-on-one training
+      - label: Active orientation when training with someone more junior by Level (Kōhai)
+  - label: Sensei
+    intention: Stewardship through modeling and evolution through community feedback
+    aspects:
+      - label: Lead Mat sessions regularly
+      - label: Create and share Insight regularly, guiding Senpai and Kōhai
+      - label: Connect with Senpai (and Kōhai) regularly for one-on-one training
+      - label: Black Level, Zen Leadership Instructor designation
 ...
