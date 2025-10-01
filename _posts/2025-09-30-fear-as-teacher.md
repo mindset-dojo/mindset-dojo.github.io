@@ -18,7 +18,7 @@ I learned this across two very different scenes — first as an IT Intern at Ric
 
 ## Scene 1 — Richmond Community Schools: After the Ransomware Storm
 
-It was my first close encounter with the aftermath of a ransomware attack. The event itself had already struck, but its shadow still stretched across the school. The attack was reported publicly, so what I share here is simply my perspective as an intern supporting the response, not a disclosure of private details.
+It was my first close encounter with the aftermath of a ransomware attack. The event itself had already struck, but its shadow still stretched across the school. The attack was [reported publicly](https://www.pal-item.com/story/news/local/2024/09/27/richmond-community-schools-targeted-in-ransomware-attack-student-information-compromised/75345295007/), so what I share here is simply my perspective as an intern supporting the response, not a disclosure of private details.
 
 The network was down. Wi-Fi access was gone. Teachers carried personal mobile hotspots just to open lesson materials. Printers and gradebooks were offline. Some classes returned to paper for attendance and assignments. The learning environment itself — the daily rhythm of the school — had been halted.
 
@@ -53,7 +53,7 @@ So, I acted decisively and reasonably:
 1. **Detection:** Recognized the issue while testing a branch build.  
 2. **Escalation:** I called the Organizational Cultivator immediately on Signal audio, not delaying or downplaying.  
 3. **Centering:** Before we began deciding next steps, we did *One Breath* together — a brief practice to calm down and focus.  
-   - One Breath is a simple Mindset Dojo practice out of Zen Toolkit: pause, take one slow breath together, and let the body and mind settle. It only takes a minute or two, but it helps shift from panic to presence — essential in any incident response.  
+   - [One Breath](https://vimeo.com/944618879/47e96945a4) is a simple Mindset Dojo practice out of Zen Toolkit: pause, take one slow breath together, and let the body and mind settle. It only takes a minute or two, but it helps shift from panic to presence — essential in any incident response.  
 
 We brought the site back online, and determined that there was no reasonable risk of exploitation in the immediate term.
 
@@ -110,7 +110,7 @@ or in the hand that meets fear with presence?
 
 ## Bow of Respect
 
-I bow in respect and gratitude to the **Institute for Zen Leadership**, guardians and stewards of the **Zen Toolkit** and the **FEBI™ framework**, whose practices and teachings make this kind of work possible.
+I bow in respect and gratitude to the [**Institute for Zen Leadership**](https://zenleader.global/), guardians and stewards of the **Zen Toolkit** and the **FEBI™ framework**, whose practices and teachings make this kind of work possible.
 
 Their lineage of presence, shadow-awareness, and embodied leadership have quietly shaped the language I bring into the intersection of technology and inner work.
 
