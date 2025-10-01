@@ -5,6 +5,8 @@ date: 2025-09-30
 author: "Kyle Ingersoll"
 tags: ["insight","zen","leadership","red level"]
 excerpt: "How fear becomes a teacher and what its shadow reveals about presence and response."
+image: /assets/images/insights/2025-09-30-fear-as-teacher.jpg
+image_alt: "A man gets angry at computer issues, then sits until it makes sense."
 ---
 
 Here is the body of the insight in Markdown...
