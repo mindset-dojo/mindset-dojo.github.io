@@ -11,6 +11,8 @@ header_links:
     href: /program
   - label: PROJECT
     href: /project
+  - label: INSIGHT
+    href: /insight
 
 footer_primary_links:
   - label: COMMUNITY
@@ -19,6 +21,8 @@ footer_primary_links:
     href: /program
   - label: PROJECT
     href: /project
+  - label: INSIGHT
+    href: /insight
   - label: CONTACT
     href: https://connect.mindset.dojo.center
     external: true
