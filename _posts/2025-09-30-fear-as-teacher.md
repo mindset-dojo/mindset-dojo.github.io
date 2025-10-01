@@ -1,10 +1,14 @@
 ---
 layout: post
 title: "Fear as Teacher, Shadow as Mirror, Presence as Response"
-author: "Kyle Ingersoll — Red Level and Infrastructure Cultivator"
-insight_level: Red
-image: /assets/images/insights/fear-shadow-presence.png
+date: 2025-09-30
+author: "Kyle Ingersoll"
+tags: ["insight","zen","leadership","red level"]
+excerpt: "How fear becomes a teacher and what its shadow reveals about presence and response."
 ---
+
+Here is the body of the insight in Markdown...
+
 
 When people talk about Incident Response, they often think of flashing alerts, hackers in hoodies, or sudden technical heroics. In truth, it’s much more human than that. It’s about how people work when systems fail, how calmly we communicate under stress, and how quickly we transform disruption into recovery.
 
