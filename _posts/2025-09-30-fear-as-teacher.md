@@ -9,9 +9,6 @@ image: /assets/images/insights/2025-09-30-fear-as-teacher.jpg
 image_alt: "A man gets angry at computer issues, then sits until it makes sense."
 ---
 
-Here is the body of the insight in Markdown...
-
-
 When people talk about Incident Response, they often think of flashing alerts, hackers in hoodies, or sudden technical heroics. In truth, it’s much more human than that. It’s about how people work when systems fail, how calmly we communicate under stress, and how quickly we transform disruption into recovery.
 
 I learned this across two very different scenes — first as an IT Intern at Richmond Community Schools, and later as Infrastructure Cultivator for Mindset Dojo. The first time, I stood on the edge of a crisis expressing my leadership through support, not from the front. The second time, I was the one who detected the problem, spoke up, and helped guide resolution. Together, they shaped how I see Incident Response: as a practice of service, integrity, and growth.
