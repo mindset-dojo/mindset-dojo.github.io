@@ -117,3 +117,7 @@ I bow in respect and gratitude to the [**Institute for Zen Leadership**](https:/
 Their lineage of presence, shadow-awareness, and embodied leadership have quietly shaped the language I bring into the intersection of technology and inner work.
 
 In offering this article, I stand on the shoulders of those who taught me to meet fear with presence, speak with clarity, and face shadow with curiosity — and dedicate what follows to carrying that spirit forward.
+
+---
+
+![image_alt](image)
