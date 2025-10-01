@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Insight
-permalink: /insight/
+h1_mark: Insight Stream
+h1_hr: true
+css_id: insight
 ---
 
 <section id="insights-phonebook">
