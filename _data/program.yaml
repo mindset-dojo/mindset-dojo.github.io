@@ -1,9 +1,10 @@
 ---
 rally: Fearless Leadership
 mission: >-
-          To bring the gift of fearlessness — se mu-i — to every home,
-          turning the social-emotional challenges of our time into
-          a culture rooted in presence, clarity, and compassion.
+          To instill fearlessness — se mu-i — where it matters most,
+          transforming communities experiencing social-emotional challenges
+          into islands of coherence,
+          grounded in presence, compassion, and clear intention.
 principles:
   - label: Relax completely
   - label: Center with intention
@@ -55,7 +56,7 @@ levels:
         url: https://medium.com/p/560662d2e5aa
       - label: Plus Ki and Minus Ki
         url: https://mindbodyaikido.com/plus-ki-and-minus-ki
-      - label: 5 minute Zazen with Senpai
+      - label: 5 minute Zazen with Zenpai
         url: https://www.youtube.com/watch?v=Qf1vmcP7otk
   - color: green
     label: 5th Kyu
@@ -89,7 +90,7 @@ levels:
         url: https://www.youtube.com/watch?v=l-_KMzx8U7Y
       - label: Zen Leader Essential Flip - Or to And
         url: https://www.youtube.com/watch?v=uaLDcv1NVCU
-      - label: 10 minute Zazen with Senpai
+      - label: 10 minute Zazen with Zenpai
         url: https://www.youtube.com/watch?v=Qf1vmcP7otk
   - color: purple
     label: 3rd Kyu
@@ -131,7 +132,7 @@ levels:
         url: https://cdn.dirigible.studio/wp-content/uploads/sites/24/2021/09/04073619/TZL-graphic-izl.pdf
       - label: Mindset Dojo Insights - Spiraling with the Shadow in Star Wars
         url: https://medium.com/p/d080717aec9b
-      - label: 15 minute Zazen with Senpai
+      - label: 15 minute Zazen with Zenpai
         url: https://www.youtube.com/watch?v=Qf1vmcP7otk
       - label: Zen Leader Off the Cusion
         url: https://zenleader.global/events
@@ -174,25 +175,25 @@ levels:
       - label: Conversational Randori to prepare for Edge challenge
         url: https://aikidodiscovery.net/randori-the-art-of-taking-control-in-chaos/
 relationships:
-  - label: Kōhai
+  - label: Zōhai
     intention: Growth through attentive following and contribution through fresh experimentation
     aspects:
       - label: Attend Mat sessions regularly
       - label: Create and share Insight periodically
-      - label: Connect with Senpai periodically for one-on-one training
-      - label: Active orientation when training with someone more senior by Level (Senpai)
-  - label: Senpai
+      - label: Connect with Zenpai periodically for one-on-one training
+      - label: Active orientation when training with someone more senior by Level (Zenpai)
+  - label: Zenpai
     intention: Guidance through lived example and deepening through co-learning
     aspects:
       - label: Attend Mat sessions regularly, lead periodically
-      - label: Create and share Insight regularly, guiding Kōhai
-      - label: Connect with Kōhai and Sensei periodically for one-on-one training
-      - label: Active orientation when training with someone more junior by Level (Kōhai)
-  - label: Sensei
+      - label: Create and share Insight regularly, guiding Zōhai
+      - label: Connect with Zōhai and Sensei periodically for one-on-one training
+      - label: Active orientation when training with someone more junior by Level (Zōhai)
+  - label: Zensei
     intention: Stewardship through modeling and evolution through community feedback
     aspects:
       - label: Lead Mat sessions regularly
-      - label: Create and share Insight regularly, guiding Senpai and Kōhai
-      - label: Connect with Senpai (and Kōhai) regularly for one-on-one training
+      - label: Create and share Insight regularly, guiding Zenpai and Kōhai
+      - label: Connect with Zenpai (and Zōhai) regularly for one-on-one training
       - label: Black Level, Zen Leadership Instructor designation
 ...
