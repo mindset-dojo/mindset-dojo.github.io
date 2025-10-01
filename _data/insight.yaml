@@ -1,0 +1,11 @@
+# _data/insight.yaml
+# A simple list of Insight entries used as the phone-book / index of post metadata.
+insights:
+  - slug: fear-as-teacher
+    title: "Fear as Teacher, Shadow as Mirror, Presence as Response"
+    full_name: "Fear as Teacher, Shadow as Mirror, Presence as Response"
+    author: "Kyle Ingersoll"
+    excerpt: "How fear becomes a teacher and what its shadow reveals about presence and response."
+    tags: ["insight","zen","leadership"]
+    date: 2025-09-30
+    permalink: "/2025/09/30/fear-as-teacher/"
