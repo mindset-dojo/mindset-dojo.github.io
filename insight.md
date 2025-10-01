@@ -6,7 +6,7 @@ permalink: /insight/
 
 <section id="insights-phonebook">
   <h2>Insights — Index (Phonebook)</h2>
-  {% assign phonebook = site.data.insights.insights | sort: 'full_name' %}
+  {% assign phonebook = site.data.insight.insights | sort: 'full_name' %}
   <ul>
     {% for item in phonebook %}
       {% assign post_match = site.posts | where: "slug", item.slug | first %}
