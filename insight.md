@@ -26,7 +26,7 @@ css_id: insight
 
       <li class="insights-phonebook-item">
         {% if resolved_image %}
-          <a href="{{ post_match.url | default: item.permalink | relative_url }}">
+          <a href="{{ '/insight/' | post_match.url | default: item.permalink | relative_url }}">
             <img
               src="{{ resolved_image | relative_url }}"
               alt="{{ resolved_alt | default: item.title | escape }}"
