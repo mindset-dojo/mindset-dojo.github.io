@@ -1,10 +1,6 @@
 ---
 rally: Fearless Leadership
-mission: >-
-          To instill fearlessness — se mu-i — where it matters most,
-          transforming communities experiencing social-emotional challenges
-          into islands of coherence,
-          grounded in presence, compassion, and clear intention.
+mission: We help communities facing socio-emotional turbulence form islands of coherence
 principles:
   - label: Relax completely
   - label: Center with intention
@@ -160,7 +156,7 @@ levels:
     label: Shodan
     level: 1
     intention: Wu-Wei
-    edge: Introduce MetaShift + Zen Toolkit to another community
+    edge: Explore MetaShift Toolset with another community
     flows:
       - label: Zen Toolkit - Four Patterns
         url: https://vimeo.com/944675826/c57a7ce142
