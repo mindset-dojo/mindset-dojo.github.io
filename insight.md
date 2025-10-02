@@ -49,42 +49,6 @@ css_id: insight
     {%- endcomment -%}
     {% assign post_url = '/insight/' | append: post_slug | append: '/' | relative_url %}
 
-    {%- comment -%}
-    Resolve image src (supports:
-      - data: URIs (used as-is),
-      - strings containing "base64," (used as-is),
-      - filesystem/asset paths (passed through relative_url),
-      - raw base64 (prepends data:<mime>;base64, using page.image_mime or default image/jpeg)
-    ) 
-    {%- endcomment -%}
-    {% assign raw_img = post.image | default: "" | strip %}
-    {% if raw_img != "" %}
-      {% if raw_img contains "data:" %}
-        {% assign img_src = raw_img %}
-      {% elsif raw_img contains "base64," %}
-        {% assign img_src = raw_img %}
-      {% elsif raw_img contains "/" or raw_img contains "." %}
-        {% assign img_src = raw_img | relative_url %}
-      {% else %}
-        {% assign img_mime = post.image_mime | default: "image/jpeg" %}
-        {% assign img_src = "data:" | append: img_mime | append: ";base64," | append: raw_img %}
-      {% endif %}
-    {% else %}
-      {% assign img_src = "" %}
-    {% endif %}
-
-    <article class="insight-item">
-      {%- if img_src != "" -%}
-        <a href="{{ post_url }}">
-          <img
-            src="{{ '/insight/' | append: img_src }}"
-            alt="{{ post.image_alt | default: post.title | escape }}"
-            loading="lazy"
-            class="insight-hero"
-          >
-        </a>
-      {%- endif -%}
-
       <h3>
         <a href="{{ post_url }}">
           {{ post.title }}
@@ -96,16 +60,6 @@ css_id: insight
       <div class="excerpt">
         {{ post.excerpt | default: post.content | strip_html | truncate: 220 }}
       </div>
-
-      {% if post.tags %}
-        <p class="tags">
-          {% for tag in post.tags %}
-            {% assign tag_slug = tag | slugify %}
-              <a href="{{ '/insight/' | append: 'tag-' | append: tag_slug | append: '/' | relative_url }}" class="tag">{{ tag }}</a>
-          {% unless forloop.last %}, {% endunless %}
-          {% endfor %}
-        </p>
-      {% endif %}
     </article>
 
     <hr>
