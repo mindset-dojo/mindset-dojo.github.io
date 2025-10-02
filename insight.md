@@ -77,7 +77,7 @@ css_id: insight
       {%- if img_src != "" -%}
         <a href="{{ post_url }}">
           <img
-            src="{{ img_src }}"
+            src="{{ '/insight/' | append: img_src }}"
             alt="{{ post.image_alt | default: post.title | escape }}"
             loading="lazy"
             class="insight-hero"
