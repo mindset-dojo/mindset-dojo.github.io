@@ -117,5 +117,3 @@ Their lineage of presence, shadow-awareness, and embodied leadership have quietl
 In offering this article, I stand on the shoulders of those who taught me to meet fear with presence, speak with clarity, and face shadow with curiosity — and dedicate what follows to carrying that spirit forward.
 
 ---
-
-![image_alt](image)
