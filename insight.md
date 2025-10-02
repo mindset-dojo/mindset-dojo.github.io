@@ -100,7 +100,9 @@ css_id: insight
       {% if post.tags %}
         <p class="tags">
           {% for tag in post.tags %}
-            <a href="{{ '/insight/' | append: tag | slugify | append: '/' | relative_url }}" class="tag">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
+            {% assign tag_slug = tag | slugify %}
+              <a href="{{ '/insight/' | append: 'tag-' | append: tag_slug | append: '/' | relative_url }}" class="tag">{{ tag }}</a>
+          {% unless forloop.last %}, {% endunless %}
           {% endfor %}
         </p>
       {% endif %}
