@@ -22,9 +22,9 @@ css_id: insight
 
   {% for post in insight_posts %}
     {%- comment -%}
-    Build a safe slug (use post.slug if available; fallback to post.title|slugify).
+    Build a usable URL.
     {%- endcomment -%}
-    {% assign post_slug = post.slug | default: post.title | slugify %}
+    {% assign post_url = post.permalink | relative_url %}
 
     {%- comment -%}
     Resolve image src (supports data: URIs, path strings, or raw base64).
@@ -47,7 +47,7 @@ css_id: insight
 
     <article class="insight-item">
       {%- if img_src != "" -%}
-        <a href="{{ '/insight/' | append: post_slug | append: '/' | relative_url }}">
+        <a href="{{ '/insight/' | append: post_url | append: '/' | relative_url }}">
           <img
             src="{{ img_src }}"
             alt="{{ post.image_alt | default: post.title | escape }}"
@@ -58,7 +58,7 @@ css_id: insight
       {%- endif -%}
 
       <h3>
-        <a href="{{ '/insight/' | append: post_slug | append: '/' | relative_url }}">
+        <a href="{{ '/insight/' | append: post_url | append: '/' | relative_url }}">
           {{ post.title }}
         </a>
       </h3>
