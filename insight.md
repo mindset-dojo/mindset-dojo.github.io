@@ -24,7 +24,7 @@ css_id: insight
     {%- comment -%}
     Build a usable URL.
     {%- endcomment -%}
-    {% assign post_url = '/insight' | post.permalink | relative_url %}
+    {% assign post_url = '/insight' | post.permalink %}
 
     {%- comment -%}
     Resolve image src (supports data: URIs, path strings, or raw base64).
