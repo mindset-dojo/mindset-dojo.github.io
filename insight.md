@@ -10,9 +10,11 @@ css_id: insight
   <h2>Insight Stream (Newest → Oldest)</h2>
 
   {%- comment -%}
-  - Stream posts tagged "insight" by default; falls back to all posts if none.
-  - Links are generated as: /insight/<slug>/  (use relative_url to respect baseurl)
-  - Tag links are generated as: /insight/<tag-slug>/ 
+  Stream behavior:
+  - By default shows posts tagged "insight"; falls back to all posts if none.
+  - Article URLs resolve to: /insight/<slug>/
+  - Tag URLs resolve to: /insight/<tag-slug>/
+  - Image handling supports data: URIs, path strings, or raw base64 (with optional page.image_mime).
   {%- endcomment -%}
 
   {% assign insight_posts = site.posts | where_exp: "post", "post.tags contains 'insight'" %}
@@ -22,12 +24,38 @@ css_id: insight
 
   {% for post in insight_posts %}
     {%- comment -%}
-    Build a usable URL.
+    Build a safe slug for the post:
+      1) prefer post.slug
+      2) fallback to last segment of post.url (handles /:year/:month/:day/slug/ or /slug/)
+      3) final fallback to post.title | slugify
     {%- endcomment -%}
-    {% assign post_url = '/insight' | post.permalink %}
+    {% assign post_slug = post.slug %}
+    {% if post_slug == nil or post_slug == "" %}
+      {% assign segments = post.url | split: '/' %}
+      {% assign last = segments | last %}
+      {% if last == "" %}
+        {% comment %} url ended with a slash; take the second-to-last segment {% endcomment %}
+        {% assign post_slug = segments[segments.size | minus: 2] %}
+      {% else %}
+        {% assign post_slug = last %}
+      {% endif %}
+    {% endif %}
+    {% if post_slug == nil or post_slug == "" %}
+      {% assign post_slug = post.title | slugify %}
+    {% endif %}
 
     {%- comment -%}
-    Resolve image src (supports data: URIs, path strings, or raw base64).
+    Construct final post URL under the /insight/ directory and make it baseurl-safe.
+    {%- endcomment -%}
+    {% assign post_url = '/insight/' | append: post_slug | append: '/' | relative_url %}
+
+    {%- comment -%}
+    Resolve image src (supports:
+      - data: URIs (used as-is),
+      - strings containing "base64," (used as-is),
+      - filesystem/asset paths (passed through relative_url),
+      - raw base64 (prepends data:<mime>;base64, using page.image_mime or default image/jpeg)
+    ) 
     {%- endcomment -%}
     {% assign raw_img = post.image | default: "" | strip %}
     {% if raw_img != "" %}
