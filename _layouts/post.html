@@ -57,7 +57,7 @@ Front matter supported:
 
     <figure class="post-image" role="img" aria-label="{{ page.image_alt | default: page.title }}">
       <img
-        src="{{ img_src }}"
+        src="{{ '/insight/' | append: img_src }}"
         alt="{{ page.image_alt | default: page.title | escape }}"
         loading="lazy"
         class="post-image__img"
