@@ -60,8 +60,6 @@ css_id: insight
       <div class="excerpt">
         {{ post.excerpt | default: post.content | strip_html | truncate: 220 }}
       </div>
-    </article>
-
     <hr>
   {% endfor %}
 </section>
