@@ -1,8 +1,28 @@
 ---
 rally: Fearless Leadership
+mantra: "Don't Complain. Train."
 mission: |
   Our mission is to bring the gift of fearlessness — se-mu-i — into homes, classrooms, dojos, and boardrooms.
   We train not just the mind, but the body, tone, and timing that cultivate presence under pressure.
+homepage:
+  intro_lines:
+    - "When the pressure hits, you don’t rise to the level of your best intentions."
+    - "You reveal the level of your conditioning."
+  scenario_lines:
+    - "In the middle of a hard conversation…"
+    - "When trust is on the line…"
+    - "In that flash between stimulus and response…"
+  pullquote: "The body speaks, not the polished script."
+  why_we_train:
+    - "Because awareness isn’t enough — you can name the pattern and still fall into it."
+    - "Because in high-stakes moments, you won’t have time to think — only time to respond."
+    - "Because pressure doesn’t reveal your potential — it reveals your practice."
+  practice_bullets:
+    - "We practice live, in real conversations — where timing, tone, and tension are felt."
+    - "We reflect between reps — using voice notes to recalibrate and deepen awareness."
+    - "We progress with purpose — using a belt path that honors embodied thresholds."
+  community_bridge: "⛩️ Meet the community"
+  program_cta: "Cross the Threshold"
 principles:
   - label: Relax completely
   - label: Center with intention
