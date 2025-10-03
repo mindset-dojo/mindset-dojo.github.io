@@ -5,7 +5,7 @@ live_url: https://mindset.dojo.center
 repo_url: https://github.com/mindset-dojo/mindset-dojo.github.io
 
 header_links:
-  - label: COMMUNITY
+  - label: MISSION
     href: /
   - label: PROGRAM
     href: /program
@@ -15,7 +15,7 @@ header_links:
     href: /insight
 
 footer_primary_links:
-  - label: COMMUNITY
+  - label: MISSION
     href: /
   - label: PROGRAM
     href: /program

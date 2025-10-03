@@ -10,7 +10,9 @@ css_id: program
 <section>
   <h2>{{ program.rally }}</h2>
   <br>
-  <p>{{ program.mission | newline_to_br | replace: '<br />','<br /><br />' }}</p>
+  {% for item in program.mission %}
+  <p>{{ item }}</p>
+  {% endfor %}
 </section>
 
 <section>
@@ -72,7 +74,7 @@ css_id: program
 </section>
 
 <div class="md-cta-group">
-    <a href="{{'/' | relative_url }}">Engage Community</a>
+    <a href="{{'/' | relative_url }}">Engage Mission</a>
 </div>
 
 

@@ -1,9 +1,9 @@
 ---
 rally: Fearless Leadership
 mantra: "Don't Complain. Train."
-mission: |
-  Our mission is to bring the gift of fearlessness — se-mu-i — into homes, classrooms, dojos, and boardrooms.
-  We train not just the mind, but the body, tone, and timing that cultivate presence under pressure.
+mission:
+  - Our mission is to bring the gift of fearlessness — se-mu-i — into homes, classrooms, dojos, and boardrooms.
+  - We train not just the mind, but the body, tone, and timing that cultivate presence under pressure.
 homepage:
   intro_lines:
     - "When the pressure hits, you don’t rise to the level of your best intentions."
@@ -21,7 +21,7 @@ homepage:
     - "We practice live, in real conversations — where timing, tone, and tension are felt."
     - "We reflect between reps — using voice notes to recalibrate and deepen awareness."
     - "We progress with purpose — using a belt path that honors embodied thresholds."
-  community_bridge: "⛩️ Meet the community"
+  investor_bridge: "⛩️ Meet the active investors"
   program_cta: "Cross the Threshold"
 principles:
   - label: Relax completely
