@@ -24,7 +24,7 @@ You don’t have to be technically savvy — contributions can be as simple as:
 * Writing about your **practice reflections and insights** on [LinkedIn](https://www.linkedin.com/) or [Medium](https://medium.com/)  
 * Helping with **design, writing, or small improvements** to the site
 
-We are inspired by lightweight practices:
+We value **presence over process**:
 
 * Project flow is inspired by [Kanban](https://en.wikipedia.org/wiki/Kanban_(development))
 * Cards are collectively created and refined inspired by [User Story](https://en.wikipedia.org/wiki/User_story) form
