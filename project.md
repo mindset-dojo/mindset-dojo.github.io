@@ -12,7 +12,7 @@ The [Site]({{'/' | relative_url}}) is hosted on [GitHub](https://github.com/), a
 
 The Mindset Dojo infrastructure is built as an [Open Source](https://opensource.com/resources/what-open-source) project, which means anyone can see how it works, suggest improvements, and even contribute directly.
 
-We’ve released the Mindset Dojo site under an **Open Source [License]({{'/LICENSE' | relative_url}})**, which simply means the code and content is shared freely for anyone to learn from, use, or improve with proper attribution — much like leaving the workshop door open so the whole community can join in.
+We’ve released the Mindset Dojo site under an **Open Source [License]({{'/LICENSE' | relative_url}})**, which simply means the code and content is shared freely for anyone to learn from, use, or improve with proper attribution — much like leaving the workshop door open so that values-aligned people can join in.
 
 ---
 
@@ -30,7 +30,7 @@ We are inspired by lightweight practices:
 * Cards are collectively created and refined inspired by [User Story](https://en.wikipedia.org/wiki/User_story) form
 * [Empirical Inspection](https://www.scrum.org/resources/blog/three-pillars-empiricism-scrum) occurs weekly in a Cultivator-only Mat session
 
-Contributions are welcome and voluntary; the community accepts those that align with the dojo’s harmony and direction.  
+Contributions are welcome and voluntary; we accept those that align with the dojo’s harmony and direction.  
 
 ---
 
@@ -53,12 +53,12 @@ Here are the principles we keep close:
 
 ---
 
-### Joining the Community
+### Investing in the Mission
 
-If you’re new, don’t worry — you don’t have to figure it out alone. Reach out to a member when making your first contribution. There’s no formal mentorship program, but informal support and pairing are common here. We learn and grow together.
+If you’re new, don’t worry — you don’t have to figure it out alone. Reach out to a mission investor when making your first contribution. There’s no formal mentorship program, but informal support and pairing are common here. We learn and grow together.
 
 <div class="md-cta-group">
-    <a href="{{ '/' | relative_url }}">Explore Community</a>
+    <a href="{{ '/' | relative_url }}">Connect</a>
 </div>
 
 ---
@@ -73,9 +73,9 @@ Project leadership designations are *voluntary* and reviewed periodically to ens
   * ***Green Level*** in the [Program]({{'/program' | relative_url}})
   * Sponsored by an existing Cultivator
 * **Acts** as a servant leadership influencer in social media and in-person conversations  
-* **Amplifies** community resonance and synchronizes shared voice  
-* **Recruits** and welcomes new members into the dojo  
-* **Embodies** the Mission, the Community, and the Individual in practice
+* **Amplifies** mission resonance and synchronizes shared voice  
+* **Enrolls** and invites fresh investment into the dojo  
+* **Embodies** the Mission, the Culture, and the Individual in practice
 
 ### Infrastructure Cultivator
 
@@ -96,7 +96,7 @@ Project leadership designations are *voluntary* and reviewed periodically to ens
   * Supports the training of students from ***Gray Level*** through ***Black Level***
   * Sponsored by an existing Cultivator
 * **Curates** both the **codebase** and the **program structure**
-* **Embodies** the **intention of Mindset Dojo's program and community** at a higher level of practice
+* **Embodies** the **intention of Mindset Dojo's program and culture** at a higher level of practice
 * **Guides** others in principled contribution and practical expression
 * **Observes and evolves** the connective tissue between project and program
 * **Consults with** with Organizational Ownership when it makes sense

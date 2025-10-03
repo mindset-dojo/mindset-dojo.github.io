@@ -74,7 +74,7 @@ css_id: program
 </section>
 
 <div class="md-cta-group">
-    <a href="{{'/' | relative_url }}">Engage Community</a>
+    <a href="{{'/' | relative_url }}">Engage Mission</a>
 </div>
 
 

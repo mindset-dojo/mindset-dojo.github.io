@@ -41,15 +41,15 @@ css_id: home
   {% endfor %}
 </ul>
 
-<p><strong>{{ homepage.community_bridge }}</strong></p>
+<p><strong>{{ homepage.investor_bridge }}</strong></p>
 
-<div class="md-members">
-  {%- assign profiles = site.data.members.profiles -%}
-  {%- assign avatars  = site.data.members.avatars -%}
+<div class="md-investors">
+  {%- assign profiles = site.data.investors.profiles -%}
+  {%- assign avatars  = site.data.investors.avatars -%}
   {%- assign entries  = "" | split: "|" -%}
 
   {%- comment -%}
-    1) Build sortable list of active members
+    1) Build sortable list of active investors
        Format: [padded -belt]|[join_date]|[key]
   {%- endcomment -%}
   {% for pair in profiles %}
