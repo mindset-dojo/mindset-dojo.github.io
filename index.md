@@ -29,7 +29,9 @@ css_id: home
 
 <h2>{{ program.rally }} starts here</h2>
 
-<p>{{ program.mission | newline_to_br | replace: '<br />','<br /><br />' }}</p>
+  {% for item in program.mission %}
+  <p>{{ item.label }}</p>
+  {% endfor %}
 
 <ul>
   {% for item in homepage.practice_bullets %}
