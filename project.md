@@ -67,11 +67,21 @@ If you’re new, don’t worry — you don’t have to figure it out alone. Reac
 
 Project leadership designations are *voluntary* and reviewed periodically to ensure mutual clarity and care.
 
+### Social Cultivator
+
+* **Qualifications:**
+  * ***Green Level*** in the [Program]({{'/program' | relative_url}})
+  * Sponsored by an existing Cultivator
+* **Acts** as a servant leadership influencer in social media and in-person conversations  
+* **Amplifies** community resonance and synchronizes shared voice  
+* **Recruits** and welcomes new members into the dojo  
+* **Embodies** the Mission, the Community, and the Individual in practice
+
 ### Infrastructure Cultivator
 
 * **Qualifications:**
   * ***Purple Level*** in the [Program]({{'/program' | relative_url}})
-  * Sponsored by a Project Cultivator
+  * Sponsored by an existing Cultivator
 * **Demonstrates** technical fluency and principled contribution
 * **Curates** the **codebase**
 * **May** merge pull requests and curate discussions
@@ -83,7 +93,7 @@ Project leadership designations are *voluntary* and reviewed periodically to ens
   * ***Black Level*** in the [Program]({{'/program' | relative_url}})
   * Completion of the first step of the [Zen Leadership Instructor](https://zenleader.global/programs/coachinstructor/zlinstructor) pathway
   * Supports the training of students from ***Gray Level*** through ***Black Level***
-  * Sponsored by an Organizational Cultivator
+  * Sponsored by an existing Cultivator
 * **Curates** both the **codebase** and the **program structure**
 * **Embodies** the **intention of Mindset Dojo's program and community** at a higher level of practice
 * **Guides** others in principled contribution and practical expression
@@ -96,7 +106,7 @@ Project leadership designations are *voluntary* and reviewed periodically to ens
   * ***Black Level*** in the [Program]({{'/program' | relative_url}})
   * [Zen Leadership Instructor](https://zenleader.global/programs/coachinstructor/zlinstructor) designation
   * Matriculates students from ***Gray Level*** through ***Black Level***
-  * Sponsored by an Organizational Cultivator
+  * Sponsored by an existing Cultivator
 * **Responsible** for managing provisional access (elevation and removal) to facilitate feature deployment
 * **Oversees** the broader digital ecosystem (domain, branding, analytics)
 * **Demonstrates and enrolls** through various social, personal, and professional circles
