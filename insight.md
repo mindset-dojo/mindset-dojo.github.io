@@ -61,7 +61,7 @@ css_id: insight
       Insert image at bottom
       {%- endcomment -%}
       {% assign post_slug = post.slug | default: post.title | slugify %}
-      {% assign post_date = post.date | default: "01-01-2025" | slugify %}
+      {% assign post_date = post.date | default: "2025-01-01" | date: "%Y-%m-%d" | slugify %}
       {% assign img_path = "/media/images/" | append: post_date | append: post_slug | append: ".jpg" %}
       <img src="{{ img_path | relative_url }}" alt="{{ post.image_alt | default: post.title | escape }}" class="insight-thumb" loading="lazy">
 
