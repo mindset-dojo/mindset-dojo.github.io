@@ -1,6 +1,28 @@
 ---
 rally: Fearless Leadership
-mission: We help communities facing socio-emotional turbulence form islands of coherence
+mantra: "Don't Complain. Train."
+mission: |
+  Our mission is to bring the gift of fearlessness — se-mu-i — into homes, classrooms, dojos, and boardrooms.
+  We train not just the mind, but the body, tone, and timing that cultivate presence under pressure.
+homepage:
+  intro_lines:
+    - "When the pressure hits, you don’t rise to the level of your best intentions."
+    - "You reveal the level of your conditioning."
+  scenario_lines:
+    - "In the middle of a hard conversation…"
+    - "When trust is on the line…"
+    - "In that flash between stimulus and response…"
+  pullquote: "The body speaks, not the polished script."
+  why_we_train:
+    - "Because awareness isn’t enough — you can name the pattern and still fall into it."
+    - "Because in high-stakes moments, you won’t have time to think — only time to respond."
+    - "Because pressure doesn’t reveal your potential — it reveals your practice."
+  practice_bullets:
+    - "We practice live, in real conversations — where timing, tone, and tension are felt."
+    - "We reflect between reps — using voice notes to recalibrate and deepen awareness."
+    - "We progress with purpose — using a belt path that honors embodied thresholds."
+  community_bridge: "⛩️ Meet the community"
+  program_cta: "Cross the Threshold"
 principles:
   - label: Relax completely
   - label: Center with intention
@@ -170,26 +192,19 @@ levels:
         url: https://www.choseizen.org/virtual-dojo
       - label: Two Sides Integrative Randori with Beyond the Black Belt Circle
         url: https://vimeo.com/944663134/d4f1c4f333
-relationships:
-  - label: Zōhai
-    intention: Growth through attentive following and contribution through fresh experimentation
-    aspects:
-      - label: Attend Mat sessions regularly
-      - label: Create and share Insight periodically
-      - label: Connect with Zenpai periodically for one-on-one training
-      - label: Active orientation when training with someone more senior by Level (Zenpai)
+designations:
   - label: Zenpai
     intention: Guidance through lived example and deepening through co-learning
     aspects:
       - label: Attend Mat sessions regularly, lead periodically
-      - label: Create and share Insight regularly, guiding Zōhai
-      - label: Connect with Zōhai and Zensei periodically for one-on-one training
-      - label: Active orientation when training with someone more junior by Level (Zōhai)
+      - label: Create and share Insight regularly
+      - label: 'Connect with junior students (by level - "Zōhai") periodically for one-on-one training'
+      - label: Blue Level+
   - label: Zensei
     intention: Stewardship through modeling and evolution through community feedback
     aspects:
       - label: Lead Mat sessions regularly
-      - label: Create and share Insight regularly, guiding Zenpai and Zōhai
-      - label: Connect with Zenpai (and Zōhai) regularly for one-on-one training
+      - label: Create and share Insight regularly
+      - label: Connect with Zenpai regularly for one-on-one training
       - label: Black Level, Zen Leadership Instructor designation
 ...
