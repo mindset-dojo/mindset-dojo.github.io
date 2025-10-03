@@ -23,20 +23,18 @@ In that flash between stimulus and response…</p>
   <li>Because pressure doesn’t reveal your potential — it reveals your practice.</li>
 </ul>
 
-<h2>How We Train</h2>
+{% assign program = site.data.program %}
+<h2>{{ program.rally }} starts here</h2>
+
+<p>{{ program.mission }}</p>
+
 <ul>
   <li>We practice live, in real conversations — where timing, tone, and tension are felt.</li>
   <li>We reflect between reps — using voice notes to recalibrate and deepen awareness.</li>
   <li>We progress with purpose — using a belt path that honors embodied thresholds.</li>
 </ul>
 
-<p>This isn’t theory.<br>
-It’s not therapy.<br>
-It’s not just coaching.</p>
-
-<blockquote><strong>It’s training for any and all life arenas—through conversations that matter.</strong></blockquote>
-
-<p><strong>⛩️ Get on the Mat.</strong></p>
+<p><strong>⛩️ Meet the community</strong></p>
 
 <div class="md-members">
 
