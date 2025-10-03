@@ -67,6 +67,16 @@ If you’re new, don’t worry — you don’t have to figure it out alone. Reac
 
 Project leadership designations are *voluntary* and reviewed periodically to ensure mutual clarity and care.
 
+### Social Cultivator
+
+* **Qualifications:**
+  * ***Green Level*** in the [Program]({{'/program' | relative_url}})
+  * Sponsored by a Project Cultivator
+* **Acts** as a servant leadership influencer in social media and in-person conversations  
+* **Amplifies** community resonance and synchronizes shared voice  
+* **Recruits** and welcomes new members into the dojo  
+* **Embodies** the Mission, the Community, and the Individual in practice
+
 ### Infrastructure Cultivator
 
 * **Qualifications:**
