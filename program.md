@@ -10,7 +10,7 @@ css_id: program
 <section>
   <h2>{{ program.rally }}</h2>
   <br>
-  <p>{{ program.mission }}</p>
+  <p>{{ program.mission | newline_to_br | replace: '<br />','<br /><br />' }}</p>
 </section>
 
 <section>
