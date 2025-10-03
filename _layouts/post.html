@@ -28,11 +28,19 @@ Front matter supported:
     {{ content }}
   </div>
 
-      {%- comment -%}
-      Insert image at bottom
-      {%- endcomment -%}
-      {% assign post_slug = post.slug | default: post.title | slugify %}
-      {% assign post_date = post.date | default: "2025-01-01" | date: "%Y-%m-%d" | slugify %}
-      {% assign img_path = "/media/images/" | append: post_date | append: "-" | append: post_slug | append: ".jpg" %}
-      <img src="{{ img_path | relative_url }}" alt="{{ post.image_alt | default: post.title | escape }}" class="insight-thumb" loading="lazy">
+  {%- comment -%}
+  Insert image at bottom of a post.
+  Build image path as /media/images/YYYY-MM-DD-slug.jpg
+  {%- endcomment -%}
+
+  {% assign slug_part = page.slug | default: page.title | slugify %}
+  {% assign date_part = page.date | date: "%Y-%m-%d" %}
+  {% assign img_relative = "/media/images/" | append: date_part | append: "-" | append: slug_part | append: ".jpg" %}
+  <img
+    src="{{ img_relative | relative_url }}"
+    alt="{{ page.image_alt | default: page.title | escape }}"
+    class="post-bottom-image"
+    loading="lazy"
+  />
+
 </article>
