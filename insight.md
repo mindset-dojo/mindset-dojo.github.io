@@ -57,6 +57,8 @@ css_id: insight
 
       <p class="meta">By {{ post.author | default: site.author }} — {{ post.date | date: "%b %-d, %Y" }}</p>
 
+      <img src="{{ img_path | relative_url }}" alt="{{ post.image_alt | default: post.title | escape }}" class="insight-thumb" loading="lazy">
+
       <div class="excerpt">
         {{ post.excerpt | default: post.content | strip_html | truncate: 220 }}
       </div>
