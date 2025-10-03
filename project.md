@@ -81,11 +81,12 @@ Project leadership designations are *voluntary* and reviewed periodically to ens
 
 * **Qualifications:**
   * ***Purple Level*** in the [Program]({{'/program' | relative_url}})
-  * Sponsored by an existing Cultivator
-* **Demonstrates** technical fluency and principled contribution
-* **Curates** the **codebase**
-* **May** merge pull requests and curate discussions
-* **Operates** as a steward and ambassador
+  * Sponsored by an existing Cultivator  
+* **Demonstrates** domain fluency and principled contribution  
+* **Curates** the infrastructure of their domain (legal framework, moderation policy, systems, processes, etc.)  
+* **May** enact changes, approve contributions, or guide discussions in their domain  
+* **Operates** as a steward, facilitator, and ambassador for that domain’s health and alignment  
+
 
 ### Project Cultivator
 
