@@ -11,7 +11,7 @@ css_id: program
   <h2>{{ program.rally }}</h2>
   <br>
   {% for item in program.mission %}
-  <p>{{ item.label }}</p>
+  <p>{{ item }}</p>
   {% endfor %}
 </section>
 

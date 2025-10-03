@@ -30,7 +30,7 @@ css_id: home
 <h2>{{ program.rally }} starts here</h2>
 
   {% for item in program.mission %}
-  <p>{{ item.label }}</p>
+  <p>{{ item }}</p>
   {% endfor %}
 
 <ul>
