@@ -27,4 +27,11 @@ Front matter supported:
   <div class="post-body">
     {{ content }}
   </div>
+
+  {%- comment -%}
+  Insert image at bottom
+  {%- endcomment -%}
+  {% assign post_slug = post.slug | default: post.title | slugify %}
+  {% assign img_path = "/media/images/" | append: post_slug | append: ".jpg" %}
+  <img src="{{ img_path | relative_url }}" alt="{{ page.image_alt | default: page.title | escape }}" class="post-bottom-image" loading="lazy">
 </article>
