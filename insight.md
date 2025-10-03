@@ -7,8 +7,6 @@ css_id: insight
 ---
 
 <section id="insights-stream">
-  <h2>Insight Stream (Newest → Oldest)</h2>
-
   {%- comment -%}
   Stream behavior:
   - By default shows posts tagged "insight"; falls back to all posts if none.
