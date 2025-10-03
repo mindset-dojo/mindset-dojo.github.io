@@ -48,9 +48,7 @@ css_id: insight
     {% assign post_url = '/insight/' | append: post_slug | append: '/' | relative_url %}
 
       <h3>
-        <a href="{{ post_url }}">
-          {{ post.title }}
-        </a>
+        [post.title](post_url)
       </h3>
 
       <p class="meta">By {{ post.author | default: site.author }} — {{ post.date | date: "%b %-d, %Y" }}</p>
