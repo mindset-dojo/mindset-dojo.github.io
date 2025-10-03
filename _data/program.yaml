@@ -183,13 +183,13 @@ relationships:
     aspects:
       - label: Attend Mat sessions regularly, lead periodically
       - label: Create and share Insight regularly, guiding Zōhai
-      - label: Connect with Zōhai and Sensei periodically for one-on-one training
+      - label: Connect with Zōhai and Zensei periodically for one-on-one training
       - label: Active orientation when training with someone more junior by Level (Zōhai)
   - label: Zensei
     intention: Stewardship through modeling and evolution through community feedback
     aspects:
       - label: Lead Mat sessions regularly
-      - label: Create and share Insight regularly, guiding Zenpai and Kōhai
+      - label: Create and share Insight regularly, guiding Zenpai and Zōhai
       - label: Connect with Zenpai (and Zōhai) regularly for one-on-one training
       - label: Black Level, Zen Leadership Instructor designation
 ...
