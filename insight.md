@@ -56,7 +56,12 @@ css_id: insight
       </h3>
 
       <p class="meta">By {{ post.author | default: site.author }} — {{ post.date | date: "%b %-d, %Y" }}</p>
-
+      
+      {%- comment -%}
+      Insert image at bottom
+      {%- endcomment -%}
+      {% assign post_slug = post.slug | default: post.title | slugify %}
+      {% assign img_path = "/media/images/" | append: post_slug | append: ".jpg" %}
       <img src="{{ img_path | relative_url }}" alt="{{ post.image_alt | default: post.title | escape }}" class="insight-thumb" loading="lazy">
 
       <div class="excerpt">
