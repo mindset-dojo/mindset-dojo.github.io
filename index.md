@@ -33,6 +33,8 @@ css_id: home
   <p>{{ item }}</p>
   {% endfor %}
 
+<hr/>
+
 <ul>
   {% for item in homepage.practice_bullets %}
     <li>{{ item }}</li>
