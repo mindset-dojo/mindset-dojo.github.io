@@ -3,43 +3,43 @@ layout: default
 title: Don’t Complain. Train.
 h1_mark: Train
 h1_hr: true
-description: Mindset Dojo is a global training ground for the inner game of presence, leadership, and emotional clarity. For conversations that matter—across all life arenas.
+description: A dojo for Fearless Leadership—bringing the gift of fearlessness (se-mu-i) into homes, classrooms, dojos, and boardrooms. We train mind, body, tone, and timing to cultivate presence under pressure.
 css_id: home
 ---
 
-<p>When the pressure hits, you don’t rise to the level of your best intentions.<br>
-You reveal the level of your conditioning.</p>
+{% assign program = site.data.program %}
+{% assign homepage = program.homepage %}
 
-<p>In the middle of a hard conversation…<br>
-When trust is on the line…<br>
-In that flash between stimulus and response…</p>
+<p>
+  {{ homepage.intro_lines | join: '<br>' }}
+</p>
 
-<blockquote><strong>The body speaks, not the polished script.</strong></blockquote>
+<p>
+  {{ homepage.scenario_lines | join: '<br>' }}
+</p>
+
+<blockquote><strong>{{ homepage.pullquote }}</strong></blockquote>
 
 <h2>Why We Train</h2>
 <ul>
-  <li>Because awareness isn’t enough — you can name the pattern and still fall into it.</li>
-  <li>Because in high-stakes moments, you won’t have time to think — only time to respond.</li>
-  <li>Because pressure doesn’t reveal your potential — it reveals your practice.</li>
+  {% for item in homepage.why_we_train %}
+    <li>{{ item }}</li>
+  {% endfor %}
 </ul>
 
-<h2>How We Train</h2>
+<h2>{{ program.rally }} starts here</h2>
+
+<p>{{ program.mission | newline_to_br | replace: '<br />','<br /><br />' }}</p>
+
 <ul>
-  <li>We practice live, in real conversations — where timing, tone, and tension are felt.</li>
-  <li>We reflect between reps — using voice notes to recalibrate and deepen awareness.</li>
-  <li>We progress with purpose — using a belt path that honors embodied thresholds.</li>
+  {% for item in homepage.practice_bullets %}
+    <li>{{ item }}</li>
+  {% endfor %}
 </ul>
 
-<p>This isn’t theory.<br>
-It’s not therapy.<br>
-It’s not just coaching.</p>
-
-<blockquote><strong>It’s training for any and all life arenas—through conversations that matter.</strong></blockquote>
-
-<p><strong>⛩️ Get on the Mat.</strong></p>
+<p><strong>{{ homepage.community_bridge }}</strong></p>
 
 <div class="md-members">
-
   {%- assign profiles = site.data.members.profiles -%}
   {%- assign avatars  = site.data.members.avatars -%}
   {%- assign entries  = "" | split: "|" -%}
@@ -72,5 +72,5 @@ It’s not just coaching.</p>
 </div>
 
 <div class="md-cta-group">
-    <a href="{{ '/program' | relative_url }}">Explore Program</a>
+  <a href="{{ '/program' | relative_url }}">{{ homepage.program_cta }}</a>
 </div>
