@@ -6,6 +6,7 @@ h1_hr: true
 date: 2025-09-30
 author: "Kyle Ingersoll"
 excerpt: "How fear becomes a teacher and what its shadow reveals about presence and response."
+image_extension: jpg
 ---
 
 When people talk about Incident Response, they often think of flashing alerts, hackers in hoodies, or sudden technical heroics. In truth, it’s much more human than that. It’s about how people work when systems fail, how calmly we communicate under stress, and how quickly we transform disruption into recovery.
