@@ -11,16 +11,27 @@ css_id: project
 {% assign program = site.data.program %}
 
 <section>
-  <p>{{ context.intro_lines | join: '<br>' }}</p>
-  <p>{{ context.scenario_lines | join: '<br>' }}</p>
+  <h2>Our Core Motivations </h2>
+  <ul>
+    {% for item in context.core_motivations %}
+      <li>{{ item }}</li>
+    {% endfor %}
+  </ul>
 </section>
-
-<blockquote><strong>{{ context.pullquote }}</strong></blockquote>
 
 <section>
   <h2>Why We Contribute</h2>
   <ul>
-    {% for item in context.why_we_build %}
+    {% for item in context.contribution_motivations %}
+      <li>{{ item }}</li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section>
+  <h2>Contribution Invitations</h2>
+  <ul>
+    {% for item in context.contribution_invitations %}
       <li>{{ item }}</li>
     {% endfor %}
   </ul>

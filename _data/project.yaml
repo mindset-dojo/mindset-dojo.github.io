@@ -1,19 +1,18 @@
 ---
 mantra: "Don't Hoard. Share."
 context:
-  intro_lines:
+  core_motivations:
     - "Our project is a shared practice of simplicity and coherence."
     - "We refine our systems, language, and flow through steady, mindful iteration."
     - "Each contribution strengthens the pattern of fearlessness in form."
-  scenario_lines:
-    - "You notice a friction in the docs."
-    - "You refactor a phrase or function toward clarity."
-    - "You offer a pattern that helps others move with ease."
-  pullquote: "Code, content, and conversation — all are forms of cultivation"
-  why_we_contribute:
+  contribution_motivations:
     - "Make contribution as natural as conversation."
     - "Create infrastructure that teaches as it grows."
     - "Invite courage through transparency and simplicity."
+  contribution_invitations:
+    - "You notice a friction in the docs."
+    - "You refactor a phrase or function toward clarity."
+    - "You offer a pattern that helps others move with ease."
   repo_call_to_action: Enter the Dojo
 designations:
   - label: Social Cultivator
