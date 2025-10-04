@@ -126,7 +126,7 @@ And so there was a bow, lighter than when the dojo was entered.
 
 - **Mindset Dojo Insights — Tone**  
 Explores how tone is the “weather” of a conversation — coloring every word and shifting whether dialogue builds, opens, or shuts down.  
-👉 [Read here]({% post_url 2025-09-22-tone %}) 
+👉 [Read here]({% post_url 2025-09-22-tone %})
 
 - **Mindset Dojo Insights — The Breath of a Stance Shifts the Mountain**  
 Shows how FEBI™ energies appear as stances in posture, breath, and tone — and how recognizing them helps align rather than oppose.  
