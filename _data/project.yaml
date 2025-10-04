@@ -2,17 +2,17 @@
 mantra: "Don't Hoard. Share."
 context:
   intro_lines:
-    - "Our project is a shared practice of simplicity and coherence"
-    - "We refine our systems, language, and flow through steady, mindful iteration"
-    - "Each contribution strengthens the pattern of fearlessness in form"
+    - "Our project is a shared practice of simplicity and coherence."
+    - "We refine our systems, language, and flow through steady, mindful iteration."
+    - "Each contribution strengthens the pattern of fearlessness in form."
   scenario_lines:
-    - "You notice a friction in the docs"
-    - "You refactor a phrase or function toward clarity"
-    - "You offer a pattern that helps others move with ease"
+    - "You notice a friction in the docs."
+    - "You refactor a phrase or function toward clarity."
+    - "You offer a pattern that helps others move with ease."
   why_we_build:
-    - "To make contribution as natural as conversation"
-    - "To create infrastructure that teaches as it grows"
-    - "To invite courage through transparency and simplicity"
+    - "To make contribution as natural as conversation."
+    - "To create infrastructure that teaches as it grows."
+    - "To invite courage through transparency and simplicity."
 project_cta: "Cross the Threshold"
 principles:
   - label: "Work small and reversible"
