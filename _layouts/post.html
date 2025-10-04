@@ -14,10 +14,6 @@ Front matter supported:
 {%- endcomment -%}
 
 <article class="post-article">
-  <header class="post-header">
-    <p class="post-meta">
-      By {{ page.author | default: site.author }} — {{ page.date | date: "%B %-d, %Y" }}
-    </p>
 
   {%- comment -%}
   Insert image at bottom of a post.
@@ -33,6 +29,11 @@ Front matter supported:
     class="post-bottom-image"
     loading="lazy"
   />
+  
+  <header class="post-header">
+    <p class="post-meta">
+      By {{ page.author | default: site.author }} — {{ page.date | date: "%B %-d, %Y" }}
+    </p>
 
     {% if page.excerpt %}
       <p class="post-excerpt">{{ page.excerpt }}</p>
