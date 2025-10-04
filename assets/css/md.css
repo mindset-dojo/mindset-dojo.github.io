@@ -742,60 +742,13 @@ footer nav + nav {
     gap: 8px 24px;
 }
 
-/* [PROGRAM PAGE CENTERING] */
-#program {
-    text-align: center;
-}
-
-#program section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem 1rem;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-#program section h2, 
-#program section p {
-    max-width: 700px;
-    text-align: center;
-    margin: 0 auto 1rem;
-    padding: 0 1rem;
-}
-
-#program section ul {
-    max-width: 700px;
-    margin: 0 auto 1.5rem;
-    padding-left: 0;
-    list-style-position: inside;
-}
-
-#program section ul li {
-    text-align: left;
-}
-
-/* Responsive tweaks for small screens */
-@media (width <= 600px) {
-    #program section {
-        padding: 1rem 0.5rem;
-    }
-
-    #program section ul {
-        max-width: 100%;
-        padding: 0 1rem;
-    }
-
-    #program section ul li {
-        font-size: var(--text-s);
-    }
-}
-
-/* [PROJECT PAGE CENTERING] */
+/* [PAGE CENTERING — Program + Project] */
+#program,
 #project {
   text-align: center;
 }
 
+#program section,
 #project section {
   display: flex;
   flex-direction: column;
@@ -805,6 +758,8 @@ footer nav + nav {
   margin: 0 auto;
 }
 
+#program section h2, 
+#program section p,
 #project section h2,
 #project section p {
   max-width: 700px;
@@ -813,29 +768,35 @@ footer nav + nav {
   padding: 0 1rem;
 }
 
+#program section ul,
 #project section ul {
   max-width: 700px;
   margin: 0 auto 1.5rem;
   padding-left: 0;
-  list-style-position: inside;
+  list-style: none;
+  text-align: left;
 }
 
+#program section ul li,
 #project section ul li {
   text-align: left;
 }
 
 /* Responsive tweaks for small screens */
 @media (width <= 600px) {
-    #project section {
-        padding: 1rem 0.5rem;
-    }
+  #program section,
+  #project section {
+    padding: 1rem 0.5rem;
+  }
 
-    #project section ul {
-        max-width: 100%;
-        padding: 0 1rem;
-    }
+  #program section ul,
+  #project section ul {
+    max-width: 100%;
+    padding: 0 1rem;
+  }
 
-    #project section ul li {
-        font-size: var(--text-s);
-    }
+  #program section ul li,
+  #project section ul li {
+    font-size: var(--text-s);
+  }
 }
