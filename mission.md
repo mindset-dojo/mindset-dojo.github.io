@@ -16,7 +16,7 @@ css_id: home
   <p>{{ item }}</p>
   {% endfor %}
 
-  <hr/>
+  <br/>
 
   {% for item in context.scenario_lines %}
   <p>{{ item }}</p>
