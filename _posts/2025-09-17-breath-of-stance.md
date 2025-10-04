@@ -85,11 +85,11 @@ A way to meet others in the flow of energy, and to invite them higher.
 
 ⸻  
 
-→ [mindset.dojo.center](https://mindset.dojo.center/)  
+👉 [Join the community](https://mindset.dojo.center/)  
 
-⛩️🖥️  
+⛩️🖥️
 
-**Kyle Ingersoll** — Purple Level and Infrastructure Cultivator  
+***Kyle Ingersoll — Purple Level and Infrastructure Cultivator *** 
 
 ⸻  
 

@@ -45,7 +45,8 @@ It is the sharpening edge that deepens our roots, clarifies our direction, and p
 
 ---
 
-→ [mindset.dojo.center](https://mindset.dojo.center/)
+👉 [Join the community](https://mindset.dojo.center/)
 
-⛩️🖥️  
-**Kyle Ingersoll — Brown Level and Infrastructure Cultivator**
+⛩️🖥️
+
+***Kyle Ingersoll — Brown Level and Infrastructure Cultivator***
