@@ -15,9 +15,9 @@ css_id: home
   {% for item in context.intro_lines %}
   <p>{{ item }}</p>
   {% endfor %}
-</section>
 
-<section class="md-flow">
+  <hr/>
+
   {% for item in context.scenario_lines %}
   <p>{{ item }}</p>
   {% endfor %}
@@ -41,11 +41,9 @@ css_id: home
   {% for item in mission.statement %}
   <p>{{ item }}</p>
   {% endfor %}
-</section>
 
-<hr/>
+  <hr/>
 
-<section class="md-flow">
   {% for item in context.practice_bullets %}
   <p>{{ item }}</p>
   {% endfor %}
