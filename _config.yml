@@ -27,7 +27,7 @@ footer_secondary_links:
   - label: Privacy Policy
     href: /privacy
   - label: Open Source License
-    href: /LICENSE
+    href: /license
 
 exclude:
   - Gemfile
