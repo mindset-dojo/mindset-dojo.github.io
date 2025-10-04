@@ -95,12 +95,12 @@ A way to meet others in the flow of energy, and to invite them higher.
 
 ### Related Learning  
 
-**[Mindset Dojo Insights — Tone]**  
+**Mindset Dojo Insights — Tone**  
 Explores how tone is the “weather” of a conversation — coloring every word and shifting whether dialogue builds, opens, or shuts down.  
 
 👉 Read here  
 
-**[Mindset Dojo Insights — Map of Consciousness]**  
+**Mindset Dojo Insights — Map of Consciousness**  
 Introduces the Map of Consciousness as a compass for noticing whether conversations open into creativity or contract into defensiveness.  
 
 👉 Read here  
