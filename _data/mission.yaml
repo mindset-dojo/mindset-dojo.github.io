@@ -2,8 +2,10 @@
 rally: Fearless Leadership
 mantra: "Don't Complain. Train."
 statement:
-  - Our mission is to plant the seed of fearlessness in homes, classrooms, dojos, and boardrooms.
-  - We train not just the mind, but the body, tone, and timing that cultivate presence under pressure.
+  - Our mission is to plant the seed of fearlessness...
+  - Into homes, classrooms, dojos, and boardrooms.
+  - Training not just the mind, but the body, tone, and timing...
+  - Cultivating presence under pressure.
 context:
   scenario_lines:
     - "When the pressure hits, you don’t rise to the level of your best intentions."

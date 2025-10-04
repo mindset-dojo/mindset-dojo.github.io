@@ -618,6 +618,43 @@ main > a:hover {
     background-color: var(--button-background-hover-color);
 }
 
+/* [ FOOTER ] */
+body > footer {
+    font-size: 14px;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--dark-color-primary);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 2px solid var(--border-dark-color);
+    margin-top: auto;
+}
+
+:where(footer nav + nav,
+footer nav + nav a) {
+    letter-spacing: normal;
+}
+
+footer nav + nav {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8px 24px;
+}
+
+footer img {
+    width: 60%;
+    position: fixed;
+    opacity: 0.08;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    object-position: 0;
+    z-index: -1;
+}
+
 /* =========================================
    INVESTORS rules (opt-in)
    ========================================= */
@@ -739,17 +776,6 @@ main > section.md-flow > blockquote {
   }
 }
 
-footer img {
-    width: 60%;
-    position: fixed;
-    opacity: 0.08;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    object-position: 0;
-    z-index: -1;
-}
-
 /* [PAGE SPECIFIC] */
 
 /* [PRIVACY] */
@@ -763,30 +789,4 @@ footer img {
     align-self: center;
     text-align: center;
     margin-bottom: 20px;
-}
-
-/* [ FOOTER ] */
-body > footer {
-    font-size: 14px;
-    flex-direction: column;
-    align-items: center;
-    background-color: var(--dark-color-primary);
-    padding-top: 40px;
-    padding-bottom: 40px;
-    border-top: 2px solid var(--border-dark-color);
-    margin-top: auto;
-}
-
-:where(footer nav + nav,
-footer nav + nav a) {
-    letter-spacing: normal;
-}
-
-footer nav + nav {
-    margin-top: 24px;
-    margin-bottom: 24px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 8px 24px;
 }
