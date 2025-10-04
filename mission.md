@@ -21,14 +21,14 @@ css_id: home
 
 <blockquote><strong>{{ context.pullquote }}</strong></blockquote>
 
-<h2>Why We Train</h2>
+<h2>{{ context.why_we_train_label }}</h2>
 <ul>
   {% for item in context.why_we_train %}
     <li>{{ item }}</li>
   {% endfor %}
 </ul>
 
-<h2>{{ mission.rally }} starts here</h2>
+<h2>{{ mission.rally }} {{ context.mission_rally_suffix_label }}</h2>
 
   {% for item in mission.statement %}
   <p>{{ item }}</p>

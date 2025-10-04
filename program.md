@@ -12,7 +12,7 @@ css_id: program
 {% assign context = program.context %}
 
 <section class="md-flow">
-  <h2>{{ mission.rally }}</h2>
+  <h2>{{ mission.rally }} {{ context.mission_rally_suffix_label }}</h2>
   <br>
   {% for item in mission.statement %}
   <p>{{ item }}</p>
@@ -20,7 +20,7 @@ css_id: program
 </section>
 
 <section class="md-flow">
-  <h2>Principles</h2>
+  <h2>{{ context.principles_label }}</h2>
   <br>
   <ul>
     {% for item in program.principles %}
@@ -30,7 +30,7 @@ css_id: program
 </section>
 
 <section class="md-flow">
-  <h2>Forms</h2>
+  <h2>{{ context.forms_label }}</h2>
   <br>
   <ul>
     {% for item in program.forms %}
@@ -40,7 +40,7 @@ css_id: program
 </section>
 
 <section class="md-flow">
-  <h2>Levels</h2>
+  <h2>{{ context.levels_label }}</h2>
   {% for level in program.levels %}
       <br>
       <br>
@@ -50,10 +50,10 @@ css_id: program
       color=level.color
       title=level.label %}
       </h3>
-      <p><strong>Intention</strong></p> <p>{{ level.intention }}</p>
-      <p><strong>Edge</strong></p> <p>{{ level.edge }}</p>
+      <p><strong>{{ context.intention_label }}</strong></p> <p>{{ level.intention }}</p>
+      <p><strong>{{ context.edge_label }}</strong></p> <p>{{ level.edge }}</p>
       <ul>
-        <p><strong>Flows</strong></p>
+        <p><strong>{{ context.flows_label }}</strong></p>
         {% for item in level.flows %}
           <li><a href="{{ item.url }}" target="_blank">{{ item.label }}</a></li>
         {% endfor %}
@@ -62,13 +62,13 @@ css_id: program
 </section>
 
 <section class="md-flow">
-  <h2>Designations</h2>
+  <h2>{{ context.designations_label }}</h2>
   {% for designation in program.designations %}
   <br>
   <br>
   <h3>{{ designation.label }}</h3>
-  <p><strong>Intention</strong></p> <p>{{ designation.intention }}</p>
-  <p><strong>Aspects</strong></p>
+  <p><strong>{{ context.designations_intention_label }}</strong></p> <p>{{ designation.intention }}</p>
+  <p><strong>{{ context.designations_aspects_label }}</strong></p>
     {% for item in designation.aspects %}
   <p>{{ item.label }}</p>
     {% endfor %}

@@ -2,6 +2,16 @@
 rally: Fearless Leadership
 mantra: "Don't React. Center."
 context:
+  mission_rally_suffix_label: starts here
+  principles_label: Principles
+  forms_label: Forms
+  levels_label: Levels
+  intention_label: Intention
+  edge_label: Edge
+  flows_label: Flows
+  designations_label: Designations
+  designations_intention_label: Intention
+  designations_aspects_label: Aspects
   mission_call_to_action: "Engage the Mission"
 principles:
   - label: Relax completely

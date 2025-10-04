@@ -13,10 +13,12 @@ context:
     - "When trust is on the line…"
     - "In that flash between stimulus and response…"
   pullquote: "The body speaks, not the polished script."
+  why_we_train_label: Why We Train
   why_we_train:
     - "Because awareness isn’t enough — you can name the pattern and still fall into it."
     - "Because in high-stakes moments, you won’t have time to think — only time to respond."
     - "Because pressure doesn’t reveal your potential — it reveals your practice."
+  mission_rally_suffix_label: starts here
   practice_bullets:
     - "We practice live, in real conversations — where timing, tone, and tension are felt."
     - "We reflect between reps — using voice notes to recalibrate and deepen awareness."

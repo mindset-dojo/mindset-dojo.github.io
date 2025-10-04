@@ -13,21 +13,21 @@ css_id: project
 
 
 <section class="md-flow">
-  <h2>Core Motivations </h2>
+  <h2>{{ context.core_motivations_label }} </h2>
   {% for item in context.core_motivations %}
   <p>{{ item }}</p>
   {% endfor %}
 </section>
 
 <section class="md-flow">
-  <h2>Why We Contribute</h2>
+  <h2>{{ context.contribution_motivations_label }}</h2>
   {% for item in context.contribution_motivations %}
   <p>{{ item }}</p>
   {% endfor %}
 </section>
 
 <section class="md-flow">
-  <h2>Contribution Invitations</h2>
+  <h2>{{ context.contribution_invitations_label }}</h2>
   {% for item in context.contribution_invitations %}
   <p>{{ item }}</p>
   {% endfor %}
@@ -38,20 +38,20 @@ css_id: project
 </section>
 
 <section class="md-flow">
-  <h2>{{ mission.rally }} starts here</h2>
+  <h2>{{ mission.rally }} {{ context.mission_rally_suffix_label }}</h2>
   {% for item in mission.statement %}
   <p>{{ item }}</p>
   {% endfor %}
 </section>
 
 <section class="md-flow">
-  <h2>Designations</h2>
+  <h2>{{ context.designations_label }}</h2>
   {% for designation in project.designations %}
   <br>
   <br>
   <h3>{{ designation.label }}</h3>
-  <p><strong>Intention</strong></p> <p>{{ designation.intention }}</p>
-  <p><strong>Aspects</strong></p>
+  <p><strong>{{ context.designations_intention_label }}</strong></p> <p>{{ designation.intention }}</p>
+  <p><strong>{{ context.designations_aspects_label }}</strong></p>
     {% for item in designation.aspects %}
   <p>{{ item.label }}</p>
     {% endfor %}
