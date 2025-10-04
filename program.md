@@ -60,14 +60,14 @@ css_id: program
 
 <section>
   <h2>Designations</h2>
-  {% for designation in project.designations %}
+  {% for designation in program.designations %}
   <br>
   <br>
   <h3>{{ designation.label }}</h3>
   <p><strong>Intention</strong></p> <p>{{ designation.intention }}</p>
   <p><strong>Aspects</strong></p>
     {% for item in designation.aspects %}
-  <p>{{ item }}</p>
+  <p>{{ item.label }}</p>
     {% endfor %}
   {% endfor %}
 </section>
