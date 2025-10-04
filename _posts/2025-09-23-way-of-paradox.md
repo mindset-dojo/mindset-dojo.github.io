@@ -1,8 +1,11 @@
 ---
 layout: post
 title: "Mindset Dojo Insights – The Way of Paradox"
-author: "Kyle Ingersoll — Brown Level and Infrastructure Cultivator"
-tags: [Mindset Dojo, Zen Leader, Ki in Daily Life, Paradox, Leadership]
+h1_mark: Paradox
+h1_hr: true
+date: 2025-09-30
+author: "Kyle Ingersoll"
+excerpt: "Paradox is the hidden gate of leadership, where resistance dissolves and the small self expands into the boundless flow of Ki."
 ---
 
 # Mindset Dojo Insights – The Way of Paradox  
