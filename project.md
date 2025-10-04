@@ -47,7 +47,7 @@ css_id: project
   <p><strong>Intention</strong></p> <p>{{ designation.intention }}</p>
   <p><strong>Aspects</strong></p>
     {% for item in designation.aspects %}
-  <p>{{ item }}</p>
+  <p>{{ item.label }}</p>
     {% endfor %}
   {% endfor %}
 </section>
