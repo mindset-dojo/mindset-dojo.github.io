@@ -1,66 +1,58 @@
 ---
 layout: default
-title: Don't Hoard. Share.
+title: Project
 h1_mark: Project
 h1_hr: true
 css_id: project
 ---
-{% assign project = site.data.project %}
+{% assign context = site.data.project.context %}
 {% assign program = site.data.program %}
+{% assign project = site.data.project %}
 
-<section>
-  <h2>{{ project.mantra }}</h2>
-  <br>
-  <p>
-    {{ project.context.intro_lines | join: '<br>' }}
-  </p>
-  <p>
-    {{ project.context.scenario_lines | join: '<br>' }}
-  </p>
-  <ul>
-    {% for item in project.context.why_we_build %}
-      <li>{{ item }}</li>
-    {% endfor %}
-  </ul>
-</section>
+<h2>{{ project.mantra }}</h2>
 
-<section>
-  <h2>{{ program.rally }}</h2>
-  <br>
-  {% for item in program.mission %}
-  <p>{{ item }}</p>
+<p>
+  {{ context.intro_lines | join: '<br>' }}
+</p>
+
+<p>
+  {{ context.scenario_lines | join: '<br>' }}
+</p>
+
+{% if context.pullquote %}
+<blockquote><strong>{{ context.pullquote }}</strong></blockquote>
+{% endif %}
+
+<h2>Why We Contribute</h2>
+<ul>
+  {% for item in context.why_we_contribute %}
+    <li>{{ item }}</li>
   {% endfor %}
-</section>
+</ul>
 
-<section>
-  <h2>Principles</h2>
-  <br>
-  <ul class="md-pill-list">
-    {% for p in project.principles %}
-      <li>{{ p.label }}</li>
-    {% endfor %}
-  </ul>
-</section>
+<h2>{{ program.rally }} starts here</h2>
+{% for item in program.mission %}
+<p>{{ item }}</p>
+{% endfor %}
 
-<section>
-  <h2>Leadership Designations</h2>
-  <br>
-  {% for designation in project.designations %}
-    <div class="md-designation">
-      <h3>{{ designation.label }}</h3>
-      <ul>
-        <p><strong>Intention</strong></p>
-        <li>{{ designation.intention }}</li>
-        <br>
-        <p><strong>Aspects</strong></p>
-        {% for item in designation.aspects %}
-          <li>{{ item.label }}</li>
-        {% endfor %}
-      </ul>
-    </div>
-  {% endfor %}
-</section>
+<hr/>
+
+<h2>Leadership Designations</h2>
+{% for designation in project.designations %}
+  <div class="md-designation">
+    <h3>{{ designation.label }}</h3>
+    <ul>
+      <p><strong>Intention</strong></p>
+      <li>{{ designation.intention }}</li>
+      <br>
+      <p><strong>Aspects</strong></p>
+      {% for item in designation.aspects %}
+        <li>{{ item.label }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endfor %}
 
 <div class="md-cta-group">
-  <a href="{{ site.repo_url }}">GitHub Project</a>
+  <a href="{{ site.repo_url }}">{{ context.project_cta }}</a>
 </div>
