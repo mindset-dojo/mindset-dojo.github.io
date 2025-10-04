@@ -32,6 +32,10 @@ css_id: project
 </section>
 
 <section>
+  <blockquote><strong>{{ context.pullquote }}</strong></blockquote>
+</section>
+
+<section>
   <h2>{{ program.rally }} starts here</h2>
   {% for item in program.mission %}
   <p>{{ item }}</p>

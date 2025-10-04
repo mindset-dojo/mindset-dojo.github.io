@@ -199,15 +199,13 @@ designations:
   - label: Zenpai
     intention: Guidance through lived example and deepening through co-learning
     aspects:
-      - label: Attend Mat sessions regularly, lead periodically
-      - label: Create and share Insight regularly
-      - label: 'Connect with junior students (by level - "Zōhai") periodically for one-on-one training'
+      - label: Join Mat sessions regularly, lead periodically
+      - label: Create and share Insight regularly, guiding earlier learners
       - label: Blue Level+
   - label: Zensei
     intention: Stewardship through modeling and evolution through community feedback
     aspects:
       - label: Lead Mat sessions regularly
-      - label: Create and share Insight regularly
-      - label: Connect with Zenpai regularly for one-on-one training
+      - label: Create and share Insight regularly, guiding earlier learners
       - label: Black Level, Zen Leadership Instructor designation
 ...

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Training Program
-h1_mark: Training
+title: Don't React. Center.
+h1_mark: Center.
 h1_hr: true
 css_id: program
 ---
@@ -75,6 +75,3 @@ css_id: program
 <div class="md-cta-group">
     <a href="{{'/' | relative_url }}">{{ context.mission_call_to_action }}</a>
 </div>
-
-
-

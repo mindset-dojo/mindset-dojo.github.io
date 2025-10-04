@@ -13,33 +13,25 @@ context:
     - "You notice a friction in the docs."
     - "You refactor a phrase or function toward clarity."
     - "You offer a pattern that helps others move with ease."
+  pullquote: "The pull request speaks, not the well meaning suggestions."
   repo_call_to_action: Engage the Project
 designations:
-  - label: Social Cultivator
-    intention: Shape resonance and visibility through mindful presence
-    aspects:
-      - label: Attend Cultivator Mat periodically
-      - label: Share dojo stories and reflections across social spaces
-      - label: Shape the tone and rhythm of communication
-      - label: Green Level+, sponsored by existing Cultivator
-  - label: Infrastructure Cultivator
-    intention: Strengthen and simplify the systems that sustain the dojo
+  - label: (Domain-Specific) Cultivator
+    intention: Strengthen, simplify and broadcast the dojo mission
     aspects:
       - label: Join Cultivator Mat regularly
-      - label: Contribute to expertise in a mutually aligned domain
-      - label: Ensure information systems reconcile with living practice
-      - label: Purple Level+, sponsored by existing Cultivator
+      - label: Contribute to expertise in a mutually beneficial way
+      - label: Green Level+, sponsored by existing Cultivator
   - label: Project Cultivator
-    intention: Integrate program, community, and platform work into coherent offerings
+    intention: Integrate program, community, and platform work
     aspects:
       - label: Lead Cultivator Mat sessions periodically
-      - label: Weave interdependencies with clarity and calm
-      - label: Model integrated embodiment in collaboration
+      - label: Servant leader for (Domain-Specific) Cultivators
       - label: Black Level, sponsored by existing Cultivator
   - label: Organizational Cultivator
     intention: Embody integrative leadership across social, technical, and brand ecosystems
     aspects:
       - label: Lead Cultivator Mat sessions regularly
-      - label: Bridge all cultivation dimensions toward shared identity and rhythm
-      - label: Steward organizational narrative and brand coherence
+      - label: Cultivate organizational culture and brand coherence
       - label: Black Level, Zen Leadership Instructor designation
+---
