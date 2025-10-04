@@ -6,6 +6,7 @@ h1_hr: true
 date: 2025-09-30
 author: "Kyle Ingersoll"
 excerpt: "Paradox is the hidden gate of leadership, where resistance dissolves and the small self expands into the boundless flow of Ki."
+image_extension: png
 ---
 
 # Mindset Dojo Insights – The Way of Paradox  
