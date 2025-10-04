@@ -619,9 +619,78 @@ main > a:hover {
 }
 
 /* =========================================
+   INVESTORS rules (opt-in)
+   ========================================= */
+.md-investors section h2 + ul {
+    text-align: center;
+    align-self: center;
+    margin-bottom: 12px;
+    padding: 0;
+}
+
+.md-investors {
+    display: grid;
+    align-items: initial;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-gap: 12px;
+    justify-items: center;
+    margin-top: 60px;
+}
+
+.md-investors section {
+    border: 2px solid var(--border-dark-color);
+    border-radius: 24px;
+    padding: 20px;
+    background-color: var(--dark-color-primary);
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.md-investors section > img {
+    width: 100px;
+    height: 100px;
+    border: 2px solid var(--border-dark-color);
+    border-radius: 50%;
+    align-self: center;
+    margin-bottom: 8px;
+    overflow: hidden;
+}
+
+.md-investors section h2 {
+    font-size: var(--h4);
+}
+
+.md-investors section h2 + ul li {
+    display: inline;
+}
+
+.md-investors section h2 + ul li:not(:last-of-type)::after {
+    content: ", ";
+}
+
+.md-investors section .md-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 16px;
+    margin-bottom: 12px;
+    font-size: 0;
+}
+
+.md-investors section blockquote {
+    color: var(--light-color-primary);
+    margin-bottom: 12px;
+    padding: 0 12px;
+}
+
+/* =========================================
    GLOBAL FLOW SECTION PATTERN (opt-in)
    Apply to any <section class="md-flow"> inside <main>
    ========================================= */
+
 main > section.md-flow {
   display: flex;
   flex-direction: column;
@@ -670,42 +739,6 @@ main > section.md-flow > blockquote {
   }
 }
 
-/* [PAGE SPECIFIC] 
- [HOME | MISSION] */
-
-.md-investors section h2 + ul {
-    text-align: center;
-    align-self: center;
-    margin-bottom: 12px;
-    padding: 0;
-}
-
-#home ul {
-  list-style: none;
-  padding-left: 0;
-  margin-left: 0;
-}
-
-.md-investors {
-    display: grid;
-    align-items: initial;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    grid-gap: 12px;
-    justify-items: center;
-    margin-top: 60px;
-}
-
-.md-investors section {
-    border: 2px solid var(--border-dark-color);
-    border-radius: 24px;
-    padding: 20px;
-    background-color: var(--dark-color-primary);
-    max-width: 300px;
-    display: flex;
-    flex-direction: column;
-    font-size: 14px;
-}
-
 footer img {
     width: 60%;
     position: fixed;
@@ -717,43 +750,7 @@ footer img {
     z-index: -1;
 }
 
-.md-investors section > img {
-    width: 100px;
-    height: 100px;
-    border: 2px solid var(--border-dark-color);
-    border-radius: 50%;
-    align-self: center;
-    margin-bottom: 8px;
-    overflow: hidden;
-}
-
-.md-investors section h2 {
-    font-size: var(--h4);
-}
-
-.md-investors section h2 + ul li {
-    display: inline;
-}
-
-.md-investors section h2 + ul li:not(:last-of-type)::after {
-    content: ", ";
-}
-
-.md-investors section .md-group {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    column-gap: 16px;
-    margin-bottom: 12px;
-    font-size: 0;
-}
-
-.md-investors section blockquote {
-    color: var(--light-color-primary);
-    margin-bottom: 12px;
-    padding: 0 12px;
-}
+/* [PAGE SPECIFIC] */
 
 /* [PRIVACY] */
 #privacy h2 {
