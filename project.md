@@ -19,8 +19,8 @@ css_id: project
 </section>
 
 <section class="md-flow">
-  <h2>{{ context.core_motivations_label }} </h2>
-  {% for item in context.core_motivations %}
+  <h2>{{ context.project_motivations_label }} </h2>
+  {% for item in context.project_motivations %}
   <p>{{ item }}</p>
   {% endfor %}
 </section>
