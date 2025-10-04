@@ -12,53 +12,43 @@ css_id: project
 
 <section>
   <h2>Core Motivations </h2>
-  <ul>
-    {% for item in context.core_motivations %}
-      <li>{{ item }}</li>
-    {% endfor %}
-  </ul>
+  {% for item in program.mission %}
+  <p>{{ item }}</p>
+  {% endfor %}
 </section>
 
 <section>
   <h2>Why We Contribute</h2>
-  <ul>
-    {% for item in context.contribution_motivations %}
-      <li>{{ item }}</li>
-    {% endfor %}
-  </ul>
+  {% for item in program.mission %}
+  <p>{{ item }}</p>
+  {% endfor %}
 </section>
 
 <section>
   <h2>Contribution Invitations</h2>
-  <ul>
-    {% for item in context.contribution_invitations %}
-      <li>{{ item }}</li>
-    {% endfor %}
-  </ul>
+  {% for item in program.mission %}
+  <p>{{ item }}</p>
+  {% endfor %}
 </section>
 
 <section>
   <h2>{{ program.rally }} starts here</h2>
-  <ul>
-    {% for item in program.mission %}
-      <li>{{ item }}</li>
-    {% endfor %}
-  </ul>
+  {% for item in program.mission %}
+  <p>{{ item }}</p>
+  {% endfor %}
 </section>
 
 <section>
   <h2>Designations</h2>
   {% for designation in project.designations %}
-    <br>
-    <br>
-    <h3>{{ designation.label }}</h3>
-    <p><strong>Intention</strong></p> <p>{{ designation.intention }}</p>
-     <ul>
-        <p><strong>Aspects</strong></p>
-        {% for item in designation.aspects %}
-          <li>{{ item.label }}</li>
-        {% endfor %}
-      </ul>
+  <br>
+  <br>
+  <h3>{{ designation.label }}</h3>
+  <p><strong>Intention</strong></p> <p>{{ designation.intention }}</p>
+  <p><strong>Aspects</strong></p>
+    {% for item in designation.aspects %}
+  <p>{{ item }}</p>
+    {% endfor %}
   {% endfor %}
 </section>
 
