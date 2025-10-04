@@ -19,15 +19,6 @@ Front matter supported:
       By {{ page.author | default: site.author }} — {{ page.date | date: "%B %-d, %Y" }}
     </p>
 
-    {% if page.excerpt %}
-      <p class="post-excerpt">{{ page.excerpt }}</p>
-    {% endif %}
-  </header>
-
-  <div class="post-body">
-    {{ content }}
-  </div>
-
   {%- comment -%}
   Insert image at bottom of a post.
   Build image path as /media/images/YYYY-MM-DD-slug.jpg
@@ -42,5 +33,14 @@ Front matter supported:
     class="post-bottom-image"
     loading="lazy"
   />
+
+    {% if page.excerpt %}
+      <p class="post-excerpt">{{ page.excerpt }}</p>
+    {% endif %}
+  </header>
+
+  <div class="post-body">
+    {{ content }}
+  </div>
 
 </article>
