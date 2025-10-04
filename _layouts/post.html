@@ -1,5 +1,7 @@
 ---
 layout: default
+h1_mark: "{{ page.title }}"
+h1_hr: true
 ---
 
 {%- comment -%}
@@ -29,7 +31,7 @@ Front matter supported:
     class="post-bottom-image"
     loading="lazy"
   />
-  
+
   <header class="post-header">
     <p class="post-meta">
       By {{ page.author | default: site.author }} — {{ page.date | date: "%B %-d, %Y" }}
