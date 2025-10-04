@@ -1,0 +1,44 @@
+---
+mantra: "Don't Hoard. Share."
+context:
+  core_motivations_label: Core Motivations
+  core_motivations:
+    - "Our project is a shared practice of simplicity and coherence."
+    - "We refine our systems, language, and flow through steady, mindful iteration."
+    - "Each contribution strengthens the pattern of fearlessness in form."
+  contribution_motivations_label: Why We Contribute
+  contribution_motivations:
+    - "Make contribution as natural as conversation."
+    - "Create infrastructure that teaches as it grows."
+    - "Invite courage through transparency and simplicity."
+  contribution_invitations_label: Contribution Invitations
+  contribution_invitations:
+    - "You notice a friction in the docs."
+    - "You refactor a phrase or function toward clarity."
+    - "You offer a pattern that helps others move with ease."
+  pullquote: "Ideation is fun, pull requests influence."
+  mission_rally_suffix_label: starts here
+  designations_label: Designations
+  designations_intention_label: Intention
+  designations_aspects_label: Aspects
+  repo_call_to_action: Cross the Threshold
+designations:
+  - label: (Domain-Specific) Cultivator
+    intention: Strengthen, simplify and broadcast the mission
+    aspects:
+      - label: Join Cultivator Circle regularly
+      - label: Contribute to expertise in a mutually beneficial way
+      - label: Green Level+, sponsored by existing Cultivator
+  - label: Project Cultivator
+    intention: Integrate program, community, and platform work
+    aspects:
+      - label: Lead Cultivator Circle sessions periodically
+      - label: Servant leader for (Domain-Specific) Cultivators
+      - label: Black Level, sponsored by existing Cultivator
+  - label: Organizational Cultivator
+    intention: Embody integrative leadership across social, technical, and brand ecosystems
+    aspects:
+      - label: Lead Cultivator Circle sessions regularly
+      - label: Cultivate organizational culture and brand coherence
+      - label: Black Level, Zen Leadership Instructor designation
+---

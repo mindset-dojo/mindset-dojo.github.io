@@ -1,47 +1,51 @@
 ---
 layout: default
 title: Don’t Complain. Train.
-h1_mark: Train
+h1_mark: Train.
 h1_hr: true
 description: A dojo for Fearless Leadership—bringing the gift of fearlessness (se-mu-i) into homes, classrooms, dojos, and boardrooms. We train mind, body, tone, and timing to cultivate presence under pressure.
+permalink: /
 css_id: home
 ---
 
-{% assign program = site.data.program %}
-{% assign homepage = program.homepage %}
+{% assign mission = site.data.mission %}
+{% assign context = mission.context %}
 
-<p>
-  {{ homepage.intro_lines | join: '<br>' }}
-</p>
-
-<p>
-  {{ homepage.scenario_lines | join: '<br>' }}
-</p>
-
-<blockquote><strong>{{ homepage.pullquote }}</strong></blockquote>
-
-<h2>Why We Train</h2>
-<ul>
-  {% for item in homepage.why_we_train %}
-    <li>{{ item }}</li>
-  {% endfor %}
-</ul>
-
-<h2>{{ program.rally }} starts here</h2>
-
-  {% for item in program.mission %}
+<section class="md-flow">
+  {% for item in context.scenario_lines %}
   <p>{{ item }}</p>
   {% endfor %}
 
-<hr/>
+  <br/>
 
-<ul>
-  {% for item in homepage.practice_bullets %}
-    <li>{{ item }}</li>
+  <blockquote><strong>{{ context.pullquote }}</strong></blockquote>
+</section>
+
+<section class="md-flow">
+  <h2>{{ context.why_we_train_label }}</h2>
+  <br>
+  {% for item in context.why_we_train %}
+  <p>{{ item }}</p>
   {% endfor %}
-</ul>
+</section>
 
-<p><strong>{{ homepage.investor_bridge }}</strong></p>
+<section class="md-flow">
+  <h2>{{ mission.rally }} {{ context.mission_rally_suffix_label }}</h2>
+  <br>
+  {% for item in mission.statement %}
+  <p>{{ item }}</p>
+  {% endfor %}
+
+  <hr/>
+
+  {% for item in context.practice_bullets %}
+  <p>{{ item }}</p>
+  {% endfor %}
+</section>
+
+<section class="md-flow">
+  <p><strong>{{ context.investor_bridge }}</strong></p>
+</section>
 
 <div class="md-investors">
   {%- assign profiles = site.data.investors.profiles -%}
@@ -76,5 +80,5 @@ css_id: home
 </div>
 
 <div class="md-cta-group">
-  <a href="{{ '/program' | relative_url }}">{{ homepage.program_cta }}</a>
+  <a href="{{ '/program' | relative_url }}">{{ context.program_call_to_action }}</a>
 </div>
