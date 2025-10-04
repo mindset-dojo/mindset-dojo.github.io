@@ -178,6 +178,29 @@ h3 {
     line-height: var(--h3-line-height);
 }
 
+/* INSIGHT TITLE LINK OVERRIDE
+   Targets:
+   1) explicit class .insight-title (if you add it to h3),
+   2) fallback selector #insights-stream .insight-item h3 a (existing stream markup)
+   Ensures link is orange both unvisited and visited, with a stronger hover color.
+*/
+.insight-title a:link,
+#insights-stream .insight-item h3 a:link,
+.insight-title a:visited,
+#insights-stream .insight-item h3 a:visited {
+    color: var(--brand-color-primary);
+    text-decoration: none;
+}
+
+/* hover/focus state */
+.insight-title a:hover,
+#insights-stream .insight-item h3 a:hover,
+.insight-title a:focus,
+#insights-stream .insight-item h3 a:focus {
+    color: var(--brand-color-secondary);
+    text-decoration: underline;
+}
+
 h4 {
     font-size: var(--h4);
     line-height: var(--h4-line-height);
@@ -652,17 +675,6 @@ main > a:hover {
     display: flex;
     flex-direction: column;
     font-size: 14px;
-}
-
-footer img {
-    width: 60%;
-    position: fixed;
-    opacity: 0.08;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    object-position: 0;
-    z-index: -1;
 }
 
 .md-investors section > img {
