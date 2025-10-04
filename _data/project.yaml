@@ -13,6 +13,7 @@ context:
     - "To make contribution as natural as conversation"
     - "To create infrastructure that teaches as it grows"
     - "To invite courage through transparency and simplicity"
+project_cta: "Cross the Threshold"
 principles:
   - label: "Work small and reversible"
   - label: "Name things clearly"

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Project
+title: Don't Hoard. Share.
 h1_mark: Project
 h1_hr: true
 css_id: project
@@ -9,17 +9,8 @@ css_id: project
 {% assign program = site.data.program %}
 
 <section>
-  <h2>{{ program.rally }}</h2>
+  <h2>{{ project.mantra }}</h2>
   <br>
-  {% for item in program.mission %}
-  <p>{{ item }}</p>
-  {% endfor %}
-</section>
-
-<section>
-  <h2>Context</h2>
-  <br>
-  <p><em>{{ project.context.pullquote }}</em></p>
   <p>
     {{ project.context.intro_lines | join: '<br>' }}
   </p>
@@ -31,6 +22,14 @@ css_id: project
       <li>{{ item }}</li>
     {% endfor %}
   </ul>
+</section>
+
+<section>
+  <h2>{{ program.rally }}</h2>
+  <br>
+  {% for item in program.mission %}
+  <p>{{ item }}</p>
+  {% endfor %}
 </section>
 
 <section>
