@@ -52,5 +52,5 @@ css_id: project
 {% endfor %}
 
 <div class="md-cta-group">
-  <a href="{{ site.repo_url }}">{{ context.project_cta }}</a>
+  <a href="{{ site.repo_url }}">{{ context.repo_call_to_action }}</a>
 </div>

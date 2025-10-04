@@ -14,7 +14,7 @@ context:
     - "Make contribution as natural as conversation."
     - "Create infrastructure that teaches as it grows."
     - "Invite courage through transparency and simplicity."
-  project_cta: "Cross the Threshold"
+  repo_call_to_action: Enter the Dojo
 designations:
   - label: Social Cultivator
     intention: Shape resonance and visibility through mindful presence

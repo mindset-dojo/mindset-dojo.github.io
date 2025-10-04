@@ -6,6 +6,7 @@ h1_hr: true
 css_id: program
 ---
 {% assign program = site.data.program %}
+{% assign context = program.context %}
 
 <section>
   <h2>{{ program.rally }}</h2>
@@ -74,7 +75,7 @@ css_id: program
 </section>
 
 <div class="md-cta-group">
-    <a href="{{'/' | relative_url }}">Engage Mission</a>
+    <a href="{{'/' | relative_url }}">{{ context.mission_call_to_action }}</a>
 </div>
 
 

@@ -76,5 +76,5 @@ css_id: home
 </div>
 
 <div class="md-cta-group">
-  <a href="{{ '/program' | relative_url }}">{{ context.program_cta }}</a>
+  <a href="{{ '/program' | relative_url }}">{{ context.program_call_to_action }}</a>
 </div>
