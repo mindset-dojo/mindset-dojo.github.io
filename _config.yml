@@ -11,7 +11,10 @@ header_links:
     href: /program
   - label: PROJECT
     href: /project
-
+  - label: CONTACT
+    href: https://connect.mindset.dojo.center
+    external: true
+    
 footer_primary_links:
   - label: MISSION
     href: /
