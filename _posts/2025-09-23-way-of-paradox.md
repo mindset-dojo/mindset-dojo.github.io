@@ -9,8 +9,6 @@ excerpt: "Paradox is the hidden gate of leadership, where resistance dissolves a
 image_extension: png
 ---
 
-# Mindset Dojo Insights – The Way of Paradox  
-
 In the dojo, the Instructor asks:  
 
 **“When you push, what pushes back?”**  
