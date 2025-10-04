@@ -15,9 +15,7 @@ css_id: project
   <p>{{ context.scenario_lines | join: '<br>' }}</p>
 </section>
 
-<section>
-  <blockquote><strong>{{ context.pullquote }}</strong></blockquote>
-</section>
+<blockquote><strong>{{ context.pullquote }}</strong></blockquote>
 
 <section>
   <h2>Why We Contribute</h2>
@@ -53,8 +51,6 @@ css_id: project
   {% endfor %}
 </section>
 
-<section>
-  <div class="md-cta-group">
-    <a href="{{ site.repo_url }}">{{ project.project_cta }}</a>
-  </div>
-</section>
+<div class="md-cta-group">
+  <a href="{{ site.repo_url }}">{{ context.repo_call_to_action }}</a>
+</div>
