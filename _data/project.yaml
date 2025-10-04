@@ -21,7 +21,7 @@ context:
   designations_label: Designations
   designations_intention_label: Intention
   designations_aspects_label: Aspects
-  repo_call_to_action: Engage the Project
+  repo_call_to_action: Cross the Threshold
 designations:
   - label: (Domain-Specific) Cultivator
     intention: Strengthen, simplify and broadcast the dojo mission

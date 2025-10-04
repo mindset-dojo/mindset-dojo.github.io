@@ -76,5 +76,5 @@ css_id: program
 </section>
 
 <div class="md-cta-group">
-    <a href="{{'/' | relative_url }}">{{ context.mission_call_to_action }}</a>
+  <a href="{{ site.connect_url }}">{{ context.connect_call_to_action }}</a>
 </div>
