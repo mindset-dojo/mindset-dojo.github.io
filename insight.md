@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Don't Ignore. Insight.
-h1_mark: Insight
+title: Don't Consume. Author.
+h1_mark: Author
 h1_hr: true
 css_id: insight
 ---
