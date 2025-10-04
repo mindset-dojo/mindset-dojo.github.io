@@ -58,7 +58,7 @@ css_id: insight
       {%- endcomment -%}
       {% assign post_slug = post.slug | default: post.title | slugify %}
       {% assign post_date = post.date | default: "2025-01-01" | date: "%Y-%m-%d" | slugify %}
-      {% assign img_path = "/media/images/" | append: post_date | append: "-" | append: post_slug | append: ".jpg" %}
+      {% assign img_path = "/media/images/" | append: post_date | append: "-" | append: post_slug | append: "." | append: image_extension %}
       <img src="{{ img_path | relative_url }}" alt="{{ post.image_alt | default: post.title | escape }}" class="insight-thumb" loading="lazy">
 
       <div class="excerpt">
