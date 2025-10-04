@@ -742,14 +742,12 @@ footer nav + nav {
     gap: 8px 24px;
 }
 
-/* [PAGE CENTERING — Program + Project] */
-#program,
-#project {
-  text-align: center;
-}
+/* =========================================
+   GLOBAL NARRATIVE SECTION PATTERN (opt-in)
+   Apply to any <section class="md-flow"> inside <main>
+   ========================================= */
 
-#program section,
-#project section {
+main > section.md-flow {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -758,44 +756,41 @@ footer nav + nav {
   margin: 0 auto;
 }
 
-#program section h2, 
-#program section p,
-#project section h2,
-#project section p {
+main > section.md-flow > h2,
+main > section.md-flow > p {
   max-width: 700px;
   text-align: center;
   margin: 0 auto 1rem;
   padding: 0 1rem;
 }
 
-#program section ul,
-#project section ul {
+main > section.md-flow > ul {
   max-width: 700px;
   margin: 0 auto 1.5rem;
   padding-left: 0;
   text-align: left;
 }
 
-#program section ul li,
-#project section ul li {
+main > section.md-flow > ul li {
   text-align: left;
 }
 
-/* Responsive tweaks for small screens */
+main > section.md-flow > blockquote {
+  max-width: 700px;
+  margin: 20px auto 40px;
+  padding-left: 32px;
+  border-left: 8px solid var(--brand-color-primary);
+}
+
 @media (width <= 600px) {
-  #program section,
-  #project section {
+  main > section.md-flow {
     padding: 1rem 0.5rem;
   }
-
-  #program section ul,
-  #project section ul {
+  main > section.md-flow > ul {
     max-width: 100%;
     padding: 0 1rem;
   }
-
-  #program section ul li,
-  #project section ul li {
+  main > section.md-flow > ul li {
     font-size: var(--text-s);
   }
 }
