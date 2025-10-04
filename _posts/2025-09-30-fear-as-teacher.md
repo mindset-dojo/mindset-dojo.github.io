@@ -34,7 +34,7 @@ This was my first brush with what Jung might call the **shadow of technology** �
 
 Fast forward to Mindset Dojo. This time, I wasn’t in the background.
 
-While building a live version of a branch for an unrelated pull request, I accidentally exploited a domain-control vulnerability in the Mindset Dojo website. My temporary build went live on the main site. When I deleted it, the website itself went down. That was how I discovered the issue: the vulnerability was real, and it could bring the entire site offline.
+While building a live version of a branch for an unrelated pull request, I accidentally exploited a domain-control vulnerability in the Mindset Dojo site. My temporary build went live on the main site. When I deleted it, the site itself went down. That was how I discovered the issue: the vulnerability was real, and it could bring the entire site offline.
 
 The vulnerability wasn’t internal to GitHub. It came from a configuration error — an Organizational Cultivator had unlinked their branch while the site repository and the organization were not yet verified. **Crucially, we lacked communication that we were making changes at the same time that could affect the main site.** That silence meant our work collided.
 
