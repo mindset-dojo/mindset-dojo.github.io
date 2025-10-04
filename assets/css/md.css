@@ -446,6 +446,7 @@ section.md-grid-3 blockquote p {
 }
 
 /* [ HEADER ] */
+
 header {
     flex-direction: row;
     align-items: center;
@@ -594,6 +595,7 @@ header button .bar4 {
 }
 
 /* [ BODY ] */
+
 header,
 body > footer {
     width: 100%;
@@ -619,6 +621,7 @@ main > a:hover {
 }
 
 /* [ FOOTER ] */
+
 body > footer {
     font-size: 14px;
     flex-direction: column;
@@ -658,6 +661,7 @@ footer img {
 /* =========================================
    INVESTORS rules (opt-in)
    ========================================= */
+
 .md-investors section h2 + ul {
     text-align: center;
     align-self: center;
@@ -764,16 +768,20 @@ main > section.md-flow > blockquote {
 }
 
 @media (width <= 600px) {
+
   main > section.md-flow {
     padding: 1rem 0.5rem;
   }
+
   main > section.md-flow > ul {
     max-width: 100%;
     padding: 0 1rem;
   }
+
   main > section.md-flow > ul li {
     font-size: var(--text-s);
   }
+
 }
 
 /* [PAGE SPECIFIC] */

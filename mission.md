@@ -15,9 +15,9 @@ css_id: home
   {% for item in context.scenario_lines %}
   <p>{{ item }}</p>
   {% endfor %}
-</section>
 
-<section class="md-flow">
+  <br/>
+
   <blockquote><strong>{{ context.pullquote }}</strong></blockquote>
 </section>
 
