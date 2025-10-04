@@ -3,6 +3,7 @@ layout: default
 title: Don't Hoard.  Share.
 h1_mark: Share.
 h1_hr: true
+permalink: /project/
 css_id: project
 ---
 

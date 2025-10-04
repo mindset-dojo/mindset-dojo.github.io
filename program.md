@@ -3,6 +3,7 @@ layout: default
 title: Don't React. Center.
 h1_mark: Center.
 h1_hr: true
+permalink: /program/
 css_id: program
 ---
 {% assign program = site.data.program %}
