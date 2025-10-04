@@ -790,3 +790,52 @@ footer nav + nav {
         font-size: var(--text-s);
     }
 }
+
+/* [PROJECT PAGE CENTERING] */
+#project {
+  text-align: center;
+}
+
+#project section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#project section h2,
+#project section p {
+  max-width: 700px;
+  text-align: center;
+  margin: 0 auto 1rem;
+  padding: 0 1rem;
+}
+
+#project section ul {
+  max-width: 700px;
+  margin: 0 auto 1.5rem;
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+#project section ul li {
+  text-align: left;
+}
+
+/* Responsive tweaks for small screens */
+@media (width <= 600px) {
+    #project section {
+        padding: 1rem 0.5rem;
+    }
+
+    #project section ul {
+        max-width: 100%;
+        padding: 0 1rem;
+    }
+
+    #project section ul li {
+        font-size: var(--text-s);
+    }
+}
