@@ -70,12 +70,13 @@ We stripped away the heavy details that freeze practice.
 
 What we keep is a set of habits that live in the body: *notice, breathe, shift, and return to curiosity.*  
 
-Stances nest inside the Dojo’s principles:  
+Stances nest inside the Dojo’s **principles**:  
 
-- Relax completely  
-- Feel into impulse waves  
-- Meet tension with presence  
-- Form reflection into reflex  
+<ul>
+  {% for principle in site.data.program.principles %}
+    <li>{{ principle }}</li>
+  {% endfor %}
+</ul>
 
 Stances are not another taxonomy.  
 
