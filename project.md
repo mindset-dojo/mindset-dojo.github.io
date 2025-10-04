@@ -47,18 +47,16 @@ css_id: project
 <section>
   <h2>Designations</h2>
   {% for designation in project.designations %}
-    <div class="md-designation">
-      <h3>{{ designation.label }}</h3>
-      <ul>
-        <p><strong>Intention</strong></p>
-        <li>{{ designation.intention }}</li>
-        <br>
+    <br>
+    <br>
+    <h3>{{ designation.label }}</h3>
+    <p><strong>Intention</strong></p> <p>{{ designation.intention }}</p>
+     <ul>
         <p><strong>Aspects</strong></p>
         {% for item in designation.aspects %}
           <li>{{ item.label }}</li>
         {% endfor %}
       </ul>
-    </div>
   {% endfor %}
 </section>
 
