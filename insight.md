@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Insight Stream
+title: Don't Ignore. Insight.
 h1_mark: Insight
 h1_hr: true
 css_id: insight
