@@ -10,39 +10,39 @@ css_id: project
 {% assign context = project.context %}
 {% assign program = site.data.program %}
 
-<section>
+<section class="md-flow">
   <h2>Core Motivations </h2>
   {% for item in context.core_motivations %}
   <p>{{ item }}</p>
   {% endfor %}
 </section>
 
-<section>
+<section class="md-flow">
   <h2>Why We Contribute</h2>
   {% for item in context.contribution_motivations %}
   <p>{{ item }}</p>
   {% endfor %}
 </section>
 
-<section>
+<section class="md-flow">
   <h2>Contribution Invitations</h2>
   {% for item in context.contribution_invitations %}
   <p>{{ item }}</p>
   {% endfor %}
 </section>
 
-<section>
+<section class="md-flow">
   <blockquote><strong>{{ context.pullquote }}</strong></blockquote>
 </section>
 
-<section>
+<section class="md-flow">
   <h2>{{ program.rally }} starts here</h2>
   {% for item in program.mission %}
   <p>{{ item }}</p>
   {% endfor %}
 </section>
 
-<section>
+<section class="md-flow">
   <h2>Designations</h2>
   {% for designation in project.designations %}
   <br>

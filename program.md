@@ -8,7 +8,7 @@ css_id: program
 {% assign program = site.data.program %}
 {% assign context = program.context %}
 
-<section>
+<section class="md-flow">
   <h2>{{ program.rally }}</h2>
   <br>
   {% for item in program.mission %}
@@ -16,7 +16,7 @@ css_id: program
   {% endfor %}
 </section>
 
-<section>
+<section class="md-flow">
   <h2>Principles</h2>
   <br>
   <ul>
@@ -26,7 +26,7 @@ css_id: program
   </ul>
 </section>
 
-<section>
+<section class="md-flow">
   <h2>Forms</h2>
   <br>
   <ul>
@@ -36,7 +36,7 @@ css_id: program
   </ul>
 </section>
 
-<section>
+<section class="md-flow">
   <h2>Levels</h2>
   {% for level in program.levels %}
       <br>
@@ -58,7 +58,7 @@ css_id: program
   {% endfor %}
 </section>
 
-<section>
+<section class="md-flow">
   <h2>Designations</h2>
   {% for designation in program.designations %}
   <br>
