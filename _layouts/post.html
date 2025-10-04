@@ -1,6 +1,6 @@
 ---
 layout: default
-h1_mark: "{{ page.title }}"
+h1_mark: "{{ page.title | escape }}"
 h1_hr: true
 ---
 
@@ -43,7 +43,7 @@ Front matter supported:
   </header>
   
   <hr>
-  
+
   <div class="post-body">
     {{ content }}
   </div>
