@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Don't Hoard. Share.
-h1_mark: Share
+h1_mark: Share.
 h1_hr: true
 css_id: project
 ---
