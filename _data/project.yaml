@@ -2,7 +2,7 @@
 mantra: "Don't Hoard. Share."
 context:
   mission_rally_suffix_label: ": Living Structure"
-  motivations_label: Project Motivations
+  project_motivations_label: Project Motivations
   project_motivations:
     - "Our project is a shared practice of simplicity and coherence."
     - "We refine our systems, language, and flow through steady, mindful iteration."
