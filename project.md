@@ -12,21 +12,21 @@ css_id: project
 
 <section>
   <h2>Core Motivations </h2>
-  {% for item in program.mission %}
+  {% for item in context.core_motivations %}
   <p>{{ item }}</p>
   {% endfor %}
 </section>
 
 <section>
   <h2>Why We Contribute</h2>
-  {% for item in program.mission %}
+  {% for item in context.contribution_motivations %}
   <p>{{ item }}</p>
   {% endfor %}
 </section>
 
 <section>
   <h2>Contribution Invitations</h2>
-  {% for item in program.mission %}
+  {% for item in context.contribution_invitations %}
   <p>{{ item }}</p>
   {% endfor %}
 </section>
