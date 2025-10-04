@@ -1,118 +1,67 @@
 ---
 layout: default
-title: Project Overview
+title: Project
 h1_mark: Project
 h1_hr: true
 css_id: project
 ---
+{% assign project = site.data.project %}
+{% assign program = site.data.program %}
 
-## Open Source Infrastructure
+<section>
+  <h2>{{ program.rally }}</h2>
+  <br>
+  {% for item in program.mission %}
+  <p>{{ item }}</p>
+  {% endfor %}
+</section>
 
-The [Site]({{'/' | relative_url}}) is hosted on [GitHub](https://github.com/), a platform where communities build and improve software together in the open.
+<section>
+  <h2>Context</h2>
+  <br>
+  <p><em>{{ project.context.pullquote }}</em></p>
+  <p>
+    {{ project.context.intro_lines | join: '<br>' }}
+  </p>
+  <p>
+    {{ project.context.scenario_lines | join: '<br>' }}
+  </p>
+  <ul>
+    {% for item in project.context.why_we_build %}
+      <li>{{ item }}</li>
+    {% endfor %}
+  </ul>
+</section>
 
-The Mindset Dojo infrastructure is built as an [Open Source](https://opensource.com/resources/what-open-source) project, which means anyone can see how it works, suggest improvements, and even contribute directly.
+<section>
+  <h2>Principles</h2>
+  <br>
+  <ul class="md-pill-list">
+    {% for p in project.principles %}
+      <li>{{ p.label }}</li>
+    {% endfor %}
+  </ul>
+</section>
 
-We’ve released the Mindset Dojo site under an **Open Source [License]({{'/LICENSE' | relative_url}})**, which simply means the code and content is shared freely for anyone to learn from, use, or improve with proper attribution — much like leaving the workshop door open so that values-aligned people can join in.
-
----
-
-## Agile Natured Contribution
-  
-You don’t have to be technically savvy — contributions can be as simple as:
-
-* Sharing **suggestions** in our GitHub [Issues]({{site.repo_url}}/issues)  
-* Writing about your **practice reflections and insights** on [LinkedIn](https://www.linkedin.com/) or [Medium](https://medium.com/)  
-* Helping with **design, writing, or small improvements** to the site
-
-We value **presence over process**:
-
-* Project flow is inspired by [Kanban](https://en.wikipedia.org/wiki/Kanban_(development))
-* Cards are collectively created and refined inspired by [User Story](https://en.wikipedia.org/wiki/User_story) form
-* [Empirical Inspection](https://www.scrum.org/resources/blog/three-pillars-empiricism-scrum) occurs weekly in a Cultivator-only Mat session
-
-Contributions are welcome and voluntary; we accept those that align with the dojo’s harmony and direction.  
-
----
-
-## Principles of Contribution
-
-In this dojo, contributing is not only about building a site — it is about *shared practice*.  
-Here are the principles we keep close:
-
-* **Keep it simple and clear** — Focus each change on one thing at a time. Small, clear steps are easier to learn from.  
-* **Share your intention** — Let others know *why* you’re doing something. A short note like “I’m updating the menu so it’s easier to navigate” helps everyone understand the value.  
-* **Review with kindness** — Assume good intent. Be specific, curious, and respectful in feedback. Reviews are for learning together.  
-* **Work openly** — Be transparent, welcome others in, and keep changes easy to follow. We use [Conventional Commits](https://www.conventionalcommits.org/) to keep history clear.  
-
-### Principles of Review
-
-* Respond with clarity and curiosity  
-* Offer suggestions, not judgments  
-* Stay open to learning from each other  
-* Treat reviews as shared practice  
-
----
-
-### Investing in the Mission
-
-If you’re new, don’t worry — you don’t have to figure it out alone. Reach out to a mission investor when making your first contribution. There’s no formal mentorship program, but informal support and pairing are common here. We learn and grow together.
-
-<div class="md-cta-group">
-    <a href="{{ '/' | relative_url }}">Reach Out</a>
-</div>
-
----
-
-## Leadership Designations
-
-Project leadership designations are *voluntary* and reviewed periodically to ensure mutual clarity and care.
-
-### Social Cultivator
-
-* **Qualifications:**
-  * ***Green Level*** in the [Program]({{'/program' | relative_url}})
-  * Sponsored by an existing Cultivator
-* **Acts** as a servant leadership influencer in social media and in-person conversations  
-* **Amplifies** mission resonance and synchronizes shared voice  
-* **Enrolls** and invites fresh investment into the dojo  
-* **Embodies** the Mission, the Culture, and the Individual in practice
-
-### Infrastructure Cultivator
-
-* **Qualifications:**
-  * ***Purple Level*** in the [Program]({{'/program' | relative_url}})
-  * Sponsored by an existing Cultivator  
-* **Demonstrates** domain fluency and principled contribution  
-* **Curates** the infrastructure of their domain (legal framework, moderation policy, systems, processes, etc.)  
-* **May** enact changes, approve contributions, or guide discussions in their domain  
-* **Operates** as a steward, facilitator, and ambassador for that domain’s health and alignment  
-
-
-### Project Cultivator
-
-* **Qualifications:**
-  * ***Black Level*** in the [Program]({{'/program' | relative_url}})
-  * Completion of the first step of the [Zen Leadership Instructor](https://zenleader.global/programs/coachinstructor/zlinstructor) pathway
-  * Supports the training of students from ***Gray Level*** through ***Black Level***
-  * Sponsored by an existing Cultivator
-* **Curates** both the **codebase** and the **program structure**
-* **Embodies** the **intention of Mindset Dojo's program and culture** at a higher level of practice
-* **Guides** others in principled contribution and practical expression
-* **Observes and evolves** the connective tissue between project and program
-* **Consults with** with Organizational Ownership when it makes sense
-
-### Organizational Cultivator
-
-* **Qualification:**
-  * ***Black Level*** in the [Program]({{'/program' | relative_url}})
-  * [Zen Leadership Instructor](https://zenleader.global/programs/coachinstructor/zlinstructor) designation
-  * Matriculates students from ***Gray Level*** through ***Black Level***
-  * Sponsored by an existing Cultivator
-* **Responsible** for managing provisional access (elevation and removal) to facilitate feature deployment
-* **Oversees** the broader digital ecosystem (domain, branding, analytics)
-* **Demonstrates and enrolls** through various social, personal, and professional circles
-* **Attunes** to the identity, integrity, and resonance of the project
+<section>
+  <h2>Leadership Designations</h2>
+  <br>
+  {% for designation in project.designations %}
+    <div class="md-designation">
+      <h3>{{ designation.label }}</h3>
+      <ul>
+        <p><strong>Intention</strong></p>
+        <li>{{ designation.intention }}</li>
+        <br>
+        <p><strong>Aspects</strong></p>
+        {% for item in designation.aspects %}
+          <li>{{ item.label }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endfor %}
+</section>
 
 <div class="md-cta-group">
-    <a href="{{site.repo_url}}">GitHub Project</a>
+  <a href="{{ site.repo_url }}">GitHub Project</a>
 </div>
