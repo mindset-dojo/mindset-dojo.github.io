@@ -2,23 +2,7 @@
 layout: default
 ---
 
-{%- comment -%}
-Post layout. Assumes default.html prints the H1 (title) as in your provided default.
-This template will render (top → bottom):
- - title (rendered by default.html already)
- - post body ({{ content }})
- - image (rendered here at the bottom)
-Front matter supported:
- - title, date, author, tags, excerpt, image (raw base64 OR data URI OR path), image_alt,
-   optional: image_mime (e.g. "image/png" or "image/jpeg") if using raw base64.
-{%- endcomment -%}
-
 <article class="post-article">
-
-  {%- comment -%}
-  Insert image at bottom of a post.
-  Build image path as /media/images/YYYY-MM-DD-slug.jpg
-  {%- endcomment -%}
 
   {% assign slug_part = page.slug | default: page.title | slugify %}
   {% assign date_part = page.date | date: "%Y-%m-%d" %}
@@ -41,7 +25,7 @@ Front matter supported:
   </header>
   
   <hr>
-  
+
   <div class="post-body">
     {{ content }}
   </div>
