@@ -11,7 +11,7 @@ css_id: project
 {% assign program = site.data.program %}
 
 <section>
-  <h2>Our Core Motivations </h2>
+  <h2>Core Motivations </h2>
   <ul>
     {% for item in context.core_motivations %}
       <li>{{ item }}</li>
