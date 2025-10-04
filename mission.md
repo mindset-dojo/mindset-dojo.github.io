@@ -11,38 +11,49 @@ css_id: home
 {% assign mission = site.data.mission %}
 {% assign context = mission.context %}
 
-<p>
-  {{ context.intro_lines | join: '<br>' }}
-</p>
-
-<p>
-  {{ context.scenario_lines | join: '<br>' }}
-</p>
-
-<blockquote><strong>{{ context.pullquote }}</strong></blockquote>
-
-<h2>{{ context.why_we_train_label }}</h2>
-<ul>
-  {% for item in context.why_we_train %}
-    <li>{{ item }}</li>
+<section class="md-flow">
+  {% for item in context.intro_lines %}
+  <p>{{ item }}</p>
   {% endfor %}
-</ul>
+</section>
 
-<h2>{{ mission.rally }} {{ context.mission_rally_suffix_label }}</h2>
+<section class="md-flow">
+  {% for item in context.scenario_lines %}
+  <p>{{ item }}</p>
+  {% endfor %}
+</section>
 
+<section class="md-flow">
+  <blockquote><strong>{{ context.pullquote }}</strong></blockquote>
+</section>
+
+<section class="md-flow">
+  <h2>{{ context.why_we_train_label }}</h2>
+  <br>
+  {% for item in context.why_we_train %}
+  <p>{{ item }}</p>
+  {% endfor %}
+</section>
+
+<section class="md-flow">
+  <h2>{{ mission.rally }} {{ context.mission_rally_suffix_label }}</h2>
+  <br>
   {% for item in mission.statement %}
   <p>{{ item }}</p>
   {% endfor %}
+</section>
 
 <hr/>
 
-<ul>
+<section class="md-flow">
   {% for item in context.practice_bullets %}
-    <li>{{ item }}</li>
+  <p>{{ item }}</p>
   {% endfor %}
-</ul>
+</section>
 
-<p><strong>{{ context.investor_bridge }}</strong></p>
+<section class="md-flow">
+  <p><strong>{{ context.investor_bridge }}</strong></p>
+</section>
 
 <div class="md-investors">
   {%- assign profiles = site.data.investors.profiles -%}
