@@ -11,10 +11,16 @@ css_id: project
 {% assign project = site.data.project %}
 {% assign context = project.context %}
 
+<section class="md-flow">
+  <h2>{{ mission.rally }}{{ context.mission_rally_suffix_label }}</h2>
+  {% for item in mission.statement %}
+  <p>{{ item }}</p>
+  {% endfor %}
+</section>
 
 <section class="md-flow">
-  <h2>{{ context.core_motivations_label }} </h2>
-  {% for item in context.core_motivations %}
+  <h2>{{ context.project_motivations_label }} </h2>
+  {% for item in context.project_motivations %}
   <p>{{ item }}</p>
   {% endfor %}
 </section>
@@ -35,13 +41,6 @@ css_id: project
 
 <section class="md-flow">
   <blockquote><strong>{{ context.pullquote }}</strong></blockquote>
-</section>
-
-<section class="md-flow">
-  <h2>{{ mission.rally }} {{ context.mission_rally_suffix_label }}</h2>
-  {% for item in mission.statement %}
-  <p>{{ item }}</p>
-  {% endfor %}
 </section>
 
 <section class="md-flow">
