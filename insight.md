@@ -15,7 +15,7 @@ css_id: insight
   - Image handling supports data: URIs, path strings, or raw base64 (with optional page.image_mime).
   {%- endcomment -%}
 
-  {% assign insight_posts = site.posts | where_exp: "post", "post.tags contains 'insight'" %}
+  {% assign insight_posts = site.posts %}
   {% if insight_posts == empty %}
     {% assign insight_posts = site.posts %}
   {% endif %}
