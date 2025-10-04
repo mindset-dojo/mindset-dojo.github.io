@@ -47,7 +47,7 @@ css_id: insight
     {%- endcomment -%}
     {% assign post_url = '/insight/' | append: post_slug | append: '/' | relative_url %}
 
-      <h3>
+      <h3 class="insight-title">
         <a href="{{ post_url }}">{{ post.title }}</a>
       </h3>
 
