@@ -9,8 +9,6 @@ css_id: project
 {% assign program = site.data.program %}
 {% assign project = site.data.project %}
 
-<h2>{{ project.mantra }}</h2>
-
 <p>
   {{ context.intro_lines | join: '<br>' }}
 </p>
