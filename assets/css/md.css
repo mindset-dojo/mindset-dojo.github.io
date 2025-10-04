@@ -768,7 +768,7 @@ main > section.md-flow > ul {
   max-width: 700px;
   margin: 0 auto 1.5rem;
   padding-left: 0;
-  text-align: left;
+  text-align: center;
 }
 
 main > section.md-flow > ul li {
