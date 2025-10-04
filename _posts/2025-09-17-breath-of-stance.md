@@ -74,7 +74,7 @@ Stances nest inside the Dojo’s **principles**:
 
 <ul>
   {% for principle in site.data.program.principles %}
-    <li>{{ principle }}</li>
+    <li> <strong>{{ principle }}</strong> </li>
   {% endfor %}
 </ul>
 
