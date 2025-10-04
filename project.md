@@ -39,9 +39,11 @@ css_id: project
 
 <section>
   <h2>{{ program.rally }} starts here</h2>
-  {% for item in program.mission %}
-    <p>{{ item }}</p>
-  {% endfor %}
+  <ul>
+    {% for item in program.mission %}
+      <li>{{ item }}</li>
+    {% endfor %}
+  </ul>
 </section>
 
 <section>
