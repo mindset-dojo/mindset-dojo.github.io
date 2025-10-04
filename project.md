@@ -12,7 +12,7 @@ css_id: project
 {% assign context = project.context %}
 
 <section class="md-flow">
-  <h2>{{ mission.rally }} {{ context.mission_rally_suffix_label }}</h2>
+  <h2>{{ mission.rally }}{{ context.mission_rally_suffix_label }}</h2>
   {% for item in mission.statement %}
   <p>{{ item }}</p>
   {% endfor %}
