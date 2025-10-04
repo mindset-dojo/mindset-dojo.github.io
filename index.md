@@ -8,21 +8,21 @@ css_id: home
 ---
 
 {% assign program = site.data.program %}
-{% assign homepage = program.homepage %}
+{% assign context = program.context %}
 
 <p>
-  {{ homepage.intro_lines | join: '<br>' }}
+  {{ context.intro_lines | join: '<br>' }}
 </p>
 
 <p>
-  {{ homepage.scenario_lines | join: '<br>' }}
+  {{ context.scenario_lines | join: '<br>' }}
 </p>
 
-<blockquote><strong>{{ homepage.pullquote }}</strong></blockquote>
+<blockquote><strong>{{ context.pullquote }}</strong></blockquote>
 
 <h2>Why We Train</h2>
 <ul>
-  {% for item in homepage.why_we_train %}
+  {% for item in context.why_we_train %}
     <li>{{ item }}</li>
   {% endfor %}
 </ul>
@@ -36,12 +36,12 @@ css_id: home
 <hr/>
 
 <ul>
-  {% for item in homepage.practice_bullets %}
+  {% for item in context.practice_bullets %}
     <li>{{ item }}</li>
   {% endfor %}
 </ul>
 
-<p><strong>{{ homepage.investor_bridge }}</strong></p>
+<p><strong>{{ context.investor_bridge }}</strong></p>
 
 <div class="md-investors">
   {%- assign profiles = site.data.investors.profiles -%}
@@ -76,5 +76,5 @@ css_id: home
 </div>
 
 <div class="md-cta-group">
-  <a href="{{ '/program' | relative_url }}">{{ homepage.program_cta }}</a>
+  <a href="{{ '/program' | relative_url }}">{{ context.program_cta }}</a>
 </div>
