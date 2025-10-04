@@ -768,7 +768,6 @@ main > section.md-flow > blockquote {
 }
 
 @media (width <= 600px) {
-
   main > section.md-flow {
     padding: 1rem 0.5rem;
   }
@@ -781,7 +780,6 @@ main > section.md-flow > blockquote {
   main > section.md-flow > ul li {
     font-size: var(--text-s);
   }
-
 }
 
 /* [PAGE SPECIFIC] */
