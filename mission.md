@@ -8,8 +8,8 @@ permalink: /
 css_id: home
 ---
 
-{% assign program = site.data.program %}
-{% assign context = program.context %}
+{% assign mission = site.data.mission %}
+{% assign context = mission.context %}
 
 <p>
   {{ context.intro_lines | join: '<br>' }}
@@ -28,9 +28,9 @@ css_id: home
   {% endfor %}
 </ul>
 
-<h2>{{ program.rally }} starts here</h2>
+<h2>{{ mission.rally }} starts here</h2>
 
-  {% for item in program.mission %}
+  {% for item in mission.statement %}
   <p>{{ item }}</p>
   {% endfor %}
 

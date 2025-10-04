@@ -7,9 +7,10 @@ permalink: /project/
 css_id: project
 ---
 
+{% assign mission = site.data.mission %}
 {% assign project = site.data.project %}
 {% assign context = project.context %}
-{% assign program = site.data.program %}
+
 
 <section class="md-flow">
   <h2>Core Motivations </h2>
@@ -37,8 +38,8 @@ css_id: project
 </section>
 
 <section class="md-flow">
-  <h2>{{ program.rally }} starts here</h2>
-  {% for item in program.mission %}
+  <h2>{{ mission.rally }} starts here</h2>
+  {% for item in mission.statement %}
   <p>{{ item }}</p>
   {% endfor %}
 </section>

@@ -6,13 +6,15 @@ h1_hr: true
 permalink: /program/
 css_id: program
 ---
+
+{% assign mission = site.data.mission %}
 {% assign program = site.data.program %}
 {% assign context = program.context %}
 
 <section class="md-flow">
-  <h2>{{ program.rally }}</h2>
+  <h2>{{ mission.rally }}</h2>
   <br>
-  {% for item in program.mission %}
+  {% for item in mission.statement %}
   <p>{{ item }}</p>
   {% endfor %}
 </section>
