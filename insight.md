@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Insight Stream
-h1_mark: Insight Stream
+h1_mark: Insight
 h1_hr: true
 css_id: insight
 ---
