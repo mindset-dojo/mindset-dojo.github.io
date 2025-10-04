@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Fear as Teacher, Shadow as Mirror, Presence as Response"
+h1_mark: Fear Shadow Presence
+h1_hr: true
 date: 2025-09-30
 author: "Kyle Ingersoll"
 excerpt: "How fear becomes a teacher and what its shadow reveals about presence and response."
