@@ -8,26 +8,26 @@ header_links:
   - label: MISSION
     href: /
   - label: PROGRAM
-    href: /program
+    href: /program/
   - label: PROJECT
-    href: /project
+    href: /project/
 
 footer_primary_links:
   - label: MISSION
     href: /
   - label: PROGRAM
-    href: /program
+    href: /program/
   - label: PROJECT
-    href: /project
+    href: /project/
   - label: CONTACT
     href: https://connect.mindset.dojo.center
     external: true
 
 footer_secondary_links:
   - label: Privacy Policy
-    href: /privacy
+    href: /privacy/
   - label: Open Source License
-    href: /license
+    href: /license/
 
 exclude:
   - Gemfile
