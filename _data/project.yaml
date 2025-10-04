@@ -1,6 +1,7 @@
 ---
 mantra: "Don't Hoard. Share."
 context:
+  mission_rally_suffix_label: infrastructure opens here
   core_motivations_label: Core Motivations
   core_motivations:
     - "Our project is a shared practice of simplicity and coherence."
@@ -17,7 +18,6 @@ context:
     - "You refactor a phrase or function toward clarity."
     - "You offer a pattern that helps others move with ease."
   pullquote: "Ideation is fun, pull requests influence."
-  mission_rally_suffix_label: starts here
   designations_label: Designations
   designations_intention_label: Intention
   designations_aspects_label: Aspects
