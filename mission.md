@@ -12,12 +12,6 @@ css_id: home
 {% assign context = mission.context %}
 
 <section class="md-flow">
-  {% for item in context.intro_lines %}
-  <p>{{ item }}</p>
-  {% endfor %}
-
-  <hr/>
-
   {% for item in context.scenario_lines %}
   <p>{{ item }}</p>
   {% endfor %}

@@ -5,10 +5,10 @@ statement:
   - Our mission is to plant the seed of fearlessness in homes, classrooms, dojos, and boardrooms.
   - We train not just the mind, but the body, tone, and timing that cultivate presence under pressure.
 context:
-  intro_lines:
+  scenario_lines:
     - "When the pressure hits, you don’t rise to the level of your best intentions."
     - "You reveal the level of your conditioning."
-  scenario_lines:
+    - "..."
     - "In the middle of a hard conversation…"
     - "When trust is on the line…"
     - "In that flash between stimulus and response…"
