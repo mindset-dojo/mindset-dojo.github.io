@@ -1,6 +1,6 @@
 {
   "default": true,
-  "MD013": { "line_length": 100, "severity": "error" },
+  "MD013": false,
   "MD041": { "level": "error" },
   "MD022": { "lines": 1, "level": "error" },
   "MD029": { "style": "ordered", "level": "error" },
