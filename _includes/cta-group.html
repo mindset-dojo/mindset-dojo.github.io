@@ -9,7 +9,7 @@ Expects:
       - label: "Cross the Threshold"
         ref: "program"   # key in site.action_links
 
-_config.yml must contain an array with values such as:
+In _config.yml:
 action_links:
   pagei: /internal
   pagex: https://github.com
@@ -20,12 +20,16 @@ action_links:
     {%- for cta in include.ctas -%}
       {%- assign raw_href = site.action_links[cta.ref] -%}
       {%- if raw_href -%}
-        {%- capture is_external -%}{% if raw_href contains '://' %}true{% else %}false{% endif %}{%- endcapture -%}
-        <a class="btn"
-           href="{% if is_external == 'true' %}{{ raw_href }}{% else %}{{ raw_href | relative_url }}{% endif %}"
-           {% if is_external == 'true' %}target="_blank" rel="noopener noreferrer"{% endif %}>
-          {{ cta.label }}
-        </a>
+        {%- comment -%} Compute normalized href {%- endcomment -%}
+        {%- assign href = raw_href -%}
+        {%- unless raw_href contains '://' -%}
+          {%- assign href = raw_href | relative_url -%}
+        {%- endunless -%}
+
+        {%- comment -%} Compute extra attributes for external links {%- endcomment -%}
+        {%- capture extra_attrs -%}{% if raw_href contains '://' %} target="_blank" rel="noopener noreferrer"{% endif %}{%- endcapture -%}
+
+        <a class="btn" href="{{ href }}"{{ extra_attrs }}>{{ cta.label }}</a>
       {%- endif -%}
     {%- endfor -%}
   </div>
