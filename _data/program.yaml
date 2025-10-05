@@ -13,9 +13,7 @@ context:
   designations_intention_label: Intention
   designations_aspects_label: Aspects
   calls_to_action:
-    - label: Cross the Threshold
-      ref: repo
-    - label: Cross the Threshold
+    - label: Deepen the Training
       ref: connect
 principles:
   - label: Relax completely

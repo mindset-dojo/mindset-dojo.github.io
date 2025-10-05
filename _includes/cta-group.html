@@ -21,9 +21,6 @@ action_links:
       {%- assign raw_href = site.action_links[cta.ref] -%}
       {%- if raw_href -%}
         {%- capture is_external -%}{% if raw_href contains '://' %}true{% else %}false{% endif %}{%- endcapture -%}
-        RAw: {{raw_href}}
-        RELATIVE: {{relative_url}}
-        IS_EXTERNAL: {{is_external}}
         <a class="btn"
            href="{% if is_external == 'true' %}{{ raw_href }}{% else %}{{ raw_href | relative_url }}{% endif %}"
            {% if is_external == 'true' %}target="_blank" rel="noopener noreferrer"{% endif %}>

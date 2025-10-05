@@ -22,10 +22,8 @@ context:
   designations_intention_label: Intention
   designations_aspects_label: Aspects
   calls_to_action:
-    - label: Cross the Threshold
+    - label: Inspect the Roots
       ref: repo
-    - label: Cross the Threshold
-      ref: connect
 designations:
   - label: (Domain-Specific) Cultivator
     intention: Strengthen, simplify and broadcast the mission
