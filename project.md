@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Don't Hide. Share.
+title: Don’t Conceal. Contribute.
 h1_mark: Share.
 h1_hr: true
 permalink: /project/
