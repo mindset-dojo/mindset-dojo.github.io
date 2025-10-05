@@ -25,8 +25,8 @@ action_links:
         RELATIVE: {{relative_url}}
         IS_EXTERNAL: {{is_external}}
         <a class="btn"
-           href="{% if is_external %}{{ raw_href }}{% else %}{{ raw_href | relative_url }}{% endif %}"
-           {% if is_external %}target="_blank" rel="noopener noreferrer"{% endif %}>
+           href="{% if is_external == 'true' %}{{ raw_href }}{% else %}{{ raw_href | relative_url }}{% endif %}"
+           {% if is_external == 'true' %}target="_blank" rel="noopener noreferrer"{% endif %}>
           {{ cta.label }}
         </a>
       {%- endif -%}
