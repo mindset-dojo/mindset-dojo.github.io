@@ -51,6 +51,6 @@ css_id: project
 
 {% include designations.html designations=project.designations context=context %}
 
-{% include authors-grid.html leadership_flow=context.leadership_flow %}
+{% include authors-grid.html leadership_flow=context.leadership_flow designation_type="project" %}
 
 {% include cta-group.html ctas=context.calls_to_action %}
