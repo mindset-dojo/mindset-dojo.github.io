@@ -759,7 +759,7 @@ main > section.md-flow > blockquote {
     overflow: hidden;
 }
 
-.md-authors section h2 {
+.md-authors section.md-author-card > h2 {
     font-size: var(--h4);
 }
 
@@ -779,12 +779,6 @@ main > section.md-flow > blockquote {
     column-gap: 16px;
     margin-bottom: 12px;
     font-size: 0;
-}
-
-.md-authors section blockquote {
-    color: var(--light-color-primary);
-    margin-bottom: 12px;
-    padding: 0 12px;
 }
 
 /* [PAGE SPECIFIC] */
