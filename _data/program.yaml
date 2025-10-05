@@ -12,7 +12,12 @@ context:
   designations_label: Leadership Designations
   designations_intention_label: Intention
   designations_aspects_label: Aspects
-  connect_call_to_action: Cross the Threshold
+  leadership_flow:
+    label: "⛩️ Leadership in Flow"
+    limit: 16
+  calls_to_action:
+    - label: Deepen the Training
+      ref: connect
 principles:
   - label: Relax completely
   - label: Center with intention

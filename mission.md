@@ -44,41 +44,13 @@ css_id: home
 </section>
 
 <section class="md-flow">
-  <p><strong>{{ context.investor_bridge }}</strong></p>
+  <h2>{{ context.energy.label }}</h2>
+  <br>
+  {% for line in context.energy.items %}
+  <p>{{ line }}</p>
+  {% endfor %}
 </section>
 
-<div class="md-investors">
-  {%- assign profiles = site.data.investors.profiles -%}
-  {%- assign avatars  = site.data.investors.avatars -%}
-  {%- assign entries  = "" | split: "|" -%}
+{% include authors-grid.html leadership_flow=context.leadership_flow %}
 
-  {%- comment -%}
-    1) Build sortable list of active investors
-       Format: [padded -belt]|[join_date]|[key]
-  {%- endcomment -%}
-  {% for pair in profiles %}
-    {% assign key = pair[0] %}
-    {% assign member = pair[1] %}
-    {% if member.active %}
-      {%- assign neg_belt = member.belt_level | times: -1 | plus: 1000 | prepend: "0000" | slice: -4, 4 -%}
-      {% capture entry %}{{ neg_belt }}|{{ member.join_date }}|{{ key }}{% endcapture %}
-      {% assign entries = entries | push: entry %}
-    {% endif %}
-  {% endfor %}
-
-  {%- comment -%} 2) Sort by belt_level DESC, then join_date ASC {%- endcomment -%}
-  {% assign sorted_entries = entries | sort %}
-
-  {%- comment -%} 3) Render each profile card {%- endcomment -%}
-  {% for entry in sorted_entries %}
-    {% assign parts  = entry | split: "|" %}
-    {% assign key    = parts[2] %}
-    {% assign member = profiles[key] %}
-    {% assign avatar = avatars[key] %}
-    {% include member.html member=member avatar=avatar %}
-  {% endfor %}
-</div>
-
-<div class="md-cta-group">
-  <a href="{{ '/program' | relative_url }}">{{ context.program_call_to_action }}</a>
-</div>
+{% include cta-group.html ctas=context.calls_to_action %}

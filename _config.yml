@@ -1,8 +1,11 @@
 ---
 permalink: /:title/
-connect_url: https://connect.mindset.dojo.center
-live_url: https://mindset.dojo.center
-repo_url: https://github.com/mindset-dojo/mindset-dojo.github.io
+
+action_links:
+  program: /program
+  project: /project
+  connect: https://connect.mindset.dojo.center
+  repo: https://github.com/mindset-dojo/mindset-dojo.github.io
 
 header_links:
   - label: MISSION

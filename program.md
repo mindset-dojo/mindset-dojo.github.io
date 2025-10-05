@@ -61,20 +61,8 @@ css_id: program
   {% endfor %}
 </section>
 
-<section class="md-flow">
-  <h2>{{ context.designations_label }}</h2>
-  {% for designation in program.designations %}
-  <br>
-  <br>
-  <h3>{{ designation.label }}</h3>
-  <p><strong>{{ context.designations_intention_label }}</strong></p> <p>{{ designation.intention }}</p>
-  <p><strong>{{ context.designations_aspects_label }}</strong></p>
-    {% for item in designation.aspects %}
-  <p>{{ item.label }}</p>
-    {% endfor %}
-  {% endfor %}
-</section>
+{% include designations.html designations=program.designations context=context %}
 
-<div class="md-cta-group">
-  <a href="{{ site.connect_url }}">{{ context.connect_call_to_action }}</a>
-</div>
+{% include authors-grid.html leadership_flow=context.leadership_flow %}
+
+{% include cta-group.html ctas=context.calls_to_action %}
