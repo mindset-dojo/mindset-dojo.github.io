@@ -45,10 +45,6 @@ css_id: project
 
 {% include designations.html designations=project.designations context=context %}
 
-<section class="md-flow">
-  <h2>{{ context.leadership_flow.label }}</h2>
-</section>
-
-{% include authors-grid.html %}
+{% include authors-grid.html leadership_flow=context.leadership_flow %}
 
 {% include cta-group.html ctas=context.calls_to_action %}

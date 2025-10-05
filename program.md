@@ -63,10 +63,6 @@ css_id: program
 
 {% include designations.html designations=program.designations context=context %}
 
-<section class="md-flow">
-  <h2>{{ context.leadership_flow.label }}</h2>
-</section>
-
-{% include authors-grid.html %}
+{% include authors-grid.html leadership_flow=context.leadership_flow %}
 
 {% include cta-group.html ctas=context.calls_to_action %}

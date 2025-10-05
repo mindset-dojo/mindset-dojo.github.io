@@ -1,29 +1,39 @@
 {%- comment -%}
-authors-grid.html  
+authors-grid.html
 ──────────────────
-Renders a grid of active authors ordered by:
-  1. Belt level (highest first)
-  2. Join date (earliest first)
+Purpose:
+  Render a grid of active authors. If `leadership_flow` is provided, wrap the
+  grid in `<section class="md-flow">` and use `leadership_flow.label` as <h2>.
 
-Data Source:
+Parameters:
+  - leadership_flow (optional): map with at least `label`
+  - profiles? (optional): override data source
+  - avatars?  (optional): override data source
+
+Data Source (defaults):
   site.data.authors.profiles
   site.data.authors.avatars
 
-Each entry is rendered with `_includes/member.html`.
-
 Usage:
-  {% include authors-grid.html %}
+  {% include authors-grid.html %}  <!-- grid only -->
+  {% include authors-grid.html leadership_flow=context.leadership_flow %}
 {%- endcomment -%}
 
-<div class="md-authors">
-  {%- assign profiles = site.data.authors.profiles -%}
-  {%- assign avatars  = site.data.authors.avatars -%}
-  {%- assign entries  = "" | split: "|" -%}
+{%- assign profiles = include.profiles | default: site.data.authors.profiles -%}
+{%- assign avatars  = include.avatars  | default: site.data.authors.avatars  -%}
+{%- assign entries  = "" | split: "|" -%}
 
-  {%- comment -%}
-    1) Build sortable list of active authors
-       Format: [padded -belt]|[join_date]|[key]
-  {%- endcomment -%}
+{%- assign has_wrapper = include.leadership_flow -%}
+{%- if has_wrapper -%}
+<section class="md-flow">
+  {%- if include.leadership_flow.label -%}
+    <h2>{{ include.leadership_flow.label }}</h2>
+  {%- endif -%}
+</section>
+{%- endif -%}
+
+<div class="md-authors">
+  {%- comment -%} 1) Build sortable list of active authors {%- endcomment -%}
   {% for pair in profiles %}
     {% assign key = pair[0] %}
     {% assign member = pair[1] %}
@@ -34,14 +44,10 @@ Usage:
     {% endif %}
   {% endfor %}
 
-  {%- comment -%}
-    2) Sort by belt_level DESC, then join_date ASC
-  {%- endcomment -%}
+  {%- comment -%} 2) Sort by belt_level DESC, then join_date ASC {%- endcomment -%}
   {% assign sorted_entries = entries | sort %}
 
-  {%- comment -%}
-    3) Render each profile card
-  {%- endcomment -%}
+  {%- comment -%} 3) Render each profile card {%- endcomment -%}
   {% for entry in sorted_entries %}
     {% assign parts  = entry | split: "|" %}
     {% assign key    = parts[2] %}
