@@ -27,7 +27,7 @@ context:
   designations_aspects_label: Aspects
   leadership_flow:
     label: "⛩️ Leadership in Flow"
-    limit: 16
+    limit: 8
   calls_to_action:
     - label: Inspect the Roots
       ref: repo
