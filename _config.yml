@@ -1,11 +1,11 @@
 ---
-permalink: /:title/
-
+permalink: /insight/:slug/
 action_links:
-  program: /program
-  project: /project
+  program: /program/
+  project: /project/
   connect: https://connect.mindset.dojo.center
   repo: https://github.com/mindset-dojo/mindset-dojo.github.io
+
 
 header_links:
   - label: MISSION
@@ -14,6 +14,8 @@ header_links:
     href: /program/
   - label: PROJECT
     href: /project/
+  - label: INSIGHT
+    href: /insight/
 
 footer_primary_links:
   - label: MISSION
@@ -22,6 +24,8 @@ footer_primary_links:
     href: /program/
   - label: PROJECT
     href: /project/
+  - label: INSIGHT
+    href: /insight/
   - label: CONTACT
     href: https://connect.mindset.dojo.center
     external: true
