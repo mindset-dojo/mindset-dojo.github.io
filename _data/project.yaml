@@ -2,6 +2,10 @@
 mantra: "Don't Hoard. Share."
 context:
   mission_rally_suffix_label: ": Living Structure"
+  mission_statement_bridge:
+    - "We move clarity into form — language, structure, and flow."
+    - "We sense friction in the knowledge field and adjust with care."
+    - "We welcome influence through open, visible practice."
   project_motivations_label: Project Motivations
   project_motivations:
     - "Our project is a shared practice of simplicity and coherence."
@@ -14,7 +18,7 @@ context:
     - "Invite courage through transparency and simplicity."
   contribution_invitations_label: Contribution Invitations
   contribution_invitations:
-    - "You notice a friction in the docs."
+    - "You sense where the system isn’t flowing."
     - "You refactor a phrase or function toward clarity."
     - "You offer a pattern that helps others move with ease."
   pullquote: "Ideation is fun, pull requests invite influence."
@@ -23,7 +27,7 @@ context:
   designations_aspects_label: Aspects
   leadership_flow:
     label: "⛩️ Leadership in Flow"
-    limit: 16
+    limit: 8
   calls_to_action:
     - label: Inspect the Roots
       ref: repo
@@ -33,13 +37,13 @@ designations:
     aspects:
       - label: Join Cultivator Circle regularly
       - label: Contribute to expertise in a mutually beneficial way
-      - label: Green Level+, sponsored by existing Cultivator
+      - label: Green Level+, vouched for by existing Cultivator(s)
   - label: Project Cultivator
     intention: Integrate program, community, and platform work
     aspects:
       - label: Lead Cultivator Circle sessions periodically
       - label: Servant leader for (Domain-Specific) Cultivators
-      - label: Black Level, sponsored by existing Cultivator
+      - label: Black Level, vouched for by existing Cultivator(s)
   - label: Organizational Cultivator
     intention: Embody integrative leadership across social, technical, and brand ecosystems
     aspects:

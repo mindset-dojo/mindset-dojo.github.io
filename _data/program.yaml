@@ -3,6 +3,10 @@ rally: Fearless Leadership
 mantra: "Don't React. Center."
 context:
   mission_rally_suffix_label: ": Embodied Practice"
+  mission_statement_bridge:
+    - "We practice live, on the mat and in conversation."
+    - "We log reflections and recalibrate between reps."
+    - "We advance levels through embodied thresholds."
   principles_label: Principles
   forms_label: Forms
   levels_label: Levels
@@ -14,7 +18,7 @@ context:
   designations_aspects_label: Aspects
   leadership_flow:
     label: "⛩️ Leadership in Flow"
-    limit: 16
+    limit: 8
   calls_to_action:
     - label: Deepen the Training
       ref: connect
