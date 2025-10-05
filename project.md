@@ -57,4 +57,10 @@ css_id: project
   {% endfor %}
 </section>
 
+<section class="md-flow">
+  <h2>{{ context.leadership_flow.label }}</h2>
+</section>
+
+{% include authors-grid.html %}
+
 {% include cta-group.html ctas=context.calls_to_action %}
