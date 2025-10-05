@@ -11,18 +11,7 @@ css_id: project
 {% assign project = site.data.project %}
 {% assign context = project.context %}
 
-<section class="md-flow">
-  <h2>{{ mission.rally }}{{ context.mission_rally_suffix_label }}</h2>
-  {% for item in mission.statement %}
-  <p>{{ item }}</p>
-  {% endfor %}
-
-  <hr/>
-
-  {% for item in context.mission_statement_bridge %}
-  <p>{{ item }}</p>
-  {% endfor %}
-</section>
+{% include mission-core.html mission=mission context=context %}
 
 <section class="md-flow">
   <h2>{{ context.project_motivations_label }} </h2>
