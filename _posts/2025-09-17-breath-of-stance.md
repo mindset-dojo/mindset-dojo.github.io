@@ -8,7 +8,7 @@ date: 2025-09-17
 author: "Kyle Ingersoll"
 excerpt: "When tension hardens between mismatched energies, Stances offer a way to realign through breath, tone, and presence—shifting both yourself and the field of conversation."
 image_extension: jpg
----  
+---
 
 Two people sit down to talk.  
 
@@ -21,7 +21,7 @@ In that small mismatch, tension quietly hardens — not because either is wr
 
 Inspired by Black Swan, we added **Stances** into the Dojo practice to give that moment a simple, lived remedy.  
 
----  
+---
 
 ## Why we call them Stances  
 
@@ -33,7 +33,7 @@ People share the potential for each of the core energies — **Visionary, Or
 
 That is why we call them **Stances**: they’re personal, they move, they can be changed.  
 
----  
+---
 
 ## The essential insights  
 
@@ -41,7 +41,7 @@ That is why we call them **Stances**: they’re personal, they move, they can be
 - **You can shift your stance.** Posture and breath change quickly; so can conversational posture. When you shift, you invite shift.  
 - **Platinum and Golden.** Don’t assume sameness. Meet people as they are — align with the stance you perceive, not the stance you prefer, *at first*. Connect in a way that creates a circuit, and listen for opportunities to make a shift.  
 
----  
+---
 
 ## Alignment work — influence, not force  
 
@@ -60,7 +60,7 @@ If you can align stances in those tight windows, you keep the field open. Once a
 - To steady a chaotic moment, offer **Organizer** energy.  
 - To mobilize action, use **Driver** energy.  
 
----  
+---
 
 ## The living practice  
 
@@ -80,7 +80,7 @@ Stances are not another taxonomy.
 They are a way of standing — personal, dynamic, embodied.  
 A way to meet others in the flow of energy, and to invite them higher.  
 
----  
+---
 
 👉 [Join the community](https://mindset.dojo.center/)  
 
