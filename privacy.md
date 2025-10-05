@@ -4,6 +4,7 @@ title: Privacy Policy
 h1_mark: Privacy
 h1_hr: true
 description: Privacy Policy
+permalink: /privacy/
 css_id: privacy
 ---
 
@@ -54,4 +55,4 @@ We may update this policy periodically to reflect changes in our practices. Plea
 
 ## Contact Us
 
-If you have any questions about this Privacy Policy, please [contact us]({{site.connect_url}}).
+If you have any questions about this Privacy Policy, please [contact us]({{site.action_links.connect}}).

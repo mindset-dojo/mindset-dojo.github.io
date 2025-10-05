@@ -1,28 +1,23 @@
 ---
 rally: Fearless Leadership
-mantra: "Don't Complain. Train."
-mission:
-  - Our mission is to plant the seed of fearlessness in homes, classrooms, dojos, and boardrooms.
-  - We train not just the mind, but the body, tone, and timing that cultivate presence under pressure.
-homepage:
-  intro_lines:
-    - "When the pressure hits, you don’t rise to the level of your best intentions."
-    - "You reveal the level of your conditioning."
-  scenario_lines:
-    - "In the middle of a hard conversation…"
-    - "When trust is on the line…"
-    - "In that flash between stimulus and response…"
-  pullquote: "The body speaks, not the polished script."
-  why_we_train:
-    - "Because awareness isn’t enough — you can name the pattern and still fall into it."
-    - "Because in high-stakes moments, you won’t have time to think — only time to respond."
-    - "Because pressure doesn’t reveal your potential — it reveals your practice."
-  practice_bullets:
-    - "We practice live, in real conversations — where timing, tone, and tension are felt."
-    - "We reflect between reps — using voice notes to recalibrate and deepen awareness."
-    - "We progress with purpose — using a belt path that honors embodied thresholds."
-  investor_bridge: "⛩️ Meet the active investors"
-  program_cta: "Cross the Threshold"
+mantra: "Don't React. Center."
+context:
+  mission_rally_suffix_label: ": Embodied Practice"
+  principles_label: Principles
+  forms_label: Forms
+  levels_label: Levels
+  intention_label: Intention
+  edge_label: Edge
+  flows_label: Flows
+  designations_label: Leadership Designations
+  designations_intention_label: Intention
+  designations_aspects_label: Aspects
+  leadership_flow:
+    label: "⛩️ Leadership in Flow"
+    limit: 16
+  calls_to_action:
+    - label: Deepen the Training
+      ref: connect
 principles:
   - label: Relax completely
   - label: Center with intention
@@ -198,15 +193,13 @@ designations:
   - label: Zenpai
     intention: Guidance through lived example and deepening through co-learning
     aspects:
-      - label: Attend Mat sessions regularly, lead periodically
-      - label: Create and share Insight regularly
-      - label: 'Connect with junior students (by level - "Zōhai") periodically for one-on-one training'
+      - label: Join Mat sessions regularly, lead periodically
+      - label: Create and share Insight regularly, guiding earlier learners
       - label: Blue Level+
   - label: Zensei
     intention: Stewardship through modeling and evolution through community feedback
     aspects:
       - label: Lead Mat sessions regularly
-      - label: Create and share Insight regularly
-      - label: Connect with Zenpai regularly for one-on-one training
+      - label: Create and share Insight regularly, guiding growing leaders
       - label: Black Level, Zen Leadership Instructor designation
-...
+---

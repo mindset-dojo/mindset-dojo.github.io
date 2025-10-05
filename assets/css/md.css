@@ -446,6 +446,7 @@ section.md-grid-3 blockquote p {
 }
 
 /* [ HEADER ] */
+
 header {
     flex-direction: row;
     align-items: center;
@@ -594,6 +595,7 @@ header button .bar4 {
 }
 
 /* [ BODY ] */
+
 header,
 body > footer {
     width: 100%;
@@ -618,105 +620,8 @@ main > a:hover {
     background-color: var(--button-background-hover-color);
 }
 
-/* [PAGE SPECIFIC] 
- [HOME | MISSION] */
-
-.md-investors section h2 + ul {
-    text-align: center;
-    align-self: center;
-    margin-bottom: 12px;
-    padding: 0;
-}
-
-#home ul {
-  list-style: none;
-  padding-left: 0;
-  margin-left: 0;
-}
-
-.md-investors {
-    display: grid;
-    align-items: initial;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    grid-gap: 12px;
-    justify-items: center;
-    margin-top: 60px;
-}
-
-.md-investors section {
-    border: 2px solid var(--border-dark-color);
-    border-radius: 24px;
-    padding: 20px;
-    background-color: var(--dark-color-primary);
-    max-width: 300px;
-    display: flex;
-    flex-direction: column;
-    font-size: 14px;
-}
-
-footer img {
-    width: 60%;
-    position: fixed;
-    opacity: 0.08;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    object-position: 0;
-    z-index: -1;
-}
-
-.md-investors section > img {
-    width: 100px;
-    height: 100px;
-    border: 2px solid var(--border-dark-color);
-    border-radius: 50%;
-    align-self: center;
-    margin-bottom: 8px;
-    overflow: hidden;
-}
-
-.md-investors section h2 {
-    font-size: var(--h4);
-}
-
-.md-investors section h2 + ul li {
-    display: inline;
-}
-
-.md-investors section h2 + ul li:not(:last-of-type)::after {
-    content: ", ";
-}
-
-.md-investors section .md-group {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    column-gap: 16px;
-    margin-bottom: 12px;
-    font-size: 0;
-}
-
-.md-investors section blockquote {
-    color: var(--light-color-primary);
-    margin-bottom: 12px;
-    padding: 0 12px;
-}
-
-/* [PRIVACY] */
-#privacy h2 {
-    text-align: left;
-}
-
-/* [404] */
-#error p {
-    font-size: var(--text-xl);
-    align-self: center;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
 /* [ FOOTER ] */
+
 body > footer {
     font-size: 14px;
     flex-direction: column;
@@ -742,51 +647,152 @@ footer nav + nav {
     gap: 8px 24px;
 }
 
-/* [PROGRAM PAGE CENTERING] */
-#program {
-    text-align: center;
+footer img {
+    width: 60%;
+    position: fixed;
+    opacity: 0.08;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    object-position: 0;
+    z-index: -1;
 }
 
-#program section {
+/* =========================================
+   AUTHORS styling
+   ========================================= */
+
+.md-authors section h2 + ul {
+    text-align: center;
+    align-self: center;
+    margin-bottom: 12px;
+    padding: 0;
+}
+
+.md-authors {
+    display: grid;
+    align-items: initial;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-gap: 12px;
+    justify-items: center;
+    margin-top: 60px;
+}
+
+.md-authors section {
+    border: 2px solid var(--border-dark-color);
+    border-radius: 24px;
+    padding: 20px;
+    background-color: var(--dark-color-primary);
+    max-width: 300px;
     display: flex;
     flex-direction: column;
+    font-size: 14px;
+}
+
+.md-authors section > img {
+    width: 100px;
+    height: 100px;
+    border: 2px solid var(--border-dark-color);
+    border-radius: 50%;
+    align-self: center;
+    margin-bottom: 8px;
+    overflow: hidden;
+}
+
+.md-authors section h2 {
+    font-size: var(--h4);
+}
+
+.md-authors section h2 + ul li {
+    display: inline;
+}
+
+.md-authors section h2 + ul li:not(:last-of-type)::after {
+    content: ", ";
+}
+
+.md-authors section .md-group {
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    padding: 2rem 1rem;
-    max-width: 800px;
-    margin: 0 auto;
+    justify-content: center;
+    column-gap: 16px;
+    margin-bottom: 12px;
+    font-size: 0;
 }
 
-#program section h2, 
-#program section p {
-    max-width: 700px;
-    text-align: center;
-    margin: 0 auto 1rem;
+.md-authors section blockquote {
+    color: var(--light-color-primary);
+    margin-bottom: 12px;
+    padding: 0 12px;
+}
+
+/* =========================================
+   GLOBAL FLOW SECTION PATTERN (opt-in)
+   Apply to any <section class="md-flow"> inside <main>
+   ========================================= */
+
+main > section.md-flow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+main > section.md-flow > h2,
+main > section.md-flow > p {
+  max-width: 700px;
+  text-align: center;
+  margin: 0 auto 1rem;
+  padding: 0 1rem;
+}
+
+main > section.md-flow > ul {
+  max-width: 700px;
+  margin: 0 auto 1.5rem;
+  padding-left: 0;
+  text-align: center;
+}
+
+main > section.md-flow > ul li {
+  text-align: left;
+}
+
+main > section.md-flow > blockquote {
+  max-width: 700px;
+  margin: 20px auto 40px;
+  padding-left: 32px;
+  border-left: 8px solid var(--brand-color-primary);
+}
+
+@media (width <= 600px) {
+  main > section.md-flow {
+    padding: 1rem 0.5rem;
+  }
+
+  main > section.md-flow > ul {
+    max-width: 100%;
     padding: 0 1rem;
+  }
+
+  main > section.md-flow > ul li {
+    font-size: var(--text-s);
+  }
 }
 
-#program section ul {
-    max-width: 700px;
-    margin: 0 auto 1.5rem;
-    padding-left: 0;
-    list-style-position: inside;
-}
+/* [PAGE SPECIFIC] */
 
-#program section ul li {
+/* [PRIVACY] */
+#privacy h2 {
     text-align: left;
 }
 
-/* Responsive tweaks for small screens */
-@media (width <= 600px) {
-    #program section {
-        padding: 1rem 0.5rem;
-    }
-
-    #program section ul {
-        max-width: 100%;
-        padding: 0 1rem;
-    }
-
-    #program section ul li {
-        font-size: var(--text-s);
-    }
+/* [404] */
+#error p {
+    font-size: var(--text-xl);
+    align-self: center;
+    text-align: center;
+    margin-bottom: 20px;
 }

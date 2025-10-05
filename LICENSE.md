@@ -3,6 +3,7 @@ layout: default
 title: Open Source License
 h1_mark: License
 h1_hr: true
+permalink: /license/
 css_id: license
 ---
 
