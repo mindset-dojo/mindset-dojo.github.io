@@ -3,9 +3,7 @@ name: Jeremy McMillan
 active: true
 join_date: 2021-01-01
 belt_level: -6
-leadership_designations:
-  - type: program
-    value: Wizard
+leadership_designations: []
 linkedin: https://www.linkedin.com/in/jeremymcm
 links: [ ]
 ...

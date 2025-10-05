@@ -69,6 +69,6 @@ css_id: program
 
 {% include designations.html designations=program.designations context=context %}
 
-{% include authors-grid.html leadership_flow=context.leadership_flow designation_type="program" %}
+{% include authors-grid.html leadership_flow=context.leadership_flow %}
 
 {% include cta-group.html ctas=context.calls_to_action %}
