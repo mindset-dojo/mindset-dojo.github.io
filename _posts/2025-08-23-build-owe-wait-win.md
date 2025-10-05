@@ -19,7 +19,7 @@ At the time, I had just introduced an HTMLProofer Quality Gate and proposed migr
 
 But Sensei reminded me that the project was already in strong technical shape.  
 We had the **Super-Linter** in place — ensuring consistent code formatting and maintaining high code quality across contributions.  
-We had completed significant **refactorings** of the website.  
+We had completed significant **refactorings** of the site.  
 The **program was properly displayed and viewable.**  
 And we had established **open-source licensing.**
 
