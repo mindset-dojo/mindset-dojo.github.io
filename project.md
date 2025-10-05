@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Don't Hoard.  Share.
+title: Don't Hoard. Share.
 h1_mark: Share.
 h1_hr: true
 permalink: /project/

@@ -55,4 +55,4 @@ We may update this policy periodically to reflect changes in our practices. Plea
 
 ## Contact Us
 
-If you have any questions about this Privacy Policy, please [contact us]({{site.connect_url}}).
+If you have any questions about this Privacy Policy, please [contact us]({{site.action_links.connect}}).
