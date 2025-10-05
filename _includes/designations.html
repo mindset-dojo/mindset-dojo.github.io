@@ -17,7 +17,6 @@
 {%- assign designations  = include.designations -%}
 {%- assign context       = include.context -%}
 
-{%- if designations and designations.size > 0 -%}
 <section class="md-flow">
   <h2>{{ context.designations_label }}</h2>
   {% for designation in designations %}
@@ -32,4 +31,3 @@
     {% endfor %}
   {% endfor %}
 </section>
-{%- else -%}
