@@ -1,33 +1,36 @@
 ---
 permalink: /:title/
-connect_url: https://connect.mindset.dojo.center
-live_url: https://mindset.dojo.center
-repo_url: https://github.com/mindset-dojo/mindset-dojo.github.io
+
+action_links:
+  program: /program
+  project: /project
+  connect: https://connect.mindset.dojo.center
+  repo: https://github.com/mindset-dojo/mindset-dojo.github.io
 
 header_links:
   - label: MISSION
     href: /
   - label: PROGRAM
-    href: /program
+    href: /program/
   - label: PROJECT
-    href: /project
+    href: /project/
 
 footer_primary_links:
   - label: MISSION
     href: /
   - label: PROGRAM
-    href: /program
+    href: /program/
   - label: PROJECT
-    href: /project
+    href: /project/
   - label: CONTACT
     href: https://connect.mindset.dojo.center
     external: true
 
 footer_secondary_links:
   - label: Privacy Policy
-    href: /privacy
+    href: /privacy/
   - label: Open Source License
-    href: /LICENSE
+    href: /license/
 
 exclude:
   - Gemfile
