@@ -57,6 +57,4 @@ css_id: project
   {% endfor %}
 </section>
 
-<div class="md-cta-group">
-  <a href="{{ site.repo_url }}">{{ context.repo_call_to_action }}</a>
-</div>
+{% include cta-group.html ctas=context.calls_to_action %}

@@ -41,7 +41,7 @@ context:
     limit: 16
   calls_to_action:
     - label: "Cross the Threshold"
-      href: "/program"
+      ref: program
     - label: "Cultivate the Garden"
-      href: "/project"
+      ref: project
 ---

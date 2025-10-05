@@ -75,6 +75,4 @@ css_id: program
   {% endfor %}
 </section>
 
-<div class="md-cta-group">
-  <a href="{{ site.connect_url }}">{{ context.connect_call_to_action }}</a>
-</div>
+{% include cta-group.html ctas=context.calls_to_action %}

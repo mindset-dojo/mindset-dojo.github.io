@@ -87,8 +87,4 @@ css_id: home
   {% endfor %}
 </div>
 
-<div class="md-cta-group">
-  {% for cta in context.calls_to_action %}
-  <a class="btn" href="{{ cta.href | relative_url }}">{{ cta.label }}</a>
-  {% endfor %}
-</div>
+{% include cta-group.html ctas=context.calls_to_action %}

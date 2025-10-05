@@ -1,0 +1,32 @@
+{%- comment -%}
+Usage:
+  {% include cta-group.html ctas=context.calls_to_action %}
+  or
+  {% include cta-group.html ctas=page.calls_to_action %}
+
+Expects:
+  - include.ctas: array of objects like:
+      - label: "Cross the Threshold"
+        ref: "program"   # key in site.action_links
+
+_config.yml must contain an array with values such as:
+action_links:
+  pagei: /internal
+  pagex: https://github.com
+{%- endcomment -%}
+
+{%- if include.ctas and include.ctas.size > 0 -%}
+  <div class="md-cta-group">
+    {%- for cta in include.ctas -%}
+      {%- assign raw_href = site.action_links[cta.ref] -%}
+      {%- if raw_href -%}
+        {%- assign is_external = raw_href contains '://' -%}
+        <a class="btn"
+           href="{% if is_external %}{{ raw_href }}{% else %}{{ raw_href | relative_url }}{% endif %}"
+           {% if is_external %}target="_blank" rel="noopener noreferrer"{% endif %}>
+          {{ cta.label }}
+        </a>
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+{%- endif -%}
