@@ -20,7 +20,7 @@ action_links:
     {%- for cta in include.ctas -%}
       {%- assign raw_href = site.action_links[cta.ref] -%}
       {%- if raw_href -%}
-        {%- assign is_external = raw_href contains '://' -%}
+        {%- capture is_external -%}{% if raw_href contains '://' %}true{% else %}false{% endif %}{%- endcapture -%}
         RAw: {{raw_href}}
         RELATIVE: {{relative_url}}
         IS_EXTERNAL: {{is_external}}
