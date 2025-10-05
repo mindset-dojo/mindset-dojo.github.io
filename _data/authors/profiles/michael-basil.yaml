@@ -3,6 +3,7 @@ name: Michael Basil
 active: true
 join_date: 2019-01-01
 belt_level: 1
+belt_level_date: 2025-01-12
 leadership_designations:
   - type: program
     value: Zensei
