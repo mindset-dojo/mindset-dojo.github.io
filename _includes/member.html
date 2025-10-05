@@ -20,6 +20,20 @@
 
   <h2>{{ include.member.name }}</h2>
 
+  {%- assign ld = include.member.leadership_designations -%}
+  {%- if ld -%}
+    {%- assign lines = "" | split: "" -%}
+    {%- for item in ld -%}
+      {%- assign v = item.value | to_s | strip -%}
+      {%- if v != "" and v != "null" -%}
+        {%- assign lines = lines | push: v -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- if lines.size > 0 -%}
+  <p>{{ lines | join: "<br>" }}</p>
+    {%- endif -%}
+  {%- endif -%}
+
   {%- if include.member.linkedin or include.member.belt_level -%}
     <div class="md-group">
       {%- if include.member.linkedin -%}

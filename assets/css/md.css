@@ -669,6 +669,11 @@ footer img {
     padding: 0;
 }
 
+.md-authors section p {
+    text-align: center;
+    margin: 4px 0px 4px 0px;
+}
+
 .md-authors {
     display: grid;
     align-items: initial;
