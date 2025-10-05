@@ -119,7 +119,7 @@ And so there was a bow, lighter than when the dojo was entered.
 
 ⛩️🖥️
 
-***Kyle Ingersoll — Brown Level and Infrastructure Cultivator***  
+***Kyle Ingersoll — Brown Level and DevOps Cultivator***  
 
 ---
 

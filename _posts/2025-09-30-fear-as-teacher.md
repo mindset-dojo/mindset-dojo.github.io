@@ -103,7 +103,7 @@ or in the hand that meets fear with presence?
 
 👉 [mindset.dojo.center](https://mindset.dojo.center)  
 ⛩️🖥️  
-*Kyle Ingersoll — Red Level and Infrastructure Cultivator*
+*Kyle Ingersoll — Red Level and DevOps Cultivator*
 
 ---
 

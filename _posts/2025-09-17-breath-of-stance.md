@@ -86,7 +86,7 @@ A way to meet others in the flow of energy, and to invite them higher.
 
 ⛩️🖥️
 
-***Kyle Ingersoll — Purple Level and Infrastructure Cultivator *** 
+***Kyle Ingersoll — Purple Level and DevOps Cultivator *** 
 
 --- 
 

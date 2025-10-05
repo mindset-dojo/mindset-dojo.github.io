@@ -49,4 +49,4 @@ It is the sharpening edge that deepens our roots, clarifies our direction, and p
 
 ⛩️🖥️
 
-***Kyle Ingersoll — Brown Level and Infrastructure Cultivator***
+***Kyle Ingersoll — Brown Level and DevOps Cultivator***

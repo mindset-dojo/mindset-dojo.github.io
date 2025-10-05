@@ -65,7 +65,7 @@ When you release that resistance, when you flip through paradox, Ki flows. Circl
 
 ⛩️🖥️  
 
-*Kyle Ingersoll — Brown Level and Infrastructure Cultivator*  
+*Kyle Ingersoll — Brown Level and DevOps Cultivator*  
 
 ---
 
