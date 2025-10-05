@@ -12,7 +12,7 @@ Before Blue Belt training, I often approached conversations passively — fo
 
 Since training, I’ve developed greater awareness and intention. I now enter conversations with a direction in mind and use Driver energy to move them forward. I’m not just participating; I’m steering.
 
-⸻
+---
 
 ### Leading by Following
 
@@ -22,7 +22,7 @@ A key moment came while working on the Mindset Dojo website alongside the Sensei
 
 Instead of trying to control the direction, I stepped back, supported his vision, and worked to amplify it. That shift allowed us to build momentum as a team and reminded me that leading sometimes means knowing when to follow.
 
-⸻
+---
 
 ### The Contagion of Mindset
 
@@ -32,7 +32,7 @@ I’ve seen how negativity can warp perception — not only in others, but i
 
 This awareness has helped me keep both myself and others aligned with a constructive mindset.
 
-⸻
+---
 
 ### Confronting My Overreliance on Visionary Energy
 
@@ -42,7 +42,7 @@ That imbalance became clear during the Mindset Dojo project. At multiple points,
 
 Those moments were uncomfortable, but essential. Over time, stepping through became easier. The emotional resistance lessened. I started to act with less hesitation and more commitment.
 
-⸻
+---
 
 ### Balancing Mind and Body
 
@@ -52,7 +52,7 @@ While I can explain the Zen Leader Essential Flips and the 9 Negotiation Moves i
 
 I’ve begun the work — writing user stories, meditating, practicing breathwork — but I know I still default to the mind. The body work is where I have the most room to grow.
 
-⸻
+---
 
 ### Looking Ahead
 
