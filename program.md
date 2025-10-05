@@ -61,19 +61,7 @@ css_id: program
   {% endfor %}
 </section>
 
-<section class="md-flow">
-  <h2>{{ context.designations_label }}</h2>
-  {% for designation in program.designations %}
-  <br>
-  <br>
-  <h3>{{ designation.label }}</h3>
-  <p><strong>{{ context.designations_intention_label }}</strong></p> <p>{{ designation.intention }}</p>
-  <p><strong>{{ context.designations_aspects_label }}</strong></p>
-    {% for item in designation.aspects %}
-  <p>{{ item.label }}</p>
-    {% endfor %}
-  {% endfor %}
-</section>
+{% include designations.html designations=program.designations context=context %}
 
 <section class="md-flow">
   <h2>{{ context.leadership_flow.label }}</h2>

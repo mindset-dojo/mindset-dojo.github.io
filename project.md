@@ -43,19 +43,7 @@ css_id: project
   <blockquote><strong>{{ context.pullquote }}</strong></blockquote>
 </section>
 
-<section class="md-flow">
-  <h2>{{ context.designations_label }}</h2>
-  {% for designation in project.designations %}
-  <br>
-  <br>
-  <h3>{{ designation.label }}</h3>
-  <p><strong>{{ context.designations_intention_label }}</strong></p> <p>{{ designation.intention }}</p>
-  <p><strong>{{ context.designations_aspects_label }}</strong></p>
-    {% for item in designation.aspects %}
-  <p>{{ item.label }}</p>
-    {% endfor %}
-  {% endfor %}
-</section>
+{% include designations.html designations=project.designations context=context %}
 
 <section class="md-flow">
   <h2>{{ context.leadership_flow.label }}</h2>

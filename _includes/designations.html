@@ -1,0 +1,34 @@
+{%- comment -%}
+  --------------------------------------------------------------------------
+  File: _includes/designations.html
+  Purpose:
+    Shared include for rendering a list of designations and their aspects.
+  
+  Parameters:
+    - designations: the collection of designation objects to render
+    - context: the context object providing label strings
+
+  Example usage:
+    {% include designations.html designations=program.designations context=context %}
+    {% include designations.html designations=project.designations context=context %}
+  
+  Notes:
+    - Each designation displays its label, intention, and aspect list.
+    - Styling and spacing are handled via the "md-flow" class.
+  --------------------------------------------------------------------------
+{%- endcomment -%}
+
+<section class="md-flow">
+  <h2>{{ context.designations_label }}</h2>
+  {% for designation in designations %}
+  <br>
+  <br>
+  <h3>{{ designation.label }}</h3>
+  <p><strong>{{ context.designations_intention_label }}</strong></p>
+  <p>{{ designation.intention }}</p>
+  <p><strong>{{ context.designations_aspects_label }}</strong></p>
+  {% for item in designation.aspects %}
+    <p>{{ item.label }}</p>
+  {% endfor %}
+  {% endfor %}
+</section>
