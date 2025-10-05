@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<article class="post-article">
+  {% if page.image_extension %}
+    {% assign slug_part = page.slug | default: page.title | slugify %}
+    {% assign date_part = page.date | date: "%Y-%m-%d" %}
+    {% assign img_relative = "/media/images/" | append: date_part | append: "-" | append: slug_part | append: "." | append: page.image_extension %}
+    <img
+      src="{{ img_relative | relative_url }}"
+      alt="{{ page.image_alt | default: page.title | escape }}"
+      class="post-bottom-image"
+      loading="lazy"
+    />
+  {% endif %}
+
+  <header class="post-header">
+    <p class="post-meta">
+      By {{ page.author | default: site.author }} — {{ page.date | date: "%B %-d, %Y" }}
+    </p>
+
+    {% if page.excerpt %}
+      <p class="post-excerpt">{{ page.excerpt }}</p>
+    {% endif %}
+  </header>
+  
+  <hr>
+
+  <div class="post-body">
+    {{ content }}
+  </div>
+
+</article>
