@@ -43,5 +43,5 @@ context:
     - label: "Cross the Threshold"
       href: "/program"
     - label: "Cultivate the Garden"
-      href: "/projects"
+      href: "/project"
 ---
