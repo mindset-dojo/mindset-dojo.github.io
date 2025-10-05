@@ -38,7 +38,7 @@ context:
       - "Thresholds turn circles into spirals — growth follows reciprocity."
   leadership_flow:
     label: "⛩️ Leadership in Flow"
-    limit: 2
+    limit: 8
   calls_to_action:
     - label: "Cross the Threshold"
       ref: program
