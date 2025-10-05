@@ -86,16 +86,16 @@ A way to meet others in the flow of energy, and to invite them higher.
 
 ⛩️🖥️
 
-***Kyle Ingersoll — Purple Level and DevOps Cultivator *** 
+***Kyle Ingersoll — Purple Level and DevOps Cultivator ***
 
---- 
+---
 
 ### Related Learning  
 
 **Mindset Dojo Insights — Tone**  
 Explores how tone is the “weather” of a conversation — coloring every word and shifting whether dialogue builds, opens, or shuts down.  
 
-👉 [Read here]({{ '/insight/tone/' | relative_url }}) 
+👉 [Read here]({{ '/insight/tone/' | relative_url }})
 
 **Mindset Dojo Insights — Map of Consciousness**  
 Introduces the Map of Consciousness as a compass for noticing whether conversations open into creativity or contract into defensiveness.  
