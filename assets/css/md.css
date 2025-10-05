@@ -669,9 +669,9 @@ footer img {
     padding: 0;
 }
 
-.md-authors section p {
+.md-authors section.md-author-card > p {
     text-align: center;
-    margin: 0px 0px 12px 0px;
+    margin: 0px 0px 12px;
 }
 
 .md-authors {
