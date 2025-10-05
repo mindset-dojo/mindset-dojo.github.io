@@ -18,7 +18,7 @@ Since training, I’ve developed greater awareness and intention. I now enter co
 
 At the same time, I’ve learned to better integrate others into the dialogue using Collaborator energy.
 
-A key moment came while working on the Mindset Dojo website alongside the Sensei. I practiced servant leadership by consciously following his lead — recognizing his deeper experience in software engineering and with the program itself.
+A key moment came while working on the Mindset Dojo site alongside the Sensei. I practiced servant leadership by consciously following his lead — recognizing his deeper experience in software engineering and with the program itself.
 
 Instead of trying to control the direction, I stepped back, supported his vision, and worked to amplify it. That shift allowed us to build momentum as a team and reminded me that leading sometimes means knowing when to follow.
 
