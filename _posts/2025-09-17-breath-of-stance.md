@@ -72,11 +72,10 @@ What we keep is a set of habits that live in the body: *notice, breathe, shift, 
 
 Stances nest inside the Dojo’s **principles**:  
 
-<ul>
-  {% for principle in site.data.program.principles %}
-    <li> <strong>{{ principle.label }}</strong> </li>
-  {% endfor %}
-</ul>
+- Relax completely  
+- Feel into impulse waves  
+- Meet tension with presence  
+- Form reflection into reflex  
 
 Stances are not another taxonomy.  
 
