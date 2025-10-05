@@ -29,19 +29,7 @@ css_id: home
   {% endfor %}
 </section>
 
-<section class="md-flow">
-  <h2>{{ mission.rally }}{{ context.mission_rally_suffix_label }}</h2>
-  <br>
-  {% for item in mission.statement %}
-  <p>{{ item }}</p>
-  {% endfor %}
-
-  <hr/>
-
-  {% for item in context.practice_bullets %}
-  <p>{{ item }}</p>
-  {% endfor %}
-</section>
+{% include mission-core.html mission=mission context=context %}
 
 <section class="md-flow">
   <h2>{{ context.energy.label }}</h2>
