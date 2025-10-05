@@ -38,7 +38,7 @@ css_id: home
 
   <hr/>
 
-  {% for item in context.practice_bullets %}
+  {% for item in context.mission_statement_bridge %}
   <p>{{ item }}</p>
   {% endfor %}
 </section>

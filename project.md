@@ -16,6 +16,12 @@ css_id: project
   {% for item in mission.statement %}
   <p>{{ item }}</p>
   {% endfor %}
+
+  <hr/>
+
+  {% for item in context.mission_statement_bridge %}
+  <p>{{ item }}</p>
+  {% endfor %}
 </section>
 
 <section class="md-flow">
