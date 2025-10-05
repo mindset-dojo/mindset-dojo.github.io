@@ -25,6 +25,23 @@ context:
     - "We practice live, in real conversations — where timing, tone, and tension are felt."
     - "We reflect between reps — using voice notes to recalibrate and deepen awareness."
     - "We progress with purpose — using a belt path that honors embodied thresholds."
-  investor_bridge: "⛩️ Meet the energy investors"
-  program_call_to_action: Cross the Threshold
+  energy:
+    label: "Energy Is Currency"
+    items:
+      - "Authorship is the minimum investment — this isn’t consumption."
+      - "Presence grows through contribution, not just participation."
+      - "..."
+      - "Money is energy — vital for scale, not required for entry."
+      - "If not exchanging financially, consider alternative energy investments."
+      - "..."
+      - "Those with means extend reach; those with practice deepen it."
+      - "Thresholds turn circles into spirals — growth follows reciprocity."
+  leadership_flow:
+    label: "⛩️ Leadership in Flow"
+    limit: 16
+  calls_to_action:
+    - label: "Cross the Threshold"
+      href: "/program"
+    - label: "Cultivate the Garden"
+      href: "/projects"
 ---

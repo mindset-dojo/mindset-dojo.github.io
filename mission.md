@@ -44,7 +44,15 @@ css_id: home
 </section>
 
 <section class="md-flow">
-  <p><strong>{{ context.investor_bridge }}</strong></p>
+  <h2>{{ context.energy.label }}</h2>
+  <br>
+  {% for line in context.energy.items %}
+  <p>{{ line }}</p>
+  {% endfor %}
+</section>
+
+<section class="md-flow">
+  <h2>{{ context.leadership_flow.label }}</h2>
 </section>
 
 <div class="md-investors">
@@ -80,5 +88,7 @@ css_id: home
 </div>
 
 <div class="md-cta-group">
-  <a href="{{ '/program' | relative_url }}">{{ context.program_call_to_action }}</a>
+  {% for cta in context.calls_to_action %}
+  <a class="btn" href="{{ cta.href | relative_url }}">{{ cta.label }}</a>
+  {% endfor %}
 </div>
