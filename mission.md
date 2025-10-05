@@ -55,13 +55,13 @@ css_id: home
   <h2>{{ context.leadership_flow.label }}</h2>
 </section>
 
-<div class="md-investors">
-  {%- assign profiles = site.data.investors.profiles -%}
-  {%- assign avatars  = site.data.investors.avatars -%}
+<div class="md-authors">
+  {%- assign profiles = site.data.authors.profiles -%}
+  {%- assign avatars  = site.data.authors.avatars -%}
   {%- assign entries  = "" | split: "|" -%}
 
   {%- comment -%}
-    1) Build sortable list of active investors
+    1) Build sortable list of active authors
        Format: [padded -belt]|[join_date]|[key]
   {%- endcomment -%}
   {% for pair in profiles %}

@@ -659,17 +659,17 @@ footer img {
 }
 
 /* =========================================
-   INVESTORS rules (opt-in)
+   AUTHORS styling
    ========================================= */
 
-.md-investors section h2 + ul {
+.md-authors section h2 + ul {
     text-align: center;
     align-self: center;
     margin-bottom: 12px;
     padding: 0;
 }
 
-.md-investors {
+.md-authors {
     display: grid;
     align-items: initial;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -678,7 +678,7 @@ footer img {
     margin-top: 60px;
 }
 
-.md-investors section {
+.md-authors section {
     border: 2px solid var(--border-dark-color);
     border-radius: 24px;
     padding: 20px;
@@ -689,7 +689,7 @@ footer img {
     font-size: 14px;
 }
 
-.md-investors section > img {
+.md-authors section > img {
     width: 100px;
     height: 100px;
     border: 2px solid var(--border-dark-color);
@@ -699,19 +699,19 @@ footer img {
     overflow: hidden;
 }
 
-.md-investors section h2 {
+.md-authors section h2 {
     font-size: var(--h4);
 }
 
-.md-investors section h2 + ul li {
+.md-authors section h2 + ul li {
     display: inline;
 }
 
-.md-investors section h2 + ul li:not(:last-of-type)::after {
+.md-authors section h2 + ul li:not(:last-of-type)::after {
     content: ", ";
 }
 
-.md-investors section .md-group {
+.md-authors section .md-group {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -721,7 +721,7 @@ footer img {
     font-size: 0;
 }
 
-.md-investors section blockquote {
+.md-authors section blockquote {
     color: var(--light-color-primary);
     margin-bottom: 12px;
     padding: 0 12px;
