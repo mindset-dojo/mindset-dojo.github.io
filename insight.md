@@ -32,7 +32,7 @@ css_id: insight
       {% assign segments = post.url | split: '/' %}
       {% assign last = segments | last %}
       {% if last == "" %}
-        {% comment %} url ended with a slash; take the second-to-last segment {% endcomment %}
+        {% comment %} URL ended with a slash; take the second-to-last segment {% endcomment %}
         {% assign post_slug = segments[segments.size | minus: 2] %}
       {% else %}
         {% assign post_slug = last %}
