@@ -4,8 +4,8 @@ Each case delegates to a small, focused template for that section type.
 {%- endcomment -%}
 
 {%- case section.type -%}
-  {%- when 'mission-core' -%}
-    {% include sections/mission-core.html section=section data=data data_key=data_key %}
+  {%- when 'mission' -%}
+    {% include sections/mission.html section=section data=data data_key=data_key %}
 
   {%- when 'text' -%}
     {% include sections/text.html section=section %}

@@ -26,7 +26,7 @@ sections:
         - "Because awareness alone can’t change a reflex—it must be retrained."
         - "Because under stress, thought disappears and energy decides."
         - "Because pressure doesn’t reveal potential—it reveals practice."
-  - type: mission-core
+  - type: mission
     data:
       mission_rally_suffix_label: ": Root Intention"
       mission_statement_bridge:
