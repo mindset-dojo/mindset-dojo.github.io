@@ -17,7 +17,7 @@ context:
   designations_intention_label: Intention
   designations_aspects_label: Aspects
   leadership_flow:
-    label: "⛩️💫 Training Authors"
+    label: "⛩️💫 Practice Stewards"
     limit: 16
   calls_to_action:
     - label: Deepen the Training

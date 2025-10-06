@@ -27,7 +27,7 @@ context:
   designations_intention_label: Intention
   designations_aspects_label: Aspects
   leadership_flow:
-    label: "⛩️🪴 The Seven Cultivators"
+    label: "⛩️🪴 System Gardeners"
     limit: 8
   calls_to_action:
     - label: Inspect the Roots
