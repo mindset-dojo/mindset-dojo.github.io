@@ -53,9 +53,7 @@ So, I acted decisively and reasonably:
 2. **Escalation:** I called the Organizational Cultivator immediately on Signal audio, not delaying or downplaying.  
 3. **Centering:** Before we began deciding next steps, we did *One Breath* together — a brief practice to calm down and focus.  
    - [One Breath](https://vimeo.com/944618879/47e96945a4) is a simple Mindset Dojo practice out of Zen Toolkit: pause, take one slow breath together, and let the body and mind settle. It only takes a minute or two, but it helps shift from panic to presence — essential in any incident response.  
-
-We brought the site back online, and determined that there was no reasonable risk of exploitation in the immediate term.
-
+   - We brought the site back online, and determined that there was no reasonable risk of exploitation in the immediate term.
 4. **Reflection in action (first pass):** Once grounded, we walked through two questions — *What went well?* and *What didn’t go well?* — followed by a first round of *What would we do differently next time?* My answers were clouded by fear, which distorted my perspective. I looked for broad, general fixes, while missing the specific one we needed, at first.  
 5. **Execution:** In a follow-up virtual meeting, we addressed and mapped out the medium- and long-term risks. From my vantage point, the problem looked larger and vaguer. The Organizational Cultivator, with steadier experience, saw through the fear, cut to the heart of the issue, and implemented the exact technical fix. They, from the GitHub admin panel, verified domain ownership at both the organization and repository level through DNS TXT validation on the same day as discovery.  
 6. **Closure (second pass):** After the vulnerability was fixed, we revisited *What would we do differently next time?* This time, with fear replaced by clarity, the conversation was sharper, more grounded, and more useful.  

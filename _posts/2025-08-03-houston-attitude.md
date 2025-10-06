@@ -192,4 +192,3 @@ A practiced one that can MetaShift.
 
 **Michael Basil** (Black Belt, Organizational Cultivator)  
 **Kyle Ingersoll** (Purple Belt, DevOps Cultivator)
-
