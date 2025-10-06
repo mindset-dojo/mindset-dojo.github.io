@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "⛩️ Unlearning Hierarchy"
+title: "Insight - Unlearning Hierarchy"
 h1_mark: learn
 h1_hr: true
 date: 2025-10-06
