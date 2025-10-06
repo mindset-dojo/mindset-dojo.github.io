@@ -17,15 +17,17 @@ What if the tallest tower in the room became a garden gate?
 We train on a conversational mat — circles where awareness, presence, and authorship are practiced together.  
 No towers. No command decks. Just people learning to move with each other.  
 
-Roles in the Dojo aren’t ranks; they’re ways of tending energy.  
-Circles replace chains of command.  
-Authorship replaces ownership.  
-Progression isn’t about power — it’s about depth of embodiment.  
+Roles in the Dojo aren’t ranks; they’re ways of tending energy.
+
+- Circles replace chains of command.  
+- Authorship replaces ownership.  
+- Progression isn’t about power — it’s about depth of embodiment.  
 
 The Dojo is a garden, not a Death Star.  
-Growth happens through rhythm, care, and coherence — not through force.  
-We lead by example, not by control.  
-By cultivating presence, not projecting power.  
+
+- Growth happens through rhythm, care, and coherence — not through force.  
+- We lead by example, not by control.  
+- By cultivating presence, not projecting power.  
 
 ---
 
