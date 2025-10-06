@@ -1,0 +1,28 @@
+{%- comment -%}
+Static dispatcher for section includes (broad Jekyll compatibility).
+Each case delegates to a small, focused template for that section type.
+{%- endcomment -%}
+
+{%- case section.type -%}
+  {%- when 'mission_core' -%}
+    {% include sections/mission-core.html section=section data=data data_key=data_key %}
+
+  {%- when 'text' -%}
+    {% include sections/text.html section=section %}
+
+  {%- when 'list' -%}
+    {% include sections/list.html section=section %}
+
+  {%- when 'quote' -%}
+    {% include sections/quote.html section=section %}
+
+  {%- when 'designations' -%}
+    {% include sections/designations.html section=section data=data %}
+
+  {%- when 'authors' -%}
+    {% include sections/authors.html section=section %}
+
+  {%- when 'ctas' -%}
+    {% include sections/ctas.html section=section %}
+
+{%- endcase -%}

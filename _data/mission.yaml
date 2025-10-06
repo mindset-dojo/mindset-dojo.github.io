@@ -6,42 +6,54 @@ statement:
   - To plant this practice in homes, classrooms, dojos, and boardrooms.
   - Training mind, body, breath, tone, and timing as one field.
   - So composure becomes natural when pressure arrives.
-context:
-  scenario_lines:
-    - "When the pressure hits, you don’t rise to the level of your best intentions."
-    - "You reveal the level of your conditioning."
-    - "..."
-    - "In the middle of a stuck conversation…"
-    - "When trust is on the line…"
-    - "In that flash between stimulus and response…"
-  pullquote: "The body speaks first—before we polish the words."
-  why_we_train_label: Why We Train
-  why_we_train:
-    - "Because awareness alone can’t change a reflex—it must be retrained."
-    - "Because under stress, thought disappears and energy decides."
-    - "Because pressure doesn’t reveal potential—it reveals practice."
-  mission_rally_suffix_label: ": Root Intention"
-  mission_statement_bridge:
-    - "We practice live—in real conversations where tone and tension are felt."
-    - "We reflect between reps—refining awareness and adjusting our stance."
-    - "We progress through embodied thresholds of attention, intention, and reciprocity."
-  energy:
-    label: "Energy Is Currency"
-    items:
-      - "(Self-)Authorship is the minimum investment—this isn’t consumption."
-      - "Presence grows through contribution, not just participation."
-      - "Thresholds turn circles into spirals—growth follows reciprocity."
-      - "..."
-      - "Money is one form of energy—vital for scale, not for entry."
-      - "If not financial, invest time, attention, mentorship, or expertise."
-      - "Those with means extend reach; those with practice deepen it."
-  leadership_flow:
-    label: "⛩️⚡ Energy Authors"
-    limit: 16
-  calls_to_action:
-    - label: "Cross the Threshold"
-      ref: program
-    - label: "Cultivate the Garden"
-      ref: project
-
+sections:
+  - type: text
+    data:
+      items:
+        - "When the pressure hits, you don’t rise to the level of your best intentions."
+        - "You reveal the level of your conditioning."
+        - "..."
+        - "In the middle of a stuck conversation…"
+        - "When trust is on the line…"
+        - "In that flash between stimulus and response…"
+  - type: mission_core
+    data:
+      mission_rally_suffix_label: ": Root Intention"
+      mission_statement_bridge:
+        - "We practice live—in real conversations where tone and tension are felt."
+        - "We reflect between reps—refining awareness and adjusting our stance."
+        - "We progress through embodied thresholds of attention, intention, and reciprocity."
+  - type: text
+    data:
+      label: "Why We Train"
+      items:
+        - "Because awareness alone can’t change a reflex—it must be retrained."
+        - "Because under stress, thought disappears and energy decides."
+        - "Because pressure doesn’t reveal potential—it reveals practice."
+  - type: quote
+    data:
+      text: "The body speaks first—before we polish the words."
+  - type: text
+    data:
+      label: "Energy Is Currency"
+      items:
+        - "(Self-)Authorship is the minimum investment—this isn’t consumption."
+        - "Presence grows through contribution, not just participation."
+        - "Thresholds turn circles into spirals—growth follows reciprocity."
+        - "..."
+        - "Money is one form of energy—vital for scale, not for entry."
+        - "If not financial, invest time, attention, mentorship, or expertise."
+        - "Those with means extend reach; those with practice deepen it."
+  - type: authors
+    data:
+      leadership_flow:
+        label: "⛩️⚡ Energy Authors"
+        limit: 16
+  - type: ctas
+    data:
+      items:
+        - label: "Cross the Threshold"
+          ref: program
+        - label: "Cultivate the Garden"
+          ref: project
 ---

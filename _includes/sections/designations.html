@@ -1,0 +1,26 @@
+{%- comment -%}
+designations:
+  data:
+    label:           <string, optional>  (fallback: data.context.designations_label)
+    intention_label: <string, optional>  (fallback: data.context.designations_intention_label)
+    aspects_label:   <string, optional>  (fallback: data.context.designations_aspects_label)
+    items:           <array, optional>   (fallback: data.designations)
+
+Uses the existing shared include `designations.html` to keep visuals identical.
+{%- endcomment -%}
+
+{%- assign D = section.data -%}
+{%- assign dz_items     = D.items           | default: data.designations -%}
+{%- assign dz_label     = D.label           | default: data.context.designations_label -%}
+{%- assign dz_intent    = D.intention_label | default: data.context.designations_intention_label -%}
+{%- assign dz_aspects   = D.aspects_label   | default: data.context.designations_aspects_label -%}
+
+{%- if dz_items and dz_items.size > 0 -%}
+  {% include designations.html
+     designations=dz_items
+     context="
+       { 'designations_label': dz_label,
+         'designations_intention_label': dz_intent,
+         'designations_aspects_label': dz_aspects
+       }" %}
+{%- endif -%}

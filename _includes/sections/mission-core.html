@@ -1,0 +1,12 @@
+{%- comment -%}
+mission_core:
+  data:
+    mission_rally_suffix_label: <string, optional>
+    mission_statement_bridge:   <array of strings, optional>
+
+Pulls canonical mission (rally/statement) from site.data.mission.
+{%- endcomment -%}
+
+{%- assign D = section.data -%}
+{%- assign mission_source = site.data.mission -%}
+{% include mission-core.html mission=mission_source context=D %}

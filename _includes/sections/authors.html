@@ -1,0 +1,10 @@
+{%- comment -%}
+authors:
+  data:
+    leadership_flow: { label:<string>, limit:<int>, ... }
+{%- endcomment -%}
+
+{%- assign D = section.data -%}
+{%- if D.leadership_flow -%}
+  {% include authors-grid.html leadership_flow=D.leadership_flow %}
+{%- endif -%}

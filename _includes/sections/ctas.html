@@ -1,0 +1,10 @@
+{%- comment -%}
+ctas:
+  data:
+    items: <array of CTA objects, e.g., {label, ref|url, ...}>
+{%- endcomment -%}
+
+{%- assign D = section.data -%}
+{%- if D.items -%}
+  {% include cta-group.html ctas=D.items %}
+{%- endif -%}

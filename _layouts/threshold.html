@@ -1,0 +1,37 @@
+---
+layout: default
+---
+{%- comment -%}
+Threshold layout: renders sections in the order provided by _data/<data_key>.yaml
+
+Page front matter must include:
+  layout: threshold
+  data_key: <mission|project|...>
+
+YAML shape (example):
+  sections:
+    - type: mission_core
+      data:
+        mission_rally_suffix_label: ": Root Intention"
+        mission_statement_bridge:
+          - "line 1"
+          - "line 2"
+    - type: text
+      data:
+        label: "Why We Train"
+        items:
+          - "Because ..."
+{%- endcomment -%}
+
+{%- assign data_key = page.data_key -%}
+{%- assign data = site.data[data_key] -%}
+
+{%- if data and data.sections and data.sections.size > 0 -%}
+  {%- for section in data.sections -%}
+    {% include sections/_dispatch.html section=section data=data data_key=data_key %}
+  {%- endfor -%}
+{%- else -%}
+  <section class="md-flow">
+    <p><em>No <code>sections</code> defined in <code>_data/{{ data_key }}.yaml</code>.</em></p>
+  </section>
+{%- endif -%}
