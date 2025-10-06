@@ -104,6 +104,7 @@ The weight of frustration shifted into something lighter — willingness.
 The Map of Consciousness is not just theory. It is the daily art of noticing, choosing tone, aligning energy, and shifting state.  
 
 In the dojo we discover:  
+
 - Our place on the map is never permanent.  
 - Our tone can raise or lower us.  
 - Our energies express positively or negatively depending on our state.  
@@ -132,5 +133,3 @@ Explores how tone is the “weather” of a conversation — coloring every word
 - **Mindset Dojo Insights — The Breath of a Stance Shifts the Mountain**  
 Shows how FEBI™ energies appear as stances in posture, breath, and tone — and how recognizing them helps align rather than oppose.  
 👉 [Read here]({{ '/insight/breath-of-stance/' | relative_url }})
-
----
