@@ -34,21 +34,15 @@ context:
       ref: repo
 designations:
   - label: (Domain-Specific) Cultivator
-    intention: Strengthen, simplify and broadcast the mission
+    intention: Strengthen, clarify, and amplify the mission
     aspects:
       - label: Join Cultivator Circle regularly
       - label: Contribute to expertise in a mutually beneficial way
       - label: Green Level+, vouched for by existing Cultivator(s)
   - label: Project Cultivator
-    intention: Integrate program, community, and platform work
-    aspects:
-      - label: Lead Cultivator Circle sessions periodically
-      - label: Servant leader for (Domain-Specific) Cultivators
-      - label: Black Level, vouched for by existing Cultivator(s)
-  - label: Organizational Cultivator
-    intention: Embody integrative leadership across social, technical, and brand ecosystems
-    aspects:
+    intention: Guide, harmonize, and model training authorship
+    aspects: 
       - label: Lead Cultivator Circle sessions regularly
-      - label: Cultivate organizational culture and brand coherence
-      - label: Black Level, Zen Leadership Instructor designation
+      - label: Cultivate project culture and brand coherence
+      - label: Black Level, Zen Leadership Instructor intention
 ---
