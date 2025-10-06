@@ -11,10 +11,12 @@ image_extension: png
 
 In the Dojo, leadership is cultivation, not control.  
 
-What happens when the voice that usually decides steps back and listens instead?  
+What happens when the voice that usually decides steps back and listens instead?
+
 What if the tallest tower in the room became a garden gate?
 
-We train on a conversational mat — circles where awareness, presence, and authorship are practiced together.  
+We train on a conversational mat — circles where awareness, presence, and authorship are practiced together.
+  
 No towers. No command decks. Just people learning to move with each other.  
 
 Roles in the Dojo aren’t ranks; they’re ways of tending energy.
