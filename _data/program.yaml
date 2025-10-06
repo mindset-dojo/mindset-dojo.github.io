@@ -29,7 +29,7 @@ principles:
   - label: Resonance is Ki
 forms:
   - label: Breathing
-    url: https://en.wikipedia.org/wiki/Conscious_breathing
+    url: https://www.choseizen.org/hara-foundations
   - label: Reflection
     url: https://en.wikipedia.org/wiki/Self-reflection
   - label: Consciousness
@@ -131,6 +131,8 @@ levels:
         url: https://www.youtube.com/watch?v=OFxdn9v5avk
       - label: Your Unique MetaShift Expression
         url: https://lessons.basil.one/houston-we-have-an-attitude-097fa422edf0
+      - label: Hara Foundations with Chosei Zen
+        url: https://www.choseizen.org/hara-foundations
       - label: 10 minute Zazen by yourself
         url: https://www.youtube.com/watch?v=Qf1vmcP7otk
   - color: brown
