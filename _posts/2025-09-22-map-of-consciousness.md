@@ -104,6 +104,7 @@ The weight of frustration shifted into something lighter — willingness.
 The Map of Consciousness is not just theory. It is the daily art of noticing, choosing tone, aligning energy, and shifting state.  
 
 In the dojo we discover:  
+
 - Our place on the map is never permanent.  
 - Our tone can raise or lower us.  
 - Our energies express positively or negatively depending on our state.  
