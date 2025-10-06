@@ -101,4 +101,3 @@ Explores how tone is the “weather” of a conversation — coloring every word
 Introduces the Map of Consciousness as a compass for noticing whether conversations open into creativity or contract into defensiveness.  
 
 👉 [Read here]({{ '/insight/map-of-consciousness/' | relative_url }})  
-
