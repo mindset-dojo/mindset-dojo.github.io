@@ -17,8 +17,8 @@ context:
   designations_intention_label: Intention
   designations_aspects_label: Aspects
   leadership_flow:
-    label: "⛩️ Leadership in Flow"
-    limit: 8
+    label: "⛩️💫 Training Authors"
+    limit: 16
   calls_to_action:
     - label: Deepen the Training
       ref: connect
