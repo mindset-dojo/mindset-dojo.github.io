@@ -5,6 +5,6 @@
   "MD022": { "lines": 1, "level": "error" },
   "MD029": { "style": "ordered", "level": "error" },
   "MD032": { "level": "error" },
-  "MD033": { "allowed_elements": ["br"], "level": "warning" },
+  "MD033": false,
   "MD034": false
 }
