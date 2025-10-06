@@ -107,6 +107,8 @@ levels:
         url: https://www.youtube.com/watch?v=l-_KMzx8U7Y
       - label: Zen Leader Essential Flip - Or to And
         url: https://www.youtube.com/watch?v=uaLDcv1NVCU
+      - label: Online Introduction to Zazen at Chosei Zen
+        url: https://www.choseizen.org/online-intro-to-zazen
       - label: 10 minute Zazen with Zenpai
         url: https://www.youtube.com/watch?v=Qf1vmcP7otk
   - color: purple
@@ -187,8 +189,6 @@ levels:
         url: https://www.ted.com/talks/derek_sivers_how_to_start_a_movement
       - label: For Something New To Come, Something Old Must Go
         url: https://www.youtube.com/watch?v=_to_w-R0JjQ
-      - label: Online Introduction to Zazen at Chosei Zen
-        url: https://www.choseizen.org/online-intro-to-zazen
       - label: 30 minute Zazen with Chosei Zen Virtual Dojo
         url: https://www.choseizen.org/virtual-dojo
       - label: Two Sides Integrative Randori with Beyond the Black Belt Circle
