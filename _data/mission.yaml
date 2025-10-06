@@ -16,13 +16,9 @@ sections:
         - "In the middle of a stuck conversation…"
         - "When trust is on the line…"
         - "In that flash between stimulus and response…"
-  - type: mission_core
+  - type: quote
     data:
-      mission_rally_suffix_label: ": Root Intention"
-      mission_statement_bridge:
-        - "We practice live—in real conversations where tone and tension are felt."
-        - "We reflect between reps—refining awareness and adjusting our stance."
-        - "We progress through embodied thresholds of attention, intention, and reciprocity."
+      text: "The body speaks first—before we polish the words."
   - type: text
     data:
       label: "Why We Train"
@@ -30,9 +26,13 @@ sections:
         - "Because awareness alone can’t change a reflex—it must be retrained."
         - "Because under stress, thought disappears and energy decides."
         - "Because pressure doesn’t reveal potential—it reveals practice."
-  - type: quote
+  - type: mission-core
     data:
-      text: "The body speaks first—before we polish the words."
+      mission_rally_suffix_label: ": Root Intention"
+      mission_statement_bridge:
+        - "We practice live—in real conversations where tone and tension are felt."
+        - "We reflect between reps—refining awareness and adjusting our stance."
+        - "We progress through embodied thresholds of attention, intention, and reciprocity."
   - type: text
     data:
       label: "Energy Is Currency"
