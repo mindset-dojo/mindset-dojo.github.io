@@ -1,4 +1,4 @@
-# 🥋 Mindset Dojo
+# Mindset Dojo
 
 ⛩️ <https://mindset.dojo.center>
 
