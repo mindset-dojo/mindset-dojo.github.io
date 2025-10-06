@@ -46,6 +46,3 @@ There’s always room for improvement, but I truly believe we’re off to a grea
 If you’re looking for a place to grow, to connect, and to strengthen your ability to lead meaningful conversations, I invite you to join us:
 
 👉 [https://mindset.dojo.center/](https://mindset.dojo.center/)
-
----
-
