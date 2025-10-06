@@ -3,9 +3,9 @@ mantra: "Don’t Conceal. Contribute."
 context:
   mission_rally_suffix_label: ": Living Structure"
   mission_statement_bridge:
-    - "We move clarity into form — language, structure, and flow."
-    - "We sense friction in the knowledge field and adjust with care."
-    - "We welcome influence through open, visible practice."
+    - "We move clarity into form—language, structure, and flow."
+    - "We sense friction in the field and adjust with care."
+    - "We welcome influence through open, visible practice and reciprocal trust."
   project_motivations_label: Project Motivations
   project_motivations:
     - "Our project is a shared practice of simplicity and coherence."
@@ -21,6 +21,7 @@ context:
     - "You sense where the system isn’t flowing."
     - "You refactor a phrase or function toward clarity."
     - "You offer a pattern that helps others move with ease."
+    - "You make reciprocity visible—through reviews, documentation, or mentorship."
   pullquote: "Ideation is fun, pull requests invite influence."
   designations_label: Leadership Designations
   designations_intention_label: Intention

@@ -4,9 +4,9 @@ mantra: "Don't React. Center."
 context:
   mission_rally_suffix_label: ": Embodied Practice"
   mission_statement_bridge:
-    - "We practice live, on the mat and in conversation."
-    - "We log reflections and recalibrate between reps."
-    - "We advance levels through embodied thresholds."
+    - "We train live—on the mat and in conversation."
+    - "We reflect between reps—refining tone, timing, and awareness."
+    - "We advance through embodied thresholds of practice and reciprocity."
   principles_label: Principles
   forms_label: Forms
   levels_label: Levels
@@ -135,7 +135,7 @@ levels:
     label: 2nd Kyu
     level: -2
     intention: Shadow
-    edge: Support live demonstration of MetaShift expression
+    edge: Demonstrate MetaShift expression live in an embodied exchange
     flows:
       - label: Negotiation 9™ Move - “I” Messages
         url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
@@ -157,7 +157,7 @@ levels:
     label: 1st Kyu
     level: -1
     intention: Resonance
-    edge: Lead an integrative conversation utilizing MetaShift expression
+    edge: Lead an integrative conversation through tone, timing, and stance
     flows:
       - label: Zen Toolkit - Three Centers
         url: https://vimeo.com/944672806/e099593826
@@ -177,7 +177,7 @@ levels:
     label: Shodan
     level: 1
     intention: Wu-Wei
-    edge: Explore MetaShift Toolset with another community
+    edge: Explore the MetaShift Toolset with another living system
     flows:
       - label: Zen Toolkit - Four Patterns
         url: https://vimeo.com/944675826/c57a7ce142
@@ -195,7 +195,7 @@ levels:
         url: https://vimeo.com/944663134/d4f1c4f333
 designations:
   - label: Zenpai
-    intention: Guidance through lived example and deepening through co-learning
+    intention: Guidance through lived example and growth through co-learning
     aspects:
       - label: Join Mat sessions regularly, lead periodically
       - label: Create and share Insight regularly, guiding earlier learners
