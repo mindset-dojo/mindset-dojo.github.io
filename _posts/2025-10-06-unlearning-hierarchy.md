@@ -27,9 +27,11 @@ Roles in the Dojo aren’t ranks; they’re ways of tending energy:
 
 The Dojo is a garden, not a Death Star.  
 
-- Growth happens through rhythm, care, and coherence — not through force.  
-- We lead by example, not by control.  
-- By cultivating presence, not projecting power.  
+Growth happens through rhythm, care, and coherence — not through force.
+
+We lead by example, not by control.
+  
+By cultivating presence, not projecting power.  
 
 ---
 
