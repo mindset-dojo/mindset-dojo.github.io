@@ -5,7 +5,7 @@ Expects:
   - include.author → profile object
   - include.avatar → avatar object (type + b64)
 Notes:
-  - Still uses site.data.program.levels to render the belt icon color/label.
+  - Still uses site.data.program.levels to render the level icon color/label.
   - Still uses icons from /_includes/icons/*.svg (same paths as before).
 {%- endcomment -%}
 
@@ -38,7 +38,7 @@ Notes:
     {%- endif -%}
   {%- endif -%}
 
-  {%- if include.author.linkedin or include.author.belt_level -%}
+  {%- if include.author.linkedin or include.author.program_level -%}
     <div class="md-group">
       {%- if include.author.linkedin -%}
         <a href="{{ include.author.linkedin }}" target="_blank" aria-label="LinkedIn">
@@ -46,11 +46,11 @@ Notes:
         </a>
       {%- endif -%}
 
-      {%- if include.author.belt_level -%}
-        {% assign belt_level = include.author.belt_level | plus: 0 %}
-        {% assign level = site.data.program.levels | where: "level", belt_level | first %}
-        {% include icons/belt.svg
-           class="md-belt-svg"
+      {%- if include.author.program_level -%}
+        {% assign program_level = include.author.program_level | plus: 0 %}
+        {% assign level = site.data.program.levels | where: "level", program_level | first %}
+        {% include icons/level.svg
+           class="md-level-svg"
            color=level.color
            title=level.label %}
       {%- endif -%}

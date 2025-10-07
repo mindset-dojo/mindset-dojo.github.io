@@ -53,12 +53,12 @@ Behavior:
 
     {% if show_author %}
       {%- comment -%}
-        belt_level DESC → negate and pad, then sort ASC
-        date ASC → prefer belt_level_date, then join_date, else far future to push to end
+        program_level DESC → negate and pad, then sort ASC
+        date ASC → prefer program_level_date, then join_date, else far future to push to end
       {%- endcomment -%}
-      {%- assign neg_belt = author.belt_level | times: -1 | plus: 1000 | prepend: "0000" | slice: -4, 4 -%}
-      {%- assign bld = author.belt_level_date | default: author.join_date | default: "9999-12-31" -%}
-      {% capture entry %}{{ neg_belt }}|{{ bld }}|{{ key }}{% endcapture %}
+      {%- assign neg_program = author.program_level | times: -1 | plus: 1000 | prepend: "0000" | slice: -4, 4 -%}
+      {%- assign bld = author.program_level_date | default: author.join_date | default: "9999-12-31" -%}
+      {% capture entry %}{{ neg_program }}|{{ bld }}|{{ key }}{% endcapture %}
       {% assign entries = entries | push: entry %}
     {% endif %}
   {% endfor %}

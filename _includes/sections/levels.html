@@ -9,8 +9,8 @@ section.data expects:
   - items:            <array of level objects>
 
 Each level item shape:
-  - color:    <string>    # belt color (used by icons/belt.svg)
-  - label:    <string>    # belt label, e.g., "7th Kyu"
+  - color:    <string>    # level color (used by icons/level.svg)
+  - label:    <string>    # level label, e.g., "7th Kyu"
   - level:    <number>    # keeps your schema for reference
   - intention:<string>
   - edge:     <string>
@@ -26,8 +26,8 @@ Each level item shape:
     <br>
     <br>
     <h3>
-      {% include icons/belt.svg
-        class="md-belt-svg"
+      {% include icons/level.svg
+        class="md-level-svg"
         color=lv.color
         title=lv.label %}
     </h3>
