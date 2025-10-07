@@ -4,13 +4,13 @@ authors grid section
 section.data may include:
   - leadership_flow: {
       label:<string>, limit:<int>,
-      designation_type:<string>   # e.g. "project", "program"
+      designation_type:<string>   # e.g. "project", "program" (optional)
     }
   - profiles / avatars overrides (optional)
 
-Filtering logic:
-  If leadership_flow.designation_type is set, only show authors who have a
-  non-empty leadership designation of that type.
+Behavior:
+  - If leadership_flow.designation_type is present, filter by that type.
+  - If author.active is undefined, default to TRUE (show the author).
 {%- endcomment -%}
 
 {%- assign D = section.data -%}
@@ -18,7 +18,7 @@ Filtering logic:
 {%- assign avatars  = D.avatars  | default: site.data.authors.avatars  -%}
 {%- assign entries  = "" | split: "|" -%}
 
-{%- assign designation_type = D.leadership_flow.designation_type | downcase | strip -%}
+{%- assign designation_type = D.leadership_flow.designation_type | default: '' | downcase | strip -%}
 
 {%- assign has_wrapper = D.leadership_flow -%}
 {%- if has_wrapper -%}
@@ -35,16 +35,16 @@ Filtering logic:
     {% assign key = pair[0] %}
     {% assign author = pair[1] %}
 
-    {%- assign show_author = author.active -%}
+    {%- assign show_author = author.active | default: true -%}
 
-    {%- if show_author and designation_type -%}
+    {%- if show_author and designation_type != '' -%}
       {%- assign show_author = false -%}
       {%- assign ld = author.leadership_designations -%}
       {%- if ld and ld.size > 0 -%}
         {%- for item in ld -%}
           {%- assign t = item.type  | downcase | strip -%}
           {%- assign v = item.value | default: item.key | to_s | strip -%}
-          {%- if t == designation_type and v != "" and v != "null" -%}
+          {%- if t == designation_type and v != '' and v != 'null' -%}
             {%- assign show_author = true -%}
           {%- endif -%}
         {%- endfor -%}
@@ -75,7 +75,7 @@ Filtering logic:
     {%- endif -%}
   {%- endif -%}
 
-  {%- comment -%} 4) Render cards using local sections/author.html {%- endcomment -%}
+  {%- comment -%} 4) Render cards {%- endcomment -%}
   {% for entry in render_entries %}
     {% assign parts  = entry | split: "|" %}
     {% assign key    = parts[2] %}
