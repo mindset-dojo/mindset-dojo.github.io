@@ -1,0 +1,11 @@
+{%- comment -%}
+quote section
+
+  data:
+    text: string
+{%- endcomment -%}
+
+{%- assign D = section.data -%}
+<section class="md-flow">
+  <blockquote><strong>{{ D.text }}</strong></blockquote>
+</section>

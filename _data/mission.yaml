@@ -2,46 +2,58 @@
 rally: Fearless Leadership
 mantra: "Don't Complain. Train."
 statement:
-  - Our mission is to plant the seed of fearlessness...
-  - Into homes, classrooms, dojos, and boardrooms.
-  - Training not just the mind, but the body, tone, and timing...
-  - Cultivating presence under pressure.
-context:
-  scenario_lines:
-    - "When the pressure hits, you don’t rise to the level of your best intentions."
-    - "You reveal the level of your conditioning."
-    - "..."
-    - "In the middle of a stuck conversation…"
-    - "When trust is on the line…"
-    - "In that flash between stimulus and response…"
-  pullquote: "The body speaks, not the polished script."
-  why_we_train_label: Why We Train
-  why_we_train:
-    - "Because awareness isn’t enough — you can name the pattern and still fall into it."
-    - "Because in high-stakes moments, you won’t have time to think — only respond."
-    - "Because pressure doesn’t reveal your potential — it reveals your practice."
-  mission_rally_suffix_label: ": Root Intention"
-  mission_statement_bridge:
-    - "We practice live, in real conversations — where timing, tone, and tension are felt."
-    - "We reflect between reps — using voice notes to recalibrate and deepen awareness."
-    - "We progress with purpose — using a belt path that honors embodied thresholds."
-  energy:
-    label: "Energy Is Currency"
-    items:
-      - "(Self-)Authorship is the minimum investment — this isn’t consumption."
-      - "Presence grows through contribution, not just participation."
-      - "..."
-      - "Money is one form of energy—vital for scale, not for entry."
-      - "If not financial, invest time, attention, mentorship, or expertise."
-      - "..."
-      - "Those with means extend reach; those with practice deepen it."
-      - "Thresholds turn circles into spirals — growth follows reciprocity."
-  leadership_flow:
-    label: "⛩️ Leadership in Flow"
-    limit: 8
-  calls_to_action:
-    - label: "Cross the Threshold"
-      ref: program
-    - label: "Cultivate the Garden"
-      ref: project
+  - Our mission is to cultivate fearless presence through energy agility.
+  - To plant this practice in homes, classrooms, dojos, and boardrooms.
+  - Training mind, body, breath, tone, and timing as one field.
+  - So composure becomes natural when pressure arrives.
+sections:
+  - type: text
+    data:
+      items:
+        - "When the pressure hits, you don’t rise to the level of your best intentions."
+        - "You reveal the level of your conditioning."
+        - "..."
+        - "In the middle of a stuck conversation…"
+        - "When trust is on the line…"
+        - "In that flash between stimulus and response…"
+  - type: quote
+    data:
+      text: "The body speaks first—before we polish the words."
+  - type: text
+    data:
+      label: "Why We Train"
+      items:
+        - "Because awareness alone can’t change a reflex—it must be retrained."
+        - "Because under stress, thought disappears and energy decides."
+        - "Because pressure doesn’t reveal potential—it reveals practice."
+  - type: mission
+    data:
+      mission_rally_suffix_label: ": Root Intention"
+      mission_statement_bridge:
+        - "We practice live—in real conversations where tone and tension are felt."
+        - "We reflect between reps—refining awareness and adjusting our stance."
+        - "We progress through embodied thresholds of attention, intention, and reciprocity."
+  - type: text
+    data:
+      label: "Energy Is Currency"
+      items:
+        - "(Self-)Authorship is the minimum investment—this isn’t consumption."
+        - "Presence grows through contribution, not just participation."
+        - "Thresholds turn circles into spirals—growth follows reciprocity."
+        - "..."
+        - "Money is one form of energy—vital for scale, not for entry."
+        - "If not financial, invest time, attention, mentorship, or expertise."
+        - "Those with means extend reach; those with practice deepen it."
+  - type: authors
+    data:
+      leadership_flow:
+        label: "⛩️⚡ Energy Authors"
+        limit: 16
+  - type: ctas
+    data:
+      items:
+        - label: "Cross the Threshold"
+          ref: program
+        - label: "Cultivate the Garden"
+          ref: project
 ---

@@ -1,0 +1,23 @@
+{%- comment -%}
+list section
+
+  data:
+    label: string, optional
+    items: array of strings OR {label,url} objects
+{%- endcomment -%}
+
+{%- assign D = section.data -%}
+{%- if D.items and D.items.size > 0 -%}
+<section class="md-flow">
+  {%- if D.label -%}<h2>{{ D.label }}</h2>{%- endif -%}
+  <ul>
+    {%- for it in D.items -%}
+      {%- if it.url and it.label -%}
+        <li><a href="{{ it.url }}" target="_blank">{{ it.label }}</a></li>
+      {%- else -%}
+        <li>{{ it }}</li>
+      {%- endif -%}
+    {%- endfor -%}
+  </ul>
+</section>
+{%- endif -%}

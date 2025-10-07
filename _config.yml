@@ -1,11 +1,13 @@
 ---
 permalink: /insight/:slug/
+
+google_analytics_id: G-7PD1BFF7RG
+
 action_links:
   program: /program/
   project: /project/
   connect: https://connect.mindset.dojo.center
   repo: https://github.com/mindset-dojo/mindset-dojo.github.io
-
 
 header_links:
   - label: MISSION
