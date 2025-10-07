@@ -1,14 +1,14 @@
 ---
-rally: Fearless Leadership
 mantra: "Don't React. Center."
 sections:
   - type: mission
     data:
       mission_rally_suffix_label: ": Embodied Practice"
       mission_statement_bridge:
-        - "We train live—on the mat and in conversation."
-        - "We reflect between reps—refining tone, timing, and awareness."
-        - "We advance through embodied thresholds of practice and reciprocity."
+        - "We train live—on the mat and in conversation—where tension becomes our teacher."
+        - "Between reps, we reflect—refining tone, timing, and awareness until presence feels effortless."
+        - "Through thresholds of breath, stance, and reciprocity, patterns dissolve and integration begins."
+        - "This is the MetaShift Method—where reflection transforms into relational flow."
   - type: list
     data:
       label: "Principles"
