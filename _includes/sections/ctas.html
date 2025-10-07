@@ -1,10 +1,39 @@
 {%- comment -%}
-ctas:
-  data:
-    items: <array of CTA objects, e.g., {label, ref|url, ...}>
+ctas section
+Expects:
+  section.data.items: array of CTA objects, e.g.
+    - { label: "Cross the Threshold", ref: "program" }
+    - { label: "External Docs", url: "https://example.com" }
+
+Resolves:
+  - `ref` via site.action_links in _config.yml
+  - `url` used directly (falls back if `ref` is not present or not found)
 {%- endcomment -%}
 
 {%- assign D = section.data -%}
-{%- if D.items -%}
-  {% include cta-group.html ctas=D.items %}
+{%- if D.items and D.items.size > 0 -%}
+  <div class="md-cta-group">
+    {%- for cta in D.items -%}
+      {%- assign href = nil -%}
+
+      {%- if cta.ref -%}
+        {%- assign mapped = site.action_links[cta.ref] -%}
+        {%- if mapped -%}
+          {%- assign href = mapped -%}
+        {%- endif -%}
+      {%- endif -%}
+
+      {%- if href == nil and cta.url -%}
+        {%- assign href = cta.url -%}
+      {%- endif -%}
+
+      {%- if href -%}
+        {%- if href contains '://' -%}
+          <a class="btn" href="{{ href }}" target="_blank" rel="noopener noreferrer">{{ cta.label }}</a>
+        {%- else -%}
+          <a class="btn" href="{{ href | relative_url }}">{{ cta.label }}</a>
+        {%- endif -%}
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
 {%- endif -%}

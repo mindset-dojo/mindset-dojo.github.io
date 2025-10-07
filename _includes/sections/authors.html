@@ -1,10 +1,87 @@
 {%- comment -%}
-authors:
-  data:
-    leadership_flow: { label:<string>, limit:<int>, ... }
+authors grid section
+
+section.data may include:
+  - leadership_flow: { label:<string>, limit:<int> }
+  - designation_type: <string> (optional filter, e.g., "program" or "project")
+  - profiles:  <map> (optional override; defaults to site.data.authors.profiles)
+  - avatars:   <map> (optional override; defaults to site.data.authors.avatars)
+
+Behavior:
+  - Renders optional wrapper/heading if leadership_flow provided
+  - Filters to active authors; optionally requires a non-empty leadership designation of type `designation_type`
+  - Sorts by belt_level DESC, then belt_level_date ASC (fallback join_date, else "9999-12-31")
+  - Applies optional limit from leadership_flow.limit
+  - Uses local sections/author.html for each card
 {%- endcomment -%}
 
 {%- assign D = section.data -%}
-{%- if D.leadership_flow -%}
-  {% include authors-grid.html leadership_flow=D.leadership_flow %}
+{%- assign profiles = D.profiles | default: site.data.authors.profiles -%}
+{%- assign avatars  = D.avatars  | default: site.data.authors.avatars  -%}
+{%- assign entries  = "" | split: "|" -%}
+
+{%- assign has_wrapper = D.leadership_flow -%}
+{%- if has_wrapper -%}
+<section class="md-flow">
+  {%- if D.leadership_flow.label -%}
+    <h2>{{ D.leadership_flow.label }}</h2>
+  {%- endif -%}
+</section>
 {%- endif -%}
+
+<div class="md-authors">
+  {%- comment -%} 1) Build sortable list of active (optionally filtered) authors {%- endcomment -%}
+  {% for pair in profiles %}
+    {% assign key = pair[0] %}
+    {% assign author = pair[1] %}
+
+    {%- assign show_author = author.active -%}
+
+    {%- if show_author and D.designation_type -%}
+      {%- assign dt = D.designation_type | downcase | strip -%}
+      {%- assign show_author = false -%}
+      {%- assign ld = author.leadership_designations -%}
+      {%- if ld and ld.size > 0 -%}
+        {%- for item in ld -%}
+          {%- assign t = item.type  | downcase | strip -%}
+          {%- assign v = item.value | default: item.key | to_s | strip -%}
+          {%- if t == dt and v != "" and v != "null" -%}
+            {%- assign show_author = true -%}
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endif -%}
+    {%- endif -%}
+
+    {% if show_author %}
+      {%- comment -%}
+        belt_level DESC → negate and pad, then sort ASC
+        date ASC → prefer belt_level_date, then join_date, else far future to push to end
+      {%- endcomment -%}
+      {%- assign neg_belt = author.belt_level | times: -1 | plus: 1000 | prepend: "0000" | slice: -4, 4 -%}
+      {%- assign bld = author.belt_level_date | default: author.join_date | default: "9999-12-31" -%}
+      {% capture entry %}{{ neg_belt }}|{{ bld }}|{{ key }}{% endcapture %}
+      {% assign entries = entries | push: entry %}
+    {% endif %}
+  {% endfor %}
+
+  {%- comment -%} 2) Sort {%- endcomment -%}
+  {% assign sorted_entries = entries | sort %}
+
+  {%- comment -%} 3) Apply optional limit {%- endcomment -%}
+  {%- assign render_entries = sorted_entries -%}
+  {%- if D.leadership_flow and D.leadership_flow.limit -%}
+    {%- assign lim = D.leadership_flow.limit | plus: 0 -%}
+    {%- if lim > 0 and render_entries.size > lim -%}
+      {%- assign render_entries = render_entries | slice: 0, lim -%}
+    {%- endif -%}
+  {%- endif -%}
+
+  {%- comment -%} 4) Render cards using local sections/author.html {%- endcomment -%}
+  {% for entry in render_entries %}
+    {% assign parts  = entry | split: "|" %}
+    {% assign key    = parts[2] %}
+    {% assign author = profiles[key] %}
+    {% assign avatar = avatars[key] %}
+    {% include sections/author.html author=author avatar=avatar %}
+  {% endfor %}
+</div>

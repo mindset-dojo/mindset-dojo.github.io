@@ -1,26 +1,44 @@
 {%- comment -%}
-designations:
-  data:
-    label:           <string, optional>  (fallback: data.context.designations_label)
-    intention_label: <string, optional>  (fallback: data.context.designations_intention_label)
-    aspects_label:   <string, optional>  (fallback: data.context.designations_aspects_label)
-    items:           <array, optional>   (fallback: data.designations)
+designations section
 
-Uses the existing shared include `designations.html` to keep visuals identical.
+Expects (section.data):
+  - label            (optional)  -> fallback: data.context.designations_label -> "Leadership Designations"
+  - intention_label  (optional)  -> fallback: data.context.designations_intention_label -> "Intention"
+  - aspects_label    (optional)  -> fallback: data.context.designations_aspects_label -> "Aspects"
+  - items            (optional)  -> fallback: data.designations
+
+Each designation item shape:
+  - label: string
+  - intention: string (optional)
+  - aspects: array of {label:string} OR plain strings
 {%- endcomment -%}
 
 {%- assign D = section.data -%}
-{%- assign dz_items     = D.items           | default: data.designations -%}
-{%- assign dz_label     = D.label           | default: data.context.designations_label -%}
-{%- assign dz_intent    = D.intention_label | default: data.context.designations_intention_label -%}
-{%- assign dz_aspects   = D.aspects_label   | default: data.context.designations_aspects_label -%}
+{%- assign dz_items   = D.items | default: data.designations -%}
+{%- assign dz_label   = D.label | default: data.context.designations_label | default: 'Leadership Designations' -%}
+{%- assign dz_intent  = D.intention_label | default: data.context.designations_intention_label | default: 'Intention' -%}
+{%- assign dz_aspects = D.aspects_label | default: data.context.designations_aspects_label | default: 'Aspects' -%}
 
 {%- if dz_items and dz_items.size > 0 -%}
-  {% include designations.html
-     designations=dz_items
-     context="
-       { 'designations_label': dz_label,
-         'designations_intention_label': dz_intent,
-         'designations_aspects_label': dz_aspects
-       }" %}
+<section class="md-flow">
+  <h2>{{ dz_label }}</h2>
+  {% for designation in dz_items %}
+    <br>
+    <br>
+    <h3>{{ designation.label }}</h3>
+
+    {% if designation.intention %}
+      <p><strong>{{ dz_intent }}</strong></p>
+      <p>{{ designation.intention }}</p>
+    {% endif %}
+
+    {% if designation.aspects and designation.aspects.size > 0 %}
+      <p><strong>{{ dz_aspects }}</strong></p>
+      {% for item in designation.aspects %}
+        {%- assign aspect_text = item.label | default: item -%}
+        <p>{{ aspect_text }}</p>
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+</section>
 {%- endif -%}
