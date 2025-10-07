@@ -80,6 +80,6 @@ To stay centered is to remember:
 The true dojo is everywhere you stand.  
 
 ---
- 
-⛩️🖥️  
+
+⛩️🖥️
 *Kyle Ingersoll — Red Level and DevOps Cultivator*
