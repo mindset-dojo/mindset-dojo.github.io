@@ -2,23 +2,23 @@
 authors grid section
 
 section.data may include:
-  - leadership_flow: { label:<string>, limit:<int> }
-  - designation_type: <string> (optional filter, e.g., "program" or "project")
-  - profiles:  <map> (optional override; defaults to site.data.authors.profiles)
-  - avatars:   <map> (optional override; defaults to site.data.authors.avatars)
+  - leadership_flow: {
+      label:<string>, limit:<int>,
+      designation_type:<string>   # e.g. "project", "program"
+    }
+  - profiles / avatars overrides (optional)
 
-Behavior:
-  - Renders optional wrapper/heading if leadership_flow provided
-  - Filters to active authors; optionally requires a non-empty leadership designation of type `designation_type`
-  - Sorts by belt_level DESC, then belt_level_date ASC (fallback join_date, else "9999-12-31")
-  - Applies optional limit from leadership_flow.limit
-  - Uses local sections/author.html for each card
+Filtering logic:
+  If leadership_flow.designation_type is set, only show authors who have a
+  non-empty leadership designation of that type.
 {%- endcomment -%}
 
 {%- assign D = section.data -%}
 {%- assign profiles = D.profiles | default: site.data.authors.profiles -%}
 {%- assign avatars  = D.avatars  | default: site.data.authors.avatars  -%}
 {%- assign entries  = "" | split: "|" -%}
+
+{%- assign designation_type = D.leadership_flow.designation_type | downcase | strip -%}
 
 {%- assign has_wrapper = D.leadership_flow -%}
 {%- if has_wrapper -%}
@@ -37,15 +37,14 @@ Behavior:
 
     {%- assign show_author = author.active -%}
 
-    {%- if show_author and D.designation_type -%}
-      {%- assign dt = D.designation_type | downcase | strip -%}
+    {%- if show_author and designation_type -%}
       {%- assign show_author = false -%}
       {%- assign ld = author.leadership_designations -%}
       {%- if ld and ld.size > 0 -%}
         {%- for item in ld -%}
           {%- assign t = item.type  | downcase | strip -%}
           {%- assign v = item.value | default: item.key | to_s | strip -%}
-          {%- if t == dt and v != "" and v != "null" -%}
+          {%- if t == designation_type and v != "" and v != "null" -%}
             {%- assign show_author = true -%}
           {%- endif -%}
         {%- endfor -%}

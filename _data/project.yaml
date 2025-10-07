@@ -55,6 +55,7 @@ sections:
     data:
       leadership_flow:
         label: "⛩️🪴 System Gardeners"
+        designation_type: project
         limit: 8
   - type: ctas
     data:
