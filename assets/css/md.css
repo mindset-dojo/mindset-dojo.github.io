@@ -401,47 +401,47 @@ section.md-grid-3 blockquote p {
     height: 40px;
 }
 
-.md-belt-svg {
+.md-level-svg {
     height: 40px;
 }
 
-.md-belt-svg path {
+.md-level-svg path {
     stroke-width: 8px;
     fill: white;
     stroke: black;
 }
 
-.md-belt-svg.black path {
+.md-level-svg.black path {
     stroke-width: 4px;
     fill: black;
     stroke: white;
 }
 
-.md-belt-svg.gray path {
+.md-level-svg.gray path {
     fill: gray;
 }
 
-.md-belt-svg.yellow path {
+.md-level-svg.yellow path {
     fill: yellow;
 }
 
-.md-belt-svg.green path {
+.md-level-svg.green path {
     fill: green;
 }
 
-.md-belt-svg.blue path {
+.md-level-svg.blue path {
     fill: blue;
 }
 
-.md-belt-svg.purple path {
+.md-level-svg.purple path {
     fill: purple;
 }
 
-.md-belt-svg.brown path {
+.md-level-svg.brown path {
     fill: brown;
 }
 
-.md-belt-svg.red path {
+.md-level-svg.red path {
     fill: red;
 }
 

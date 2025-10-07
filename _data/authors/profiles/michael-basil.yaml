@@ -2,13 +2,13 @@
 name: Michael Basil
 active: true
 join_date: 2019-01-01
-belt_level: 1
-belt_level_date: 2025-01-12
+program_level: 1
+program_level_date: 2025-01-12
 leadership_designations:
   - type: program
     value: Zensei
   - type: project
-    value: Organizational Cultivator
+    value: Project Cultivator
 linkedin: https://www.linkedin.com/in/michael-100-basil
 links:
   - label: Inner-Game Lessons
