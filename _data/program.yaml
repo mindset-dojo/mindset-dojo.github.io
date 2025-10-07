@@ -179,7 +179,7 @@ sections:
           label: Shodan
           level: 1
           intention: Wu-Wei
-          edge: Explore the MetaShift Toolset with another living system
+          edge: Explore the MetaShift Method with another living system
           flows:
             - label: Zen Toolkit - Four Patterns
               url: https://vimeo.com/944675826/c57a7ce142
