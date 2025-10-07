@@ -5,10 +5,10 @@ sections:
     data:
       mission_rally_suffix_label: ": Embodied Practice"
       mission_statement_bridge:
-        - "We train live—on the mat and in conversation—where tension becomes our teacher."
-        - "Between reps, we reflect—refining tone, timing, and awareness until presence feels effortless."
-        - "Through thresholds of breath, stance, and reciprocity, patterns dissolve and integration begins."
-        - "This is the MetaShift Method—where reflection transforms into relational flow."
+        - "We train live—on the mat and in conversation with tension as teacher."
+        - "Between reps, we reflect—refining tone, timing, and effortless presence."
+        - "Through thresholds of breath and reciprocity, patterns dissolve into balance."
+        - "This is MetaShift Method—where reflection transforms into relational flow."
   - type: list
     data:
       label: "Principles"
