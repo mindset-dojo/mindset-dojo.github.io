@@ -5,9 +5,9 @@ sections:
     data:
       mission_rally_suffix_label: ": Living Structure"
       mission_statement_bridge:
-        - "We move clarity into form—language, structure, and flow."
-        - "We sense friction in the field and adjust with care."
-        - "We welcome influence through open, visible practice and reciprocal trust."
+        - "We cultivate clarity through form—language, structure, and flow in motion."
+        - "We tend friction as gardeners—listening, pruning, and adjusting with care."
+        - "This is Signal Garden Approach—where transparency grows reciprocal trust."
   - type: text
     data:
       label: "Project Motivations"
@@ -50,11 +50,11 @@ sections:
           aspects:
             - label: "Lead Cultivator Circle sessions regularly"
             - label: "Cultivate project culture and brand coherence"
-            - label: "Black Level, Zen Leadership Instructor intention"
+            - label: "Black Level, vouched for by existing Cultivator(s)"
   - type: authors
     data:
       leadership_flow:
-        label: "⛩️🪴 System Gardeners"
+        label: "⛩️🪴 Signal Gardeners"
         designation_type: project
         limit: 8
   - type: ctas

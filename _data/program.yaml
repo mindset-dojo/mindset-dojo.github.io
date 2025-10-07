@@ -1,14 +1,13 @@
 ---
-rally: Fearless Leadership
-mantra: "Don't React. Center."
+mantra: "Don't Resist. Resonate."
 sections:
   - type: mission
     data:
       mission_rally_suffix_label: ": Embodied Practice"
       mission_statement_bridge:
-        - "We train live—on the mat and in conversation."
-        - "We reflect between reps—refining tone, timing, and awareness."
-        - "We advance through embodied thresholds of practice and reciprocity."
+        - "We train live—on the mat and in conversation with tension as teacher."
+        - "Between reps, we refine tone, timing, and presence until balance returns."
+        - "This is MetaShift Method—where reflection transforms into relational flow."
   - type: list
     data:
       label: "Principles"
@@ -179,7 +178,7 @@ sections:
           label: Shodan
           level: 1
           intention: Wu-Wei
-          edge: Explore the MetaShift Toolset with another living system
+          edge: Explore MetaShift Method with another living system
           flows:
             - label: Zen Toolkit - Four Patterns
               url: https://vimeo.com/944675826/c57a7ce142
@@ -216,7 +215,8 @@ sections:
   - type: authors
     data:
       leadership_flow:
-        label: "⛩️💫 Practice Stewards"
+        label: "⛩️💫 Resonance Guides"
+        designation_type: program
         limit: 16
   - type: ctas
     data:
