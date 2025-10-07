@@ -48,7 +48,9 @@ Notes:
 
       {%- if include.author.program_level -%}
         {% assign program_level = include.author.program_level | plus: 0 %}
+        DEBUG {{program_level}}
         {% assign level = site.data.program.levels | where: "level", program_level | first %}
+        DEBUG {{level}}
         {% include icons/level.svg
            class="md-level-svg"
            color=level.color
