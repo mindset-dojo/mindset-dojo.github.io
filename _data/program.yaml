@@ -216,6 +216,7 @@ sections:
     data:
       leadership_flow:
         label: "⛩️💫 Resonance Guides"
+        designation_type: program
         limit: 16
   - type: ctas
     data:
