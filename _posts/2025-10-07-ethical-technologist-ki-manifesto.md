@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Ethical Technologist’s Ki Manifesto"
+title: "⛩️ The Ethical Technologist’s Ki Manifesto"
 h1_mark: Ethical
 h1_hr: true
 date: 2025-10-07
