@@ -10,8 +10,8 @@ Notes:
 {%- endcomment -%}
 
 <section class="md-author-card">
-  {%- assign avatar = include.avatar -%}
-  {% assign avatar_path = '/author/author-avatar/' | append: avatar | append: '.jpg' | relative_url %}
+  {%- assign slug = include.author -%}
+  {% assign avatar_path = '/author/author-avatar/' | append: slug | append: '.jpg' | relative_url %}
   {% assign author_name = include.author.name | default: "Author" %}
 
   <img
