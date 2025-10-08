@@ -149,6 +149,8 @@ sections:
           flows:
             - label: Making Hara Breathing Automatic
               url: https://youtu.be/UVz1E_cKxp4?si=hl5c7qB4iR6R7ZSs
+            - label: How to Start a Movement
+              url: https://www.ted.com/talks/derek_sivers_how_to_start_a_movement
             - label: Mindset Dojo as Ma-Ai
               url: https://lessons.basil.one/mindset-dojo-as-ma-ai-c51bcd73dbf9
             - label: Resonate - Zen and the Way of Making a Difference
@@ -163,8 +165,6 @@ sections:
           flows:
             - label: The Backwards Brain Tractor
               url: https://youtu.be/lylCYkgC63Q?si=FzuWfAHq4Yie_AHC
-            - label: How to Start a Movement
-              url: https://www.ted.com/talks/derek_sivers_how_to_start_a_movement
             - label: For Something New To Come, Something Old Must Go
               url: https://www.youtube.com/watch?v=_to_w-R0JjQ
             - label: Online Introduction to Zazen at Chosei Zen
