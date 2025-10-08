@@ -7,7 +7,6 @@ h1_hr: true
 date: 2025-09-22
 author: "Kyle Ingersoll"
 excerpt: "When life punches first, the Map of Consciousness helps us notice where we stand — below the line in contraction or above it in creation — and trains us to shift through breath, tone, and awareness."
-image_extension: jpg
 ---  
 
 “Everyone has a plan until they get punched in the face.” — *Mike Tyson*  

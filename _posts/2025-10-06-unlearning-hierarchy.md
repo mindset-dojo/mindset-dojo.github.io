@@ -6,7 +6,6 @@ h1_hr: true
 date: 2025-10-06
 author: "Michael Basil and Kyle Ingersoll"
 excerpt: "In the Dojo, leadership is cultivation, not control. Circles replace chains of command. Authorship replaces ownership."
-image_extension: png
 ---
 
 In the Dojo, leadership is cultivation, not control.  
