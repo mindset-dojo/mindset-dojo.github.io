@@ -61,10 +61,10 @@ sections:
           intention: Centering
           edge: Meditate until a spirited conversation makes sense and share your learnings
           flows:
-            - label: The Backwards Brain Bicycle
-              url: https://www.youtube.com/watch?v=MFzDaBzBlL0
             - label: Zen Toolkit - One Breath
               url: https://vimeo.com/944618879/47e96945a4
+            - label: The Backwards Brain Bicycle
+              url: https://www.youtube.com/watch?v=MFzDaBzBlL0
             - label: MetaShift Insight - Tone
               url: /insight/tone/
             - label: MetaShift Insight - Map of Consciousness
