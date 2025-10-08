@@ -26,16 +26,16 @@ sections:
           url: https://en.wikipedia.org/wiki/Self-reflection
         - label: "Consciousness"
           url: https://www.nondualitylife.com/levels-of-consciousness
+        - label: "Energy"
+          url: https://zenleader.global/s/FEBI-Technical-Manual-2024.pdf
         - label: "Resonance"
           url: https://static1.squarespace.com/static/66b622f49a9c4b791061dd7f/t/675c9d2fc876057bcf6bc740/1734122800096/Resonate+infographic+mm.pdf
         - label: "Ki"
           url: https://mindbodyaikido.com/plus-ki-and-minus-ki/
-        - label: "Moves"
-          url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
-        - label: "Flips"
-          url: https://cdn.dirigible.studio/wp-content/uploads/sites/24/2021/09/04073619/TZL-graphic-izl.pdf
         - label: "Stances"
           url: /insight/breath-of-stance/
+        - label: "Moves"
+          url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
   - type: levels
     data:
       label: "Levels"
@@ -63,33 +63,30 @@ sections:
           intention: Centering
           edge: Meditate until a spirited conversation makes sense and share your learnings
           flows:
-            - label: The Backwards Brain Bicycle
-              url: https://www.youtube.com/watch?v=MFzDaBzBlL0
             - label: Zen Toolkit - One Breath
               url: https://vimeo.com/944618879/47e96945a4
+            - label: The Backwards Brain Bicycle
+              url: https://www.youtube.com/watch?v=MFzDaBzBlL0
             - label: MetaShift Insight - Tone
               url: /insight/tone/
             - label: MetaShift Insight - Map of Consciousness
               url: /insight/map-of-consciousness/
-            - label: Plus Ki and Minus Ki
-              url: https://mindbodyaikido.com/plus-ki-and-minus-ki
             - label: 5 minute Zazen with Zenpai
               url: https://youtu.be/q7Y5rwKiabQ?si=8keWWxVJrCp9BN1S
-
         - color: green
           label: 5th Kyu
           level: -5
           intention: Perception
           edge: Reflect on a spirited conversation through multiple points of view at once
           flows:
-            - label: MetaShift Insight - The Way of Paradox
-              url: /insight/way-of-paradox/
             - label: Zen Toolkit - Two Sides
               url: https://vimeo.com/944663134/d4f1c4f333
+            - label: Negotiation 9™ Move - Calibrated Questions
+              url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
             - label: Negotiation 9™ Move - Dynamic Silence
               url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
-            - label: MetaShift Insight - The Breath of a Stance Shifts the Mountain
-              url: /insight/breath-of-stance/
+            - label: MetaShift Insight - The Way of Paradox
+              url: /insight/way-of-paradox/
             - label: 5 minute Zazen by yourself
               url: https://youtu.be/q7Y5rwKiabQ?si=8keWWxVJrCp9BN1S
         - color: blue
@@ -98,16 +95,12 @@ sections:
           intention: Listening
           edge: Listen deeply with fresh ears and reflect back what you hear
           flows:
+            - label: Zen Toolkit - Three Centers
+              url: https://vimeo.com/944672806/e099593826
             - label: Negotiation 9™ Move - Labels
               url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
             - label: Negotiation 9™ Move - Mirrors
               url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
-            - label: Zen Leader Essential Flip - Coping to Transformation
-              url: https://www.youtube.com/watch?v=zCdHllT5XOY
-            - label: Zen Leader Essential Flip - Tension to Extension
-              url: https://www.youtube.com/watch?v=l-_KMzx8U7Y
-            - label: Zen Leader Essential Flip - Or to And
-              url: https://www.youtube.com/watch?v=uaLDcv1NVCU
             - label: Online Introduction to Zazen at Chosei Zen
               url: https://www.choseizen.org/online-intro-to-zazen
             - label: 10 minute Zazen with Zenpai
@@ -118,18 +111,14 @@ sections:
           intention: Presence
           edge: MetaShift a spirited conversation
           flows:
+            - label: Zen Toolkit - Four Patterns
+              url: https://vimeo.com/944675826/c57a7ce142
+            - label: MetaShift Insight - The Breath of a Stance Shifts the Mountain
+              url: /insight/breath-of-stance/
             - label: Negotiation 9™ Move - Paraphrasing
               url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
             - label: Negotiation 9™ Move - Summary
               url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
-            - label: Negotiation 9™ Move - Calibrated Questions
-              url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
-            - label: Zen Leader Essential Flip - Out There to In Here
-              url: https://cdn.dirigible.studio/wp-content/uploads/sites/24/2021/09/04073619/TZL-graphic-izl.pdf
-            - label: Zen Leader Essential Flip - Playing Your Strength to Strengthening Your Play
-              url: https://www.youtube.com/watch?v=Jz1b2GK6Whg
-            - label: Zen Leader Essential Flip - Controlling to Connecting
-              url: https://www.youtube.com/watch?v=OFxdn9v5avk
             - label: Your Unique MetaShift Expression
               url: /insight/houston-attitude/
             - label: 10 minute Zazen by yourself
@@ -140,21 +129,17 @@ sections:
           intention: Shadow
           edge: Demonstrate MetaShift expression live in an embodied exchange
           flows:
+            - label: MetaShift Insight - Spiraling with the Shadow in Star Wars
+              url: https://medium.com/p/d080717aec9b
             - label: Negotiation 9™ Move - “I” Messages
               url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
             - label: Negotiation 9™ Move - Encouragers
               url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
             - label: Never Split the Difference - Negotiating As If Your Life Depended On It
               url: https://www.amazon.com/Never-Split-Difference-Negotiating-Depended/dp/0062407805
-            - label: Zen Leader Essential Flip - Driving Results to Attracting the Future
-              url: https://www.youtube.com/watch?v=bn1E5owWCNM
-            - label: Zen Leader Essential Flip - It is All About Me to I am All About It
-              url: https://cdn.dirigible.studio/wp-content/uploads/sites/24/2021/09/04073619/TZL-graphic-izl.pdf
-            - label: MetaShift Insight - Spiraling with the Shadow in Star Wars
-              url: https://medium.com/p/d080717aec9b
             - label: 15 minute Zazen with Zenpai
               url: https://youtu.be/q7Y5rwKiabQ?si=8keWWxVJrCp9BN1S
-            - label: Zen Leader Off the Cusion
+            - label: Zen Leader Off the Cushion
               url: https://zenleader.global/events
         - color: red
           label: 1st Kyu
@@ -162,16 +147,12 @@ sections:
           intention: Resonance
           edge: Lead an integrative conversation through tone, timing, and stance
           flows:
-            - label: Zen Toolkit - Three Centers
-              url: https://vimeo.com/944672806/e099593826
             - label: Making Hara Breathing Automatic
               url: https://youtu.be/UVz1E_cKxp4?si=hl5c7qB4iR6R7ZSs
-            - label: Mindset Dojo as Ma-Ai
-              url: https://lessons.basil.one/mindset-dojo-as-ma-ai-c51bcd73dbf9
-            - label: Zen Leader Essential Flip - Local Self to Whole Self
-              url: https://cdn.dirigible.studio/wp-content/uploads/sites/24/2021/09/04073619/TZL-graphic-izl.pdf
-            - label: Zen Leader Essential Flip - Delusion to Awakening
-              url: https://cdn.dirigible.studio/wp-content/uploads/sites/24/2021/09/04073619/TZL-graphic-izl.pdf
+            - label: How to Start a Movement
+              url: https://www.ted.com/talks/derek_sivers_how_to_start_a_movement
+            - label: Plus Ki and Minus Ki
+              url: https://mindbodyaikido.com/plus-ki-and-minus-ki
             - label: Resonate - Zen and the Way of Making a Difference
               url: https://www.choseizen.org/store/p/resonate
             - label: 15 minute Zazen by yourself
@@ -182,16 +163,10 @@ sections:
           intention: Wu-Wei
           edge: Explore MetaShift Method with another living system
           flows:
-            - label: Zen Toolkit - Four Patterns
-              url: https://vimeo.com/944675826/c57a7ce142
             - label: The Backwards Brain Tractor
               url: https://youtu.be/lylCYkgC63Q?si=FzuWfAHq4Yie_AHC
-            - label: How to Start a Movement
-              url: https://www.ted.com/talks/derek_sivers_how_to_start_a_movement
             - label: For Something New To Come, Something Old Must Go
               url: https://www.youtube.com/watch?v=_to_w-R0JjQ
-            - label: Online Introduction to Zazen at Chosei Zen
-              url: https://www.choseizen.org/online-intro-to-zazen
             - label: 30 minute Zazen with Chosei Zen Virtual Dojo
               url: https://www.choseizen.org/virtual-dojo
             - label: Two Sides Integrative Randori with Beyond the Black Belt Circle
