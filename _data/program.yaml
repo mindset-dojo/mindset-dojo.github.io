@@ -80,14 +80,14 @@ sections:
           intention: Perception
           edge: Reflect on a spirited conversation through multiple points of view at once
           flows:
-            - label: MetaShift Insight - The Way of Paradox
-              url: /insight/way-of-paradox/
             - label: Zen Toolkit - Two Sides
               url: https://vimeo.com/944663134/d4f1c4f333
             - label: Negotiation 9™ Move - Dynamic Silence
               url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
             - label: MetaShift Insight - The Breath of a Stance Shifts the Mountain
               url: /insight/breath-of-stance/
+            - label: MetaShift Insight - The Way of Paradox
+              url: /insight/way-of-paradox/
             - label: 5 minute Zazen by yourself
               url: https://youtu.be/q7Y5rwKiabQ?si=8keWWxVJrCp9BN1S
         - color: blue
