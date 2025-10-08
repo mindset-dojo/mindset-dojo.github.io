@@ -46,7 +46,7 @@ Each level item shape:
       <ul>
         <p><strong>{{ D.flows_label }}</strong></p>
         {%- for f in lv.flows -%}
-         {%- if f.url.first contains "/" -%}
+         {%- if f.url.first == "/" -%}
            <!-- for insight links, apply relative_url to the URL path -->
            <li>
              <a href="{{ f.url | relative_url }}" target="_blank" rel="noopener">
