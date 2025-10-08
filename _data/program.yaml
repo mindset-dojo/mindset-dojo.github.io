@@ -32,10 +32,10 @@ sections:
           url: https://static1.squarespace.com/static/66b622f49a9c4b791061dd7f/t/675c9d2fc876057bcf6bc740/1734122800096/Resonate+infographic+mm.pdf
         - label: "Ki"
           url: https://mindbodyaikido.com/plus-ki-and-minus-ki/
-        - label: "Moves"
-          url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
         - label: "Stances"
           url: /insight/breath-of-stance/
+        - label: "Moves"
+          url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
   - type: levels
     data:
       label: "Levels"
