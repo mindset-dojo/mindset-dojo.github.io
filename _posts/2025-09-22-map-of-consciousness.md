@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MetaShift Insight — Map of Consciousness"
+title: "Map of Consciousness"
 author: "Kyle Ingersoll"
 h1_mark: Map
 h1_hr: true

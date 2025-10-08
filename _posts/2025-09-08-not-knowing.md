@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MetaShift Insight — Not Knowing Is Most Intimate"
+title: "Not Knowing Is Most Intimate"
 author: "Kyle Ingersoll"
 h1_mark: Not Knowing
 h1_hr: true

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MetaShift Insight – The Way of Paradox"
+title: "The Way of Paradox"
 h1_mark: Paradox
 h1_hr: true
 date: 2025-09-23

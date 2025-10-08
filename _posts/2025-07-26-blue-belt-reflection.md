@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MetaShift Insight - Blue Belt Reflection"
+title: "Blue Belt Reflection"
 author: "Kyle Ingersoll"
 h1_mark: Reflection
 h1_hr: true
