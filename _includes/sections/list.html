@@ -12,10 +12,24 @@ list section
   {%- if D.label -%}<h2>{{ D.label }}</h2>{%- endif -%}
   <ul>
     {%- for it in D.items -%}
-      {%- if it.url and it.label -%}
-        <li><a href="{{ it.url }}" target="_blank">{{ it.label }}</a></li>
+      {%- if it.url contains "/insight/" -%}
+           <!-- for insight links, apply relative_url to the URL path -->
+        <li>
+          <a href="{{ it.url | relative_url }}" target="_blank" rel="noopener">
+            {{ it.label }}
+          </a>
+        </li>
+      {%- elsif it.url and it.label -%}
+           <!-- for non-insight (external or absolute) links, just pass them through -->
+        <li>
+          <a href="{{ it.url }}" target="_blank">
+            {{ it.label }}
+          </a>
+        </li>
       {%- else -%}
-        <li>{{ it }}</li>
+        <li>
+          {{ it }}
+        </li>
       {%- endif -%}
     {%- endfor -%}
   </ul>
