@@ -74,7 +74,7 @@ sections:
             - label: Plus Ki and Minus Ki
               url: https://mindbodyaikido.com/plus-ki-and-minus-ki
             - label: 5 minute Zazen with Zenpai
-              url: https://www.youtube.com/watch?v=Qf1vmcP7otk
+              url: https://youtu.be/q7Y5rwKiabQ?si=8keWWxVJrCp9BN1S
 
         - color: green
           label: 5th Kyu
@@ -91,7 +91,7 @@ sections:
             - label: Mindset Dojo Insights - The Breath of a Stance Shifts the Mountain
               url: https://medium.com/p/1638c7ef8e52
             - label: 5 minute Zazen by yourself
-              url: https://www.youtube.com/watch?v=Qf1vmcP7otk
+              url: https://youtu.be/q7Y5rwKiabQ?si=8keWWxVJrCp9BN1S
         - color: blue
           label: 4th Kyu
           level: -4
@@ -111,7 +111,7 @@ sections:
             - label: Online Introduction to Zazen at Chosei Zen
               url: https://www.choseizen.org/online-intro-to-zazen
             - label: 10 minute Zazen with Zenpai
-              url: https://www.youtube.com/watch?v=Qf1vmcP7otk
+              url: https://youtu.be/q7Y5rwKiabQ?si=8keWWxVJrCp9BN1S
         - color: purple
           label: 3rd Kyu
           level: -3
@@ -133,7 +133,7 @@ sections:
             - label: Your Unique MetaShift Expression
               url: https://lessons.basil.one/houston-we-have-an-attitude-097fa422edf0
             - label: 10 minute Zazen by yourself
-              url: https://www.youtube.com/watch?v=Qf1vmcP7otk
+              url: https://youtu.be/q7Y5rwKiabQ?si=8keWWxVJrCp9BN1S
         - color: brown
           label: 2nd Kyu
           level: -2
@@ -153,7 +153,7 @@ sections:
             - label: Mindset Dojo Insights - Spiraling with the Shadow in Star Wars
               url: https://medium.com/p/d080717aec9b
             - label: 15 minute Zazen with Zenpai
-              url: https://www.youtube.com/watch?v=Qf1vmcP7otk
+              url: https://youtu.be/q7Y5rwKiabQ?si=8keWWxVJrCp9BN1S
             - label: Zen Leader Off the Cusion
               url: https://zenleader.global/events
         - color: red
@@ -175,7 +175,7 @@ sections:
             - label: Resonate - Zen and the Way of Making a Difference
               url: https://www.choseizen.org/store/p/resonate
             - label: 15 minute Zazen by yourself
-              url: https://www.youtube.com/watch?v=Qf1vmcP7otk
+              url: https://youtu.be/q7Y5rwKiabQ?si=8keWWxVJrCp9BN1S
         - color: black
           label: Shodan
           level: 1
