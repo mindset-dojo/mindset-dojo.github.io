@@ -46,7 +46,11 @@ Each level item shape:
       <ul>
         <p><strong>{{ D.flows_label }}</strong></p>
         {%- for f in lv.flows -%}
-          <li><a href="{{ f.url }}" target="_blank" rel="noopener">{{ f.label }}</a></li>
+          {%- if {{f.url | find: "/insight/" == nil}} -%}
+            <li><a href="{{ f.url }}" target="_blank" rel="noopener">{{ f.label }}</a></li>
+          {% else %}
+            <li><a href="{{ f.path | relative_url }}" target="_blank" rel="noopener">{{ f.label }}</a>></li>
+          {%- endif -%}
         {%- endfor -%}
       </ul>
     {%- endif -%}
