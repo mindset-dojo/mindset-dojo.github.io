@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🛰️ Houston, We Have an Attitude"
+title: "MetaShift Insight - 🛰️ Houston, We Have an Attitude"
 author: "Michael Basil and Kyle Ingersoll"
 h1_mark: Attitude
 h1_hr: true

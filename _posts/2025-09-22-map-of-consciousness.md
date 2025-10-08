@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mindset Dojo Insights — Map of Consciousness"
+title: "MetaShift Insight — Map of Consciousness"
 author: "Kyle Ingersoll"
 h1_mark: Map
 h1_hr: true

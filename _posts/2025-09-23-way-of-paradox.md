@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mindset Dojo Insights – The Way of Paradox"
+title: "MetaShift Insight – The Way of Paradox"
 h1_mark: Paradox
 h1_hr: true
 date: 2025-09-23

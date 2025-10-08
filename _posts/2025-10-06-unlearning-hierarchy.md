@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Insight - Unlearning Hierarchy"
+title: "MetaShift Insight - Unlearning Hierarchy"
 h1_mark: learn
 h1_hr: true
 date: 2025-10-06

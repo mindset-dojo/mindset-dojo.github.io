@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Fear as Teacher, Shadow as Mirror, Presence as Response"
+title: "MetaShift Insight - Fear as Teacher, Shadow as Mirror, Presence as Response"
 h1_mark: Presence
 h1_hr: true
 date: 2025-09-30

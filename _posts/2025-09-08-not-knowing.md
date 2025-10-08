@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mindset Dojo Insights — Not Knowing Is Most Intimate"
+title: "MetaShift Insight — Not Knowing Is Most Intimate"
 author: "Kyle Ingersoll"
 h1_mark: Not Knowing
 h1_hr: true
