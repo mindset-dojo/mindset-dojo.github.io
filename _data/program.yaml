@@ -35,7 +35,7 @@ sections:
         - label: "Flips"
           url: https://cdn.dirigible.studio/wp-content/uploads/sites/24/2021/09/04073619/TZL-graphic-izl.pdf
         - label: "Stances"
-          url: {{ '/insight/breath-of-stance/' | relative_url }}
+          url: "{{ '/insight/breath-of-stance/' | relative_url }}"
   - type: levels
     data:
       label: "Levels"
@@ -56,7 +56,7 @@ sections:
             - label: Four Patterns Experience
               url: https://www.youtube.com/watch?v=uVTGeFjsD3s
             - label: Mindset Dojo Insights - A Fable on Opposition
-              url: {{ '/insight/fable-on-opposition/' | relative_url }}
+              url: "{{ '/insight/fable-on-opposition/' | relative_url }}"
         - color: yellow
           label: 6th Kyu
           level: -6
@@ -68,9 +68,9 @@ sections:
             - label: Zen Toolkit - One Breath
               url: https://vimeo.com/944618879/47e96945a4
             - label: Mindset Dojo Insights - Tone
-              url: {{ '/insight/tone/' | relative_url }}
+              url: "{{ '/insight/tone/' | relative_url }}"
             - label: Mindset Dojo Insights - Map of Consciousness
-              url: {{ '/insight/map-of-consciousness/' | relative_url }}
+              url: "{{ '/insight/map-of-consciousness/' | relative_url }}"
             - label: Plus Ki and Minus Ki
               url: https://mindbodyaikido.com/plus-ki-and-minus-ki
             - label: 5 minute Zazen with Zenpai
@@ -83,13 +83,13 @@ sections:
           edge: Reflect on a spirited conversation through multiple points of view at once
           flows:
             - label: Mindset Dojo Insights - The Way of Paradox
-              url: {{ '/insight/way-of-paradox/' | relative_url }}
+              url: "{{ '/insight/way-of-paradox/' | relative_url }}"
             - label: Zen Toolkit - Two Sides
               url: https://vimeo.com/944663134/d4f1c4f333
             - label: Negotiation 9™ Move - Dynamic Silence
               url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
             - label: Mindset Dojo Insights - The Breath of a Stance Shifts the Mountain
-              url: {{ '/insight/breath-of-stance/' | relative_url }}
+              url: "{{ '/insight/breath-of-stance/' | relative_url }}"
             - label: 5 minute Zazen by yourself
               url: https://youtu.be/q7Y5rwKiabQ?si=8keWWxVJrCp9BN1S
         - color: blue
@@ -131,7 +131,7 @@ sections:
             - label: Zen Leader Essential Flip - Controlling to Connecting
               url: https://www.youtube.com/watch?v=OFxdn9v5avk
             - label: Your Unique MetaShift Expression
-              url: {{ '/insight/houston-attitude/' | relative_url }}
+              url: "{{ '/insight/houston-attitude/' | relative_url }}""
             - label: 10 minute Zazen by yourself
               url: https://youtu.be/q7Y5rwKiabQ?si=8keWWxVJrCp9BN1S
         - color: brown
