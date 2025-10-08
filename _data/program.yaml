@@ -85,8 +85,6 @@ sections:
               url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
             - label: Negotiation 9™ Move - Dynamic Silence
               url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
-            - label: MetaShift Insight - The Breath of a Stance Shifts the Mountain
-              url: /insight/breath-of-stance/
             - label: MetaShift Insight - The Way of Paradox
               url: /insight/way-of-paradox/
             - label: 5 minute Zazen by yourself
@@ -115,6 +113,8 @@ sections:
           flows:
             - label: Zen Toolkit - Four Patterns
               url: https://vimeo.com/944675826/c57a7ce142
+            - label: MetaShift Insight - The Breath of a Stance Shifts the Mountain
+              url: /insight/breath-of-stance/
             - label: Negotiation 9™ Move - Paraphrasing
               url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
             - label: Negotiation 9™ Move - Summary
