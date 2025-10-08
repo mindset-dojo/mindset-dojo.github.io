@@ -49,7 +49,7 @@ Each level item shape:
           {%- if {{f.url | find: "/insight/" == nil}} -%}
             <li><a href="{{ f.url }}" target="_blank" rel="noopener">{{ f.label }}</a></li>
           {% else %}
-            <li><a href="{{ f.path | relative_url }}" target="_blank" rel="noopener">{{ f.label }}</a>></li>
+            <li><a href="{{ 'f.url' | relative_url }}" target="_blank" rel="noopener">{{ f.label }}</a>></li>
           {%- endif -%}
         {%- endfor -%}
       </ul>
