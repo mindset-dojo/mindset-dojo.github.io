@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Blue Belt Reflection — Mindset Dojo"
+title: "Blue Belt Reflection"
 author: "Kyle Ingersoll"
 h1_mark: Reflection
 h1_hr: true

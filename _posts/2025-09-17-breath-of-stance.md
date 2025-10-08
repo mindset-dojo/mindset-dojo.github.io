@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mindset Dojo Insights — The Breath of a Stance Shifts the Mountain"
+title: "The Breath of a Stance Shifts the Mountain"
 author: "Kyle Ingersoll"
 h1_mark: Stance
 h1_hr: true

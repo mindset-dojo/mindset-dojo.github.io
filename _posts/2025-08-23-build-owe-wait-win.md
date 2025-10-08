@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mindset Dojo Insight — To Build Is to Owe. To Wait Is to Win."
+title: "To Build Is to Owe. To Wait Is to Win."
 author: "Kyle Ingersoll"
 h1_mark: Owe
 h1_hr: true
