@@ -131,7 +131,7 @@ sections:
             - label: Zen Leader Essential Flip - Controlling to Connecting
               url: https://www.youtube.com/watch?v=OFxdn9v5avk
             - label: Your Unique MetaShift Expression
-              url: "{{ '/insight/houston-attitude/' | relative_url }}""
+              url: "{{ '/insight/houston-attitude/' | relative_url }}"
             - label: 10 minute Zazen by yourself
               url: https://youtu.be/q7Y5rwKiabQ?si=8keWWxVJrCp9BN1S
         - color: brown
