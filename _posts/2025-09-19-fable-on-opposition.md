@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mindset Dojo Insights - A Fable on Opposition"
+title: "A Fable on Opposition"
 author: "Kyle Ingersoll"
 h1_mark: Opposition
 h1_hr: true
