@@ -1,5 +1,7 @@
 {%- comment -%} _includes/head.html {%- endcomment -%}
 <head>
+  <meta charset="utf-8">
+
   {%- assign data = site.data[page.data_key] -%}
   {%- assign raw_title = page.title | default: data.mantra | default: site.title -%}
 
@@ -7,27 +9,22 @@
       | default: data.description
       | default: site.description
       | default: page.excerpt -%}
-
   {%- assign meta_desc = raw_desc | strip_html | strip_newlines | truncate: 160 -%}
+
   <title>{{ raw_title }}</title>
   <meta name="description" content="{{ meta_desc }}">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="max-image-preview:large">
-  <link rel="preload" href="{{'/assets/libs/google/fonts/afacad-v1-latin-700.woff2' | relative_url}}" crossorigin="anonymous" as="font" type="font/woff2">
-  <link rel="preload" href="{{'/assets/libs/google/fonts/roboto-v47-latin-regular.woff2' | relative_url}}" crossorigin="anonymous" as="font" type="font/woff2">
-  <link rel="stylesheet" href="{{'/assets/css/md.css' | relative_url}}" media="all">
 
-  {% comment %}
-    Canonical URL only included if page.url exists and is not the root.
-    Avoids HTMLProofer complaints on forks or blank values.
-  {% endcomment %}
-  {% if page.url and page.url != "/" %}
-    <link rel="canonical" href="{{ page.url | relative_url }}">
-  {% endif %}
+  <link rel="preload" href="{{ '/assets/libs/google/fonts/afacad-v1-latin-700.woff2' | relative_url }}" crossorigin="anonymous" as="font" type="font/woff2">
+  <link rel="preload" href="{{ '/assets/libs/google/fonts/roboto-v47-latin-regular.woff2' | relative_url }}" crossorigin="anonymous" as="font" type="font/woff2">
+  <link rel="stylesheet" href="{{ '/assets/css/md.css' | relative_url }}" media="all">
 
-  <link rel="icon" href="{{'/assets/favicon.png' | relative_url}}" sizes="32x32">
-  <link rel="icon" href="{{'/assets/favicon.png' | relative_url}}" sizes="192x192">
-  <link rel="apple-touch-icon" href="{{'/assets/favicon.png' | relative_url}}">
-  <meta name="msapplication-TileImage" content="{{'/assets/favicon.png' | relative_url}}">
+  <link rel="canonical" href="{{ page.url | relative_url }}">
+
+  <link rel="icon" href="{{ '/assets/favicon.png' | relative_url }}" sizes="32x32">
+  <link rel="icon" href="{{ '/assets/favicon.png' | relative_url }}" sizes="192x192">
+  <link rel="apple-touch-icon" href="{{ '/assets/favicon.png' | relative_url }}">
+  <meta name="msapplication-TileImage" content="{{ '/assets/favicon.png' | relative_url }}">
 </head>
