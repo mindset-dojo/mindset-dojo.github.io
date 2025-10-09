@@ -8,7 +8,7 @@ excerpt: "Every conversation writes code into the field — tone, timing, and la
 ---
 
 Every conversation writes code into the field.
-Tone, timing, and language compile into patterns -   
+Tone, timing, and language compile into patterns -
 shaping what becomes possible next.
 
 Most of our code runs below awareness.  
