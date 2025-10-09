@@ -2,7 +2,7 @@
 layout: post
 title: "🌑✨ Mindset Dojo Insights: Spiraling with the Shadow in Star Wars"
 h1_mark: Spiral
-date: 2025-09-27
+date: 2025-10-09
 author: "Michael Basil"
 excerpt: "When we turn toward the shadow — fear, anger, ambition, loss — and bring it into awareness, the circle becomes a spiral."
 ---
