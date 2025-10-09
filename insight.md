@@ -75,7 +75,8 @@ permalink: /insight/
           {% endif %}
           {% assign author_count = author_count + 1 %}
         {% endfor %}
-          
+      {% endif %}
+      
       <p class="meta">By {{ author_name_string | default: site.author }} — {{ post.date | date: "%b %-d, %Y" }}</p>
       
       {% assign post_slug = post.slug | default: post.title | slugify %}
