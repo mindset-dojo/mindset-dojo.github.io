@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🌑✨ Mindset Dojo Insights: Spiraling with the Shadow in Star Wars"
+title: "🌑✨ Spiraling with the Shadow in Star Wars"
 h1_mark: Spiral
 date: 2025-10-09
 author: "Michael Basil"
