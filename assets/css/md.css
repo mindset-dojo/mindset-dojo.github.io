@@ -818,28 +818,3 @@ main > section.md-flow > blockquote {
 .post-body {
     background: transparent;
 }
-
-
-
-/* === Site background layer (behind all content) === */
-html, body {
-    min-height: 100%;
-}
-body {
-    background: transparent;
-    position: relative;
-}
-body::before {
-    content: "";
-    position: fixed;
-    inset: 0;
-    z-index: -1;
-    /* Set this var where you configure themes, or swap in a url(): */
-    /* background-image: var(--site-bg-image); */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-main {
-    background: transparent;
-}
