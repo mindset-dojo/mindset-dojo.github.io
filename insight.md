@@ -49,7 +49,35 @@ permalink: /insight/
 
       <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
 
-      <p class="meta">By {{ post.author | default: site.author }} — {{ post.date | date: "%b %-d, %Y" }}</p>
+      {% assign authors_names = "" | split: "," %}     
+
+      {% for author in post.authors %}
+        {% for profile in data.authors %}
+          {% if author == profile %}
+            {% assign authors_names = authors_names | push: profile.name %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+
+      {% assign author_name_string = "" %}
+
+      {% if authors_names | size: 0 %}
+        {% assign author_name_string = author_name_string | append: site.author %}
+      {% elsif authors_names | size: 1 %}
+        {% assign author_name_string = author_name_string | append: authors_names[0] %}
+      {% else %}
+        {% assign author_count = 0 %}
+        {% for author_name in authors_names %}
+          {% assign author_name_string = author_name_string | append: author_name %}
+          {% if author_count < authors_names | size - 1 %}
+            {% assign author_name_string = author_name_string | append: " and " %}
+          {% endif %}
+          {% assign author_count = author_count + 1 %}
+        {% endfor %}
+          
+
+      <p class="meta">By {{ author_name_string | default: site.author }} — {{ post.date | date: "%b %-d, %Y" }}</p>
       
       {%- comment -%}
       Insert image at bottom
