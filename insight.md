@@ -76,12 +76,8 @@ permalink: /insight/
           {% assign author_count = author_count + 1 %}
         {% endfor %}
           
-
       <p class="meta">By {{ author_name_string | default: site.author }} — {{ post.date | date: "%b %-d, %Y" }}</p>
       
-      {%- comment -%}
-      Insert image at bottom
-      {%- endcomment -%}
       {% assign post_slug = post.slug | default: post.title | slugify %}
       {% assign post_date = post.date | default: "2025-01-01" | date: "%Y-%m-%d" | slugify %}
       
