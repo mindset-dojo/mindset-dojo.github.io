@@ -7,8 +7,9 @@
 
   {%- assign raw_desc = page.description
       | default: data.description
+      | default: page.excerpt
       | default: site.description
-      | default: page.excerpt -%}
+      | default: site.title -%}
   {%- assign meta_desc = raw_desc | strip_html | strip_newlines | truncate: 160 -%}
 
   <title>{{ raw_title }}</title>
