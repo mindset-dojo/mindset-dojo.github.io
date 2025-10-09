@@ -460,7 +460,7 @@ section.md-grid-3 blockquote p {
 
 /* [ HEADER ] */
 
-header {
+.site-header{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -475,13 +475,13 @@ header {
 }
 
 @media (width <= 767px) {
-    header {
+    .site-header{
         flex-wrap: nowrap;
     }
 }
 
 /* logo */
-header img {
+.site-header img{
     object-position: 0;
     object-fit: contain;
     height: 80px;
@@ -492,7 +492,7 @@ header img {
 }
 
 @media (width <= 991px) {
-    header img {
+    .site-header img{
         height: 60px;
     }
 }
@@ -504,17 +504,17 @@ nav {
 }
 
 @media (width <= 767px) {
-    header nav ul {
+    .site-header nav ul{
         display: none;
     }
 }
 
-.md-no-scroll header nav li.md-hidden {
+.md-no-scroll .site-header nav li.md-hidden {
     display: list-item;
 }
 
 /* nav desktop menu toggle */
-header button {
+.site-header button{
     display: none;
     background: none;
     border: 0;
@@ -527,7 +527,7 @@ header button {
     z-index: 99;
 }
 
-header button .bar {
+.site-header button .bar{
     padding: 0;
     width: 30px;
     height: 1px;
@@ -536,39 +536,39 @@ header button .bar {
     position: absolute; 
 }
 
-header button .bar1 {
+.site-header button .bar1{
     top: 0;
     transform-origin: 0%;
 }
 
-header button .bar2,
-header button .bar3 {
+.site-header button .bar2,
+.site-header button .bar3{
     top: 13.5px;
 }
 
-header button .bar3 {
+.site-header button .bar3{
     right: 0;
 }
 
-header button .bar4 {
+.site-header button .bar4{
     bottom: 0;
     transform-origin: 0%;
 }
 
 /* nav mobile menu toggle */
-.md-no-scroll header button > .bar1 {
+.md-no-scroll .site-header button > .bar1 {
     transform: rotate(45deg);
     height: 1px;
     width: 40px;
 }
 
-.md-no-scroll header button > .bar2 {
+.md-no-scroll .site-header button > .bar2 {
     transform: rotate(-45deg);
     height: 1px;
     background-color: transparent;
 }
 
-.md-no-scroll header button > .bar3 {
+.md-no-scroll .site-header button > .bar3 {
     transform: rotate(45deg);
     height: 1px;
     background-color: transparent;
@@ -581,16 +581,16 @@ header button .bar4 {
 }
 
 @media (width <= 767px) {
-    header button {
+    .site-header button{
         display: flex;
     }
 }
 
-.md-no-scroll header button {
+.md-no-scroll .site-header button{
     display: flex;
 }
 
-.md-no-scroll header nav ul {
+.md-no-scroll .site-header nav ul{
     background-color: var(--dark-color-primary);
     display: flex;
     flex-flow: column nowrap;
@@ -802,4 +802,44 @@ main > section.md-flow > blockquote {
     align-self: center;
     text-align: center;
     margin-bottom: 20px;
+}
+
+
+
+/* === Post layout transparency & behavior === */
+.post-article {
+    background: transparent;
+}
+.post-header {
+    position: static;
+    top: auto;
+    background: transparent;
+}
+.post-body {
+    background: transparent;
+}
+
+
+
+/* === Site background layer (behind all content) === */
+html, body {
+    min-height: 100%;
+}
+body {
+    background: transparent;
+    position: relative;
+}
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    /* Set this var where you configure themes, or swap in a url(): */
+    /* background-image: var(--site-bg-image); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+main {
+    background: transparent;
 }
