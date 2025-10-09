@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A Fable on Opposition"
-author: "Kyle Ingersoll"
+authors: ["kyle-ingersoll"]
 h1_mark: Opposition
 date: 2025-09-19
 excerpt: "Opposition is not just resistance — it is the sharpening edge that deepens our roots, clarifies our direction, and prepares us to rise beyond limits."

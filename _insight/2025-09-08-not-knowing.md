@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Not Knowing Is Most Intimate"
-author: "Kyle Ingersoll"
+authors: ["kyle-ingersoll"]
 h1_mark: Not Knowing
 date: 2025-09-08
 excerpt: "A reflection on how the Mat Sessions and community practice of Mindset Dojo helped me transform ego-driven self-improvement into humble, fearless growth through beginner’s mind."

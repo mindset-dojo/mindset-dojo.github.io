@@ -3,7 +3,7 @@ layout: post
 title: "Unlearning Hierarchy"
 h1_mark: learn
 date: 2025-10-06
-author: "Michael Basil and Kyle Ingersoll"
+authors: ["michael-basil", "kyle-ingersoll"]
 excerpt: "In the Dojo, leadership is cultivation, not control. Circles replace chains of command. Authorship replaces ownership."
 ---
 
