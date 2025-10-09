@@ -52,29 +52,27 @@ sections:
           edge: Four Patterns Reflection
           flows:
             - label: MetaShiftInsight - Cultivating a Threshold-Based Authorship Network
-              url: /insight/beyond-following-threshold-based-authorship-network/
+              url: /insight/cultivating-a-threshold-based-authorship-network/
             - label: Zen Toolkit Inspiration
               url: http://www.zenshinkan.com/zenshinkan-lineage-ginny.html
             - label: FEBI™ (Focus Energy Balance Indicator) Context
               url: https://zenleader.global/s/FEBI-Technical-Manual-2024.pdf
             - label: Four Patterns Experience
               url: https://www.youtube.com/watch?v=uVTGeFjsD3s
-            - label: MetaShift Insight - A Fable on Opposition
-              url: /insight/fable-on-opposition/
         - color: yellow
           label: 6th Kyu
           level: -6
           intention: Centering
           edge: Meditate until a spirited conversation makes sense and share your learnings
           flows:
-            - label: Zen Toolkit - One Breath
-              url: https://vimeo.com/944618879/47e96945a4
-            - label: The Backwards Brain Bicycle
-              url: https://www.youtube.com/watch?v=MFzDaBzBlL0
             - label: MetaShift Insight - Tone
               url: /insight/tone/
             - label: MetaShift Insight - Map of Consciousness
               url: /insight/map-of-consciousness/
+            - label: Zen Toolkit - One Breath
+              url: https://vimeo.com/944618879/47e96945a4
+            - label: The Backwards Brain Bicycle
+              url: https://www.youtube.com/watch?v=MFzDaBzBlL0
             - label: 5 minute Zazen with Zenpai
               url: https://youtu.be/q7Y5rwKiabQ?si=8keWWxVJrCp9BN1S
         - color: green
@@ -83,6 +81,8 @@ sections:
           intention: Perception
           edge: Reflect on a spirited conversation through multiple points of view at once
           flows:
+            - label: MetaShift Insight - A Fable on Opposition
+              url: /insight/fable-on-opposition/
             - label: Zen Toolkit - Two Sides
               url: https://vimeo.com/944663134/d4f1c4f333
             - label: Negotiation 9™ Move - Calibrated Questions

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🜂 Beyond Following: Cultivating a Threshold-Based Authorship Network"
+title: "🜂 Cultivating a Threshold-Based Authorship Network"
 h1_mark: Authorship
 date: 2025-10-09
 author: "Michael Basil"
