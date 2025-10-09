@@ -79,6 +79,6 @@ Behavior:
     {% assign parts  = entry | split: "|" %}
     {% assign key    = parts[2] %}
     {% assign author = profiles[key] %}
-    {% include sections/author.html author=author %}
+    {% include sections/author.html author=author key=key %}
   {% endfor %}
 </div>
