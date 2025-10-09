@@ -2,7 +2,6 @@
 layout: post
 title: "The Way of Paradox"
 h1_mark: Paradox
-h1_hr: true
 date: 2025-09-23
 author: "Kyle Ingersoll"
 excerpt: "Paradox is the hidden gate of leadership, where resistance dissolves and the small self expands into the boundless flow of Ki."

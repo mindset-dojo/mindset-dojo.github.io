@@ -20,7 +20,7 @@
     --primary-font: "Afacad";
     --secondary-font: "Roboto";
     --font-style-normal: normal;
-    --font-stlye-italic: italic;
+    --font-style-italic: italic;
     --dark-color-primary: #000;
     --dark-color-secondary: rgb(33 33 33 / 80%);
     --light-color-primary: #fffff0;
@@ -214,7 +214,7 @@ blockquote p {
     color: var(--light-color-primary);
     font-size: var(--text-xl);
     font-family: var(--secondary-font);
-    font-style: var(--font-stlye-italic);
+    font-style: var(--font-style-italic);
 }
 
 blockquote p:last-of-type {
@@ -237,6 +237,27 @@ nav a {
     font-weight: 700;
     letter-spacing: 2px;
     overflow: hidden;
+}
+
+img {
+    border-style: none;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-size: cover;
+    shape-margin: 1rem;
+}
+
+:where(p) {
+    margin: 0 0 1.2em;
+}
+
+hr {
+    width: 16%;
+    border-top: 3px solid var(--light-color-primary);
+    margin-top: 16px;
+    margin-bottom: 32px;
 }
 
 /* zero specificity: applies to both main>a and .md-cta-group a */
@@ -270,32 +291,24 @@ footer nav a {
     margin-left: 14px;
 }
 
-p a:not(header a, footer a),
-ul a:not(header a, footer a) {
+/* nav hover/active */
+nav a[aria-current="page"],
+nav a:hover {
+    color: var(--nav-text-active-color);
+}
+
+/* ===== CONTENT LINK STYLES (lint-safe) =====
+   Single, zero-specificity rule for content links inside <main>.
+   Replaces the previous `p a / ul a` and `main h1–h6 a` blocks. */
+main :where(p a, ul a, ol a, li a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a) {
     color: var(--brand-color-secondary);
-    font-style: var(--font-stlye-italic);
-    border-bottom: 2px dotted var(--brand-color-secondary);
+    font-style: var(--font-style-italic);
+    border-bottom: 2px dotted currentcolor;
+    text-decoration: none;
 }
 
-img {
-    border-style: none;
-    max-width: 100%;
-    height: auto;
-    vertical-align: middle;
-    background-repeat: no-repeat;
-    background-size: cover;
-    shape-margin: 1rem;
-}
-
-:where(p) {
-    margin: 0 0 1.2em;
-}
-
-hr {
-    width: 16%;
-    border-top: 3px solid var(--light-color-primary);
-    margin-top: 16px;
-    margin-bottom: 32px;
+main :where(p a, ul a, ol a, li a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a):hover {
+    border-bottom-style: solid;
 }
 
 /* utility */
@@ -488,11 +501,6 @@ header img {
 nav {
     align-items: center;
     display: inline-flex;
-}
-
-nav a[aria-current="page"],
-nav a:hover {
-    color: var(--nav-text-active-color);
 }
 
 @media (width <= 767px) {
