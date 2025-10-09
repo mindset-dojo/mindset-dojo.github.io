@@ -53,7 +53,8 @@ permalink: /insight/
       {% assign authors_names = "" | split: "," %}
 
       {% for slug in author_slugs %}
-        {% for key, profile in site.data.authors %}
+        {% for key in site.data.authors %}
+          {% assign profile = site.data.authors[key] %}
           {% if slug == key %}
             {% assign authors_names = authors_names | push: profile.name %}
             {% break %}
