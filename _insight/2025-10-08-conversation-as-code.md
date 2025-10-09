@@ -7,20 +7,20 @@ author: "Michael Basil"
 excerpt: "Every conversation writes code into the field — tone, timing, and language compile into patterns that shape what becomes possible next."
 ---
 
-Every conversation writes code into the field.  
+Every conversation writes code into the field.
 Tone, timing, and language compile into patterns -   
 shaping what becomes possible next.
 
 Most of our code runs below awareness.  
 Old scripts re-execute: defensiveness, control, self-protection.
 
-Conversation isn't just communication -   
+Conversation isn't just communication -
 it's **architecture**.  
 It builds trust or tension.  
 Flow or friction.
 
-With Mindset Dojo, conversation becomes practice.  
-Each exchange is a feedback loop -   
+With Mindset Dojo, conversation becomes practice.
+Each exchange is a feedback loop - 
 a chance to **debug** and **refactor** how we show up.
 
 The human stack:  
