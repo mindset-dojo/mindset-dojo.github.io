@@ -308,7 +308,7 @@ main :where(p a, ul a, ol a, li a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a) {
 }
 
 main :where(p a, ul a, ol a, li a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a):hover {
-    border-bottom-style: solid;
+    border-bottom-style: currentcolor;
 }
 
 /* utility */
