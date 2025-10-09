@@ -8,19 +8,23 @@ excerpt: "Every conversation writes code into the field — tone, timing, and la
 ---
 
 Every conversation writes code into the field.
-Tone, timing, and language compile into patterns -
+Tone, timing, and language compile into patterns —
 shaping what becomes possible next.
 
-Most of our code runs below awareness.  
+Most of our code runs below awareness.
 Old scripts re-execute: defensiveness, control, self-protection.
 
-Conversation isn't just communication -
+> "We don't see the code we live by — until a new conversation reveals it."
+
+Conversation isn't just communication —
 it's **architecture**.  
 It builds trust or tension.  
 Flow or friction.
 
+> *Conversation is where nervous systems meet, not just where words exchange.*
+
 With Mindset Dojo, conversation becomes practice.
-Each exchange is a feedback loop -
+Each exchange is a feedback loop —
 a chance to **debug** and **refactor** how we show up.
 
 The human stack:
@@ -34,13 +38,13 @@ The human stack:
 Each rep rewrites a pattern.  
 Each breath re-compiles presence.
 
-Most of us run legacy software - inherited emotional code.  
+Most of us run legacy software — inherited emotional code.
 Through training, we learn to see it, feel it, and **rewrite** it.  
 To move from **reactive scripts → reflective systems**.  
 From **control → connection**.  
 From **tension → flow**.
 
-💡 *The health of any system - a family, team, or culture - mirrors the quality of conversation that sustains it.* 💡
+> 💡 *The health of any system — a family, team, or culture — mirrors the quality of conversation that sustains it.* 💡
 
 Change the conversation,  
 and you change the **codebase of reality**.  

@@ -14,6 +14,8 @@ It accumulates attention, not authorship.
 In the dojo, we're not trying to build an audience.  
 We're cultivating a field of **thresholds** — experiences that transform presence into trust.
 
+> "Each threshold is a moment of authorship — when presence crosses into responsibility."
+
 ---
 
 ### 🌉 Thresholds Are Crossings, Not Credentials
@@ -24,6 +26,8 @@ from learning about something to embodying it.
 
 Each threshold deepens coherence.  
 Each crossing builds real, earned trust.
+
+> *Trust isn’t a byproduct of transparency; it’s the residue of lived coherence.*
 
 ---
 
@@ -39,7 +43,7 @@ Each passage becomes a **Self-distillation moment** for those engaged.
 Each belt, each reflection, each pull request is a mark of authorship —  
 a way of saying…
 
-💡 *I take responsibility for how my energy moves in the field.* 💡
+> 💡 *I take responsibility for how my energy moves in the field.* 💡
 
 That’s the architecture:  
 **Presence ~ Practice → Authorship → Trust.**
@@ -53,6 +57,8 @@ Revenue, in this model, isn’t the goal — it’s just one expression of energ
 
 In open-source practice, energy takes many forms: contribution, reflection, presence, mentorship, or financial support.  
 Some practitioners offer time and skill; others, with greater means, sponsor the training of those coming up behind them.
+
+> "Energy follows attention — and attention follows trust."
 
 All of it belongs to the same current — energy circulating through trust, sustaining the field so practice can deepen.
 
