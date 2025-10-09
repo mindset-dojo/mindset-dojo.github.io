@@ -10,8 +10,7 @@ Notes:
 {%- endcomment -%}
 
 <section class="md-author-card">
-  {%- assign filename = include.author | split: "/" | last -%}
-  {%- assign slug = filename | split: "." | first -%}
+  {%- assign slug = include.key -%}
   {% assign avatar_path = '/media/author-avatar/' | append: slug | append: '.jpg' | relative_url %}
   {% assign author_name = include.author.name | default: "Author" %}
 
