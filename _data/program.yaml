@@ -65,14 +65,14 @@ sections:
           intention: Centering
           edge: Meditate until a spirited conversation makes sense and share your learnings
           flows:
+            - label: MetaShift Insight - Conversation as Code
+              url: /insight/conversation-as-code/
+            - label: Zen Toolkit - One Breath
+              url: https://vimeo.com/944618879/47e96945a4
             - label: MetaShift Insight - Tone
               url: /insight/tone/
             - label: MetaShift Insight - Map of Consciousness
               url: /insight/map-of-consciousness/
-            - label: Zen Toolkit - One Breath
-              url: https://vimeo.com/944618879/47e96945a4
-            - label: The Backwards Brain Bicycle
-              url: https://www.youtube.com/watch?v=MFzDaBzBlL0
             - label: 5 minute Zazen with Zenpai
               url: https://youtu.be/q7Y5rwKiabQ?si=8keWWxVJrCp9BN1S
         - color: green
@@ -167,8 +167,6 @@ sections:
           intention: Wu-Wei
           edge: Explore MetaShift Method with another living system
           flows:
-            - label: The Backwards Brain Tractor
-              url: https://youtu.be/lylCYkgC63Q?si=FzuWfAHq4Yie_AHC
             - label: For Something New To Come, Something Old Must Go
               url: https://www.youtube.com/watch?v=_to_w-R0JjQ
             - label: 30 minute Zazen with Chosei Zen Virtual Dojo
