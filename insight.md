@@ -62,9 +62,9 @@ permalink: /insight/
 
       {% assign author_name_string = "" %}
 
-      {% if authors_names | size: 0 %}
+      {% if authors_names.size == 0 %}
         {% assign author_name_string = author_name_string | append: site.author %}
-      {% elsif authors_names | size: 1 %}
+      {% elsif authors_names.size == 1 %}
         {% assign author_name_string = author_name_string | append: authors_names[0] %}
       {% else %}
         {% assign author_count = 0 %}
@@ -76,7 +76,7 @@ permalink: /insight/
           {% assign author_count = author_count + 1 %}
         {% endfor %}
       {% endif %}
-      
+
       <p class="meta">By {{ author_name_string | default: site.author }} — {{ post.date | date: "%b %-d, %Y" }}</p>
       
       {% assign post_slug = post.slug | default: post.title | slugify %}
