@@ -20,7 +20,7 @@
     --primary-font: "Afacad";
     --secondary-font: "Roboto";
     --font-style-normal: normal;
-    --font-stlye-italic: italic;
+    --font-style-italic: italic;
     --dark-color-primary: #000;
     --dark-color-secondary: rgb(33 33 33 / 80%);
     --light-color-primary: #fffff0;
@@ -214,7 +214,7 @@ blockquote p {
     color: var(--light-color-primary);
     font-size: var(--text-xl);
     font-family: var(--secondary-font);
-    font-style: var(--font-stlye-italic);
+    font-style: var(--font-style-italic);
 }
 
 blockquote p:last-of-type {
@@ -273,8 +273,29 @@ footer nav a {
 p a:not(header a, footer a),
 ul a:not(header a, footer a) {
     color: var(--brand-color-secondary);
-    font-style: var(--font-stlye-italic);
+    font-style: var(--font-style-italic);
     border-bottom: 2px dotted var(--brand-color-secondary);
+}
+
+main h1 a,
+main h2 a,
+main h3 a,
+main h4 a,
+main h5 a,
+main h6 a {
+    color: var(--brand-color-secondary);
+    font-style: var(--font-style-italic);
+    border-bottom: 2px dotted var(--brand-color-secondary);
+    text-decoration: none;
+}
+
+main h1 a:hover,
+main h2 a:hover,
+main h3 a:hover,
+main h4 a:hover,
+main h5 a:hover,
+main h6 a:hover {
+    border-bottom-style: solid;
 }
 
 img {
