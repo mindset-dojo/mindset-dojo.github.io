@@ -23,7 +23,8 @@ With Mindset Dojo, conversation becomes practice.
 Each exchange is a feedback loop -
 a chance to **debug** and **refactor** how we show up.
 
-The human stack:  
+The human stack:
+
 💠 **Hardware** → body & breath  
 💠 **OS** → awareness & state  
 💠 **Code** → language & rhythm  
