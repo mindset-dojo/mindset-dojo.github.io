@@ -15,7 +15,7 @@ permalink: /insight/
   - Image handling supports data: URIs, path strings, or raw base64 (with optional page.image_mime).
   {%- endcomment -%}
 
-  {% assign insight_posts = site.insight %}
+  {% assign insight_posts = site.insight | sort: "date" | reverse %}
   {% if insight_posts == empty %}
     {% assign insight_posts = site.insight %}
   {% endif %}
@@ -47,9 +47,7 @@ permalink: /insight/
     {%- endcomment -%}
     {% assign post_url = '/insight/' | append: post_slug | append: '/' | relative_url %}
 
-      <h3>
-        <a href="{{ post_url }}">{{ post.title }}</a>
-      </h3>
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
 
       <p class="meta">By {{ post.author | default: site.author }} — {{ post.date | date: "%b %-d, %Y" }}</p>
       
