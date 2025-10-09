@@ -3,10 +3,7 @@ title: Mindset Dojo
 
 google_analytics_id: G-7PD1BFF7RG
 
-collections:
-  insight:
-    output: true
-    permalink: /insight/:slug/
+permalink: /insight/:slug/
 
 action_links:
   program: /program/
