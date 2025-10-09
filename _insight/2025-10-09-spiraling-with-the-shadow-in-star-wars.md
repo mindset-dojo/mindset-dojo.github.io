@@ -38,5 +38,5 @@ Einstein said we cannot solve our problems at the same level of consciousness th
 - What happens if you bring the “other side” — the shadow, the opposite, the fear — into awareness?  
 - Does the circle begin to open into a spiral?
 
-→ <https://mindset.dojo.center>
+→ <https://mindset.dojo.center>  
 ⛩️🌿

@@ -49,5 +49,5 @@ The Mindset Dojo isn’t a following. It is a living lattice of practice and aut
 
 And this authorship continues to evolve — into a shared repository that includes conversational presence patterns, a living record of how we learn to meet life and one another with clarity, compassion, and courage.
 
-→ <https://mindset.dojo.center>
+→ <https://mindset.dojo.center>  
 ⛩️🌿

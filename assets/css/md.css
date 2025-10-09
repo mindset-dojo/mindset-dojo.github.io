@@ -137,6 +137,22 @@ nav ul {
     gap: 30px;
 }
 
+/* zero-specificity wrapper on the desktop nav list — moved above footer nav to satisfy Stylelint */
+:where(.site-header) nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 30px;
+}
+
+@media (width <= 767px) {
+    :where(.site-header) nav ul{
+        display: none;
+    }
+}
+
 body > footer nav ul {
     justify-content: center;
     gap: 14px 0;
@@ -388,6 +404,61 @@ main :where(p a, ul a, ol a, li a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a):hover {
 }
 
 /* =========================================
+   GLOBAL FLOW SECTION PATTERN (opt-in)
+   Apply to any <section class="md-flow"> inside <main>
+   ========================================= */
+
+main > section.md-flow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+main > section.md-flow > h2,
+main > section.md-flow > p {
+  max-width: 700px;
+  text-align: center;
+  margin: 0 auto 1rem;
+  padding: 0 1rem;
+}
+
+main > section.md-flow > ul {
+  max-width: 700px;
+  margin: 0 auto 1.5rem;
+  padding-left: 0;
+  text-align: center;
+}
+
+main > section.md-flow > ul li {
+  text-align: left;
+}
+
+main > section.md-flow > blockquote {
+  max-width: 700px;
+  margin: 20px auto 40px;
+  padding-left: 32px;
+  border-left: 8px solid var(--brand-color-primary);
+}
+
+@media (width <= 600px) {
+  main > section.md-flow {
+    padding: 1rem 0.5rem;
+  }
+
+  main > section.md-flow > ul {
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+
+  main > section.md-flow > ul li {
+    font-size: var(--text-s);
+  }
+}
+
+/* =========================================
    BLOCKQUOTES (site-wide)
    Match main + article pages
    ========================================= */
@@ -512,15 +583,6 @@ nav {
 }
 
 /* zero-specificity wrapper on the desktop nav list */
-:where(.site-header) nav ul{
-    display: flex;
-    flex-wrap: wrap;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    gap: 30px;
-}
-
 @media (width <= 767px) {
     :where(.site-header) nav ul{
         display: none;
@@ -685,61 +747,6 @@ footer img {
     transform: translateX(-50%);
     object-position: 0;
     z-index: -1;
-}
-
-/* =========================================
-   GLOBAL FLOW SECTION PATTERN (opt-in)
-   Apply to any <section class="md-flow"> inside <main>
-   ========================================= */
-
-main > section.md-flow {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 2rem 1rem;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-main > section.md-flow > h2,
-main > section.md-flow > p {
-  max-width: 700px;
-  text-align: center;
-  margin: 0 auto 1rem;
-  padding: 0 1rem;
-}
-
-main > section.md-flow > ul {
-  max-width: 700px;
-  margin: 0 auto 1.5rem;
-  padding-left: 0;
-  text-align: center;
-}
-
-main > section.md-flow > ul li {
-  text-align: left;
-}
-
-main > section.md-flow > blockquote {
-  max-width: 700px;
-  margin: 20px auto 40px;
-  padding-left: 32px;
-  border-left: 8px solid var(--brand-color-primary);
-}
-
-@media (width <= 600px) {
-  main > section.md-flow {
-    padding: 1rem 0.5rem;
-  }
-
-  main > section.md-flow > ul {
-    max-width: 100%;
-    padding: 0 1rem;
-  }
-
-  main > section.md-flow > ul li {
-    font-size: var(--text-s);
-  }
 }
 
 /* =========================================
