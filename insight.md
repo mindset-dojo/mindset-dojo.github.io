@@ -2,22 +2,22 @@
 layout: default
 title: Don't Absorb. Author.
 h1_mark: Author.
-h1_hr: true
 css_id: insight
+permalink: /insight/
 ---
 
 <section id="insights-stream">
   {%- comment -%}
   Stream behavior:
-  - By default shows posts tagged "insight"; falls back to all posts if none.
+  - By default shows insight posts tagged "insight"; falls back to all insight posts if none.
   - Article URLs resolve to: /insight/<slug>/
   - Tag URLs resolve to: /insight/<tag-slug>/
   - Image handling supports data: URIs, path strings, or raw base64 (with optional page.image_mime).
   {%- endcomment -%}
 
-  {% assign insight_posts = site.posts %}
+  {% assign insight_posts = site.insight | sort: "date" | reverse %}
   {% if insight_posts == empty %}
-    {% assign insight_posts = site.posts %}
+    {% assign insight_posts = site.insight %}
   {% endif %}
 
   {% for post in insight_posts %}
@@ -47,9 +47,7 @@ css_id: insight
     {%- endcomment -%}
     {% assign post_url = '/insight/' | append: post_slug | append: '/' | relative_url %}
 
-      <h3>
-        <a href="{{ post_url }}">{{ post.title }}</a>
-      </h3>
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
 
       <p class="meta">By {{ post.author | default: site.author }} — {{ post.date | date: "%b %-d, %Y" }}</p>
       

@@ -48,6 +48,8 @@ jobs:
       - name: 🏗️ Build GitHub Pages-compliant Jekyll site
         env:
           JEKYLL_ENV: production
+          PAGES_REPO_NWO: ${{ github.repository }}
+          JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           bundle exec jekyll build \
             --config _config.yml,_config.production.yml
