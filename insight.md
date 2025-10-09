@@ -49,11 +49,12 @@ permalink: /insight/
 
       <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
 
-      {% assign authors_names = "" | split: "," %}     
+      {% assign author_slugs = post.authors %}
+      {% assign authors_names = "" | split: "," %}
 
-      {% for author in post.authors %}
-        {% for profile in site.data.authors %}
-          {% if author == profile %}
+      {% for slug in author_slugs %}
+        {% for key, profile in site.data.authors %}
+          {% if slug == key %}
             {% assign authors_names = authors_names | push: profile.name %}
             {% break %}
           {% endif %}
@@ -63,21 +64,24 @@ permalink: /insight/
       {% assign author_name_string = "" %}
 
       {% if authors_names.size == 0 %}
-        {% assign author_name_string = author_name_string | append: site.author %}
+        {% assign author_name_string = site.author %}
       {% elsif authors_names.size == 1 %}
-        {% assign author_name_string = author_name_string | append: authors_names[0] %}
+        {% assign author_name_string = authors_names[0] %}
       {% else %}
         {% assign author_count = 0 %}
-        {% for author_name in authors_names %}
-          {% assign author_name_string = author_name_string | append: author_name %}
-          {% if author_count < authors_names.size | minus: 1 %}
+        {% assign last_index = authors_names.size | minus: 1 %}
+        {% for name in authors_names %}
+          {% assign author_name_string = author_name_string | append: name %}
+          {% if author_count < last_index %}
             {% assign author_name_string = author_name_string | append: " and " %}
           {% endif %}
           {% assign author_count = author_count | plus: 1 %}
         {% endfor %}
       {% endif %}
 
-      <p class="meta">By {{ author_name_string | default: site.author }} — {{ post.date | date: "%b %-d, %Y" }}</p>
+      <p class="meta">
+        By {{ author_name_string | default: site.author }} — {{ post.date | date: "%b %-d, %Y" }}
+      </p>
       
       {% assign post_slug = post.slug | default: post.title | slugify %}
       {% assign post_date = post.date | default: "2025-01-01" | date: "%Y-%m-%d" | slugify %}
