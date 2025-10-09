@@ -52,7 +52,7 @@ permalink: /insight/
       {% assign authors_names = "" | split: "," %}     
 
       {% for author in post.authors %}
-        {% for profile in data.authors %}
+        {% for profile in site.data.authors %}
           {% if author == profile %}
             {% assign authors_names = authors_names | push: profile.name %}
             {% break %}
