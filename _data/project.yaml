@@ -1,5 +1,7 @@
 ---
 mantra: "Don’t Conceal. Contribute."
+mantra_mark: "Contribute."
+description: "Open projects built in public—inviting contribution, conversation, and practice."
 sections:
   - type: mission
     data:

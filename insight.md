@@ -2,7 +2,6 @@
 layout: default
 title: Don't Absorb. Author.
 h1_mark: Author.
-h1_hr: true
 css_id: insight
 ---
 

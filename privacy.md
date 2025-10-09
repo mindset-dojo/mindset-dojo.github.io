@@ -2,7 +2,6 @@
 layout: default
 title: Privacy Policy
 h1_mark: Privacy
-h1_hr: true
 description: Privacy Policy
 permalink: /privacy/
 css_id: privacy

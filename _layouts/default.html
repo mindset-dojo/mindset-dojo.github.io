@@ -1,3 +1,4 @@
+{%- comment -%} _layouts/default.html {%- endcomment -%}
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 {% include head.html %}
@@ -5,16 +6,25 @@
     {% include header.html %}
 
     <main aria-label="Content">
-        {%- assign base_h1 = page.h1 | default: page.title -%}
+        {%- assign data = site.data[page.data_key] -%}
+
+        {%- comment -%}
+        Decide the base H1 (and what to "mark") with sensible fallbacks:
+        - page.h1 / page.title if explicitly set
+        - else data.mantra / data.mantra_mark from _data/(data_key).yaml
+        {%- endcomment -%}
+        {%- assign base_h1 = page.h1 | default: page.title | default: data.mantra | default: site.title -%}
+        {%- assign h1_mark_val = page.h1_mark | default: data.mantra_mark -%}
+
         {%- if base_h1 -%}
-            {%- if page.h1_mark -%}
-                {%- capture marked -%}<mark>{{ page.h1_mark }}</mark>{%- endcapture -%}
-                {%- assign h1_rendered = base_h1 | replace_first: page.h1_mark, marked -%}
+            {%- if h1_mark_val -%}
+                {%- capture marked -%}<mark>{{ h1_mark_val }}</mark>{%- endcapture -%}
+                {%- assign h1_rendered = base_h1 | replace_first: h1_mark_val, marked -%}
             {%- else -%}
                 {%- assign h1_rendered = base_h1 -%}
             {%- endif -%}
             <h1>{{ h1_rendered }}</h1>
-            {%- if page.h1_hr == true -%}<hr>{%- endif -%}
+            <hr>
         {%- endif -%}
 
         {{ content }}
