@@ -3,15 +3,14 @@ author card within section
 
 Expects:
   - include.author → profile object
-  - include.avatar → avatar object (type + b64)
+  - include.key → filename-safe unique key for author (used for avatar path)
 Notes:
   - Still uses site.data.program.levels to render the level icon color/label.
   - Still uses icons from /_includes/icons/*.svg (same paths as before).
 {%- endcomment -%}
 
 <section class="md-author-card">
-  {%- assign slug = include.key -%}
-  {% assign avatar_path = '/media/author-avatar/' | append: slug | append: '.jpg' | relative_url %}
+  {% assign avatar_path = '/media/author-avatar/' | append: include.key | append: '.jpg' | relative_url %}
   {% assign author_name = include.author.name | default: "Author" %}
 
   <img
