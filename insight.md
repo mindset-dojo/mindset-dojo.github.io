@@ -3,6 +3,7 @@ layout: default
 title: Don't Absorb. Author.
 h1_mark: Author.
 css_id: insight
+permalink: /insight/
 ---
 
 <section id="insights-stream">
