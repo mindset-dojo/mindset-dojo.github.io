@@ -70,10 +70,10 @@ permalink: /insight/
         {% assign author_count = 0 %}
         {% for author_name in authors_names %}
           {% assign author_name_string = author_name_string | append: author_name %}
-          {% if author_count < authors_names | size - 1 %}
+          {% if author_count < authors_names.size | minus: 1 %}
             {% assign author_name_string = author_name_string | append: " and " %}
           {% endif %}
-          {% assign author_count = author_count + 1 %}
+          {% assign author_count = author_count | plus: 1 %}
         {% endfor %}
       {% endif %}
 
