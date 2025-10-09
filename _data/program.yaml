@@ -51,24 +51,24 @@ sections:
           intention: Orientation
           edge: Four Patterns Reflection
           flows:
+            - label: MetaShift Insight - Cultivating a Threshold-Based Authorship Network
+              url: /insight/cultivating-a-threshold-based-authorship-network/
             - label: Zen Toolkit Inspiration
               url: http://www.zenshinkan.com/zenshinkan-lineage-ginny.html
             - label: FEBI™ (Focus Energy Balance Indicator) Context
               url: https://zenleader.global/s/FEBI-Technical-Manual-2024.pdf
             - label: Four Patterns Experience
               url: https://www.youtube.com/watch?v=uVTGeFjsD3s
-            - label: MetaShift Insight - A Fable on Opposition
-              url: /insight/fable-on-opposition/
         - color: yellow
           label: 6th Kyu
           level: -6
           intention: Centering
           edge: Meditate until a spirited conversation makes sense and share your learnings
           flows:
+            - label: MetaShift Insight - Conversation as Code
+              url: /insight/conversation-as-code/
             - label: Zen Toolkit - One Breath
               url: https://vimeo.com/944618879/47e96945a4
-            - label: The Backwards Brain Bicycle
-              url: https://www.youtube.com/watch?v=MFzDaBzBlL0
             - label: MetaShift Insight - Tone
               url: /insight/tone/
             - label: MetaShift Insight - Map of Consciousness
@@ -81,6 +81,8 @@ sections:
           intention: Perception
           edge: Reflect on a spirited conversation through multiple points of view at once
           flows:
+            - label: MetaShift Insight - A Fable on Opposition
+              url: /insight/fable-on-opposition/
             - label: Zen Toolkit - Two Sides
               url: https://vimeo.com/944663134/d4f1c4f333
             - label: Negotiation 9™ Move - Calibrated Questions
@@ -132,7 +134,7 @@ sections:
           edge: Demonstrate MetaShift expression live in an embodied exchange
           flows:
             - label: MetaShift Insight - Spiraling with the Shadow in Star Wars
-              url: https://medium.com/p/d080717aec9b
+              url: /insight/spiraling-with-the-shadow-in-star-wars/
             - label: Negotiation 9™ Move - “I” Messages
               url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
             - label: Negotiation 9™ Move - Encouragers
@@ -165,8 +167,6 @@ sections:
           intention: Wu-Wei
           edge: Explore MetaShift Method with another living system
           flows:
-            - label: The Backwards Brain Tractor
-              url: https://youtu.be/lylCYkgC63Q?si=FzuWfAHq4Yie_AHC
             - label: For Something New To Come, Something Old Must Go
               url: https://www.youtube.com/watch?v=_to_w-R0JjQ
             - label: 30 minute Zazen with Chosei Zen Virtual Dojo
