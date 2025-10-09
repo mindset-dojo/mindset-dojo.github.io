@@ -303,7 +303,7 @@ nav a:hover {
 main :where(p a, ul a, ol a, li a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a) {
     color: var(--brand-color-secondary);
     font-style: var(--font-style-italic);
-    border-bottom: 2px dotted currentcolor;
+    border-bottom: 2px solid transparent;
     text-decoration: none;
 }
 
