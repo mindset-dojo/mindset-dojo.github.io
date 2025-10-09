@@ -6,7 +6,6 @@ h1_mark: Attitude
 h1_hr: true
 date: 2025-08-03
 excerpt: "When tone shifts, awareness follows—revealing the MetaShift from control to connection that transforms every conversation into practice."
-image_extension: jpg
 ---
 
 

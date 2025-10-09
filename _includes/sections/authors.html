@@ -14,8 +14,7 @@ Behavior:
 {%- endcomment -%}
 
 {%- assign D = section.data -%}
-{%- assign profiles = D.profiles | default: site.data.authors.profiles -%}
-{%- assign avatars  = D.avatars  | default: site.data.authors.avatars  -%}
+{%- assign profiles = D.profiles | default: site.data.authors -%}
 {%- assign entries  = "" | split: "|" -%}
 
 {%- assign designation_type = D.leadership_flow.designation_type | default: '' | downcase | strip -%}
@@ -80,7 +79,6 @@ Behavior:
     {% assign parts  = entry | split: "|" %}
     {% assign key    = parts[2] %}
     {% assign author = profiles[key] %}
-    {% assign avatar = avatars[key] %}
-    {% include sections/author.html author=author avatar=avatar %}
+    {% include sections/author.html author=author key=key %}
   {% endfor %}
 </div>

@@ -6,7 +6,6 @@ h1_mark: Owe
 h1_hr: true
 date: 2025-08-23
 excerpt: "A reflection on the MetaShift from Visionary to Organizer energy, where doing nothing—*for now*—becomes the wisest move."
-image_extension: jpg
 ---
 
 At **Mindset Dojo**, I recently experienced what we call a **MetaShift** — moving from *Visionary energy* into *Organizer energy.*
