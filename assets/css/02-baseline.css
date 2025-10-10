@@ -62,7 +62,12 @@
     margin-bottom: 0;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     color: var(--light-color-primary);
     font-family: var(--primary-font);
     margin: 0 0 8px;
@@ -70,26 +75,64 @@
     font-weight: 700;
   }
 
-  h1, h2 {
+  h1,
+  h2 {
     text-align: center;
   }
 
-  h3, h4, h5, h6 {
+  h3,
+  h4,
+  h5,
+  h6 {
     margin: 0 0 12px;
   }
 
-  h1 { font-size: var(--h1); line-height: var(--h1-line-height); }
-  h2 { font-size: var(--h2); line-height: var(--h2-line-height); }
-  h3 { font-size: var(--h3); line-height: var(--h3-line-height); }
-  h4 { font-size: var(--h4); line-height: var(--h4-line-height); }
-  h5 { font-size: var(--h5); line-height: var(--h5-line-height); }
-  h6 { font-size: var(--h6); line-height: var(--h6-line-height); }
+  h1 {
+    font-size: var(--h1);
+    line-height: var(--h1-line-height);
+  }
 
-  mark { background: none; color: var(--brand-color-primary); }
-  strong { color: var(--light-color-primary); }
-  small { font-size: 75%; }
+  h2 {
+    font-size: var(--h2);
+    line-height: var(--h2-line-height);
+  }
 
-  blockquote { margin: 0; }
+  h3 {
+    font-size: var(--h3);
+    line-height: var(--h3-line-height);
+  }
+
+  h4 {
+    font-size: var(--h4);
+    line-height: var(--h4-line-height);
+  }
+
+  h5 {
+    font-size: var(--h5);
+    line-height: var(--h5-line-height);
+  }
+
+  h6 {
+    font-size: var(--h6);
+    line-height: var(--h6-line-height);
+  }
+
+  mark {
+    background: none;
+    color: var(--brand-color-primary);
+  }
+
+  strong {
+    color: var(--light-color-primary);
+  }
+
+  small {
+    font-size: 75%;
+  }
+
+  blockquote {
+    margin: 0;
+  }
 
   blockquote p {
     color: var(--light-color-primary);
@@ -98,14 +141,18 @@
     font-style: var(--font-style-italic);
   }
 
-  blockquote p:last-of-type { margin-bottom: 0; }
+  blockquote p:last-of-type {
+    margin-bottom: 0;
+  }
 
   blockquote footer {
     font-size: var(--text-s);
     margin-top: 12px;
   }
 
-  a { text-decoration: none; }
+  a {
+    text-decoration: none;
+  }
 
   img {
     border-style: none;
@@ -117,7 +164,9 @@
     shape-margin: 1rem;
   }
 
-  :where(p) { margin: 0 0 1.2em; }
+  :where(p) {
+    margin: 0 0 1.2em;
+  }
 
   hr {
     width: 16%;
@@ -170,6 +219,11 @@
     line-height: var(--text-xs-line-height);
   }
 
-  .md-no-scroll { overflow: hidden; }
-  .md-hidden { display: none; }
+  .md-no-scroll {
+    overflow: hidden;
+  }
+
+  .md-hidden {
+    display: none;
+  }
 }
