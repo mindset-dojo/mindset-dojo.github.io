@@ -39,14 +39,8 @@ if called without an author object.
       {%- endif -%}
     {%- endif -%}
 
-    {%- if include.author.linkedin or include.author.program_level -%}
+    {%- if include.author.program_level -%}
       <div class="md-group">
-        {%- if include.author.linkedin -%}
-          <a href="{{ include.author.linkedin }}" target="_blank" aria-label="LinkedIn">
-            {% include icons/linkedin.svg class="md-icon-svg" %}
-          </a>
-        {%- endif -%}
-
         {%- if include.author.program_level -%}
           {% assign program_level = include.author.program_level | plus: 0 %}
           {% assign level = site.data.program.sections | where: "type", "levels" | map: "data" | map: "items" | first | where: "level", program_level | first %}
@@ -56,14 +50,6 @@ if called without an author object.
             title=level.label %}
         {%- endif -%}
       </div>
-    {%- endif -%}
-
-    {%- if include.author.links -%}
-      <ul>
-        {% for link in include.author.links %}
-          <li><a href="{{ link.url }}">{{ link.label }}</a></li>
-        {% endfor %}
-      </ul>
     {%- endif -%}
   </section>
 {%- endif -%}
