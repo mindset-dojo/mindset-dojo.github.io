@@ -11,6 +11,10 @@ section.data may include:
 Behavior:
   - If leadership_flow.designation_type is present, filter by that type.
   - If author.active is undefined, default to TRUE (show the author).
+This file now supports an optional include-time override:
+  {% include sections/authors.html authors=page.authors %}
+When include.authors is provided, the authors-from-front-matter (Insight Stream)
+flow will run and the normal section behavior will be skipped.
 {%- endcomment -%}
 
 {%- assign D = section.data -%}
@@ -28,44 +32,75 @@ Behavior:
 </section>
 {%- endif -%}
 
-<div class="md-authors">
-  {%- comment -%} 1) Build sortable list of active (optionally filtered) authors {%- endcomment -%}
-  {% for pair in profiles %}
-    {% assign key = pair[0] %}
-    {% assign author = pair[1] %}
+{%- comment -%}
+INSIGHT-STREAM OVERRIDE:
+If the include was invoked with `authors` (array or single slug),
+build the entries list from those slugs and render only the matching profiles.
+This block is intentionally guarded so existing site usage (without include.authors)
+continues to use the original behavior below.
+{%- endcomment -%}
 
-    {%- assign show_author = author.active | default: true -%}
+{%- if include.authors and include.authors != nil and include.authors != "" -%}
 
-    {%- if show_author and designation_type != '' -%}
-      {%- assign show_author = false -%}
-      {%- assign ld = author.leadership_designations -%}
-      {%- if ld and ld.size > 0 -%}
-        {%- for item in ld -%}
-          {%- assign t = item.type  | downcase | strip -%}
-          {%- assign v = item.value | default: item.key | to_s | strip -%}
-          {%- if t == designation_type and v != '' and v != 'null' -%}
-            {%- assign show_author = true -%}
-          {%- endif -%}
-        {%- endfor -%}
-      {%- endif -%}
+  {%- assign raw_authors = include.authors -%}
+
+  {%- comment -%}
+  Normalize to an array (supports array, CSV, or single string)
+  {%- endcomment -%}
+  {%- if raw_authors.class == "Array" -%}
+    {%- assign author_list = raw_authors -%}
+  {%- elsif raw_authors contains ',' -%}
+    {%- assign author_list = raw_authors | split: ',' -%}
+  {%- else -%}
+    {%- assign author_list = raw_authors | split: '\n' | map: "strip" -%}
+  {%- endif -%}
+
+  {%- comment -%} Build entries only for the requested author slugs {%- endcomment -%}
+  {%- for raw_slug in author_list -%}
+    {%- assign raw_slug = raw_slug | default: "" | strip -%}
+    {%- if raw_slug == "" -%}
+      {%- continue -%}
     {%- endif -%}
 
-    {% if show_author %}
+    {%- assign slug = raw_slug | split:'.' | first | strip | downcase -%}
+
+    {%- comment -%}
+    Try fast lookup first using site.data.authors[slug].
+    If not found, search the keys and profile.slug fields.
+    {%- endcomment -%}
+    {%- assign found_key = nil -%}
+    {%- assign profile = site.data.authors[slug] -%}
+    {%- if profile -%}
+      {%- assign found_key = slug -%}
+    {%- else -%}
+      {%- for key in site.data.authors -%}
+        {%- assign p = site.data.authors[key] -%}
+        {%- assign key_normal = key | downcase | strip -%}
+        {%- assign pslug = p.slug | default: "" | downcase | strip -%}
+        {%- if key_normal == slug or pslug == slug -%}
+          {%- assign found_key = key -%}
+          {%- assign profile = p -%}
+          {%- break -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+
+    {%- if found_key and profile -%}
       {%- comment -%}
-        program_level DESC → negate and pad, then sort ASC
-        date ASC → prefer program_level_date, then join_date, else far future to push to end
+      Compute ordering keys using the same rules as the main flow:
+        - program_level desc (negate and pad)
+        - program_level_date or join_date or far future
       {%- endcomment -%}
+      {%- assign author = profile -%}
       {%- assign neg_program = author.program_level | times: -1 | plus: 1000 | prepend: "0000" | slice: -4, 4 -%}
       {%- assign bld = author.program_level_date | default: author.join_date | default: "9999-12-31" -%}
-      {% capture entry %}{{ neg_program }}|{{ bld }}|{{ key }}{% endcapture %}
+      {% capture entry %}{{ neg_program }}|{{ bld }}|{{ found_key }}{% endcapture %}
       {% assign entries = entries | push: entry %}
-    {% endif %}
-  {% endfor %}
+    {%- endif -%}
+  {%- endfor -%}
 
-  {%- comment -%} 2) Sort {%- endcomment -%}
+  {%- comment -%} Sort and optionally apply leadership_flow limit (same as original) {%- endcomment -%}
   {% assign sorted_entries = entries | sort %}
-
-  {%- comment -%} 3) Apply optional limit {%- endcomment -%}
   {%- assign render_entries = sorted_entries -%}
   {%- if D.leadership_flow and D.leadership_flow.limit -%}
     {%- assign lim = D.leadership_flow.limit | plus: 0 -%}
@@ -74,11 +109,78 @@ Behavior:
     {%- endif -%}
   {%- endif -%}
 
-  {%- comment -%} 4) Render cards {%- endcomment -%}
-  {% for entry in render_entries %}
-    {% assign parts  = entry | split: "|" %}
-    {% assign key    = parts[2] %}
-    {% assign author = profiles[key] %}
-    {% include sections/author.html author=author key=key %}
-  {% endfor %}
-</div>
+  <div class="md-authors">
+    {%- comment -%} Render cards for the requested authors only {%- endcomment -%}
+    {% for entry in render_entries %}
+      {% assign parts  = entry | split: "|" %}
+      {% assign key    = parts[2] %}
+      {% assign author = profiles[key] %}
+      {% if author %}
+        {% include sections/author.html author=author key=key %}
+      {% endif %}
+    {% endfor %}
+  </div>
+
+{%- else -%}
+
+  {%- comment -%}
+  ORIGINAL behavior (no include.authors override) — left unchanged except for being
+  placed in the else branch so it only runs when include.authors is not supplied.
+  {%- endcomment -%}
+
+  <div class="md-authors">
+    {%- comment -%} 1) Build sortable list of active (optionally filtered) authors {%- endcomment -%}
+    {% for pair in profiles %}
+      {% assign key = pair[0] %}
+      {% assign author = pair[1] %}
+
+      {%- assign show_author = author.active | default: true -%}
+
+      {%- if show_author and designation_type != '' -%}
+        {%- assign show_author = false -%}
+        {%- assign ld = author.leadership_designations -%}
+        {%- if ld and ld.size > 0 -%}
+          {%- for item in ld -%}
+            {%- assign t = item.type  | downcase | strip -%}
+            {%- assign v = item.value | default: item.key | to_s | strip -%}
+            {%- if t == designation_type and v != '' and v != 'null' -%}
+              {%- assign show_author = true -%}
+            {%- endif -%}
+          {%- endfor -%}
+        {%- endif -%}
+      {%- endif -%}
+
+      {% if show_author %}
+        {%- comment -%}
+          program_level DESC → negate and pad, then sort ASC
+          date ASC → prefer program_level_date, then join_date, else far future to push to end
+        {%- endcomment -%}
+        {%- assign neg_program = author.program_level | times: -1 | plus: 1000 | prepend: "0000" | slice: -4, 4 -%}
+        {%- assign bld = author.program_level_date | default: author.join_date | default: "9999-12-31" -%}
+        {% capture entry %}{{ neg_program }}|{{ bld }}|{{ key }}{% endcapture %}
+        {% assign entries = entries | push: entry %}
+      {% endif %}
+    {% endfor %}
+
+    {%- comment -%} 2) Sort {%- endcomment -%}
+    {% assign sorted_entries = entries | sort %}
+
+    {%- comment -%} 3) Apply optional limit {%- endcomment -%}
+    {%- assign render_entries = sorted_entries -%}
+    {%- if D.leadership_flow and D.leadership_flow.limit -%}
+      {%- assign lim = D.leadership_flow.limit | plus: 0 -%}
+      {%- if lim > 0 and render_entries.size > lim -%}
+        {%- assign render_entries = render_entries | slice: 0, lim -%}
+      {%- endif -%}
+    {%- endif -%}
+
+    {%- comment -%} 4) Render cards {%- endcomment -%}
+    {% for entry in render_entries %}
+      {% assign parts  = entry | split: "|" %}
+      {% assign key    = parts[2] %}
+      {% assign author = profiles[key] %}
+      {% include sections/author.html author=author key=key %}
+    {% endfor %}
+  </div>
+
+{%- endif -%}
