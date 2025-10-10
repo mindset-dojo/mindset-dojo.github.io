@@ -404,6 +404,35 @@ main :where(p a, ul a, ol a, li a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a):hover {
 }
 
 /* =========================================
+   BLOCKQUOTES (site-wide)
+   Match main + article pages
+   ========================================= */
+
+:where(main, .post-body) > blockquote {
+    padding-left: 32px;
+    border-left: 8px solid var(--brand-color-primary);
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+section.md-grid-2 blockquote,
+section.md-grid-3 blockquote,
+.post-body .md-grid-2 blockquote,
+.post-body .md-grid-3 blockquote {
+    border-radius: 24px;
+    background-color: var(--dark-color-secondary);
+    padding: 32px;
+    margin: 0;
+}
+
+section.md-grid-2 blockquote p,
+section.md-grid-3 blockquote p,
+.post-body .md-grid-2 blockquote p,
+.post-body .md-grid-3 blockquote p {
+    font-size: var(--text-s);
+}
+
+/* =========================================
    GLOBAL FLOW SECTION PATTERN (opt-in)
    Apply to any <section class="md-flow"> inside <main>
    ========================================= */
@@ -423,6 +452,20 @@ main > section.md-flow > p {
   text-align: center;
   margin: 0 auto 1rem;
   padding: 0 1rem;
+}
+
+/* mobile menu overlay (zero-specificity wrapper prevents conflicts)
+   — moved above the FLOW UL rule to satisfy no-descending-specificity */
+.md-no-scroll :where(.site-header) nav ul{
+    background-color: var(--dark-color-primary);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    position: fixed;
+    inset: 0;
+    z-index: 1;
 }
 
 main > section.md-flow > ul {
@@ -456,35 +499,6 @@ main > section.md-flow > blockquote {
   main > section.md-flow > ul li {
     font-size: var(--text-s);
   }
-}
-
-/* =========================================
-   BLOCKQUOTES (site-wide)
-   Match main + article pages
-   ========================================= */
-
-:where(main, .post-body) > blockquote {
-    padding-left: 32px;
-    border-left: 8px solid var(--brand-color-primary);
-    margin-top: 20px;
-    margin-bottom: 40px;
-}
-
-section.md-grid-2 blockquote,
-section.md-grid-3 blockquote,
-.post-body .md-grid-2 blockquote,
-.post-body .md-grid-3 blockquote {
-    border-radius: 24px;
-    background-color: var(--dark-color-secondary);
-    padding: 32px;
-    margin: 0;
-}
-
-section.md-grid-2 blockquote p,
-section.md-grid-3 blockquote p,
-.post-body .md-grid-2 blockquote p,
-.post-body .md-grid-3 blockquote p {
-    font-size: var(--text-s);
 }
 
 .md-icon-svg {
@@ -669,19 +683,6 @@ nav {
 
 .md-no-scroll :where(.site-header) button{
     display: flex;
-}
-
-/* mobile menu overlay (zero-specificity wrapper prevents conflicts) */
-.md-no-scroll :where(.site-header) nav ul{
-    background-color: var(--dark-color-primary);
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    justify-content: center;
-    overflow-y: auto;
-    position: fixed;
-    inset: 0;
-    z-index: 1;
 }
 
 /* [ BODY ] */
