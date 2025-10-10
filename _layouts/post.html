@@ -9,9 +9,9 @@ layout: default
   </div>
 
   <hr>
-  
+
   <p class="post-meta">
-      {{ page.date | date: "%B %-d, %Y" }}
+      {{'This article was published on ' | append: page.date | date: "%B %-d, %Y" }}
   </p>
 
   <hr>
