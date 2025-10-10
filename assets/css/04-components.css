@@ -1,0 +1,376 @@
+@layer components {
+  /* =======================
+     Navigation (visuals & header-specific)
+     ======================= */
+
+  /* Header-specific nav list (zero-specificity wrapper) */
+  :where(.site-header) nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 30px;
+  }
+
+  @media (width <= 767px) {
+    :where(.site-header) nav ul { display: none; }
+  }
+
+  /* Footer-specific nav list tweaks */
+  body > footer nav ul {
+    justify-content: center;
+    gap: 14px 0;
+  }
+
+  /* Nav link visuals */
+  nav a {
+    display: block;
+    color: var(--nav-text-color);
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    overflow: hidden;
+  }
+
+  /* nav hover/active */
+  nav a[aria-current="page"],
+  nav a:hover { color: var(--nav-text-active-color); }
+
+  /* =======================
+     Header (visuals)
+     ======================= */
+  .site-header{
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 20px;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    transition: background-color .2s, transform .4s;
+    z-index: 2;
+    background-color: var(--dark-color-primary);
+  }
+
+  @media (width <= 767px) {
+    .site-header{ flex-wrap: nowrap; }
+  }
+
+  /* Logo image (zero-specificity wrapper prevents descending-specificity issues) */
+  :where(.site-header) img{
+    object-position: 0;
+    object-fit: contain;
+    height: 80px;
+    transition: all 0.5s ease;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: auto;
+  }
+
+  @media (width <= 991px) {
+    :where(.site-header) img{ height: 60px; }
+  }
+
+  /* Hide desktop list on mobile (duplicate guard for safety) */
+  @media (width <= 767px) {
+    :where(.site-header) nav ul{ display: none; }
+  }
+
+  .md-no-scroll .site-header nav li.md-hidden { display: list-item; }
+
+  /* Hamburger button */
+  :where(.site-header) button{
+    display: none;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    z-index: 99;
+  }
+
+  :where(.site-header) button .bar{
+    padding: 0;
+    width: 30px;
+    height: 1px;
+    background-color: var(--light-color-primary);
+    display: block;
+    position: absolute; 
+  }
+
+  :where(.site-header) button .bar1{ top: 0; transform-origin: 0%; }
+  :where(.site-header) button .bar2,
+  :where(.site-header) button .bar3{ top: 13.5px; }
+  :where(.site-header) button .bar3{ right: 0; }
+  :where(.site-header) button .bar4{ bottom: 0; transform-origin: 0%; }
+
+  /* Mobile menu toggle (open state) */
+  .md-no-scroll :where(.site-header) button > .bar1 {
+    transform: rotate(45deg);
+    height: 1px;
+    width: 40px;
+  }
+
+  .md-no-scroll :where(.site-header) button > .bar2 {
+    transform: rotate(-45deg);
+    height: 1px;
+    background-color: transparent;
+  }
+
+  .md-no-scroll :where(.site-header) button > .bar3 {
+    transform: rotate(45deg);
+    height: 1px;
+    background-color: transparent;
+  }
+
+  /* fixed selector: scope to .site-header rather than bare header */
+  .md-no-scroll .site-header button > .bar4 {
+    transform: rotate(-45deg);
+    height: 1px;
+    width: 40px;
+  }
+
+  @media (width <= 767px) {
+    :where(.site-header) button{ display: flex; }
+  }
+
+  .md-no-scroll :where(.site-header) button{ display: flex; }
+
+  /* Mobile menu overlay (shown when body has .md-no-scroll) */
+  .md-no-scroll :where(.site-header) nav ul{
+    background-color: var(--dark-color-primary);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    position: fixed;
+    inset: 0;
+    z-index: 1;
+  }
+
+  /* =======================
+     CTAs / Buttons
+     ======================= */
+  /* zero specificity: applies to both main>a and .md-cta-group a */
+  :where(main > a, .md-cta-group a) {
+    align-items: center;
+    border-width: 0;
+    display: inline-flex;
+    gap: 10px;
+    justify-content: center;
+    letter-spacing: .5px;
+    text-align: center;
+    align-self: center;
+    background-color: var(--button-background-color);
+    transition: all 0.5s ease;
+    border-radius: 36px;
+    color: var(--button-text-color);
+    font-weight: 700;
+    font-style: italic;
+    padding: 16px 40px;
+    width: 100%;
+    max-width: 328px;
+  }
+
+  main > a { margin-top: 20px; }
+  main > a:hover { background-color: var(--button-background-hover-color); }
+
+  footer nav a {
+    font-size: 14px;
+    margin-right: 14px;
+    margin-left: 14px;
+  }
+
+  /* =======================
+     Blockquotes (visual treatments)
+     ======================= */
+  :where(main, .post-body) > blockquote {
+    padding-left: 32px;
+    border-left: 8px solid var(--brand-color-primary);
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  /* generic grid blockquotes (no .post-body scope) */
+  section.md-grid-2 blockquote,
+  section.md-grid-3 blockquote {
+    border-radius: 24px;
+    background-color: var(--dark-color-secondary);
+    padding: 32px;
+    margin: 0;
+  }
+
+  section.md-grid-2 blockquote p,
+  section.md-grid-3 blockquote p {
+    font-size: var(--text-s);
+  }
+
+  /* Post body context variants */
+  .post-body .md-grid-2 blockquote,
+  .post-body .md-grid-3 blockquote {
+    border-radius: 24px;
+    background-color: var(--dark-color-secondary);
+    padding: 32px;
+    margin: 0;
+  }
+
+  .post-body .md-grid-2 blockquote p,
+  .post-body .md-grid-3 blockquote p {
+    font-size: var(--text-s);
+  }
+
+  @media (width <= 767px) {
+    :where(main, .post-body) > blockquote { font-size: 24px; }
+  }
+
+  /* =======================
+     Footer (visuals)
+     ======================= */
+  body > footer {
+    font-size: 14px;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--dark-color-primary);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 2px solid var(--border-dark-color);
+    margin-top: auto;
+  }
+
+  :where(footer nav + nav,
+  footer nav + nav a) {
+    letter-spacing: normal;
+  }
+
+  footer nav + nav {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8px 24px;
+  }
+
+  /* keep footer image (type selector + element) safely more specific than :where(.site-header) img */
+  footer img {
+    width: 60%;
+    position: fixed;
+    opacity: 0.08;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    object-position: 0;
+    z-index: -1;
+  }
+
+  /* =======================
+     Icons
+     ======================= */
+  .md-icon-svg {
+    fill: var(--brand-color-secondary);
+    width: 40px;
+    height: 40px;
+  }
+
+  .md-level-svg { height: 40px; }
+
+  .md-level-svg path {
+    stroke-width: 8px;
+    fill: white;
+    stroke: black;
+  }
+
+  .md-level-svg.black path {
+    stroke-width: 4px;
+    fill: black;
+    stroke: white;
+  }
+
+  .md-level-svg.gray   path { fill: gray; }
+  .md-level-svg.yellow path { fill: yellow; }
+  .md-level-svg.green  path { fill: green; }
+  .md-level-svg.blue   path { fill: blue; }
+  .md-level-svg.purple path { fill: purple; }
+  .md-level-svg.brown  path { fill: brown; }
+  .md-level-svg.red    path { fill: red; }
+
+  /* =======================
+     Authors cards
+     ======================= */
+  /* (Ensure a blank line above this rule for Stylelint) */
+  .md-authors section h2 + ul {
+    text-align: center;
+    align-self: center;
+    margin-bottom: 12px;
+    padding: 0;
+  }
+
+  /* (Ensure a blank line above this rule for Stylelint) */
+  .md-authors section.md-author-card > p {
+    text-align: center;
+    margin: 0 0 12px;
+  }
+
+  .md-authors {
+    display: grid;
+    align-items: initial;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-gap: 12px;
+    justify-items: center;
+    margin-top: 60px;
+  }
+
+  .md-authors section {
+    border: 2px solid var(--border-dark-color);
+    border-radius: 24px;
+    padding: 20px;
+    background-color: var(--dark-color-primary);
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+  }
+
+  .md-authors section > img {
+    width: 100px;
+    height: 100px;
+    border: 2px solid var(--border-dark-color);
+    border-radius: 50%;
+    align-self: center;
+    margin-bottom: 8px;
+    overflow: hidden;
+  }
+
+  .md-authors section.md-author-card > h2 {
+    font-size: var(--h4);
+  }
+
+  .md-authors section h2 + ul li { display: inline; }
+
+  .md-authors section h2 + ul li:not(:last-of-type)::after {
+    content: ", ";
+  }
+
+  .md-authors section .md-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 16px;
+    margin-bottom: 12px;
+    font-size: 0;
+  }
+
+  /* =======================
+     Post template visuals
+     ======================= */
+  .post-article { background: transparent; }
+  .post-header  { position: static; top: auto; background: transparent; }
+  .post-body    { background: transparent; }
+}
