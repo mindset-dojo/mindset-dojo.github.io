@@ -4,11 +4,11 @@ layout: default
 
 <article class="post-article">
 
-  <header class="post-header">
-    {%- if page.authors -%}
-      {% include sections/authors.html authors=page.authors %}
-    {%- endif -%}
+  {%- if page.authors -%}
+    {% include sections/authors.html authors=page.authors %}
+  {%- endif -%}
 
+  <header class="post-header">
     <p class="post-meta">
       {{ page.date | date: "%B %-d, %Y" }}
     </p>
