@@ -84,9 +84,16 @@
   }
 
   .post-body {
-    background: transparent;
-    align-self: center;
-    text-align: center;
+    text-align: center;    
+  }
+
+  /* For lists inside .post-body: */
+  .post-body ul {
+    display: inline-block;       
+    text-align: left;            
+    list-style-position: inside; 
+    margin: 0;
+    padding: 0;
   }
 
   .post-meta {
