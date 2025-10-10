@@ -11,9 +11,5 @@
   }
 
   /* [INSIGHT] */
-  #insight .insights-stream h3.title,
-  #insight .insights-stream p.meta,
-  #insight .insights-stream div.excerpt {
-    text-align: center;
-  }
+  #insight  { text-align: center; }
 }
