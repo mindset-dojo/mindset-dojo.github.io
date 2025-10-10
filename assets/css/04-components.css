@@ -1,4 +1,24 @@
 @layer components {
+  /* =======================
+     Navigation
+     ======================= */
+
+  /* Nav link visuals (base) */
+  nav a {
+    display: block;
+    color: var(--nav-text-color);
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    overflow: hidden;
+  }
+
+  /* Footer link sizing (base) */
+  footer nav a {
+    font-size: 14px;
+    margin-right: 14px;
+    margin-left: 14px;
+  }
 
   /* =======================
      CTAs / Buttons
@@ -33,14 +53,6 @@
     background-color: var(--button-background-hover-color);
   }
 
-  /* footer link sizing that might otherwise trip no-descending-specificity */
-  footer nav a {
-    font-size: 14px;
-    margin-right: 14px;
-    margin-left: 14px;
-  }
-
-
   /* =======================
      Navigation (visuals & header-specific)
      ======================= */
@@ -67,22 +79,11 @@
     gap: 14px 0;
   }
 
-  /* Nav link visuals */
-  nav a {
-    display: block;
-    color: var(--nav-text-color);
-    font-size: 18px;
-    font-weight: 700;
-    letter-spacing: 2px;
-    overflow: hidden;
-  }
-
-  /* nav hover/active (more specific: keep AFTER other link rules) */
+  /* nav hover/active */
   nav a[aria-current="page"],
   nav a:hover {
     color: var(--nav-text-active-color);
   }
-
 
   /* =======================
      Header (visuals)
@@ -227,7 +228,6 @@
     z-index: 1;
   }
 
-
   /* =======================
      Blockquotes (visual treatments)
      ======================= */
@@ -273,7 +273,6 @@
     }
   }
 
-
   /* =======================
      Footer (visuals)
      ======================= */
@@ -314,7 +313,6 @@
     object-position: 0;
     z-index: -1;
   }
-
 
   /* =======================
      Icons
@@ -369,7 +367,6 @@
   .md-level-svg.red path {
     fill: red;
   }
-
 
   /* =======================
      Authors cards
@@ -440,7 +437,6 @@
     margin-bottom: 12px;
     font-size: 0;
   }
-
 
   /* =======================
      Post template visuals
