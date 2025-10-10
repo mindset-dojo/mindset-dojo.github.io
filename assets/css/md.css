@@ -404,8 +404,8 @@ main :where(p a, ul a, ol a, li a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a):hover {
 }
 
 /* =========================================
-   BLOCKQUOTES (site-wide)
-   Match main + article pages
+   BLOCKQUOTES (site-wide) — GENERIC CONTEXT
+   (Place BEFORE FLOW)
    ========================================= */
 
 :where(main, .post-body) > blockquote {
@@ -415,10 +415,9 @@ main :where(p a, ul a, ol a, li a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a):hover {
     margin-bottom: 40px;
 }
 
+/* generic grid blockquotes (no .post-body scope) */
 section.md-grid-2 blockquote,
-section.md-grid-3 blockquote,
-.post-body .md-grid-2 blockquote,
-.post-body .md-grid-3 blockquote {
+section.md-grid-3 blockquote {
     border-radius: 24px;
     background-color: var(--dark-color-secondary);
     padding: 32px;
@@ -426,9 +425,7 @@ section.md-grid-3 blockquote,
 }
 
 section.md-grid-2 blockquote p,
-section.md-grid-3 blockquote p,
-.post-body .md-grid-2 blockquote p,
-.post-body .md-grid-3 blockquote p {
+section.md-grid-3 blockquote p {
     font-size: var(--text-s);
 }
 
@@ -499,6 +496,24 @@ main > section.md-flow > blockquote {
   main > section.md-flow > ul li {
     font-size: var(--text-s);
   }
+}
+
+/* =========================================
+   BLOCKQUOTES (site-wide) — POST BODY CONTEXT
+   (Place AFTER FLOW so FLOW rules come first)
+   ========================================= */
+
+.post-body .md-grid-2 blockquote,
+.post-body .md-grid-3 blockquote {
+    border-radius: 24px;
+    background-color: var(--dark-color-secondary);
+    padding: 32px;
+    margin: 0;
+}
+
+.post-body .md-grid-2 blockquote p,
+.post-body .md-grid-3 blockquote p {
+    font-size: var(--text-s);
 }
 
 .md-icon-svg {
