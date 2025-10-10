@@ -3,7 +3,7 @@ layout: post
 title: "Conversation as Code"
 h1_mark: Conversation
 date: 2025-10-08
-author: "Michael Basil"
+authors: ["michael-basil"]
 excerpt: "Every conversation writes code into the field — tone, timing, and language compile into patterns that shape what becomes possible next."
 ---
 

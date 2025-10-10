@@ -3,7 +3,7 @@ layout: post
 title: "⛩️ The Ethical Technologist’s Ki Manifesto"
 h1_mark: Ethical
 date: 2025-10-07
-author: Kyle Ingersoll
+authors: ["kyle-ingersoll"]
 excerpt: "When the coder becomes the cultivator — ethics ceases to be rule-following and becomes resonance itself."
 ---
 
