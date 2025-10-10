@@ -4,9 +4,11 @@ layout: default
 
 <article class="post-article">
 
-  {%- if page.authors -%}
-    {% include sections/authors.html authors=page.authors %}
-  {%- endif -%}
+  <p class="post-authors">
+    {%- if page.authors -%}
+      {% include sections/authors.html authors=page.authors %}
+    {%- endif -%}
+  </p>
 
   <header class="post-header">
     <p class="post-meta">
