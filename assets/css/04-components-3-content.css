@@ -75,8 +75,6 @@
 
   .post-article {
     background: transparent;
-    align-self: center;
-    text-align: center;
   }
 
   .post-header {
@@ -87,6 +85,13 @@
 
   .post-body {
     background: transparent;
+    align-self: center;
+    text-align: center;
+  }
+
+  .post-meta {
+    align-self: center;
+    text-align: center;
   }
 
   /* Post body context variants (moved from UI) */
