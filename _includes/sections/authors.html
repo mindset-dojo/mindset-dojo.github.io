@@ -57,15 +57,32 @@ continues to use the original behavior below.
     </pre>
   </div>
 
+  {%- comment -%}
+  Robust normalization for include.authors → author_list
+  Supports:
+  - true Liquid arrays passed from front matter
+  - JSON-like string arrays (e.g. '["a","b"]')
+  - CSV strings ("a,b")
+  - single slug strings ("a")
+  {%- endcomment -%}
+
   {%- assign raw_authors = include.authors -%}
 
-  {%- comment -%}
-  Normalize to an array (supports array, CSV, or single string)
-  {%- endcomment -%}
-  {%- if raw_authors.class == "Array" -%}
+  {%- if raw_authors == nil or raw_authors == "" -%}
+    {%- assign author_list = "" | split: "|" -%} {# empty array #}
+
+  {%- elsif raw_authors[0] != nil -%}
+    {%- comment -%} Looks like a real Liquid array (safe). {%- endcomment -%}
     {%- assign author_list = raw_authors -%}
+
+  {%- elsif raw_authors contains '[' and raw_authors contains ']' -%}
+    {%- comment -%} String that looks like a JSON array -> strip brackets/quotes and split. {%- endcomment -%}
+    {%- assign tmp = raw_authors | remove: '[' | remove: ']' | remove: '"' | remove: "'" | strip -%}
+    {%- assign author_list = tmp | split: ',' | map: "strip" -%}
+
   {%- elsif raw_authors contains ',' -%}
-    {%- assign author_list = raw_authors | split: ',' -%}
+    {%- assign author_list = raw_authors | split: ',' | map: "strip" -%}
+
   {%- else -%}
     {%- assign author_list = raw_authors | split: '\n' | map: "strip" -%}
   {%- endif -%}
