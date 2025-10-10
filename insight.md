@@ -47,7 +47,7 @@ permalink: /insight/
     {%- endcomment -%}
     {% assign post_url = '/insight/' | append: post_slug | append: '/' | relative_url %}
 
-      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <h3 class="title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
 
       {% assign author_slugs = post.authors %}
       {% assign authors_names = "" | split: "," %}
