@@ -1,5 +1,5 @@
 /* Declare the global cascade order ONCE */
-@layer tokens, base, utilities, layout, components, pages;
+@layer tokens, base, utilities, layout, components-shell, components-ui, components-content, pages;
 
 /* Fonts + Design Tokens */
 @layer tokens {

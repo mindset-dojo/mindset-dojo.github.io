@@ -1,0 +1,236 @@
+@layer components-chrome {
+  /* =======================
+     Navigation (base link visuals)
+     ======================= */
+
+  /* Base nav link visuals */
+  nav a {
+    display: block;
+    color: var(--nav-text-color);
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    overflow: hidden;
+  }
+
+  /* Footer link sizing */
+  footer nav a {
+    font-size: 14px;
+    margin-right: 14px;
+    margin-left: 14px;
+  }
+
+  /* Header-specific nav list (zero-specificity wrapper) */
+  :where(.site-header) nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 30px;
+  }
+
+  @media (width <= 767px) {
+    :where(.site-header) nav ul {
+      display: none;
+    }
+  }
+
+  /* Footer-specific nav list tweaks */
+  body > footer nav ul {
+    justify-content: center;
+    gap: 14px 0;
+  }
+
+  /* nav hover/active (after base nav rules) */
+  nav a[aria-current="page"],
+  nav a:hover {
+    color: var(--nav-text-active-color);
+  }
+
+  /* =======================
+     Header (visuals)
+     ======================= */
+
+  .site-header {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 20px;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    transition: background-color .2s, transform .4s;
+    z-index: 2;
+    background-color: var(--dark-color-primary);
+  }
+
+  @media (width <= 767px) {
+    .site-header {
+      flex-wrap: nowrap;
+    }
+  }
+
+  /* Logo image */
+  :where(.site-header) img {
+    object-position: 0;
+    object-fit: contain;
+    height: 80px;
+    transition: all 0.5s ease;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: auto;
+  }
+
+  @media (width <= 991px) {
+    :where(.site-header) img {
+      height: 60px;
+    }
+  }
+
+  /* Duplicate guard: hide desktop list on mobile */
+  @media (width <= 767px) {
+    :where(.site-header) nav ul {
+      display: none;
+    }
+  }
+
+  .md-no-scroll .site-header nav li.md-hidden {
+    display: list-item;
+  }
+
+  /* =======================
+     Header: hamburger button & bars
+     ======================= */
+
+  :where(.site-header) button {
+    display: none;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    z-index: 99;
+  }
+
+  :where(.site-header) button .bar {
+    padding: 0;
+    width: 30px;
+    height: 1px;
+    background-color: var(--light-color-primary);
+    display: block;
+    position: absolute;
+  }
+
+  :where(.site-header) button .bar1 {
+    top: 0;
+    transform-origin: 0%;
+  }
+
+  :where(.site-header) button .bar2,
+  :where(.site-header) button .bar3 {
+    top: 13.5px;
+  }
+
+  :where(.site-header) button .bar3 {
+    right: 0;
+  }
+
+  :where(.site-header) button .bar4 {
+    bottom: 0;
+    transform-origin: 0%;
+  }
+
+  /* Mobile menu toggle (open state) */
+  .md-no-scroll :where(.site-header) button > .bar1 {
+    transform: rotate(45deg);
+    height: 1px;
+    width: 40px;
+  }
+
+  .md-no-scroll :where(.site-header) button > .bar2 {
+    transform: rotate(-45deg);
+    height: 1px;
+    background-color: transparent;
+  }
+
+  .md-no-scroll :where(.site-header) button > .bar3 {
+    transform: rotate(45deg);
+    height: 1px;
+    background-color: transparent;
+  }
+
+  .md-no-scroll .site-header button > .bar4 {
+    transform: rotate(-45deg);
+    height: 1px;
+    width: 40px;
+  }
+
+  @media (width <= 767px) {
+    :where(.site-header) button {
+      display: flex;
+    }
+  }
+
+  .md-no-scroll :where(.site-header) button {
+    display: flex;
+  }
+
+  /* Mobile menu overlay (shown when body has .md-no-scroll) */
+  .md-no-scroll :where(.site-header) nav ul {
+    background-color: var(--dark-color-primary);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    position: fixed;
+    inset: 0;
+    z-index: 1;
+  }
+
+  /* =======================
+     Footer (visuals)
+     ======================= */
+
+  body > footer {
+    font-size: 14px;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--dark-color-primary);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 2px solid var(--border-dark-color);
+    margin-top: auto;
+  }
+
+  :where(footer nav + nav,
+  footer nav + nav a) {
+    letter-spacing: normal;
+  }
+
+  footer nav + nav {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8px 24px;
+  }
+
+  /* Footer watermark image */
+  footer img {
+    width: 60%;
+    position: fixed;
+    opacity: 0.08;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    object-position: 0;
+    z-index: -1;
+  }
+}
