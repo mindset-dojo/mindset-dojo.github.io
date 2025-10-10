@@ -1,0 +1,229 @@
+/* Keep base and utilities as sub-layers of the global order */
+@layer base, utilities;
+
+/* =======================
+   Base element styles
+   ======================= */
+@layer base {
+  *,
+  ::after,
+  ::before,
+  html {
+    box-sizing: border-box;
+  }
+
+  ::after,
+  ::before {
+    outline: none;
+  }
+
+  html {
+    text-size-adjust: 100%;          /* standard, W3C-supported property */
+    /* stylelint-disable property-no-vendor-prefix */
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    /* stylelint-enable property-no-vendor-prefix */
+    font-size: 100%;
+    height: 100%;
+  }
+
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    word-wrap: break-word;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: var(--dark-color-primary);
+    color: var(--text-light-color);
+    font-family: var(--secondary-font);
+    font-size: var(--text-m);
+    line-height: var(--text-m-line-height);
+  }
+
+  main ul > li,
+  main ol > li {
+    margin-bottom: 12px;
+  }
+
+  main ul,
+  main ol {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  main ul {
+    padding-left: 20px;
+  }
+
+  main ul:last-child,
+  main ol:last-child {
+    margin-bottom: 0;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: var(--light-color-primary);
+    font-family: var(--primary-font);
+    margin: 0 0 8px;
+    text-rendering: optimizelegibility;
+    font-weight: 700;
+  }
+
+  h1,
+  h2 {
+    text-align: center;
+  }
+
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0 0 12px;
+  }
+
+  h1 {
+    font-size: var(--h1);
+    line-height: var(--h1-line-height);
+  }
+
+  h2 {
+    font-size: var(--h2);
+    line-height: var(--h2-line-height);
+  }
+
+  h3 {
+    font-size: var(--h3);
+    line-height: var(--h3-line-height);
+  }
+
+  h4 {
+    font-size: var(--h4);
+    line-height: var(--h4-line-height);
+  }
+
+  h5 {
+    font-size: var(--h5);
+    line-height: var(--h5-line-height);
+  }
+
+  h6 {
+    font-size: var(--h6);
+    line-height: var(--h6-line-height);
+  }
+
+  mark {
+    background: none;
+    color: var(--brand-color-primary);
+  }
+
+  strong {
+    color: var(--light-color-primary);
+  }
+
+  small {
+    font-size: 75%;
+  }
+
+  blockquote {
+    margin: 0;
+  }
+
+  blockquote p {
+    color: var(--light-color-primary);
+    font-size: var(--text-xl);
+    font-family: var(--secondary-font);
+    font-style: var(--font-style-italic);
+  }
+
+  blockquote p:last-of-type {
+    margin-bottom: 0;
+  }
+
+  blockquote footer {
+    font-size: var(--text-s);
+    margin-top: 12px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  img {
+    border-style: none;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-size: cover;
+    shape-margin: 1rem;
+  }
+
+  :where(p) {
+    margin: 0 0 1.2em;
+  }
+
+  hr {
+    width: 16%;
+    border-top: 3px solid var(--light-color-primary);
+    margin-top: 16px;
+    margin-bottom: 32px;
+  }
+
+  /* ===== Content link styles (lint-safe) =====
+     Single, zero-specificity rule for content links inside <main>.
+     Replaces `p a / ul a` and `main h1–h6 a` blocks. */
+  main :where(p a, ul a, ol a, li a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a) {
+    color: var(--brand-color-secondary);
+    font-style: var(--font-style-italic);
+    border-bottom: 2px solid transparent;
+    text-decoration: none;
+  }
+
+  main :where(p a, ul a, ol a, li a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a):hover {
+    border-bottom-color: currentcolor;
+  }
+}
+
+/* =======================
+   Utilities
+   ======================= */
+@layer utilities {
+  .md-text-xl {
+    font-size: var(--text-xl);
+    line-height: var(--text-xl-line-height);
+  }
+
+  .md-text-l {
+    font-size: var(--text-l);
+    line-height: var(--text-l-line-height);
+  }
+
+  .md-text-m {
+    font-size: var(--text-m);
+    line-height: var(--text-m-line-height);
+  }
+
+  .md-text-s {
+    font-size: var(--text-s);
+    line-height: var(--text-s-line-height);
+  }
+
+  .md-text-xs {
+    font-size: var(--text-xs);
+    line-height: var(--text-xs-line-height);
+  }
+
+  .md-no-scroll {
+    overflow: hidden;
+  }
+
+  .md-hidden {
+    display: none;
+  }
+}

@@ -1,0 +1,103 @@
+@layer components-content {
+  /* =======================
+     Authors cards
+     ======================= */
+
+  /* (Ensure a blank line above this rule for Stylelint) */
+  .md-authors section h2 + ul {
+    text-align: center;
+    align-self: center;
+    margin-bottom: 12px;
+    padding: 0;
+  }
+
+  /* (Ensure a blank line above this rule for Stylelint) */
+  .md-authors section.md-author-card > p {
+    text-align: center;
+    margin: 0 0 12px;
+  }
+
+  .md-authors {
+    display: grid;
+    align-items: initial;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-gap: 12px;
+    justify-items: center;
+    margin-top: 60px;
+  }
+
+  .md-authors section {
+    border: 2px solid var(--border-dark-color);
+    border-radius: 24px;
+    padding: 20px;
+    background-color: var(--dark-color-primary);
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+  }
+
+  .md-authors section > img {
+    width: 100px;
+    height: 100px;
+    border: 2px solid var(--border-dark-color);
+    border-radius: 50%;
+    align-self: center;
+    margin-bottom: 8px;
+    overflow: hidden;
+  }
+
+  .md-authors section.md-author-card > h2 {
+    font-size: var(--h4);
+  }
+
+  .md-authors section h2 + ul li {
+    display: inline;
+  }
+
+  .md-authors section h2 + ul li:not(:last-of-type)::after {
+    content: ", ";
+  }
+
+  .md-authors section .md-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 16px;
+    margin-bottom: 12px;
+    font-size: 0;
+  }
+
+  /* =======================
+     Post template visuals
+     ======================= */
+
+  .post-article {
+    background: transparent;
+  }
+
+  .post-header {
+    position: static;
+    top: auto;
+    background: transparent;
+  }
+
+  .post-body {
+    background: transparent;
+  }
+
+  /* Post body context variants (moved from UI) */
+  .post-body .md-grid-2 blockquote,
+  .post-body .md-grid-3 blockquote {
+    border-radius: 24px;
+    background-color: var(--dark-color-secondary);
+    padding: 32px;
+    margin: 0;
+  }
+
+  .post-body .md-grid-2 blockquote p,
+  .post-body .md-grid-3 blockquote p {
+    font-size: var(--text-s);
+  }
+}
