@@ -27,7 +27,7 @@ This is what I mean by a trusted authorship network. People don’t join it — 
 
 Joining often keeps us circling familiar ground, orbiting the same ideas under new names. Crossing a threshold shifts the geometry — the circle inflects into a spiral.
 
-Each passage becomes a self-distillation moment for those engaged. Each belt, each reflection, each pull request is a mark of authorship — a way of saying:
+Each passage becomes a Self-distillation moment for those engaged. Each belt, each reflection, each pull request is a mark of authorship — a way of saying:
 
 > I take responsibility for how my energy moves in the field.
 
