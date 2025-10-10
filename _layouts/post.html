@@ -4,28 +4,20 @@ layout: default
 
 <article class="post-article" itemscope itemtype="https://schema.org/Article">
 
+  <div class="post-body" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  <p class="post-meta">
+      {{ page.date | date: "%B %-d, %Y" }}
+  </p>
+
+  <hr>
+
   <p class="post-authors">
     {%- if page.authors -%}
       {% include sections/authors.html authors=page.authors %}
     {%- endif -%}
   </p>
-
-  <header class="post-header" role="group">
-    <p class="post-meta">
-      {{ page.date | date: "%B %-d, %Y" }}
-    </p>
-
-    <hr>
-
-    {% if page.excerpt %}
-      <p class="post-excerpt">{{ page.excerpt }}</p>
-    {% endif %}
-  </header>
-
-  <hr>
-
-  <div class="post-body" itemprop="articleBody">
-    {{ content }}
-  </div>
 
 </article>
