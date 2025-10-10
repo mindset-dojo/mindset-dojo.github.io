@@ -114,7 +114,7 @@ continues to use the original behavior below.
     {% for entry in render_entries %}
       {% assign parts  = entry | split: "|" %}
       {% assign key    = parts[2] %}
-      {% assign author = profiles[key] %}
+      {% assign author = site.data.authors[key] %}
       {% if author %}
         {% include sections/author.html author=author key=key %}
       {% endif %}
