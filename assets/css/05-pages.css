@@ -11,5 +11,8 @@
   }
 
   /* [INSIGHT] */
-  #insight  { text-align: center; }
+  #insight  {
+    align-self: center;
+    text-align: center; 
+  }
 }
