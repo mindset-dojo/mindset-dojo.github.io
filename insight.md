@@ -49,11 +49,42 @@ permalink: /insight/
 
       <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
 
-      <p class="meta">By {{ post.author | default: site.author }} — {{ post.date | date: "%b %-d, %Y" }}</p>
+      {% assign author_slugs = post.authors %}
+      {% assign authors_names = "" | split: "," %}
+
+      {% for slug in author_slugs %}
+        {% for pair in site.data.authors %}
+          {% assign key = pair[0] %}
+          {% assign profile = pair[1] %}
+          {% if slug == key %}
+            {% assign authors_names = authors_names | push: profile.name %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+
+      {% assign author_name_string = "" %}
+
+      {% if authors_names.size == 0 %}
+        {% assign author_name_string = site.author %}
+      {% elsif authors_names.size == 1 %}
+        {% assign author_name_string = authors_names[0] %}
+      {% else %}
+        {% assign author_count = 0 %}
+        {% assign last_index = authors_names.size | minus: 1 %}
+        {% for name in authors_names %}
+          {% assign author_name_string = author_name_string | append: name %}
+          {% if author_count < last_index %}
+            {% assign author_name_string = author_name_string | append: " and " %}
+          {% endif %}
+          {% assign author_count = author_count | plus: 1 %}
+        {% endfor %}
+      {% endif %}
+
+      <p class="meta">
+        By {{ author_name_string | default: site.author }} — {{ post.date | date: "%b %-d, %Y" }}
+      </p>
       
-      {%- comment -%}
-      Insert image at bottom
-      {%- endcomment -%}
       {% assign post_slug = post.slug | default: post.title | slugify %}
       {% assign post_date = post.date | default: "2025-01-01" | date: "%Y-%m-%d" | slugify %}
       
