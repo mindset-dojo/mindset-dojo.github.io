@@ -9,7 +9,7 @@ excerpt: "How fear becomes a teacher and what its shadow reveals about presence 
 
 When people talk about Incident Response, they often think of flashing alerts, hackers in hoodies, or sudden technical heroics. In truth, it’s much more human than that. It’s about how people work when systems fail, how calmly we communicate under stress, and how quickly we transform disruption into recovery.
 
-I learned this across two very different scenes — first as an IT Intern at Richmond Community Schools, and later as Infrastructure Cultivator for Mindset Dojo. The first time, I stood on the edge of a crisis expressing my leadership through support, not from the front. The second time, I was the one who detected the problem, spoke up, and helped guide resolution. Together, they shaped how I see Incident Response: as a practice of service, integrity, and growth.
+I learned this across two very different scenes — first as an IT Intern at Richmond Community Schools, and later as DevOps Cultivator for Mindset Dojo. The first time, I stood on the edge of a crisis expressing my leadership through support, not from the front. The second time, I was the one who detected the problem, spoke up, and helped guide resolution. Together, they shaped how I see Incident Response: as a practice of service, integrity, and growth.
 
 ---
 
@@ -37,28 +37,28 @@ Fast forward to Mindset Dojo. This time, I wasn’t in the background.
 
 While building a live version of a branch for an unrelated pull request, I accidentally exploited a domain-control vulnerability in the Mindset Dojo site. My temporary build went live on the main site. When I deleted it, the site itself went down. That was how I discovered the issue: the vulnerability was real, and it could bring the entire site offline.
 
-The vulnerability wasn’t internal to GitHub. It came from a configuration error — an Organizational Cultivator had unlinked their branch while the site repository and the organization were not yet verified. **Crucially, we lacked communication that we were making changes at the same time that could affect the main site.** That silence meant our work collided.
+The vulnerability wasn’t internal to GitHub. It came from a configuration error — a Project Cultivator had unlinked their branch while the site repository and the organization were not yet verified. **Crucially, we lacked communication that we were making changes at the same time that could affect the main site.** That silence meant our work collided.
 
 This created a **race condition**: in that brief window, my test branch was able to take over the live site. When I deleted it, the live site disappeared too.
 
 Technically, a race condition means that the outcome depends on which event finishes first. Spiritually, it mirrors how fear and shadow slip in when timing, attention, and communication misalign. When fear “wins the race,” clarity is lost. When presence and dialogue take their place, order is restored.
 
-On its own, the risk of an outside attacker noticing seemed low. But context mattered: later that day, the Organizational Cultivator was set to present the site publicly. A hijacked or broken site at that moment wouldn’t just be inconvenient — it would derail the presentation and relationship-building opportunity, as well as create unknown trust-damaging ripple effects.
+On its own, the risk of an outside attacker noticing seemed low. But context mattered: later that day, the Project Cultivator was set to present the site publicly. A hijacked or broken site at that moment wouldn’t just be inconvenient — it would derail the presentation and relationship-building opportunity, as well as create unknown trust-damaging ripple effects.
 
 So, I acted decisively and reasonably:
 
 1. **Detection:** Recognized the issue while testing a branch build.  
-2. **Escalation:** I called the Organizational Cultivator immediately on Signal audio, not delaying or downplaying.  
+2. **Escalation:** I called the Project Cultivator immediately on Signal audio, not delaying or downplaying.  
 3. **Centering:** Before we began deciding next steps, we did *One Breath* together — a brief practice to calm down and focus.  
    - [One Breath](https://vimeo.com/944618879/47e96945a4) is a simple Mindset Dojo practice out of Zen Toolkit: pause, take one slow breath together, and let the body and mind settle. It only takes a minute or two, but it helps shift from panic to presence — essential in any incident response.  
    - We brought the site back online, and determined that there was no reasonable risk of exploitation in the immediate term.
 4. **Reflection in action (first pass):** Once grounded, we walked through two questions — *What went well?* and *What didn’t go well?* — followed by a first round of *What would we do differently next time?* My answers were clouded by fear, which distorted my perspective. I looked for broad, general fixes, while missing the specific one we needed, at first.  
-5. **Execution:** In a follow-up virtual meeting, we addressed and mapped out the medium- and long-term risks. From my vantage point, the problem looked larger and vaguer. The Organizational Cultivator, with steadier experience, saw through the fear, cut to the heart of the issue, and implemented the exact technical fix. They, from the GitHub admin panel, verified domain ownership at both the organization and repository level through DNS TXT validation on the same day as discovery.  
+5. **Execution:** In a follow-up virtual meeting, we addressed and mapped out the medium- and long-term risks. From my vantage point, the problem looked larger and vaguer. The Project Cultivator, with steadier experience, saw through the fear, cut to the heart of the issue, and implemented the exact technical fix. They, from the GitHub admin panel, verified domain ownership at both the organization and repository level through DNS TXT validation on the same day as discovery.  
 6. **Closure (second pass):** After the vulnerability was fixed, we revisited *What would we do differently next time?* This time, with fear replaced by clarity, the conversation was sharper, more grounded, and more useful.  
 
 Here I learned the difference between meeting fear with fear and meeting fear with presence. Freud might say fear is the eruption of the unconscious into awareness, while Jung would argue it’s the shadow demanding recognition. But in either case, panic amplifies it, while presence transforms it.
 
-**Miscommunication** played as big a role as configuration — and both reminded me that silence in the wrong moment can be as damaging as technical flaws. The Organizational Cultivator embodied presence, and in doing so, showed me how to integrate fear into learning rather than let it rule me.
+**Miscommunication** played as big a role as configuration — and both reminded me that silence in the wrong moment can be as damaging as technical flaws. The Project Cultivator embodied presence, and in doing so, showed me how to integrate fear into learning rather than let it rule me.
 
 ---
 
