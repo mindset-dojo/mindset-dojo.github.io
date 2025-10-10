@@ -65,38 +65,54 @@ continues to use the original behavior below.
     {%- assign slug = raw_slug | split:'.' | first | strip | downcase -%}
 
     {%- comment -%}
-    Try fast lookup first using site.data.authors[slug].
-    If not found, search the keys and profile.slug fields.
+    Robust lookup:
+      1) fast map lookup: site.data.authors[slug] (works when authors are per-file)
+      2) iterate map keys (if site.data.authors is a map) and match key or p.slug
+      3) iterate array of profiles (if site.data.authors is an array) and match p.slug or slugified name
     {%- endcomment -%}
+
+    {%- assign profile = nil -%}
     {%- assign found_key = nil -%}
-    {%- assign profile = site.data.authors[slug] -%}
-    {%- if profile -%}
+
+    {%- if site.data.authors[slug] -%}
+      {%- assign profile = site.data.authors[slug] -%}
       {%- assign found_key = slug -%}
     {%- else -%}
-      {%- for key in site.data.authors -%}
-        {%- assign p = site.data.authors[key] -%}
-        {%- assign key_normal = key | downcase | strip -%}
-        {%- assign pslug = p.slug | default: "" | downcase | strip -%}
-        {%- if key_normal == slug or pslug == slug -%}
-          {%- assign found_key = key -%}
-          {%- assign profile = p -%}
-          {%- break -%}
-        {%- endif -%}
-      {%- endfor -%}
+      {%- comment -%} site.data.authors might be a map or an array; try both {%- endcomment -%}
+
+      {%- if site.data.authors and site.data.authors.class == "Hash" -%}
+        {%- for key in site.data.authors -%}
+          {%- assign p = site.data.authors[key] -%}
+          {%- assign key_normal = key | downcase | strip -%}
+          {%- assign pslug = p.slug | default: "" | downcase | strip -%}
+          {%- assign pname_slug = p.name | default: "" | slugify | downcase | strip -%}
+          {%- if key_normal == slug or pslug == slug or pname_slug == slug -%}
+            {%- assign profile = p -%}
+            {%- assign found_key = key -%}
+            {%- break -%}
+          {%- endif -%}
+        {%- endfor -%}
+
+      {%- elsif site.data.authors and site.data.authors.class == "Array" -%}
+        {%- for p in site.data.authors -%}
+          {%- assign pslug = p.slug | default: "" | downcase | strip -%}
+          {%- assign pname_slug = p.name | default: "" | slugify | downcase | strip -%}
+          {%- if pslug == slug or pname_slug == slug -%}
+            {%- assign profile = p -%}
+            {%- assign found_key = slug -%} {%- comment -%}use slug as fallback key{%- endcomment -%}
+            {%- break -%}
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endif -%}
     {%- endif -%}
 
-    {%- if found_key and profile -%}
-      {%- comment -%}
-      Compute ordering keys using the same rules as the main flow:
-        - program_level desc (negate and pad)
-        - program_level_date or join_date or far future
-      {%- endcomment -%}
-      {%- assign author = profile -%}
-      {%- assign neg_program = author.program_level | times: -1 | plus: 1000 | prepend: "0000" | slice: -4, 4 -%}
-      {%- assign bld = author.program_level_date | default: author.join_date | default: "9999-12-31" -%}
-      {% capture entry %}{{ neg_program }}|{{ bld }}|{{ found_key }}{% endcapture %}
+    {%- if profile -%}
+      {%- assign neg_program = profile.program_level | times: -1 | plus: 1000 | prepend: "0000" | slice: -4, 4 -%}
+      {%- assign bld = profile.program_level_date | default: profile.join_date | default: "9999-12-31" -%}
+      {% capture entry %}{{ neg_program }}|{{ bld }}|{{ found_key | default: slug }}{% endcapture %}
       {% assign entries = entries | push: entry %}
     {%- endif -%}
+
   {%- endfor -%}
 
   {%- comment -%} Sort and optionally apply leadership_flow limit (same as original) {%- endcomment -%}
@@ -110,14 +126,28 @@ continues to use the original behavior below.
   {%- endif -%}
 
   <div class="md-authors">
-    {%- comment -%} Render cards for the requested authors only {%- endcomment -%}
+    {%- comment -%} Render cards for the requested authors only; look them up robustly {%- endcomment -%}
     {% for entry in render_entries %}
       {% assign parts  = entry | split: "|" %}
       {% assign key    = parts[2] %}
-      {% assign author = site.data.authors[key] %}
-      {% if author %}
+      {%- comment -%}
+      Prefer site.data.authors[key] when present, otherwise attempt to locate by slug in array.
+      {%- endcomment -%}
+      {%- assign author = site.data.authors[key] -%}
+      {%- if author == nil and site.data.authors.class == "Array" -%}
+        {%- for p in site.data.authors -%}
+          {%- assign pslug = p.slug | default: "" | downcase | strip -%}
+          {%- assign pname_slug = p.name | default: "" | slugify | downcase | strip -%}
+          {%- if pslug == key or pname_slug == key -%}
+            {%- assign author = p -%}
+            {%- break -%}
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endif -%}
+
+      {%- if author -%}
         {% include sections/author.html author=author key=key %}
-      {% endif %}
+      {%- endif -%}
     {% endfor %}
   </div>
 
