@@ -2,7 +2,7 @@
 {%- assign home_path = '/' | relative_url -%}
 {%- assign home_norm = home_path | append:'/' | replace:'//','/' -%}
 
-<header>
+<header class="site-header" role="banner">
     {%- if current_norm == home_norm -%}
         <a href="{{ home_path }}" aria-current="page">
             <img
@@ -23,7 +23,7 @@
         </a>
     {%- endif -%}
 
-    <nav id="Menu">
+    <nav id="Menu" role="navigation" aria-label="Primary">
         <ul role="menu">
             {% include nav-items.html items=site.header_links current_norm=current_norm %}
         </ul>

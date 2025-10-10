@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<article class="post-article">
+<article class="post-article" itemscope itemtype="https://schema.org/Article">
 
   <p class="post-authors">
     {%- if page.authors -%}
@@ -10,7 +10,7 @@ layout: default
     {%- endif -%}
   </p>
 
-  <header class="post-header">
+  <header class="post-header" role="group">
     <p class="post-meta">
       {{ page.date | date: "%B %-d, %Y" }}
     </p>
@@ -19,10 +19,8 @@ layout: default
       <p class="post-excerpt">{{ page.excerpt }}</p>
     {% endif %}
   </header>
-  
-  <hr>
 
-  <div class="post-body">
+  <div class="post-body" itemprop="articleBody">
     {{ content }}
   </div>
 

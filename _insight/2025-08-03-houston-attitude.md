@@ -1,111 +1,116 @@
 ---
 layout: post
-title: "🛰️ Houston, We Have an Attitude"
+title: "Houston, We Have an Attitude"
 authors: ["michael-basil", "kyle-ingersoll"]
 h1_mark: Attitude
 date: 2025-08-03
 excerpt: "When tone shifts, awareness follows—revealing the MetaShift from control to connection that transforms every conversation into practice."
 ---
 
+There’s a moment that happens—right before the tone shifts.  
+You’re in a conversation. Maybe it’s tense. Maybe it’s subtle. Something feels off.  
 
-There’s a moment that happens — right before the tone shifts.  
-You’re in a conversation. Maybe it’s tense. Maybe it’s subtle. But something’s off.  
+Your words are clear, yet they’re not landing.  
+And beneath it all, a quiet alarm sounds:  
 
-Your words are clear, but they’re not landing.  
-And underneath it all, the feeling is loud:  
-
-⚠️ *“This isn’t going well.”*
+> “This isn’t going well.”
 
 ---
 
-## 😤 When Tension Takes Over
+## When Tension Takes Over
 
 In that moment, most of us double down on one of two things:  
-🔧 Control or 🏃 Exit.  
+Control or Exit.  
 
 Either we push harder to get the result… or we withdraw and plan to circle back later.  
 
-But neither one brings connection. Neither one learns from the moment.
+But neither one brings connection. Neither one learns from the moment.  
+
+> *Every conversation is practice for the next.*
+
+That’s where the training begins.
 
 ---
 
-## ⛩️ At Mindset Dojo, We Train for That Moment
+## At Mindset Dojo, We Train for That Moment
 
-Tone isn’t just etiquette — it’s access.  
-It’s a signal of where you are on the Map of Consciousness. 🗺️  
+Tone isn’t just etiquette—it’s access.  
+It’s a signal of where you are on the Map of Consciousness.  
 
 The instant your tone shifts, your position on that map shifts too:  
 From grasping → allowing  
 From protecting → presence  
 From surviving → relating
 
+> Tone reveals consciousness faster than words ever could.
+
 ---
 
-## 🧭 Flip 6: From Controlling to Connecting
+## Flip 6: From Controlling to Connecting
 
-If you’ve practiced Flip 6 in *The Zen Leader*, you’ve felt that edge — between wanting to control and longing to connect.  
+If you’ve practiced Flip 6 in *The Zen Leader*, you’ve felt that edge—between wanting to control and longing to connect.  
 
 This isn’t a technique. It’s a nervous-system recalibration.  
 
 That’s what we train at Mindset Dojo:  
-Not theory, but practice — in real conversations, with real people, over and over again.  
+Not theory, but practice—in real conversations, with real people, over and over again.  
 
 So that when tone shifts, you’re ready.
 
 ---
 
-## 🧪 A Real Fable from the Dojo
+## A Real Fable from the Dojo
 
 Even in our own dojo, we get tangled.  
 
 Recently, while shaping our contributing guidelines, we froze. One of us wanted to move fast. The other wanted to slow down and clarify.  
 
-Same goal — protect trust and coherence — but different energy patterns: Collaborator vs. Organizer.  
+Same goal—protect trust and coherence—but different energy patterns: Collaborator vs. Organizer.  
 
 The tone was polite, but beneath it:  
 Subtle tug-of-war.  
 Not-quite-listening.  
 A tightening around control.  
 
-Then… a pause. Not awkward — dynamic silence. That powerful breath where nobody needs to win.  
+Then… a pause. Not awkward—dynamic silence. That powerful breath where nobody needs to win.  
 
-One of us asked:  
-> “What are you feeling right now?”  
+One of us asked, *“What are you feeling right now?”*  
 
-“I’m tense and protective — trying not to break cohesion.”  
+“I’m tense and protective—trying not to break cohesion.”  
 “I hear you. I was worried we’d stagnate if we don’t test something soon.”  
 
 Just like that, a new tone entered.  
 
-We remembered our Prime Directive: learning together — not defending structure or chasing momentum.  
+We remembered our prime directive: learning together—not defending structure or chasing momentum.  
 
-The Organizer relaxed its grip. The Collaborator grounded. The guidelines came alive — and so did our coherence.  
+The Organizer relaxed its grip. The Collaborator grounded. The guidelines came alive—and so did our coherence.  
 
 **MetaShift:**  
 From guarded conviction → shared curiosity  
 From undercurrents → transparency  
 From separate agendas → one rhythm  
 
-And just as we discover this shift in our dojo, it shows up everywhere — even at work…
+> Connection isn’t found—it’s formed, moment by moment.
+
+And just as we discover this shift in our dojo, it shows up everywhere—even at work…
 
 ---
 
-## 🦁 The Intern and the Lioness
+## The Intern and the Lioness
 
-One morning in a kingdom of quiet keyboards, the Intern noticed the Lioness — his boss — sat utterly still.  
+One morning in a kingdom of quiet keyboards, the Intern noticed the Lioness—his boss—sat utterly still.  
 
 Normally she led with the precision of an Organizer and the fire of a Driver. But today there was only silence.  
 
-Work had stalled — though that wasn’t the real signal. Something in the field had dropped.  
+Work had stalled—but that wasn’t the real signal. Something in the field had dropped.  
 
-The Intern hesitated — should he pry? Then felt a deeper call: meet her where she was.  
+The Intern hesitated—should he pry? Then felt a deeper call: meet her where she was.  
 
-He softened his tone:  
-> “How are you feeling today?”  
+He softened his tone: *“How are you feeling today?”*  
 
 At first, nothing. Then… a breath.  
 
-The Lioness spoke quietly — overwhelmed, low, off her game. And something shifted.  
+The Lioness spoke quietly—overwhelmed, low, off her game. And something shifted.  
 
 The emotional altitude lifted. Her energy stirred.  
 
@@ -122,7 +127,7 @@ And at home, the MetaShift looks different still…
 
 ---
 
-## 👨‍👧‍👦 FEBI Meets Parenting
+## FEBI Meets Parenting
 
 On a train ride the other day, my 7-year-old daughter Lila shut down.  
 
@@ -130,18 +135,15 @@ She wouldn’t speak to her brother Jack (11) or me. Her shoulders folded in. He
 
 I stayed quiet, connected, and waited.  
 
-Finally she whispered:  
-> “I feel like people get annoyed with me when I talk.”  
+Finally she whispered, *“I feel like people get annoyed with me when I talk.”*  
 
 She felt ignored. Dismissed.  
 
-It started with Jack not believing she’d brushed her hair — but beneath that was a tangle of energy.  
+It started with Jack not believing she’d brushed her hair—but beneath that was a tangle of energy.  
 
-I helped Lila name her feeling without fixing it. Then invited Jack to notice:  
-> “What energy is lacking?”  
+I helped Lila name her feeling without fixing it. Then invited Jack to notice: *“What energy is lacking?”*  
 
-He paused. Then, the magic Collaborator move:  
-> “Wanna thumb war?”  
+He paused. Then, the magic Collaborator move: *“Wanna thumb war?”*  
 
 She smiled. They laughed. The Collaborator returned.  
 
@@ -152,15 +154,15 @@ From shutdown → showing up
 
 ---
 
-## 🌌 The Signature MetaShift
+## The Signature MetaShift
 
-Whether it’s GitHub friction, workplace stillness, or a sibling shutdown — these pauses are where MetaShifts happen.  
+Whether it’s GitHub friction, workplace stillness, or a sibling shutdown—these pauses are where MetaShifts happen.  
 
 They’re not drama. They’re orientation.  
 
 And they always start with tone.  
 
-Change your tone — and you’ve already stepped into a new place on the Map of Consciousness.  
+Change your tone—and you’ve already stepped into a new place on the Map of Consciousness.  
 
 We train this again and again:  
 Relax completely.  
@@ -168,7 +170,9 @@ Feel into emotional waves.
 Meet tension with presence.  
 Form reflection into reflex.  
 
-✨ More than emotional intelligence — it’s a field-level upgrade in how we relate.  
+> Every shift in tone is a shift in being.
+
+More than emotional intelligence—it’s a field-level upgrade in how we relate.  
 And it’s trainable.  
 
 When you hit that moment:  
@@ -176,17 +180,17 @@ Grasp or relax?
 Fix or feel?  
 Defend or connect?  
 
-If you want connection — you’ll need an attitude.  
+If you want connection—you’ll need an attitude.  
 A practiced one that can MetaShift.
 
 ---
 
 → [mindset.dojo.center](https://mindset.dojo.center)  
-💡 *Where the MetaShift moves — from idea to embodiment.*
+*Where the MetaShift moves—from idea to embodiment.*
 
 ---
 
-## ⛩️🌿
+⛩️🌿🖥️  
 
-**Michael Basil** (Black Belt, Organizational Cultivator)  
+**Michael Basil** (Black Belt, Project Cultivator)  
 **Kyle Ingersoll** (Purple Belt, DevOps Cultivator)
