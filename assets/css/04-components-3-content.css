@@ -75,6 +75,8 @@
 
   .post-article {
     background: transparent;
+    align-self: center;
+    text-align: center;
   }
 
   .post-header {
