@@ -42,21 +42,6 @@ continues to use the original behavior below.
 
 {%- if include.authors and include.authors != nil and include.authors != "" -%}
 
-  <div class="debug">
-    <strong>DEBUG include.authors:</strong>
-    <pre>{{ include.authors | jsonify }}</pre>
-    <strong>author_list (normalized):</strong>
-    <pre>{{ author_list | jsonify }}</pre>
-    <strong>site.data.authors keys (if map):</strong>
-    <pre>
-      {% if site.data.authors.class == "Hash" %}
-        {% for key in site.data.authors %}{{ key }}{% if forloop.last == false %}, {% endif %}{% endfor %}
-      {% else %}
-        (array) size={{ site.data.authors | size }}
-      {% endif %}
-    </pre>
-  </div>
-
   {%- comment -%}
   Robust normalization for include.authors → author_list
   Supports:
