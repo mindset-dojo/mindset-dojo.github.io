@@ -9,16 +9,4 @@ leadership_designations:
     value: Zensei
   - type: project
     value: Project Cultivator
-linkedin: https://www.linkedin.com/in/michael-100-basil
-links:
-  - label: Inner-Game Lessons
-    url: https://michael-basil.medium.com
-  - label: Artful Conversation
-    url: https://www.youtube.com/watch?v=YF8HEO1phWw
-  - label: Circle Communities
-    url: https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/1-initial/circle-communities.md
-  - label: Professional Journey
-    url: https://michael.basil.one
-  - label: Living Garden
-    url: https://garden.basil.one
 ...
