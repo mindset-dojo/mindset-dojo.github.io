@@ -1,0 +1,130 @@
+@layer layout {
+  /* Global spacing for sections */
+  section { margin-bottom: 20px; }
+
+  /* Primary content container */
+  main {
+    max-width: 800px;
+    margin: 20px auto 60px;
+    flex-flow: column;
+    display: flex;
+    padding-right: var(--site-padding);
+    padding-left: var(--site-padding);
+    width: 100%;
+  }
+
+  /* Generic nav element (structural) */
+  nav {
+    align-items: center;
+    display: inline-flex;
+  }
+
+  /* Generic nav list layout (affects header/footer) */
+  nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 30px;
+  }
+
+  /* Shared container widths for header & footer */
+  header,
+  body > footer {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: var(--site-padding);
+    padding-left: var(--site-padding);
+    max-width: var(--site-width);
+  }
+
+  /* CTA group layout */
+  .md-cta-group {
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+    justify-content: center;
+    margin: 40px 0 80px;
+  }
+
+  @media (width <= 576px) {
+    .md-cta-group { flex-direction: column; }
+  }
+
+  /* Grid helpers */
+  .md-grid-2,
+  .md-grid-3 {
+    display: grid;
+    max-width: 100%;
+    margin: 0 0 20px;
+  }
+
+  .md-grid-2 {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 32px;
+  }
+
+  .md-grid-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 24px;
+  }
+
+  @media (width <= 767px) {
+    section.md-grid-2,
+    section.md-grid-3 {
+      grid-template-columns: 1fr;
+      grid-gap: 24px;
+    }
+  }
+
+  /* FLOW section pattern */
+  main > section.md-flow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  main > section.md-flow > h2,
+  main > section.md-flow > p {
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto 1rem;
+    padding: 0 1rem;
+  }
+
+  main > section.md-flow > ul {
+    max-width: 700px;
+    margin: 0 auto 1.5rem;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  main > section.md-flow > ul li { text-align: left; }
+
+  main > section.md-flow > blockquote {
+    max-width: 700px;
+    margin: 20px auto 40px;
+    padding-left: 32px;
+    border-left: 8px solid var(--brand-color-primary);
+  }
+
+  @media (width <= 600px) {
+    main > section.md-flow { padding: 1rem 0.5rem; }
+
+    main > section.md-flow > ul {
+      max-width: 100%;
+      padding: 0 1rem;
+    }
+
+    main > section.md-flow > ul li { font-size: var(--text-s); }
+  }
+}

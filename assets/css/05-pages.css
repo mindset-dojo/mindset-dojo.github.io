@@ -1,0 +1,12 @@
+@layer pages {
+  /* [PRIVACY] */
+  #privacy h2 { text-align: left; }
+
+  /* [404] */
+  #error p {
+    font-size: var(--text-xl);
+    align-self: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
