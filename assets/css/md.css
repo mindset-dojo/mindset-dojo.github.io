@@ -137,6 +137,22 @@ nav ul {
     gap: 30px;
 }
 
+/* zero-specificity wrapper on the desktop nav list — moved above footer nav to satisfy Stylelint */
+:where(.site-header) nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 30px;
+}
+
+@media (width <= 767px) {
+    :where(.site-header) nav ul{
+        display: none;
+    }
+}
+
 body > footer nav ul {
     justify-content: center;
     gap: 14px 0;
@@ -303,12 +319,12 @@ nav a:hover {
 main :where(p a, ul a, ol a, li a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a) {
     color: var(--brand-color-secondary);
     font-style: var(--font-style-italic);
-    border-bottom: 2px dotted currentcolor;
+    border-bottom: 2px solid transparent;
     text-decoration: none;
 }
 
 main :where(p a, ul a, ol a, li a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a):hover {
-    border-bottom-style: solid;
+    border-bottom-color: currentcolor;
 }
 
 /* utility */
@@ -387,14 +403,19 @@ main :where(p a, ul a, ol a, li a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a):hover {
     }
 }
 
-main > blockquote {
+/* =========================================
+   BLOCKQUOTES (site-wide) — GENERIC CONTEXT
+   (Place BEFORE FLOW)
+   ========================================= */
+
+:where(main, .post-body) > blockquote {
     padding-left: 32px;
-    border-left: solid 8px;
-    border-left-color: var(--brand-color-primary);
+    border-left: 8px solid var(--brand-color-primary);
     margin-top: 20px;
     margin-bottom: 40px;
 }
 
+/* generic grid blockquotes (no .post-body scope) */
 section.md-grid-2 blockquote,
 section.md-grid-3 blockquote {
     border-radius: 24px;
@@ -408,8 +429,95 @@ section.md-grid-3 blockquote p {
     font-size: var(--text-s);
 }
 
+/* =========================================
+   GLOBAL FLOW SECTION PATTERN (opt-in)
+   Apply to any <section class="md-flow"> inside <main>
+   ========================================= */
+
+main > section.md-flow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+main > section.md-flow > h2,
+main > section.md-flow > p {
+  max-width: 700px;
+  text-align: center;
+  margin: 0 auto 1rem;
+  padding: 0 1rem;
+}
+
+/* mobile menu overlay (zero-specificity wrapper prevents conflicts)
+   — moved above the FLOW UL rule to satisfy no-descending-specificity */
+.md-no-scroll :where(.site-header) nav ul{
+    background-color: var(--dark-color-primary);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    position: fixed;
+    inset: 0;
+    z-index: 1;
+}
+
+main > section.md-flow > ul {
+  max-width: 700px;
+  margin: 0 auto 1.5rem;
+  padding-left: 0;
+  text-align: center;
+}
+
+main > section.md-flow > ul li {
+  text-align: left;
+}
+
+main > section.md-flow > blockquote {
+  max-width: 700px;
+  margin: 20px auto 40px;
+  padding-left: 32px;
+  border-left: 8px solid var(--brand-color-primary);
+}
+
+@media (width <= 600px) {
+  main > section.md-flow {
+    padding: 1rem 0.5rem;
+  }
+
+  main > section.md-flow > ul {
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+
+  main > section.md-flow > ul li {
+    font-size: var(--text-s);
+  }
+}
+
+/* =========================================
+   BLOCKQUOTES (site-wide) — POST BODY CONTEXT
+   (Place AFTER FLOW so FLOW rules come first)
+   ========================================= */
+
+.post-body .md-grid-2 blockquote,
+.post-body .md-grid-3 blockquote {
+    border-radius: 24px;
+    background-color: var(--dark-color-secondary);
+    padding: 32px;
+    margin: 0;
+}
+
+.post-body .md-grid-2 blockquote p,
+.post-body .md-grid-3 blockquote p {
+    font-size: var(--text-s);
+}
+
 .md-icon-svg {
-    fill: var(--brand-color-secondary);;
+    fill: var(--brand-color-secondary);
     width: 40px;
     height: 40px;
 }
@@ -460,7 +568,7 @@ section.md-grid-3 blockquote p {
 
 /* [ HEADER ] */
 
-header {
+.site-header{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -475,13 +583,13 @@ header {
 }
 
 @media (width <= 767px) {
-    header {
+    .site-header{
         flex-wrap: nowrap;
     }
 }
 
-/* logo */
-header img {
+/* logo (zero-specificity wrapper prevents descending-specificity issues) */
+:where(.site-header) img{
     object-position: 0;
     object-fit: contain;
     height: 80px;
@@ -492,7 +600,7 @@ header img {
 }
 
 @media (width <= 991px) {
-    header img {
+    :where(.site-header) img{
         height: 60px;
     }
 }
@@ -503,18 +611,19 @@ nav {
     display: inline-flex;
 }
 
+/* zero-specificity wrapper on the desktop nav list */
 @media (width <= 767px) {
-    header nav ul {
+    :where(.site-header) nav ul{
         display: none;
     }
 }
 
-.md-no-scroll header nav li.md-hidden {
+.md-no-scroll .site-header nav li.md-hidden {
     display: list-item;
 }
 
 /* nav desktop menu toggle */
-header button {
+:where(.site-header) button{
     display: none;
     background: none;
     border: 0;
@@ -527,7 +636,7 @@ header button {
     z-index: 99;
 }
 
-header button .bar {
+:where(.site-header) button .bar{
     padding: 0;
     width: 30px;
     height: 1px;
@@ -536,70 +645,59 @@ header button .bar {
     position: absolute; 
 }
 
-header button .bar1 {
+:where(.site-header) button .bar1{
     top: 0;
     transform-origin: 0%;
 }
 
-header button .bar2,
-header button .bar3 {
+:where(.site-header) button .bar2,
+:where(.site-header) button .bar3{
     top: 13.5px;
 }
 
-header button .bar3 {
+:where(.site-header) button .bar3{
     right: 0;
 }
 
-header button .bar4 {
+:where(.site-header) button .bar4{
     bottom: 0;
     transform-origin: 0%;
 }
 
-/* nav mobile menu toggle */
-.md-no-scroll header button > .bar1 {
+/* nav mobile menu toggle (zero-specificity on state + container) */
+.md-no-scroll :where(.site-header) button > .bar1 {
     transform: rotate(45deg);
     height: 1px;
     width: 40px;
 }
 
-.md-no-scroll header button > .bar2 {
+.md-no-scroll :where(.site-header) button > .bar2 {
     transform: rotate(-45deg);
     height: 1px;
     background-color: transparent;
 }
 
-.md-no-scroll header button > .bar3 {
+.md-no-scroll :where(.site-header) button > .bar3 {
     transform: rotate(45deg);
     height: 1px;
     background-color: transparent;
 }
 
-.md-no-scroll header button > .bar4 {
+/* fixed selector: scope to .site-header rather than bare header */
+.md-no-scroll .site-header button > .bar4 {
     transform: rotate(-45deg);
     height: 1px;
     width: 40px;
 }
 
 @media (width <= 767px) {
-    header button {
+    :where(.site-header) button{
         display: flex;
     }
 }
 
-.md-no-scroll header button {
+.md-no-scroll :where(.site-header) button{
     display: flex;
-}
-
-.md-no-scroll header nav ul {
-    background-color: var(--dark-color-primary);
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    justify-content: center;
-    overflow-y: auto;
-    position: fixed;
-    inset: 0;
-    z-index: 1;
 }
 
 /* [ BODY ] */
@@ -619,7 +717,7 @@ body > footer {
 }
 
 @media (width <= 767px) {
-    main > blockquote {
+    :where(main, .post-body) > blockquote {
         font-size: 24px;
     }
 }
@@ -655,6 +753,7 @@ footer nav + nav {
     gap: 8px 24px;
 }
 
+/* keep footer image (type selector + element) safely more specific than :where(.site-header) img */
 footer img {
     width: 60%;
     position: fixed;
@@ -667,64 +766,11 @@ footer img {
 }
 
 /* =========================================
-   GLOBAL FLOW SECTION PATTERN (opt-in)
-   Apply to any <section class="md-flow"> inside <main>
-   ========================================= */
-
-main > section.md-flow {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 2rem 1rem;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-main > section.md-flow > h2,
-main > section.md-flow > p {
-  max-width: 700px;
-  text-align: center;
-  margin: 0 auto 1rem;
-  padding: 0 1rem;
-}
-
-main > section.md-flow > ul {
-  max-width: 700px;
-  margin: 0 auto 1.5rem;
-  padding-left: 0;
-  text-align: center;
-}
-
-main > section.md-flow > ul li {
-  text-align: left;
-}
-
-main > section.md-flow > blockquote {
-  max-width: 700px;
-  margin: 20px auto 40px;
-  padding-left: 32px;
-  border-left: 8px solid var(--brand-color-primary);
-}
-
-@media (width <= 600px) {
-  main > section.md-flow {
-    padding: 1rem 0.5rem;
-  }
-
-  main > section.md-flow > ul {
-    max-width: 100%;
-    padding: 0 1rem;
-  }
-
-  main > section.md-flow > ul li {
-    font-size: var(--text-s);
-  }
-}
-
-/* =========================================
    AUTHORS styling
    ========================================= */
 
+
+/* (Ensure a blank line above this rule for Stylelint) */
 .md-authors section h2 + ul {
     text-align: center;
     align-self: center;
@@ -732,6 +778,8 @@ main > section.md-flow > blockquote {
     padding: 0;
 }
 
+
+/* (Ensure a blank line above this rule for Stylelint) */
 .md-authors section.md-author-card > p {
     text-align: center;
     margin: 0 0 12px;
@@ -802,4 +850,19 @@ main > section.md-flow > blockquote {
     align-self: center;
     text-align: center;
     margin-bottom: 20px;
+}
+
+/* === Post layout transparency & behavior === */
+.post-article {
+    background: transparent;
+}
+
+.post-header {
+    position: static;
+    top: auto;
+    background: transparent;
+}
+
+.post-body {
+    background: transparent;
 }
