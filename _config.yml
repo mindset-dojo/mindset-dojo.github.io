@@ -23,6 +23,8 @@ header_links:
     href: /project/
   - label: INSIGHT
     href: /insight/
+  - label: PATTERN
+    href: /pattern/
 
 footer_primary_links:
   - label: MISSION
@@ -33,6 +35,8 @@ footer_primary_links:
     href: /project/
   - label: INSIGHT
     href: /insight/
+  - label: PATTERN
+    href: /pattern/
   - label: CONTACT
     href: https://connect.mindset.dojo.center
     external: true
