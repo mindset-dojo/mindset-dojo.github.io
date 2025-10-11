@@ -47,8 +47,6 @@ permalink: /insight/
     {%- endcomment -%}
     {% assign post_url = '/insight/' | append: post_slug | append: '/' | relative_url %}
 
-      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-
       {% assign author_slugs = post.authors %}
       {% assign authors_names = "" | split: "," %}
 
@@ -80,17 +78,20 @@ permalink: /insight/
           {% assign author_count = author_count | plus: 1 %}
         {% endfor %}
       {% endif %}
-
-      <p class="meta">
-        By {{ author_name_string | default: site.author }} — {{ post.date | date: "%b %-d, %Y" }}
-      </p>
       
       {% assign post_slug = post.slug | default: post.title | slugify %}
       {% assign post_date = post.date | default: "2025-01-01" | date: "%Y-%m-%d" | slugify %}
-      
-      <div class="excerpt">
-        {{ post.excerpt | default: post.content | strip_html | truncate: 220 }}
-      </div>
-    <hr>
+
+      <article>
+        <h3 class="title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <p class="meta">
+          By {{ author_name_string | default: site.author }} — {{ post.date | date: "%b %-d, %Y" }}
+        </p>
+        <p class="excerpt">
+          {{ post.excerpt | default: post.content | strip_html | truncate: 220 }}
+        </p>
+        <hr>
+      </article>
+
   {% endfor %}
 </section>
