@@ -48,6 +48,7 @@ sections:
         - "Those with means extend reach; those with practice deepen it."
   - type: authors
     data:
+      debug: true
       leadership_flow:
         label: "⛩️⚡ Energy Authors"
         limit: 16
