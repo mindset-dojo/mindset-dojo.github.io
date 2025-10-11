@@ -21,6 +21,8 @@ header_links:
     href: /program/
   - label: PROJECT
     href: /project/
+  - label: PATTERNS
+    href: /patterns/
   - label: INSIGHT
     href: /insight/
 
@@ -31,6 +33,8 @@ footer_primary_links:
     href: /program/
   - label: PROJECT
     href: /project/
+  - label: PATTERNS
+    href: /patterns/
   - label: INSIGHT
     href: /insight/
   - label: CONTACT
