@@ -1,12 +1,11 @@
 {%- comment -%}
-authors grid section — collection-only, lean version with DEBUG
+authors grid section — collection-only, lean version
 
 Options via section.data:
   leadership_flow:
     label: string (optional heading)
     limit: int (optional)
     designation_type: string ("program" | "project" | etc., optional)
-  debug: boolean (optional) — when true, emits helpful debug comments/blocks
 
 Behavior:
   - If include.authors is provided (array or comma/JSON string of slugs), render only those.
@@ -16,7 +15,6 @@ Behavior:
 {%- endcomment -%}
 
 {%- assign D = section.data -%}
-{%- assign debug = D.debug | default: false -%}
 {%- assign designation_type = D.leadership_flow.designation_type | default: '' | downcase | strip -%}
 
 {%- if D.leadership_flow and D.leadership_flow.label -%}
@@ -39,36 +37,23 @@ Behavior:
   {%- else -%}
     {%- assign slugs = raw | split:'\n' | map:'strip' -%}
   {%- endif -%}
-
-  {%- if debug -%}
-  <!-- DEBUG(authors.html): use_override=true; requested slugs = {{ slugs | join: ', ' }} -->
-  {%- endif -%}
-
   {%- comment -%} Filter site.authors down to requested slugs {%- endcomment -%}
   {%- assign docs = "" | split:"|" -%}
   {%- for s in slugs -%}
     {%- assign s = s | split:'.' | first | downcase | strip -%}
     {%- assign doc = site.authors | where:"slug", s | first -%}
-    {%- if debug -%}
-    <!-- DEBUG(authors.html): lookup slug="{{ s }}", found={{ doc and doc.name or 'nil' }} -->
-    {%- endif -%}
     {%- if doc -%}{%- assign docs = docs | push: doc -%}{%- endif -%}
   {%- endfor -%}
 {%- else -%}
   {%- assign docs = site.authors -%}
-  {%- if debug -%}
-  <!-- DEBUG(authors.html): use_override=false; site.authors count = {{ docs | size }} -->
-  {%- endif -%}
 {%- endif -%}
 
 {%- comment -%} Filter by active and optional designation_type {%- endcomment -%}
 {%- assign filtered = "" | split:"|" -%}
 {%- for a in docs -%}
   {%- assign show = a.active | default:true -%}
-  {%- assign passed_designation = 'n/a' -%}
   {%- if show and designation_type != '' -%}
     {%- assign show = false -%}
-    {%- assign passed_designation = false -%}
     {%- assign ld = a.leadership_designations -%}
     {%- if ld and ld.size > 0 -%}
       {%- for item in ld -%}
@@ -76,7 +61,6 @@ Behavior:
         {%- assign v = item.value | default:item.key | to_s | strip -%}
         {%- if t == designation_type and v != '' and v != 'null' -%}
           {%- assign show = true -%}
-          {%- assign passed_designation = true -%}
         {%- endif -%}
       {%- endfor -%}
     {%- endif -%}
@@ -84,14 +68,7 @@ Behavior:
   {%- if show -%}
     {%- assign filtered = filtered | push: a -%}
   {%- endif -%}
-  {%- if debug -%}
-  <!-- DEBUG(authors.html): candidate slug={{ a.slug }}, name="{{ a.name }}", active={{ a.active | default: true }}, designation_type="{{ designation_type }}", passed_designation={{ passed_designation }}, included={{ show }} -->
-  {%- endif -%}
 {%- endfor -%}
-
-{%- if debug -%}
-<!-- DEBUG(authors.html): filtered count = {{ filtered | size }} -->
-{%- endif -%}
 
 {%- comment -%} Sort: program_level DESC (via negation), then by date ASC {%- endcomment -%}
 {%- assign entries = "" | split:"|" -%}
@@ -110,38 +87,13 @@ Behavior:
   {%- endif -%}
 {%- endif -%}
 
-{%- if debug -%}
-<!-- DEBUG(authors.html): sorted entries = 
-  {% for e in entries -%}
-    {% assign p = e | split:'|' %}
-    {{ forloop.index }}. slug={{ p[2] }}, key={{ e }}
-  {%- endfor %} 
--->
-{%- endif -%}
-
 <div class="md-authors">
   {%- for e in entries -%}
     {%- assign parts = e | split:'|' -%}
     {%- assign slug  = parts[2] -%}
     {%- assign doc   = site.authors | where:"slug", slug | first -%}
     {%- if doc -%}
-      {%- assign avatar_guess = doc.photo | default: '/media/author-avatar/' | append: (doc.photo ? '' : slug) | append: (doc.photo ? '' : '.jpg') -%}
-      {%- if debug -%}
-      <div class="md-debug" style="font:12px/1.3 monospace; background:#f6f6f6; padding:.5rem; margin:.5rem 0; border:1px dashed #ccc;">
-        DEBUG(authors.html card):
-        slug=<code>{{ slug }}</code>,
-        name=<code>{{ doc.name }}</code>,
-        active=<code>{{ doc.active | default: true }}</code>,
-        avatar_path_guess=<code>{{ avatar_guess }}</code>
-      </div>
-      {%- endif -%}
       {% include sections/author.html author=doc key=doc.slug %}
-    {%- else -%}
-      {%- if debug -%}
-      <div class="md-debug" style="font:12px/1.3 monospace; background:#fff3f3; padding:.5rem; margin:.5rem 0; border:1px dashed #f99;">
-        DEBUG(authors.html): Could not resolve doc for slug <code>{{ slug }}</code>
-      </div>
-      {%- endif -%}
     {%- endif -%}
   {%- endfor -%}
 </div>
