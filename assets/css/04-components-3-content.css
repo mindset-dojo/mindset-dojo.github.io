@@ -106,7 +106,7 @@
   .post-body .md-grid-3 blockquote {
     align-self: center;
     text-align: center;
-    display: inline-block;
+    display: inline-flex;
     border-radius: 24px;
     background-color: var(--dark-color-secondary);
     padding: 32px;
