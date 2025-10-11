@@ -9,16 +9,53 @@ leadership_designations:
     value: Zensei
   - type: project
     value: Project Cultivator
-linkedin: https://www.linkedin.com/in/michael-100-basil
-links:
-  - label: Inner-Game Lessons
-    url: https://michael-basil.medium.com
-  - label: Artful Conversation
-    url: https://www.youtube.com/watch?v=YF8HEO1phWw
-  - label: Circle Communities
-    url: https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/1-initial/circle-communities.md
-  - label: Professional Journey
-    url: https://michael.basil.one
-  - label: Living Garden
-    url: https://garden.basil.one
+tagline: Leadership Gardener
+biosketch: |
+  I never expected taming parrots and navigating soccer scrums to lead me to
+  coaching leaders—but looking back, it makes perfect sense.
+
+  I grew up in my mom’s parrot shop, calming unruly macaws. On the soccer
+  pitch, I learned to move fluidly between opportunistic striker and lockdown
+  defender. Later, I trained for elegant simplicity with a computer engineering
+  degree from the University of Illinois and spent my early career shaping
+  Agile, DevOps, and observability practices across complex organizations—
+  helping teams build systems that could sense, adapt, and grow.
+
+  Over time, I realized the systems most in need of transformation weren’t
+  technical—they were human. Mindset Dojo grew from that awareness: a practice
+  ground for fearless leadership, where we train mind, body, tone, and timing
+  as one. My focus now is helping leaders and teams cultivate clarity and
+  composure under pressure, so presence becomes their natural way of leading.
+engagements:
+  - label: Training Sessions
+    description: >
+      Interactive sessions practicing Mindset Dojo Approach—MetaShift Method,
+      Zen Leadership, and Conversational Presence through energy agility. 
+      Each session blends dialogue, reflection, and embodied exercise to
+      cultivate awareness, adaptability, and composure under pressure.
+  - label: Scoped Engagements
+    description: >
+      Focused collaborations that integrate Agile transformation, leadership
+      development, and technical evolution. Scoped work may include system
+      design reviews, Agile delivery coaching, or cultural calibration within
+      technology teams. Drawing on experience in software engineering, DevSecOps,
+      and AI integration, these engagements align people, process, and product
+      toward adaptive, secure, and sustainable growth.
+  - label: Resident Expert
+    description: >
+      Medium-term residencies—one or more days per week—providing embedded
+      expertise during periods of scaling or reinvention. Combines technical
+      depth (secure software delivery, cloud architecture, and AI ethics) with
+      cultural transformation guidance (Agile leadership, communication design,
+      community practice). Ideal for early-stage or evolving organizations
+      seeking to mature systems and culture in parallel without losing coherence.
+contact:
+  - type: email
+    value: michael@basil.one
+  - type: linkedin
+    value: https://link.basil.one
+  - type: github
+    value: https://github.com/michael-basil
+  - type: calendly
+    value: https://connect.michael.basil.one
 ...
