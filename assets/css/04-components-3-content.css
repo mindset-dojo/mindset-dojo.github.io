@@ -88,7 +88,7 @@
   }
 
   /* For lists inside .post-body: */
-  .post-body ul {
+  :where(.post-body ul) {
     display: inline-block;       
     text-align: left;            
     list-style-position: inside; 
