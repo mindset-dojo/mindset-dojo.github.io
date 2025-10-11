@@ -70,7 +70,7 @@ Behavior:
   {%- endif -%}
 {%- endfor -%}
 
-{%- comment -%} Sort: program_level DESC (simulate by negating), then by date ASC {%- endcomment -%}
+{%- comment -%} Sort: program_level DESC (via negation), then by date ASC {%- endcomment -%}
 {%- assign entries = "" | split:"|" -%}
 {%- for a in filtered -%}
   {%- assign neg_program = a.program_level | times:-1 | plus:1000 | prepend:"0000" | slice:-4,4 -%}
