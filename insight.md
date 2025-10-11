@@ -8,10 +8,10 @@ permalink: /insight/
 
 <section id="insights-stream">
   {%- comment -%}
-  Stream behavior:
-  - Lists all docs from the `insight` collection, newest first.
-  - Author names resolved from the `authors` collection by slug in post.front-matter:
-      authors: ["michael-basil", "kyle-ingersoll"]
+  Lists all docs from the `insight` collection, newest first.
+  Author names are resolved from `site.authors`:
+    - try doc.slug match
+    - fallback to derived slug: (doc.slug | default: doc.name) |> split('.') |> first |> slugify
   {%- endcomment -%}
 
   {% assign insight_posts = site.insight | sort: "date" | reverse %}
@@ -20,7 +20,7 @@ permalink: /insight/
   {% endif %}
 
   {% for post in insight_posts %}
-    {%- comment -%} Resolve a safe slug (defensive) {%- endcomment -%}
+    {%- comment -%} Resolve a safe slug for the post (defensive) {%- endcomment -%}
     {% assign post_slug = post.slug %}
     {% if post_slug == nil or post_slug == "" %}
       {% assign segments = post.url | split: '/' %}
@@ -35,18 +35,46 @@ permalink: /insight/
       {% assign post_slug = post.title | slugify %}
     {% endif %}
 
-    {%- comment -%} Build author display string from collection {%- endcomment -%}
+    {%- comment -%} Normalize post.authors to an array of slugs {%- endcomment -%}
     {% assign authors_names = "" | split: "," %}
-    {% assign author_slugs = post.authors %}
-    {% if author_slugs %}
-      {% for slug in author_slugs %}
-        {% assign doc = site.authors | where: "slug", slug | first %}
-        {% if doc and doc.name %}
-          {% assign authors_names = authors_names | push: doc.name %}
+    {% assign raw_authors = post.authors %}
+    {% assign author_slugs = "" | split: "|" %}
+
+    {% if raw_authors %}
+      {% if raw_authors[0] != nil %}
+        {% assign author_slugs = raw_authors %}
+      {% else %}
+        {% assign s = raw_authors | to_s | strip %}
+        {% if s contains '[' and s contains ']' %}
+          {% assign s = s | remove:'[' | remove:']' | remove:'"' | remove:"'" | strip %}
+          {% assign author_slugs = s | split:',' | map:'strip' %}
+        {% elsif s contains ',' %}
+          {% assign author_slugs = s | split:',' | map:'strip' %}
+        {% else %}
+          {% assign author_slugs = s | split:'\n' | map:'strip' %}
         {% endif %}
-      {% endfor %}
+      {% endif %}
     {% endif %}
 
+    {%- comment -%} Resolve each slug to a collection doc (slug match, then filename fallback) {%- endcomment -%}
+    {% for s in author_slugs %}
+      {% assign s_norm = s | split:'.' | first | slugify %}
+      {% assign doc = site.authors | where: "slug", s_norm | first %}
+      {% if doc == nil %}
+        {% for d in site.authors %}
+          {% assign d_slug = d.slug | default: d.name | split:'.' | first | slugify %}
+          {% if d_slug == s_norm %}
+            {% assign doc = d %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+      {% if doc and doc.name %}
+        {% assign authors_names = authors_names | push: doc.name %}
+      {% endif %}
+    {% endfor %}
+
+    {%- comment -%} Build display string {%- endcomment -%}
     {% assign author_name_string = "" %}
     {% if authors_names.size == 0 %}
       {% assign author_name_string = site.author %}
