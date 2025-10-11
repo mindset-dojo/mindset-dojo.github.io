@@ -15,7 +15,6 @@ leadership_designations:
   - type: project
     value: DevOps Cultivator
 biosketch: null
-engagements: null
 contact:
   - type: linkedin
     value: https://www.linkedin.com/in/kyle-ingersoll

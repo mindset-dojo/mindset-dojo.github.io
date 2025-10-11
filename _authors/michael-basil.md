@@ -41,20 +41,21 @@ biosketch: |
   the level of depth that aligns with what brings real value.
 
   ⛩️🌿
-engagements:
-  - label: Training Sessions
-    description: >
-      Immersive sessions exploring the human factor of leadership through the
-      Mindset Dojo approach—MetaShift Method, Zen Leadership, and Conversational
-      Presence—integrated with Agile flow.
-  - label: Scoped Engagements
-    description: >
-      Targeted collaborations uniting Agile transformation and human systems
-      design across context, culture, and product.
-  - label: Resident Expert
-    description: >
-      Medium-term in-residence support during periods of scaling or reinvention,
-      combining technical depth with human-factor leadership.
+
+  ### Engagements
+
+  #### Training Sessions
+  Immersive sessions exploring the human factor of leadership through the
+  Mindset Dojo approach—MetaShift Method, Zen Leadership, and Conversational
+  Presence—integrated with Agile flow.
+
+  #### Scoped Engagements
+  Targeted collaborations uniting Agile transformation and human systems design
+  across context, culture, and product.
+
+  #### Resident Expert
+  Medium-term in-residence support during periods of scaling or reinvention,
+  combining technical depth with human-factor leadership.
 contact:
   - type: email
     value: michael@basil.one

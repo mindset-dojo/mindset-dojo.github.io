@@ -11,7 +11,6 @@ program_level: -5
 program_level_date: 2025-05-04
 leadership_designations: []
 biosketch: null
-engagements: null
 contact:
   - type: linkedin
     value: https://www.linkedin.com/in/patrick-j-burke

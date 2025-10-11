@@ -1,8 +1,7 @@
 ---
 sections:
   - type: author
+  - type: markdown
     data:
-      label: "Engagements"
-  - type: biosketch
-  - type: engagements
+      field: biosketch
 ---

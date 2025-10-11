@@ -11,7 +11,6 @@ program_level: -6
 program_level_date: 2025-03-16
 leadership_designations: []
 biosketch: null
-engagements: null
 contact:
   - type: linkedin
     value: https://www.linkedin.com/in/jeremymcm

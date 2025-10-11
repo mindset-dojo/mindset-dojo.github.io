@@ -1,0 +1,18 @@
+{%- comment -%}
+Generic Markdown section (no defensive logic).
+
+Priority:
+  1) include.content_md
+  2) section.data.content
+  3) page[ section.data.field ]
+Options:
+  - section.data.label : optional <h2>
+{%- endcomment -%}
+
+{%- assign D = section.data -%}
+{%- assign content_md = include.content_md | default: D.content | default: page[D.field] -%}
+
+<section class="md-flow">
+  {%- if D.label -%}<h2>{{ D.label }}</h2>{%- endif -%}
+  {{ content_md | markdownify }}
+</section>
