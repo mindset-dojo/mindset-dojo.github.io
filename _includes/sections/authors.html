@@ -1,12 +1,9 @@
 {%- comment -%}
-authors grid section — collection-only, lean version with simple DEBUG comments
-Fix: compute slug fallback from filename when doc.slug is empty (typical for .yaml items).
+authors grid section — collection-only, lean version
 
-Enable debug with:
 sections:
   - type: authors
     data:
-      debug: true
       leadership_flow:
         label: ...
         designation_type: ...
@@ -14,7 +11,6 @@ sections:
 {%- endcomment -%}
 
 {%- assign D = section.data -%}
-{%- assign debug = D.debug | default: false -%}
 {%- assign designation_type = D.leadership_flow.designation_type | default: '' | downcase | strip -%}
 
 {%- if D.leadership_flow and D.leadership_flow.label -%}
@@ -37,7 +33,6 @@ sections:
   {%- else -%}
     {%- assign slugs = raw | split:'\n' | map:'strip' -%}
   {%- endif -%}
-  {%- if debug -%}<!-- DEBUG(authors.html): use_override=true; requested slugs: {{ slugs | join: ', ' }} -->{%- endif -%}
   {%- assign docs = "" | split:"|" -%}
   {%- for s in slugs -%}
     {%- assign s = s | split:'.' | first | downcase | strip -%}
@@ -49,12 +44,10 @@ sections:
         {%- if d_slug == s -%}{%- assign doc = d -%}{%- break -%}{%- endif -%}
       {%- endfor -%}
     {%- endif -%}
-    {%- if debug -%}<!-- DEBUG(authors.html): lookup slug="{{ s }}", found="{{ doc.name | default: 'nil' }}" -->{%- endif -%}
     {%- if doc -%}{%- assign docs = docs | push: doc -%}{%- endif -%}
   {%- endfor -%}
 {%- else -%}
   {%- assign docs = site.authors -%}
-  {%- if debug -%}<!-- DEBUG(authors.html): use_override=false; site.authors count={{ docs | size }} -->{%- endif -%}
 {%- endif -%}
 
 {%- comment -%} Filter by active and optional designation_type {%- endcomment -%}
@@ -78,9 +71,7 @@ sections:
   {%- if show -%}
     {%- assign filtered = filtered | push: a -%}
   {%- endif -%}
-  {%- if debug -%}<!-- DEBUG(authors.html): candidate slug="{{ a_slug }}", name="{{ a.name }}", active={{ a.active | default: true }}, included={{ show }} -->{%- endif -%}
 {%- endfor -%}
-{%- if debug -%}<!-- DEBUG(authors.html): filtered count={{ filtered | size }} -->{%- endif -%}
 
 {%- comment -%} Sort: program_level DESC (via negation), then by date ASC {%- endcomment -%}
 {%- assign entries = "" | split:"|" -%}
@@ -92,20 +83,12 @@ sections:
   {%- assign entries = entries | push: entry -%}
 {%- endfor -%}
 {%- assign entries = entries | sort -%}
-{%- if debug -%}
-<!-- DEBUG(authors.html): sorted slugs:
-{%- for e in entries -%}
-  {%- assign p = e | split:'|' -%} {{ p[2] }}
-{%- endfor -%}
--->
-{%- endif -%}
 
 {%- if D.leadership_flow and D.leadership_flow.limit -%}
   {%- assign lim = D.leadership_flow.limit | plus:0 -%}
   {%- if lim > 0 and entries.size > lim -%}
     {%- assign entries = entries | slice:0, lim -%}
   {%- endif -%}
-  {%- if debug -%}<!-- DEBUG(authors.html): applied limit={{ lim }}, final entries={{ entries | size }} -->{%- endif -%}
 {%- endif -%}
 
 <div class="md-authors">
@@ -123,10 +106,7 @@ sections:
     {%- endif -%}
 
     {%- if doc -%}
-      {%- if debug -%}<!-- DEBUG(authors.html card): slug="{{ slug }}", name="{{ doc.name }}" -->{%- endif -%}
       {% include sections/author.html author=doc key=slug %}
-    {%- else -%}
-      {%- if debug -%}<!-- DEBUG(authors.html): could not resolve doc for slug="{{ slug }}" -->{%- endif -%}
     {%- endif -%}
   {%- endfor -%}
 </div>

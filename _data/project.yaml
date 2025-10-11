@@ -55,7 +55,6 @@ sections:
             - label: "Black Level, vouched for by existing Cultivator(s)"
   - type: authors
     data:
-      debug: true
       leadership_flow:
         label: "⛩️🪴 Signal Gardeners"
         designation_type: project

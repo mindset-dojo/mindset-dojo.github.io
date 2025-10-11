@@ -193,7 +193,6 @@ sections:
             - label: Black Level, Zen Leadership Instructor designation
   - type: authors
     data:
-      debug: true
       leadership_flow:
         label: "⛩️💫 Resonance Guides"
         designation_type: program
