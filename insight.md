@@ -9,9 +9,7 @@ permalink: /insight/
 <section id="insights-stream">
   {%- comment -%}
   Lists all docs from the `insight` collection, newest first.
-  Author names are resolved from `site.authors`:
-    - try doc.slug match
-    - fallback to derived slug: (doc.slug | default: doc.name) |> split('.') |> first |> slugify
+  Author names are resolved strictly by `doc.slug` (no fallback).
   {%- endcomment -%}
 
   {% assign insight_posts = site.insight | sort: "date" | reverse %}
@@ -56,19 +54,10 @@ permalink: /insight/
       {% endif %}
     {% endif %}
 
-    {%- comment -%} Resolve each slug to a collection doc (slug match, then filename fallback) {%- endcomment -%}
+    {%- comment -%} Strict slug-only resolution {%- endcomment -%}
     {% for s in author_slugs %}
       {% assign s_norm = s | split:'.' | first | slugify %}
       {% assign doc = site.authors | where: "slug", s_norm | first %}
-      {% if doc == nil %}
-        {% for d in site.authors %}
-          {% assign d_slug = d.slug | default: d.name | split:'.' | first | slugify %}
-          {% if d_slug == s_norm %}
-            {% assign doc = d %}
-            {% break %}
-          {% endif %}
-        {% endfor %}
-      {% endif %}
       {% if doc and doc.name %}
         {% assign authors_names = authors_names | push: doc.name %}
       {% endif %}

@@ -1,5 +1,5 @@
 {%- comment -%}
-authors grid section — collection-only, lean version
+authors grid section — collection-only, strict slug mode
 
 sections:
   - type: authors
@@ -33,53 +33,47 @@ sections:
   {%- else -%}
     {%- assign slugs = raw | split:'\n' | map:'strip' -%}
   {%- endif -%}
+  {%- comment -%} Strict: keep only docs whose slug is explicitly listed {%- endcomment -%}
   {%- assign docs = "" | split:"|" -%}
   {%- for s in slugs -%}
     {%- assign s = s | split:'.' | first | downcase | strip -%}
     {%- assign doc = site.authors | where:"slug", s | first -%}
-    {%- if doc == nil -%}
-      {%- comment -%} Fallback: match by derived slug from doc.name {%- endcomment -%}
-      {%- for d in site.authors -%}
-        {%- assign d_slug = d.slug | default: d.name | split:'.' | first | slugify -%}
-        {%- if d_slug == s -%}{%- assign doc = d -%}{%- break -%}{%- endif -%}
-      {%- endfor -%}
-    {%- endif -%}
     {%- if doc -%}{%- assign docs = docs | push: doc -%}{%- endif -%}
   {%- endfor -%}
 {%- else -%}
   {%- assign docs = site.authors -%}
 {%- endif -%}
 
-{%- comment -%} Filter by active and optional designation_type {%- endcomment -%}
+{%- comment -%} Filter by slug presence, active, and optional designation_type {%- endcomment -%}
 {%- assign filtered = "" | split:"|" -%}
 {%- for a in docs -%}
-  {%- assign a_slug = a.slug | default: a.name | split:'.' | first | slugify -%}
-  {%- assign show = a.active | default:true -%}
-  {%- if show and designation_type != '' -%}
-    {%- assign show = false -%}
-    {%- assign ld = a.leadership_designations -%}
-    {%- if ld and ld.size > 0 -%}
-      {%- for item in ld -%}
-        {%- assign t = item.type | downcase | strip -%}
-        {%- assign v = item.value | default:item.key | to_s | strip -%}
-        {%- if t == designation_type and v != '' and v != 'null' -%}
-          {%- assign show = true -%}
-        {%- endif -%}
-      {%- endfor -%}
+  {%- if a.slug and a.slug != '' -%}
+    {%- assign show = a.active | default:true -%}
+    {%- if show and designation_type != '' -%}
+      {%- assign show = false -%}
+      {%- assign ld = a.leadership_designations -%}
+      {%- if ld and ld.size > 0 -%}
+        {%- for item in ld -%}
+          {%- assign t = item.type | downcase | strip -%}
+          {%- assign v = item.value | default:item.key | to_s | strip -%}
+          {%- if t == designation_type and v != '' and v != 'null' -%}
+            {%- assign show = true -%}
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endif -%}
     {%- endif -%}
-  {%- endif -%}
-  {%- if show -%}
-    {%- assign filtered = filtered | push: a -%}
+    {%- if show -%}
+      {%- assign filtered = filtered | push: a -%}
+    {%- endif -%}
   {%- endif -%}
 {%- endfor -%}
 
 {%- comment -%} Sort: program_level DESC (via negation), then by date ASC {%- endcomment -%}
 {%- assign entries = "" | split:"|" -%}
 {%- for a in filtered -%}
-  {%- assign a_slug = a.slug | default: a.name | split:'.' | first | slugify -%}
   {%- assign neg_program = a.program_level | times:-1 | plus:1000 | prepend:"0000" | slice:-4,4 -%}
   {%- assign bld = a.program_level_date | default:a.join_date | default:"9999-12-31" -%}
-  {% capture entry %}{{ neg_program }}|{{ bld }}|{{ a_slug }}{% endcapture %}
+  {% capture entry %}{{ neg_program }}|{{ bld }}|{{ a.slug }}{% endcapture %}
   {%- assign entries = entries | push: entry -%}
 {%- endfor -%}
 {%- assign entries = entries | sort -%}
@@ -95,16 +89,7 @@ sections:
   {%- for e in entries -%}
     {%- assign parts = e | split:'|' -%}
     {%- assign slug  = parts[2] -%}
-
-    {%- comment -%} Resolve the doc again using slug with a filename fallback {%- endcomment -%}
-    {%- assign doc = site.authors | where:"slug", slug | first -%}
-    {%- if doc == nil -%}
-      {%- for d in site.authors -%}
-        {%- assign d_slug = d.slug | default: d.name | split:'.' | first | slugify -%}
-        {%- if d_slug == slug -%}{%- assign doc = d -%}{%- break -%}{%- endif -%}
-      {%- endfor -%}
-    {%- endif -%}
-
+    {%- assign doc   = site.authors | where:"slug", slug | first -%}
     {%- if doc -%}
       {% include sections/author.html author=doc key=slug %}
     {%- endif -%}
