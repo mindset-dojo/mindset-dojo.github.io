@@ -1,0 +1,29 @@
+{%- comment -%}
+Renders engagements as a simple list.
+
+Expects:
+  - include.items : array of { label, description }
+  - section.data.label (optional heading)
+Null/empty-safe: silently skips missing fields.
+{%- endcomment -%}
+
+{%- assign D = section.data -%}
+{%- assign items = include.items -%}
+
+{%- if items and items.size > 0 -%}
+<section class="md-flow">
+  {%- if D and D.label -%}<h2>{{ D.label }}</h2>{%- endif -%}
+  <ul>
+    {%- for e in items -%}
+      {%- assign lbl = e.label | default: '' -%}
+      {%- assign desc = e.description | default: '' -%}
+      {%- if lbl != '' or desc != '' -%}
+        <li>
+          {%- if lbl != '' -%}<h3>{{ lbl }}</h3>{%- endif -%}
+          {%- if desc != '' -%}<p>{{ desc | markdownify | strip }}</p>{%- endif -%}
+        </li>
+      {%- endif -%}
+    {%- endfor -%}
+  </ul>
+</section>
+{%- endif -%}

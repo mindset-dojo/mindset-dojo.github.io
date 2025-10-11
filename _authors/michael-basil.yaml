@@ -1,4 +1,12 @@
 ---
+layout: threshold
+data_key: author
+mantra: "Don’t Perform. Embody."
+mantra_mark: "Embody."
+description: >
+  Zen Leadership Coach; Mindset Dojo & MetaShift Method. Conversational Presence
+  when it matters most—meeting people at the depth that aligns with what brings
+  real value.
 name: Michael Basil
 active: true
 join_date: 2019-01-01
@@ -38,22 +46,15 @@ engagements:
     description: >
       Immersive sessions exploring the human factor of leadership through the
       Mindset Dojo approach—MetaShift Method, Zen Leadership, and Conversational
-      Presence. Each session blends reflection, dialogue, embodied practice, and
-      Agile flow to build energy agility and composure under pressure.
+      Presence—integrated with Agile flow.
   - label: Scoped Engagements
     description: >
-      Targeted collaborations that unite Agile transformation with human systems
-      design. Work may include leadership team calibration, cultural
-      retrospectives, or technology-to-human workflow integration. Drawing on
-      software engineering, DevSecOps, and AI practice, we align people,
-      process, and product toward adaptive, ethical growth.
+      Targeted collaborations uniting Agile transformation and human systems
+      design across context, culture, and product.
   - label: Resident Expert
     description: >
-      Medium-term residencies—one or more days per week—supporting organizations
-      through scaling or reinvention. Combines technical depth (secure software
-      delivery, cloud architecture, AI ethics) with human-factor leadership
-      development. Ideal for early-stage or evolving teams seeking coherence
-      across systems, culture, and communication.
+      Medium-term in-residence support during periods of scaling or reinvention,
+      combining technical depth with human-factor leadership.
 contact:
   - type: email
     value: michael@basil.one
@@ -63,4 +64,4 @@ contact:
     value: https://github.com/michael-basil
   - type: calendly
     value: https://connect.michael.basil.one
-...
+---

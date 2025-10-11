@@ -9,10 +9,9 @@ permalink: /insight/
 <section id="insights-stream">
   {%- comment -%}
   Stream behavior:
-  - By default shows insight posts tagged "insight"; falls back to all insight posts if none.
-  - Article URLs resolve to: /insight/<slug>/
-  - Tag URLs resolve to: /insight/<tag-slug>/
-  - Image handling supports data: URIs, path strings, or raw base64 (with optional page.image_mime).
+  - Lists all docs from the `insight` collection, newest first.
+  - Author names resolved from the `authors` collection by slug in post.front-matter:
+      authors: ["michael-basil", "kyle-ingersoll"]
   {%- endcomment -%}
 
   {% assign insight_posts = site.insight | sort: "date" | reverse %}
@@ -21,18 +20,12 @@ permalink: /insight/
   {% endif %}
 
   {% for post in insight_posts %}
-    {%- comment -%}
-    Build a safe slug for the post:
-      1) prefer post.slug
-      2) fallback to last segment of post.url (handles /:year/:month/:day/slug/ or /slug/)
-      3) final fallback to post.title | slugify
-    {%- endcomment -%}
+    {%- comment -%} Resolve a safe slug (defensive) {%- endcomment -%}
     {% assign post_slug = post.slug %}
     {% if post_slug == nil or post_slug == "" %}
       {% assign segments = post.url | split: '/' %}
       {% assign last = segments | last %}
       {% if last == "" %}
-        {% comment %} URL ended with a slash; take the second-to-last segment {% endcomment %}
         {% assign post_slug = segments[segments.size | minus: 2] %}
       {% else %}
         {% assign post_slug = last %}
@@ -42,56 +35,42 @@ permalink: /insight/
       {% assign post_slug = post.title | slugify %}
     {% endif %}
 
-    {%- comment -%}
-    Construct final post URL under the /insight/ directory and make it baseurl-safe.
-    {%- endcomment -%}
-    {% assign post_url = '/insight/' | append: post_slug | append: '/' | relative_url %}
-
-      {% assign author_slugs = post.authors %}
-      {% assign authors_names = "" | split: "," %}
-
+    {%- comment -%} Build author display string from collection {%- endcomment -%}
+    {% assign authors_names = "" | split: "," %}
+    {% assign author_slugs = post.authors %}
+    {% if author_slugs %}
       {% for slug in author_slugs %}
-        {% for pair in site.data.authors %}
-          {% assign key = pair[0] %}
-          {% assign profile = pair[1] %}
-          {% if slug == key %}
-            {% assign authors_names = authors_names | push: profile.name %}
-            {% break %}
-          {% endif %}
-        {% endfor %}
+        {% assign doc = site.authors | where: "slug", slug | first %}
+        {% if doc and doc.name %}
+          {% assign authors_names = authors_names | push: doc.name %}
+        {% endif %}
       {% endfor %}
+    {% endif %}
 
-      {% assign author_name_string = "" %}
+    {% assign author_name_string = "" %}
+    {% if authors_names.size == 0 %}
+      {% assign author_name_string = site.author %}
+    {% elsif authors_names.size == 1 %}
+      {% assign author_name_string = authors_names[0] %}
+    {% else %}
+      {% assign last_index = authors_names.size | minus: 1 %}
+      {% for name in authors_names %}
+        {% assign author_name_string = author_name_string | append: name %}
+        {% unless forloop.index0 == last_index %}
+          {% assign author_name_string = author_name_string | append: " and " %}
+        {% endunless %}
+      {% endfor %}
+    {% endif %}
 
-      {% if authors_names.size == 0 %}
-        {% assign author_name_string = site.author %}
-      {% elsif authors_names.size == 1 %}
-        {% assign author_name_string = authors_names[0] %}
-      {% else %}
-        {% assign author_count = 0 %}
-        {% assign last_index = authors_names.size | minus: 1 %}
-        {% for name in authors_names %}
-          {% assign author_name_string = author_name_string | append: name %}
-          {% if author_count < last_index %}
-            {% assign author_name_string = author_name_string | append: " and " %}
-          {% endif %}
-          {% assign author_count = author_count | plus: 1 %}
-        {% endfor %}
-      {% endif %}
-      
-      {% assign post_slug = post.slug | default: post.title | slugify %}
-      {% assign post_date = post.date | default: "2025-01-01" | date: "%Y-%m-%d" | slugify %}
-
-      <article>
-        <h3 class="title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-        <p class="meta">
-          By {{ author_name_string | default: site.author }} — {{ post.date | date: "%b %-d, %Y" }}
-        </p>
-        <p class="excerpt">
-          {{ post.excerpt | default: post.content | strip_html | truncate: 220 }}
-        </p>
-        <hr>
-      </article>
-
+    <article>
+      <h3 class="title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <p class="meta">
+        By {{ author_name_string | default: site.author }} — {{ post.date | date: "%b %-d, %Y" }}
+      </p>
+      <p class="excerpt">
+        {{ post.excerpt | default: post.content | strip_html | truncate: 220 }}
+      </p>
+      <hr>
+    </article>
   {% endfor %}
 </section>

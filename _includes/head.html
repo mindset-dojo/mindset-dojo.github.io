@@ -3,13 +3,28 @@
   <meta charset="utf-8">
 
   {%- assign data = site.data[page.data_key] -%}
-  {%- assign raw_title = page.title | default: data.mantra | default: site.title -%}
+  {%- assign mission = site.data.mission -%}
 
+  {%- comment -%}
+    Title precedence:
+      page.title → page.mantra → data.mantra → mission.mantra → site.title
+  {%- endcomment -%}
+  {%- assign raw_title = page.title
+    | default: page.mantra
+    | default: data.mantra
+    | default: mission.mantra
+    | default: site.title -%}
+
+  {%- comment -%}
+    Meta description precedence:
+      page.description → data.description → mission.description → page.excerpt → site.description → site.title
+  {%- endcomment -%}
   {%- assign raw_desc = page.description
-      | default: data.description
-      | default: page.excerpt
-      | default: site.description
-      | default: site.title -%}
+    | default: data.description
+    | default: mission.description
+    | default: page.excerpt
+    | default: site.description
+    | default: site.title -%}
   {%- assign meta_desc = raw_desc | strip_html | strip_newlines | truncate: 160 -%}
 
   <title>{{ raw_title }}</title>

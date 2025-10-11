@@ -5,14 +5,23 @@ Each case delegates to a small, focused template for that section type.
 
 {%- case section.type -%}
 
+  {%- when 'author' -%}
+    {% include sections/author.html author=page key=page.slug %}
+
   {%- when 'authors' -%}
     {% include sections/authors.html section=section %}
+
+  {%- when 'biosketch' -%}
+    {% include sections/biosketch.html content_md=page.biosketch %}
 
   {%- when 'ctas' -%}
     {% include sections/ctas.html section=section %}
 
   {%- when 'designations' -%}
     {% include sections/designations.html section=section data=data %}
+
+  {%- when 'engagements' -%}
+    {% include sections/engagements.html section=section items=page.engagements %}
 
   {%- when 'levels' -%}
     {% include sections/levels.html section=section %}

@@ -1,233 +1,99 @@
 {%- comment -%}
-authors grid section
+authors grid section — collection-only, lean version
 
-section.data may include:
-  - leadership_flow: {
-      label: string, limit: int,
-      designation_type: string   # e.g. "project", "program" (optional)
-    }
-  - profiles / avatars overrides (optional)
+Options via section.data:
+  leadership_flow:
+    label: string (optional heading)
+    limit: int (optional)
+    designation_type: string ("program" | "project" | etc., optional)
 
 Behavior:
-  - If leadership_flow.designation_type is present, filter by that type.
-  - If author.active is undefined, default to TRUE (show the author).
-This file now supports an optional include-time override:
-  {% include sections/authors.html authors=page.authors %}
-When include.authors is provided, the authors-from-front-matter (Insight Stream)
-flow will run and the normal section behavior will be skipped.
+  - If include.authors is provided (array or comma/JSON string of slugs), render only those.
+  - Otherwise render from site.authors.
+  - active defaults to true when missing.
+  - Sort: program_level DESC, then program_level_date/join_date ASC.
 {%- endcomment -%}
 
 {%- assign D = section.data -%}
-{%- assign profiles = D.profiles | default: site.data.authors -%}
-{%- assign entries  = "" | split: "|" -%}
-
 {%- assign designation_type = D.leadership_flow.designation_type | default: '' | downcase | strip -%}
 
-{%- assign has_wrapper = D.leadership_flow -%}
-{%- if has_wrapper -%}
+{%- if D.leadership_flow and D.leadership_flow.label -%}
 <section class="md-flow">
-  {%- if D.leadership_flow.label -%}
-    <h2>{{ D.leadership_flow.label }}</h2>
-  {%- endif -%}
+  <h2>{{ D.leadership_flow.label }}</h2>
 </section>
 {%- endif -%}
 
-{%- comment -%}
-INSIGHT-STREAM OVERRIDE:
-If the include was invoked with `authors` (array or single slug),
-build the entries list from those slugs and render only the matching profiles.
-This block is intentionally guarded so existing site usage (without include.authors)
-continues to use the original behavior below.
-{%- endcomment -%}
-
-{%- if include.authors and include.authors != nil and include.authors != "" -%}
-
-  {%- comment -%}
-  Robust normalization for include.authors → author_list
-  Supports:
-  - true Liquid arrays passed from front matter
-  - JSON-like string arrays (e.g. '["a","b"]')
-  - CSV strings ("a,b")
-  - single slug strings ("a")
-  {%- endcomment -%}
-
-  {%- assign raw_authors = include.authors -%}
-
-  {%- if raw_authors == nil or raw_authors == "" -%}
-    {%- assign author_list = "" | split: "|" -%} {# empty array #}
-
-  {%- elsif raw_authors[0] != nil -%}
-    {%- comment -%} Looks like a real Liquid array (safe). {%- endcomment -%}
-    {%- assign author_list = raw_authors -%}
-
-  {%- elsif raw_authors contains '[' and raw_authors contains ']' -%}
-    {%- comment -%} String that looks like a JSON array -> strip brackets/quotes and split. {%- endcomment -%}
-    {%- assign tmp = raw_authors | remove: '[' | remove: ']' | remove: '"' | remove: "'" | strip -%}
-    {%- assign author_list = tmp | split: ',' | map: "strip" -%}
-
-  {%- elsif raw_authors contains ',' -%}
-    {%- assign author_list = raw_authors | split: ',' | map: "strip" -%}
-
+{%- comment -%} Normalize include.authors (slugs) to an array {%- endcomment -%}
+{%- assign use_override = include.authors and include.authors != "" -%}
+{%- if use_override -%}
+  {%- assign raw = include.authors -%}
+  {%- if raw[0] != nil -%}
+    {%- assign slugs = raw -%}
+  {%- elsif raw contains '[' and raw contains ']' -%}
+    {%- assign tmp = raw | remove:'[' | remove:']' | remove:'"' | remove:"'" | strip -%}
+    {%- assign slugs = tmp | split:',' | map:'strip' -%}
+  {%- elsif raw contains ',' -%}
+    {%- assign slugs = raw | split:',' | map:'strip' -%}
   {%- else -%}
-    {%- assign author_list = raw_authors | split: '\n' | map: "strip" -%}
+    {%- assign slugs = raw | split:'\n' | map:'strip' -%}
   {%- endif -%}
-
-  {%- comment -%} Build entries only for the requested author slugs {%- endcomment -%}
-  {%- for raw_slug in author_list -%}
-    {%- assign raw_slug = raw_slug | default: "" | strip -%}
-    {%- if raw_slug == "" -%}
-      {%- continue -%}
-    {%- endif -%}
-
-    {%- assign slug = raw_slug | split:'.' | first | strip | downcase -%}
-
-    {%- comment -%}
-    Robust lookup:
-      1) fast map lookup: site.data.authors[slug] (works when authors are per-file)
-      2) iterate map keys (if site.data.authors is a map) and match key or p.slug
-      3) iterate array of profiles (if site.data.authors is an array) and match p.slug or slugified name
-    {%- endcomment -%}
-
-    {%- assign profile = nil -%}
-    {%- assign found_key = nil -%}
-
-    {%- if site.data.authors[slug] -%}
-      {%- assign profile = site.data.authors[slug] -%}
-      {%- assign found_key = slug -%}
-    {%- else -%}
-      {%- comment -%} site.data.authors might be a map or an array; try both {%- endcomment -%}
-
-      {%- if site.data.authors and site.data.authors.class == "Hash" -%}
-        {%- for key in site.data.authors -%}
-          {%- assign p = site.data.authors[key] -%}
-          {%- assign key_normal = key | downcase | strip -%}
-          {%- assign pslug = p.slug | default: "" | downcase | strip -%}
-          {%- assign pname_slug = p.name | default: "" | slugify | downcase | strip -%}
-          {%- if key_normal == slug or pslug == slug or pname_slug == slug -%}
-            {%- assign profile = p -%}
-            {%- assign found_key = key -%}
-            {%- break -%}
-          {%- endif -%}
-        {%- endfor -%}
-
-      {%- elsif site.data.authors and site.data.authors.class == "Array" -%}
-        {%- for p in site.data.authors -%}
-          {%- assign pslug = p.slug | default: "" | downcase | strip -%}
-          {%- assign pname_slug = p.name | default: "" | slugify | downcase | strip -%}
-          {%- if pslug == slug or pname_slug == slug -%}
-            {%- assign profile = p -%}
-            {%- assign found_key = slug -%} {%- comment -%}use slug as fallback key{%- endcomment -%}
-            {%- break -%}
-          {%- endif -%}
-        {%- endfor -%}
-      {%- endif -%}
-    {%- endif -%}
-
-    {%- if profile -%}
-      {%- assign neg_program = profile.program_level | times: -1 | plus: 1000 | prepend: "0000" | slice: -4, 4 -%}
-      {%- assign bld = profile.program_level_date | default: profile.join_date | default: "9999-12-31" -%}
-      {% capture entry %}{{ neg_program }}|{{ bld }}|{{ found_key | default: slug }}{% endcapture %}
-      {% assign entries = entries | push: entry %}
-    {%- endif -%}
-
+  {%- comment -%} Filter site.authors down to requested slugs {%- endcomment -%}
+  {%- assign docs = "" | split:"|" -%}
+  {%- for s in slugs -%}
+    {%- assign s = s | split:'.' | first | downcase | strip -%}
+    {%- assign doc = site.authors | where:"slug", s | first -%}
+    {%- if doc -%}{%- assign docs = docs | push: doc -%}{%- endif -%}
   {%- endfor -%}
+{%- else -%}
+  {%- assign docs = site.authors -%}
+{%- endif -%}
 
-  {%- comment -%} Sort and optionally apply leadership_flow limit (same as original) {%- endcomment -%}
-  {% assign sorted_entries = entries | sort %}
-  {%- assign render_entries = sorted_entries -%}
-  {%- if D.leadership_flow and D.leadership_flow.limit -%}
-    {%- assign lim = D.leadership_flow.limit | plus: 0 -%}
-    {%- if lim > 0 and render_entries.size > lim -%}
-      {%- assign render_entries = render_entries | slice: 0, lim -%}
+{%- comment -%} Filter by active and optional designation_type {%- endcomment -%}
+{%- assign filtered = "" | split:"|" -%}
+{%- for a in docs -%}
+  {%- assign show = a.active | default:true -%}
+  {%- if show and designation_type != '' -%}
+    {%- assign show = false -%}
+    {%- assign ld = a.leadership_designations -%}
+    {%- if ld and ld.size > 0 -%}
+      {%- for item in ld -%}
+        {%- assign t = item.type | downcase | strip -%}
+        {%- assign v = item.value | default:item.key | to_s | strip -%}
+        {%- if t == designation_type and v != '' and v != 'null' -%}
+          {%- assign show = true -%}
+        {%- endif -%}
+      {%- endfor -%}
     {%- endif -%}
   {%- endif -%}
+  {%- if show -%}
+    {%- assign filtered = filtered | push: a -%}
+  {%- endif -%}
+{%- endfor -%}
 
-  <div class="md-authors">
-    {%- comment -%} Render cards for the requested authors only; look them up robustly {%- endcomment -%}
-    {% for entry in render_entries %}
-      {% assign parts  = entry | split: "|" %}
-      {% assign key    = parts[2] %}
-      {%- comment -%}
-      Prefer site.data.authors[key] when present, otherwise attempt to locate by slug in array.
-      {%- endcomment -%}
-      {%- assign author = site.data.authors[key] -%}
-      {%- if author == nil and site.data.authors.class == "Array" -%}
-        {%- for p in site.data.authors -%}
-          {%- assign pslug = p.slug | default: "" | downcase | strip -%}
-          {%- assign pname_slug = p.name | default: "" | slugify | downcase | strip -%}
-          {%- if pslug == key or pname_slug == key -%}
-            {%- assign author = p -%}
-            {%- break -%}
-          {%- endif -%}
-        {%- endfor -%}
-      {%- endif -%}
+{%- comment -%} Sort: program_level DESC (simulate by negating), then by date ASC {%- endcomment -%}
+{%- assign entries = "" | split:"|" -%}
+{%- for a in filtered -%}
+  {%- assign neg_program = a.program_level | times:-1 | plus:1000 | prepend:"0000" | slice:-4,4 -%}
+  {%- assign bld = a.program_level_date | default:a.join_date | default:"9999-12-31" -%}
+  {% capture entry %}{{ neg_program }}|{{ bld }}|{{ a.slug }}{% endcapture %}
+  {%- assign entries = entries | push: entry -%}
+{%- endfor -%}
+{%- assign entries = entries | sort -%}
 
-      {%- if author -%}
-        {% include sections/author.html author=author key=key %}
-      {%- endif -%}
-    {% endfor %}
-  </div>
-
-{%- else -%}
-
-  {%- comment -%}
-  ORIGINAL behavior (no include.authors override) — left unchanged except for being
-  placed in the else branch so it only runs when include.authors is not supplied.
-  {%- endcomment -%}
-
-  <div class="md-authors">
-    {%- comment -%} 1) Build sortable list of active (optionally filtered) authors {%- endcomment -%}
-    {% for pair in profiles %}
-      {% assign key = pair[0] %}
-      {% assign author = pair[1] %}
-
-      {%- assign show_author = author.active | default: true -%}
-
-      {%- if show_author and designation_type != '' -%}
-        {%- assign show_author = false -%}
-        {%- assign ld = author.leadership_designations -%}
-        {%- if ld and ld.size > 0 -%}
-          {%- for item in ld -%}
-            {%- assign t = item.type  | downcase | strip -%}
-            {%- assign v = item.value | default: item.key | to_s | strip -%}
-            {%- if t == designation_type and v != '' and v != 'null' -%}
-              {%- assign show_author = true -%}
-            {%- endif -%}
-          {%- endfor -%}
-        {%- endif -%}
-      {%- endif -%}
-
-      {% if show_author %}
-        {%- comment -%}
-          program_level DESC → negate and pad, then sort ASC
-          date ASC → prefer program_level_date, then join_date, else far future to push to end
-        {%- endcomment -%}
-        {%- assign neg_program = author.program_level | times: -1 | plus: 1000 | prepend: "0000" | slice: -4, 4 -%}
-        {%- assign bld = author.program_level_date | default: author.join_date | default: "9999-12-31" -%}
-        {% capture entry %}{{ neg_program }}|{{ bld }}|{{ key }}{% endcapture %}
-        {% assign entries = entries | push: entry %}
-      {% endif %}
-    {% endfor %}
-
-    {%- comment -%} 2) Sort {%- endcomment -%}
-    {% assign sorted_entries = entries | sort %}
-
-    {%- comment -%} 3) Apply optional limit {%- endcomment -%}
-    {%- assign render_entries = sorted_entries -%}
-    {%- if D.leadership_flow and D.leadership_flow.limit -%}
-      {%- assign lim = D.leadership_flow.limit | plus: 0 -%}
-      {%- if lim > 0 and render_entries.size > lim -%}
-        {%- assign render_entries = render_entries | slice: 0, lim -%}
-      {%- endif -%}
-    {%- endif -%}
-
-    {%- comment -%} 4) Render cards {%- endcomment -%}
-    {% for entry in render_entries %}
-      {% assign parts  = entry | split: "|" %}
-      {% assign key    = parts[2] %}
-      {% assign author = profiles[key] %}
-      {% include sections/author.html author=author key=key %}
-    {% endfor %}
-  </div>
-
+{%- if D.leadership_flow and D.leadership_flow.limit -%}
+  {%- assign lim = D.leadership_flow.limit | plus:0 -%}
+  {%- if lim > 0 and entries.size > lim -%}
+    {%- assign entries = entries | slice:0, lim -%}
+  {%- endif -%}
 {%- endif -%}
+
+<div class="md-authors">
+  {%- for e in entries -%}
+    {%- assign parts = e | split:'|' -%}
+    {%- assign slug  = parts[2] -%}
+    {%- assign doc   = site.authors | where:"slug", slug | first -%}
+    {%- if doc -%}
+      {% include sections/author.html author=doc key=doc.slug %}
+    {%- endif -%}
+  {%- endfor -%}
+</div>
