@@ -1,0 +1,16 @@
+---
+mantra: "Don't Fix. Evolve."
+mantra_mark: "Evolve."
+description: "We are pattern evolvers. We observe, distill, and evolve patterns of interaction that cultivate presence, connection, and flow."
+sections:
+  - type: mission
+    data:
+      mission_rally_suffix_label: ": Spiral Reflection"
+      mission_statement_bridge:
+        - "We center with intention to meet fear with presence."
+        - "We garden patterns of interaction — on the Mat and in conversation with tension as teacher."
+        - "This is MetaShift Orchard — where evolution blossoms into emergence."
+  - type: quote
+    data:
+      text: "Coming soon..."
+...
