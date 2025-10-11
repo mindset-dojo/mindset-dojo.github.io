@@ -11,7 +11,7 @@
   }
 
   /* [INSIGHT] */
-  #insight  {
+  #insight.article  {
     max-width: 700px;
     align-self: center;
     text-align: center; 
