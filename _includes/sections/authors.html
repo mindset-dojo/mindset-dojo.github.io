@@ -1,7 +1,8 @@
 {%- comment -%}
 authors grid section — collection-only, lean version with simple DEBUG comments
+Fix: compute slug fallback from filename when doc.slug is empty (typical for .yaml items).
 
-Enable debug by setting:
+Enable debug with:
 sections:
   - type: authors
     data:
@@ -10,9 +11,6 @@ sections:
         label: ...
         designation_type: ...
         limit: ...
-
-Notes:
-- DEBUG comments are emitted as HTML comments <!-- ... --> so they won't affect layout.
 {%- endcomment -%}
 
 {%- assign D = section.data -%}
@@ -44,6 +42,13 @@ Notes:
   {%- for s in slugs -%}
     {%- assign s = s | split:'.' | first | downcase | strip -%}
     {%- assign doc = site.authors | where:"slug", s | first -%}
+    {%- if doc == nil -%}
+      {%- comment -%} Fallback: match by derived slug from doc.name {%- endcomment -%}
+      {%- for d in site.authors -%}
+        {%- assign d_slug = d.slug | default: d.name | split:'.' | first | slugify -%}
+        {%- if d_slug == s -%}{%- assign doc = d -%}{%- break -%}{%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
     {%- if debug -%}<!-- DEBUG(authors.html): lookup slug="{{ s }}", found="{{ doc.name | default: 'nil' }}" -->{%- endif -%}
     {%- if doc -%}{%- assign docs = docs | push: doc -%}{%- endif -%}
   {%- endfor -%}
@@ -55,6 +60,7 @@ Notes:
 {%- comment -%} Filter by active and optional designation_type {%- endcomment -%}
 {%- assign filtered = "" | split:"|" -%}
 {%- for a in docs -%}
+  {%- assign a_slug = a.slug | default: a.name | split:'.' | first | slugify -%}
   {%- assign show = a.active | default:true -%}
   {%- if show and designation_type != '' -%}
     {%- assign show = false -%}
@@ -72,16 +78,17 @@ Notes:
   {%- if show -%}
     {%- assign filtered = filtered | push: a -%}
   {%- endif -%}
-  {%- if debug -%}<!-- DEBUG(authors.html): candidate slug="{{ a.slug }}", name="{{ a.name }}", active={{ a.active | default: true }}, included={{ show }} -->{%- endif -%}
+  {%- if debug -%}<!-- DEBUG(authors.html): candidate slug="{{ a_slug }}", name="{{ a.name }}", active={{ a.active | default: true }}, included={{ show }} -->{%- endif -%}
 {%- endfor -%}
 {%- if debug -%}<!-- DEBUG(authors.html): filtered count={{ filtered | size }} -->{%- endif -%}
 
 {%- comment -%} Sort: program_level DESC (via negation), then by date ASC {%- endcomment -%}
 {%- assign entries = "" | split:"|" -%}
 {%- for a in filtered -%}
+  {%- assign a_slug = a.slug | default: a.name | split:'.' | first | slugify -%}
   {%- assign neg_program = a.program_level | times:-1 | plus:1000 | prepend:"0000" | slice:-4,4 -%}
   {%- assign bld = a.program_level_date | default:a.join_date | default:"9999-12-31" -%}
-  {% capture entry %}{{ neg_program }}|{{ bld }}|{{ a.slug }}{% endcapture %}
+  {% capture entry %}{{ neg_program }}|{{ bld }}|{{ a_slug }}{% endcapture %}
   {%- assign entries = entries | push: entry -%}
 {%- endfor -%}
 {%- assign entries = entries | sort -%}
@@ -105,10 +112,19 @@ Notes:
   {%- for e in entries -%}
     {%- assign parts = e | split:'|' -%}
     {%- assign slug  = parts[2] -%}
-    {%- assign doc   = site.authors | where:"slug", slug | first -%}
+
+    {%- comment -%} Resolve the doc again using slug with a filename fallback {%- endcomment -%}
+    {%- assign doc = site.authors | where:"slug", slug | first -%}
+    {%- if doc == nil -%}
+      {%- for d in site.authors -%}
+        {%- assign d_slug = d.slug | default: d.name | split:'.' | first | slugify -%}
+        {%- if d_slug == slug -%}{%- assign doc = d -%}{%- break -%}{%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+
     {%- if doc -%}
       {%- if debug -%}<!-- DEBUG(authors.html card): slug="{{ slug }}", name="{{ doc.name }}" -->{%- endif -%}
-      {% include sections/author.html author=doc key=doc.slug %}
+      {% include sections/author.html author=doc key=slug %}
     {%- else -%}
       {%- if debug -%}<!-- DEBUG(authors.html): could not resolve doc for slug="{{ slug }}" -->{%- endif -%}
     {%- endif -%}
