@@ -104,15 +104,14 @@
   /* Post body context variants (moved from UI) */
   .post-body .md-grid-2 blockquote,
   .post-body .md-grid-3 blockquote {
-    position: relative; /* so the ::before is positioned relative to this block */
-    display: inline-block; /* shrink-to-fit width of content */
-    margin: 1.5em auto; /* center it horizontally */
-    padding: 1em 1.5em; /* space inside so text doesn’t touch edges */
+    position: relative;
+    display: inline-block;
+    margin: 1.5em auto;
+    padding: 1em 1.5em;
     background-color: var(--dark-color-secondary);
     border-radius: 24px;
     text-align: center;
-    /* maybe set a max-width so it doesn’t stretch too wide */
-    max-width: 80%; /* or whatever works */
+    max-width: 80%;
   }
 
   .post-body .md-grid-2 blockquote::before,
@@ -122,8 +121,8 @@
     top: 0;
     bottom: 0;
     left: 0;
-    width: 6px; /* thickness of your stripe */
-    background-color: var(--brand-color); /* yellow stripe color */
+    width: 6px;
+    background-color: var(--brand-color);
     border-top-left-radius: 24px;
     border-bottom-left-radius: 24px;
   }
