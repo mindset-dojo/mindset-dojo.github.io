@@ -50,7 +50,7 @@ about: |
   Mindset Dojo approach—MetaShift Method, Zen Leadership, and Conversational
   Presence—integrated with Agile flow.
 
-  #### Scoped Engagement
+  #### Strategic Engagement
 
   Targeted collaborations uniting Agile transformation and human systems design
   across context, culture, and product.
