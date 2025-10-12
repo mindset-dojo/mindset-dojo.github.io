@@ -44,7 +44,7 @@ about: |
 
   ### Offering
 
-  #### Training Presence
+  #### Presence Training
 
   Immersive sessions exploring the human factor of leadership through the
   Mindset Dojo approach—MetaShift Method, Zen Leadership, and Conversational
