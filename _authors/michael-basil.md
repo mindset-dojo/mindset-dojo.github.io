@@ -21,12 +21,13 @@ about: |
   I never expected taming parrots and navigating soccer scrums to lead me to
   coaching leaders—but looking back, it makes perfect sense.
 
-  Growing up in my mom’s parrot shop, I learned early how to calm unruly
-  macaws. On the soccer pitch, I found rhythm in motion—shifting fluidly
-  between opportunistic striker and lockdown defender. Later, I trained for
-  elegant simplicity with a computer engineering degree from the University of
-  Illinois and spent my early career driving Agile and technology-driven
-  transformation initiatives across complex organizations.
+  Growing up in my mom’s parrot shop, I learned early to read patterns of tension
+  and trust by calming unruly macaws as I relaxed into edge zones. On the soccer
+  pitch, I found rhythm in motion—shifting fluidly between opportunistic striker
+  and lockdown defender. Later, I trained for elegant simplicity with a computer
+  engineering degree from the University of Illinois and spent my early career
+  driving Agile and technology-driven transformation initiatives across complex
+  organizations.
 
   Through a series of deeply challenging personal and professional lessons, I
   came to see that trying to control everything—inside or out—was itself the
