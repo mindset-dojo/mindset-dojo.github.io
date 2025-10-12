@@ -1,7 +1,7 @@
 ---
 layout: default
-mantra: Don't Absorb. Author.
-mantra_mark: Author.
+title: Don't Absorb. Author.
+title_mark: Author.
 css_id: insight
 permalink: /insight/
 ---
