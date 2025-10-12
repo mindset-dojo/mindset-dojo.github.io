@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "To Build Is to Owe. To Wait Is to Win."
+title_mark: Owe
 authors: ["kyle-ingersoll"]
-h1_mark: Owe
 date: 2025-08-23
 excerpt: "A reflection on the MetaShift from Visionary to Organizer energy, where doing nothing—*for now*—becomes the wisest move."
 ---

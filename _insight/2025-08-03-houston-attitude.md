@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Houston, We Have an Attitude"
+title_mark: Attitude
 authors: ["michael-basil", "kyle-ingersoll"]
-h1_mark: Attitude
 date: 2025-08-03
 excerpt: "When tone shifts, awareness follows—revealing the MetaShift from control to connection that transforms every conversation into practice."
 ---

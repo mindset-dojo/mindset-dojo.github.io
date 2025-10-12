@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Blue Belt Reflection"
+title_mark: Reflection
 authors: ["kyle-ingersoll"]
-h1_mark: Reflection
 date: 2025-07-26
 excerpt: "Through Blue Belt training, I learned that Fearless Leadership begins not with control, but with the awareness to lead, follow, and act through balance."
 ---

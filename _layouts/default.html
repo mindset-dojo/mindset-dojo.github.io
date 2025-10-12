@@ -15,12 +15,12 @@
       Mark precedence:
         page.h1_mark → page.mantra_mark → data.mantra_mark → mission.mantra_mark
     {%- endcomment -%}
-    {%- assign base_h1     = page.h1
+    {%- assign base_h1     = page.title
                                | default: page.mantra
                                | default: data.mantra
                                | default: mission.mantra
                                | default: site.title -%}
-    {%- assign h1_mark_val = page.h1_mark
+    {%- assign h1_mark_val = page.title_mark
                                | default: page.mantra_mark
                                | default: data.mantra_mark
                                | default: mission.mantra_mark -%}
