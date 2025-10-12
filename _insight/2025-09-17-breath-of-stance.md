@@ -2,7 +2,8 @@
 layout: post
 title: "The Breath of a Stance Shifts the Mountain"
 title_mark: Stance
-authors: ["kyle-ingersoll"]
+authors: 
+  - kyle-ingersoll
 date: 2025-09-17
 excerpt: "When tension hardens between mismatched energies, Stances offer a way to realign through breath, tone, and presence—shifting both yourself and the field of conversation."
 ---
