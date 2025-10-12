@@ -9,12 +9,6 @@
     {%- assign data    = site.data[page.data_key] -%}
     {%- assign mission = site.data.mission -%}
 
-    {%- comment -%}
-      H1 precedence:
-        page.h1 → page.mantra → data.mantra → mission.mantra → site.title
-      Mark precedence:
-        page.h1_mark → page.mantra_mark → data.mantra_mark → mission.mantra_mark
-    {%- endcomment -%}
     {%- assign base_h1     = page.title
                                | default: page.mantra
                                | default: data.mantra

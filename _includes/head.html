@@ -5,24 +5,16 @@
   {%- assign data    = site.data[page.data_key] -%}
   {%- assign mission = site.data.mission -%}
 
-  {%- comment -%}
-    Title precedence (tab title):
-      page.mantra → page.title → data.mantra → mission.mantra → site.title
-  {%- endcomment -%}
   {%- assign raw_title = page.mantra
     | default: page.title
     | default: data.mantra
     | default: mission.mantra
     | default: site.title -%}
 
-  {%- comment -%}
-    Meta description precedence:
-      page.description → data.description → mission.description → page.excerpt → site.description → site.title
-  {%- endcomment -%}
   {%- assign raw_desc = page.description
     | default: data.description
-    | default: mission.description
     | default: page.excerpt
+    | default: mission.description
     | default: site.description
     | default: site.title -%}
   {%- assign meta_desc = raw_desc | strip_html | strip_newlines | truncate: 160 -%}
