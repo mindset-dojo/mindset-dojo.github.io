@@ -35,7 +35,7 @@ Meditation and Aikido extend awareness.
 Technology, then, is how we translate knowing into doing.  
 It’s how human beings practice authorship — shaping reality through applied intelligence.  
 
-In this sense, self-authorship is a technology.  
+In this sense, Self-authorship is a technology.  
 It’s the deliberate crafting of awareness —  
 through language, through movement, through breath —  
 to bring coherence between what we sense, think, and act.
@@ -80,7 +80,7 @@ It rebuilds the connective tissue in families, classrooms, and teams.
 It re-grounds conversation in awareness, authorship, and presence.  
 
 The movement is from aggravated and apathetic  
-→ to aware and self-authoring.
+→ to aware and Self-authoring.
 
 That’s the essence of Mindset Dojo:  
 training the full human stack — body, breath, system, and story —  
