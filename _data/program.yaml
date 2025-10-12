@@ -167,10 +167,10 @@ sections:
           intention: Wu-Wei
           edge: Explore MetaShift Method with another living system
           flows:
-            - label: For Something New To Come, Something Old Must Go
-              url: https://www.youtube.com/watch?v=_to_w-R0JjQ
             - label: 30 minute Zazen with Chosei Zen Virtual Dojo
               url: https://www.choseizen.org/virtual-dojo
+            - label: MetaShift Insight - Cultivating a Threshold-Based Authorship Network
+              url: /insight/cultivating-a-threshold-based-authorship-network/
             - label: Two Sides Integrative Randori with Beyond the Black Belt Circle
               url: https://vimeo.com/944663134/d4f1c4f333
   - type: designations
