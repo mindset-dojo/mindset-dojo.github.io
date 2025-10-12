@@ -68,3 +68,5 @@ Center with intention.
 Meet fear with presence.  
 
 Resonance is Ki.  
+
+⛩️🌿
