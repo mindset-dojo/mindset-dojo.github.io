@@ -185,14 +185,5 @@ Defend or connect?
 If you want connection—you’ll need an attitude.  
 A practiced one that can MetaShift.
 
----
+⛩️🌿🖥️
 
-→ [mindset.dojo.center](https://mindset.dojo.center)  
-*Where the MetaShift moves—from idea to embodiment.*
-
----
-
-⛩️🌿🖥️  
-
-**Michael Basil** (Black Belt, Project Cultivator)  
-**Kyle Ingersoll** (Purple Belt, DevOps Cultivator)

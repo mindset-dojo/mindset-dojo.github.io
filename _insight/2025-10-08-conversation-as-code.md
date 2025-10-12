@@ -35,6 +35,4 @@ Most of us run legacy software — inherited emotional code. Through training, w
 > The health of any system — a family, team, or culture — mirrors the quality of conversation that sustains it.
 
 Change the conversation, and you change the codebase of reality. That is what we train here — line by line, breath by breath, together.
-
-→ <https://mindset.dojo.center>  
 ⛩️🌿

@@ -61,3 +61,5 @@ I’m not at Black Belt yet. I don’t fully embody the values and practices tau
 But I now understand what the path looks like. I’ve taken the first real steps — through action, not just reflection.
 
 Going forward, I’ll continue building these habits: journaling reflections on user story work, meditating regularly, and saying “yes” when the Sensei draws the next door.
+
+⛩️🖥️

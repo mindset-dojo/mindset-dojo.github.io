@@ -42,10 +42,5 @@ The bamboo realized:
 💡 In the dojo, opposition is not just resistance.  
 It is the sharpening edge that deepens our roots, clarifies our direction, and prepares us to rise beyond limits.
 
----
-
-👉 [Join the community](https://mindset.dojo.center/)
-
 ⛩️🖥️
 
-***Kyle Ingersoll — Brown Level and DevOps Cultivator***

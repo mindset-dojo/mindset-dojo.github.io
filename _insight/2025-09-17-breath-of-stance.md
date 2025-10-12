@@ -78,13 +78,7 @@ Stances are not another taxonomy.
 They are a way of standing — personal, dynamic, embodied.  
 A way to meet others in the flow of energy, and to invite them higher.  
 
----
-
-👉 [Join the community](https://mindset.dojo.center/)  
-
 ⛩️🖥️
-
-***Kyle Ingersoll — Purple Level and DevOps Cultivator***
 
 ---
 

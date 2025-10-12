@@ -42,6 +42,5 @@ As the community has matured, our meetups have become more **intentional**, more
 
 There’s always room for improvement, but I truly believe we’re off to a great start. For me, the Dojo isn’t just a community — it’s a guide, a mirror, and a shared journey.
 
-If you’re looking for a place to grow, to connect, and to strengthen your ability to lead meaningful conversations, I invite you to join us:
+If you’re looking for a place to grow, to connect, and to strengthen your ability to lead meaningful conversations, I invite you to join us
 
-👉 [https://mindset.dojo.center/](https://mindset.dojo.center/)

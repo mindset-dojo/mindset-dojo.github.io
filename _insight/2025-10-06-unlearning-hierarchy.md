@@ -80,12 +80,6 @@ If hierarchy is a habit, unlearning it is a practice:
 - **Hold one point.** Center attention before acting.  
 - **Lead by question, not instruction.** “What’s the smallest next step?”  
 - **Mirror and amplify.** Reflect what you hear; name what wants acknowledgment.  
-- **Practice ‘Right, not Might.’** Choose correctness grounded in care.  
-
----
-
-👉 [mindset.dojo.center](https://mindset.dojo.center)
-
-⛩️🌿  
-**Michael Basil** (Black Level, Project Cultivator)  
-**Kyle Ingersoll** (Red Level, DevOps Cultivator)
+- **Practice ‘Right, not Might.’** Choose correctness grounded in care.
+  
+⛩️🌿

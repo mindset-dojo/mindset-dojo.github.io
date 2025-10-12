@@ -96,11 +96,7 @@ When the system fails and the people falter,
 is security in the patch,  
 or in the hand that meets fear with presence?  
 
----
-
-👉 [mindset.dojo.center](https://mindset.dojo.center)  
-⛩️🖥️  
-*Kyle Ingersoll — Red Level and DevOps Cultivator*
+⛩️🖥️
 
 ---
 

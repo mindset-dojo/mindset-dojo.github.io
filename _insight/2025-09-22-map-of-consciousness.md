@@ -112,13 +112,7 @@ The lesson ends not in mastery, but infinitely begins with resonance.
 
 And so there was a bow, lighter than when the dojo was entered.  
 
----
-
-👉 [Join the community](https://mindset.dojo.center/)  
-
 ⛩️🖥️
-
-***Kyle Ingersoll — Brown Level and DevOps Cultivator***  
 
 ---
 
