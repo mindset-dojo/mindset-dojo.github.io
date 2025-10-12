@@ -9,7 +9,7 @@ Expects:
     {%- if item.href_key -%}{%- assign href_value = site[item.href_key] -%}{%- endif -%}
     <li role="presentation">
         {%- if item.external -%}
-            <a href="{{ href_value }}" target="_blank" rel="noopener" role="menuitem">{{ item.label }}</a>
+            <a href="{{ href_value }}" role="menuitem">{{ item.label }}</a>
         {%- else -%}
             {%- assign href_path = href_value | replace:'/index.html','/' | relative_url -%}
             {%- assign href_norm = href_path | append:'/' | replace:'//','/' -%}

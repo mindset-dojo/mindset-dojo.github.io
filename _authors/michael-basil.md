@@ -21,12 +21,13 @@ about: |
   I never expected taming parrots and navigating soccer scrums to lead me to
   coaching leaders—but looking back, it makes perfect sense.
 
-  Growing up in my mom’s parrot shop, I learned early how to calm unruly
-  macaws. On the soccer pitch, I found rhythm in motion—shifting fluidly
-  between opportunistic striker and lockdown defender. Later, I trained for
-  elegant simplicity with a computer engineering degree from the University of
-  Illinois and spent my early career driving Agile and technology-driven
-  transformation initiatives across complex organizations.
+  Growing up in my mom’s parrot shop, I learned early to read patterns of tension
+  and trust by calming unruly macaws as I relaxed into edge zones. On the soccer
+  pitch, I found rhythm in motion—shifting fluidly between opportunistic striker
+  and lockdown defender. Later, I trained for elegant simplicity with a computer
+  engineering degree from the University of Illinois and spent my early career
+  driving Agile and technology-driven transformation initiatives across complex
+  organizations.
 
   Through a series of deeply challenging personal and professional lessons, I
   came to see that trying to control everything—inside or out—was itself the
@@ -42,28 +43,28 @@ about: |
 
   ⛩️🌿
 
-  ### Engagements
+  ### Offering
 
-  #### Training Sessions
+  #### Presence Training
 
   Immersive sessions exploring the human factor of leadership through the
   Mindset Dojo approach—MetaShift Method, Zen Leadership, and Conversational
   Presence—integrated with Agile flow.
 
-  #### Scoped Engagements
+  #### Strategic Engagement
 
   Targeted collaborations uniting Agile transformation and human systems design
   across context, culture, and product.
 
-  #### Resident Expert
+  #### Resident Expertise
 
   Medium-term in-residence support during periods of scaling or reinvention,
   combining technical depth with human-factor leadership.
 
   ### Contact
   
-  - [michael@basil.one](mailto:michael@basil.one)
+  - [Email](mailto:michael@basil.one)
   - [LinkedIn](https://link.basil.one)
   - [GitHub](https://github.com/michael-basil)
-  - [Schedule](https://connect.michael.basil.one)
+  - [Video](https://connect.michael.basil.one)
 ---
