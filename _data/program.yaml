@@ -79,7 +79,7 @@ sections:
           label: 5th Kyu
           level: -5
           intention: Perception
-          edge: Reflect on a spirited conversation through multiple points of view at once
+          edge: Reflect on a spirited conversation from multiple points of view
           flows:
             - label: MetaShift Insight - A Fable on Opposition
               url: /insight/fable-on-opposition/
