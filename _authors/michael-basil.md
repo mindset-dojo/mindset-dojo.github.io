@@ -62,8 +62,8 @@ about: |
 
   ### Contact
   
-  - [@] [michael@basil.one](mailto:michael@basil.one)
-  - [in] [LinkedIn](https://link.basil.one)
-  - [gh] [GitHub](https://github.com/michael-basil)
-  - [cal] [Schedule](https://connect.michael.basil.one)
+  - [michael@basil.one](mailto:michael@basil.one)
+  - [LinkedIn](https://link.basil.one)
+  - [GitHub](https://github.com/michael-basil)
+  - [Schedule](https://connect.michael.basil.one)
 ---
