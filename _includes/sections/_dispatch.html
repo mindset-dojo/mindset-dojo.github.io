@@ -6,7 +6,11 @@ Each case delegates to a small, focused template for that section type.
 {%- case section.type -%}
 
   {%- when 'author' -%}
-    {% include sections/authors.html section=section authors=page.slug %}
+    {%- assign slug = page.slug | downcase -%}
+    {%- assign doc  = site.authors | where:"slug", slug | first -%}
+    {%- assign one_author = "" | split:"|" -%}
+    {%- assign one_author = one_author | push: slug -%}
+    {% include sections/authors.html section=section authors=one_author %}
 
   {%- when 'authors' -%}
     {% include sections/authors.html section=section %}

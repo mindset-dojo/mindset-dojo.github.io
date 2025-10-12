@@ -1,13 +1,32 @@
 {%- comment -%}
-authors grid section — collection-only, strict slug mode
+Authors grid section — collection-only, strict slug mode.
 
-sections:
-  - type: authors
-    data:
-      leadership_flow:
-        label: ...
-        designation_type: ...
-        limit: ...
+Renders a grid of author cards inside <div class="md-authors">…</div>.
+
+Data sources:
+- Default: all docs from the `authors` collection → `site.authors`.
+- Override: pass `include.authors` to render a specific subset.
+  * Accepted forms for `include.authors`:
+    - An array of slugs (preferred): ["michael-basil", "kyle-ingersoll"]
+    - A JSON-ish string array: '["michael-basil","kyle-ingersoll"]'
+    - A comma-separated string: "michael-basil,kyle-ingersoll"
+    - A single slug string: "michael-basil"
+  * In override mode, only docs whose `slug` matches one of the listed slugs are rendered.
+
+Optional filtering & framing (via `section.data.leadership_flow`):
+  leadership_flow:
+    label: string (optional heading shown above the grid)
+    designation_type: string (e.g., "program", "project") — keeps authors that have a matching designation
+    limit: integer — max number of cards to render after sorting
+
+Other behavior:
+- `active` defaults to true when missing.
+- Sorting: program_level DESC (by negation) then program_level_date/join_date ASC.
+
+Example usages:
+  {% include sections/authors.html section=section %}                         {# all authors #}
+  {% include sections/authors.html section=section authors=page.slug %}       {# one author #}
+  {% include sections/authors.html section=section authors="a,b" %}           {# subset by slugs #}
 {%- endcomment -%}
 
 {%- assign D = section.data -%}
@@ -91,7 +110,7 @@ sections:
     {%- assign slug  = parts[2] -%}
     {%- assign doc   = site.authors | where:"slug", slug | first -%}
     {%- if doc -%}
-      {% include sections/author.html author=doc key=slug %}
+      {% include sections/author.html author=doc %}
     {%- endif -%}
   {%- endfor -%}
 </div>
