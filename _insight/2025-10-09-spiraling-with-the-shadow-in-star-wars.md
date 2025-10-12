@@ -40,4 +40,3 @@ Einstein said we cannot solve our problems at the same level of consciousness th
 - Does the circle begin to open into a spiral?
 
 ⛩️🌿
-

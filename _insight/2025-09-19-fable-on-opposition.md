@@ -43,4 +43,3 @@ The bamboo realized:
 It is the sharpening edge that deepens our roots, clarifies our direction, and prepares us to rise beyond limits.
 
 ⛩️🖥️
-
