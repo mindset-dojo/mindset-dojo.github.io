@@ -9,8 +9,8 @@
     {%- assign data    = site.data[page.data_key] -%}
     {%- assign mission = site.data.mission -%}
 
-    {%- assign base_h1     = page.title
-                               | default: page.mantra
+    {%- assign base_h1     = page.mantra
+                               | default: page.title
                                | default: data.mantra
                                | default: mission.mantra
                                | default: site.title -%}
