@@ -15,6 +15,33 @@ Writing isn’t just expression.
 It’s nervous-system training.  
 It lets awareness move through language, opening new possibilities — and increasing the probabilities of what we can actually live.  
 
+---
+
+### What is a Technology?
+
+Before we go further, let’s level-set.  
+
+Technology isn’t just machines or software.  
+It’s any applied form of knowledge — any way of organizing or harnessing understanding to achieve a purpose.  
+
+The word comes from the Greek *téchnē* (art, craft, skill) and *lógos* (reason, account).  
+So literally, technology means “the study or practice of craft.”  
+
+A wheel extends movement.  
+Language extends coordination.  
+Writing extends memory.  
+Meditation and Aikido extend awareness.  
+
+Technology, then, is how we translate knowing into doing.  
+It’s how human beings practice authorship — shaping reality through applied intelligence.  
+
+In this sense, self-authorship is a technology.  
+It’s the deliberate crafting of awareness —  
+through language, through movement, through breath —  
+to bring coherence between what we sense, think, and act.
+
+---
+
 Through writing, we meet the roots of our patterns.  
 We learn to notice, name, and evolve them.  
 It’s where inner gardening meets systems thinking —  
@@ -35,12 +62,12 @@ and of course, the inverse is true.
 When the body relaxes, the mind follows.  
 
 Having a variety of tools means we can connect where the focus is —  
-just like in Aikido, we concentrate and connect, understanding the vector of intention.
+just like in Aikido, we concentrate and connect, understanding the vector of intention.  
 Not where we’ll ultimately end up —  
 but where the movement is alive right now.  
 
 That’s how we form the circuit.  
-That’s what allows a threshold for evolution to appear — what we call a *pivot.*  
+That’s what allows a threshold for evolution to appear — what we call a pivot.  
 
 Being able to meet in these different concentrations — cognitive, emotional, somatic, relational —  
 creates more accessibility, more availability, and more opportunities for threshold-based integrative work.  
