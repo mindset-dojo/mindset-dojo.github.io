@@ -17,7 +17,7 @@ leadership_designations:
     value: Zensei
   - type: project
     value: Project Cultivator
-biosketch: |
+about: |
   I never expected taming parrots and navigating soccer scrums to lead me to
   coaching leaders—but looking back, it makes perfect sense.
 
@@ -45,24 +45,25 @@ biosketch: |
   ### Engagements
 
   #### Training Sessions
+
   Immersive sessions exploring the human factor of leadership through the
   Mindset Dojo approach—MetaShift Method, Zen Leadership, and Conversational
   Presence—integrated with Agile flow.
 
   #### Scoped Engagements
+
   Targeted collaborations uniting Agile transformation and human systems design
   across context, culture, and product.
 
   #### Resident Expert
+
   Medium-term in-residence support during periods of scaling or reinvention,
   combining technical depth with human-factor leadership.
-contact:
-  - type: email
-    value: michael@basil.one
-  - type: linkedin
-    value: https://link.basil.one
-  - type: github
-    value: https://github.com/michael-basil
-  - type: calendly
-    value: https://connect.michael.basil.one
+
+  ### Contact
+  
+  - [@] [michael@basil.one](mailto:michael@basil.one)
+  - [in] [LinkedIn](https://link.basil.one)
+  - [gh] [GitHub](https://github.com/michael-basil)
+  - [cal] [Schedule](https://connect.michael.basil.one)
 ---

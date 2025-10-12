@@ -10,8 +10,8 @@ join_date: 2021-01-01
 program_level: -6
 program_level_date: 2025-03-16
 leadership_designations: []
-biosketch: null
-contact:
-  - type: linkedin
-    value: https://www.linkedin.com/in/jeremymcm
+about: |
+  ### Contact
+  
+  - [in] [LinkedIn](https://www.linkedin.com/in/jeremymcm)
 ---

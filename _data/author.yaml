@@ -3,5 +3,5 @@ sections:
   - type: author
   - type: markdown
     data:
-      field: biosketch
+      field: about
 ---

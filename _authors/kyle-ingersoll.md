@@ -14,8 +14,8 @@ leadership_designations:
     value: Zenpai
   - type: project
     value: DevOps Cultivator
-biosketch: null
-contact:
-  - type: linkedin
-    value: https://www.linkedin.com/in/kyle-ingersoll
+about: |
+  ### Contact
+  
+  - [in] [LinkedIn](https://www.linkedin.com/in/kyle-ingersoll)
 ---

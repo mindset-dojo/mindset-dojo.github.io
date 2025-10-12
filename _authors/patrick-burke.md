@@ -10,8 +10,8 @@ join_date: 2024-12-01
 program_level: -5
 program_level_date: 2025-05-04
 leadership_designations: []
-biosketch: null
-contact:
-  - type: linkedin
-    value: https://www.linkedin.com/in/patrick-j-burke
+about: |
+  ### Contact
+  
+  - [in] [LinkedIn](https://www.linkedin.com/in/patrick-j-burke)
 ---
