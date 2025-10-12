@@ -8,8 +8,8 @@ sections:
       mission_rally_suffix_label: ": Embodied Practice"
       mission_statement_bridge:
         - "We train live—on the mat and in conversation with tension as teacher."
-        - "Between reps, we refine tone, timing, and presence until balance returns."
-        - "This is MetaShift Method—where reflection transforms into relational flow."
+        - "Between reps, we refine tone, timing, and presence toward balance."
+        - "This is MetaShift Method—where reflection becomes relational flow."
   - type: list
     data:
       label: "Principles"
@@ -63,7 +63,7 @@ sections:
           label: 6th Kyu
           level: -6
           intention: Centering
-          edge: Meditate until a spirited conversation makes sense and share your learnings
+          edge: Meditate until a spirited conversation makes sense and share insight
           flows:
             - label: MetaShift Insight - Conversation as Code
               url: /insight/conversation-as-code/

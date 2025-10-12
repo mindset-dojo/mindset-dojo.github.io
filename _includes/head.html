@@ -17,6 +17,7 @@
     | default: mission.description
     | default: site.description
     | default: site.title -%}
+    
   {%- assign meta_desc = raw_desc | strip_html | strip_newlines | truncate: 160 -%}
 
   {%- assign canonical_abs = site.url | append: page.url -%}
