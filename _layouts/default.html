@@ -6,16 +6,24 @@
   {% include header.html %}
 
   <main aria-label="Content">
-    {%- assign data = site.data[page.data_key] -%}
+    {%- assign data    = site.data[page.data_key] -%}
+    {%- assign mission = site.data.mission -%}
 
     {%- comment -%}
       H1 precedence:
-        page.h1 → page.mantra → data.mantra → site.title
+        page.h1 → page.mantra → data.mantra → mission.mantra → site.title
       Mark precedence:
-        page.h1_mark → page.mantra_mark → data.mantra_mark
+        page.h1_mark → page.mantra_mark → data.mantra_mark → mission.mantra_mark
     {%- endcomment -%}
-    {%- assign base_h1     = page.h1 | default: page.mantra | default: data.mantra | default: site.title -%}
-    {%- assign h1_mark_val = page.h1_mark | default: page.mantra_mark | default: data.mantra_mark -%}
+    {%- assign base_h1     = page.h1
+                               | default: page.mantra
+                               | default: data.mantra
+                               | default: mission.mantra
+                               | default: site.title -%}
+    {%- assign h1_mark_val = page.h1_mark
+                               | default: page.mantra_mark
+                               | default: data.mantra_mark
+                               | default: mission.mantra_mark -%}
 
     {%- if base_h1 -%}
       {%- if h1_mark_val -%}
