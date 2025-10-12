@@ -6,7 +6,7 @@ Each case delegates to a small, focused template for that section type.
 {%- case section.type -%}
 
   {%- when 'author' -%}
-    {% include sections/author.html author=page key=page.slug %}
+    {% include sections/authors.html section=section authors=page.slug %}
 
   {%- when 'authors' -%}
     {% include sections/authors.html section=section %}
