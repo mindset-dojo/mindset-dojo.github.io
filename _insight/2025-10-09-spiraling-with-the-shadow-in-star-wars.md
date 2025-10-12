@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Spiraling with the Shadow in Star Wars"
-h1_mark: Spiral
+title_mark: Spiral
 date: 2025-10-09
-authors: ["michael-basil"]
+authors: 
+  - michael-basil
 excerpt: "When we turn toward the shadow — fear, anger, ambition, loss — and bring it into awareness, the circle becomes a spiral."
 ---
 
@@ -38,5 +39,4 @@ Einstein said we cannot solve our problems at the same level of consciousness th
 - What happens if you bring the “other side” — the shadow, the opposite, the fear — into awareness?  
 - Does the circle begin to open into a spiral?
 
-→ <https://mindset.dojo.center>  
 ⛩️🌿

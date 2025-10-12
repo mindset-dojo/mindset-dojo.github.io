@@ -23,7 +23,6 @@
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     grid-gap: 12px;
     justify-items: center;
-    margin-top: 60px;
   }
 
   .md-authors section {

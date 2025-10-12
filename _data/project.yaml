@@ -7,15 +7,15 @@ sections:
     data:
       mission_rally_suffix_label: ": Living Structure"
       mission_statement_bridge:
-        - "We cultivate clarity through form—language, structure, and flow in motion."
-        - "We tend friction as gardeners—listening, pruning, and adjusting with care."
-        - "This is Signal Garden Approach—where transparency grows reciprocal trust."
+        - "We cultivate clarity through form—language, structure, and motion."
+        - "We tend friction—listening, pruning, adjusting with care."
+        - "This is the Signal Garden Approach—where transparency grows trust."
   - type: text
     data:
       label: "Project Motivations"
       items:
         - "Our project is a shared practice of simplicity and coherence."
-        - "We refine our systems, language, and flow through steady, mindful iteration."
+        - "We refine systems, language, and flow through steady iteration."
         - "Each contribution strengthens the pattern of fearlessness in form."
   - type: text
     data:
@@ -31,7 +31,7 @@ sections:
         - "You sense where the system isn’t flowing."
         - "You refactor a phrase or function toward clarity."
         - "You offer a pattern that helps others move with ease."
-        - "You make reciprocity visible—through reviews, documentation, or mentorship."
+        - "You make reciprocity visible—through review and mentorship."
   - type: quote
     data:
       text: "Ideation is fun, pull requests invite influence."

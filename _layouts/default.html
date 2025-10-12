@@ -3,33 +3,36 @@
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 {% include head.html %}
 <body id="{{ page.css_id }}">
-    {% include header.html %}
+  {% include header.html %}
 
-    <main aria-label="Content">
-        {%- assign data = site.data[page.data_key] -%}
+  <main aria-label="Content">
+    {%- assign data    = site.data[page.data_key] -%}
+    {%- assign mission = site.data.mission -%}
 
-        {%- comment -%}
-        Decide the base H1 (and what to "mark") with sensible fallbacks:
-        - page.h1 / page.title if explicitly set
-        - else data.mantra / data.mantra_mark from _data/(data_key).yaml
-        {%- endcomment -%}
-        {%- assign base_h1 = page.h1 | default: page.title | default: data.mantra | default: site.title -%}
-        {%- assign h1_mark_val = page.h1_mark | default: data.mantra_mark -%}
+    {%- assign base_h1     = page.mantra
+                               | default: page.title
+                               | default: data.mantra
+                               | default: mission.mantra
+                               | default: site.title -%}
+    {%- assign h1_mark_val = page.title_mark
+                               | default: page.mantra_mark
+                               | default: data.mantra_mark
+                               | default: mission.mantra_mark -%}
 
-        {%- if base_h1 -%}
-            {%- if h1_mark_val -%}
-                {%- capture marked -%}<mark>{{ h1_mark_val }}</mark>{%- endcapture -%}
-                {%- assign h1_rendered = base_h1 | replace_first: h1_mark_val, marked -%}
-            {%- else -%}
-                {%- assign h1_rendered = base_h1 -%}
-            {%- endif -%}
-            <h1>{{ h1_rendered }}</h1>
-            <hr>
-        {%- endif -%}
+    {%- if base_h1 -%}
+      {%- if h1_mark_val -%}
+        {%- capture marked -%}<mark>{{ h1_mark_val }}</mark>{%- endcapture -%}
+        {%- assign h1_rendered = base_h1 | replace_first: h1_mark_val, marked -%}
+      {%- else -%}
+        {%- assign h1_rendered = base_h1 -%}
+      {%- endif -%}
+      <h1>{{ h1_rendered }}</h1>
+      <hr>
+    {%- endif -%}
 
-        {{ content }}
-    </main>
+    {{ content }}
+  </main>
 
-    {% include footer.html %}
+  {% include footer.html %}
 </body>
 </html>

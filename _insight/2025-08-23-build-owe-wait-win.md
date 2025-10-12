@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "To Build Is to Owe. To Wait Is to Win."
-authors: ["kyle-ingersoll"]
-h1_mark: Owe
+title_mark: Owe
+authors: 
+  - kyle-ingersoll
 date: 2025-08-23
 excerpt: "A reflection on the MetaShift from Visionary to Organizer energy, where doing nothing—*for now*—becomes the wisest move."
 ---
@@ -41,5 +42,3 @@ In that sense, restraint isn’t about rejection — it’s about timing.
 This experience taught me that technology must serve the purpose — **Conversational Mastery** — and not overshadow it.  
 Sometimes the best contribution isn’t more code, but the discipline to protect simplicity.  
 And sometimes wisdom means saying *not yet.*
-
----

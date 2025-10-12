@@ -4,6 +4,9 @@ title: Mindset Dojo
 google_analytics_id: G-7PD1BFF7RG
 
 collections:
+  authors:
+    output: true
+    permalink: /authors/:name/
   insight:
     output: true
     permalink: /insight/:slug/

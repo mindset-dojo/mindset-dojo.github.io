@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "⛩️ The Ethical Technologist’s Ki Manifesto"
-h1_mark: Ethical
+title: "The Ethical Technologist’s Ki Manifesto"
+title_mark: Ethical
 date: 2025-10-07
-authors: ["kyle-ingersoll"]
+authors: 
+  - kyle-ingersoll
 excerpt: "When the coder becomes the cultivator — ethics ceases to be rule-following and becomes resonance itself."
 ---
 
@@ -77,7 +78,4 @@ To serve is to stay centered.
 To stay centered is to remember:  
 The true dojo is everywhere you stand.  
 
----
-
 ⛩️🖥️
-*Kyle Ingersoll — Red Level and DevOps Cultivator*

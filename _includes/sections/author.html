@@ -3,7 +3,6 @@ author card within section
 
 Expects:
   - include.author → profile object
-  - include.key → filename-safe unique key for author (used for avatar path)
 Notes:
   - Still uses site.data.program.levels to render the level icon color/label.
   - Still uses icons from /_includes/icons/*.svg (same paths as before).
@@ -11,45 +10,45 @@ This file now guards the markup with `if include.author` so it won't error
 if called without an author object.
 {%- endcomment -%}
 
-{%- if include.author -%}
-  <section class="md-author-card">
-    {% assign avatar_path = '/media/author-avatar/' | append: include.key | append: '.jpg' | relative_url %}
-    {% assign author_name = include.author.name | default: "Author" %}
+<section class="md-author-card">
+  {% assign author_slug = include.author.slug | to_s | strip | slugify %}
+  {% assign author_name = include.author.name | default: "Author" %}
+  {% assign profile_url = '/authors/' | append: author_slug | append: '/' | relative_url %}
+  {% assign avatar_path = '/media/author-avatar/' | append: author_slug | append: '.jpg' | relative_url %}
 
-    <img
-      src="{{ avatar_path }}"
-      alt="{{ author_name }}"
-      width="100"
-      height="100"
-    />
+  <img
+    src="{{ avatar_path }}"
+    alt="{{ author_name }}"
+    width="100"
+    height="100"
+  />
 
-    <h2>{{ include.author.name }}</h2>
+  <h2><a href="{{ profile_url }}">{{ author_name }}</a></h2>
 
-    {%- assign ld = include.author.leadership_designations -%}
-    {%- if ld -%}
-      {%- assign lines = "" | split: "" -%}
-      {%- for item in ld -%}
-        {%- assign v = item.value | to_s | strip -%}
-        {%- if v != "" and v != "null" -%}
-          {%- assign lines = lines | push: v -%}
-        {%- endif -%}
-      {%- endfor -%}
-      {%- if lines.size > 0 -%}
-        <p>{{ lines | join: "<br>" }}</p>
+  {%- assign ld = include.author.leadership_designations -%}
+  {%- if ld -%}
+    {%- assign lines = "" | split: "" -%}
+    {%- for item in ld -%}
+      {%- assign v = item.value | to_s | strip -%}
+      {%- if v != "" and v != "null" -%}
+        {%- assign lines = lines | push: v -%}
       {%- endif -%}
+    {%- endfor -%}
+    {%- if lines.size > 0 -%}
+      <p>{{ lines | join: "<br>" }}</p>
     {%- endif -%}
+  {%- endif -%}
 
-    {%- if include.author.program_level -%}
-      <div class="md-group">
-        {%- if include.author.program_level -%}
-          {% assign program_level = include.author.program_level | plus: 0 %}
-          {% assign level = site.data.program.sections | where: "type", "levels" | map: "data" | map: "items" | first | where: "level", program_level | first %}
-          {% include icons/level.svg
-            class="md-level-svg"
-            color=level.color
-            title=level.label %}
-        {%- endif -%}
-      </div>
-    {%- endif -%}
-  </section>
-{%- endif -%}
+  {%- if include.author.program_level -%}
+    <div class="md-group">
+      {%- if include.author.program_level -%}
+        {% assign program_level = include.author.program_level | plus: 0 %}
+        {% assign level = site.data.program.sections | where: "type", "levels" | map: "data" | map: "items" | first | where: "level", program_level | first %}
+        {% include icons/level.svg
+          class="md-level-svg"
+          color=level.color
+          title=level.label %}
+      {%- endif -%}
+    </div>
+  {%- endif -%}
+</section>

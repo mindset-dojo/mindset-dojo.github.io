@@ -2,21 +2,39 @@
 <head>
   <meta charset="utf-8">
 
-  {%- assign data = site.data[page.data_key] -%}
-  {%- assign raw_title = page.title | default: data.mantra | default: site.title -%}
+  {%- assign data    = site.data[page.data_key] -%}
+  {%- assign mission = site.data.mission -%}
+
+  {%- assign raw_title = page.mantra
+    | default: page.title
+    | default: data.mantra
+    | default: mission.mantra
+    | default: site.title -%}
 
   {%- assign raw_desc = page.description
-      | default: data.description
-      | default: page.excerpt
-      | default: site.description
-      | default: site.title -%}
+    | default: data.description
+    | default: page.excerpt
+    | default: mission.description
+    | default: site.description
+    | default: site.title -%}
+    
   {%- assign meta_desc = raw_desc | strip_html | strip_newlines | truncate: 160 -%}
+
+  {%- assign canonical_abs = site.url | append: page.url -%}
 
   <title>{{ raw_title }}</title>
   <meta name="description" content="{{ meta_desc }}">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="max-image-preview:large">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ raw_title }}">
+  <meta property="og:description" content="{{ meta_desc }}">
+  <meta property="og:url" content="{{ canonical_abs }}">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ raw_title }}">
+  <meta name="twitter:description" content="{{ meta_desc }}">
 
   <link rel="preload" href="{{ '/assets/libs/google/fonts/afacad-v1-latin-700.woff2' | relative_url }}" crossorigin="anonymous" as="font" type="font/woff2">
   <link rel="preload" href="{{ '/assets/libs/google/fonts/roboto-v47-latin-regular.woff2' | relative_url }}" crossorigin="anonymous" as="font" type="font/woff2">
@@ -28,7 +46,7 @@
   <link rel="stylesheet" href="{{ '/assets/css/04-components-3-content.css' | relative_url }}" media="all">
   <link rel="stylesheet" href="{{ '/assets/css/05-pages.css' | relative_url }}" media="all">
 
-  <link rel="canonical" href="{{ page.url | relative_url }}">
+  <link rel="canonical" href="{{ canonical_abs }}">
 
   <link rel="icon" href="{{ '/assets/favicon.png' | relative_url }}" sizes="32x32">
   <link rel="icon" href="{{ '/assets/favicon.png' | relative_url }}" sizes="192x192">

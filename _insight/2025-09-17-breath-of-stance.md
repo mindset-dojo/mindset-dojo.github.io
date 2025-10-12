@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "The Breath of a Stance Shifts the Mountain"
-authors: ["kyle-ingersoll"]
-h1_mark: Stance
+title_mark: Stance
+authors: 
+  - kyle-ingersoll
 date: 2025-09-17
 excerpt: "When tension hardens between mismatched energies, Stances offer a way to realign through breath, tone, and presence—shifting both yourself and the field of conversation."
 ---
@@ -77,13 +78,7 @@ Stances are not another taxonomy.
 They are a way of standing — personal, dynamic, embodied.  
 A way to meet others in the flow of energy, and to invite them higher.  
 
----
-
-👉 [Join the community](https://mindset.dojo.center/)  
-
 ⛩️🖥️
-
-***Kyle Ingersoll — Purple Level and DevOps Cultivator***
 
 ---
 

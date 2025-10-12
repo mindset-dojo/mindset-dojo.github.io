@@ -1,0 +1,7 @@
+---
+sections:
+  - type: author
+  - type: markdown
+    data:
+      field: about
+---

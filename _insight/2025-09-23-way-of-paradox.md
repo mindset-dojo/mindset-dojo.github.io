@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "The Way of Paradox"
-h1_mark: Paradox
+title_mark: Paradox
 date: 2025-09-23
-authors: ["kyle-ingersoll"]
+authors: 
+  - kyle-ingersoll
 excerpt: "Paradox is the hidden gate of leadership, where resistance dissolves and the small self expands into the boundless flow of Ki."
 ---
 
@@ -57,13 +58,7 @@ Only you resist you.**
 
 When you release that resistance, when you flip through paradox, Ki flows. Circles of care widen. Leadership becomes less about the ego’s reach and more about the boundless extension of life itself.  
 
----
-
-→ [https://mindset.dojo.center/](https://mindset.dojo.center/)  
-
-⛩️🖥️  
-
-*Kyle Ingersoll — Brown Level and DevOps Cultivator*  
+⛩️🖥️
 
 ---
 
