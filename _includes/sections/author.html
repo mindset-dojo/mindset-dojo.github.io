@@ -11,8 +11,10 @@ if called without an author object.
 {%- endcomment -%}
 
 <section class="md-author-card">
-  {% assign avatar_path = '/media/author-avatar/' | append: include.author.slug | append: '.jpg' | relative_url %}
+  {% assign author_slug = include.author.slug | to_s | strip | slugify %}
   {% assign author_name = include.author.name | default: "Author" %}
+  {% assign profile_url = '/authors/' | append: author_slug | append: '/' | relative_url %}
+  {% assign avatar_path = '/media/author-avatar/' | append: author_slug | append: '.jpg' | relative_url %}
 
   <img
     src="{{ avatar_path }}"
@@ -21,7 +23,7 @@ if called without an author object.
     height="100"
   />
 
-  <h2>{{ include.author.name }}</h2>
+  <h2><a href="{{ profile_url }}">{{ author_name }}</a></h2>
 
   {%- assign ld = include.author.leadership_designations -%}
   {%- if ld -%}
