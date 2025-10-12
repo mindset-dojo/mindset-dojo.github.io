@@ -42,28 +42,28 @@ about: |
 
   ⛩️🌿
 
-  ### Engagements
+  ### Offering
 
-  #### Training Sessions
+  #### Training Presence
 
   Immersive sessions exploring the human factor of leadership through the
   Mindset Dojo approach—MetaShift Method, Zen Leadership, and Conversational
   Presence—integrated with Agile flow.
 
-  #### Scoped Engagements
+  #### Scoped Engagement
 
   Targeted collaborations uniting Agile transformation and human systems design
   across context, culture, and product.
 
-  #### Resident Expert
+  #### Resident Expertise
 
   Medium-term in-residence support during periods of scaling or reinvention,
   combining technical depth with human-factor leadership.
 
   ### Contact
   
-  - [michael@basil.one](mailto:michael@basil.one)
+  - [Email](mailto:michael@basil.one)
   - [LinkedIn](https://link.basil.one)
   - [GitHub](https://github.com/michael-basil)
-  - [Schedule](https://connect.michael.basil.one)
+  - [Video](https://connect.michael.basil.one)
 ---
