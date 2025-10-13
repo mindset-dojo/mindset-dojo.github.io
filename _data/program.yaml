@@ -65,8 +65,8 @@ sections:
           intention: Centering
           edge: Meditate until a spirited conversation makes sense and share insight
           flows:
-            - label: MetaShift Insight - Conversation as Code
-              url: /insight/conversation-as-code/
+            - label: MetaShift Insight - A Fable on Opposition
+              url: /insight/fable-on-opposition/
             - label: Zen Toolkit - One Breath
               url: https://vimeo.com/944618879/47e96945a4
             - label: MetaShift Insight - Tone
@@ -81,8 +81,8 @@ sections:
           intention: Perception
           edge: Reflect on a spirited conversation from multiple points of view
           flows:
-            - label: MetaShift Insight - A Fable on Opposition
-              url: /insight/fable-on-opposition/
+            - label: MetaShift Insight - From Explorer to Cultivator
+              url: /insight/from-explorer-to-cultivator/
             - label: Zen Toolkit - Two Sides
               url: https://vimeo.com/944663134/d4f1c4f333
             - label: Negotiation 9™ Move - Calibrated Questions
@@ -99,6 +99,8 @@ sections:
           intention: Listening
           edge: Listen deeply with fresh ears and reflect back what you hear
           flows:
+            - label: MetaShift Insight - Conversation as Code
+              url: /insight/conversation-as-code/
             - label: Zen Toolkit - Three Centers
               url: https://vimeo.com/944672806/e099593826
             - label: Negotiation 9™ Move - Labels
