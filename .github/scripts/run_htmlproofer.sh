@@ -61,22 +61,40 @@ fi
 
 SWAP_ARG=""
 
+# Priority 1: explicit ENV
 if [[ -n "${URL_SWAP:-}" ]]; then
-  # v5 syntax: one string "FROM_REGEX,TO_STRING"
-  # Example: URL_SWAP='^https\://mindset\.dojo\.center/,/'
-  SWAP_ARG="${URL_SWAP}"
+  # Accept proper v5 form "FROM_REGEX,TO_STRING" as-is
+  if [[ "${URL_SWAP}" == *","* ]]; then
+    SWAP_ARG="${URL_SWAP}"
+  else
+    # Legacy colon-style "https://host/:/" -> convert to v5 comma form
+    if [[ "${URL_SWAP}" == http*":/" ]]; then
+      LEFT="${URL_SWAP%:/}"         # strip the trailing ":/"
+      LEFT="${LEFT%/}/"             # ensure single trailing slash
+      RIGHT="/"                     # TO
+      # Escape '.' and ':' and anchor at start ^
+      LEFT_ESC="^$(printf '%s' "${LEFT}" | sed -e 's/[.]/\\./g' -e 's/:/\\:/g')"
+      SWAP_ARG="${LEFT_ESC},${RIGHT}"
+    else
+      # Fallback: just replace the last ":/" with ",/"
+      SWAP_ARG="${URL_SWAP%:/},/"
+    fi
+  fi
+
+# Priority 2: derive from _config.production.yml:url
 else
   if [[ -z "${URL_VALUE}" ]]; then
     echo "ERROR: site.url not set in _config.production.yml and URL_SWAP not provided; cannot build --swap-urls." >&2
     exit 1
   fi
+
   # Ensure trailing slash on canonical host
   CANON_URL="${URL_VALUE%/}/"
 
-  # v5: FROM is a regex. Escape '.' and ':' and anchor at start with ^
+  # FROM is a regex. Escape '.' and ':' and anchor at start with ^
   FROM_RE="^$(printf '%s' "${CANON_URL}" | sed -e 's/[.]/\\./g' -e 's/:/\\:/g')"
 
-  # IMPORTANT: comma separator (FROM,TO), not colon
+  # v5 requires comma separator (FROM,TO)
   SWAP_ARG="${FROM_RE},/"
 fi
 
