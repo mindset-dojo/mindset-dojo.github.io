@@ -62,7 +62,8 @@ fi
 SWAP_ARG=""
 
 if [[ -n "${URL_SWAP:-}" ]]; then
-  # Expect v5 syntax: one string "FROM,TO" (comma-separated pair)
+  # v5 syntax: one string "FROM_REGEX,TO_STRING"
+  # Example: URL_SWAP='^https\://mindset\.dojo\.center/,/'
   SWAP_ARG="${URL_SWAP}"
 else
   if [[ -z "${URL_VALUE}" ]]; then
@@ -72,10 +73,10 @@ else
   # Ensure trailing slash on canonical host
   CANON_URL="${URL_VALUE%/}/"
 
-  # v5: FROM is a regex. Escape '.' and ':' and anchor at start.
+  # v5: FROM is a regex. Escape '.' and ':' and anchor at start with ^
   FROM_RE="^$(printf '%s' "${CANON_URL}" | sed -e 's/[.]/\\./g' -e 's/:/\\:/g')"
 
-  # Map absolute → local root. IMPORTANT: use COMMA to separate FROM and TO.
+  # IMPORTANT: comma separator (FROM,TO), not colon
   SWAP_ARG="${FROM_RE},/"
 fi
 
