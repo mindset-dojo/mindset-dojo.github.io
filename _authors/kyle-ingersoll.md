@@ -11,7 +11,7 @@ program_level: -2
 program_level_date: 2025-08-30
 leadership_designations:
   - type: program
-    value: Zenpai
+    value: Senpai
   - type: project
     value: DevOps Cultivator
 about: |

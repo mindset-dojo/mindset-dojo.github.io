@@ -179,13 +179,13 @@ sections:
       intention_label: "Intention"
       aspects_label: "Aspects"
       items:
-        - label: Zenpai
+        - label: Senpai
           intention: Guidance through lived example and growth through co-learning
           aspects:
             - label: Join Mat sessions regularly, lead periodically
             - label: Create and share Insight regularly, guiding earlier learners
             - label: Blue Level+
-        - label: Zensei
+        - label: Sensei
           intention: Stewardship through modeling and evolution through community feedback
           aspects:
             - label: Lead Mat sessions regularly
