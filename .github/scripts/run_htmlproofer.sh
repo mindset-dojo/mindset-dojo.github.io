@@ -1,6 +1,6 @@
 #!/bin/bash
 # .github/scripts/run_htmlproofer.sh
-# Run HTMLProofer with a single URL swap for the canonical host (no www/http variants).
+# Run HTMLProofer with a single URL swap for the canonical host (v5: --swap-urls with regex-escaped FROM).
 
 set -euo pipefail
 
@@ -51,7 +51,7 @@ bundle install --jobs 4 --retry 3
 bundle exec jekyll build --config _config.yml,_config.production.yml
 
 # ------------------------------
-# Derive site.url and construct a single --swap-urls flag (v5 syntax)
+# Derive site.url and construct a single --swap-urls pair (escaped regex)
 # ------------------------------
 URL_VALUE=""
 if [[ -f "_config.production.yml" ]]; then
@@ -62,17 +62,21 @@ fi
 SWAP_ARG=""
 
 if [[ -n "${URL_SWAP:-}" ]]; then
-  # Expect comma-separated pairs like: "https://example.com/:/"
-  # html-proofer v5 expects one argument to --swap-urls with pairs joined by commas.
+  # Expect v5 syntax: one string of comma-separated pairs "FROM:TO[,FROM2:TO2]"
   SWAP_ARG="${URL_SWAP}"
 else
   if [[ -z "${URL_VALUE}" ]]; then
     echo "ERROR: site.url not set in _config.production.yml and URL_SWAP not provided; cannot build --swap-urls." >&2
     exit 1
   fi
+  # Ensure trailing slash
   CANON_URL="${URL_VALUE%/}/"
-  # ONE canonical mapping: absolute → local root
-  SWAP_ARG="${CANON_URL}:/"
+
+  # v5 requires FROM as a regex. Escape ':' and '.'; anchor with ^ so we only match at start.
+  FROM_RE="^$(printf '%s' "${CANON_URL}" | sed -e 's/[.]/\\./g' -e 's/:/\\:/g')"
+
+  # Map absolute → local root
+  SWAP_ARG="${FROM_RE}:/"
 fi
 
 echo "Using html-proofer flags: ${PROOFER_FLAGS[*]} --swap-urls ${SWAP_ARG}"
