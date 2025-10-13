@@ -18,7 +18,7 @@ leadership_designations:
   - type: project
     value: Project Cultivator
 about: |
-  ### Leadership Gardener ☯ Technologist
+  ### Leadership Gardener ☯ Meta Technologist
   
   I never expected taming parrots and navigating soccer scrums to lead me to
   coaching leaders—but looking back, it makes perfect sense.
@@ -41,7 +41,7 @@ about: |
 
   Mindset Dojo and MetaShift Method emerged from that awareness—centered on
   cultivating Conversational Presence when it matters most and meeting people at
-  the level of depth that aligns with what brings real value.
+  the level of depth that aligns to bring real value.
 
   ⛩️🌿
 
@@ -63,7 +63,7 @@ about: |
   Medium-term in-residence support during periods of scaling or reinvention,
   combining technical depth with human-factor leadership.
 
-  ### Contact
+  ### Connect
   
   - [Email](mailto:michael@basil.one)
   - [LinkedIn](https://link.basil.one)
