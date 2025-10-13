@@ -53,10 +53,10 @@ about: |
   Mindset Dojo approach—MetaShift Method, Zen Leadership, and Conversational
   Presence—integrated with Agile flow.
 
-  #### Strategic Engagement
+  #### Strategic Mentorship
 
-  Targeted collaborations uniting Agile transformation and human systems design
-  across context, culture, and product.
+  Multi-dimensional mentorship for established, emerging, and aspiring leaders navigating complexity and change.  
+  Blending Zen Leadership, Agile transformation, and human systems design—this engagement integrates deep personal practice with strategic collaboration.
 
   #### Resident Expertise
 
