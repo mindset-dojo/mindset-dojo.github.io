@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "From Explorer to Cultivator"
-h1_mark: Explorer → Cultivator
+title_mark: Explorer → Cultivator
 date: 2025-10-13
 authors: 
   - michael-basil
