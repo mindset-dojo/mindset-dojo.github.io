@@ -62,21 +62,21 @@ fi
 SWAP_ARG=""
 
 if [[ -n "${URL_SWAP:-}" ]]; then
-  # Expect v5 syntax: one string of comma-separated pairs "FROM:TO[,FROM2:TO2]"
+  # Expect v5 syntax: one string "FROM,TO" (comma-separated pair)
   SWAP_ARG="${URL_SWAP}"
 else
   if [[ -z "${URL_VALUE}" ]]; then
     echo "ERROR: site.url not set in _config.production.yml and URL_SWAP not provided; cannot build --swap-urls." >&2
     exit 1
   fi
-  # Ensure trailing slash
+  # Ensure trailing slash on canonical host
   CANON_URL="${URL_VALUE%/}/"
 
-  # v5 requires FROM as a regex. Escape ':' and '.'; anchor with ^ so we only match at start.
+  # v5: FROM is a regex. Escape '.' and ':' and anchor at start.
   FROM_RE="^$(printf '%s' "${CANON_URL}" | sed -e 's/[.]/\\./g' -e 's/:/\\:/g')"
 
-  # Map absolute → local root
-  SWAP_ARG="${FROM_RE}:/"
+  # Map absolute → local root. IMPORTANT: use COMMA to separate FROM and TO.
+  SWAP_ARG="${FROM_RE},/"
 fi
 
 echo "Using html-proofer flags: ${PROOFER_FLAGS[*]} --swap-urls ${SWAP_ARG}"
