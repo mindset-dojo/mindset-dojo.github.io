@@ -18,7 +18,7 @@ leadership_designations:
   - type: project
     value: Project Cultivator
 about: |
-  ### Leadership Gardener ☯ Technologist
+  ### Leadership Gardener ☯ Meta Technologist
   
   I never expected taming parrots and navigating soccer scrums to lead me to
   coaching leaders—but looking back, it makes perfect sense.
