@@ -20,7 +20,7 @@
     
   {%- assign meta_desc = raw_desc | strip_html | strip_newlines | truncate: 160 -%}
 
-  {%- assign canonical_abs = site.url | append: page.url -%}
+  {%- assign canonical_abs = page.url | absolute_url -%}
 
   <title>{{ raw_title }}</title>
   <meta name="description" content="{{ meta_desc }}">
