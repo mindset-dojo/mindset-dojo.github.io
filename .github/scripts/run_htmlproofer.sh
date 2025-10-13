@@ -1,6 +1,6 @@
 #!/bin/bash
 # .github/scripts/run_htmlproofer.sh
-# Run HTMLProofer with a single URL swap for the canonical host (v5: --swap-urls with regex-escaped FROM).
+# Run HTMLProofer with a single URL swap for the canonical host (v5: --swap-urls expects FROM:TO with escaped colons in FROM regex).
 
 set -euo pipefail
 
@@ -51,11 +51,22 @@ bundle install --jobs 4 --retry 3
 bundle exec jekyll build --config _config.yml,_config.production.yml
 
 # ------------------------------
+# Helpers
+# ------------------------------
+make_from_regex () {
+  # Input: absolute canonical URL (e.g., https://example.com/ or https://example.com)
+  # Output: anchored regex with escaped '.', ':', and '/' (v5 expects escaped literal colons)
+  local src="$1"
+  src="${src%/}/"  # ensure trailing slash
+  printf '^%s' "$src" | sed -e 's/[.]/\\./g' -e 's/:/\\:/g' -e 's/\//\\\//g'
+}
+
+# ------------------------------
 # Derive site.url and construct a single --swap-urls pair (escaped regex)
 # ------------------------------
 URL_VALUE=""
 if [[ -f "_config.production.yml" ]]; then
-  # capture 'url: https://example.com' (ignore comments/spaces/quotes)
+  # capture 'url: https://example.com' (ignore quotes/whitespace)
   URL_VALUE=$(awk -F: '/^[[:space:]]*url[[:space:]]*:/ {print $2}' _config.production.yml | tr -d ' "' || true)
 fi
 
@@ -63,21 +74,31 @@ SWAP_ARG=""
 
 # Priority 1: explicit ENV
 if [[ -n "${URL_SWAP:-}" ]]; then
-  # Accept proper v5 form "FROM_REGEX,TO_STRING" as-is
-  if [[ "${URL_SWAP}" == *","* ]]; then
+  # Accept proper v5 colon form "FROM:TO" as-is (no comma present).
+  if [[ "${URL_SWAP}" == *":"* && "${URL_SWAP}" != *","* ]]; then
     SWAP_ARG="${URL_SWAP}"
   else
-    # Legacy colon-style "https://host/:/" -> convert to v5 comma form
-    if [[ "${URL_SWAP}" == http*":/" ]]; then
-      LEFT="${URL_SWAP%:/}"         # strip the trailing ":/"
-      LEFT="${LEFT%/}/"             # ensure single trailing slash
-      RIGHT="/"                     # TO
-      # Escape '.' and ':' and anchor at start ^
-      LEFT_ESC="^$(printf '%s' "${LEFT}" | sed -e 's/[.]/\\./g' -e 's/:/\\:/g')"
-      SWAP_ARG="${LEFT_ESC},${RIGHT}"
+    # If someone provided comma form "FROM,TO", auto-convert to colon form.
+    if [[ "${URL_SWAP}" == *","* ]]; then
+      LEFT="${URL_SWAP%%,*}"
+      RIGHT="${URL_SWAP#*,}"
+      if [[ "${LEFT}" == http* ]]; then
+        LEFT_ESC=$(make_from_regex "${LEFT}")
+      else
+        LEFT_ESC="${LEFT}"
+      fi
+      SWAP_ARG="${LEFT_ESC}:${RIGHT}"
     else
-      # Fallback: just replace the last ":/" with ",/"
-      SWAP_ARG="${URL_SWAP%:/},/"
+      # Legacy naive like "https://host/:/" -> escape and fix.
+      if [[ "${URL_SWAP}" == http*":/" ]]; then
+        LEFT="${URL_SWAP%:/}"
+        LEFT_ESC=$(make_from_regex "${LEFT}")
+        SWAP_ARG="${LEFT_ESC}:/"
+      else
+        # Fallback: treat the whole thing as LEFT and map to root.
+        LEFT_ESC=$(make_from_regex "${URL_SWAP}")
+        SWAP_ARG="${LEFT_ESC}:/"
+      fi
     fi
   fi
 
@@ -87,15 +108,8 @@ else
     echo "ERROR: site.url not set in _config.production.yml and URL_SWAP not provided; cannot build --swap-urls." >&2
     exit 1
   fi
-
-  # Ensure trailing slash on canonical host
-  CANON_URL="${URL_VALUE%/}/"
-
-  # FROM is a regex. Escape '.' and ':' and anchor at start with ^
-  FROM_RE="^$(printf '%s' "${CANON_URL}" | sed -e 's/[.]/\\./g' -e 's/:/\\:/g')"
-
-  # v5 requires comma separator (FROM,TO)
-  SWAP_ARG="${FROM_RE},/"
+  FROM_RE=$(make_from_regex "${URL_VALUE}")
+  SWAP_ARG="${FROM_RE}:/"
 fi
 
 echo "Using html-proofer flags: ${PROOFER_FLAGS[*]} --swap-urls ${SWAP_ARG}"
