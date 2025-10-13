@@ -180,7 +180,7 @@ sections:
       aspects_label: "Aspects"
       items:
         - label: Zenpai
-          intention: Model and enhance training amoung emerging leaders
+          intention: Model and enhance training among emerging leaders
           aspects:
             - label: Join Mat sessions regularly, lead periodically
             - label: Create and share Insight regularly, guiding earlier learners
