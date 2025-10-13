@@ -180,13 +180,13 @@ sections:
       aspects_label: "Aspects"
       items:
         - label: Zenpai
-          intention: Guidance through lived example and growth through co-learning
+          intention: Model and enhance training amoung emerging leaders
           aspects:
             - label: Join Mat sessions regularly, lead periodically
             - label: Create and share Insight regularly, guiding earlier learners
             - label: Blue Level+
         - label: Zensei
-          intention: Stewardship through modeling and evolution through community feedback
+          intention: Model and guide leadership throughout the community
           aspects:
             - label: Lead Mat sessions regularly
             - label: Create and share Insight regularly, guiding growing leaders
