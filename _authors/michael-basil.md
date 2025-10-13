@@ -14,7 +14,7 @@ program_level: 1
 program_level_date: 2025-01-12
 leadership_designations:
   - type: program
-    value: Sensei
+    value: Zensei
   - type: project
     value: Project Cultivator
 about: |
