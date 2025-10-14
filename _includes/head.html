@@ -21,6 +21,7 @@
   {%- assign meta_desc = raw_desc | strip_html | strip_newlines | truncate: 160 -%}
 
   {%- assign canonical_abs = page.url | absolute_url -%}
+  {%- assign canonical_rel = page.url | relative_url -%}
 
   <title>{{ raw_title }}</title>
   <meta name="description" content="{{ meta_desc }}">
@@ -46,7 +47,7 @@
   <link rel="stylesheet" href="{{ '/assets/css/04-components-3-content.css' | relative_url }}" media="all">
   <link rel="stylesheet" href="{{ '/assets/css/05-pages.css' | relative_url }}" media="all">
 
-  <link rel="canonical" href="{{ canonical_abs }}">
+  <link rel="canonical" href="{{ canonical_rel }}">
 
   <link rel="icon" href="{{ '/assets/favicon.png' | relative_url }}" sizes="32x32">
   <link rel="icon" href="{{ '/assets/favicon.png' | relative_url }}" sizes="192x192">
