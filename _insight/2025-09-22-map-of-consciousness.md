@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "Map of Consciousness"
-authors: ["kyle-ingersoll"]
-h1_mark: Map
+title_mark: Map
+authors: 
+  - kyle-ingersoll
 date: 2025-09-22
 excerpt: "When life punches first, the Map of Consciousness helps us notice where we stand — below the line in contraction or above it in creation — and trains us to shift through breath, tone, and awareness."
 ---  
@@ -111,13 +112,7 @@ The lesson ends not in mastery, but infinitely begins with resonance.
 
 And so there was a bow, lighter than when the dojo was entered.  
 
----
-
-👉 [Join the community](https://mindset.dojo.center/)  
-
 ⛩️🖥️
-
-***Kyle Ingersoll — Brown Level and DevOps Cultivator***  
 
 ---
 

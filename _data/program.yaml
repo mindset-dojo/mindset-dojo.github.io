@@ -5,11 +5,11 @@ description: "A layered training journey: presence, nervous-system skill, and co
 sections:
   - type: mission
     data:
-      mission_rally_suffix_label: ": Embodied Practice"
+      mission_rally_suffix_label: ": Living Practice"
       mission_statement_bridge:
         - "We train live—on the mat and in conversation with tension as teacher."
-        - "Between reps, we refine tone, timing, and presence until balance returns."
-        - "This is MetaShift Method—where reflection transforms into relational flow."
+        - "Between reps, we refine tone, timing, and presence toward balance."
+        - "This is MetaShift Method—where reflection becomes relational flow."
   - type: list
     data:
       label: "Principles"
@@ -17,7 +17,7 @@ sections:
         - "Relax completely"
         - "Center with intention"
         - "Meet fear with presence"
-        - "Resonance is Ki"
+        - "Playful resonance is Ki"
   - type: list
     data:
       label: "Forms"
@@ -51,8 +51,8 @@ sections:
           intention: Orientation
           edge: Four Patterns Reflection
           flows:
-            - label: MetaShift Insight - Cultivating a Threshold-Based Authorship Network
-              url: /insight/cultivating-a-threshold-based-authorship-network/
+            - label: MetaShift Insight - The Technology of Self-Authorship
+              url: /insight/technology-of-self-authorship/
             - label: Zen Toolkit Inspiration
               url: http://www.zenshinkan.com/zenshinkan-lineage-ginny.html
             - label: FEBI™ (Focus Energy Balance Indicator) Context
@@ -63,10 +63,10 @@ sections:
           label: 6th Kyu
           level: -6
           intention: Centering
-          edge: Meditate until a spirited conversation makes sense and share your learnings
+          edge: Meditate until a spirited conversation makes sense and share insight
           flows:
-            - label: MetaShift Insight - Conversation as Code
-              url: /insight/conversation-as-code/
+            - label: MetaShift Insight - A Fable on Opposition
+              url: /insight/fable-on-opposition/
             - label: Zen Toolkit - One Breath
               url: https://vimeo.com/944618879/47e96945a4
             - label: MetaShift Insight - Tone
@@ -79,10 +79,10 @@ sections:
           label: 5th Kyu
           level: -5
           intention: Perception
-          edge: Reflect on a spirited conversation through multiple points of view at once
+          edge: Reflect on a spirited conversation from multiple points of view
           flows:
-            - label: MetaShift Insight - A Fable on Opposition
-              url: /insight/fable-on-opposition/
+            - label: MetaShift Insight - From Explorer to Cultivator
+              url: /insight/from-explorer-to-cultivator/
             - label: Zen Toolkit - Two Sides
               url: https://vimeo.com/944663134/d4f1c4f333
             - label: Negotiation 9™ Move - Calibrated Questions
@@ -99,6 +99,8 @@ sections:
           intention: Listening
           edge: Listen deeply with fresh ears and reflect back what you hear
           flows:
+            - label: MetaShift Insight - Conversation as Code
+              url: /insight/conversation-as-code/
             - label: Zen Toolkit - Three Centers
               url: https://vimeo.com/944672806/e099593826
             - label: Negotiation 9™ Move - Labels
@@ -167,10 +169,10 @@ sections:
           intention: Wu-Wei
           edge: Explore MetaShift Method with another living system
           flows:
-            - label: For Something New To Come, Something Old Must Go
-              url: https://www.youtube.com/watch?v=_to_w-R0JjQ
             - label: 30 minute Zazen with Chosei Zen Virtual Dojo
               url: https://www.choseizen.org/virtual-dojo
+            - label: MetaShift Insight - Cultivating a Threshold-Based Authorship Network
+              url: /insight/cultivating-a-threshold-based-authorship-network/
             - label: Two Sides Integrative Randori with Beyond the Black Belt Circle
               url: https://vimeo.com/944663134/d4f1c4f333
   - type: designations
@@ -180,13 +182,13 @@ sections:
       aspects_label: "Aspects"
       items:
         - label: Zenpai
-          intention: Guidance through lived example and growth through co-learning
+          intention: Model and enhance training among emerging leaders
           aspects:
             - label: Join Mat sessions regularly, lead periodically
             - label: Create and share Insight regularly, guiding earlier learners
             - label: Blue Level+
         - label: Zensei
-          intention: Stewardship through modeling and evolution through community feedback
+          intention: Model and guide leadership throughout the community
           aspects:
             - label: Lead Mat sessions regularly
             - label: Create and share Insight regularly, guiding growing leaders

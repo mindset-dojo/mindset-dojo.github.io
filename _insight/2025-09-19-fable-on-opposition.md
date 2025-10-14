@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "A Fable on Opposition"
-authors: ["kyle-ingersoll"]
-h1_mark: Opposition
+title_mark: Opposition
+authors: 
+  - kyle-ingersoll
 date: 2025-09-19
 excerpt: "Opposition is not just resistance — it is the sharpening edge that deepens our roots, clarifies our direction, and prepares us to rise beyond limits."
 ---
@@ -41,10 +42,4 @@ The bamboo realized:
 💡 In the dojo, opposition is not just resistance.  
 It is the sharpening edge that deepens our roots, clarifies our direction, and prepares us to rise beyond limits.
 
----
-
-👉 [Join the community](https://mindset.dojo.center/)
-
 ⛩️🖥️
-
-***Kyle Ingersoll — Brown Level and DevOps Cultivator***

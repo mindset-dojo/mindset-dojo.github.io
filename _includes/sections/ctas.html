@@ -29,7 +29,7 @@ Resolves:
 
       {%- if href -%}
         {%- if href contains '://' -%}
-          <a class="btn" href="{{ href }}" target="_blank" rel="noopener noreferrer">{{ cta.label }}</a>
+          <a class="btn" href="{{ href }}">{{ cta.label }}</a>
         {%- else -%}
           <a class="btn" href="{{ href | relative_url }}">{{ cta.label }}</a>
         {%- endif -%}

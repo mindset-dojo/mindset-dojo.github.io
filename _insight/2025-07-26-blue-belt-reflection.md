@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "Blue Belt Reflection"
-authors: ["kyle-ingersoll"]
-h1_mark: Reflection
+title_mark: Reflection
+authors: 
+  - kyle-ingersoll
 date: 2025-07-26
 excerpt: "Through Blue Belt training, I learned that Fearless Leadership begins not with control, but with the awareness to lead, follow, and act through balance."
 ---
@@ -60,3 +61,5 @@ I’m not at Black Belt yet. I don’t fully embody the values and practices tau
 But I now understand what the path looks like. I’ve taken the first real steps — through action, not just reflection.
 
 Going forward, I’ll continue building these habits: journaling reflections on user story work, meditating regularly, and saying “yes” when the Sensei draws the next door.
+
+⛩️🖥️

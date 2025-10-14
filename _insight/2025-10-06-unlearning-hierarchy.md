@@ -1,9 +1,11 @@
 ---
 layout: post
 title: "Unlearning Hierarchy"
-h1_mark: learn
+title_mark: learn
 date: 2025-10-06
-authors: ["michael-basil", "kyle-ingersoll"]
+authors: 
+  - michael-basil
+  - kyle-ingersoll
 excerpt: "In the Dojo, leadership is cultivation, not control. Circles replace chains of command. Authorship replaces ownership."
 ---
 
@@ -78,12 +80,6 @@ If hierarchy is a habit, unlearning it is a practice:
 - **Hold one point.** Center attention before acting.  
 - **Lead by question, not instruction.** “What’s the smallest next step?”  
 - **Mirror and amplify.** Reflect what you hear; name what wants acknowledgment.  
-- **Practice ‘Right, not Might.’** Choose correctness grounded in care.  
-
----
-
-👉 [mindset.dojo.center](https://mindset.dojo.center)
-
-⛩️🌿  
-**Michael Basil** (Black Level, Project Cultivator)  
-**Kyle Ingersoll** (Red Level, DevOps Cultivator)
+- **Practice ‘Right, not Might.’** Choose correctness grounded in care.
+  
+⛩️🌿

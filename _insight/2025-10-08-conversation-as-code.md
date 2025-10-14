@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Conversation as Code"
-h1_mark: Conversation
+title_mark: Conversation
 date: 2025-10-08
-authors: ["michael-basil"]
+authors: 
+  - michael-basil
 excerpt: "Every conversation writes code into the field — tone, timing, and language compile into patterns that shape what becomes possible next."
 ---
 
@@ -34,6 +35,4 @@ Most of us run legacy software — inherited emotional code. Through training, w
 > The health of any system — a family, team, or culture — mirrors the quality of conversation that sustains it.
 
 Change the conversation, and you change the codebase of reality. That is what we train here — line by line, breath by breath, together.
-
-→ <https://mindset.dojo.center>  
 ⛩️🌿

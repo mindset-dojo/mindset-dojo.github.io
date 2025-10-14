@@ -4,10 +4,9 @@ mantra: "Don't Complain. Train."
 mantra_mark: "Train."
 description: "Mindset Dojo is a training ground for fearless leadership. Through practice in mind, body, tone, and timing, we cultivate clarity, compassion, and presence under pressure."
 statement:
-  - Our mission is to cultivate fearless leadership through energy agility.
-  - Training mind, body, breath, tone, and timing as one field.
-  - Inviting conversational presence to homes, classrooms, dojos, and boardrooms.
-  - So that composure becomes natural when pressure and change arrive.
+  - To cultivate fearless leadership through training presence.
+  - Whoever enters the field becomes part of its cultivation.
+  - Together we train mind, body, breath, tone, and timing as one.
 sections:
   - type: text
     data:
@@ -33,8 +32,8 @@ sections:
       mission_rally_suffix_label: ": Root Intention"
       mission_statement_bridge:
         - "We practice live—in real conversations where tone and tension are felt."
-        - "We reflect between reps—refining awareness and adjusting our stance."
-        - "We progress through embodied thresholds of attention, intention, and reciprocity."
+        - "We reflect between reps—refining awareness and stance."
+        - "We progress through thresholds of attention, intention, and reciprocity."
   - type: text
     data:
       label: "Energy Is Currency"

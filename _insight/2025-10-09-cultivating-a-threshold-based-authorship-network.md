@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Cultivating a Threshold-Based Authorship Network"
-h1_mark: Authorship
+title_mark: Authorship
 date: 2025-10-09
-authors: ["michael-basil"]
+authors: 
+  - michael-basil
 excerpt: "In the dojo, we’re not trying to build an audience — we’re cultivating a field of thresholds: experiences that transform presence into trust."
 ---
 
@@ -48,6 +49,4 @@ All of it belongs to the same current — energy circulating through trust, sust
 The Mindset Dojo isn’t a following. It is a living lattice of practice and authorship — a threshold network cultivated through conversation, energy agility, and fearless presence.
 
 And this authorship continues to evolve — into a shared repository that includes conversational presence patterns, a living record of how we learn to meet life and one another with clarity, compassion, and courage.
-
-→ <https://mindset.dojo.center>  
 ⛩️🌿

@@ -4,6 +4,9 @@ title: Mindset Dojo
 google_analytics_id: G-7PD1BFF7RG
 
 collections:
+  authors:
+    output: true
+    permalink: /authors/:name/
   insight:
     output: true
     permalink: /insight/:slug/
@@ -21,8 +24,8 @@ header_links:
     href: /program/
   - label: PROJECT
     href: /project/
-  - label: PATTERNS
-    href: /patterns/
+  - label: PATTERN
+    href: /pattern/
   - label: INSIGHT
     href: /insight/
 
@@ -33,8 +36,8 @@ footer_primary_links:
     href: /program/
   - label: PROJECT
     href: /project/
-  - label: PATTERNS
-    href: /patterns/
+  - label: PATTERN
+    href: /pattern/
   - label: INSIGHT
     href: /insight/
   - label: CONTACT

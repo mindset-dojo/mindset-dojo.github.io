@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "Not Knowing Is Most Intimate"
-authors: ["kyle-ingersoll"]
-h1_mark: Not Knowing
+title_mark: Not Knowing
+authors: 
+  - kyle-ingersoll
 date: 2025-09-08
 excerpt: "A reflection on how the Mat Sessions and community practice of Mindset Dojo helped me transform ego-driven self-improvement into humble, fearless growth through beginner’s mind."
 ---
@@ -41,6 +42,4 @@ As the community has matured, our meetups have become more **intentional**, more
 
 There’s always room for improvement, but I truly believe we’re off to a great start. For me, the Dojo isn’t just a community — it’s a guide, a mirror, and a shared journey.
 
-If you’re looking for a place to grow, to connect, and to strengthen your ability to lead meaningful conversations, I invite you to join us:
-
-👉 [https://mindset.dojo.center/](https://mindset.dojo.center/)
+If you’re looking for a place to grow, to connect, and to strengthen your ability to lead meaningful conversations, I invite you to join us
