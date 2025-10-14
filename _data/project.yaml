@@ -41,13 +41,13 @@ sections:
       intention_label: "Intention"
       aspects_label: "Aspects"
       items:
-        - label: "(Domain-Specific) Cultivator"
+        - label: "(Domain-Focused) Cultivator"
           intention: "Strengthen, clarify, and amplify the mission"
           aspects:
             - label: "Join Cultivator Circle regularly"
             - label: "Contribute to expertise in a mutually beneficial way"
             - label: "Green Level+, vouched for by existing Cultivator(s)"
-        - label: "Project Cultivator"
+        - label: "(Organizationally-Focused) Cultivator"
           intention: "Guide, harmonize, and model training authorship"
           aspects:
             - label: "Lead Cultivator Circle sessions regularly"
