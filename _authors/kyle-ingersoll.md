@@ -18,15 +18,15 @@ leadership_designations:
 about: |
   ### Socio-Technical Engineer
 
-  My journey in technology has always been guided by a sense of responsibility — not just to secure systems, but to safeguard the people who rely on them. From classrooms to community networks to open-source projects, my work in cybersecurity has never been about chasing skill for its own sake, but about building trust, resilience, and awareness into every layer of the digital world.
+  My journey in technology has always been guided by a sense of responsibility — not just to secure systems, but to safeguard the people who rely on them. From classrooms to community networks to open-source projects, my work in cybersecurity evolved from chasing skill for its own sake, to building trust, resilience, and awareness into every layer of the digital world.
 
   At **Richmond Community Schools**, I first understood what it meant to be *ready* — to step into real-world challenges and learn through service. Keeping classrooms connected and secure taught me that behind every network is a human story, and that true drive comes from showing up prepared to protect others, not just yourself.
 
-  At the **Boys & Girls Club of Wayne County**, I learned that resilience isn’t about never failing — it’s about learning deeply when you do. Each fix and safeguard became an act of care, ensuring that technology remained a source of opportunity and safety for the youth we served. My focus shifted from being the most-skilled hacker to becoming one who fully grasps the moral weight of every design decision — someone who wields capability with empathy.
+  At the **Boys & Girls Club of Wayne County**, I learned that resilience isn’t about never failing — it’s about learning deeply when you do. Each fix and safeguard became an act of care, ensuring that technology remained a source of opportunity and safety for the youth we served. My focus shifted from being the a skilled hacker to becoming one who fully grasps the moral weight of every design decision — someone who wields capability with empathy.
 
   That awareness matures in **Mindset Dojo**, an open-source community devoted to conversational mastery and personal growth. There, under the guidance of my Zensei, I see what it means to merge technical precision with presence. His example shows me that mastery in technology and mastery in self are not separate pursuits, but complementary forms of awareness. Through that lens, I help engineer secure DevOps pipelines and automated quality gates that quietly teach contributors the ethics of reliability and trust.
 
-  Across all of this, a consistent thread runs through: **drive grounded in purpose, resilience forged through reflection, and responsibility expressed through service**. I don’t seek to be the greatest hacker, but a conscientious engineer — one who builds technology that strengthens communities, elevates conversations, and protects what truly matters. Because in the end, the measure of our systems isn’t how clever they are, but how safely and wisely they help others grow.
+  Across all of this, a consistent thread runs through: **drive grounded in purpose, resilience forged through reflection, and responsibility expressed through service**. I don’t seek to merely a skilled hacker, but a conscientious engineer — one who builds technology that strengthens communities, elevates conversations, and protects what truly matters. Because in the end, the measure of our systems isn’t how clever they are, but how safely and wisely they help others grow.
 
   ⛩️🖥️
 
