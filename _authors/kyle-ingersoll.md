@@ -17,5 +17,8 @@ leadership_designations:
 about: |
   ### Contact
   
-  - [in] [LinkedIn](https://www.linkedin.com/in/kyle-ingersoll)
+  - [Email](mailto:kyle.ingersoll@dojo.center)
+  - [LinkedIn](https://www.linkedin.com/in/kyle-ingersoll)
+  - [GitHub](https://github.com/Computer8543)
+  - [Video](https://calendly.com/college1b7e/30min)
 ---
