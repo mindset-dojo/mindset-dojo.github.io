@@ -115,7 +115,7 @@ if [[ $PROOFER_STATUS -ne 0 ]]; then
 
   if [[ ${#OFFENDER_PAIRS[@]} -eq 0 ]]; then
     echo "Could not parse offending files from HTMLProofer output."
-    exit $PROOFER_STATUS
+    exit "$PROOFER_STATUS"
   fi
 
   # Build map: file -> line numbers (space-separated)
@@ -158,7 +158,7 @@ if [[ $PROOFER_STATUS -ne 0 ]]; then
   done
 
   # Preserve original non-zero exit
-  exit $PROOFER_STATUS
+  exit "$PROOFER_STATUS"
 fi
 
 # If we get here, proofer passed
