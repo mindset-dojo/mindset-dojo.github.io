@@ -24,7 +24,8 @@ permalink: /insight/
       {% assign segments = post.url | split: '/' %}
       {% assign last = segments | last %}
       {% if last == "" %}
-        {% assign post_slug = segments[segments.size | minus: 2] %}
+        {% assign idx = segments.size | minus: 2 %}
+        {% assign post_slug = segments | slice: idx, 1 | first %}
       {% else %}
         {% assign post_slug = last %}
       {% endif %}
