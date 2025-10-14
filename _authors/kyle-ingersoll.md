@@ -1,8 +1,8 @@
 ---
 layout: threshold
 data_key: author
-mantra: null
-mantra_mark: null
+mantra: "Don't Demand. Do."
+mantra_mark: "Do."
 description: null
 name: Kyle Ingersoll
 active: true
