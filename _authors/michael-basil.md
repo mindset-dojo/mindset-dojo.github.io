@@ -16,7 +16,7 @@ leadership_designations:
   - type: program
     value: Zensei
   - type: project
-    value: Project Cultivator
+    value: Authorship Cultivator
 about: |
   ### Leadership Gardener ☯ Meta Technologist
   
