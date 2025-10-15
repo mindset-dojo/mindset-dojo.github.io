@@ -2,9 +2,9 @@
 Renders a stream of posts from a collection.
 section.data.collection -> collection name (default: "insight")
 section.data.sort_by -> field to sort by (default: "date")
-section.data.reverse -> boolean to reverse sort (default: true)
+section.data.reverse -> boolean to reverse sort (default: true if explicitly set)
 section.data.excerpt_length -> integer for excerpt length (default: 220)
-section.data.authors -> optional list of author slugs to filter by (same formats as authors
+section.data.authors -> optional list of author slugs to filter by (same formats as authors)
 New features:
 - Accepts section.data.authors or include.authors to restrict to a set of author slugs
   (same input formats as authors.html: array, JSON-ish string, comma-separated, single slug).
@@ -23,20 +23,29 @@ New features:
 {%- else -%}
   {%- comment -%} normalize override authors (from include or section.data) {%- endcomment -%}
   {%- assign raw_override = include.authors | default: section.data.authors | default: "" -%}
-  {%- assign use_override = raw_override != "" -%}
-  {%- if use_override -%}
-    {%- if raw_override[0] != nil -%}
-      {%- assign override_slugs = raw_override -%}
-    {%- elsif raw_override contains '[' and raw_override contains ']' -%}
-      {%- assign tmp = raw_override | remove:'[' | remove:']' | remove:'"' | remove:"'" | strip -%}
+  {%- assign override_slugs = "" | split: "|" -%}
+  {%- assign override_slugs_norm = "" | split: "|" -%}
+
+  {%- if raw_override != "" -%}
+    {%- assign raw_json = raw_override | jsonify -%}
+
+    {%- if raw_json contains '[' and raw_json contains ']' -%}
+      {%- assign tmp = raw_json | remove:'[' | remove:']' | remove:'"' | remove:"'" | strip -%}
       {%- assign override_slugs = tmp | split:',' | map:'strip' -%}
-    {%- elsif raw_override contains ',' -%}
-      {%- assign override_slugs = raw_override | split:',' | map:'strip' -%}
+
+    {%- elsif raw_json contains ',' -%}
+      {%- assign tmp = raw_json | remove:'"' | remove:"'" | strip -%}
+      {%- assign override_slugs = tmp | split:',' | map:'strip' -%}
+
     {%- else -%}
-      {%- assign override_slugs = raw_override | split:'\n' | map:'strip' -%}
+      {%- assign tmp = raw_json | remove:'"' | remove:"'" | strip -%}
+      {%- if tmp == "" -%}
+        {%- assign override_slugs = "" | split: "|" -%}
+      {%- else -%}
+        {%- assign override_slugs = tmp | split:'\n' | map:'strip' -%}
+      {%- endif -%}
     {%- endif -%}
-    {%- comment -%} normalize each slug (take before '.' and slugify) {%- endcomment -%}
-    {%- assign override_slugs_norm = "" | split: "|" -%}
+
     {%- for s in override_slugs -%}
       {%- assign s_norm = s | split:'.' | first | slugify -%}
       {%- assign override_slugs_norm = override_slugs_norm | push: s_norm -%}
@@ -44,7 +53,15 @@ New features:
   {%- endif -%}
 
   {%- assign sort_key = section.data.sort_by | default: "date" -%}
-  {%- assign reverse_flag = section.data.reverse | default: true -%}
+
+  {%- comment -%}
+  Make reverse explicit: only reverse if section.data.reverse is explicitly true.
+  (Matches behavior of the simpler working file.)
+  {%- endcomment -%}
+  {%- assign reverse_flag = false -%}
+  {%- if section.data.reverse != nil and section.data.reverse == true -%}
+    {%- assign reverse_flag = true -%}
+  {%- endif -%}
 
   {%- comment -%}
   Helpers: function-like blocks to extract normalized author slugs from a post.
@@ -53,7 +70,7 @@ New features:
 
   {%- if section.data.group_by == "author" or include.group_by == "author" -%}
     {%- comment -%} Build list of author docs to iterate (override -> strict selection) {%- endcomment -%}
-    {%- if use_override -%}
+    {%- if override_slugs_norm.size > 0 -%}
       {%- assign author_docs = "" | split: "|" -%}
       {%- for s in override_slugs_norm -%}
         {%- assign doc = site.authors | where: "slug", s | first -%}
@@ -70,22 +87,24 @@ New features:
         {%- comment -%} collect posts for this author {%- endcomment -%}
         {%- assign matched = "" | split: "|" -%}
         {%- for p in posts -%}
+          {%- comment -%} parse p.authors robustly into p_slugs {%- endcomment -%}
           {%- assign p_auth = p.authors -%}
           {%- assign p_slugs = "" | split: "|" -%}
 
           {%- if p_auth -%}
-            {%- if p_auth[0] != nil -%}
-              {%- assign p_slugs = p_auth -%}
+            {%- assign p_json = p_auth | jsonify -%}
+
+            {%- if p_json contains '[' and p_json contains ']' -%}
+              {%- assign tmp = p_json | remove:'[' | remove:']' | remove:'"' | remove:"'" | strip -%}
+              {%- assign p_slugs = tmp | split:',' | map:'strip' -%}
+
+            {%- elsif p_json contains ',' -%}
+              {%- assign tmp = p_json | remove:'"' | remove:"'" | strip -%}
+              {%- assign p_slugs = tmp | split:',' | map:'strip' -%}
+
             {%- else -%}
-              {%- assign s = p_auth | to_s | strip -%}
-              {%- if s contains '[' and s contains ']' -%}
-                {%- assign s = s | remove:'[' | remove:']' | remove:'"' | remove:"'" | strip -%}
-                {%- assign p_slugs = s | split:',' | map:'strip' -%}
-              {%- elsif s contains ',' -%}
-                {%- assign p_slugs = s | split:',' | map:'strip' -%}
-              {%- else -%}
-                {%- assign p_slugs = s | split:'\n' | map:'strip' -%}
-              {%- endif -%}
+              {%- assign tmp = p_json | remove:'"' | remove:"'" | strip -%}
+              {%- assign p_slugs = tmp | split:'\n' | map:'strip' -%}
             {%- endif -%}
           {%- endif -%}
 
@@ -122,23 +141,25 @@ New features:
     {%- comment -%} Non-grouped mode: optionally filter posts to the override slugs, else show all posts {%- endcomment -%}
     {%- assign filtered = "" | split: "|" -%}
     {%- for p in posts -%}
-      {%- if use_override -%}
+      {%- if override_slugs_norm.size > 0 -%}
+        {%- comment -%} parse p.authors robustly into p_slugs {%- endcomment -%}
         {%- assign p_auth = p.authors -%}
         {%- assign p_slugs = "" | split: "|" -%}
 
         {%- if p_auth -%}
-          {%- if p_auth[0] != nil -%}
-            {%- assign p_slugs = p_auth -%}
+          {%- assign p_json = p_auth | jsonify -%}
+
+          {%- if p_json contains '[' and p_json contains ']' -%}
+            {%- assign tmp = p_json | remove:'[' | remove:']' | remove:'"' | remove:"'" | strip -%}
+            {%- assign p_slugs = tmp | split:',' | map:'strip' -%}
+
+          {%- elsif p_json contains ',' -%}
+            {%- assign tmp = p_json | remove:'"' | remove:"'" | strip -%}
+            {%- assign p_slugs = tmp | split:',' | map:'strip' -%}
+
           {%- else -%}
-            {%- assign s = p_auth | to_s | strip -%}
-            {%- if s contains '[' and s contains ']' -%}
-              {%- assign s = s | remove:'[' | remove:']' | remove:'"' | remove:"'" | strip -%}
-              {%- assign p_slugs = s | split:',' | map:'strip' -%}
-            {%- elsif s contains ',' -%}
-              {%- assign p_slugs = s | split:',' | map:'strip' -%}
-            {%- else -%}
-              {%- assign p_slugs = s | split:'\n' | map:'strip' -%}
-            {%- endif -%}
+            {%- assign tmp = p_json | remove:'"' | remove:"'" | strip -%}
+            {%- assign p_slugs = tmp | split:'\n' | map:'strip' -%}
           {%- endif -%}
         {%- endif -%}
 
