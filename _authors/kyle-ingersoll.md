@@ -22,7 +22,7 @@ about: |
 
   In **Community College** I stood at a fork: writing or computing. I still craved mastery over machines — and, I now recognize, the quiet power that comes with it — even if I didn’t want to admit that drive. I chose computer science and began an apprenticeship in craft and consequence: learning to make things that work, and slowly learning what it means when they don’t.
 
-  Through **Reddit** I found **Cloud Security Office Hours**, a humble, helpful community, and was invited by Michael into **Mindset Dojo**. I didn’t click immediately, but returning again and again — and learning from the Dojo and my Zensei — helped me fuse technical precision with conversational presence. Mindset Dojo became the brave space where writing returned and mastery shifted from being about me to being about the people I serve.
+  Through **Reddit** I found **Cloud Security Office Hours**, a humble, helpful community, and was invited by Michael into **Mindset Dojo**. I didn’t connect with it immediately, but returning again and again — and learning from the Dojo and my Zensei — helped me fuse technical precision with conversational presence. Mindset Dojo became the brave space where writing returned and mastery shifted from being about me to being about the people I serve.
 
   Internships at **Richmond Community Schools** and the **Boys & Girls Club of Wayne County** turned ideas into practice. Protecting classroom and community networks taught me readiness and resilience — that each patch, policy, and pipeline is an act of care. Those experiences finished the arc: I moved from chasing prestige to treating design choices as moral responsibilities.
 
