@@ -27,15 +27,12 @@ Each case delegates to a small, focused template for that section type.
   {%- when 'insight-stream' -%}
     {% include sections/insight-stream.html section=section data=data %}
     {%- comment -%}
-    If this is an author page (page.data_key == "author") and the section
-    doesn't already declare authors, pass the current page.slug as an
-    authors override so the stream shows that author's posts.
+    Include insight-stream once. If we're rendering an author page and the
+    section doesn't already declare authors, pass a page.slug override.
     {%- endcomment -%}
-    {%- assign section_has_authors = section.data and section.data.authors and section.data.authors != "" -%}
-    {%- if page.data_key == "author" and section_has_authors == true -%}
-      {%- assign one_author = "" | split: "|" -%}
-      {%- assign one_author = one_author | push: page.slug -%}
-      {% include sections/insight-stream.html section=section data=data authors=one_author %}
+    {%- assign section_has_authors = section.data and section.data.authors -%}
+    {%- if page.data_key == "author" and not section_has_authors -%}
+      {% include sections/insight-stream.html section=section data=data authors=page.slug %}
     {%- else -%}
       {% include sections/insight-stream.html section=section data=data %}
     {%- endif -%}
