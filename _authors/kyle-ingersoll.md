@@ -18,13 +18,15 @@ leadership_designations:
 about: |
   ### Socio-Technical Engineer
 
-  My interest in privacy in high school — and a growing paranoia about surveillance — pushed me toward Linux and the principles of Free Software. That early conviction reframed technical skill as a means to protect and expand individual freedom: skill in service of agency, not status.
+  My interest in privacy in high school — and a growing suspicion of surveillance — pulled me toward Linux and the principles of Free Software. Early on I saw software as a place to defend individual agency: tools people can run, study, share, and modify. That belief planted the seed that technical skill should serve freedom, not status.
 
-  In Community College, I chose computer science over writing because I wanted to build tools that empower people rather than silence them. Through Reddit’s Cloud Security Office Hours I found a welcoming community and was invited by Michael into Mindset Dojo. I didn’t connect at first, but returning to the Dojo and learning from my Zensei helped me fuse technical precision with conversational presence — and gave me the brave space to write again.
+  In Community College, I stood at a fork: writing or computing. At the time I still craved mastery over machines — and, I now recognize, the quiet power that comes with it — even if I didn’t want to admit that drive. I chose computer science, learning to program as a way to gain control and competence. It wasn’t yet a moral project; it was the beginning of an apprenticeship in craft and consequence.
 
-  Internships at Richmond Community Schools and the Boys & Girls Club of Wayne County turned my principle into practice. There I learned readiness and resilience — that keeping classrooms and community networks safe is an act of care. Those experiences matured my purpose: rather than chasing accolades as a hacker, I learned to treat design decisions as moral choices and to build systems that protect people’s freedoms.
+  Through Reddit’s Cloud Security Office Hours I found a humble, helpful community and was invited by Michael into Mindset Dojo. I didn’t connect at first, but returning again and again — and learning from my Zensei — helped me fuse technical precision with conversational presence. Dojo gave me a brave space to write again and to move from mastery for its own sake toward mastery in service of others.
 
-  Today I merge security, software freedom, and conversational practice: building safe DevOps pipelines, enforcing automated quality gates, and writing Insight pieces — all toward one mission: to protect and expand human freedom through sociotechnical engineering.
+  Internships at Richmond Community Schools and the Boys & Girls Club of Wayne County turned ideas into practice. Protecting classroom and community networks taught me readiness and resilience — that each patch, policy, and pipeline is an act of care. Those experiences completed the arc: I stopped pursuing hacker prestige and started treating design choices as moral responsibilities.
+
+  Today I combine security, Free Software values, and conversational practice: building safe DevOps pipelines, enforcing automated quality gates, and writing Insight pieces — all in service of one mission: to protect and expand human freedom through sociotechnical engineering.
 
   ⛩️🖥️
 
