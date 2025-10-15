@@ -57,6 +57,11 @@
     .md-cta-group { flex-direction: column; }
   }
 
+  /* Insight list layout */
+  .md-author-flow {
+    text-align: center;
+  }
+
   /* Grid helpers */
   .md-grid-2,
   .md-grid-3 {
