@@ -3,11 +3,15 @@ Renders a single post article.
 Inputs:
   include.post
   include.excerpt_length (optional)
-This implements the existing slug + authors normalization from insight.md
+  include.hide_author -> when true, skip printing the "By AUTHOR ..." meta line
+Notes:
+  - Keeps existing slug + authors normalization logic to compute author_name_string
+  - honor hide_author so grouped-by-author lists can render an author card once
 {%- endcomment -%}
 
 {%- assign post = include.post -%}
 {%- assign excerpt_len = include.excerpt_length | default: 220 -%}
+{%- assign hide_author = include.hide_author | default: false -%}
 
 {%- comment -%} Resolve a safe slug for the post (defensive) {%- endcomment -%}
 {% assign post_slug = post.slug %}
@@ -73,9 +77,17 @@ This implements the existing slug + authors normalization from insight.md
 
 <article>
   <h3 class="title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-  <p class="meta">
-    By {{ author_name_string | default: site.author }} — {{ post.date | date: "%b %-d, %Y" }}
-  </p>
+
+  {%- unless hide_author -%}
+    <p class="meta">
+      By {{ author_name_string | default: site.author }} — {{ post.date | date: "%b %-d, %Y" }}
+    </p>
+  {%- else -%}
+    <p class="meta">
+      {{ post.date | date: "%b %-d, %Y" }}
+    </p>
+  {%- endunless -%}
+
   <p class="excerpt">
     {{ post.excerpt | default: post.content | strip_html | truncate: excerpt_len }}
   </p>
