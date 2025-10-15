@@ -2,14 +2,14 @@
 Renders a stream of posts from a collection.
 section.data.collection -> collection name (default: "insight")
 section.data.sort_by -> field to sort by (default: "date")
-section.data.reverse -> boolean to reverse sort (default: true if explicitly set)
+section.data.reverse -> boolean to reverse sort (only if explicitly true)
 section.data.excerpt_length -> integer for excerpt length (default: 220)
 section.data.authors -> optional list of author slugs to filter by (same formats as authors)
-New features:
+New behavior:
 - Accepts section.data.authors or include.authors to restrict to a set of author slugs
-  (same input formats as authors.html: array, JSON-ish string, comma-separated, single slug).
+  (input formats: array, JSON-ish string, comma-separated, single slug).
+- If no author override is provided and `page.slug` exists, use `page.slug` as the author filter.
 - Supports grouping by author when section.data.group_by == "author" (or include.group_by).
-  In group mode each author gets a header (uses sections/author.html) and their posts.
 - Preserves existing sorting via section.data.sort_by and section.data.reverse.
 - When grouping we call insight-item.html with hide_author=true to avoid repeating the author card.
 {%- endcomment -%}
@@ -52,11 +52,18 @@ New features:
     {%- endfor -%}
   {%- endif -%}
 
+  {%- comment -%}
+  If no explicit override was provided, fall back to page.slug (common pattern: author/insight pages)
+  {%- endcomment -%}
+  {%- if override_slugs_norm.size == 0 and page and page.slug -%}
+    {%- assign pg_slug_norm = page.slug | slugify -%}
+    {%- assign override_slugs_norm = override_slugs_norm | push: pg_slug_norm -%}
+  {%- endif -%}
+
   {%- assign sort_key = section.data.sort_by | default: "date" -%}
 
   {%- comment -%}
   Make reverse explicit: only reverse if section.data.reverse is explicitly true.
-  (Matches behavior of the simpler working file.)
   {%- endcomment -%}
   {%- assign reverse_flag = false -%}
   {%- if section.data.reverse != nil and section.data.reverse == true -%}
