@@ -58,7 +58,7 @@
   }
 
   /* Insight list layout */
-  .md-author-flow {
+  #insights-by-author {
     text-align: center;
   }
 
