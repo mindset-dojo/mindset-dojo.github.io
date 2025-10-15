@@ -18,17 +18,19 @@ leadership_designations:
 about: |
   ### Socio-Technical Engineer
 
-  My journey in technology began with a fascination for privacy and a healthy paranoia about surveillance in high school — questions that led me to Linux and the freedom to understand how systems really work. In Community College, I reached a crossroads between writing and computing. I chose computer science, realizing that programming was another form of storytelling — one where logic could serve empathy.
+  My interest in privacy in high school — and a growing suspicion of surveillance — pulled me toward **Linux** and the principles of **Free Software**. Early on I saw software as a place to defend individual agency: tools people can run, study, share, and modify. That seed convinced me that technical skill should serve freedom, not status.
 
-  Through Reddit, I discovered Cloud Security Office Hours, a welcoming cybersecurity community that deepened my understanding of cloud defense. There, I was invited by Michael to join Mindset Dojo, an open-source project focused on conversational mastery and growth. I didn’t connect with it at first, but returning to it again and again revealed deeper lessons — crossing threshold after threshold until technical mastery and self-awareness became part of the same practice.
+  In **Community College** I stood at a fork: writing or computing. I still craved mastery over machines — and, I now recognize, the quiet power that comes with it — even if I didn’t want to admit that drive. I chose computer science and began an apprenticeship in craft and consequence: learning to make things that work, and slowly learning what it means when they don’t.
 
-  Along the way, my internships at Richmond Community Schools and the Boys & Girls Club of Wayne County grounded those lessons in service. At Richmond, I learned readiness — keeping classrooms connected so learning could continue securely. At the Boys & Girls Club, I learned resilience — that every safeguard is an act of care. Those experiences shifted my goal from being the most skilled hacker to being a conscientious engineer — one who understands the moral weight of their design decisions.
+  Through **Reddit** I found **Cloud Security Office Hours**, a humble, helpful community, and was invited by Michael into **Mindset Dojo**. I didn’t connect with it immediately, but returning again and again — and learning from the Dojo and my Zensei — helped me fuse technical precision with conversational presence. Mindset Dojo became the brave space where writing returned and mastery shifted from being about me to being about the people I serve.
 
-  Now, through my work in Mindset Dojo, I merge technical precision with conversational presence, helping engineer DevOps pipelines and automated safeguards that teach ethics through design itself. Across everything I do runs a single thread: drive with purpose, resilience through reflection, and responsibility in service. I don’t seek to outsmart threats — I seek to build systems and communities that make people safer, wiser, and more connected.
+  Internships at **Richmond Community Schools** and the **Boys & Girls Club of Wayne County** turned ideas into practice. Protecting classroom and community networks taught me readiness and resilience — that each patch, policy, and pipeline is an act of care. Those experiences finished the arc: I moved from chasing prestige to treating design choices as moral responsibilities.
+
+  Now I mix security, Free Software values, and conversational practice: building safe DevOps pipelines, enforcing automated quality gates, and writing Insight pieces — all toward one mission: to protect and expand human freedom through sociotechnical engineering. And yes — we have fun doing it. Zen-like discipline without joy is just a posture; the real practice is rigorous, kind, and, occasionally, delightfully playful. After all, what is a dream without resonance? A delusion.
 
   ⛩️🖥️
 
-  ### Contact
+  ### Connect
   
   - [Email](mailto:kyle.ingersoll@dojo.center)
   - [LinkedIn](https://www.linkedin.com/in/kyle-ingersoll)
