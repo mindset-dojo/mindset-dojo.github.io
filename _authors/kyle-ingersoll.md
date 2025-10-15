@@ -28,7 +28,7 @@ about: |
 
   ⛩️🖥️
 
-  ### Contact
+  ### Connect
   
   - [Email](mailto:kyle.ingersoll@dojo.center)
   - [LinkedIn](https://www.linkedin.com/in/kyle-ingersoll)
