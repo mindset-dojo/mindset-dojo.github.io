@@ -141,6 +141,7 @@ New behavior:
           <section class="md-flow md-author-section">
             {% include sections/author.html author=author %}
             <div class="md-insight-list">
+              <h3> My Insight </h3>
               {%- for post in matched -%}
                 {% include sections/insight-item.html post=post excerpt_length=section.data.excerpt_length hide_author=true %}
               {%- endfor -%}
