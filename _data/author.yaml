@@ -4,6 +4,10 @@ sections:
   - type: markdown
     data:
       field: about
+  - type: markdown
+    data:
+      label: "My Insight"
+      content: "A collection of my recent writings and reflections."
   - type: insight-stream
     data:
       collection: insight
