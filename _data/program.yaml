@@ -169,6 +169,8 @@ sections:
           intention: Wu-Wei
           edge: Explore MetaShift Method with another living system
           flows:
+            - label: MetaShift Insight - ⛩️ The Hand-Sword and the Shadow - Using Force for Peace
+              url: /insight/force-for-peace/
             - label: 30 minute Zazen with Chosei Zen Virtual Dojo
               url: https://www.choseizen.org/virtual-dojo
             - label: MetaShift Insight - Cultivating a Threshold-Based Authorship Network
