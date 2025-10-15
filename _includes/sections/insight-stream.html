@@ -14,279 +14,147 @@ New behavior:
 - When grouping we call insight-item.html with hide_author=true to avoid repeating the author card.
 {%- endcomment -%}
 
-{%- assign coll_name = section.data.collection | default: "insight" -%}
-{%- assign posts = site[coll_name] -%}
-{%- if posts == nil -%}
-  <section class="md-flow">
-    <p><em>No collection named <code>{{ coll_name }}</code> found.</em></p>
-  </section>
-{%- else -%}
-  {%- comment -%} normalize override authors (from include or section.data) {%- endcomment -%}
-  {%- assign raw_override = include.authors | default: section.data.authors | default: "" -%}
-  {%- assign override_slugs = "" | split: "|" -%}
-  {%- assign override_slugs_norm = "" | split: "|" -%}
+{%- assign coll_name = include.collection | default: 'insight' -%}
+{%- assign coll = site[coll_name] -%}
 
-  {%- if raw_override != "" -%}
-    {%- assign raw_json = raw_override | jsonify -%}
+{%- assign raw_override = include.override_slugs | default: "" -%}
+{%- assign override_slugs = raw_override | split: ',' | map: 'strip' -%}
+{%- assign override_slugs_norm = "" | split: "," -%}
 
-    {%- if raw_json contains '[' and raw_json contains ']' -%}
-      {%- assign tmp = raw_json | remove:'[' | remove:']' | remove:'"' | remove:"'" | strip -%}
-      {%- assign override_slugs = tmp | split:',' | map:'strip' -%}
+{%- for slug in override_slugs -%}
+  {%- assign slug_norm = slug | downcase | strip -%}
+  {%- assign override_slugs_norm = override_slugs_norm | push: slug_norm -%}
+{%- endfor -%}
 
-    {%- elsif raw_json contains ',' -%}
-      {%- assign tmp = raw_json | remove:'"' | remove:"'" | strip -%}
-      {%- assign override_slugs = tmp | split:',' | map:'strip' -%}
+{%- assign page_slug_norm = page.slug | downcase | strip -%}
+{%- assign use_override = override_slugs_norm | size | gt: 0 -%}
 
+{%- assign filtered = "" | split: "|" -%}
+{%- assign grouped = site.data.insight_groups | default: nil -%}
+
+{%- for p in coll -%}
+  {%- assign p_auth = p.authors -%}
+  {%- assign p_slugs = "" | split: "|" -%}
+
+  {%- if p_auth -%}
+    {%- if p_auth[0] != nil -%}
+      {%- assign p_slugs = p_auth -%}
     {%- else -%}
-      {%- assign tmp = raw_json | remove:'"' | remove:"'" | strip -%}
-      {%- if tmp == "" -%}
-        {%- assign override_slugs = "" | split: "|" -%}
-      {%- else -%}
-        {%- assign override_slugs = tmp | split:'\n' | map:'strip' -%}
-      {%- endif -%}
-    {%- endif -%}
-
-    {%- for s in override_slugs -%}
-      {%- assign s_norm = s | split:'.' | first | slugify -%}
-      {%- assign override_slugs_norm = override_slugs_norm | push: s_norm -%}
-    {%- endfor -%}
-  {%- endif -%}
-
-  {%- comment -%}
-  If no explicit override was provided, fall back to page.slug (common pattern: author/insight pages)
-  {%- endcomment -%}
-  {%- if override_slugs_norm.size == 0 and page and page.slug -%}
-    {%- assign pg_slug_norm = page.slug | slugify -%}
-    {%- assign override_slugs_norm = override_slugs_norm | push: pg_slug_norm -%}
-  {%- endif -%}
-
-  {%- comment -%} DEBUG BLOCK - paste after override_slugs_norm computed {%- endcomment -%}
-  {%- assign dbg_on = include.debug | default: section.data.debug | default: false -%}
-  {%- assign dbg_visible = include.debug_visible | default: section.data.debug_visible | default: false -%}
-
-  {%- if dbg_on -%}
-    {%- comment -%} HTML comment debug (safe for production) {%- endcomment -%}
-    <!-- INSIGHT-STREAM DEBUG START
-      coll_name: {{ coll_name }}
-      posts_count: {{ posts | size }}
-      raw_override: {{ raw_override | inspect }}
-      override_slugs (raw): {{ override_slugs | inspect }}
-      override_slugs_norm: {{ override_slugs_norm | inspect }}
-      page.slug: {% if page and page.slug %}{{ page.slug }}{% else %}<nil>{% endif %}
-      page.slug (norm): {% if page and page.slug %}{{ page.slug | slugify }}{% else %}<nil>{% endif %}
-
-      First 20 posts (title | url | p.authors | parsed p_slugs_norm):
-    -->
-    {%- assign dbg_limit = 20 -%}
-    {%- for p in posts limit: dbg_limit -%}
-      {%- assign p_auth = p.authors -%}
       {%- assign p_json = p_auth | jsonify -%}
 
-      {%- comment -%} parse p_slugs into array (same logic used by template) {%- endcomment -%}
-      {%- assign p_slugs = "" | split: "|" -%}
-      {%- if p_auth -%}
+      {%- if p_json contains '[' and p_json contains ']' -%}
+        {%- assign tmp = p_json | remove:'[' | remove:']' | remove:'"' | remove:"'" | strip -%}
+        {%- assign p_slugs = tmp | split:',' | map:'strip' -%}
+
+      {%- elsif p_json contains ',' -%}
+        {%- assign tmp = p_json | remove:'"' | remove:"'" | strip -%}
+        {%- assign p_slugs = tmp | split:',' | map:'strip' -%}
+
+      {%- else -%}
+        {%- assign tmp = p_json | remove:'"' | remove:"'" | strip -%}
+        {%- assign p_slugs = tmp | split:'\n' | map:'strip' -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endif -%}
+
+  {%- assign p_slugs_norm = "" | split: "," -%}
+  {%- for s in p_slugs -%}
+    {%- assign s_norm = s | downcase | strip -%}
+    {%- assign p_slugs_norm = p_slugs_norm | push: s_norm -%}
+  {%- endfor -%}
+
+  {%- assign match = false -%}
+  {%- if use_override -%}
+    {%- for slug in override_slugs_norm -%}
+      {%- if p_slugs_norm contains slug -%}
+        {%- assign match = true -%}
+        {%- break -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- else -%}
+    {%- if p_slugs_norm contains page_slug_norm -%}
+      {%- assign match = true -%}
+    {%- endif -%}
+  {%- endif -%}
+
+  {%- if match -%}
+    {%- assign filtered = filtered | push: p -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- if include.debug or page.debug -%}
+<!-- INSIGHT-STREAM DEBUG START
+      coll_name: {{ coll_name }}
+      posts_count: {{ coll | size }}
+      raw_override: "{{ raw_override }}"
+      override_slugs (raw): {{ override_slugs | inspect }}
+      override_slugs_norm: {{ override_slugs_norm | inspect }}
+      page.slug: {{ page.slug }}
+      page.slug (norm): {{ page_slug_norm }}
+
+      Filtered count: {{ filtered | size }}
+
+      First 20 posts (title | url | p.authors | parsed p_slugs_norm):
+-->
+  {%- assign counter = 0 -%}
+  {%- for p in coll -%}
+    {%- assign counter = counter | plus: 1 -%}
+    {%- if counter > 20 -%}{%- break -%}{%- endif -%}
+    {%- assign p_auth = p.authors -%}
+    {%- assign p_slugs = "" | split: "|" -%}
+
+    {%- if p_auth -%}
+      {%- if p_auth[0] != nil -%}
+        {%- assign p_slugs = p_auth -%}
+      {%- else -%}
+        {%- assign p_json = p_auth | jsonify -%}
+
         {%- if p_json contains '[' and p_json contains ']' -%}
           {%- assign tmp = p_json | remove:'[' | remove:']' | remove:'"' | remove:"'" | strip -%}
           {%- assign p_slugs = tmp | split:',' | map:'strip' -%}
+
         {%- elsif p_json contains ',' -%}
           {%- assign tmp = p_json | remove:'"' | remove:"'" | strip -%}
           {%- assign p_slugs = tmp | split:',' | map:'strip' -%}
+
         {%- else -%}
           {%- assign tmp = p_json | remove:'"' | remove:"'" | strip -%}
           {%- assign p_slugs = tmp | split:'\n' | map:'strip' -%}
         {%- endif -%}
       {%- endif -%}
-
-      {%- assign p_slugs_norm = "" | split: "|" -%}
-      {%- for ps in p_slugs -%}
-        {%- assign ps_norm = ps | split:'.' | first | slugify -%}
-        {%- assign p_slugs_norm = p_slugs_norm | push: ps_norm -%}
-      {%- endfor -%}
-
-      <!-- POST: {{ forloop.index }} | title: {{ p.title | default: "(no title)" }} | url: {{ p.url | default: "(no url)" }} 
-           raw authors: {{ p_auth | inspect }} 
-           parsed authors: {{ p_slugs | inspect }} 
-           parsed authors (norm): {{ p_slugs_norm | inspect }}
-      -->
-    {%- endfor -%}
-    <!-- INSIGHT-STREAM DEBUG END -->
-  {%- endif -%}
-
-{%- if dbg_visible and dbg_on -%}
-  <details class="insight-stream-debug" open style="background:#fff7; padding:0.5rem; margin:0.5rem 0; border-radius:6px;">
-    <summary><strong>Insight-stream debug</strong></summary>
-    <pre style="white-space:pre-wrap; font-family:monospace;">
-coll_name: {{ coll_name }}
-posts_count: {{ posts | size }}
-raw_override: {{ raw_override | inspect }}
-override_slugs: {{ override_slugs | inspect }}
-override_slugs_norm: {{ override_slugs_norm | inspect }}
-page.slug: {% if page and page.slug %}{{ page.slug }}{% else %}<nil>{% endif %}
-page.slug (norm): {% if page and page.slug %}{{ page.slug | slugify }}{% else %}<nil>{% endif %}
-
-First 20 posts:
-{%- for p in posts limit:20 -%}
-- {{ forloop.index }}: title="{{ p.title | default: "(no title)" }}" url="{{ p.url | default: "(no url)" }}"
-  raw authors: {{ p.authors | inspect }}
-  parsed norms: 
-  {%- assign p_auth = p.authors -%}
-  {%- assign p_json = p_auth | jsonify -%}
-  {%- assign p_slugs = "" | split: "|" -%}
-  {%- if p_auth -%}
-    {%- if p_json contains '[' and p_json contains ']' -%}
-      {%- assign tmp = p_json | remove:'[' | remove:']' | remove:'"' | remove:"'" | strip -%}
-      {%- assign p_slugs = tmp | split:',' | map:'strip' -%}
-    {%- elsif p_json contains ',' -%}
-      {%- assign tmp = p_json | remove:'"' | remove:"'" | strip -%}
-      {%- assign p_slugs = tmp | split:',' | map:'strip' -%}
-    {%- else -%}
-      {%- assign tmp = p_json | remove:'"' | remove:"'" | strip -%}
-      {%- assign p_slugs = tmp | split:'\n' | map:'strip' -%}
     {%- endif -%}
-  {%- endif -%}
-  {%- assign p_slugs_norm = "" | split: "|" -%}
-  {%- for ps in p_slugs -%}
-    {%- assign ps_norm = ps | split:'.' | first | slugify -%}
-    {%- assign p_slugs_norm = p_slugs_norm | push: ps_norm -%}
-  {%- endfor -%}
-  {{ p_slugs_norm | inspect }}
 
-{%- endfor -%}
-    </pre>
-  </details>
+    {%- assign p_slugs_norm = "" | split: "," -%}
+    {%- for s in p_slugs -%}
+      {%- assign s_norm = s | downcase | strip -%}
+      {%- assign p_slugs_norm = p_slugs_norm | push: s_norm -%}
+    {%- endfor -%}
+
+    <!-- POST: {{ counter }} | title: {{ p.title }} | url: {{ p.url }} 
+         raw authors: {{ p.authors | jsonify }} 
+         parsed authors: {{ p_slugs | jsonify }} 
+         parsed authors (norm): {{ p_slugs_norm | jsonify }}
+    -->
+  {%- endfor -%}
+<!-- INSIGHT-STREAM DEBUG END -->
 {%- endif -%}
 
+{%- if filtered and filtered.size > 0 -%}
+  <div class="insight-stream">
+    <h2 class="stream-heading">Insight Stream</h2>
 
-  {%- assign sort_key = section.data.sort_by | default: "date" -%}
-
-  {%- comment -%}
-  Make reverse explicit: only reverse if section.data.reverse is explicitly true.
-  {%- endcomment -%}
-  {%- assign reverse_flag = false -%}
-  {%- if section.data.reverse != nil and section.data.reverse == true -%}
-    {%- assign reverse_flag = true -%}
-  {%- endif -%}
-
-  {%- comment -%}
-  Helpers: function-like blocks to extract normalized author slugs from a post.
-  (Liquid lacks real functions; we inline the logic where needed.)
-  {%- endcomment -%}
-
-  {%- if section.data.group_by == "author" or include.group_by == "author" -%}
-    {%- comment -%} Build list of author docs to iterate (override -> strict selection) {%- endcomment -%}
-    {%- if override_slugs_norm.size > 0 -%}
-      {%- assign author_docs = "" | split: "|" -%}
-      {%- for s in override_slugs_norm -%}
-        {%- assign doc = site.authors | where: "slug", s | first -%}
-        {%- if doc -%}
-          {%- assign author_docs = author_docs | push: doc -%}
-        {%- endif -%}
+    <div class="insight-stream-grid">
+      {%- for p in filtered -%}
+        <article class="insight-card">
+          <h3><a href="{{ p.url | relative_url }}">{{ p.title }}</a></h3>
+          {%- if p.excerpt -%}
+            <p class="excerpt">{{ p.excerpt }}</p>
+          {%- endif -%}
+          <p class="meta">{{ p.date | date: "%B %-d, %Y" }}</p>
+        </article>
       {%- endfor -%}
-    {%- else -%}
-      {%- assign author_docs = site.authors -%}
-    {%- endif -%}
-
-    <section id="insights-by-author">
-      {%- for author in author_docs -%}
-        {%- comment -%} collect posts for this author {%- endcomment -%}
-        {%- assign matched = "" | split: "|" -%}
-        {%- for p in posts -%}
-          {%- comment -%} parse p.authors robustly into p_slugs {%- endcomment -%}
-          {%- assign p_auth = p.authors -%}
-          {%- assign p_slugs = "" | split: "|" -%}
-
-          {%- if p_auth -%}
-            {%- assign p_json = p_auth | jsonify -%}
-
-            {%- if p_json contains '[' and p_json contains ']' -%}
-              {%- assign tmp = p_json | remove:'[' | remove:']' | remove:'"' | remove:"'" | strip -%}
-              {%- assign p_slugs = tmp | split:',' | map:'strip' -%}
-
-            {%- elsif p_json contains ',' -%}
-              {%- assign tmp = p_json | remove:'"' | remove:"'" | strip -%}
-              {%- assign p_slugs = tmp | split:',' | map:'strip' -%}
-
-            {%- else -%}
-              {%- assign tmp = p_json | remove:'"' | remove:"'" | strip -%}
-              {%- assign p_slugs = tmp | split:'\n' | map:'strip' -%}
-            {%- endif -%}
-          {%- endif -%}
-
-          {%- comment -%} normalize and compare any slug in p_slugs against author.slug {%- endcomment -%}
-          {%- assign matched_flag = false -%}
-          {%- for ps in p_slugs -%}
-            {%- assign ps_norm = ps | split:'.' | first | slugify -%}
-            {%- if ps_norm == author.slug -%}{%- assign matched_flag = true -%}{%- endif -%}
-          {%- endfor -%}
-
-          {%- if matched_flag -%}
-            {%- assign matched = matched | push: p -%}
-          {%- endif -%}
-        {%- endfor -%}
-
-        {%- if matched.size > 0 -%}
-          {%- comment -%} sort matched posts {%- endcomment -%}
-          {%- assign matched = matched | sort: sort_key -%}
-          {%- if reverse_flag -%}{%- assign matched = matched | reverse -%}{%- endif -%}
-
-          <section class="md-flow md-author-section">
-            {% include sections/author.html author=author %}
-            <div class="md-insight-list">
-              {%- for post in matched -%}
-                {% include sections/insight-item.html post=post excerpt_length=section.data.excerpt_length hide_author=true %}
-              {%- endfor -%}
-            </div>
-          </section>
-        {%- endif -%}
-      {%- endfor -%}
-    </section>
-
-  {%- else -%}
-    {%- comment -%} Non-grouped mode: optionally filter posts to the override slugs, else show all posts {%- endcomment -%}
-    {%- assign filtered = "" | split: "|" -%}
-    {%- for p in posts -%}
-      {%- if override_slugs_norm.size > 0 -%}
-        {%- comment -%} parse p.authors robustly into p_slugs {%- endcomment -%}
-        {%- assign p_auth = p.authors -%}
-        {%- assign p_slugs = "" | split: "|" -%}
-
-        {%- if p_auth -%}
-          {%- assign p_json = p_auth | jsonify -%}
-
-          {%- if p_json contains '[' and p_json contains ']' -%}
-            {%- assign tmp = p_json | remove:'[' | remove:']' | remove:'"' | remove:"'" | strip -%}
-            {%- assign p_slugs = tmp | split:',' | map:'strip' -%}
-
-          {%- elsif p_json contains ',' -%}
-            {%- assign tmp = p_json | remove:'"' | remove:"'" | strip -%}
-            {%- assign p_slugs = tmp | split:',' | map:'strip' -%}
-
-          {%- else -%}
-            {%- assign tmp = p_json | remove:'"' | remove:"'" | strip -%}
-            {%- assign p_slugs = tmp | split:'\n' | map:'strip' -%}
-          {%- endif -%}
-        {%- endif -%}
-
-        {%- assign keep = false -%}
-        {%- for ps in p_slugs -%}
-          {%- assign ps_norm = ps | split:'.' | first | slugify -%}
-          {%- if override_slugs_norm contains ps_norm -%}
-            {%- assign keep = true -%}
-          {%- endif -%}
-        {%- endfor -%}
-        {%- if keep -%}{%- assign filtered = filtered | push: p -%}{%- endif -%}
-      {%- else -%}
-        {%- assign filtered = filtered | push: p -%}
-      {%- endif -%}
-    {%- endfor -%}
-
-    {%- assign filtered = filtered | sort: sort_key -%}
-    {%- if reverse_flag -%}{%- assign filtered = filtered | reverse -%}{%- endif -%}
-
-    <section id="insights-stream">
-      {%- for post in filtered -%}
-        {% include sections/insight-item.html post=post excerpt_length=section.data.excerpt_length %}
-      {%- endfor -%}
-    </section>
-  {%- endif -%}
+    </div>
+  </div>
+{%- else -%}
+  <p><em>No Insight Stream articles found.</em></p>
 {%- endif -%}
