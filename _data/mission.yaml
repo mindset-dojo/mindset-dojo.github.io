@@ -40,11 +40,11 @@ sections:
       items:
         - "(Self-)Authorship is the minimum investment—this isn’t consumption."
         - "Presence grows through contribution, not just participation."
-        - "Thresholds turn circles into spirals—growth follows reciprocity."
+        - "Each threshold tests the flow of energy—growth lives in the return."
         - "..."
-        - "Money is one form of energy—vital for scale, not for entry."
-        - "If not financial, invest time, attention, mentorship, or expertise."
-        - "Those with means extend reach; those with practice deepen it."
+        - "To invest is to reciprocate—time, attention, mentorship, or money."
+        - "Financial thresholds honor commitment and sustain the shared field."
+        - "What you contribute circulates—fueling the evolution we grow together."
   - type: authors
     data:
       leadership_flow:
@@ -53,8 +53,8 @@ sections:
   - type: ctas
     data:
       items:
-        - label: "Cross the Threshold"
+        - label: "Enter the Dojo"
           ref: program
-        - label: "Cultivate the Garden"
+        - label: "Support the Dojo"
           ref: project
 ---
