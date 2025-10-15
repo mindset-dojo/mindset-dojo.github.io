@@ -18,7 +18,7 @@ leadership_designations:
   - type: project
     value: Authorship Cultivator
 about: |
-  ### Leadership Gardener ☯ Meta Technologist
+  ### Leadership 🌱 Culture ☯ Technology
   
   I never expected taming parrots and navigating soccer scrums to lead me to
   coaching leaders—but looking back, it makes perfect sense.
