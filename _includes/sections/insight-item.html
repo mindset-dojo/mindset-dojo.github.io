@@ -1,0 +1,83 @@
+{%- comment -%}
+Renders a single post article.
+Inputs:
+  include.post
+  include.excerpt_length (optional)
+This implements the existing slug + authors normalization from insight.md
+{%- endcomment -%}
+
+{%- assign post = include.post -%}
+{%- assign excerpt_len = include.excerpt_length | default: 220 -%}
+
+{%- comment -%} Resolve a safe slug for the post (defensive) {%- endcomment -%}
+{% assign post_slug = post.slug %}
+{% if post_slug == nil or post_slug == "" %}
+  {% assign segments = post.url | split: '/' %}
+  {% assign last = segments | last %}
+  {% if last == "" %}
+    {% assign idx = segments.size | minus: 2 %}
+    {% assign post_slug = segments | slice: idx, 1 | first %}
+  {% else %}
+    {% assign post_slug = last %}
+  {% endif %}
+{% endif %}
+{% if post_slug == nil or post_slug == "" %}
+  {% assign post_slug = post.title | slugify %}
+{% endif %}
+
+{%- comment -%} Normalize post.authors to an array of slugs {%- endcomment -%}
+{% assign authors_names = "" | split: "," %}
+{% assign raw_authors = post.authors %}
+{% assign author_slugs = "" | split: "|" %}
+
+{% if raw_authors %}
+  {% if raw_authors[0] != nil %}
+    {% assign author_slugs = raw_authors %}
+  {% else %}
+    {% assign s = raw_authors | to_s | strip %}
+    {% if s contains '[' and s contains ']' %}
+      {% assign s = s | remove:'[' | remove:']' | remove:'"' | remove:"'" | strip %}
+      {% assign author_slugs = s | split:',' | map:'strip' %}
+    {% elsif s contains ',' %}
+      {% assign author_slugs = s | split:',' | map:'strip' %}
+    {% else %}
+      {% assign author_slugs = s | split:'\n' | map:'strip' %}
+    {% endif %}
+  {% endif %}
+{% endif %}
+
+{%- comment -%} Strict slug-only resolution against site.authors collection {%- endcomment -%}
+{% for s in author_slugs %}
+  {% assign s_norm = s | split:'.' | first | slugify %}
+  {% assign doc = site.authors | where: "slug", s_norm | first %}
+  {% if doc and doc.name %}
+    {% assign authors_names = authors_names | push: doc.name %}
+  {% endif %}
+{% endfor %}
+
+{%- comment -%} Build display string {%- endcomment -%}
+{% assign author_name_string = "" %}
+{% if authors_names.size == 0 %}
+  {% assign author_name_string = site.author %}
+{% elsif authors_names.size == 1 %}
+  {% assign author_name_string = authors_names[0] %}
+{% else %}
+  {% assign last_index = authors_names.size | minus: 1 %}
+  {% for name in authors_names %}
+    {% assign author_name_string = author_name_string | append: name %}
+    {% unless forloop.index0 == last_index %}
+      {% assign author_name_string = author_name_string | append: " and " %}
+    {% endunless %}
+  {% endfor %}
+{% endif %}
+
+<article>
+  <h3 class="title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+  <p class="meta">
+    By {{ author_name_string | default: site.author }} — {{ post.date | date: "%b %-d, %Y" }}
+  </p>
+  <p class="excerpt">
+    {{ post.excerpt | default: post.content | strip_html | truncate: excerpt_len }}
+  </p>
+  <hr>
+</article>
