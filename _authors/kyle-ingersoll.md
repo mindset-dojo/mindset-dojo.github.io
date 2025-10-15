@@ -22,7 +22,7 @@ about: |
 
   In Community College, I stood at a fork: writing or computing. At the time I still craved mastery over machines — and, I now recognize, the quiet power that comes with it — even if I didn’t want to admit that drive. I chose computer science, learning to program as a way to gain control and competence. It wasn’t yet a moral project; it was the beginning of an apprenticeship in craft and consequence.
 
-  Through Reddit’s Cloud Security Office Hours I found a humble, helpful community and was invited by Michael into Mindset Dojo. I didn’t connect at first, but returning again and again — and learning from my Zensei — helped me fuse technical precision with conversational presence. Dojo gave me a brave space to write again and to move from mastery for its own sake toward mastery in service of others.
+  Through Reddit’s Cloud Security Office Hours I found a humble, helpful community and was invited by [Michael](/_authors/michael-basil) into Mindset Dojo. I didn’t connect at first, but returning again and again — and learning from my Zensei — helped me fuse technical precision with conversational presence. Dojo gave me a brave space to write again and to move from mastery for its own sake toward mastery in service of others.
 
   Internships at Richmond Community Schools and the Boys & Girls Club of Wayne County turned ideas into practice. Protecting classroom and community networks taught me readiness and resilience — that each patch, policy, and pipeline is an act of care. Those experiences completed the arc: I stopped pursuing hacker prestige and started treating design choices as moral responsibilities.
 
