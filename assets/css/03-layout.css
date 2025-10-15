@@ -57,6 +57,12 @@
     .md-cta-group { flex-direction: column; }
   }
 
+  /* Insight list layout */
+  .md-insight-list {
+    text-align: center;
+    max-width: 700px;
+  }
+  
   /* Grid helpers */
   .md-grid-2,
   .md-grid-3 {
