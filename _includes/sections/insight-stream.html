@@ -1,0 +1,27 @@
+{%- comment -%}
+Renders a stream of posts from a collection.
+section.data.collection -> collection name (default: "insight")
+section.data.sort_by -> field to sort by (default: "date")
+section.data.reverse -> boolean to reverse sort (default: true)
+section.data.excerpt_length -> integer
+{%- endcomment -%}
+
+{%- assign coll_name = section.data.collection | default: "insight" -%}
+{%- assign posts = site[coll_name] -%}
+{%- if posts == nil -%}
+  <section class="md-flow">
+    <p><em>No collection named <code>{{ coll_name }}</code> found.</em></p>
+  </section>
+{%- else -%}
+  {%- assign sort_key = section.data.sort_by | default: "date" -%}
+  {%- assign posts_sorted = posts | sort: sort_key -%}
+  {%- if section.data.reverse != nil and section.data.reverse == true -%}
+    {%- assign posts_sorted = posts_sorted | reverse -%}
+  {%- endif -%}
+
+  <section id="insights-stream">
+    {%- for post in posts_sorted -%}
+      {% include sections/insight-item.html post=post excerpt_length=section.data.excerpt_length %}
+    {%- endfor -%}
+  </section>
+{%- endif -%}
