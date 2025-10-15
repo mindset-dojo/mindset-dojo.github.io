@@ -138,7 +138,7 @@ New behavior:
           {%- assign matched = matched | sort: sort_key -%}
           {%- if reverse_flag -%}{%- assign matched = matched | reverse -%}{%- endif -%}
 
-          <section class="md-flow md-author-section">
+          <section class="md-author-flow">
             {% include sections/author.html author=author %}
             <div class="md-insight-list">
               {%- for post in matched -%}
