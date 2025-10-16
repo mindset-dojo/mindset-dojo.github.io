@@ -10,6 +10,13 @@ sections:
         - "The Program is the living curriculum of Mindset Dojo."
         - "The journey unfolds through real conversation and embodied training."
         - "Progress flows through resonance—each threshold deepens mastery."
+  - type: text
+    data:
+      label: "How We Learn"
+      items:
+        - "Not knowing the full context is normal."
+        - "Mentors and peers fill gaps through dialogue and demonstration."
+        - "Ask early—progress is guided through reps, feedback, and reflection."
   - type: list
     data:
       label: "Principles"
@@ -208,6 +215,6 @@ sections:
   - type: ctas
     data:
       items:
-        - label: "Deepen the Training"
+        - label: "Cross Threshold Zero"
           ref: connect
 ---
