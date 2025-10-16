@@ -11,7 +11,7 @@ program_level: -5
 program_level_date: 2025-05-04
 leadership_designations: []
 about: |
-  ### Contact
+  ### Connect
   
-  - [in] [LinkedIn](https://www.linkedin.com/in/patrick-j-burke)
+  - [LinkedIn](https://www.linkedin.com/in/patrick-j-burke)
 ---
