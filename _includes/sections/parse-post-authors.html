@@ -1,15 +1,7 @@
 {%- comment -%}
-Minimal, tolerant parse-post-authors include.
-
-Accepts:
-  - include.p_auth      (preferred; used in insight-stream: p_auth=p.authors)
-  - include.authors
-  - include.data.authors
-  - include.section.data.authors
-Also tolerates include.data or include.section containing a post object shape.
-
-Outputs:
-  CSV of normalized slug tokens (e.g. "kyle-ingersoll,michael-basil")
+Minimal parse-post-authors include with explicit array support.
+Accepts: include.p_auth, include.authors, include.data.authors, include.section.data.authors
+Emits: CSV of slugified author slugs (e.g. "kyle-ingersoll,michael-basil")
 {%- endcomment -%}
 
 {%- assign resolved = "" -%}
@@ -25,33 +17,44 @@ Outputs:
 {%- endif -%}
 
 {%- if resolved == nil -%}{%- assign resolved = "" -%}{%- endif -%}
+
 {%- assign tokens = "" | split: "|" -%}
 
-{%- if resolved != "" -%}
-  {%- assign jsoned = resolved | jsonify -%}
+{%- comment -%}
+If the caller passed an array (e.g. p_auth is an array), handle it directly.
+This avoids any brittle stringify/json checks for the common case.
+{%- endcomment -%}
+{%- if include.p_auth != nil and include.p_auth[0] != nil -%}
+  {%- assign tokens = include.p_auth -%}
+{%- elsif include.authors != nil and include.authors[0] != nil -%}
+  {%- assign tokens = include.authors -%}
+{%- else -%}
+  {%- if resolved != "" -%}
+    {%- assign jsoned = resolved | jsonify -%}
 
-  {%- if jsoned contains '[' and jsoned contains ']' -%}
-    {%- assign inner = jsoned | remove:'[' | remove:']' | remove:'"' | remove:"'" | strip -%}
-    {%- if inner != "" -%}
-      {%- assign tokens = inner | split:',' | map:'strip' -%}
+    {%- if jsoned contains '[' and jsoned contains ']' -%}
+      {%- assign inner = jsoned | remove:'[' | remove:']' | remove:'"' | remove:"'" | strip -%}
+      {%- if inner != "" -%}
+        {%- assign tokens = inner | split:',' | map:'strip' -%}
+      {%- endif -%}
+
+    {%- elsif jsoned contains ',' -%}
+      {%- assign tmp = jsoned | remove:'"' | remove:"'" | strip -%}
+      {%- assign tokens = tmp | split:',' | map:'strip' -%}
+
+    {%- elsif jsoned contains '\n' -%}
+      {%- assign tmp = jsoned | remove:'"' | remove:"'" | strip -%}
+      {%- assign tokens = tmp | split:'\n' | map:'strip' -%}
+
+    {%- else -%}
+      {%- assign tmp = jsoned | remove:'"' | remove:"'" | strip -%}
+      {%- if tmp != "" -%}{%- assign tokens = tokens | push: tmp -%}{%- endif -%}
     {%- endif -%}
-
-  {%- elsif jsoned contains ',' -%}
-    {%- assign tmp = jsoned | remove:'"' | remove:"'" | strip -%}
-    {%- assign tokens = tmp | split:',' | map:'strip' -%}
-
-  {%- elsif jsoned contains '\n' -%}
-    {%- assign tmp = jsoned | remove:'"' | remove:"'" | strip -%}
-    {%- assign tokens = tmp | split:'\n' | map:'strip' -%}
-
-  {%- else -%}
-    {%- assign tmp = jsoned | remove:'"' | remove:"'" | strip -%}
-    {%- if tmp != "" -%}{%- assign tokens = tokens | push: tmp -%}{%- endif -%}
   {%- endif -%}
 {%- endif -%}
 
 {%- comment -%}
-If tokens empty but resolved non-empty, try substring match against known author slugs
+Fallback: if tokens empty but resolved non-empty, try substring match against known author slugs
 (helps with concatenated tokens).
 {%- endcomment -%}
 {%- if (tokens == "" or tokens.size == 0) and resolved != "" -%}
