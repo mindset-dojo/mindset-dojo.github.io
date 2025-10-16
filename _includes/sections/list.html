@@ -1,9 +1,16 @@
 {%- comment -%}
 list section
 
-  data:
-    label: string, optional
-    items: array of strings OR {label,url} objects
+data:
+  label: string, optional
+  items: array of:
+    - string
+    - { label: string, url?: string, id?: string }
+
+Behavior:
+  - If url starts with "/", use relative_url.
+  - If external url, open in new tab with rel security.
+  - If no url but label exists, render plain text (and set <li id="{{ id }}"> if provided).
 {%- endcomment -%}
 
 {%- assign D = section.data -%}
@@ -12,22 +19,20 @@ list section
   {%- if D.label -%}<h2>{{ D.label }}</h2>{%- endif -%}
   <ul>
     {%- for it in D.items -%}
-      {%- if it.url | slice: 0, 1 == "/" -%}
-        <li>
-          <a href="{{ it.url | relative_url }}">
-            {{ it.label }}
-          </a>
+      {%- if it.url and it.url | slice: 0, 1 == "/" -%}
+        <li{% if it.id %} id="{{ it.id | slugify }}"{% endif %}>
+          <a href="{{ it.url | relative_url }}">{{ it.label }}</a>
         </li>
       {%- elsif it.url and it.label -%}
-        <li>
-          <a href="{{ it.url }}" target="_blank">
-            {{ it.label }}
-          </a>
+        <li{% if it.id %} id="{{ it.id | slugify }}"{% endif %}>
+          <a href="{{ it.url }}" target="_blank" rel="noopener noreferrer">{{ it.label }}</a>
+        </li>
+      {%- elsif it.label -%}
+        <li{% if it.id %} id="{{ it.id | slugify }}"{% endif %}>
+          {{ it.label }}
         </li>
       {%- else -%}
-        <li>
-          {{ it }}
-        </li>
+        <li>{{ it }}</li>
       {%- endif -%}
     {%- endfor -%}
   </ul>
