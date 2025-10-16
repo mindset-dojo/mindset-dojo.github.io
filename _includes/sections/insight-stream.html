@@ -70,11 +70,6 @@ New behavior:
     {%- assign reverse_flag = true -%}
   {%- endif -%}
 
-  {%- comment -%}
-  Helpers: function-like blocks to extract normalized author slugs from a post.
-  (Liquid lacks real functions; we inline the logic where needed.)
-  {%- endcomment -%}
-
   {%- if section.data.group_by == "author" or include.group_by == "author" -%}
     {%- comment -%} Build list of author docs to iterate (override -> strict selection) {%- endcomment -%}
     {%- if override_slugs_norm.size > 0 -%}
@@ -94,38 +89,17 @@ New behavior:
         {%- comment -%} collect posts for this author {%- endcomment -%}
         {%- assign matched = "" | split: "|" -%}
         {%- for p in posts -%}
-          {%- comment -%} parse p.authors robustly into p_slugs {%- endcomment -%}
-          {%- assign p_auth = p.authors -%}
-          {%- assign p_slugs = "" | split: "|" -%}
-
-          {%- if p_auth -%}
-          {%- comment -%} If p_auth is an array (first element not nil), use it directly. This avoids parsing problems. {%- endcomment -%}
-            {%- if p_auth[0] != nil -%}
-              {%- assign p_slugs = p_auth -%}
-            {%- else -%}
-            {%- assign p_json = p_auth | jsonify -%}
-
-              {%- if p_json contains '[' and p_json contains ']' -%}
-                {%- assign tmp = p_json | remove:'[' | remove:']' | remove:'"' | remove:"'" | strip -%}
-                {%- assign p_slugs = tmp | split:',' | map:'strip' -%}
-
-              {%- elsif p_json contains ',' -%}
-                {%- assign tmp = p_json | remove:'"' | remove:"'" | strip -%}
-                {%- assign p_slugs = tmp | split:',' | map:'strip' -%}
-
-              {%- else -%}
-                {%- assign tmp = p_json | remove:'"' | remove:"'" | strip -%}
-                {%- assign p_slugs = tmp | split:'\n' | map:'strip' -%}
-              {%- endif -%}
+          {%- comment -%} parse p.authors into a normalized slug list via include {%- endcomment -%}
+          {%- capture p_slugs_csv -%}{% include sections/parse-post-authors.html p_auth=p.authors %}{%- endcapture -%}
+          {%- if p_slugs_csv != "" -%}
+            {%- assign p_slugs = p_slugs_csv | split:',' | map:'strip' -%}
+          {%- else -%}
+            {%- assign p_slugs = "" | split: "|" -%}
           {%- endif -%}
-        {%- endif -%}
 
-
-          {%- comment -%} normalize and compare any slug in p_slugs against author.slug {%- endcomment -%}
           {%- assign matched_flag = false -%}
           {%- for ps in p_slugs -%}
-            {%- assign ps_norm = ps | split:'.' | first | slugify -%}
-            {%- if ps_norm == author.slug -%}{%- assign matched_flag = true -%}{%- endif -%}
+            {%- if ps == author.slug -%}{%- assign matched_flag = true -%}{%- endif -%}
           {%- endfor -%}
 
           {%- if matched_flag -%}
@@ -155,36 +129,17 @@ New behavior:
     {%- assign filtered = "" | split: "|" -%}
     {%- for p in posts -%}
       {%- if override_slugs_norm.size > 0 -%}
-        {%- comment -%} parse p.authors robustly into p_slugs {%- endcomment -%}
-        {%- assign p_auth = p.authors -%}
+        {%- comment -%} parse p.authors into normalized slug list via include {%- endcomment -%}
+        {%- capture p_slugs_csv -%}{% include sections/parse-post-authors.html p_auth=p.authors %}{%- endcapture -%}
+        {%- if p_slugs_csv != "" -%}
+          {%- assign p_slugs = p_slugs_csv | split:',' | map:'strip' -%}
+        {%- else -%}
           {%- assign p_slugs = "" | split: "|" -%}
-
-          {%- if p_auth -%}
-          {%- comment -%} If p_auth is an array (first element not nil), use it directly. This avoids parsing problems. {%- endcomment -%}
-            {%- if p_auth[0] != nil -%}
-              {%- assign p_slugs = p_auth -%}
-            {%- else -%}
-            {%- assign p_json = p_auth | jsonify -%}
-
-              {%- if p_json contains '[' and p_json contains ']' -%}
-                {%- assign tmp = p_json | remove:'[' | remove:']' | remove:'"' | remove:"'" | strip -%}
-                {%- assign p_slugs = tmp | split:',' | map:'strip' -%}
-
-              {%- elsif p_json contains ',' -%}
-                {%- assign tmp = p_json | remove:'"' | remove:"'" | strip -%}
-                {%- assign p_slugs = tmp | split:',' | map:'strip' -%}
-
-              {%- else -%}
-                {%- assign tmp = p_json | remove:'"' | remove:"'" | strip -%}
-                {%- assign p_slugs = tmp | split:'\n' | map:'strip' -%}
-              {%- endif -%}
-          {%- endif -%}
         {%- endif -%}
 
         {%- assign keep = false -%}
         {%- for ps in p_slugs -%}
-          {%- assign ps_norm = ps | split:'.' | first | slugify -%}
-          {%- if override_slugs_norm contains ps_norm -%}
+          {%- if override_slugs_norm contains ps -%}
             {%- assign keep = true -%}
           {%- endif -%}
         {%- endfor -%}
