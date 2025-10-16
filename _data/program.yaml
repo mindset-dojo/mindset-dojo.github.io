@@ -1,7 +1,7 @@
 ---
 mantra: "Don't Resist. Resonate."
 mantra_mark: "Resonate."
-description: "A layered training journey: presence, nervous-system skill, and conversational leadership in real contexts."
+description: "A layered training journey—presence, nervous-system skill, and conversational leadership applied in real contexts."
 sections:
   - type: mission
     data:
@@ -198,7 +198,7 @@ sections:
   - type: authors
     data:
       leadership_flow:
-        label: "⛩️💫 Resonance Guides"
+        label: "⛩️💫 Leadership Circle"
         designation_type: program
         limit: 16
   - type: ctas
