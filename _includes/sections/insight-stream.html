@@ -1,206 +1,45 @@
 {%- comment -%}
-Renders a stream of posts from a collection.
-section.data.collection -> collection name (default: "insight")
-section.data.sort_by -> field to sort by (default: "date")
-section.data.reverse -> boolean to reverse sort (only if explicitly true)
-section.data.excerpt_length -> integer for excerpt length (default: 220)
-section.data.authors -> optional list of author slugs to filter by (same formats as authors)
-New behavior:
-- Accepts section.data.authors or include.authors to restrict to a set of author slugs
-  (input formats: array, JSON-ish string, comma-separated, single slug).
-- If no author override is provided and `page.slug` exists, use `page.slug` as the author filter.
-- Supports grouping by author when section.data.group_by == "author" (or include.group_by).
-- Preserves existing sorting via section.data.sort_by and section.data.reverse.
-- When grouping we call insight-item.html with hide_author=true to avoid repeating the author card.
+DRY sequential-flow insight-stream.html
+- section.data.collection (default "insight")
+- section.data.sort_by (default "date")
+- section.data.reverse (boolean)
+- section.data.excerpt_length (optional)
+- section.data.authors OR include.authors: YAML array of author slugs
+- page.slug fallback for override authors
+- p.authors: YAML array of author slugs
+- Optional author filtering applied inline
 {%- endcomment -%}
 
 {%- assign coll_name = section.data.collection | default: "insight" -%}
 {%- assign posts = site[coll_name] -%}
-{%- if posts == nil -%}
-  <section class="md-flow">
-    <p><em>No collection named <code>{{ coll_name }}</code> found.</em></p>
-  </section>
-{%- else -%}
-  {%- comment -%} normalize override authors (from include or section.data) {%- endcomment -%}
-  {%- assign raw_override = include.authors | default: section.data.authors | default: "" -%}
-  {%- assign override_slugs = "" | split: "|" -%}
-  {%- assign override_slugs_norm = "" | split: "|" -%}
 
-  {%- if raw_override != "" -%}
-    {%- assign raw_json = raw_override | jsonify -%}
-
-    {%- if raw_json contains '[' and raw_json contains ']' -%}
-      {%- assign tmp = raw_json | remove:'[' | remove:']' | remove:'"' | remove:"'" | strip -%}
-      {%- assign override_slugs = tmp | split:',' | map:'strip' -%}
-
-    {%- elsif raw_json contains ',' -%}
-      {%- assign tmp = raw_json | remove:'"' | remove:"'" | strip -%}
-      {%- assign override_slugs = tmp | split:',' | map:'strip' -%}
-
-    {%- else -%}
-      {%- assign tmp = raw_json | remove:'"' | remove:"'" | strip -%}
-      {%- if tmp == "" -%}
-        {%- assign override_slugs = "" | split: "|" -%}
-      {%- else -%}
-        {%- assign override_slugs = tmp | split:'\n' | map:'strip' -%}
-      {%- endif -%}
-    {%- endif -%}
-
-    {%- for s in override_slugs -%}
-      {%- assign s_norm = s | split:'.' | first | slugify -%}
-      {%- assign override_slugs_norm = override_slugs_norm | push: s_norm -%}
-    {%- endfor -%}
-  {%- endif -%}
-
-  {%- comment -%}
-  If no explicit override was provided, fall back to page.slug (common pattern: author/insight pages)
-  {%- endcomment -%}
-  {%- if override_slugs_norm.size == 0 and page and page.slug -%}
-    {%- assign pg_slug_norm = page.slug | slugify -%}
-    {%- assign override_slugs_norm = override_slugs_norm | push: pg_slug_norm -%}
-  {%- endif -%}
-
-  {%- assign sort_key = section.data.sort_by | default: "date" -%}
-
-  {%- comment -%}
-  Make reverse explicit: only reverse if section.data.reverse is explicitly true.
-  {%- endcomment -%}
-  {%- assign reverse_flag = false -%}
-  {%- if section.data.reverse != nil and section.data.reverse == true -%}
-    {%- assign reverse_flag = true -%}
-  {%- endif -%}
-
-  {%- comment -%}
-  Helpers: function-like blocks to extract normalized author slugs from a post.
-  (Liquid lacks real functions; we inline the logic where needed.)
-  {%- endcomment -%}
-
-  {%- if section.data.group_by == "author" or include.group_by == "author" -%}
-    {%- comment -%} Build list of author docs to iterate (override -> strict selection) {%- endcomment -%}
-    {%- if override_slugs_norm.size > 0 -%}
-      {%- assign author_docs = "" | split: "|" -%}
-      {%- for s in override_slugs_norm -%}
-        {%- assign doc = site.authors | where: "slug", s | first -%}
-        {%- if doc -%}
-          {%- assign author_docs = author_docs | push: doc -%}
-        {%- endif -%}
-      {%- endfor -%}
-    {%- else -%}
-      {%- assign author_docs = site.authors -%}
-    {%- endif -%}
-
-    <section id="insights-by-author">
-      {%- for author in author_docs -%}
-        {%- comment -%} collect posts for this author {%- endcomment -%}
-        {%- assign matched = "" | split: "|" -%}
-        {%- for p in posts -%}
-          {%- comment -%} parse p.authors robustly into p_slugs {%- endcomment -%}
-          {%- assign p_auth = p.authors -%}
-          {%- assign p_slugs = "" | split: "|" -%}
-
-          {%- if p_auth -%}
-          {%- comment -%} If p_auth is an array (first element not nil), use it directly. This avoids parsing problems. {%- endcomment -%}
-            {%- if p_auth[0] != nil -%}
-              {%- assign p_slugs = p_auth -%}
-            {%- else -%}
-            {%- assign p_json = p_auth | jsonify -%}
-
-              {%- if p_json contains '[' and p_json contains ']' -%}
-                {%- assign tmp = p_json | remove:'[' | remove:']' | remove:'"' | remove:"'" | strip -%}
-                {%- assign p_slugs = tmp | split:',' | map:'strip' -%}
-
-              {%- elsif p_json contains ',' -%}
-                {%- assign tmp = p_json | remove:'"' | remove:"'" | strip -%}
-                {%- assign p_slugs = tmp | split:',' | map:'strip' -%}
-
-              {%- else -%}
-                {%- assign tmp = p_json | remove:'"' | remove:"'" | strip -%}
-                {%- assign p_slugs = tmp | split:'\n' | map:'strip' -%}
-              {%- endif -%}
-          {%- endif -%}
-        {%- endif -%}
-
-
-          {%- comment -%} normalize and compare any slug in p_slugs against author.slug {%- endcomment -%}
-          {%- assign matched_flag = false -%}
-          {%- for ps in p_slugs -%}
-            {%- assign ps_norm = ps | split:'.' | first | slugify -%}
-            {%- if ps_norm == author.slug -%}{%- assign matched_flag = true -%}{%- endif -%}
-          {%- endfor -%}
-
-          {%- if matched_flag -%}
-            {%- assign matched = matched | push: p -%}
-          {%- endif -%}
-        {%- endfor -%}
-
-        {%- if matched.size > 0 -%}
-          {%- comment -%} sort matched posts {%- endcomment -%}
-          {%- assign matched = matched | sort: sort_key -%}
-          {%- if reverse_flag -%}{%- assign matched = matched | reverse -%}{%- endif -%}
-
-          <section class="md-author-flow">
-            {% include sections/author.html author=author %}
-            <div class="md-insight-list">
-              {%- for post in matched -%}
-                {% include sections/insight-item.html post=post excerpt_length=section.data.excerpt_length hide_author=true %}
-              {%- endfor -%}
-            </div>
-          </section>
-        {%- endif -%}
-      {%- endfor -%}
-    </section>
-
-  {%- else -%}
-    {%- comment -%} Non-grouped mode: optionally filter posts to the override slugs, else show all posts {%- endcomment -%}
-    {%- assign filtered = "" | split: "|" -%}
-    {%- for p in posts -%}
-      {%- if override_slugs_norm.size > 0 -%}
-        {%- comment -%} parse p.authors robustly into p_slugs {%- endcomment -%}
-        {%- assign p_auth = p.authors -%}
-          {%- assign p_slugs = "" | split: "|" -%}
-
-          {%- if p_auth -%}
-          {%- comment -%} If p_auth is an array (first element not nil), use it directly. This avoids parsing problems. {%- endcomment -%}
-            {%- if p_auth[0] != nil -%}
-              {%- assign p_slugs = p_auth -%}
-            {%- else -%}
-            {%- assign p_json = p_auth | jsonify -%}
-
-              {%- if p_json contains '[' and p_json contains ']' -%}
-                {%- assign tmp = p_json | remove:'[' | remove:']' | remove:'"' | remove:"'" | strip -%}
-                {%- assign p_slugs = tmp | split:',' | map:'strip' -%}
-
-              {%- elsif p_json contains ',' -%}
-                {%- assign tmp = p_json | remove:'"' | remove:"'" | strip -%}
-                {%- assign p_slugs = tmp | split:',' | map:'strip' -%}
-
-              {%- else -%}
-                {%- assign tmp = p_json | remove:'"' | remove:"'" | strip -%}
-                {%- assign p_slugs = tmp | split:'\n' | map:'strip' -%}
-              {%- endif -%}
-          {%- endif -%}
-        {%- endif -%}
-
-        {%- assign keep = false -%}
-        {%- for ps in p_slugs -%}
-          {%- assign ps_norm = ps | split:'.' | first | slugify -%}
-          {%- if override_slugs_norm contains ps_norm -%}
-            {%- assign keep = true -%}
-          {%- endif -%}
-        {%- endfor -%}
-        {%- if keep -%}{%- assign filtered = filtered | push: p -%}{%- endif -%}
-      {%- else -%}
-        {%- assign filtered = filtered | push: p -%}
-      {%- endif -%}
-    {%- endfor -%}
-
-    {%- assign filtered = filtered | sort: sort_key -%}
-    {%- if reverse_flag -%}{%- assign filtered = filtered | reverse -%}{%- endif -%}
-
-    <section id="insights-stream">
-      {%- for post in filtered -%}
-        {% include sections/insight-item.html post=post excerpt_length=section.data.excerpt_length %}
-      {%- endfor -%}
-    </section>
-  {%- endif -%}
+{%- comment -%} Normalize override authors {%- endcomment -%}
+{%- assign override_authors = include.authors | default: section.data.authors -%}
+{%- if override_authors == nil and page and page.slug -%}
+  {%- assign override_authors = page.slug | split:"|" -%}
 {%- endif -%}
+
+{%- assign sort_key_field = section.data.sort_by | default:"date" -%}
+{%- assign reverse_flag = section.data.reverse == true -%}
+
+{%- comment -%} Filter posts and compute sort keys in one pass {%- endcomment -%}
+{%- assign entries = "" | split:"|" -%}
+{%- for p in posts -%}
+  {%- assign keep = override_authors == nil or (p.authors and p.authors | where_exp:"a","override_authors contains a" | size > 0) -%}
+  {%- if keep -%}
+    {% capture key %}{{ p[sort_key_field] | default:"9999-12-31" }}|{{ p.slug }}{% endcapture %}
+    {%- assign entries = entries | push: key | append:"||" | push: p -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- assign entries = entries | sort -%}
+{%- if reverse_flag -%}{%- assign entries = entries | reverse -%}{%- endif -%}
+
+{%- comment -%} Render all filtered posts sequentially {%- endcomment -%}
+<section id="insights-stream">
+  {%- for e in entries -%}
+    {%- assign post_slug = e | split:"||" | last -%}
+    {%- assign post_obj = posts | where:"slug", post_slug | first -%}
+    {% include sections/insight-item.html post=post_obj excerpt_length=section.data.excerpt_length %}
+  {%- endfor -%}
+</section>
