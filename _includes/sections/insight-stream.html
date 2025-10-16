@@ -100,17 +100,45 @@ New behavior:
 
   {%- if section.data.group_by == "author" or include.group_by == "author" -%}
     {%- comment -%} Build list of author docs to iterate (override -> strict selection) {%- endcomment -%}
+    {%- comment -%}
+    Defensive author_docs build:
+    - Iterates site.authors and selects any author whose slug matches (or is contained in)
+      any normalized override token. This avoids strict where: lookups that miss due to
+    whitespace, hidden chars, or slight formatting differences.
+    {%- endcomment -%}
+
+    {%- assign author_docs = "" | split: "|" -%}
+
     {%- if override_slugs_norm.size > 0 -%}
-      {%- assign author_docs = "" | split: "|" -%}
+      {%- comment -%} Normalize override values once for robust comparisons {%- endcomment -%}
+      {%- assign norm_overrides = "" | split: "|" -%}
       {%- for s in override_slugs_norm -%}
-        {%- assign doc = site.authors | where: "slug", s | first -%}
-        {%- if doc -%}
-          {%- assign author_docs = author_docs | push: doc -%}
+        {%- assign s_norm = s | slugify | strip -%}
+        {%- if s_norm != "" -%}{%- assign norm_overrides = norm_overrides | push: s_norm -%}{%- endif -%}
+      {%- endfor -%}
+
+      {%- for a in site.authors -%}
+        {%- assign a_slug = a.slug | slugify | strip -%}
+        {%- if a_slug == "" -%}
+          {%- continue -%}
+        {%- endif -%}
+
+        {%- assign matched = false -%}
+        {%- for s in norm_overrides -%}
+          {%- if s == a_slug or s contains a_slug or a_slug contains s -%}
+            {%- assign matched = true -%}
+            {%- break -%}
+          {%- endif -%}
+        {%- endfor -%}
+
+        {%- if matched -%}
+          {%- assign author_docs = author_docs | push: a -%}
         {%- endif -%}
       {%- endfor -%}
     {%- else -%}
       {%- assign author_docs = site.authors -%}
     {%- endif -%}
+
 
     <section id="insights-by-author">
       {%- for author in author_docs -%}
