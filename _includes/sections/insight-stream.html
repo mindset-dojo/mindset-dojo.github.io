@@ -129,7 +129,9 @@ New behavior:
 
           {%- assign matched_flag = false -%}
           {%- for ps in p_slugs -%}
-            {%- if ps == author.slug -%}{%- assign matched_flag = true -%}{%- endif -%}
+            {%- if ps | split:'.' | first | slugify | strip == author.slug -%}
+              {%- assign matched_flag = true -%}
+            {%- endif -%}
           {%- endfor -%}
 
           {%- if matched_flag -%}
