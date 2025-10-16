@@ -53,29 +53,6 @@ New behavior:
     {%- endfor -%}
   {%- endif -%}
 
-  <section class="debug" style="background:#fff8cc;padding:.5rem;border:1px solid #e0c070;">
-    <pre>
-      DEBUG: insight-stream state
-      coll_name: {{ coll_name }}
-      posts_count: {{ posts | size }}
-      include.authors (raw param): {{ include.authors | default: "nil" }}
-      section.data.authors: {{ section.data.authors | default: "nil" }}
-      raw_override (computed earlier in file): {{ raw_override | default: "nil" }}
-      page.slug: {{ page.slug | default: "nil" }}
-      page.data_key: {{ page.data_key | default: "nil" }}
-
-      override_slugs_norm: {%- if override_slugs_norm and override_slugs_norm.size > 0 -%}{{ override_slugs_norm | join: ", " }}{%- else -%}EMPTY{%- endif -%}
-
-      site.authors count: {{ site.authors | size }}
-      site.author_slugs: {%- assign _sa = "" | split: "|" -%}{%- for a in site.authors -%}{%- assign _sa = _sa | push: a.slug -%}{%- endfor -%}{{ _sa | join: ", " }}
-
-      First posts (limit 12):
-      {%- for p in posts limit:12 -%}
-        - {{ p.title | default: p.path }} → raw authors: {{ p.authors | default: "nil" }}
-      {%- endfor -%}
-    </pre>
-  </section>
-
   {%- comment -%}
   If no explicit override was provided, fall back to page.slug (common pattern: author/insight pages)
   {%- endcomment -%}
@@ -83,10 +60,6 @@ New behavior:
     {%- assign pg_slug_norm = page.slug | slugify -%}
     {%- assign override_slugs_norm = override_slugs_norm | push: pg_slug_norm -%}
   {%- endif -%}
-  
-  <!-- place right after the fallback that pushes page.slug -->
-  DEBUG: pushed_page_slug? {{ pg_slug_norm | default: "nil" }} override_slugs_norm.size: {{ override_slugs_norm | size }}
-
 
   {%- assign sort_key = section.data.sort_by | default: "date" -%}
 
@@ -139,12 +112,6 @@ New behavior:
       {%- assign author_docs = site.authors -%}
     {%- endif -%}
 
-    <p class="debug">override_slugs_norm.size: {{ override_slugs_norm | size }}</p>
-    <ul class="debug">
-    {%- for s in override_slugs_norm -%}
-      <li>raw token: &lt;&lt;{{ s | replace: '\n', '\\n' }}&gt;&gt; — slugify: &lt;&lt;{{ s | slugify }}&gt;&gt;</li>
-    {%- endfor -%}
-    </ul>
 
     <section id="insights-by-author">
       {%- for author in author_docs -%}
