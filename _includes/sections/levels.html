@@ -23,8 +23,6 @@ Each level item shape:
   <h2>{{ D.label }}</h2>
 
   {%- for lv in D.items -%}
-    <br>
-    <br>
     <h3>
       {% include icons/level.svg
         class="md-level-svg"
@@ -43,22 +41,22 @@ Each level item shape:
     {%- endif -%}
 
     {%- if D.flows_label and lv.flows and lv.flows.size > 0 -%}
+      <p><strong>{{ D.flows_label }}</strong></p>
       <ul>
-        <p><strong>{{ D.flows_label }}</strong></p>
         {%- for f in lv.flows -%}
-         {%- if f.url | slice: 0, 1 == "/" -%}
-           <li>
-             <a href="{{ f.url | relative_url }}">
-               {{ f.label }}
-             </a>
+          {%- if f.url | slice: 0, 1 == "/" -%}
+            <li>
+              <a href="{{ f.url | relative_url }}">
+                {{ f.label }}
+              </a>
             </li>
-         {%- else -%}
-           <li>
-             <a href="{{ f.url }}">
-               {{ f.label }}
-             </a>
-           </li>
-         {%- endif -%}
+          {%- else -%}
+            <li>
+              <a href="{{ f.url }}">
+                {{ f.label }}
+              </a>
+            </li>
+          {%- endif -%}
         {%- endfor -%}
       </ul>
     {%- endif -%}
