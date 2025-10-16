@@ -1,0 +1,41 @@
+{%- comment -%}
+Output: a comma-separated list of normalized author slugs for a given post authors value.
+Usage (parent template):
+  {%- capture p_slugs_csv -%}{% include sections/parse-post-authors.html p_auth=post.authors %}{%- endcapture -%}
+  {%- assign p_slugs = p_slugs_csv | split:',' | map:'strip' -%}
+
+Accepts:
+  include.p_auth  -> can be an array, JSON-ish string, comma-separated, or newline-separated string.
+{%- endcomment -%}
+
+{%- assign p_auth = include.p_auth -%}
+{%- assign p_slugs = "" | split: "|" -%}
+
+{%- if p_auth -%}
+  {%- comment -%} If p_auth is an array (first element exists), use it directly. {%- endcomment -%}
+  {%- if p_auth[0] != nil -%}
+    {%- assign p_slugs = p_auth -%}
+  {%- else -%}
+    {%- assign p_json = p_auth | jsonify -%}
+
+    {%- if p_json contains '[' and p_json contains ']' -%}
+      {%- assign tmp = p_json | remove:'[' | remove:']' | remove:'"' | remove:"'" | strip -%}
+      {%- assign p_slugs = tmp | split:',' | map:'strip' -%}
+
+    {%- elsif p_json contains ',' -%}
+      {%- assign tmp = p_json | remove:'"' | remove:"'" | strip -%}
+      {%- assign p_slugs = tmp | split:',' | map:'strip' -%}
+
+    {%- else -%}
+      {%- assign tmp = p_json | remove:'"' | remove:"'" | strip -%}
+      {%- assign p_slugs = tmp | split:'\n' | map:'strip' -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endif -%}
+
+{%- comment -%} Emit normalized slugs as comma-separated text (no trailing comma). {%- endcomment -%}
+{%- for ps in p_slugs -%}
+  {%- assign ps_norm = ps | split:'.' | first | slugify -%}
+  {%- if forloop.first -%}
+{{ ps_norm }}{%- else -%},{{ ps_norm }}{%- endif -%}
+{%- endfor -%}
