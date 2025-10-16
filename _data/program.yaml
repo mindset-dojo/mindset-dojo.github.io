@@ -12,11 +12,11 @@ sections:
         - "Progress flows through resonance—each threshold deepens mastery."
   - type: text
     data:
-      label: "How We Learn"
+      label: "Learning in the Dojo"
       items:
-        - "Not knowing the full context is normal."
-        - "Mentors and peers fill gaps through dialogue and demonstration."
-        - "Ask early—progress is guided through reps, feedback, and reflection."
+        - "The map below is open to all—full context comes with orientation."
+        - "Mentors and peers translate the map through dialogue and demo."
+        - "Ask early—reps and feedback guide your progress."
   - type: list
     data:
       label: "Principles"
@@ -209,7 +209,7 @@ sections:
   - type: authors
     data:
       leadership_flow:
-        label: "⛩️💫 Leadership Circle"
+        label: "⛩️💫 Mentor Circle"
         designation_type: program
         limit: 16
   - type: ctas
