@@ -1,110 +1,77 @@
 {%- comment -%}
-Robust parse-post-authors include (drop-in replacement).
+Minimal, tolerant parse-post-authors include.
 
-Usage:
-  {%- capture p_slugs_csv -%}{% include sections/parse-post-authors.html p_auth=p.authors %}{%- endcapture -%}
-  {%- assign p_slugs = p_slugs_csv | split:',' | map:'strip' -%}
+Accepts:
+  - include.p_auth      (preferred; used in insight-stream: p_auth=p.authors)
+  - include.authors
+  - include.data.authors
+  - include.section.data.authors
+Also tolerates include.data or include.section containing a post object shape.
 
-Accepts many call shapes and also accepts include.section.{data.authors,authors}.
-Emits CSV of normalized slugs.
+Outputs:
+  CSV of normalized slug tokens (e.g. "kyle-ingersoll,michael-basil")
 {%- endcomment -%}
 
-{%- comment -%} Resolve incoming param names (direct) {%- endcomment -%}
-{%- assign resolved = nil -%}
+{%- assign resolved = "" -%}
+
 {%- if include.p_auth != nil -%}
   {%- assign resolved = include.p_auth -%}
-{%- elsif include.p_authors != nil -%}
-  {%- assign resolved = include.p_authors -%}
 {%- elsif include.authors != nil -%}
   {%- assign resolved = include.authors -%}
-{%- elsif include.p != nil -%}
-  {%- if include.p.authors != nil -%}
-    {%- assign resolved = include.p.authors -%}
-  {%- elsif include.p.author != nil -%}
-    {%- assign resolved = include.p.author -%}
-  {%- elsif include.p.auth != nil -%}
-    {%- assign resolved = include.p.auth -%}
-  {%- endif -%}
-{%- endif -%}
-
-{%- comment -%} If nothing found yet, accept include.section and try common shapes {%- endcomment -%}
-{%- if (resolved == nil) or (resolved == "") -%}
-  {%- if include.section != nil -%}
-    {%- comment -%} section.data.authors is the most likely shape from dispatcher {%- endcomment -%}
-    {%- if include.section.data != nil and include.section.data.authors != nil -%}
-      {%- assign resolved = include.section.data.authors -%}
-    {%- elsif include.section.authors != nil -%}
-      {%- assign resolved = include.section.authors -%}
-    {%- elsif include.section.data != nil and include.section.data.post != nil and include.section.data.post.authors != nil -%}
-      {%- assign resolved = include.section.data.post.authors -%}
-    {%- endif -%}
-  {%- endif -%}
+{%- elsif include.data != nil and include.data.authors != nil -%}
+  {%- assign resolved = include.data.authors -%}
+{%- elsif include.section != nil and include.section.data != nil and include.section.data.authors != nil -%}
+  {%- assign resolved = include.section.data.authors -%}
 {%- endif -%}
 
 {%- if resolved == nil -%}{%- assign resolved = "" -%}{%- endif -%}
+{%- assign tokens = "" | split: "|" -%}
 
-{%- assign p_slugs_raw = "" | split: "|" -%}
-
-{%- comment -%}
-Parsing approach:
- 1) Inspect JSONified value for an array marker '[' & ']' → parse CSV from inside.
- 2) Else if there's a comma in the string → split on commas.
- 3) Else if newlines → split on newlines.
- 4) Else if non-empty → treat as a single token (push full string).
-{%- endcomment -%}
 {%- if resolved != "" -%}
-  {%- assign p_json = resolved | jsonify -%}
+  {%- assign jsoned = resolved | jsonify -%}
 
-  {%- if p_json contains '[' and p_json contains ']' -%}
-    {%- assign tmp = p_json | remove:'[' | remove:']' | remove:'"' | remove:"'" | strip -%}
-    {%- if tmp != "" -%}
-      {%- assign p_slugs_raw = tmp | split:',' | map:'strip' -%}
+  {%- if jsoned contains '[' and jsoned contains ']' -%}
+    {%- assign inner = jsoned | remove:'[' | remove:']' | remove:'"' | remove:"'" | strip -%}
+    {%- if inner != "" -%}
+      {%- assign tokens = inner | split:',' | map:'strip' -%}
     {%- endif -%}
 
-  {%- elsif p_json contains ',' -%}
-    {%- assign tmp = p_json | remove:'"' | remove:"'" | strip -%}
-    {%- assign p_slugs_raw = tmp | split:',' | map:'strip' -%}
+  {%- elsif jsoned contains ',' -%}
+    {%- assign tmp = jsoned | remove:'"' | remove:"'" | strip -%}
+    {%- assign tokens = tmp | split:',' | map:'strip' -%}
 
-  {%- elsif p_json contains '\n' -%}
-    {%- assign tmp = p_json | remove:'"' | remove:"'" | strip -%}
-    {%- assign p_slugs_raw = tmp | split:'\n' | map:'strip' -%}
+  {%- elsif jsoned contains '\n' -%}
+    {%- assign tmp = jsoned | remove:'"' | remove:"'" | strip -%}
+    {%- assign tokens = tmp | split:'\n' | map:'strip' -%}
 
   {%- else -%}
-    {%- assign tmp = p_json | remove:'"' | remove:"'" | strip -%}
-    {%- if tmp != "" -%}
-      {%- assign p_slugs_raw = p_slugs_raw | push: tmp -%}
-    {%- endif -%}
+    {%- assign tmp = jsoned | remove:'"' | remove:"'" | strip -%}
+    {%- if tmp != "" -%}{%- assign tokens = tokens | push: tmp -%}{%- endif -%}
   {%- endif -%}
 {%- endif -%}
 
 {%- comment -%}
-Fallback: if parsing produced nothing but we have a raw string, try matching known author slugs
-embedded in the string (handles concatenated slugs like "michael-basilkyle-ingersoll").
+If tokens empty but resolved non-empty, try substring match against known author slugs
+(helps with concatenated tokens).
 {%- endcomment -%}
-{%- assign fallback_candidates = "" | split: "|" -%}
-{%- if p_slugs_raw == "" or p_slugs_raw.size == 0 -%}
-  {%- if resolved != "" -%}
-    {%- assign resolved_str = resolved | jsonify | remove:'"' | remove:"'" | strip -%}
-    {%- for a in site.authors -%}
-      {%- assign candidate_slug = a.slug | slugify -%}
-      {%- if candidate_slug != "" and resolved_str contains candidate_slug -%}
-        {%- assign fallback_candidates = fallback_candidates | push: candidate_slug -%}
-      {%- endif -%}
-    {%- endfor -%}
-    {%- if fallback_candidates != "" and fallback_candidates.size > 0 -%}
-      {%- assign p_slugs_raw = fallback_candidates -%}
+{%- if (tokens == "" or tokens.size == 0) and resolved != "" -%}
+  {%- assign resolved_str = resolved | jsonify | remove:'"' | remove:"'" | strip -%}
+  {%- for a in site.authors -%}
+    {%- assign s = a.slug | slugify -%}
+    {%- if s != "" and resolved_str contains s -%}
+      {%- assign tokens = tokens | push: s -%}
     {%- endif -%}
-  {%- endif -%}
+  {%- endfor -%}
 {%- endif -%}
 
-{%- comment -%} Normalize and emit CSV {%- endcomment -%}
-{%- assign first_out = true -%}
-{%- for ps in p_slugs_raw -%}
-  {%- assign ps_norm = ps | split:'.' | first | slugify | strip -%}
-  {%- if ps_norm != "" -%}
-    {%- if first_out -%}
-{{ ps_norm }}{%- assign first_out = false -%}
+{%- comment -%} Emit CSV of slugified tokens {%- endcomment -%}
+{%- assign out_first = true -%}
+{%- for t in tokens -%}
+  {%- assign t_slug = t | split:'.' | first | slugify | strip -%}
+  {%- if t_slug != "" -%}
+    {%- if out_first -%}
+{{ t_slug }}{%- assign out_first = false -%}
     {%- else -%}
-,{{ ps_norm }}{%- endif -%}
+,{{ t_slug }}{%- endif -%}
   {%- endif -%}
 {%- endfor -%}
