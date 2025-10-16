@@ -1,40 +1,25 @@
 ---
-mantra: "Don’t Conceal. Contribute."
-mantra_mark: "Contribute."
-description: "Open projects built in public—inviting contribution, conversation, and practice."
+mantra: "Don’t Control. Co-Create."
+mantra_mark: "Co-Create."
+description: "An open-source dojo—where presence meets practice through shared stewardship. We refine structure as we train, evolving the system through care, contribution, and rhythm."
 sections:
-  - type: mission
-    data:
-      mission_rally_suffix_label: ": Living Structure"
-      mission_statement_bridge:
-        - "We cultivate clarity through form—language, structure, and motion."
-        - "We tend friction—listening, pruning, adjusting with care."
-        - "This is the Signal Garden Approach—where transparency grows trust."
   - type: text
     data:
-      label: "Project Motivations"
+      label: "Dojo Infrastructure: Open Source’d"
       items:
-        - "Our project is a shared practice of simplicity and coherence."
-        - "We refine systems, language, and flow through steady iteration."
-        - "Each contribution strengthens the pattern of fearlessness in form."
+        - "The Project is the living infrastructure of Mindset Dojo."
+        - "It grows through contributions from those actively training."
+        - "Open on GitHub—transparency and reciprocity guide its form."
   - type: text
     data:
-      label: "Contribution Motivations"
+      label: "Ways to Contribute"
       items:
-        - "Make contribution as natural as conversation."
-        - "Create infrastructure that teaches as it grows."
-        - "Invite courage through transparency and simplicity."
-  - type: text
-    data:
-      label: "Contribution Invitations"
-      items:
-        - "You sense where the system isn’t flowing."
-        - "You refactor a phrase or function toward clarity."
-        - "You offer a pattern that helps others move with ease."
-        - "You make reciprocity visible—through review and mentorship."
+        - "Refactor language, structure, or function toward clarity."
+        - "Offer patterns or feedback that help others move with ease."
+        - "Model reciprocity through guidance, review, and mentorship."
   - type: quote
     data:
-      text: "Ideation is fun, pull requests invite influence."
+      text: "Ideation is fun; pull requests invite influence."
   - type: designations
     data:
       label: "Leadership Designations"
@@ -56,12 +41,12 @@ sections:
   - type: authors
     data:
       leadership_flow:
-        label: "⛩️🪴 Signal Gardeners"
+        label: "⛩️💫 Cultivator Circle"
         designation_type: project
         limit: 8
   - type: ctas
     data:
       items:
-        - label: "Inspect the Roots"
+        - label: "Tend the Source"
           ref: repo
 ---
