@@ -13,7 +13,6 @@ DRY sequential-flow insight-stream.html
 {%- assign coll_name = section.data.collection | default: "insight" -%}
 {%- assign posts = site[coll_name] -%}
 
-{%- comment -%} Normalize override authors {%- endcomment -%}
 {%- assign override_authors = include.authors | default: section.data.authors -%}
 {%- if override_authors == nil and page and page.slug -%}
   {%- assign override_authors = page.slug | split:"|" -%}
@@ -22,24 +21,22 @@ DRY sequential-flow insight-stream.html
 {%- assign sort_key_field = section.data.sort_by | default:"date" -%}
 {%- assign reverse_flag = section.data.reverse == true -%}
 
-{%- comment -%} Filter posts and compute sort keys in one pass {%- endcomment -%}
-{%- assign entries = "" | split:"|" -%}
+{%- comment -%} Filter posts inline {%- endcomment -%}
+{%- assign filtered_posts = "" | split:"|" -%}
 {%- for p in posts -%}
   {%- assign keep = override_authors == nil or (p.authors and p.authors | where_exp:"a","override_authors contains a" | size > 0) -%}
   {%- if keep -%}
-    {% capture key %}{{ p[sort_key_field] | default:"9999-12-31" }}|{{ p.slug }}{% endcapture %}
-    {%- assign entries = entries | push: key | append:"||" | push: p -%}
+    {%- assign filtered_posts = filtered_posts | push: p -%}
   {%- endif -%}
 {%- endfor -%}
 
-{%- assign entries = entries | sort -%}
-{%- if reverse_flag -%}{%- assign entries = entries | reverse -%}{%- endif -%}
+{%- comment -%} Sort posts by field {%- endcomment -%}
+{%- assign filtered_posts = filtered_posts | sort: sort_key_field -%}
+{%- if reverse_flag -%}{%- assign filtered_posts = filtered_posts | reverse -%}{%- endif -%}
 
-{%- comment -%} Render all filtered posts sequentially {%- endcomment -%}
 <section id="insights-stream">
-  {%- for e in entries -%}
-    {%- assign post_slug = e | split:"||" | last -%}
-    {%- assign post_obj = posts | where:"slug", post_slug | first -%}
-    {% include sections/insight-item.html post=post_obj excerpt_length=section.data.excerpt_length %}
+  {%- for post in filtered_posts -%}
+    {% include sections/insight-item.html post=post excerpt_length=section.data.excerpt_length %}
   {%- endfor -%}
 </section>
+
