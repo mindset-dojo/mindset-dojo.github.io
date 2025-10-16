@@ -5,10 +5,11 @@ Usage:
   {%- capture p_slugs_csv -%}{% include sections/parse-post-authors.html p_auth=p.authors %}{%- endcapture -%}
   {%- assign p_slugs = p_slugs_csv | split:',' | map:'strip' -%}
 
-Accepts many call shapes; emits CSV of normalized slugs.
+Accepts many call shapes and also accepts include.section.{data.authors,authors}.
+Emits CSV of normalized slugs.
 {%- endcomment -%}
 
-{%- comment -%} Resolve incoming param names {%- endcomment -%}
+{%- comment -%} Resolve incoming param names (direct) {%- endcomment -%}
 {%- assign resolved = nil -%}
 {%- if include.p_auth != nil -%}
   {%- assign resolved = include.p_auth -%}
@@ -25,13 +26,28 @@ Accepts many call shapes; emits CSV of normalized slugs.
     {%- assign resolved = include.p.auth -%}
   {%- endif -%}
 {%- endif -%}
+
+{%- comment -%} If nothing found yet, accept include.section and try common shapes {%- endcomment -%}
+{%- if (resolved == nil) or (resolved == "") -%}
+  {%- if include.section != nil -%}
+    {%- comment -%} section.data.authors is the most likely shape from dispatcher {%- endcomment -%}
+    {%- if include.section.data != nil and include.section.data.authors != nil -%}
+      {%- assign resolved = include.section.data.authors -%}
+    {%- elsif include.section.authors != nil -%}
+      {%- assign resolved = include.section.authors -%}
+    {%- elsif include.section.data != nil and include.section.data.post != nil and include.section.data.post.authors != nil -%}
+      {%- assign resolved = include.section.data.post.authors -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endif -%}
+
 {%- if resolved == nil -%}{%- assign resolved = "" -%}{%- endif -%}
 
 {%- assign p_slugs_raw = "" | split: "|" -%}
 
 {%- comment -%}
 Parsing approach:
- 1) Use jsonify and look for JSON array markers '[' & ']' → parse CSV from inside.
+ 1) Inspect JSONified value for an array marker '[' & ']' → parse CSV from inside.
  2) Else if there's a comma in the string → split on commas.
  3) Else if newlines → split on newlines.
  4) Else if non-empty → treat as a single token (push full string).
