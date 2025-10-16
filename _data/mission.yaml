@@ -38,13 +38,13 @@ sections:
     data:
       label: "Energy Is Currency"
       items:
-        - "(Self-)Authorship is the minimum investment—this isn’t consumption."
-        - "Presence grows through contribution, not just participation."
-        - "Thresholds turn circles into spirals—growth follows reciprocity."
+        - "Energy flows when we choose authorship over consumption."
+        - "Presence deepens through offering: insight, curiosity, attention, action."
+        - "Thresholds mark the passage from knowing to embodying."
         - "..."
-        - "Money is one form of energy—vital for scale, not for entry."
-        - "If not financial, invest time, attention, mentorship, or expertise."
-        - "Those with means extend reach; those with practice deepen it."
+        - "Reciprocity sustains the field—through time, attention, and care."
+        - "Financial investment anchors intent and sustains the field."
+        - "Energy invested circulates—fueling collective evolution."
   - type: authors
     data:
       leadership_flow:
@@ -53,8 +53,8 @@ sections:
   - type: ctas
     data:
       items:
-        - label: "Cross the Threshold"
+        - label: "Enter the Dojo"
           ref: program
-        - label: "Cultivate the Garden"
+        - label: "Cultivate the Dojo"
           ref: project
 ---

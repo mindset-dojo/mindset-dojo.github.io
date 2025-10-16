@@ -1,34 +1,48 @@
 {%- comment -%}
 list section
 
-  data:
-    label: string, optional
-    items: array of strings OR {label,url} objects
+data:
+  label: string, optional
+  items: array of:
+    - string
+    - { label: string, url?: string, id?: string }
+
+Behavior:
+  - If url starts with "/", use relative_url.
+  - If external url, open in new tab with rel security.
+  - If no url but label exists, render plain text (and set (li id="{{ id }}") if provided).
 {%- endcomment -%}
 
 {%- assign D = section.data -%}
 {%- if D.items and D.items.size > 0 -%}
 <section class="md-flow">
-  {%- if D.label -%}<h2>{{ D.label }}</h2>{%- endif -%}
+  <h2>{{ D.label }}</h2>
   <ul>
     {%- for it in D.items -%}
-      {%- if it.url | slice: 0, 1 == "/" -%}
-        <li>
-          <a href="{{ it.url | relative_url }}">
-            {{ it.label }}
-          </a>
-        </li>
-      {%- elsif it.url and it.label -%}
-        <li>
-          <a href="{{ it.url }}" target="_blank">
-            {{ it.label }}
-          </a>
-        </li>
+      {%- comment -%} Build unique li id if item has an id {%- endcomment -%}
+      {%- assign _raw_id   = it.id   | to_s | strip -%}
+      {%- assign _raw_base = D.label | to_s | strip -%}
+      {%- if _raw_id != blank -%}
+        {%- if _raw_base != blank -%}
+          {%- assign li_id = _raw_base | append: '-' | append: _raw_id | slugify -%}
+        {%- else -%}
+          {%- assign li_id = _raw_id | slugify -%}
+        {%- endif -%}
       {%- else -%}
-        <li>
-          {{ it }}
-        </li>
+        {%- assign li_id = '' -%}
       {%- endif -%}
+
+      <li id="{{ li_id }}">
+        {%- if it.url and it.url | slice: 0, 1 == "/" -%}
+          <a href="{{ it.url | relative_url }}">{{ it.label }}</a>
+        {%- elsif it.url and it.label -%}
+          <a href="{{ it.url }}">{{ it.label }}</a>
+        {%- elsif it.label -%}
+          {{ it.label }}
+        {%- else -%}
+          {{ it }}
+        {%- endif -%}
+      </li>
     {%- endfor -%}
   </ul>
 </section>
