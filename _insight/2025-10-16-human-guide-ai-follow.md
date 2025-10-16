@@ -8,14 +8,28 @@ authors:
 excerpt: "When code becomes debt, only human guidance can teach AI the Way forward."
 ---
 
-During a recent pull request on the Mindset Dojo site, I refactored the Insight Stream code to be modular and added sorting by author. What began as a small change quickly became a mountain of code I barely understood. I had rushed in, bypassing the step of thinking before acting. In the spirit of [*To Build Is to Owe. To Wait Is to Win*]({{ '/insight/build-owe-wait-win/' | relative_url }}): “Every line of code is not an asset — it’s a debt.” I had accumulated plenty.
+During a recent pull request on the Mindset Dojo site, I refactored the Insight Stream code to be modular and added sorting by author. What began as a small change quickly became a **mountain** of code I barely understood. 
 
-Defensive logic piled upon defensive logic. Complexity upon complexity. In trying to handle everything, I handled nothing. The code failed the quality gates—not for technical reasons, but because I ignored their spirit.
+> I had rushed in, bypassing the step of thinking before acting. 
 
-I turned to the Zensei and the Authorship Cultivator. The Zensei shared his own struggles, recalling when he refactored HTMLProofer and the Author Cards, where rushing led to tangled code. He showed me the approaches that worked for him: understand the intended behavior, simplify incrementally, and validate each step with human-readable checks. Through pair programming, it became clear: we weren’t building a Dump Truck, but a Race Car.
+In the spirit of [*To Build Is to Owe. To Wait Is to Win*]({{ '/insight/build-owe-wait-win/' | relative_url }}): *“Every line of code is not an asset — it’s a debt.”* I had accumulated plenty.
 
-Once we defined what the code should do, we asked ChatGPT to help simplify it, stripping away the armor that weighed us down. Many prompts later, the code followed the DRY principle, readable and elegant, ready to merge.
+Defensive logic piled upon defensive logic. Complexity upon complexity. 
 
-The lesson is subtle: the human guides, the AI follows. Without clear intention, AI mirrors your stuckness. Resonance checks are Ki. Debt can become value—but only when we pause, reflect, and let human mentorship illuminate the path.
+> In trying to handle everything, I handled nothing. 
+
+The code failed the quality gates—not for technical reasons, but because I ignored their spirit.
+
+> I turned to the Zensei and the Authorship Cultivator. 
+
+The Zensei shared his own struggles, recalling when he refactored HTMLProofer and the Author Cards, where rushing led to tangled code. He showed me the approaches that worked for him: **understand** the intended behavior, **simplify** incrementally, and **validate** each step with human-readable checks. 
+
+> Through pair programming, it became clear: we weren’t building a Dump Truck, but a Race Car.
+
+Once we defined what the code should do, we asked ChatGPT to help simplify it, **stripping away the armor** that weighed us down. Many prompts later, the code followed the DRY principle, readable and elegant, ready to merge.
+
+> The lesson is subtle: **the human guides, the AI follows.** 
+
+Without clear intention, AI mirrors your stuckness. Resonance checks are Ki. Debt can become value—but only when we pause, reflect, and let human mentorship illuminate the path.
 
 Thank you, Michael Basil.
