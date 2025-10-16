@@ -23,10 +23,6 @@ Each level item shape:
   <h2>{{ D.label }}</h2>
 
   {%- for lv in D.items -%}
-    {%- unless forloop.first -%}
-      <hr class="md-level-sep">
-    {%- endunless -%}
-
     <h3>
       {% include icons/level.svg
         class="md-level-svg"
