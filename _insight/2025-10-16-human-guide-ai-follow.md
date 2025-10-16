@@ -8,7 +8,7 @@ authors:
 excerpt: "When code becomes debt, only human guidance can teach AI the Way forward."
 ---
 
-During a recent pull request on the Mindset Dojo site, I refactored the Insight Stream code to be modular and added sorting by author. What began as a small change quickly became a mountain of code I barely understood. I had rushed in, bypassing the step of thinking before acting. In the spirit of *To Build Is to Owe. To Wait Is to Win*: “Every line of code is not an asset — it’s a debt.” I had accumulated plenty.
+During a recent pull request on the Mindset Dojo site, I refactored the Insight Stream code to be modular and added sorting by author. What began as a small change quickly became a mountain of code I barely understood. I had rushed in, bypassing the step of thinking before acting. In the spirit of [*To Build Is to Owe. To Wait Is to Win*]({{ '/insight/build-owe-wait-win/' | relative_url }}): “Every line of code is not an asset — it’s a debt.” I had accumulated plenty.
 
 Defensive logic piled upon defensive logic. Complexity upon complexity. In trying to handle everything, I handled nothing. The code failed the quality gates—not for technical reasons, but because I ignored their spirit.
 
