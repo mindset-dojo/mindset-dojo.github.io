@@ -121,10 +121,6 @@ New behavior:
           {%- comment -%} parse p.authors into a normalized slug list via include {%- endcomment -%}
           {%- capture p_slugs_csv -%}{% include sections/parse-post-authors.html p_auth=p.authors %}{%- endcapture -%}
           
-          {%- comment -%} DEBUGGING OUTPUT {%- endcomment -%}
-          {%- capture p_slugs_csv -%}{% include sections/parse-post-authors.html p_auth=p.authors %}{%- endcapture -%}
-          <p class="debug">DEBUG: {{ p.title }} → authors raw: {{ p.authors | inspect }} → parsed: {{ p_slugs_csv }}</p>
-
           {%- if p_slugs_csv != "" -%}
             {%- assign p_slugs = p_slugs_csv | split:',' | map:'strip' -%}
           {%- else -%}
