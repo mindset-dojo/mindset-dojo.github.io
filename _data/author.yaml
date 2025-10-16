@@ -4,4 +4,14 @@ sections:
   - type: markdown
     data:
       field: about
+  - type: markdown
+    data:
+      label: "Insight"
+      content: "Recent writing and reflection"
+  - type: insight-stream
+    data:
+      collection: insight
+      sort_by: date
+      reverse: true
+      excerpt_length: 220
 ---

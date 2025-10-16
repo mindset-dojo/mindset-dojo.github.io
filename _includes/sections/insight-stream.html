@@ -1,0 +1,53 @@
+{%- comment -%}
+DRY sequential-flow insight-stream.html
+- section.data.collection (default "insight")
+- section.data.sort_by (default "date")
+- section.data.reverse (boolean)
+- section.data.excerpt_length (optional)
+- section.data.authors OR include.authors: YAML array of author slugs
+- page.slug fallback for override authors
+- p.authors: YAML array of author slugs
+- Optional author filtering applied inline
+{%- endcomment -%}
+
+{%- assign coll_name = section.data.collection | default: "insight" -%}
+{%- assign posts = site[coll_name] -%}
+
+{%- assign override_authors = include.authors | default: section.data.authors -%}
+{%- if override_authors == nil and page and page.slug -%}
+  {%- assign override_authors = page.slug | split:"|" -%}
+{%- endif -%}
+
+{%- assign sort_key_field = section.data.sort_by | default:"date" -%}
+{%- assign reverse_flag = section.data.reverse == true -%}
+
+{%- comment -%} Filter posts by author if override_authors exists {%- endcomment -%}
+{%- assign filtered_posts = "" | split:"|" -%}
+{%- for p in posts -%}
+  {%- assign keep = false -%}
+
+  {%- if override_authors == nil -%}
+    {%- assign keep = true -%}
+  {%- elsif p.authors -%}
+    {%- for a in p.authors -%}
+      {%- if override_authors contains a -%}
+        {%- assign keep = true -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+
+  {%- if keep -%}
+    {%- assign filtered_posts = filtered_posts | push: p -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- assign filtered_posts = filtered_posts | sort: sort_key_field -%}
+{%- if reverse_flag -%}{%- assign filtered_posts = filtered_posts | reverse -%}{%- endif -%}
+
+<section id="insights-stream">
+  {%- for post in filtered_posts -%}
+    {% include sections/insight-item.html post=post excerpt_length=section.data.excerpt_length %}
+  {%- endfor -%}
+</section>
+
+
