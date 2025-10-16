@@ -29,12 +29,17 @@ Each case delegates to a small, focused template for that section type.
     Include insight-stream once. If we're rendering an author page and the
     section doesn't already declare authors, pass a page.slug override.
     {%- endcomment -%}
-    {%- assign section_has_authors = section.data and section.data.authors -%}
-    {%- if page.data_key == "author" and section_has_authors == false -%}
+    {%- assign has_section_authors = false -%}
+    {%- if section and section.data and section.data.authors != nil and section.data.authors != "" -%}
+      {%- assign has_section_authors = true -%}
+    {%- endif -%}
+
+    {%- if page.data_key == "author" and has_section_authors == false -%}
       {% include sections/insight-stream.html section=section data=data authors=page.slug %}
     {%- else -%}
       {% include sections/insight-stream.html section=section data=data %}
     {%- endif -%}
+
 
   {%- when 'levels' -%}
     {% include sections/levels.html section=section %}
