@@ -1,11 +1,14 @@
 {%- comment -%}
-Robust parse-post-authors include.
-Accepts include.p_auth / include.p_authors / include.authors / include.p (post).
-Emits CSV of normalized slugs.
-Also: if parsing fails (e.g. "michael-basilkyle-ingersoll"), it will search known
-site.author slugs inside the raw string and return any matches.
+Robust parse-post-authors include (drop-in replacement).
+
+Usage:
+  {%- capture p_slugs_csv -%}{% include sections/parse-post-authors.html p_auth=p.authors %}{%- endcapture -%}
+  {%- assign p_slugs = p_slugs_csv | split:',' | map:'strip' -%}
+
+Accepts many call shapes; emits CSV of normalized slugs.
 {%- endcomment -%}
 
+{%- comment -%} Resolve incoming param names {%- endcomment -%}
 {%- assign resolved = nil -%}
 {%- if include.p_auth != nil -%}
   {%- assign resolved = include.p_auth -%}
@@ -22,41 +25,45 @@ site.author slugs inside the raw string and return any matches.
     {%- assign resolved = include.p.auth -%}
   {%- endif -%}
 {%- endif -%}
-
-{%- if resolved == nil -%}
-  {%- assign resolved = "" -%}
-{%- endif -%}
+{%- if resolved == nil -%}{%- assign resolved = "" -%}{%- endif -%}
 
 {%- assign p_slugs_raw = "" | split: "|" -%}
 
+{%- comment -%}
+Parsing approach:
+ 1) Use jsonify and look for JSON array markers '[' & ']' → parse CSV from inside.
+ 2) Else if there's a comma in the string → split on commas.
+ 3) Else if newlines → split on newlines.
+ 4) Else if non-empty → treat as a single token (push full string).
+{%- endcomment -%}
 {%- if resolved != "" -%}
-  {%- if resolved[0] != nil -%}
-    {%- assign p_slugs_raw = resolved -%}
-  {%- else -%}
-    {%- assign p_json = resolved | jsonify -%}
+  {%- assign p_json = resolved | jsonify -%}
 
-    {%- if p_json contains '[' and p_json contains ']' -%}
-      {%- assign tmp = p_json | remove:'[' | remove:']' | remove:'"' | remove:"'" | strip -%}
-      {%- if tmp != "" -%}
-        {%- assign p_slugs_raw = tmp | split:',' | map:'strip' -%}
-      {%- endif -%}
-
-    {%- elsif p_json contains ',' -%}
-      {%- assign tmp = p_json | remove:'"' | remove:"'" | strip -%}
+  {%- if p_json contains '[' and p_json contains ']' -%}
+    {%- assign tmp = p_json | remove:'[' | remove:']' | remove:'"' | remove:"'" | strip -%}
+    {%- if tmp != "" -%}
       {%- assign p_slugs_raw = tmp | split:',' | map:'strip' -%}
+    {%- endif -%}
 
-    {%- else -%}
-      {%- assign tmp = p_json | remove:'"' | remove:"'" | strip -%}
-      {%- if tmp != "" -%}
-        {%- assign p_slugs_raw = tmp | split:'\n' | map:'strip' -%}
-      {%- endif -%}
+  {%- elsif p_json contains ',' -%}
+    {%- assign tmp = p_json | remove:'"' | remove:"'" | strip -%}
+    {%- assign p_slugs_raw = tmp | split:',' | map:'strip' -%}
+
+  {%- elsif p_json contains '\n' -%}
+    {%- assign tmp = p_json | remove:'"' | remove:"'" | strip -%}
+    {%- assign p_slugs_raw = tmp | split:'\n' | map:'strip' -%}
+
+  {%- else -%}
+    {%- assign tmp = p_json | remove:'"' | remove:"'" | strip -%}
+    {%- if tmp != "" -%}
+      {%- assign p_slugs_raw = p_slugs_raw | push: tmp -%}
     {%- endif -%}
   {%- endif -%}
 {%- endif -%}
 
 {%- comment -%}
-If parsing found nothing useful but we have a non-empty resolved string,
-try substring-matching known site.author slugs (handles concatenated slugs).
+Fallback: if parsing produced nothing but we have a raw string, try matching known author slugs
+embedded in the string (handles concatenated slugs like "michael-basilkyle-ingersoll").
 {%- endcomment -%}
 {%- assign fallback_candidates = "" | split: "|" -%}
 {%- if p_slugs_raw == "" or p_slugs_raw.size == 0 -%}
@@ -64,7 +71,7 @@ try substring-matching known site.author slugs (handles concatenated slugs).
     {%- assign resolved_str = resolved | jsonify | remove:'"' | remove:"'" | strip -%}
     {%- for a in site.authors -%}
       {%- assign candidate_slug = a.slug | slugify -%}
-      {%- if resolved_str contains candidate_slug -%}
+      {%- if candidate_slug != "" and resolved_str contains candidate_slug -%}
         {%- assign fallback_candidates = fallback_candidates | push: candidate_slug -%}
       {%- endif -%}
     {%- endfor -%}
@@ -77,7 +84,7 @@ try substring-matching known site.author slugs (handles concatenated slugs).
 {%- comment -%} Normalize and emit CSV {%- endcomment -%}
 {%- assign first_out = true -%}
 {%- for ps in p_slugs_raw -%}
-  {%- assign ps_norm = ps | split:'.' | first | slugify -%}
+  {%- assign ps_norm = ps | split:'.' | first | slugify | strip -%}
   {%- if ps_norm != "" -%}
     {%- if first_out -%}
 {{ ps_norm }}{%- assign first_out = false -%}
