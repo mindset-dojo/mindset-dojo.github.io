@@ -20,7 +20,7 @@ Defensive logic piled upon defensive logic. Complexity upon complexity.
 
 The code failed the quality gates—not for technical reasons, but because I ignored their spirit.
 
-> I turned to the Zensei and the Authorship Cultivator. 
+I turned to the Zensei and the Authorship Cultivator. 
 
 The Zensei shared his own struggles, recalling when he refactored HTMLProofer and the Author Cards, where rushing led to tangled code. He showed me the approaches that worked for him: **understand** the intended behavior, **simplify** incrementally, and **validate** each step with human-readable checks. 
 
