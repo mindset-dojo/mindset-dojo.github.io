@@ -16,17 +16,11 @@ New behavior:
 
 {%- assign coll_name = section.data.collection | default: "insight" -%}
 {%- assign posts = site[coll_name] -%}
-{%- comment -%} DEBUG: show runtime state (remove when finished) {%- endcomment -%}
 {%- if posts == nil -%}
   <section class="md-flow">
     <p><em>No collection named <code>{{ coll_name }}</code> found.</em></p>
   </section>
 {%- else -%}
-  {%- for p in posts limit:1 -%}
-    {%- capture p_slugs_csv -%}{% include sections/parse-post-authors.html p_auth=p.authors %}{%- endcapture -%}
-    <p class="debug">POST DEBUG: {{ p.title }} → raw authors: {{ p.authors | inspect }} → parsed CSV: {{ p_slugs_csv }}</p>
-  {%- endfor -%}
-
   {%- comment -%} normalize override authors (from include or section.data) {%- endcomment -%}
   {%- assign raw_override = include.authors | default: section.data.authors | default: "" -%}
   {%- assign override_slugs = "" | split: "|" -%}
@@ -76,67 +70,62 @@ New behavior:
     {%- assign reverse_flag = true -%}
   {%- endif -%}
 
+  {%- comment -%}
+  Helpers: function-like blocks to extract normalized author slugs from a post.
+  (Liquid lacks real functions; we inline the logic where needed.)
+  {%- endcomment -%}
+
   {%- if section.data.group_by == "author" or include.group_by == "author" -%}
     {%- comment -%} Build list of author docs to iterate (override -> strict selection) {%- endcomment -%}
-    {%- comment -%}
-    Defensive author_docs build:
-    - Iterates site.authors and selects any author whose slug matches (or is contained in)
-      any normalized override token. This avoids strict where: lookups that miss due to
-    whitespace, hidden chars, or slight formatting differences.
-    {%- endcomment -%}
-
-    {%- assign author_docs = "" | split: "|" -%}
-
     {%- if override_slugs_norm.size > 0 -%}
-      {%- comment -%} Normalize override values once for robust comparisons {%- endcomment -%}
-      {%- assign norm_overrides = "" | split: "|" -%}
+      {%- assign author_docs = "" | split: "|" -%}
       {%- for s in override_slugs_norm -%}
-        {%- assign s_norm = s | slugify | strip -%}
-        {%- if s_norm != "" -%}{%- assign norm_overrides = norm_overrides | push: s_norm -%}{%- endif -%}
-      {%- endfor -%}
-
-      {%- for a in site.authors -%}
-        {%- assign a_slug = a.slug | slugify | strip -%}
-        {%- if a_slug == "" -%}
-          {%- continue -%}
-        {%- endif -%}
-
-        {%- assign matched = false -%}
-        {%- for s in norm_overrides -%}
-          {%- if s == a_slug or s contains a_slug or a_slug contains s -%}
-            {%- assign matched = true -%}
-            {%- break -%}
-          {%- endif -%}
-        {%- endfor -%}
-
-        {%- if matched -%}
-          {%- assign author_docs = author_docs | push: a -%}
+        {%- assign doc = site.authors | where: "slug", s | first -%}
+        {%- if doc -%}
+          {%- assign author_docs = author_docs | push: doc -%}
         {%- endif -%}
       {%- endfor -%}
     {%- else -%}
       {%- assign author_docs = site.authors -%}
     {%- endif -%}
 
-
     <section id="insights-by-author">
       {%- for author in author_docs -%}
         {%- comment -%} collect posts for this author {%- endcomment -%}
         {%- assign matched = "" | split: "|" -%}
         {%- for p in posts -%}
-          {%- comment -%} parse p.authors into a normalized slug list via include {%- endcomment -%}
-          {%- capture p_slugs_csv -%}{% include sections/parse-post-authors.html p_auth=p.authors %}{%- endcapture -%}
-          
-          {%- if p_slugs_csv != "" -%}
-            {%- assign p_slugs = p_slugs_csv | split:',' | map:'strip' -%}
-          {%- else -%}
-            {%- assign p_slugs = "" | split: "|" -%}
-          {%- endif -%}
+          {%- comment -%} parse p.authors robustly into p_slugs {%- endcomment -%}
+          {%- assign p_auth = p.authors -%}
+          {%- assign p_slugs = "" | split: "|" -%}
 
+          {%- if p_auth -%}
+          {%- comment -%} If p_auth is an array (first element not nil), use it directly. This avoids parsing problems. {%- endcomment -%}
+            {%- if p_auth[0] != nil -%}
+              {%- assign p_slugs = p_auth -%}
+            {%- else -%}
+            {%- assign p_json = p_auth | jsonify -%}
+
+              {%- if p_json contains '[' and p_json contains ']' -%}
+                {%- assign tmp = p_json | remove:'[' | remove:']' | remove:'"' | remove:"'" | strip -%}
+                {%- assign p_slugs = tmp | split:',' | map:'strip' -%}
+
+              {%- elsif p_json contains ',' -%}
+                {%- assign tmp = p_json | remove:'"' | remove:"'" | strip -%}
+                {%- assign p_slugs = tmp | split:',' | map:'strip' -%}
+
+              {%- else -%}
+                {%- assign tmp = p_json | remove:'"' | remove:"'" | strip -%}
+                {%- assign p_slugs = tmp | split:'\n' | map:'strip' -%}
+              {%- endif -%}
+          {%- endif -%}
+        {%- endif -%}
+
+
+          {%- comment -%} normalize and compare any slug in p_slugs against author.slug {%- endcomment -%}
           {%- assign matched_flag = false -%}
           {%- for ps in p_slugs -%}
-            {%- if ps | split:'.' | first | slugify | strip == author.slug -%}
-              {%- assign matched_flag = true -%}
-            {%- endif -%}
+            {%- assign ps_norm = ps | split:'.' | first | slugify -%}
+            {%- if ps_norm == author.slug -%}{%- assign matched_flag = true -%}{%- endif -%}
           {%- endfor -%}
 
           {%- if matched_flag -%}
@@ -166,17 +155,36 @@ New behavior:
     {%- assign filtered = "" | split: "|" -%}
     {%- for p in posts -%}
       {%- if override_slugs_norm.size > 0 -%}
-        {%- comment -%} parse p.authors into normalized slug list via include {%- endcomment -%}
-        {%- capture p_slugs_csv -%}{% include sections/parse-post-authors.html p_auth=p.authors %}{%- endcapture -%}
-        {%- if p_slugs_csv != "" -%}
-          {%- assign p_slugs = p_slugs_csv | split:',' | map:'strip' -%}
-        {%- else -%}
+        {%- comment -%} parse p.authors robustly into p_slugs {%- endcomment -%}
+        {%- assign p_auth = p.authors -%}
           {%- assign p_slugs = "" | split: "|" -%}
+
+          {%- if p_auth -%}
+          {%- comment -%} If p_auth is an array (first element not nil), use it directly. This avoids parsing problems. {%- endcomment -%}
+            {%- if p_auth[0] != nil -%}
+              {%- assign p_slugs = p_auth -%}
+            {%- else -%}
+            {%- assign p_json = p_auth | jsonify -%}
+
+              {%- if p_json contains '[' and p_json contains ']' -%}
+                {%- assign tmp = p_json | remove:'[' | remove:']' | remove:'"' | remove:"'" | strip -%}
+                {%- assign p_slugs = tmp | split:',' | map:'strip' -%}
+
+              {%- elsif p_json contains ',' -%}
+                {%- assign tmp = p_json | remove:'"' | remove:"'" | strip -%}
+                {%- assign p_slugs = tmp | split:',' | map:'strip' -%}
+
+              {%- else -%}
+                {%- assign tmp = p_json | remove:'"' | remove:"'" | strip -%}
+                {%- assign p_slugs = tmp | split:'\n' | map:'strip' -%}
+              {%- endif -%}
+          {%- endif -%}
         {%- endif -%}
 
         {%- assign keep = false -%}
         {%- for ps in p_slugs -%}
-          {%- if override_slugs_norm contains ps -%}
+          {%- assign ps_norm = ps | split:'.' | first | slugify -%}
+          {%- if override_slugs_norm contains ps_norm -%}
             {%- assign keep = true -%}
           {%- endif -%}
         {%- endfor -%}
