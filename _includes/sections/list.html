@@ -20,15 +20,15 @@ Behavior:
   <ul>
     {%- for it in D.items -%}
       {%- if it.url and it.url | slice: 0, 1 == "/" -%}
-        <li{% if it.id %} id="{{ it.id | slugify }}"{% endif %}>
+        <li id="{{ it.id | slugify }}">
           <a href="{{ it.url | relative_url }}">{{ it.label }}</a>
         </li>
       {%- elsif it.url and it.label -%}
-        <li{% if it.id %} id="{{ it.id | slugify }}"{% endif %}>
+        <li id="{{ it.id | slugify }}">
           <a href="{{ it.url }}" target="_blank" rel="noopener noreferrer">{{ it.label }}</a>
         </li>
       {%- elsif it.label -%}
-        <li{% if it.id %} id="{{ it.id | slugify }}"{% endif %}>
+        <li id="{{ it.id | slugify }}">
           {{ it.label }}
         </li>
       {%- else -%}
