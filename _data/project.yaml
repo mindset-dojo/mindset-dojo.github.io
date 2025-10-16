@@ -9,7 +9,7 @@ sections:
       items:
         - "The Project is the living infrastructure of Mindset Dojo."
         - "It grows through contributions from those actively training."
-        - "Transparency and reciprocity shape its form."
+        - "Open on GitHub—transparency and reciprocity guide its form."
   - type: text
     data:
       label: "Ways to Contribute"
