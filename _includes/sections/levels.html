@@ -1,5 +1,5 @@
 {%- comment -%}
-Levels section — one section per level
+levels section
 
 section.data expects:
   - label:            string            e.g., "Levels"
@@ -9,32 +9,29 @@ section.data expects:
   - items:            array of level objects
 
 Each level item shape:
-  - color:     string    # level color (used by icons/level.svg)
-  - label:     string    # level label, e.g., "7th Kyu"
-  - level:     number    # keeps your schema for reference
-  - intention: string
-  - edge:      string
-  - flows:     array of {label, url}
+  - color:    string    # level color (used by icons/level.svg)
+  - label:    string    # level label, e.g., "7th Kyu"
+  - level:    number    # keeps your schema for reference
+  - intention:string
+  - edge:     string
+  - flows:    array of {label, url}
 {%- endcomment -%}
 
 {%- assign D = section.data -%}
 {%- if D.items and D.items.size > 0 -%}
-
-  {%- comment -%} Global header {%- endcomment -%}
-  <section class="md-flow levels-header" aria-labelledby="levels-title">
-    {%- if D.label -%}
-      <h2 id="levels-title">{{ D.label }}</h2>
-    {%- endif -%}
-  </section>
+<section class="md-flow">
+  <h2>{{ D.label }}</h2>
 
   {%- for lv in D.items -%}
-  <section class="md-flow level" id="{{ lv.label | slugify }}" aria-labelledby="{{ lv.label | slugify }}-title">
-    <h3 class="level-title" id="{{ lv.label | slugify }}-title">
+    {%- unless forloop.first -%}
+      <hr class="md-level-sep">
+    {%- endunless -%}
+
+    <h3>
       {% include icons/level.svg
-         class="md-level-svg"
-         color=lv.color
-         title=lv.label %}
-      <span>{{ lv.label }}</span>
+        class="md-level-svg"
+        color=lv.color
+        title=lv.label %}
     </h3>
 
     {%- if D.intention_label and lv.intention -%}
@@ -51,19 +48,22 @@ Each level item shape:
       <p><strong>{{ D.flows_label }}</strong></p>
       <ul>
         {%- for f in lv.flows -%}
-          {%- if f.url -%}
-            {%- if f.url | slice: 0, 1 == "/" -%}
-              <li><a href="{{ f.url | relative_url }}">{{ f.label }}</a></li>
-            {%- else -%}
-              <li><a href="{{ f.url }}">{{ f.label }}</a></li>
-            {%- endif -%}
+          {%- if f.url | slice: 0, 1 == "/" -%}
+            <li>
+              <a href="{{ f.url | relative_url }}">
+                {{ f.label }}
+              </a>
+            </li>
           {%- else -%}
-            <li>{{ f.label }}</li>
+            <li>
+              <a href="{{ f.url }}">
+                {{ f.label }}
+              </a>
+            </li>
           {%- endif -%}
         {%- endfor -%}
       </ul>
     {%- endif -%}
-  </section>
   {%- endfor -%}
-
+</section>
 {%- endif -%}
