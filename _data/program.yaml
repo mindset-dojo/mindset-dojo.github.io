@@ -78,6 +78,8 @@ sections:
               url: https://zenleader.global/s/FEBI-Technical-Manual-2024.pdf
             - label: Four Patterns Experience
               url: https://www.youtube.com/watch?v=uVTGeFjsD3s
+            - label: "Feedback Fields: Learning to Ride Together"
+              url: /insight/feedback-as-fields/
         - color: yellow
           label: 6th Kyu
           level: -6
