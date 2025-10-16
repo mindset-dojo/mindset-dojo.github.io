@@ -16,6 +16,30 @@ New behavior:
 
 {%- assign coll_name = section.data.collection | default: "insight" -%}
 {%- assign posts = site[coll_name] -%}
+{%- comment -%} DEBUG: show runtime state (remove when finished) {%- endcomment -%}
+<section class="debug" style="background:#fff8cc;padding:.5rem;border:1px solid #e0c070;">
+  <pre>
+    DEBUG: insight-stream state
+    coll_name: {{ coll_name }}
+    posts_count: {{ posts | size }}
+    include.authors (raw param): {{ include.authors | default: "nil" }}
+    section.data.authors: {{ section.data.authors | default: "nil" }}
+    raw_override (computed earlier in file): {{ raw_override | default: "nil" }}
+    page.slug: {{ page.slug | default: "nil" }}
+    page.data_key: {{ page.data_key | default: "nil" }}
+
+    override_slugs_norm: {%- if override_slugs_norm and override_slugs_norm.size > 0 -%}{{ override_slugs_norm | join: ", " }}{%- else -%}EMPTY{%- endif -%}
+
+    site.authors count: {{ site.authors | size }}
+    site.author_slugs: {%- assign _sa = "" | split: "|" -%}{%- for a in site.authors -%}{%- assign _sa = _sa | push: a.slug -%}{%- endfor -%}{{ _sa | join: ", " }}
+
+    First posts (limit 12):
+    {%- for p in posts limit:12 -%}
+      - {{ p.title | default: p.path }} → raw authors: {{ p.authors | default: "nil" }}
+    {%- endfor -%}
+  </pre>
+</section>
+
 {%- if posts == nil -%}
   <section class="md-flow">
     <p><em>No collection named <code>{{ coll_name }}</code> found.</em></p>
