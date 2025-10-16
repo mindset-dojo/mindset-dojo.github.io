@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "⛩️ The Hand-Sword and the Shadow - Using Force for Peace"
+title: "The Hand-Sword and the Shadow - Using Force for Peace"
 title_mark: Force for Peace
 date: 2025-10-15
 authors: 
