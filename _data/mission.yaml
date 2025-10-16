@@ -55,6 +55,6 @@ sections:
       items:
         - label: "Enter the Dojo"
           ref: program
-        - label: "Support the Dojo"
+        - label: "Cultivate the Dojo"
           ref: project
 ---
