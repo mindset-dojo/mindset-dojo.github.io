@@ -14,4 +14,5 @@ sections:
       sort_by: date
       reverse: true
       excerpt_length: 220
+      debug: true
 ---
