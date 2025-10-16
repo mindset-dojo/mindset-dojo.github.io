@@ -153,10 +153,7 @@ New behavior:
             {% include sections/author.html author=author %}
             <div class="md-insight-list">
               {%- for post in matched -%}
-                <!-- DEBUG: show posts before invoking insight-item -->
-                <p class="debug">DEBUG MATCHED POST: {{ post.title | default: post.path }} — raw authors: {{ post.authors | inspect }}</p>
-                {%- comment -%} temporarily comment out the insight-item include to test {%- endcomment -%}
-                {# {% include sections/insight-item.html post=post excerpt_length=section.data.excerpt_length hide_author=true %} #}
+                {% include sections/insight-item.html post=post excerpt_length=section.data.excerpt_length hide_author=true %}
               {%- endfor -%}
             </div>
           </section>
