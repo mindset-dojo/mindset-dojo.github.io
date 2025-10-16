@@ -67,7 +67,8 @@ Alignment is like agreeing on the route. Once that’s clear, the feedback — s
 In Mindset Dojo, feedback is part of the ride.  
 We train to notice the micro-adjustments — the lean, the wobble, the tension in the grip — without losing curiosity or connection.  
 
-When feedback comes, something I’m finding useful is to pause and ask:  
+When feedback comes, something I’m finding useful is to pause and ask:
+
 - What’s being stirred in me right now?  
 - What intention do I sense behind their words?  
 - How well-informed and aligned are we in this moment?  
