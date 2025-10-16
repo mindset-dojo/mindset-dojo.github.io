@@ -33,21 +33,29 @@ sections:
     data:
       label: "Forms"
       items:
-        - label: "Breathing"
+        - id: "breath"
+          label: "Breathing"
           url: https://en.wikipedia.org/wiki/Conscious_breathing
-        - label: "Reflection"
+        - id: "reflection"
+          label: "Reflection"
           url: https://en.wikipedia.org/wiki/Self-reflection
-        - label: "Consciousness"
+        - id: "consciousness"
+          label: "Consciousness"
           url: https://www.nondualitylife.com/levels-of-consciousness
-        - label: "Energy"
+        - id: "energy"
+          label: "Energy"
           url: https://zenleader.global/s/FEBI-Technical-Manual-2024.pdf
-        - label: "Resonance"
+        - id: "resonance"
+          label: "Resonance"
           url: https://static1.squarespace.com/static/66b622f49a9c4b791061dd7f/t/675c9d2fc876057bcf6bc740/1734122800096/Resonate+infographic+mm.pdf
-        - label: "Ki"
+        - id: "ki"
+          label: "Ki"
           url: https://mindbodyaikido.com/plus-ki-and-minus-ki/
-        - label: "Stances"
+        - id: "stances"
+          label: "Stances"
           url: /insight/breath-of-stance/
-        - label: "Moves"
+        - id: "moves"
+          label: "Moves"
           url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
   - type: levels
     data:
