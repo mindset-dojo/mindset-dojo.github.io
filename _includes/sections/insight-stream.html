@@ -83,6 +83,10 @@ New behavior:
     {%- assign pg_slug_norm = page.slug | slugify -%}
     {%- assign override_slugs_norm = override_slugs_norm | push: pg_slug_norm -%}
   {%- endif -%}
+  
+  <!-- place right after the fallback that pushes page.slug -->
+  DEBUG: pushed_page_slug? {{ pg_slug_norm | default: "nil" }} override_slugs_norm.size: {{ override_slugs_norm | size }}
+
 
   {%- assign sort_key = section.data.sort_by | default: "date" -%}
 
