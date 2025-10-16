@@ -11,7 +11,7 @@ program_level: -6
 program_level_date: 2025-03-16
 leadership_designations: []
 about: |
-  ### Contact
+  ### Connect
   
-  - [in] [LinkedIn](https://www.linkedin.com/in/jeremymcm)
+  - [LinkedIn](https://www.linkedin.com/in/jeremymcm)
 ---
