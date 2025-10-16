@@ -49,7 +49,7 @@ Each case delegates to a small, focused template for that section type.
     {% include sections/mission.html section=section data=data data_key=data_key %}
 
   {%- when 'parse-post-authors' -%}
-    {% include sections/parse-post-authors.html section=section %}
+    {% include sections/parse-post-authors.html section=section p_auth=p_auth %}
 
   {%- when 'quote' -%}
     {% include sections/quote.html section=section %}
