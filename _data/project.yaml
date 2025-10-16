@@ -3,10 +3,10 @@ mantra: "Train Openly."
 mantra_mark: "Openly."
 description: "An open-source dojo—where training, language, and systems evolve through shared contribution."
 sections:
-  - type: mission
+  - type: text
     data:
-      mission_rally_suffix_label: ": Open Source'd"
-      mission_statement_bridge:
+      label: "Dojo Infrastructure: Open Source’d"
+      items:
         - "The Project is the living infrastructure of Mindset Dojo."
         - "It grows through contributions from those actively training."
         - "Transparency and reciprocity shape its form."
