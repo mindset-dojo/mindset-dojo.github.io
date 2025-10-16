@@ -22,6 +22,11 @@ New behavior:
     <p><em>No collection named <code>{{ coll_name }}</code> found.</em></p>
   </section>
 {%- else -%}
+  {%- for p in posts limit:1 -%}
+    {%- capture p_slugs_csv -%}{% include sections/parse-post-authors.html p_auth=p.authors %}{%- endcapture -%}
+    <p class="debug">POST DEBUG: {{ p.title }} → raw authors: {{ p.authors | inspect }} → parsed CSV: {{ p_slugs_csv }}</p>
+  {%- endfor -%}
+
   {%- comment -%} normalize override authors (from include or section.data) {%- endcomment -%}
   {%- assign raw_override = include.authors | default: section.data.authors | default: "" -%}
   {%- assign override_slugs = "" | split: "|" -%}
