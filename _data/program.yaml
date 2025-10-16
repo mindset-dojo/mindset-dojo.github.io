@@ -55,7 +55,7 @@ sections:
           intention: Orientation
           edge: Four Patterns Reflection
           flows:
-            - label: MetaShift Insight - The Technology of Self-Authorship
+            - label: The Technology of Self-Authorship
               url: /insight/technology-of-self-authorship/
             - label: Zen Toolkit Inspiration
               url: http://www.zenshinkan.com/zenshinkan-lineage-ginny.html
@@ -69,13 +69,13 @@ sections:
           intention: Centering
           edge: Meditate until a spirited conversation makes sense and share insight
           flows:
-            - label: MetaShift Insight - A Fable on Opposition
+            - label: A Fable on Opposition
               url: /insight/fable-on-opposition/
             - label: Zen Toolkit - One Breath
               url: https://vimeo.com/944618879/47e96945a4
-            - label: MetaShift Insight - Tone
+            - label: Tone
               url: /insight/tone/
-            - label: MetaShift Insight - Map of Consciousness
+            - label: Map of Consciousness
               url: /insight/map-of-consciousness/
             - label: 5 minute Zazen with Zenpai
               url: https://youtu.be/q7Y5rwKiabQ?si=8keWWxVJrCp9BN1S
@@ -85,7 +85,7 @@ sections:
           intention: Perception
           edge: Reflect on a spirited conversation from multiple points of view
           flows:
-            - label: MetaShift Insight - From Explorer to Cultivator
+            - label: From Explorer to Cultivator
               url: /insight/from-explorer-to-cultivator/
             - label: Zen Toolkit - Two Sides
               url: https://vimeo.com/944663134/d4f1c4f333
@@ -93,7 +93,7 @@ sections:
               url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
             - label: Negotiation 9™ Move - Dynamic Silence
               url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
-            - label: MetaShift Insight - The Way of Paradox
+            - label: The Way of Paradox
               url: /insight/way-of-paradox/
             - label: 5 minute Zazen by yourself
               url: https://youtu.be/q7Y5rwKiabQ?si=8keWWxVJrCp9BN1S
@@ -103,7 +103,7 @@ sections:
           intention: Listening
           edge: Listen deeply with fresh ears and reflect back what you hear
           flows:
-            - label: MetaShift Insight - Conversation as Code
+            - label: Conversation as Code
               url: /insight/conversation-as-code/
             - label: Zen Toolkit - Three Centers
               url: https://vimeo.com/944672806/e099593826
@@ -123,13 +123,13 @@ sections:
           flows:
             - label: Zen Toolkit - Four Patterns
               url: https://vimeo.com/944675826/c57a7ce142
-            - label: MetaShift Insight - The Breath of a Stance Shifts the Mountain
+            - label: The Breath of a Stance Shifts the Mountain
               url: /insight/breath-of-stance/
             - label: Negotiation 9™ Move - Paraphrasing
               url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
             - label: Negotiation 9™ Move - Summary
               url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
-            - label: "MetaShift Insight - Houston, We Have an Attitude"
+            - label: "Houston, We Have an Attitude"
               url: /insight/houston-attitude/
             - label: 10 minute Zazen by yourself
               url: https://youtu.be/q7Y5rwKiabQ?si=8keWWxVJrCp9BN1S
@@ -139,7 +139,7 @@ sections:
           intention: Shadow
           edge: Demonstrate MetaShift expression live in an embodied exchange
           flows:
-            - label: MetaShift Insight - Spiraling with the Shadow in Star Wars
+            - label: Spiraling with the Shadow in Star Wars
               url: /insight/spiraling-with-the-shadow-in-star-wars/
             - label: Negotiation 9™ Move - “I” Messages
               url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
@@ -173,11 +173,11 @@ sections:
           intention: Wu-Wei
           edge: Explore MetaShift Method with another living system
           flows:
-            - label: MetaShift Insight - ⛩️ The Hand-Sword and the Shadow - Using Force for Peace
+            - label: "The Hand-Sword and the Shadow - Using Force for Peace"
               url: /insight/force-for-peace/
             - label: 30 minute Zazen with Chosei Zen Virtual Dojo
               url: https://www.choseizen.org/virtual-dojo
-            - label: MetaShift Insight - Cultivating a Threshold-Based Authorship Network
+            - label: Cultivating a Threshold-Based Authorship Network
               url: /insight/cultivating-a-threshold-based-authorship-network/
             - label: Two Sides Integrative Randori with Beyond the Black Belt Circle
               url: https://vimeo.com/944663134/d4f1c4f333
