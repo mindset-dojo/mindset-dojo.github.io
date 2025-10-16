@@ -14,10 +14,14 @@ sections:
     data:
       label: "Principles"
       items:
-        - "Relax completely"
-        - "Center with intention"
-        - "Meet fear with presence"
-        - "Playful resonance is Ki"
+        - id: "relax"
+          label: "Relax completely"
+        - id: "center"
+          label: "Center with intention"
+        - id: "meet"
+          label: "Meet fear with presence"
+        - id: "ki"
+          label: "Playful resonance is Ki"
   - type: list
     data:
       label: "Forms"
