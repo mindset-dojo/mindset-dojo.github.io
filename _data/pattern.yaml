@@ -1,15 +1,15 @@
 ---
 mantra: "Don't Fix. Evolve."
 mantra_mark: "Evolve."
-description: "We are pattern evolvers. We observe, distill, and evolve patterns of interaction that cultivate presence, connection, and flow."
+description: "A living library of interaction patterns—observed, distilled, and evolved to cultivate presence, connection, and flow."
 sections:
-  - type: mission
+  - type: text
     data:
-      mission_rally_suffix_label: ": Spiral Reflection"
-      mission_statement_bridge:
-        - "We center with intention—tending the inner pattern before we act."
-        - "We garden interaction—where tension reveals patterns to evolve."
-        - "In MetaShift Orchard, patterns mature—evolution emerges."
+      label: "Pattern Work: Living Library"
+      items:
+        - "Patterns are shared moves in conversation and leadership."
+        - "We observe in the wild, distill the form, and evolve it in training."
+        - "Use them as guides—adapt to context, don’t memorize."
   - type: quote
     data:
       text: "Coming soon..."
