@@ -139,6 +139,12 @@ New behavior:
       {%- assign author_docs = site.authors -%}
     {%- endif -%}
 
+    <p class="debug">override_slugs_norm.size: {{ override_slugs_norm | size }}</p>
+    <ul class="debug">
+    {%- for s in override_slugs_norm -%}
+      <li>raw token: &lt;&lt;{{ s | replace: '\n', '\\n' }}&gt;&gt; — slugify: &lt;&lt;{{ s | slugify }}&gt;&gt;</li>
+    {%- endfor -%}
+    </ul>
 
     <section id="insights-by-author">
       {%- for author in author_docs -%}
