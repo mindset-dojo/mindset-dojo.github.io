@@ -32,21 +32,17 @@ Behavior:
         {%- assign li_id = '' -%}
       {%- endif -%}
 
-      {%- if it.url and it.url | slice: 0, 1 == "/" -%}
-        <li id="{{ li_id }}">
+      <li id="{{ li_id }}">
+        {%- if it.url and it.url | slice: 0, 1 == "/" -%}
           <a href="{{ it.url | relative_url }}">{{ it.label }}</a>
-        </li>
-      {%- elsif it.url and it.label -%}
-        <li id="{{ li_id }}">
-          <a href="{{ it.url }}" target="_blank" rel="noopener noreferrer">{{ it.label }}</a>
-        </li>
-      {%- elsif it.label -%}
-        <li id="{{ li_id }}">
+        {%- elsif it.url and it.label -%}
+          <a href="{{ it.url }}">{{ it.label }}</a>
+        {%- elsif it.label -%}
           {{ it.label }}
-        </li>
-      {%- else -%}
-        <li>{{ it }}</li>
-      {%- endif -%}
+        {%- else -%}
+          {{ it }}
+        {%- endif -%}
+      </li>
     {%- endfor -%}
   </ul>
 </section>
