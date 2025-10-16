@@ -3,13 +3,13 @@ mantra: "Don't Resist. Resonate."
 mantra_mark: "Resonate."
 description: "A layered training journey—presence, nervous-system skill, and conversational leadership applied in real contexts."
 sections:
-  - type: mission
+  - type: text
     data:
-      mission_rally_suffix_label: ": Living Practice"
-      mission_statement_bridge:
-        - "We train live—on the Mat and in conversation with tension as teacher."
-        - "Between reps, we refine tone, timing, and presence toward balance."
-        - "This is MetaShift Method—where reflection becomes relational flow."
+      label: "Dojo Training: Living Practice"
+      items:
+        - "The Program is the living curriculum of Mindset Dojo."
+        - "The journey unfolds through real conversation and embodied training."
+        - "Progress unfolds through resonance and mastery—each threshold a new depth."
   - type: list
     data:
       label: "Principles"
