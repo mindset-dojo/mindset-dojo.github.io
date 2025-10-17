@@ -30,8 +30,8 @@ sections:
         - id: contribution
           label: "Contribution shapes coherence"
           description: "Each act of authorship refines the system; when many hands move with care, complexity becomes rhythm."
-        - id: stewardship
-          label: "Stewardship evolves structure"
+        - id: presence
+          label: "Presence over process"
           description: "We tend the form as a living garden — pruning, nurturing, and redesigning as awareness matures."
   - type: designations
     data:
