@@ -25,7 +25,7 @@ Each case delegates to a small, focused template for that section type.
 
   {%- when 'insight-stream' -%}
     {%- assign section_has_authors = section.data and section.data.authors -%}
-    {%- if page.data_key == "author" and section_has_authors == false -%}
+    {%- if page.sections_key == "author" and section_has_authors == false -%}
       {% include sections/insight-stream.html section=section data=data authors=page.slug %}
     {%- else -%}
       {% include sections/insight-stream.html section=section data=data %}

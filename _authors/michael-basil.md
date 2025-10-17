@@ -1,6 +1,6 @@
 ---
 layout: threshold
-data_key: author
+sections_key: author
 mantra: "Don’t Force. Feel."
 mantra_mark: "Feel."
 description: >
