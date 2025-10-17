@@ -44,7 +44,7 @@ DRY sequential-flow insight-stream.html
 {%- assign filtered_posts = filtered_posts | sort: sort_key_field -%}
 {%- if reverse_flag -%}{%- assign filtered_posts = filtered_posts | reverse -%}{%- endif -%}
 
-<section id="insights-stream">
+<section id="insights-stream" class="md-flow">
   {%- for post in filtered_posts -%}
     {% include sections/insight-item.html post=post excerpt_length=section.data.excerpt_length %}
   {%- endfor -%}
