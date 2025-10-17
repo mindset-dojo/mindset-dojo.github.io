@@ -109,7 +109,16 @@
     text-align: center;
   }
 
-  main > section.md-flow > ul li { text-align: left; }
+  main > section.md-flow > ul li { 
+    text-align: center; 
+  }
+
+  main > section.md-flow > dl {
+    max-width: 700px;
+    margin: 0 auto 1.5rem;
+    padding-left: 0;
+    text-align: center;
+  }
 
   main > section.md-flow > blockquote {
     max-width: 700px;
@@ -119,9 +128,16 @@
   }
 
   @media (width <= 600px) {
-    main > section.md-flow { padding: 1rem 0.5rem; }
+    main > section.md-flow { 
+      padding: 1rem 0.5rem; 
+    }
 
     main > section.md-flow > ul {
+      max-width: 100%;
+      padding: 0 1rem;
+    }
+
+    main > section.md-flow > dl {
       max-width: 100%;
       padding: 0 1rem;
     }

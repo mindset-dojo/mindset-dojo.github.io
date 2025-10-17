@@ -3,10 +3,6 @@ rally: Fearless Leadership
 mantra: "Don't Complain. Train."
 mantra_mark: "Train."
 description: "Mindset Dojo is a training ground for fearless leadership. Through practice in mind, body, tone, and timing, we cultivate clarity, compassion, and presence under pressure."
-statement:
-  - To cultivate fearless leadership through training presence.
-  - We train mind, meditation, and conversation as a living third place.
-  - Whoever enters the field awakens the evolution within.
 sections:
   - type: text
     data:
@@ -27,24 +23,29 @@ sections:
         - "Because awareness alone can’t change a reflex—it must be retrained."
         - "Because under stress, thought disappears and energy decides."
         - "Because pressure doesn’t reveal potential—it reveals practice."
-  - type: mission
+  - type: quote
     data:
-      mission_rally_suffix_label: ": Root Intention"
-      mission_statement_bridge:
-        - "We practice live—in real conversations where tone and tension are felt."
-        - "We reflect between reps—refining awareness and stance."
-        - "We progress through thresholds of attention, intention, and reciprocity."
+      text: "Fearless Leadership is not the absence of fear, but the mastery of energy in motion."
   - type: text
+    data:
+      Labels: "Root Intention"
+      items:
+        - To cultivate fearless leadership through training presence.
+        - We train mind, meditation, and conversation as a living third place.
+        - Whoever enters the field awakens the evolution within.
+  - type: list
     data:
       label: "Energy Integrity"
       items:
-        - "Energy flows when we choose authorship over consumption."
-        - "Presence deepens through offering insight, curiosity and attention."
-        - "Thresholds mark the passage from knowing to embodying."
-        - "..."
-        - "Reciprocity sustains the field—without it, agency erodes."
-        - "Financial contribution grounds intent and fuels the exchange."
-        - "Energy alignment cultivates individual and collective evolution."
+        - id: "authorship"
+          label: "Authorship generates flow"
+          description: "Energy circulates freely when we create, contribute, or take responsibility — not when we consume or extract."
+        - id: "attunement"
+          label: "Presence refines exchange"
+          description: "Awareness, curiosity, and attention are the subtle currencies that keep relationships and systems coherent."
+        - id: "reciprocity"
+          label: "Reciprocity sustains evolution"
+          description: "Balanced giving and receiving — including financial contribution — grounds intent and renews the collective field."
   - type: authors
     data:
       leadership_flow:
