@@ -23,12 +23,12 @@ Each case delegates to a small, focused template for that section type.
   {%- when 'insights-item' -%}
     {% include sections/insights-item.html section=section data=data %}
 
-  {%- when 'insights-stream' -%}
+  {%- when 'collection-stream' -%}
     {%- assign section_has_authors = section.data and section.data.authors -%}
     {%- if page.sections_key == "author" and section_has_authors == false -%}
-      {% include sections/insights-stream.html section=section data=data authors=page.slug %}
+      {% include sections/collection-stream.html section=section data=data authors=page.slug %}
     {%- else -%}
-      {% include sections/insights-stream.html section=section data=data %}
+      {% include sections/collection-stream.html section=section data=data %}
     {%- endif -%}
 
   {%- when 'levels' -%}

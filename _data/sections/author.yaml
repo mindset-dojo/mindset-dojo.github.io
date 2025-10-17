@@ -8,7 +8,7 @@ sections:
     data:
       label: "Insights"
       content: "Recent writing and reflection"
-  - type: insights-stream
+  - type: collection-stream
     data:
       collection: insights
       sort_by: date

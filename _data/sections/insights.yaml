@@ -3,7 +3,7 @@ mantra: "Don't Absorb. Author."
 mantra_mark: "Author."
 description: "Where self-authorship meets collective evolution. Insights that cultivate presence, clarity, and fearless leadership."
 sections:
-  - type: insights-stream
+  - type: collection-stream
     data:
       collection: insights
       sort_by: date
