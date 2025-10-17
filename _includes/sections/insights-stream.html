@@ -1,6 +1,6 @@
 {%- comment -%}
-DRY sequential-flow insight-stream.html
-- section.data.collection (default "insight")
+DRY sequential-flow insights-stream.html
+- section.data.collection (default "insights")
 - section.data.sort_by (default "date")
 - section.data.reverse (boolean)
 - section.data.excerpt_length (optional)
@@ -10,7 +10,7 @@ DRY sequential-flow insight-stream.html
 - Optional author filtering applied inline
 {%- endcomment -%}
 
-{%- assign coll_name = section.data.collection | default: "insight" -%}
+{%- assign coll_name = section.data.collection | default: "insights" -%}
 {%- assign posts = site[coll_name] -%}
 
 {%- assign override_authors = include.authors | default: section.data.authors -%}
@@ -46,7 +46,7 @@ DRY sequential-flow insight-stream.html
 
 <section id="insights-stream" class="md-flow">
   {%- for post in filtered_posts -%}
-    {% include sections/insight-item.html post=post excerpt_length=section.data.excerpt_length %}
+    {% include sections/insights-item.html post=post excerpt_length=section.data.excerpt_length %}
   {%- endfor -%}
 </section>
 

@@ -20,15 +20,15 @@ Each case delegates to a small, focused template for that section type.
   {%- when 'designations' -%}
     {% include sections/designations.html section=section data=data %}
   
-  {%- when 'insight-item' -%}
-    {% include sections/insight-item.html section=section data=data %}
+  {%- when 'insights-item' -%}
+    {% include sections/insights-item.html section=section data=data %}
 
-  {%- when 'insight-stream' -%}
+  {%- when 'insights-stream' -%}
     {%- assign section_has_authors = section.data and section.data.authors -%}
     {%- if page.sections_key == "author" and section_has_authors == false -%}
-      {% include sections/insight-stream.html section=section data=data authors=page.slug %}
+      {% include sections/insights-stream.html section=section data=data authors=page.slug %}
     {%- else -%}
-      {% include sections/insight-stream.html section=section data=data %}
+      {% include sections/insights-stream.html section=section data=data %}
     {%- endif -%}
 
   {%- when 'levels' -%}
