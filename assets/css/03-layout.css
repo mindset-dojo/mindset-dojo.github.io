@@ -114,23 +114,24 @@
     list-style: none;
   }
 
-  main > section.md-flow > dl {
+  main section.md-flow > h2 + dl { 
+    margin-top: 0.75rem; 
+  }
+
+  main section.md-flow > dl {
     max-width: 700px;
     margin: 0 auto 1.5rem;
     text-align: center;
     padding: 0;
   }
 
-  main > section.md-flow > h2 + dl { 
-    margin-top: 0.75rem; 
+  main section.md-flow > dl > dd {
+    max-width: 600px;
+    margin: 0 auto 0.9rem;
   }
 
-  main > section.md-flow > dl > dd {
-    margin: 0.35rem auto 0.9rem;
-  }
-
-  main > section.md-flow > dl > dt + dd {
-    margin-top: 0.35rem;
+  main section.md-flow > dl > dt { 
+    margin: 1rem 0 0.35rem; 
   }
 
   main > section.md-flow > blockquote {
