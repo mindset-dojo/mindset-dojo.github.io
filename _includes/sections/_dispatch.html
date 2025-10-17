@@ -20,8 +20,8 @@ Each case delegates to a small, focused template for that section type.
   {%- when 'designations' -%}
     {% include sections/designations.html section=section data=data %}
   
-  {%- when 'insights-item' -%}
-    {% include sections/insights-item.html section=section data=data %}
+  {%- when 'collection-item' -%}
+    {% include sections/collection-item.html section=section data=data %}
 
   {%- when 'collection-stream' -%}
     {%- assign section_has_authors = section.data and section.data.authors -%}

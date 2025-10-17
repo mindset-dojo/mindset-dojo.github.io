@@ -46,7 +46,7 @@ DRY sequential-flow collection-stream.html
 
 <section id="collection-stream" class="md-flow">
   {%- for post in filtered_posts -%}
-    {% include sections/insights-item.html post=post excerpt_length=section.data.excerpt_length %}
+    {% include sections/collection-item.html post=post excerpt_length=section.data.excerpt_length %}
   {%- endfor -%}
 </section>
 
