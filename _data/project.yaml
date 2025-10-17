@@ -22,7 +22,7 @@ sections:
       text: "Ideation is fun; pull requests invite influence."
   - type: list
     data:
-      label: "Principles"
+      label: "Engagement Principles"
       items:
         - id: transparency
           label: "Transparency invites trust"
@@ -60,6 +60,6 @@ sections:
   - type: ctas
     data:
       items:
-        - label: "Tend the Source"
+        - label: "Tend the Garden"
           ref: repo
 ---

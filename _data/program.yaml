@@ -3,23 +3,9 @@ mantra: "Don't Resist. Resonate."
 mantra_mark: "Resonate."
 description: "A layered training journey—presence, nervous-system skill, and conversational leadership applied in real contexts."
 sections:
-  - type: text
-    data:
-      label: "Dojo Training: Living Practice"
-      items:
-        - "The Program is the living curriculum of Mindset Dojo."
-        - "The journey unfolds through real conversation and embodied training."
-        - "Progress flows through resonance—each threshold deepens mastery."
-  - type: text
-    data:
-      label: "Learning in the Dojo"
-      items:
-        - "The map below is open to all—full context comes with orientation."
-        - "Mentors and peers translate the map through dialogue and demo."
-        - "Ask early—reps and feedback guide your progress."
   - type: list
     data:
-      label: "Principles"
+      label: "Core Principles"
       items:
         - id: "relax"
           label: "Relax completely"
@@ -35,7 +21,7 @@ sections:
           description: "As tension clears, playfulness returns — timely, light engagement harmonizes energy and renews movement."
   - type: levels
     data:
-      label: "Levels"
+      label: "Training Levels"
       intention_label: "Intention"
       edge_label: "Edge"
       flows_label: "Flows"

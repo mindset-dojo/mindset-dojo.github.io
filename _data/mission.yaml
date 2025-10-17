@@ -44,8 +44,6 @@ sections:
   - type: ctas
     data:
       items:
-        - label: "Enter the Dojo"
+        - label: "Cross the Threshold"
           ref: program
-        - label: "Cultivate the Dojo"
-          ref: project
 ---
