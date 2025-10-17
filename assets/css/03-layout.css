@@ -110,14 +110,19 @@
   }
 
   main > section.md-flow > ul li { 
-    text-align: center; 
+    text-align: center;
+    list-style: none;
   }
 
   main > section.md-flow > dl {
     max-width: 700px;
     margin: 0 auto 1.5rem;
-    padding-left: 0;
     text-align: center;
+    padding: 0;
+  }
+
+  main > section.md-flow > h2 + dl { 
+    margin-top: 0.75rem; 
   }
 
   main > section.md-flow > blockquote {
@@ -142,6 +147,8 @@
       padding: 0 1rem;
     }
 
-    main > section.md-flow > ul li { font-size: var(--text-s); }
+    main > section.md-flow > ul li { 
+      font-size: var(--text-s); 
+    }
   }
 }

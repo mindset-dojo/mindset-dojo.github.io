@@ -90,7 +90,7 @@
   /* For lists inside .post-body: */
   :where(.post-body ul) {
     display: inline-block;       
-    text-align: left;            
+    text-align: center;            
     list-style-position: inside; 
     margin: 0;
     padding: 0;
@@ -132,6 +132,15 @@
   .post-body .md-grid-3 blockquote p {
     margin: 0.5em 0;
     font-size: var(--text-s);
+  }
+
+  /* =======================
+     Lists
+     ======================= */
+
+  :where(.md-flow) dl > dt {
+    font-weight: 700;
+    margin-top: 1rem;
   }
 
 }
