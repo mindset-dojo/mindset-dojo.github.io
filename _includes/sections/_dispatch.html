@@ -7,7 +7,6 @@ Each case delegates to a small, focused template for that section type.
 
   {%- when 'author' -%}
     {%- assign slug = page.slug | downcase -%}
-    {%- assign doc  = site.authors | where:"slug", slug | first -%}
     {%- assign one_author = "" | split:"|" -%}
     {%- assign one_author = one_author | push: slug -%}
     {% include sections/authors.html section=section authors=one_author %}
@@ -25,10 +24,6 @@ Each case delegates to a small, focused template for that section type.
     {% include sections/insight-item.html section=section data=data %}
 
   {%- when 'insight-stream' -%}
-    {%- comment -%}
-    Include insight-stream once. If we're rendering an author page and the
-    section doesn't already declare authors, pass a page.slug override.
-    {%- endcomment -%}
     {%- assign section_has_authors = section.data and section.data.authors -%}
     {%- if page.data_key == "author" and section_has_authors == false -%}
       {% include sections/insight-stream.html section=section data=data authors=page.slug %}
