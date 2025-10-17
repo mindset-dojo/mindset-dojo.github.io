@@ -127,7 +127,7 @@
 
   main section.md-flow > dl > dd {
     max-width: 600px;
-    margin: 0 auto 0.9rem;
+    margin: 1rem auto 0.9rem;
   }
 
   main section.md-flow > dl > dt { 
