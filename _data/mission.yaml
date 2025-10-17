@@ -15,17 +15,7 @@ sections:
         - "In that flash between stimulus and response…"
   - type: quote
     data:
-      text: "The body speaks first—before we polish the words."
-  - type: text
-    data:
-      label: "Why We Train"
-      items:
-        - "Because awareness alone can’t change a reflex—it must be retrained."
-        - "Because under stress, thought disappears and energy decides."
-        - "Because pressure doesn’t reveal potential—it reveals practice."
-  - type: quote
-    data:
-      text: "Fearless Leadership is not the absence of fear, but the mastery of energy in motion."
+      text: "Fearless Leadership is not the absence of fear, rather the embodiment of energy agility."
   - type: text
     data:
       label: "Root Intention"
