@@ -22,7 +22,7 @@ sections:
       text: "Ideation is fun; pull requests invite influence."
   - type: list
     data:
-      label: "Project Principles"
+      label: "Principles"
       items:
         - id: transparency
           label: "Transparency invites trust"
