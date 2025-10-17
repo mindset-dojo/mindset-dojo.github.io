@@ -28,7 +28,7 @@ sections:
       text: "Fearless Leadership is not the absence of fear, but the mastery of energy in motion."
   - type: text
     data:
-      Labels: "Root Intention"
+      label: "Root Intention"
       items:
         - To cultivate fearless leadership through training presence.
         - We train mind, meditation, and conversation as a living third place.
