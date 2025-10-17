@@ -109,7 +109,30 @@
     text-align: center;
   }
 
-  main > section.md-flow > ul li { text-align: left; }
+  main > section.md-flow > ul li { 
+    text-align: center;
+    list-style: none;
+  }
+
+  main > section.md-flow > dl {
+    max-width: 700px;
+    margin: 0 auto 1.5rem;
+    text-align: center;
+    padding: 0;
+  }
+
+  main > section.md-flow > h2 + dl {
+    margin-top: 0.75rem;
+  }
+
+  main > section.md-flow > dl > dd {
+    max-width: 600px;
+    margin: 1rem auto 0.9rem;
+  }
+
+  main > section.md-flow > dl > dt {
+    margin: 1rem 0 0.35rem;
+  }
 
   main > section.md-flow > blockquote {
     max-width: 700px;
@@ -119,13 +142,22 @@
   }
 
   @media (width <= 600px) {
-    main > section.md-flow { padding: 1rem 0.5rem; }
+    main > section.md-flow { 
+      padding: 1rem 0.5rem; 
+    }
 
     main > section.md-flow > ul {
       max-width: 100%;
       padding: 0 1rem;
     }
 
-    main > section.md-flow > ul li { font-size: var(--text-s); }
+    main > section.md-flow > dl {
+      max-width: 100%;
+      padding: 0 1rem;
+    }
+
+    main > section.md-flow > ul li { 
+      font-size: var(--text-s); 
+    }
   }
 }

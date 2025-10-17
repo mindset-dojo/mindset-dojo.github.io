@@ -20,6 +20,19 @@ sections:
   - type: quote
     data:
       text: "Ideation is fun; pull requests invite influence."
+  - type: list
+    data:
+      label: "Principles"
+      items:
+        - id: transparency
+          label: "Transparency invites trust"
+          description: "Openness in process, intent, and communication turns structure into a shared mirror — clarity replaces control."
+        - id: contribution
+          label: "Contribution shapes coherence"
+          description: "Each act of authorship refines the system; when many hands move with care, complexity becomes rhythm."
+        - id: stewardship
+          label: "Stewardship evolves structure"
+          description: "We tend the form as a living garden — pruning, nurturing, and redesigning as awareness matures."
   - type: designations
     data:
       label: "Leadership Designations"
