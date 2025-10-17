@@ -1,25 +1,32 @@
 ---
 mantra: "Don’t Control. Co-Create."
 mantra_mark: "Co-Create."
-description: "An open-source dojo—where presence meets practice through shared stewardship. We refine structure as we train, evolving the system through care, contribution, and rhythm."
+description: "An open-source dojo — where presence meets practice through shared stewardship. Structure evolves through care, contribution, and rhythm as we train together."
 sections:
   - type: text
     data:
       label: "Dojo Infrastructure: Open Source’d"
       items:
-        - "The Project is the living infrastructure of Mindset Dojo."
-        - "It grows through contributions from those actively training."
-        - "Open on GitHub—transparency and reciprocity guide its form."
+        - "The Project is the living infrastructure of Mindset Dojo — a training ground for co-creation itself."
+        - "It grows through contributions from those actively training and refining their craft."
+        - "Hosted openly on GitHub — transparency, reciprocity, and rhythm guide its evolution."
+  - type: text
+    data:
+      label: "Open Source as Practice"
+      items:
+        - "Every commit is a calibration."
+        - "Every refactor, a bow of respect toward clarity."
+        - "We treat the codebase as we treat the mat — with presence, precision, and care."
   - type: text
     data:
       label: "Ways to Contribute"
       items:
-        - "Refactor language, structure, or function toward clarity."
-        - "Offer patterns or feedback that help others move with ease."
-        - "Model reciprocity through guidance, review, and mentorship."
+        - "Refactor language, structure, or function toward greater clarity and coherence."
+        - "Offer patterns, practices, or feedback that help others move with ease."
+        - "Model reciprocity through guidance, review, and mentorship — the quiet art of tending together."
   - type: quote
     data:
-      text: "Ideation is fun; pull requests invite influence."
+      text: "Ideation is play; contribution is practice."
   - type: list
     data:
       label: "Engagement Principles"
@@ -29,10 +36,10 @@ sections:
           description: "Openness in process, intent, and communication turns structure into a shared mirror — clarity replaces control."
         - id: contribution
           label: "Contribution shapes coherence"
-          description: "Each act of authorship refines the system; when many hands move with care, complexity becomes rhythm."
+          description: "Each act of authorship refines the whole; when many hands move with care, complexity becomes rhythm."
         - id: presence
-          label: "Presence over process"
-          description: "We tend the form as a living garden — pruning, nurturing, and redesigning as awareness matures."
+          label: "Presence tends the form"
+          description: "We treat the system as a living garden — pruning, nurturing, and redesigning as awareness matures."
   - type: designations
     data:
       label: "Leadership Designations"
@@ -43,7 +50,7 @@ sections:
           intention: "Strengthen, clarify, and amplify the mission"
           aspects:
             - label: "Join Cultivator Circle regularly"
-            - label: "Contribute to expertise in a mutually beneficial way"
+            - label: "Contribute expertise in a mutually beneficial way"
             - label: "Green Level+, vouched for by existing Cultivator(s)"
         - label: "(Organizationally-Focused) Cultivator"
           intention: "Guide, harmonize, and model training authorship"
