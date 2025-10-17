@@ -9,16 +9,16 @@ sections:
       items:
         - id: "relax"
           label: "Relax completely"
-          description: "Mind and body release tension together — softening awareness and restoring natural flow."
+          description: "Mind and body release tension together — increasing agency."
         - id: "center"
           label: "Center with intention"
-          description: "Sense the emotional and energetic field as it is — discernment guides flow into right action."
+          description: "Sense the emotional and energetic field as it is — go from there."
         - id: "meet"
           label: "Meet fear with presence"
-          description: "Fear often signals potential expansion — feel the edges until past and future dissolve into Now."
+          description: "Fear often signals potential expansion — inviting fresh possibility."
         - id: "resonate"
           label: "Playful resonance is Ki"
-          description: "As tension clears, playfulness returns — timely, light engagement harmonizes energy and renews movement."
+          description: "As tension clears, playfulness returns — renewing movement."
   - type: levels
     data:
       label: "Training Levels"
