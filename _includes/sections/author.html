@@ -43,7 +43,7 @@ if called without an author object.
     <div class="md-group">
       {%- if include.author.program_level -%}
         {% assign program_level = include.author.program_level | plus: 0 %}
-        {% assign level = site.data.program.sections | where: "type", "levels" | map: "data" | map: "items" | first | where: "level", program_level | first %}
+        {% assign level = site.data.sections.program.sections | where: "type", "levels" | map: "data" | map: "items" | first | where: "level", program_level | first %}
         {% include icons/level.svg
           class="md-level-svg"
           color=level.color

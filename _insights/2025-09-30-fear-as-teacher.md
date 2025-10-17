@@ -74,7 +74,7 @@ Together, these experiences taught me that Incident Response is not just a techn
 
 1. **Service** — keeping people working, teaching, and leading without interruption.  
 2. **Communication** — making sure silence doesn’t leave space for fear, confusion, or error. Clarity itself is a safeguard.  
-3. **Shadow Work** — acknowledging the flaws and fears that surface under stress, and transforming them into insight.  
+3. **Shadow Work** — acknowledging the flaws and fears that surface under stress, and transforming them into insights.  
 4. **Growth** — moving from a supportive role to a decisive one, always learning through each moment.  
 
 ---

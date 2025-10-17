@@ -1,6 +1,6 @@
 ---
 layout: threshold
-data_key: author
+sections_key: author
 mantra: null
 mantra_mark: null
 description: null
