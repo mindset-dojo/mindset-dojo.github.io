@@ -2,40 +2,48 @@
 rally: Fearless Leadership
 mantra: "Don't Complain. Train."
 mantra_mark: "Train."
-description: "Mindset Dojo is a training ground for fearless leadership. Through practice in mind, body, tone, and timing, we cultivate clarity, compassion, and presence under pressure."
+description: "Leadership training that builds clarity, confidence, and calm under pressure through mindful, embodied practice. Fearless leadership starts here."
 sections:
   - type: text
     data:
       items:
         - "When the pressure hits, you don’t rise to the level of your best intentions."
-        - "You reveal the level of your conditioning."
+        - "You meet the truth of your conditioning."
         - "..."
         - "In the middle of a stuck conversation…"
-        - "When trust is on the line…"
+        - "When trust hangs in the balance…"
         - "In that flash between stimulus and response…"
+        - "That’s where leadership lives."
   - type: quote
     data:
-      text: "Fearless Leadership is not the absence of fear, rather the embodiment of energy agility."
+      text: "Fearless leadership isn’t the absence of fear — it’s the ability to stay fluid, focused, and free under pressure."
   - type: text
     data:
       label: "Fearless Leadership: Root Intention"
       items:
-        - To cultivate fearless leadership through training presence.
-        - We train mind, meditation, and conversation as a living third place.
-        - Whoever enters the field awakens the evolution within.
+        - "We train to meet fear with presence and to turn reaction into response."
+        - "We practice mind, body, and voice as one integrated discipline."
+        - "We awaken the evolution already moving through each of us."
   - type: list
     data:
       label: "Energy Integrity"
       items:
         - id: "authorship"
           label: "Authorship generates flow"
-          description: "Energy circulates freely when we create, contribute, or take responsibility — not when we consume or extract."
+          description: "Energy circulates freely when we create, contribute, and take responsibility — not when we consume or extract."
         - id: "attunement"
           label: "Presence refines exchange"
-          description: "Awareness, curiosity, and attention are the subtle currencies that keep relationships and systems coherent."
+          description: "Awareness and curiosity are subtle currencies. Attention is the art that keeps relationships and systems coherent."
         - id: "reciprocity"
           label: "Reciprocity sustains evolution"
-          description: "Balanced giving and receiving — including financial contribution — grounds intent and renews the collective field."
+          description: "Balanced giving and receiving — including material and financial exchange — grounds intent and renews the collective field."
+  - type: text
+    data:
+      label: "The Training Ground"
+      items:
+        - "Mindset Dojo is not a classroom. It’s a living field of practice."
+        - "Each conversation, each silence, each embodied pause — is training."
+        - "We build energy agility together: clarity in mind, compassion in heart, coherence in action."
   - type: authors
     data:
       leadership_flow:
