@@ -16,14 +16,14 @@ sections:
       items:
         - "Every commit is a calibration."
         - "Every refactor, a bow of respect toward clarity."
-        - "We treat the codebase as we treat the mat — with presence, precision, and care."
+        - "We treat the codebase as we treat the mat — with presence and precision."
   - type: text
     data:
       label: "Ways to Contribute"
       items:
-        - "Refactor language, structure, or function toward greater clarity and coherence."
+        - "Refactor language, structure, or function toward greater clarity."
         - "Offer patterns, practices, or feedback that help others move with ease."
-        - "Model reciprocity through guidance, review, and mentorship — the quiet art of tending together."
+        - "Model reciprocity through guidance, review, and mentorship."
   - type: quote
     data:
       text: "Ideation is play; contribution is practice."
@@ -33,13 +33,13 @@ sections:
       items:
         - id: transparency
           label: "Transparency invites trust"
-          description: "Openness in process, intent, and communication turns structure into a shared mirror — clarity replaces control."
+          description: "Openness in process, intent, and communication turns control into shared clarity."
         - id: contribution
           label: "Contribution shapes coherence"
-          description: "Each act of authorship refines the whole; when many hands move with care, complexity becomes rhythm."
+          description: "Each act of authorship refines the whole; shared care turns complexity to rhythm."
         - id: presence
           label: "Presence tends the form"
-          description: "We treat the system as a living garden — pruning, nurturing, and redesigning as awareness matures."
+          description: "We tend the system as a living garden — pruning, nurturing, redesigning with awareness."
   - type: designations
     data:
       label: "Leadership Designations"
