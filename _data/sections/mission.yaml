@@ -18,7 +18,7 @@ sections:
       text: "Fearless Leadership is not the absence of fear, rather the embodiment of energy agility."
   - type: text
     data:
-      label: "Root Intention"
+      label: "Fearless Leadership: Root Intention"
       items:
         - To cultivate fearless leadership through training presence.
         - We train mind, meditation, and conversation as a living third place.
@@ -44,8 +44,6 @@ sections:
   - type: ctas
     data:
       items:
-        - label: "Enter the Dojo"
+        - label: "Cross the Threshold"
           ref: program
-        - label: "Cultivate the Dojo"
-          ref: project
 ---

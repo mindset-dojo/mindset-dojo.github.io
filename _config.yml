@@ -7,9 +7,9 @@ collections:
   authors:
     output: true
     permalink: /authors/:name/
-  insight:
+  insights:
     output: true
-    permalink: /insight/:slug/
+    permalink: /insights/:slug/
 
 action_links:
   program: /program/
@@ -24,10 +24,10 @@ header_links:
     href: /program/
   - label: PROJECT
     href: /project/
-  - label: PATTERN
-    href: /pattern/
-  - label: INSIGHT
-    href: /insight/
+  - label: PATTERNS
+    href: /patterns/
+  - label: INSIGHTS
+    href: /insights/
 
 footer_primary_links:
   - label: MISSION
@@ -36,10 +36,10 @@ footer_primary_links:
     href: /program/
   - label: PROJECT
     href: /project/
-  - label: PATTERN
-    href: /pattern/
-  - label: INSIGHT
-    href: /insight/
+  - label: PATTERNS
+    href: /patterns/
+  - label: INSIGHTS
+    href: /insights/
   - label: CONTACT
     href: https://connect.mindset.dojo.center
     external: true

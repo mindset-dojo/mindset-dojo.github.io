@@ -1,6 +1,6 @@
 ---
 layout: threshold
-data_key: author
+sections_key: author
 mantra: "Don't Demand. Do."
 mantra_mark: "Do."
 description: >

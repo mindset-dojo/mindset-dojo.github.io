@@ -97,7 +97,7 @@ The weight of frustration shifted into something lighter — willingness.
 
 ---
 
-## The insight  
+## insights  
 
 The Map of Consciousness is not just theory. It is the daily art of noticing, choosing tone, aligning energy, and shifting state.  
 
@@ -120,8 +120,8 @@ And so there was a bow, lighter than when the dojo was entered.
 
 - **Mindset Dojo Insights — Tone**  
 Explores how tone is the “weather” of a conversation — coloring every word and shifting whether dialogue builds, opens, or shuts down.  
-👉 [Read here]({{ '/insight/tone/' | relative_url }})
+👉 [Read here]({{ '/insights/tone/' | relative_url }})
 
 - **Mindset Dojo Insights — The Breath of a Stance Shifts the Mountain**  
 Shows how FEBI™ energies appear as stances in posture, breath, and tone — and how recognizing them helps align rather than oppose.  
-👉 [Read here]({{ '/insight/breath-of-stance/' | relative_url }})
+👉 [Read here]({{ '/insights/breath-of-stance/' | relative_url }})

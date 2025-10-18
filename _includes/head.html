@@ -2,19 +2,16 @@
 <head>
   <meta charset="utf-8">
 
-  {%- assign data    = site.data[page.data_key] -%}
-  {%- assign mission = site.data.mission -%}
+  {%- assign data = site.data.sections[page.sections_key] -%}
 
   {%- assign raw_title = page.mantra
     | default: page.title
     | default: data.mantra
-    | default: mission.mantra
     | default: site.title -%}
 
   {%- assign raw_desc = page.description
     | default: data.description
     | default: page.excerpt
-    | default: mission.description
     | default: site.description
     | default: site.title -%}
     

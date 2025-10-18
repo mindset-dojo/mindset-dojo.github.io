@@ -22,7 +22,7 @@ sections:
       text: "Ideation is fun; pull requests invite influence."
   - type: list
     data:
-      label: "Principles"
+      label: "Engagement Principles"
       items:
         - id: transparency
           label: "Transparency invites trust"
@@ -30,8 +30,8 @@ sections:
         - id: contribution
           label: "Contribution shapes coherence"
           description: "Each act of authorship refines the system; when many hands move with care, complexity becomes rhythm."
-        - id: stewardship
-          label: "Stewardship evolves structure"
+        - id: presence
+          label: "Presence over process"
           description: "We tend the form as a living garden — pruning, nurturing, and redesigning as awareness matures."
   - type: designations
     data:
@@ -60,6 +60,6 @@ sections:
   - type: ctas
     data:
       items:
-        - label: "Tend the Source"
+        - label: "Tend the Garden"
           ref: repo
 ---
