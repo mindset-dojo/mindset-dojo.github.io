@@ -47,7 +47,7 @@ Flow does not come from control.
 
 When the mind holds, the body hardens.  
 When the mind releases, the universe moves through it.  
-To act with Plus Ki is not to add power — it is to let go. 
+To act with Plus Ki is not to add power — it is to let go.
 
 **Relax completely. Keep one point. Extend Ki.**  
 When these are one, the Way opens by itself.  
