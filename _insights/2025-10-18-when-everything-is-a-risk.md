@@ -46,7 +46,7 @@ But it does reduce unnecessary damage.
 Even in the grind of the short term, it keeps perspective —  
 reminding us that everything is impermanent, and that options multiply when we stay connected.  
 
-Over time, it becomes a kind of **energy investment portfolio.**  
+Over time, it becomes a kind of **Energy Investment Portfolio.**  
 Every breath, every pause, every conversation is a deposit.  
 It builds discernment — the ability to know where our energy belongs and where it’s being drained.  
 
