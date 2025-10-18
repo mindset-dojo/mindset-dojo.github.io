@@ -5,6 +5,9 @@ title_mark: Way
 date: 2025-10-18
 authors: 
   - kyle-ingersoll
+principles:
+  - relax
+  - resonate
 excerpt: "When the mind empties, body and universe become one — this is Plus Ki."
 ---
 
