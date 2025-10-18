@@ -100,6 +100,8 @@ sections:
           intention: Presence
           edge: MetaShift a spirited conversation
           flows:
+            - label: When Everything Is a Risk
+              url: /insights/everything-is-a-risk/
             - label: Zen Toolkit - Four Patterns
               url: https://vimeo.com/944675826/c57a7ce142
             - label: The Breath of a Stance Shifts the Mountain
