@@ -7,7 +7,7 @@ sections:
   - type: text
     data:
       items:
-        - "When the pressure hits, you don't rise to your best inentions."
+        - "When the pressure hits, you don't rise to your best intentions."
         - "You meet the truth of your conditioning."
         - "..."
         - "In the middle of a stuck conversation…"
@@ -54,4 +54,3 @@ sections:
       items:
         - label: "Cross the Threshold"
           ref: program
----
