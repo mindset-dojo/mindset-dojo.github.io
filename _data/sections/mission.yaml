@@ -7,7 +7,7 @@ sections:
   - type: text
     data:
       items:
-        - "When the pressure hits, you don’t rise to the level of your best intentions."
+        - "When the pressure hits, you don't rise to your best inentions."
         - "You meet the truth of your conditioning."
         - "..."
         - "In the middle of a stuck conversation…"
@@ -30,13 +30,13 @@ sections:
       items:
         - id: "authorship"
           label: "Authorship generates flow"
-          description: "Energy circulates freely when we create, contribute, and take responsibility — not when we consume or extract."
+          description: "Energy flows through creation and contribution — not consumption."
         - id: "attunement"
           label: "Presence refines exchange"
-          description: "Awareness and curiosity are subtle currencies. Attention is the art that keeps relationships and systems coherent."
+          description: "Curiosity and awareness are subtle currencies — attention invites coherence."
         - id: "reciprocity"
           label: "Reciprocity sustains evolution"
-          description: "Balanced giving and receiving — including material and financial exchange — grounds intent and renews the collective field."
+          description: "Balanced giving and receiving — even financial — grounds intent and renews the field."
   - type: text
     data:
       label: "The Training Ground"
