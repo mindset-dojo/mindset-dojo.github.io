@@ -33,6 +33,10 @@ mind, meditation, and conversation.
 In Mindset Dojo, we train mind, body, and voice — the nervous system itself —  
 to meet reality with less reactivity and more rhythm.  
 
+This is the essence of **MetaShift Method** —  
+the practice of transforming reactive patterns into coherent action  
+by aligning awareness, intention, and timing.  
+
 That training shows up in every conversation that matters.  
 In the pauses where decisions hang.  
 In those tense moments when leadership lives or dies by tone and timing.  
