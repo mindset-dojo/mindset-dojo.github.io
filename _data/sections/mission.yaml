@@ -26,17 +26,17 @@ sections:
         - "We awaken the evolution already moving through each of us."
   - type: list
     data:
-    label: "Energy Intention"
-    items:
-      - id: "authorship"
-        label: "Authorship Generates Flow"
-        description: "Energy moves through creation and contribution — not consumption."
-      - id: "attunement"
-        label: "Presence Over Process"
-        description: "Curiosity and awareness are subtle currencies; attention invites coherence."
-      - id: "reciprocity"
-        label: "Reciprocity Sustains Evolution"
-        description: "Balanced giving and receiving — including financial exchange — grounds intent and renews the field."
+      label: "Energy Intention"
+      items:
+        - id: "authorship"
+          label: "Authorship Generates Flow"
+          description: "Energy moves through creation and contribution — not consumption."
+        - id: "attunement"
+          label: "Presence Over Process"
+          description: "Curiosity and awareness are subtle currencies; attention invites coherence."
+        - id: "reciprocity"
+          label: "Reciprocity Sustains Evolution"
+          description: "Balanced giving and receiving — including financial exchange — grounds intent and renews the field."
   - type: text
     data:
       label: "The Training Ground"
