@@ -29,7 +29,7 @@ sections:
       label: "Energy Intention"
       items:
         - id: "authorship"
-          label: "Authorship Generates Flow"
+          label: "Authorship Cultivates Flow"
           description: "Energy moves through creation and contribution — not consumption."
         - id: "attunement"
           label: "Presence Tends the Field"
