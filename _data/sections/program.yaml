@@ -181,7 +181,7 @@ sections:
   - type: authors
     data:
       leadership_flow:
-        label: "⛩️💫 Mentor Circle"
+        label: "⛩️💫 Guides"
         designation_type: program
         limit: 16
   - type: ctas

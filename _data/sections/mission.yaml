@@ -26,7 +26,7 @@ sections:
         - "We awaken the evolution already moving through each of us."
   - type: list
     data:
-      label: "Energy Integrity"
+      label: "Energy Calibration"
       items:
         - id: "authorship"
           label: "Authorship generates flow"
@@ -47,7 +47,7 @@ sections:
   - type: authors
     data:
       leadership_flow:
-        label: "⛩️⚡ Energy Authors"
+        label: "⛩️⚡ Authors"
         limit: 16
   - type: ctas
     data:
