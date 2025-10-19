@@ -32,13 +32,13 @@ sections:
       label: "Engagement Principles"
       items:
         - id: transparency
-          label: "Transparency invites trust"
+          label: "Transparency Invites Trust"
           description: "Openness in process, intent, and communication turns control into shared clarity."
         - id: contribution
-          label: "Contribution shapes coherence"
+          label: "Contribution Shapes Coherence"
           description: "Each act of authorship refines the whole; shared care turns complexity to rhythm."
         - id: presence
-          label: "Presence tends the form"
+          label: "Presence Tends the Form"
           description: "We tend the system as a living garden — pruning, nurturing, redesigning with awareness."
   - type: designations
     data:
