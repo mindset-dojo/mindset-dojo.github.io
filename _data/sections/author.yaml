@@ -7,7 +7,7 @@ sections:
   - type: markdown
     data:
       label: "Insights"
-      content: "Recent writing and reflection"
+      content: "Recent reflections"
   - type: collection-stream
     data:
       collection: insights
@@ -22,7 +22,7 @@ sections:
   - type: markdown
     data:
       label: "Forms"
-      content: "Explore forms for presence, connection, and flow"
+      content: "Recent contributions"
   - type: collection-stream
     data:
       collection: forms
