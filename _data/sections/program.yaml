@@ -98,7 +98,7 @@ sections:
           label: 3rd Kyu
           level: -3
           intention: Presence
-          edge: MetaShift a spirited conversation
+          edge: Apply MetaShift Forms live during a spirited conversation
           flows:
             - label: When Everything Is a Risk
               url: /insights/when-everything-is-a-risk/
@@ -118,7 +118,7 @@ sections:
           label: 2nd Kyu
           level: -2
           intention: Shadow
-          edge: Demonstrate MetaShift expression live in an embodied exchange
+          edge: Demonstrate MetaShift Forms in a live Circle
           flows:
             - label: Spiraling with the Shadow in Star Wars
               url: /insights/spiraling-with-the-shadow-in-star-wars/
@@ -136,7 +136,7 @@ sections:
           label: 1st Kyu
           level: -1
           intention: Resonance
-          edge: Lead an integrative conversation through tone, timing, and stance
+          edge: Lead a Mat Breakout Session integrating MetaShift Forms in live Circle
           flows:
             - label: Making Hara Breathing Automatic
               url: https://youtu.be/UVz1E_cKxp4?si=hl5c7qB4iR6R7ZSs
@@ -150,7 +150,7 @@ sections:
           label: Shodan
           level: 1
           intention: Wu-Wei
-          edge: Explore MetaShift Method with another living system
+          edge: Lead a Mindset Dojo MetaShift Method demonstration in a live Circle
           flows:
             - label: "The Hand-Sword and the Shadow - Using Force for Peace"
               url: /insights/force-for-peace/
