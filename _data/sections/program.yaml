@@ -8,16 +8,16 @@ sections:
       label: "Core Principles"
       items:
         - id: "relax"
-          label: "Relax completely"
+          label: "Relax Completely"
           description: "Mind and body release tension together — increasing agency."
         - id: "center"
-          label: "Center with intention"
+          label: "Center with Intention"
           description: "Sense the emotional and energetic field as it is — go from there."
         - id: "meet"
-          label: "Meet fear with presence"
+          label: "Meet Fear with Presence"
           description: "Fear often signals potential expansion — inviting fresh possibility."
         - id: "resonate"
-          label: "Playful resonance is Ki"
+          label: "Playful Resonance Is Ki"
           description: "As tension clears, playfulness returns — renewing movement."
   - type: levels
     data:
@@ -181,7 +181,7 @@ sections:
   - type: authors
     data:
       leadership_flow:
-        label: "⛩️💫 Mentor Circle"
+        label: "⛩️💫 Guides"
         designation_type: program
         limit: 16
   - type: ctas
