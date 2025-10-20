@@ -14,6 +14,7 @@ sections:
       sort_by: date
       reverse: true
       excerpt_length: 220
+      number_of_articles_shown: 5
   - type: markdown
     data:
       label: "Forms"
@@ -24,3 +25,4 @@ sections:
       sort_by: date
       reverse: true
       excerpt_length: 220
+      number_of_articles_shown: 5
