@@ -6,10 +6,6 @@ date: 2025-10-20
 authors:
   - michael-basil
   - kyle-ingersoll
-principles:
-  - relax
-  - center
-  - resonate
 excerpt: "The love child of Elemental FEBI, 4 Patterns, and Simon Says."
 ---
 

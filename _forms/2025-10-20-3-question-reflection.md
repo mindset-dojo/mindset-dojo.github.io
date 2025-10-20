@@ -6,11 +6,6 @@ date: 2025-10-20
 authors:
   - michael-basil
   - kyle-ingersoll
-principles:
-  - relax
-  - center
-  - meet
-  - resonate
 excerpt: "Reflect in a Mat Breakout session about your experiences through answering 3 calibrated questions with your assigned group."
 ---
 
