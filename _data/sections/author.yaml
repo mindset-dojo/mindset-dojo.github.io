@@ -15,10 +15,6 @@ sections:
       reverse: true
       excerpt_length: 220
       number_of_articles_shown: 5
-  - type: ctas
-    data:
-      items:
-        - label: "View all Insights"
   - type: markdown
     data:
       label: "Forms"
@@ -30,7 +26,3 @@ sections:
       reverse: true
       excerpt_length: 220
       number_of_articles_shown: 5
-  - type: ctas
-    data:
-      items:
-        - label: "View all Forms"
