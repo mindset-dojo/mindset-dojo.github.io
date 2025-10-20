@@ -32,6 +32,8 @@ sections:
           intention: Orientation
           edge: Four Patterns Reflection
           flows:
+            - label: "Don't Train, Complain...? ⛩️"
+              url: /insights/dont-train-complain/
             - label: The Technology of Self-Authorship
               url: /insights/technology-of-self-authorship/
             - label: Zen Toolkit Inspiration
