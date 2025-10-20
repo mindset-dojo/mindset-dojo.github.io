@@ -10,6 +10,9 @@ collections:
   insights:
     output: true
     permalink: /insights/:slug/
+  forms:
+    output: true
+    permalink: /forms/:slug/
 
 action_links:
   program: /program/
@@ -24,8 +27,8 @@ header_links:
     href: /program/
   - label: PROJECT
     href: /project/
-  - label: PATTERNS
-    href: /patterns/
+  - label: FORMS
+    href: /forms/
   - label: INSIGHTS
     href: /insights/
 
@@ -36,8 +39,8 @@ footer_primary_links:
     href: /program/
   - label: PROJECT
     href: /project/
-  - label: PATTERNS
-    href: /patterns/
+  - label: FORMS
+    href: /forms/
   - label: INSIGHTS
     href: /insights/
   - label: CONTACT
