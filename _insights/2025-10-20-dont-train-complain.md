@@ -90,7 +90,7 @@ Train to move cleanly in an unclean field.
 
 Eventually, the posture shifts.  
 
-Don't complain. Train.
+Don't Complain. Train.
 
 ---
 
