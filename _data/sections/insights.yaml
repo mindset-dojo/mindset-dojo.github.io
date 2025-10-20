@@ -9,4 +9,4 @@ sections:
       sort_by: date
       reverse: true
       excerpt_length: 220
-      : 10
+      post_display_limit: 10
