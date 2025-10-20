@@ -19,7 +19,7 @@ sections:
       text: "Fearless leadership isn’t the absence of fear — it’s the ability to stay fluid, focused, and free under pressure."
   - type: text
     data:
-      label: "Fearless Leadership: Root Intention"
+      label: "Fearless Leadership: Mission"
       items:
         - "We train to meet fear with presence and to turn reaction into response."
         - "We practice mind, body, and voice as one integrated discipline."
@@ -29,7 +29,7 @@ sections:
       label: "Energy Intention"
       items:
         - id: "authorship"
-          label: "Authorship Generates Flow"
+          label: "Authorship Cultivates Flow"
           description: "Energy moves through creation and contribution — not consumption."
         - id: "attunement"
           label: "Presence Tends the Field"
@@ -39,7 +39,7 @@ sections:
           description: "Balanced giving and receiving — emotional, creative, and financial — keeps energy circulating and the field vibrant."
   - type: text
     data:
-      label: "The Training Ground"
+      label: "Training Ground"
       items:
         - "Mindset Dojo is not a classroom. It’s a living field of practice."
         - "Each conversation, each silence, each embodied pause — is training."
