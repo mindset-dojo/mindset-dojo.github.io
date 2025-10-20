@@ -3,6 +3,13 @@ mantra: "Don't Absorb. Author."
 mantra_mark: "Author."
 description: "Where self-authorship meets collective evolution. Insights that cultivate presence, clarity, and fearless leadership."
 sections:
+  - type: text
+    data:
+      label: "Reflective Insights: Flowing Stream"
+      items:
+        - "Form training reconditions the field in conversational leadership."
+        - "We observe in the wild, distill the form, and evolve it in training."
+        - "Use them as guides—adapt to context, don’t memorize."
   - type: collection-stream
     data:
       collection: insights
