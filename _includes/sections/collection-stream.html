@@ -46,7 +46,8 @@ DRY sequential-flow collection-stream.html
 {%- if reverse_flag -%}{%- assign filtered_posts = filtered_posts | reverse -%}{%- endif -%}
 
 {%- if section.data.number_of_articles_shown -%}
-    {%- assign filtered_posts = filtered_posts | slice: 0, section.data.number_of_articles_shown | minus: 1 -%}
+    {%- assign count = section.data.number_of_articles_shown | minus: 1 -%}
+    {%- assign filtered_posts = filtered_posts | slice: 0, count -%}
 {%- endif -%}
 
 <section id="collection-stream" class="md-flow">
