@@ -19,7 +19,6 @@ sections:
     data:
       items:
         - label: "View all Insights"
-          ref: authors/:name/insights/
   - type: markdown
     data:
       label: "Forms"
@@ -35,4 +34,3 @@ sections:
     data:
       items:
         - label: "View all Forms"
-          ref: authors/:name/forms/
