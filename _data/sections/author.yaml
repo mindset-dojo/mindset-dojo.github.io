@@ -15,6 +15,11 @@ sections:
       reverse: true
       excerpt_length: 220
       number_of_articles_shown: 5
+  - type: ctas
+    data:
+      items:
+        - label: "View all Insights"
+          ref: authors/:name/insights/
   - type: markdown
     data:
       label: "Forms"
@@ -26,3 +31,8 @@ sections:
       reverse: true
       excerpt_length: 220
       number_of_articles_shown: 5
+  - type: ctas
+    data:
+      items:
+        - label: "View all Forms"
+          ref: authors/:name/forms/
