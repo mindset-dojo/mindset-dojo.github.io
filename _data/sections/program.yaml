@@ -36,12 +36,16 @@ sections:
               url: /insights/dont-train-complain/
             - label: The Technology of Self-Authorship
               url: /insights/technology-of-self-authorship/
-            - label: Zen Toolkit Inspiration
-              url: http://www.zenshinkan.com/zenshinkan-lineage-ginny.html
-            - label: FEBI™ (Focus Energy Balance Indicator) Context
-              url: https://zenleader.global/s/FEBI-Technical-Manual-2024.pdf
-            - label: Four Patterns Experience
-              url: https://www.youtube.com/watch?v=uVTGeFjsD3s
+            - label: Dojo
+              url: /forms/dojo/
+            - label: Circle
+              url: /forms/circle/
+            - label: Mat
+              url: /forms/mat/
+            - label: Zohai
+              url: /forms/zohai/
+            - label: Four Element Zensei
+              url: /forms/four-element-zensei/
             - label: "Feedback Fields: Learning to Ride Together"
               url: /insights/feedback-as-fields/
         - color: yellow
@@ -58,6 +62,8 @@ sections:
               url: /insights/tone/
             - label: Map of Consciousness
               url: /insights/map-of-consciousness/
+            - label: Three Question Reflection
+              url: /forms/three-question-reflection/
             - label: 5 minute Zazen with Zenpai
               url: https://youtu.be/q7Y5rwKiabQ?si=8keWWxVJrCp9BN1S
         - color: green
@@ -94,6 +100,8 @@ sections:
               url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
             - label: Online Introduction to Zazen at Chosei Zen
               url: https://www.choseizen.org/online-intro-to-zazen
+            - label: Zenpai
+              url: /forms/zenpai/
             - label: 10 minute Zazen with Zenpai
               url: https://youtu.be/q7Y5rwKiabQ?si=8keWWxVJrCp9BN1S
         - color: purple
@@ -162,6 +170,8 @@ sections:
               url: /insights/cultivating-a-threshold-based-authorship-network/
             - label: Two Sides Integrative Randori with Beyond the Black Belt Circle
               url: https://vimeo.com/944663134/d4f1c4f333
+            - label: Zensei
+              url: /forms/zensei/
   - type: designations
     data:
       label: "Leadership Designations"
@@ -191,3 +201,4 @@ sections:
       items:
         - label: "Cross Threshold Zero"
           ref: connect
+...

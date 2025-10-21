@@ -5,6 +5,7 @@ DRY sequential-flow collection-stream.html
 - section.data.reverse (boolean)
 - section.data.excerpt_length (optional)
 - section.data.authors OR include.authors: YAML array of author slugs
+- section.data.post_display_limit (optional)
 - page.slug fallback for override authors
 - p.authors: YAML array of author slugs
 - Optional author filtering applied inline
@@ -43,6 +44,10 @@ DRY sequential-flow collection-stream.html
 
 {%- assign filtered_posts = filtered_posts | sort: sort_key_field -%}
 {%- if reverse_flag -%}{%- assign filtered_posts = filtered_posts | reverse -%}{%- endif -%}
+
+{%- if section.data.post_display_limit -%}
+    {%- assign filtered_posts = filtered_posts | slice: 0, section.data.post_display_limit -%}
+{%- endif -%}
 
 <section id="collection-stream" class="md-flow">
   {%- for post in filtered_posts -%}
