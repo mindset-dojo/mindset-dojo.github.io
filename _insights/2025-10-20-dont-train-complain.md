@@ -15,6 +15,7 @@ excerpt: "Every practitioner begins with a complaint — it’s the first mirror
 
 If that line sparks a reaction — good.  
 Maybe you feel a little agitation, a little pushback:  
+
 "Don't tell me not to train!"  
 "Don't tell me to stop complaining!"  
 
