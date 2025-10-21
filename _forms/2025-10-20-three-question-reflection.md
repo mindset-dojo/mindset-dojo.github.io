@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "3 Question Reflection"
+title: "Three Question Reflection"
 title_mark: Reflection
 date: 2025-10-20
 authors:
