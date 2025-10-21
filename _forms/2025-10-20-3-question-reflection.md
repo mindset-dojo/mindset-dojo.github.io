@@ -11,7 +11,7 @@ excerpt: "Reflect in a Mat Breakout session about your experiences through answe
 
 ## Intention
 
-Reflect in a Mat session about your experiences through answering 3 calibrated questions for your assigned group. This will help distill what you are learning and improve inner alignment.
+Reflect in a [Mat]({{ '/forms/mat/' | relative_url }}) session about your experiences through answering 3 calibrated questions for your assigned group. This will help distill what you are learning and improve inner alignment.
 
 ## Experience
 
@@ -19,7 +19,7 @@ You center with intention to meet fear with presence. After doing so, you relax 
 
 ## Implementation
 
-Find a willing Circle, engage the Mat, and begin the session. After checking in and centering, work through the three calibrated questions. Doing so allows the group to share their answers and to collectively learn.
+Find a willing [Circle]({{ '/forms/mat/' | relative_url }}), engage the [Mat]({{ '/forms/mat/' | relative_url }}), and begin the session. After checking in and centering, work through the three calibrated questions. Doing so allows the group to share their answers and to collectively learn.
 
 ## Inspiration
 
