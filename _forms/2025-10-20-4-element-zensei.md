@@ -24,3 +24,4 @@ Find a Circle, engage the Mat, and begin the game. The Zensei picks either the E
 ## Inspiration
 
 - [Institute for Zen Leadership](https://zenleader.global)
+- [Tenshinkan Dojo Aikido Family Class](https://japaneseculturecenter.com/classes/aikido/)
