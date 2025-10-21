@@ -20,3 +20,7 @@ You center with intention to meet fear with presence. After doing so, you relax 
 ## Implementation
 
 Find a willing Circle, engage the Mat, and begin the session. After checking in and centering, work through the three calibrated questions. Doing so allows the group to share their answers and to collectively learn.
+
+## Inspiration
+
+
