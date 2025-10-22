@@ -5,12 +5,6 @@ title_mark: "Integration"
 date: 2025-10-22
 authors:
   - michael-basil
-principles:
-  - center
-  - integrate
-  - hold
-  - respond
-  - relax-completely
 excerpt: "A reflection form for working with compression — meeting lower-consciousness forces without collapsing or bypassing. Integration through practice, not martyrdom."
 ---
 
@@ -26,6 +20,7 @@ When challenged, the reactive self wants to defend, justify, or withdraw.
 In the dojo, we treat those impulses as **signals for training** — invitations to sense the energies at play, to balance the field, and to respond from integrity rather than instinct.  
 
 Each encounter reveals a mirror:  
+
 - Where am I contracting?  
 - What energy pattern is being invited into awareness?  
 - What level of consciousness is expressing through me — and what level am I choosing to respond from?  
@@ -40,6 +35,7 @@ It may be completed privately, through journaling, or in dialogue with your favo
 Treat the AI not as a judge or authority, but as a reflective presence helping to clarify what your awareness is already sensing.  
 
 When tension or perceived attack arises:  
+
 1. **Pause.** Feel the field before acting.  
 2. **Name the energies.** Identify Driver, Organizer, Collaborator, and Visionary dynamics in yourself and others.  
 3. **Map consciousness.** Recognize the level of awareness being expressed — from fear to love — and choose your response level deliberately.  
