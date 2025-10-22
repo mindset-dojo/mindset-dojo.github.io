@@ -5,6 +5,14 @@ title_mark: Self-Authorship
 date: 2025-10-12
 authors: 
   - michael-basil
+forms:
+  - dojo
+  - integration-under-fire
+principles:
+  - relax
+  - center
+  - meet
+  - resonate
 excerpt: "In Mindset Dojo, we integrate presence through language — weaving body, breath, system, and story into a living practice of awareness and authorship."
 ---
 
