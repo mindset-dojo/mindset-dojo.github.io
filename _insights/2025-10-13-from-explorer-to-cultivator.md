@@ -5,6 +5,11 @@ title_mark: Cultivator
 date: 2025-10-13
 authors: 
   - michael-basil
+forms:
+  - dojo
+principles:
+  - center
+  - resonate
 excerpt: "In Mindset Dojo, every pull request tests a threshold — transforming exploration into cultivation, and curiosity into coherence."
 ---
 
