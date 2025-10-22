@@ -5,6 +5,15 @@ title_mark: Attitude
 authors: 
   - michael-basil
   - kyle-ingersoll
+forms:
+  - integration-under-fire
+  - dojo
+  - zensei
+principles:
+  - relax
+  - center
+  - meet
+  - resonate
 date: 2025-08-03
 excerpt: "When tone shifts, awareness follows—revealing the MetaShift from control to connection that transforms every conversation into practice."
 ---
