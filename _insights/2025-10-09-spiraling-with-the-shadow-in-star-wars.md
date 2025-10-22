@@ -5,6 +5,11 @@ title_mark: Spiral
 date: 2025-10-09
 authors: 
   - michael-basil
+forms:
+  - integration-under-fire
+principles:
+  - center
+  - meet
 excerpt: "When we turn toward the shadow — fear, anger, ambition, loss — and bring it into awareness, the circle becomes a spiral."
 ---
 
