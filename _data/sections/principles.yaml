@@ -1,0 +1,30 @@
+---
+principle_types:
+  - program:
+      label: "Core Principles"
+      items:
+        - id: "relax"
+          label: "Relax Completely"
+          description: "Mind and body release tension together — increasing agency."
+        - id: "center"
+          label: "Center with Intention"
+          description: "Sense the emotional and energetic field as it is — go from there."
+        - id: "meet"
+          label: "Meet Fear with Presence"
+          description: "Fear often signals potential expansion — inviting fresh possibility."
+        - id: "resonate"
+          label: "Playful Resonance Is Ki"
+          description: "As tension clears, playfulness returns — renewing movement."
+  - project:
+      label: "Engagement Principles"
+      items:
+        - id: transparency
+          label: "Transparency Invites Trust"
+          description: "Openness in process, intent, and communication turns control into shared clarity."
+        - id: contribution
+          label: "Contribution Shapes Coherence"
+          description: "Each act of authorship refines the whole; shared care turns complexity to rhythm."
+        - id: presence
+          label: "Presence Tends the Form"
+          description: "We tend the system as a living garden — pruning, nurturing, redesigning with awareness."
+...

@@ -1,0 +1,42 @@
+{%- comment -%}
+Render: Principle List (generalized)
+
+Assumptions (no defensive checks):
+- section.data.types: string to identify section type ("principles")
+- section.data.principles: array of strings (>= 1)
+- calls list.html to render as description list with:
+  - label: "Principles"
+{%- endcomment -%}
+
+{%- assign D = section.data -%}
+{% assign principles = site.data.sections.principles %}
+{% if D.types %}
+    {% for type in principles %}
+        {% if type.principle_types == D.types %}
+            {%- assign principles = type -%}
+        {% endif %}
+    {% endfor %}
+    {%- assign list_section = principles | merge: 
+        {
+        "label": principles.label | default: 'Principles',
+        "items": principles.items
+        } 
+    -%}
+{% elsif D.principles %}
+  {% for type in principles.principle_types %}
+    {% for principle in type.items %}
+        {% if D.principles contains principle.id %}
+        {%- assign matched_principles = matched_principles | append: principle | append: ',' -%}
+        {% endif %}
+    {% endfor %}
+  {% endfor %}
+  {%- assign matched_principles = matched_principles | split: ',' | uniq | reject: '' -%}
+  {%- assign list_section = 
+      {
+      "label": 'Principles',
+      "items": matched_principles
+      }
+    -%}
+{%- endif -%}
+
+{% include sections/list.html section=list_section %}
