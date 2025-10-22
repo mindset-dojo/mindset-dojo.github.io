@@ -39,7 +39,7 @@ When tension or perceived attack arises:
 1. **Pause.** Feel the field before acting.  
 2. **Name the energies.** Identify Driver, Organizer, Collaborator, and Visionary dynamics in yourself and others.  
 3. **Map consciousness.** Recognize the level of awareness being expressed — from fear to love — and choose your response level deliberately.  
-4. **Recenter.** Breathe from hara; let presence return to form.  
+4. **Recenter.** [Breathe from Hara](https://vimeo.com/944618879/47e96945a4).  
 5. **Respond.** Act or speak from the higher level of commitment without self-sacrifice.  
 
 Use this form after difficult interactions, negotiations, or emotional triggers — or before entering them.  
@@ -49,6 +49,7 @@ Practice until reflection becomes reflex.
 ## Inspiration
 
 - [Institute for Zen Leadership](https://zenleader.global)  
+- [Zen Toolkit - One Breath](https://vimeo.com/944618879/47e96945a4)
 - [Socratic Method](https://en.wikipedia.org/wiki/Socratic_method)  
 - [Ki in Daily Life – Koichi Tohei](https://www.amazon.com/Ki-Daily-Life-Koichi-Tohei/dp/4889960716)  
 - [Dynamic Silence – Black Swan Group](https://www.blackswanltd.com/newsletter/3-benefits-of-dynamic-silence%EF%B8%8F)  
