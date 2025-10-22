@@ -1,7 +1,7 @@
 ---
 layout: threshold
 sections_key: author
-mantra: "Don’t Force. Feel."
+mantra: "Don’t Think. Listen."
 mantra_mark: "Feel."
 description: >
   Zen Leadership Coach; Mindset Dojo & MetaShift Method. Conversational Presence
