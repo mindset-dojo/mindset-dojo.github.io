@@ -4,6 +4,16 @@ title: "Not Knowing Is Most Intimate"
 title_mark: Not Knowing
 authors: 
   - kyle-ingersoll
+forms:
+  - zensei
+  - integration-under-fire
+  - dojo
+  - mat
+principles:
+  - relax
+  - center
+  - meet
+  - resonate
 date: 2025-09-08
 excerpt: "A reflection on how the Mat Sessions and community practice of Mindset Dojo helped me transform ego-driven self-improvement into humble, fearless growth through beginner’s mind."
 ---
