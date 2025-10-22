@@ -6,6 +6,16 @@ date: 2025-10-06
 authors: 
   - michael-basil
   - kyle-ingersoll
+forms:
+  - integration-under-fire
+  - dojo
+  - circle
+  - mat
+principles:
+  - relax
+  - center
+  - meet
+  - resonate
 excerpt: "In the Dojo, leadership is cultivation, not control. Circles replace chains of command. Authorship replaces ownership."
 ---
 
