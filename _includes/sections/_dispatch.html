@@ -40,6 +40,9 @@ Each case delegates to a small, focused template for that section type.
   {%- when 'markdown' -%}
     {% include sections/markdown.html section=section %}
 
+  {%- when 'principles' -%}
+    {% include sections/principles.html section=section data=data %}
+
   {%- when 'quote' -%}
     {% include sections/quote.html section=section %}
 
