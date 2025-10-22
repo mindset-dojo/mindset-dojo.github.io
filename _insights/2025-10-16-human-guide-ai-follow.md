@@ -5,6 +5,14 @@ title_mark: Human Guides
 date: 2025-10-16
 authors: 
   - kyle-ingersoll
+forms:
+  - zensei
+  - dojo
+  - integration-under-fire
+principles:
+  - relax
+  - center
+  - resonate
 excerpt: "When code becomes debt, only human guidance can teach AI the Way forward."
 ---
 
