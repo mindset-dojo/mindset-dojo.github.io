@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Gift That Wants Something Back"
-title_mark: Gift
+title_mark: Wants
 date: 2025-10-22
 authors:
   - kyle-ingersoll
