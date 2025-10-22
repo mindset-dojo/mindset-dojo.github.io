@@ -5,6 +5,13 @@ title_mark: Authorship
 date: 2025-10-09
 authors: 
   - michael-basil
+forms:
+  - integration-under-fire
+  - dojo
+principles:
+  - center
+  - meet
+  - resonate
 excerpt: "In the dojo, we’re not trying to build an audience — we’re cultivating a field of thresholds: experiences that transform presence into trust."
 ---
 
