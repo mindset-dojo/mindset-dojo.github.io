@@ -18,7 +18,7 @@ Since training, I’ve developed greater awareness and intention. I now enter co
 
 At the same time, I’ve learned to better integrate others into the dialogue using Collaborator energy.
 
-A key moment came while working on the Mindset Dojo site alongside the Sensei. I practiced servant leadership by consciously following his lead — recognizing his deeper experience in software engineering and with the program itself.
+A key moment came while working on the Mindset Dojo site alongside the Zensei. I practiced servant leadership by consciously following his lead — recognizing his deeper experience in software engineering and with the program itself.
 
 Instead of trying to control the direction, I stepped back, supported his vision, and worked to amplify it. That shift allowed us to build momentum as a team and reminded me that leading sometimes means knowing when to follow.
 
@@ -38,7 +38,7 @@ This awareness has helped me keep both myself and others aligned with a construc
 
 A major area of growth has been addressing my tendency to live too much in the Visionary space — planning, imagining, strategizing — without always taking decisive action.
 
-That imbalance became clear during the Mindset Dojo project. At multiple points, I hit a wall of inertia. Each time, the Sensei would “draw a door” — forcing me to make a choice: stay stuck, or step through. There was no middle ground.
+That imbalance became clear during the Mindset Dojo project. At multiple points, I hit a wall of inertia. Each time, the Zensei would “draw a door” — forcing me to make a choice: stay stuck, or step through. There was no middle ground.
 
 Those moments were uncomfortable, but essential. Over time, stepping through became easier. The emotional resistance lessened. I started to act with less hesitation and more commitment.
 
@@ -60,6 +60,6 @@ I’m not at Black Belt yet. I don’t fully embody the values and practices tau
 
 But I now understand what the path looks like. I’ve taken the first real steps — through action, not just reflection.
 
-Going forward, I’ll continue building these habits: journaling reflections on user story work, meditating regularly, and saying “yes” when the Sensei draws the next door.
+Going forward, I’ll continue building these habits: journaling reflections on user story work, meditating regularly, and saying “yes” when the Zensei draws the next door.
 
 ⛩️🖥️
