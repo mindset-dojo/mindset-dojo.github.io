@@ -4,6 +4,16 @@ title: "Map of Consciousness"
 title_mark: Map
 authors: 
   - kyle-ingersoll
+forms:
+  - dojo
+  - integration-under-fire
+  - zensei
+  - three-question-reflection
+principles:
+  - relax
+  - center
+  - meet
+  - resonate
 date: 2025-09-22
 excerpt: "When life punches first, the Map of Consciousness helps us notice where we stand — below the line in contraction or above it in creation — and trains us to shift through breath, tone, and awareness."
 ---  
