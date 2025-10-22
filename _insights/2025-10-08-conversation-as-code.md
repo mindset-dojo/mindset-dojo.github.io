@@ -5,6 +5,14 @@ title_mark: Conversation
 date: 2025-10-08
 authors: 
   - michael-basil
+forms:
+  - integration-under-fire
+  - dojo
+principles:
+  - relax
+  - center
+  - meet
+  - resonate
 excerpt: "Every conversation writes code into the field — tone, timing, and language compile into patterns that shape what becomes possible next."
 ---
 
