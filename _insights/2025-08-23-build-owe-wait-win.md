@@ -17,13 +17,13 @@ excerpt: "A reflection on the MetaShift from Visionary to Organizer energy, wher
 
 At **Mindset Dojo**, I recently experienced what we call a **MetaShift** — moving from *Visionary energy* into *Organizer energy.*
 
-This happened during a Signal conversation with Sensei, who asked me a question that reframed everything:
+This happened during a Signal conversation with Zensei, who asked me a question that reframed everything:
 
 > *“What would happen if we did nothing?”*
 
 At the time, I had just introduced an HTMLProofer Quality Gate and proposed migrating our quality gates to **AWS**. From my perspective, these were clear technical improvements.
 
-But Sensei reminded me that the project was already in strong technical shape.  
+But Zensei reminded me that the project was already in strong technical shape.  
 We had the **Super-Linter** in place — ensuring consistent code formatting and maintaining high code quality across contributions.  
 We had completed significant **refactorings** of the site.  
 The **program was properly displayed and viewable.**  
