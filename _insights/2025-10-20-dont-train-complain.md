@@ -5,6 +5,8 @@ title_mark: "Complain...?"
 date: 2025-10-20
 authors:
   - michael-basil
+forms:
+  - integration-under-fire
 principles:
   - relax
   - center
