@@ -5,6 +5,9 @@ title_mark: Way
 date: 2025-10-18
 authors:
   - kyle-ingersoll
+forms:
+  - dojo
+  - zensei
 principles:
   - relax
   - resonate
@@ -58,13 +61,13 @@ To act with Plus Ki is not to add power,
 but to let go.
 
 **Relax completely. Keep one point. Extend Ki.**  
-When these are one, the Way opens by itself.  
+When these are one, The Way opens by itself.  
 
 Not a path to find,  
 but a current to remember.  
 
 The question is never,  
-“How do I find the Way?”  
+“How do I find The Way?”  
 
 The question is —  
 can you empty your cup  
