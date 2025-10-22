@@ -5,6 +5,14 @@ title_mark: Paradox
 date: 2025-09-23
 authors: 
   - kyle-ingersoll
+forms:
+  - dojo
+  - zensei
+  - integration-under-fire
+principles:
+  - relax
+  - center
+  - resonate
 excerpt: "Paradox is the hidden gate of leadership, where resistance dissolves and the small self expands into the boundless flow of Ki."
 ---
 
