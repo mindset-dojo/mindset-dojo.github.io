@@ -64,7 +64,9 @@ sections:
               url: /insights/map-of-consciousness/
             - label: Three Question Reflection
               url: /forms/three-question-reflection/
-            - label: 5 minute Zazen with Zenpai
+            - label: Jiki
+              url: /forms/jiki/
+            - label: 5 minute Zazen with Jiki
               url: https://youtu.be/q7Y5rwKiabQ?si=8keWWxVJrCp9BN1S
         - color: green
           label: 5th Kyu
@@ -102,7 +104,7 @@ sections:
               url: https://www.choseizen.org/online-intro-to-zazen
             - label: Zenpai
               url: /forms/zenpai/
-            - label: 10 minute Zazen with Zenpai
+            - label: 10 minute Zazen with Jiki
               url: https://youtu.be/q7Y5rwKiabQ?si=8keWWxVJrCp9BN1S
         - color: purple
           label: 3rd Kyu
@@ -138,7 +140,7 @@ sections:
               url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
             - label: Never Split the Difference - Negotiating As If Your Life Depended On It
               url: https://www.amazon.com/Never-Split-Difference-Negotiating-Depended/dp/0062407805
-            - label: 15 minute Zazen with Zenpai
+            - label: 15 minute Zazen with Jiki
               url: https://youtu.be/q7Y5rwKiabQ?si=8keWWxVJrCp9BN1S
             - label: Zen Leader Off the Cushion
               url: https://zenleader.global/events
