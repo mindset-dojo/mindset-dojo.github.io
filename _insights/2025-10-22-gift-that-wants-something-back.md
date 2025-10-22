@@ -44,7 +44,7 @@ but Ki leaving and returning in balance.
 
 When you give without awareness of this return, resentment creeps in.
 When you invest only for return, greed hardens the flow.
-But when you give *with* awareness — knowing that what leaves will teach, grow, and come back transformed 
+But when you give *with* awareness — knowing that what leaves will teach, grow, and come back transformed
 —
 the exchange becomes whole.
 
