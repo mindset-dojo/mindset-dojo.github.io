@@ -114,6 +114,8 @@ sections:
           flows:
             - label: When Everything Is a Risk
               url: /insights/when-everything-is-a-risk/
+            - label: Integration Under Fire
+              url: /forms/integration-under-fire/
             - label: Zen Toolkit - Four Patterns
               url: https://vimeo.com/944675826/c57a7ce142
             - label: The Breath of a Stance Shifts the Mountain
