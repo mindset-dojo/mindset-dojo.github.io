@@ -91,7 +91,7 @@
   :where(.post-body ul) {
     display: inline-block;       
     text-align: center;            
-    list-style-position: inside; 
+    list-style: none; 
     margin: 0;
     padding: 0;
   }
