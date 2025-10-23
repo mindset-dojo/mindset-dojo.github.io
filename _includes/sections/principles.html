@@ -1,29 +1,38 @@
 {%- comment -%}
 Principles include — strict inputs and sequential filtering.
 
-Assumptions / requirements:
-- site.data.sections.principles.items exists and is an array of items with fields: id, type, label, description, ...
-- include.principles / section.data.principles / page.principles MUST be an ARRAY of ids (e.g. ["relax","center"]) if provided.
-- include.principle_type / section.data.principle_type / page.principle_type MUST be a SINGLE string (e.g. "program" or "project") and must match one of the types present in the data.
-- No CSV/newline parsing. Inputs are strict for clarity and simplicity.
-
 Behavior:
-- Start with all data.items.
-- If a valid sel_type is provided, keep only items with that type.
-- If a src array is provided, keep only items whose id is listed in src (preserves order of src).
-- Pass { label, items } to sections/list.html.
+- site.data.sections.principles.items expected (each item: id, type, ...)
+- src MUST be an ARRAY of ids if provided
+- sel_type SHOULD be a SINGLE string; if an array is passed accidentally we use its first element
+- Sequential pipeline: start with all items -> filter by type (if valid) -> filter by src (if provided)
 {%- endcomment -%}
 
 {%- assign data = site.data.sections.principles -%}
 
-{%- comment -%} Strict inputs (no automatic parsing) {%- endcomment -%}
+{%- if data == nil or data.items == nil -%}
+  {%- assign data_items = "" | split: "|" -%}
+{%- else -%}
+  {%- assign data_items = data.items -%}
+{%- endif -%}
+
 {%- assign src = include.principles | default: section.data.principles | default: page.principles -%}
 {%- assign sel_type = include.principle_type | default: section.data.principle_type | default: page.principle_type -%}
 
+{%- comment -%}
+Normalize sel_type to a string if an array was accidentally passed.
+This prevents slugify/from-gsub errors when templates pass an array by mistake.
+{%- endcomment -%}
+{%- if sel_type and sel_type[0] != nil -%}
+  {%- assign sel_type = sel_type[0] -%}
+{%- endif -%}
+
 {%- comment -%} Build allowed types from the dataset (slugified) {%- endcomment -%}
 {%- assign allowed = "" | split: "|" -%}
-{%- for it in data.items -%}
-  {%- assign allowed = allowed | push: (it.type | to_s | slugify) -%}
+{%- for it in data_items -%}
+  {%- if it.type -%}
+    {%- assign allowed = allowed | push: (it.type | to_s | slugify) -%}
+  {%- endif -%}
 {%- endfor -%}
 {%- assign allowed = allowed | uniq -%}
 
@@ -35,11 +44,10 @@ Sequential filtering:
 {%- endcomment -%}
 
 {%- assign filtered = "" | split: "|" -%}
-{%- for it in data.items -%}
+{%- for it in data_items -%}
   {%- assign filtered = filtered | push: it -%}
 {%- endfor -%}
 
-{%- comment -%} Apply type filter only if sel_type is a string and is allowed {%- endcomment -%}
 {%- if sel_type and sel_type != "" -%}
   {%- assign sel_norm = sel_type | to_s | slugify -%}
   {%- if allowed contains sel_norm -%}
@@ -56,7 +64,6 @@ Sequential filtering:
   {%- endif -%}
 {%- endif -%}
 
-{%- comment -%} Apply src filter only if src is an ARRAY (strict) {%- endcomment -%}
 {%- if src and src[0] != nil -%}
   {%- assign wants = src -%}
   {%- assign by_id = "" | split: "|" -%}
@@ -72,7 +79,6 @@ Sequential filtering:
   {%- assign filtered = by_id -%}
 {%- endif -%}
 
-{%- comment -%} Final section object and include {%- endcomment -%}
 {%- assign list_section = { "label": "Principles", "items": filtered } -%}
 
 {% include sections/list.html section=list_section %}
