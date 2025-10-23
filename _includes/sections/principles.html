@@ -10,6 +10,9 @@ Assumptions (no defensive checks):
 
 {%- assign D = section.data -%}
 {% assign principles = site.data.sections.principles %}
+{%- assign matched_principles = "" | split: "|" -%}
+{% assign list_section = "" %}
+
 {% if D.types %}
     {% for type in principles %}
         {% if type.principle_types == D.types %}
