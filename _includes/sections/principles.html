@@ -1,77 +1,77 @@
 {%- comment -%}
-Principles include — simple, predictable, fits list.html.
-
-Inputs (from dispatch):
-- section.data.principles  => ARRAY of ids (optional)
-- section.data.principle_type => STRING (optional)
-
-Data source:
-- include.page_data (when dispatch supplies site.data as page_data),
-  otherwise fallback to site.data.sections.principles
+Principles include — merged fix.
 
 Behavior:
-- Start from full dataset (principles.items)
-- If principle_type present → keep only items with that type (string equality)
-- If principles (array) present → return items in the order of that array
-- Pass { data: { label, items } } to sections/list.html
+- Prefer include.section (passed via include); fall back to outer `section` if present.
+- Use include.page_data when dispatch supplied site data; otherwise fallback to site.data.sections.principles.
+- Apply optional type filter (section.data.principle_type).
+- If section.data.principles is provided (array) return items in that order; otherwise return filtered set.
+- Output section shaped for list.html: { "data": { "label": ..., "items": [...] } }
 {%- endcomment -%}
 
-<!-- DEBUG: show inputs for principles include (remove after) -->
-<pre class="debug">
-    page.principles: {{ page.principles | inspect }}
-    section (passed): {{ section | inspect }}
-    section.data.principles: {{ section.data.principles | inspect }}
-    include.page_data (site data passed): {{ include.page_data | inspect }}
-    site.data.sections.principles.items count: {{ site.data.sections.principles.items | size }}
-    site.data.ids: {{ site.data.sections.principles.items | map: "id" | inspect }}
-</pre>
+{%- comment -%} Accept either include.section (from include call) or outer `section`. {%- endcomment -%}
+{%- assign src_section = include.section | default: section -%}
 
+{%- comment -%} normalize source of requested principle ids (from the passed section). {%- endcomment -%}
+{%- assign src = src_section.data.principles -%}
+{%- assign sel_types = src_section.data.principle_type -%}
 
-{%- assign section_data = include.page_data | default: site.data.sections.principles -%}
-{%- assign src = section.data.principles -%}
-{%- assign sel_type = section.data.principle_type -%}
+{%- comment -%} data source: include.page_data (if provided by dispatch) else site data {%- endcomment -%}
+{%- assign principles_data = include.page_data | default: site.data.sections.principles -%}
 
-{%- comment -%} defensive: if sel_type accidentally an array, take first element {%- endcomment -%}
-{%- if sel_type and sel_type[0] != nil -%}
-  {%- assign sel_type = sel_type[0] -%}
+{%- assign matched = "" | split: "|" -%}
+
+{%- comment -%} ensure sel_types is iterable (normalize single string) {%- endcomment -%}
+{%- if sel_types and sel_types[0] == nil -%}
+  {%- assign sel_types = sel_types | split: ',' | map: 'strip' -%}
 {%- endif -%}
 
-{%- assign items = section_data.items | default: "" | split: "|" -%}
-
-{%- comment -%} apply type filter if provided (strict equality) {%- endcomment -%}
-{%- if sel_type and sel_type != "" -%}
-  {%- assign by_type = "" | split: "|" -%}
-  {%- for it in items -%}
-    {%- if it.type == sel_type -%}
-      {%- assign by_type = by_type | push: it -%}
+{%- comment -%} collect items matching the requested types {%- endcomment -%}
+{%- assign matched = "" | split: "|" -%}
+{%- if principles_data and principles_data.items -%}
+  {%- for item in principles_data.items -%}
+    {%- if sel_types and sel_types.size > 0 -%}
+      {%- for want_type in sel_types -%}
+        {%- if item.type == want_type -%}
+          {%- assign matched = matched | push: item -%}
+          {%- break -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- else -%}
+      {%- assign matched = matched | push: item -%}
     {%- endif -%}
   {%- endfor -%}
-  {%- assign items = by_type -%}
 {%- endif -%}
 
-{%- comment -%} if src is an array, select items in its order; otherwise keep current items {%- endcomment -%}
-{%- if src and src[0] != nil -%}
+{%- comment -%} normalize src into `wants` array if needed (keep original parsing behavior) {%- endcomment -%}
+{%- if src and src[0] == nil -%}
+  {%- assign s = src | to_s | strip -%}
+  {%- if s contains '[' and s contains ']' -%}
+    {%- assign s = s | remove:'[' | remove:']' | remove:'"' | remove:"'" | strip -%}
+  {%- endif -%}
+  {%- if s contains ',' -%}
+    {%- assign wants = s | split:',' | map:'strip' -%}
+  {%- else -%}
+    {%- assign wants = s | split:'\n' | map:'strip' -%}
+  {%- endif -%}
+{%- else -%}
   {%- assign wants = src -%}
+{%- endif -%}
+
+{%- comment -%} If wants provided, filter matched items to only those requested, preserving order {%- endcomment -%}
+{%- if wants and wants.size > 0 -%}
   {%- assign final_items = "" | split: "|" -%}
-  {%- for want in wants -%}
-    {%- assign want_val = want -%}
-    {%- if want_val[0] != nil -%}
-      {%- assign want_val = want_val[0] -%}
-    {%- endif -%}
-    {%- assign want_str = want_val | to_s -%}
-    {%- for it in items -%}
-      {%- assign it_id = it.id -%}
-      {%- if it_id[0] != nil -%}
-        {%- assign it_id = it_id[0] -%}
-      {%- endif -%}
-      {%- if it_id | to_s == want_str -%}
-        {%- assign final_items = final_items | push: it -%}
+  {%- for want_id in wants -%}
+    {%- assign want_norm = want_id | to_s | strip -%}
+    {%- for item in matched -%}
+      {%- if item.id | to_s == want_norm -%}
+        {%- assign final_items = final_items | push: item -%}
         {%- break -%}
       {%- endif -%}
     {%- endfor -%}
   {%- endfor -%}
 {%- else -%}
-  {%- assign final_items = items -%}
+  {%- assign final_items = matched -%}
 {%- endif -%}
 
 {%- comment -%} prepare section object expected by list.html (section.data.*) {%- endcomment -%}
