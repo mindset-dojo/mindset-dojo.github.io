@@ -8,14 +8,15 @@ Assumptions (no defensive checks):
   - label: "Principles"
 {%- endcomment -%}
 
-{%- assign D = section.data -%}
-{% assign principles = site.data.sections.principles %}
+{%- assign src = include.principles | default: section.data.principles | default: page.principles -%}
+{%- assign section_types = include.types | default: section.data.types | default: page.principles_types -%}
+{%- assign principles = site.data.sections.principles -%}
 {%- assign matched_principles = "" | split: "|" -%}
-{% assign list_section = "" %}
+{%- assign list_section = "" -%}
 
-{% if D.types %}
+{% if section_types %}
     {% for type in principles %}
-        {% if type.principle_types == D.types %}
+        {% if type.principle_types == section_types %}
             {%- assign principles = type -%}
         {% endif %}
     {% endfor %}
@@ -27,10 +28,10 @@ Assumptions (no defensive checks):
           "items": items_val
         } 
     -%}
-{% elsif D.principles %}
+{% elsif src %}
   {% for type in principles.principle_types %}
     {% for principle in type.items %}
-        {% if D.principles contains principle.id %}
+        {% if src contains principle.id %}
         {%- assign matched_principles = matched_principles | append: principle | append: ',' -%}
         {% endif %}
     {% endfor %}
