@@ -52,16 +52,27 @@ Outputs:
   {%- assign wants = src -%}
 {%- endif -%}
 
-{%- if sel_types and sel_types.size > 0 -%}
-   {%- assign list_section = { "data": { "label": "Principles", "items": matched } } -%}
-
-{%- elsif wants and wants.size > 0 -%}
-  {%- assign list_section = 
-      { "data": {
-        "label": "Principles",
-        "items": "" | split: "|"
-      } }
-  -%}
+{%- if wants and wants.size > 0 -%}
+    {%- comment -%} filter matched items to only those requested {%- endcomment -%}
+    {%- assign final_items = "" | split: "|" -%}
+    {%- for want_id in wants -%}
+    {%- for item in matched -%}
+        {%- if item.id == want_id -%}
+        {%- assign final_items = final_items | push: item -%}
+        {%- break -%}
+        {%- endif -%}
+    {%- endfor -%}
+    {%- endfor -%}
+{%- else -%}
+        {%- assign final_items = matched -%}
 {%- endif -%}
 
-{% include sections/list.html section=list_section %}
+
+{%- comment -%} render the list of principles {%- endcomment -%}
+{%- assign section = 
+    {
+    "label": "Related Principles",
+    "items": final_items
+    } 
+-%}
+{%- include sections/list.html section=section -%}
