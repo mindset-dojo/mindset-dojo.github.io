@@ -1,79 +1,54 @@
 {%- comment -%}
-DRY collection-stream.html
-- collection: include.collection OR section.data.collection
-- sort_by: section.data.sort_by (default "date")
-- reverse: section.data.reverse (boolean)
-- excerpt_length: section.data.excerpt_length (optional)
-- filters: include.filters OR section.data.filters
-  Example:
-    filters:
-      authors: ["kyle-ingersoll"]
-      forms: ["zensei"]
-- post_display_limit: section.data.post_display_limit (optional)
-- page.slug fallback for authors if not provided
-
-Logic:
-- Generic field filtering: post must match any value in filter array.
-- Collection-name filtering: derive slug from filename (YYYY-MM-DD-slug.md) and match filter values.
-- All filters are combined with AND logic.
+DRY sequential-flow collection-stream.html
+- section.data.collection
+- section.data.sort_by (default "date")
+- section.data.reverse (boolean)
+- section.data.excerpt_length (optional)
+- section.data.authors OR include.authors: YAML array of author slugs
+- section.data.post_display_limit (optional)
+- page.slug fallback for override authors
+- p.authors: YAML array of author slugs
+- p.forms: YAML array of form slugs
+- Optional author filtering applied inline
 {%- endcomment -%}
 
-{%- assign coll_name = include.collection | default: section.data.collection -%}
-{%- assign posts = site[coll_name] | default: "" -%}
+{%- assign coll_name = section.data.collection -%}
+{%- assign posts = site[coll_name] -%}
 
-{%- comment -%} Ensure filters is always a hash/object {%- endcomment -%}
-{%- assign filters = include.filters | default: section.data.filters | default: {} -%}
-{%- if filters != nil and filters != empty and filters != "" -%}
-  {%- assign filters = filters | jsonify | parse_json -%}
-{%- else -%}
-  {%- assign filters = {} -%}
+{%- assign override_authors = include.authors | default: section.data.authors -%}
+{%- assign override_forms = include.forms | default: section.data.forms -%}
+
+{%- if override_authors == nil and page and page.slug -%}
+  {%- assign override_authors = page.slug | split:"|" -%}
 {%- endif -%}
 
-{%- assign sort_key_field = section.data.sort_by | default: "date" -%}
+{%- if override_forms == nil and page and page.slug -%}
+  {%- assign override_forms = page.slug | split:"|" -%}
+{%- endif -%}
+
+{%- assign sort_key_field = section.data.sort_by | default:"date" -%}
 {%- assign reverse_flag = section.data.reverse == true -%}
-{%- assign display_limit = section.data.post_display_limit -%}
 
+{%- comment -%} Filter posts by author if override_authors exists {%- endcomment -%}
 {%- assign filtered_posts = "" | split:"|" -%}
-
 {%- for p in posts -%}
-  {%- assign keep = true -%}
+  {%- assign keep = false -%}
 
-  {%- for filter_key in filters -%}
-    {%- assign filter_values = filters[filter_key] | array -%}
-
-    {%- if filter_values and p[filter_key] -%}
-      {%- assign post_values = p[filter_key] | array -%}
-      {%- assign match = false -%}
-      {%- for v in post_values -%}
-        {%- if filter_values contains v -%}
-          {%- assign match = true -%}
-          {%- break -%}
-        {%- endif -%}
-      {%- endfor -%}
-      {%- if match == false -%}
-        {%- assign keep = false -%}
-      {%- endif -%}
-
-    {%- elsif filter_values and filter_key == coll_name and p.path -%}
-      {%- assign filename = p.path | split:"/" | last -%}
-      {%- assign basename = filename | split:"." | first -%}
-      {%- if basename[4] == "-" and basename[7] == "-" and basename[10] == "-" -%}
-        {%- assign slug = basename | slice:11,999 -%}
-      {%- else -%}
-        {%- assign slug = basename -%}
-      {%- endif -%}
-      {%- if filter_values contains slug -%}
+  {%- if override_authors == nil and override_forms == nil -%}
+    {%- assign keep = true -%}
+  {%- elsif p.authors -%}
+    {%- for a in p.authors -%}
+      {%- if override_authors contains a -%}
         {%- assign keep = true -%}
-      {%- else -%}
-        {%- assign keep = false -%}
       {%- endif -%}
-
-    {%- elsif filter_values -%}
-      {%- assign keep = false -%}
-    {%- endif -%}
-
-    {%- if keep == false -%}{%- break -%}{%- endif -%}
-  {%- endfor -%}
+    {%- endfor -%}
+  {%- elsif p.forms %-}
+    {%- for f in p.forms -%}
+      {%- if override_forms contains f -%}
+        {%- assign keep = true -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
 
   {%- if keep -%}
     {%- assign filtered_posts = filtered_posts | push: p -%}
@@ -82,32 +57,15 @@ Logic:
 
 {%- assign filtered_posts = filtered_posts | sort: sort_key_field -%}
 {%- if reverse_flag -%}{%- assign filtered_posts = filtered_posts | reverse -%}{%- endif -%}
-{%- if display_limit -%}{%- assign filtered_posts = filtered_posts | slice:0, display_limit -%}{%- endif -%}
 
-{%- comment -%} DEBUG: Compare authors vs forms array per filtered post {%- endcomment -%}
-{%- for post in filtered_posts -%}
-  <pre style="background:#f0f0f0; padding:0.5em; margin:0.5em 0; font-size:0.85em;">
-    Post: {{ post.title | default: post.path }}
-    ---
-    Authors field: {{ post.authors | inspect }}
-    Forms field: {{ post.forms | inspect }}
-
-    Computed slug from path (if forms/collection filter applied):
-    {%- assign filename = post.path | split:"/" | last -%}
-    {%- assign basename = filename | split:"." | first -%}
-    {%- if basename[4] == "-" and basename[7] == "-" and basename[10] == "-" -%}
-      {%- assign slug = basename | slice:11,999 -%}
-    {%- else -%}
-      {%- assign slug = basename -%}
-    {%- endif -%}
-    Slug: {{ slug }}
-
-    Filters applied: {{ filters | inspect }}
-  </pre>
-{%- endfor -%}
+{%- if section.data.post_display_limit -%}
+    {%- assign filtered_posts = filtered_posts | slice: 0, section.data.post_display_limit -%}
+{%- endif -%}
 
 <section id="collection-stream" class="md-flow">
   {%- for post in filtered_posts -%}
     {% include sections/collection-item.html post=post excerpt_length=section.data.excerpt_length %}
   {%- endfor -%}
 </section>
+
+
