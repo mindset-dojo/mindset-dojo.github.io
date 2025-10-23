@@ -5,11 +5,16 @@ layout: default
 <article class="post-article" itemscope itemtype="https://schema.org/Article">
     
   
-  <p class="post-principles">
-    {% if page.principles %}
-      {% include sections/principles.html page_data=page.principles %}
-    {% endif %}
-  </p>
+  {% if page.principles %}
+    {% assign section = 
+      {
+        "type": "principles",
+        "data": { "principles": page.principles }
+      } 
+    %}
+    {% include sections/_dispatch.html section=section %}
+  {% endif %}
+
 
   <hr>
   
