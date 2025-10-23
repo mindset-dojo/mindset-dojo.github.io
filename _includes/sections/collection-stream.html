@@ -8,7 +8,6 @@ DRY sequential-flow collection-stream.html
 - section.data.post_display_limit (optional)
 - page.slug fallback for override authors
 - p.authors: YAML array of author slugs
-- p.forms: YAML array of form slugs
 - Optional author filtering applied inline
 {%- endcomment -%}
 
@@ -16,14 +15,8 @@ DRY sequential-flow collection-stream.html
 {%- assign posts = site[coll_name] -%}
 
 {%- assign override_authors = include.authors | default: section.data.authors -%}
-{%- assign override_forms = include.forms | default: section.data.forms -%}
-
 {%- if override_authors == nil and page and page.slug -%}
   {%- assign override_authors = page.slug | split:"|" -%}
-{%- endif -%}
-
-{%- if override_forms == nil and page and page.slug -%}
-  {%- assign override_forms = page.slug | split:"|" -%}
 {%- endif -%}
 
 {%- assign sort_key_field = section.data.sort_by | default:"date" -%}
@@ -34,17 +27,11 @@ DRY sequential-flow collection-stream.html
 {%- for p in posts -%}
   {%- assign keep = false -%}
 
-  {%- if override_authors == nil and override_forms == nil -%}
+  {%- if override_authors == nil -%}
     {%- assign keep = true -%}
   {%- elsif p.authors -%}
     {%- for a in p.authors -%}
       {%- if override_authors contains a -%}
-        {%- assign keep = true -%}
-      {%- endif -%}
-    {%- endfor -%}
-  {%- elsif p.forms %-}
-    {%- for f in p.forms -%}
-      {%- if override_forms contains f -%}
         {%- assign keep = true -%}
       {%- endif -%}
     {%- endfor -%}
@@ -67,5 +54,4 @@ DRY sequential-flow collection-stream.html
     {% include sections/collection-item.html post=post excerpt_length=section.data.excerpt_length %}
   {%- endfor -%}
 </section>
-
 
