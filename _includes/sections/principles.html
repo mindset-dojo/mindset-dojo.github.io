@@ -15,12 +15,12 @@ Behavior:
 {%- assign principles = include.page_data | default: site.data.sections.principles -%}
 {%- assign items = principles.items -%}
 
-{%- assign sel_type = section.data.principle_type -%}
+{%- assign sel_type = include.section.data.principle_type -%}
 {%- if sel_type -%}
   {%- assign items = items | where: "type", sel_type -%}
 {%- endif -%}
 
-{%- assign src = section.data.principles -%}
+{%- assign src = include.section.data.principles -%}
 {%- if src -%}
   {%- assign final_items = "" | split: "|" -%}
   {%- for want in src -%}
