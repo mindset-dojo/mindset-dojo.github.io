@@ -18,7 +18,7 @@ layout: default
 
   {% if page.forms %}
     <h2>Related Forms</h2>
-    {% include sections/collection-stream.html section=section data=data forms=page.forms %}
+    {% include sections/collection-stream.html section=section collection=forms %}
     <hr>
   {% endif %}
 
