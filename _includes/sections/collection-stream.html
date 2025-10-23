@@ -21,11 +21,12 @@ Logic:
 {%- assign coll_name = include.collection | default: section.data.collection -%}
 {%- assign posts = site[coll_name] | default: "" -%}
 
+{%- comment -%} Ensure filters is always a hash/object {%- endcomment -%}
 {%- assign filters = include.filters | default: section.data.filters | default: {} -%}
-
-{%- comment -%} Author fallback if not explicitly filtered {%- endcomment -%}
-{%- if filters.authors == nil and page and page.slug -%}
-  {%- assign filters = filters | merge: { "authors": page.slug | split:"|" } -%}
+{%- if filters != nil and filters != empty and filters != "" -%}
+  {%- assign filters = filters | jsonify | parse_json -%}
+{%- else -%}
+  {%- assign filters = {} -%}
 {%- endif -%}
 
 {%- assign sort_key_field = section.data.sort_by | default: "date" -%}
@@ -38,7 +39,7 @@ Logic:
   {%- assign keep = true -%}
 
   {%- for filter_key in filters -%}
-    {%- assign filter_values = filters[filter_key] | array -%} {# ensures it's an array #}
+    {%- assign filter_values = filters[filter_key] | array -%}
 
     {%- if filter_values and p[filter_key] -%}
       {%- assign post_values = p[filter_key] | array -%}
@@ -54,9 +55,13 @@ Logic:
       {%- endif -%}
 
     {%- elsif filter_values and filter_key == coll_name and p.path -%}
-      {%- comment -%} Compute slug from (date)-(slug).md filename {%- endcomment -%}
       {%- assign filename = p.path | split:"/" | last -%}
-      {%- assign slug = filename | split:"." | first | slice:11,999 -%} {# YYYY-MM-DD- stripped #}
+      {%- assign basename = filename | split:"." | first -%}
+      {%- if basename[4] == "-" and basename[7] == "-" and basename[10] == "-" -%}
+        {%- assign slug = basename | slice:11,999 -%}
+      {%- else -%}
+        {%- assign slug = basename -%}
+      {%- endif -%}
       {%- if filter_values contains slug -%}
         {%- assign keep = true -%}
       {%- else -%}
