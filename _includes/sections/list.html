@@ -1,68 +1,21 @@
 {%- comment -%}
-Render: Description List (robust)
+Render: Description List (generalized)
 
-Behaviors:
-- Accepts either `section.data` (original pattern) OR a plain `section` hash (e.g. { "label": "...", "items": [...] }).
-- Normalizes label and id values so `slugify` always receives a string:
-  - if a value is an Array, take the first element
-  - then coerce to string and slugify
-- Keeps markup the same as before.
+Assumptions (no defensive checks):
+- section.data.label: string (section title)
+- section.data.items: array of objects (>= 1)
+- each item: { id: string, label: string, description: string }
+
 {%- endcomment -%}
 
-{%- comment -%} Accept both `section.data` and plain `section` {%- endcomment -%}
-{%- if section.data %}
-  {%- assign D = section.data -%}
-{%- else %}
-  {%- assign D = section -%}
-{%- endif -%}
-
-{%- comment -%} Defensive: ensure D and D.items exist and are arrays {%- endcomment -%}
-{%- if D == nil or D.items == nil -%}
-  {%- assign items = "" | split: "|" -%}
-{%- else -%}
-  {%- assign items = D.items -%}
-{%- endif -%}
-
+{%- assign D = section.data -%}
 <section class="md-flow">
-  {%- comment -%} Normalize label to a string for display and id generation {%- endcomment -%}
-  {%- assign raw_label = D.label -%}
-  {%- if raw_label == nil -%}
-    {%- assign raw_label = "" -%}
-  {%- elsif raw_label[0] != nil and raw_label != raw_label | to_s -%}
-    {%- assign raw_label = raw_label[0] -%}
-  {%- endif -%}
-  <h2>{{ raw_label | to_s }}</h2>
-
+  <h2>{{ D.label }}</h2>
   <dl>
-    {%- for it in items -%}
-      {%- comment -%} normalize it.id and it.label and it.description before use {%- endcomment -%}
-      {%- assign raw_id = it.id -%}
-      {%- if raw_id == nil -%}
-        {%- assign raw_id = forloop.index0 | append: "" -%} {%- comment -%} fallback numeric id {%- endcomment -%}
-      {%- elsif raw_id[0] != nil and raw_id != raw_id | to_s -%}
-        {%- assign raw_id = raw_id[0] -%}
-      {%- endif -%}
-
-      {%- assign safe_label = it.label -%}
-      {%- if safe_label == nil -%}
-        {%- assign safe_label = raw_id -%}
-      {%- elsif safe_label[0] != nil and safe_label != safe_label | to_s -%}
-        {%- assign safe_label = safe_label[0] -%}
-      {%- endif -%}
-
-      {%- assign safe_desc = it.description -%}
-      {%- if safe_desc == nil -%}
-        {%- assign safe_desc = "" -%}
-      {%- elsif safe_desc[0] != nil and safe_desc != safe_desc | to_s -%}
-        {%- assign safe_desc = safe_desc[0] -%}
-      {%- endif -%}
-
-      {%- comment -%} Build a stable element id: "label-id" slugified safely {%- endcomment -%}
-      {%- assign compound = raw_label | append: "-" | append: raw_id | to_s -%}
-      {%- assign _id = compound | slugify -%}
-
-      <dt id="{{ _id }}">{{ safe_label | to_s }}</dt>
-      <dd aria-labelledby="{{ _id }}">{{ safe_desc | markdownify }}</dd>
+    {%- for it in D.items -%}
+      {%- assign _id = D.label | append: '-' | append: it.id | slugify -%}
+      <dt id="{{ _id }}">{{ it.label }}</dt>
+      <dd aria-labelledby="{{ _id }}">{{ it.description | markdownify }}</dd>
     {%- endfor -%}
   </dl>
 </section>
