@@ -18,33 +18,30 @@ Each case delegates to a small, focused template for that section type.
     {% include sections/collection-item.html section=section data=data %}
 
   {%- when 'collection-stream' -%}
-    {%- assign filters = {} -%}
+    {%- comment -%}
+    Dynamically merge filters for the section.
+    - Include section-level filters.
+    - Include optional authors (backward-compatible).
+    - Author fallback is handled in collection-stream.html automatically.
+    {%- endcomment -%}
 
-    {%- comment -%} Page-level author filter (author index pages) {%- endcomment -%}
-    {%- if page.sections_key == "author" and page.slug -%}
-      {%- assign filters = filters | merge: { "authors": page.slug | split:"|" } -%}
-    {%- endif -%}
+    {%- assign merged_filters = include.filters | default: section.data.filters | default: {} -%}
 
-    {%- comment -%} Merge any section-level filters (section.data.filters takes precedence) {%- endcomment -%}
-    {%- if section.data.filters -%}
-      {%- assign filters = filters | merge: section.data.filters -%}
-    {%- endif -%}
-
-    {%- comment -%} Backward-compatible single authors key on the section {%- endcomment -%}
     {%- if section.data.authors -%}
-      {%- assign filters = filters | merge: { "authors": section.data.authors } -%}
+      {%- assign merged_filters = merged_filters | merge: { "authors": section.data.authors } -%}
     {%- endif -%}
 
     {%- comment -%}
-      Include the collection-stream with the dynamic filters object.
-      Pass collection and excerpt_length if present in the section (or leave them out).
+    Call the generic collection-stream include.
+    section.data.collection or include.collection determines the collection.
+    All filters, excerpt_length, and post_display_limit are passed through.
     {%- endcomment -%}
+
     {% include sections/collection-stream.html
-      section=section
-      collection=section.data.collection
-      filters=filters
-      excerpt_length=section.data.excerpt_length
-      post_display_limit=section.data.post_display_limit
+       collection=include.collection | default: section.data.collection
+       filters=merged_filters
+       excerpt_length=section.data.excerpt_length
+       post_display_limit=section.data.post_display_limit
     %}
 
 
