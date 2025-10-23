@@ -21,11 +21,11 @@ Each case delegates to a small, focused template for that section type.
     {%- assign section_has_authors = section.data and section.data.authors -%}
     {%- if page.sections_key == "author" and section_has_authors == false -%}
       {%- assign author_slug = page.slug | split:"|" -%}
-      {% include sections/collection-stream.html section=section data=data authors=author_slug %}
-    {%- elsif page.forms == true and page.layout == "post" -%}
-      {% include sections/collection-stream.html section=section data=data forms=page.forms %}
+      {% include sections/collection-stream.html section=section authors=author_slug collection=section.data.collection %}
+    {%- elsif page.forms != nil and page.layout == "post" -%}
+      {% include sections/collection-stream.html section=section collection="forms" forms=page.forms %}
     {%- else -%}
-      {% include sections/collection-stream.html section=section data=data %}
+      {% include sections/collection-stream.html section=section collection=section.data.collection %}
     {%- endif -%}
 
 
