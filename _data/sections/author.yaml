@@ -1,0 +1,29 @@
+---
+sections:
+  - type: author
+  - type: markdown
+    data:
+      field: about
+  - type: markdown
+    data:
+      label: "Insights"
+      content: "Recent reflections"
+  - type: collection-stream
+    data:
+      collection: insights
+      sort_by: date
+      reverse: true
+      excerpt_length: 220
+      post_display_limit: 5
+  - type: markdown
+    data:
+      label: "Forms"
+      content: "Recent contributions"
+  - type: collection-stream
+    data:
+      collection: forms
+      sort_by: date
+      reverse: true
+      excerpt_length: 220
+      post_display_limit: 5
+...

@@ -2,11 +2,11 @@
 layout: default
 ---
 {%- comment -%}
-Threshold layout: renders sections in the order provided by _data/(data_key).yaml
+Threshold layout: renders sections in the order provided by _data/(sections_key).yaml
 
 Page front matter must include:
   layout: threshold
-  data_key: (mission|project|...)
+  sections_key: (mission|project|...)
 
 YAML shape (example):
   sections:
@@ -23,15 +23,15 @@ YAML shape (example):
           - "Because ..."
 {%- endcomment -%}
 
-{%- assign data_key = page.data_key -%}
-{%- assign data = site.data[data_key] -%}
+{%- assign sections_key = page.sections_key -%}
+{%- assign data = site.data.sections[sections_key] -%}
 
 {%- if data and data.sections and data.sections.size > 0 -%}
   {%- for section in data.sections -%}
-    {% include sections/_dispatch.html section=section data=data data_key=data_key %}
+    {% include sections/_dispatch.html section=section data=data sections_key=sections_key %}
   {%- endfor -%}
 {%- else -%}
   <section class="md-flow">
-    <p><em>No <code>sections</code> defined in <code>_data/{{ data_key }}.yaml</code>.</em></p>
+    <p><em>No <code>sections</code> defined in <code>_data/{{ sections_key }}.yaml</code>.</em></p>
   </section>
 {%- endif -%}

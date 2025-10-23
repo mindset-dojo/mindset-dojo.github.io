@@ -1,8 +1,8 @@
 ---
 layout: threshold
-data_key: author
-mantra: "Don’t Force. Flow."
-mantra_mark: "Flow."
+sections_key: author
+mantra: "Don’t Label. Listen."
+mantra_mark: "Listen."
 description: >
   Zen Leadership Coach; Mindset Dojo & MetaShift Method. Conversational Presence
   when it matters most—meeting people at the depth that aligns with what brings

@@ -3,63 +3,25 @@ mantra: "Don't Resist. Resonate."
 mantra_mark: "Resonate."
 description: "A layered training journey—presence, nervous-system skill, and conversational leadership applied in real contexts."
 sections:
-  - type: text
-    data:
-      label: "Dojo Training: Living Practice"
-      items:
-        - "The Program is the living curriculum of Mindset Dojo."
-        - "The journey unfolds through real conversation and embodied training."
-        - "Progress flows through resonance—each threshold deepens mastery."
-  - type: text
-    data:
-      label: "Learning in the Dojo"
-      items:
-        - "The map below is open to all—full context comes with orientation."
-        - "Mentors and peers translate the map through dialogue and demo."
-        - "Ask early—reps and feedback guide your progress."
   - type: list
     data:
-      label: "Principles"
+      label: "Core Principles"
       items:
         - id: "relax"
-          label: "Relax completely"
+          label: "Relax Completely"
+          description: "Mind and body release tension together — increasing agency."
         - id: "center"
-          label: "Center with intention"
+          label: "Center with Intention"
+          description: "Sense the emotional and energetic field as it is — go from there."
         - id: "meet"
-          label: "Meet fear with presence"
-        - id: "ki"
-          label: "Playful resonance is Ki"
-  - type: list
-    data:
-      label: "Forms"
-      items:
-        - id: "breath"
-          label: "Breathing"
-          url: https://en.wikipedia.org/wiki/Conscious_breathing
-        - id: "reflection"
-          label: "Reflection"
-          url: https://en.wikipedia.org/wiki/Self-reflection
-        - id: "consciousness"
-          label: "Consciousness"
-          url: https://www.nondualitylife.com/levels-of-consciousness
-        - id: "energy"
-          label: "Energy"
-          url: https://zenleader.global/s/FEBI-Technical-Manual-2024.pdf
-        - id: "resonance"
-          label: "Resonance"
-          url: https://static1.squarespace.com/static/66b622f49a9c4b791061dd7f/t/675c9d2fc876057bcf6bc740/1734122800096/Resonate+infographic+mm.pdf
-        - id: "ki"
-          label: "Ki"
-          url: https://mindbodyaikido.com/plus-ki-and-minus-ki/
-        - id: "stances"
-          label: "Stances"
-          url: /insight/breath-of-stance/
-        - id: "moves"
-          label: "Moves"
-          url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
+          label: "Meet Fear with Presence"
+          description: "Fear often signals potential expansion — inviting fresh possibility."
+        - id: "resonate"
+          label: "Playful Resonance Is Ki"
+          description: "As tension clears, playfulness returns — renewing movement."
   - type: levels
     data:
-      label: "Levels"
+      label: "Training Levels"
       intention_label: "Intention"
       edge_label: "Edge"
       flows_label: "Flows"
@@ -70,32 +32,44 @@ sections:
           intention: Orientation
           edge: Four Patterns Reflection
           flows:
+            - label: "Don't Train, Complain...? ⛩️"
+              url: /insights/dont-train-complain/
             - label: The Technology of Self-Authorship
-              url: /insight/technology-of-self-authorship/
-            - label: Zen Toolkit Inspiration
-              url: http://www.zenshinkan.com/zenshinkan-lineage-ginny.html
-            - label: FEBI™ (Focus Energy Balance Indicator) Context
-              url: https://zenleader.global/s/FEBI-Technical-Manual-2024.pdf
-            - label: Four Patterns Experience
-              url: https://www.youtube.com/watch?v=uVTGeFjsD3s
+              url: /insights/technology-of-self-authorship/
+            - label: Dojo
+              url: /forms/dojo/
+            - label: Circle
+              url: /forms/circle/
+            - label: Mat
+              url: /forms/mat/
+            - label: Zohai
+              url: /forms/zohai/
+            - label: Four Element Zensei
+              url: /forms/four-element-zensei/
             - label: "Feedback Fields: Learning to Ride Together"
-              url: /insight/feedback-as-fields/
+              url: /insights/feedback-as-fields/
         - color: yellow
           label: 6th Kyu
           level: -6
           intention: Centering
-          edge: Meditate until a spirited conversation makes sense and share insight
+          edge: Meditate until a spirited conversation makes sense and share insights
           flows:
             - label: A Fable on Opposition
-              url: /insight/fable-on-opposition/
+              url: /insights/fable-on-opposition/
             - label: Zen Toolkit - One Breath
               url: https://vimeo.com/944618879/47e96945a4
             - label: Tone
-              url: /insight/tone/
+              url: /insights/tone/
             - label: Map of Consciousness
-              url: /insight/map-of-consciousness/
-            - label: 5 minute Zazen with Zenpai
+              url: /insights/map-of-consciousness/
+            - label: Three Question Reflection
+              url: /forms/three-question-reflection/
+            - label: Jiki
+              url: /forms/jiki/
+            - label: 5 minute Zazen with Jiki
               url: https://youtu.be/q7Y5rwKiabQ?si=8keWWxVJrCp9BN1S
+            - label: Genuine Gratitude Expression
+              url: /forms/genuine-gratitude-expression/
         - color: green
           label: 5th Kyu
           level: -5
@@ -103,7 +77,7 @@ sections:
           edge: Reflect on a spirited conversation from multiple points of view
           flows:
             - label: From Explorer to Cultivator
-              url: /insight/from-explorer-to-cultivator/
+              url: /insights/from-explorer-to-cultivator/
             - label: Zen Toolkit - Two Sides
               url: https://vimeo.com/944663134/d4f1c4f333
             - label: Negotiation 9™ Move - Calibrated Questions
@@ -111,7 +85,7 @@ sections:
             - label: Negotiation 9™ Move - Dynamic Silence
               url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
             - label: The Way of Paradox
-              url: /insight/way-of-paradox/
+              url: /insights/way-of-paradox/
             - label: 5 minute Zazen by yourself
               url: https://youtu.be/q7Y5rwKiabQ?si=8keWWxVJrCp9BN1S
         - color: blue
@@ -121,7 +95,7 @@ sections:
           edge: Listen deeply with fresh ears and reflect back what you hear
           flows:
             - label: Conversation as Code
-              url: /insight/conversation-as-code/
+              url: /insights/conversation-as-code/
             - label: Zen Toolkit - Three Centers
               url: https://vimeo.com/944672806/e099593826
             - label: Negotiation 9™ Move - Labels
@@ -130,41 +104,47 @@ sections:
               url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
             - label: Online Introduction to Zazen at Chosei Zen
               url: https://www.choseizen.org/online-intro-to-zazen
-            - label: 10 minute Zazen with Zenpai
+            - label: Zenpai
+              url: /forms/zenpai/
+            - label: 10 minute Zazen with Jiki
               url: https://youtu.be/q7Y5rwKiabQ?si=8keWWxVJrCp9BN1S
         - color: purple
           label: 3rd Kyu
           level: -3
           intention: Presence
-          edge: MetaShift a spirited conversation
+          edge: Apply MetaShift Forms live during a spirited conversation
           flows:
+            - label: When Everything Is a Risk
+              url: /insights/when-everything-is-a-risk/
+            - label: Integration Under Fire
+              url: /forms/integration-under-fire/
             - label: Zen Toolkit - Four Patterns
               url: https://vimeo.com/944675826/c57a7ce142
             - label: The Breath of a Stance Shifts the Mountain
-              url: /insight/breath-of-stance/
+              url: /insights/breath-of-stance/
             - label: Negotiation 9™ Move - Paraphrasing
               url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
             - label: Negotiation 9™ Move - Summary
               url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
             - label: "Houston, We Have an Attitude"
-              url: /insight/houston-attitude/
+              url: /insights/houston-attitude/
             - label: 10 minute Zazen by yourself
               url: https://youtu.be/q7Y5rwKiabQ?si=8keWWxVJrCp9BN1S
         - color: brown
           label: 2nd Kyu
           level: -2
           intention: Shadow
-          edge: Demonstrate MetaShift expression live in an embodied exchange
+          edge: Demonstrate MetaShift Forms in a live Circle
           flows:
             - label: Spiraling with the Shadow in Star Wars
-              url: /insight/spiraling-with-the-shadow-in-star-wars/
+              url: /insights/spiraling-with-the-shadow-in-star-wars/
             - label: Negotiation 9™ Move - “I” Messages
               url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
             - label: Negotiation 9™ Move - Encouragers
               url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
             - label: Never Split the Difference - Negotiating As If Your Life Depended On It
               url: https://www.amazon.com/Never-Split-Difference-Negotiating-Depended/dp/0062407805
-            - label: 15 minute Zazen with Zenpai
+            - label: 15 minute Zazen with Jiki
               url: https://youtu.be/q7Y5rwKiabQ?si=8keWWxVJrCp9BN1S
             - label: Zen Leader Off the Cushion
               url: https://zenleader.global/events
@@ -172,32 +152,34 @@ sections:
           label: 1st Kyu
           level: -1
           intention: Resonance
-          edge: Lead an integrative conversation through tone, timing, and stance
+          edge: Lead a Mat Breakout Session integrating MetaShift Forms in live Circle
           flows:
             - label: Making Hara Breathing Automatic
               url: https://youtu.be/UVz1E_cKxp4?si=hl5c7qB4iR6R7ZSs
-            - label: How to Start a Movement
-              url: https://www.ted.com/talks/derek_sivers_how_to_start_a_movement
-            - label: Plus Ki and Minus Ki
-              url: https://mindbodyaikido.com/plus-ki-and-minus-ki
+            - label: The Way of Plus Ki
+              url: /insights/way-of-plus-ki/
             - label: Resonate - Zen and the Way of Making a Difference
               url: https://www.choseizen.org/store/p/resonate
             - label: 15 minute Zazen by yourself
               url: https://youtu.be/q7Y5rwKiabQ?si=8keWWxVJrCp9BN1S
+            - label: MetaShift Community Demonstration
+              url: /forms/metashift-community-demonstration/
         - color: black
           label: Shodan
           level: 1
           intention: Wu-Wei
-          edge: Explore MetaShift Method with another living system
+          edge: Lead a Mindset Dojo MetaShift Method demonstration in a live Circle
           flows:
             - label: "The Hand-Sword and the Shadow - Using Force for Peace"
-              url: /insight/force-for-peace/
+              url: /insights/force-for-peace/
             - label: 30 minute Zazen with Chosei Zen Virtual Dojo
               url: https://www.choseizen.org/virtual-dojo
             - label: Cultivating a Threshold-Based Authorship Network
-              url: /insight/cultivating-a-threshold-based-authorship-network/
+              url: /insights/cultivating-a-threshold-based-authorship-network/
             - label: Two Sides Integrative Randori with Beyond the Black Belt Circle
               url: https://vimeo.com/944663134/d4f1c4f333
+            - label: Zensei
+              url: /forms/zensei/
   - type: designations
     data:
       label: "Leadership Designations"
@@ -208,18 +190,18 @@ sections:
           intention: Model and enhance training among emerging leaders
           aspects:
             - label: Join Mat sessions regularly, lead periodically
-            - label: Create and share Insight regularly, guiding earlier learners
+            - label: Create and share Insights regularly, guiding earlier learners
             - label: Blue Level+
         - label: Zensei
           intention: Model and guide leadership throughout the community
           aspects:
             - label: Lead Mat sessions regularly
-            - label: Create and share Insight regularly, guiding growing leaders
+            - label: Create and share Insights regularly, guiding growing leaders
             - label: Black Level, Zen Leadership Instructor designation
   - type: authors
     data:
       leadership_flow:
-        label: "⛩️💫 Mentor Circle"
+        label: "⛩️💫 Guides"
         designation_type: program
         limit: 16
   - type: ctas
@@ -227,4 +209,4 @@ sections:
       items:
         - label: "Cross Threshold Zero"
           ref: connect
----
+...
