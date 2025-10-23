@@ -101,4 +101,26 @@ Supports:
   {%- for post in filtered_posts -%}
     {% include sections/collection-item.html post=post excerpt_length=section.data.excerpt_length %}
   {%- endfor -%}
+
+  {%- comment -%} DEBUG: forms / authors / filtered_posts {%- endcomment -%}
+  {% if jekyll.environment != "production" %}
+    <hr>
+    <pre style="font-size: 0.8em; background: #f7f7f7; padding: 0.5em; border: 1px solid #ccc;">
+      DEBUG — collection-stream.html
+      Collection: {{ coll_name }}
+      Override authors: {{ override_authors | jsonify }}
+      Override forms: {{ override_forms | jsonify }}
+      Filtered posts count: {{ filtered_posts | size }}
+      {% for p in filtered_posts %}
+        - {{ p.title }} (path: {{ p.path }})
+      {% endfor %}
+      {% if posts %}
+        --- All posts in {{ coll_name }} ({{ posts | size }} total) ---
+        {% for p in posts %}
+          • {{ p.title }} | authors: {{ p.authors | jsonify }} | forms: {{ p.forms | jsonify }}
+        {% endfor %}
+      {% endif %}
+    </pre>
+  {% endif %}
+
 </section>
