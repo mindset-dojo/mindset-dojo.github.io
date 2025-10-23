@@ -53,18 +53,14 @@ Outputs:
 {%- endif -%}
 
 {%- if sel_types and sel_types.size > 0 -%}
-    {%- assign list_section = 
-        {
-            "label": (principles_data.principle_type[sel_types[0]].label | default: "Principles"),
-            "items": matched
-        } -%}
+   {%- assign list_section = { "data": { "label": "Principles", "items": matched } } -%}
 
 {%- elsif wants and wants.size > 0 -%}
   {%- assign list_section = 
-      {
+      { "data": {
         "label": "Principles",
         "items": "" | split: "|"
-      }
+      } }
   -%}
 {%- endif -%}
 
