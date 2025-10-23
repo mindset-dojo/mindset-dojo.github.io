@@ -75,7 +75,7 @@ Logic:
 
 {%- assign filtered_posts = filtered_posts | sort: sort_key_field -%}
 {%- if reverse_flag -%}{%- assign filtered_posts = filtered_posts | reverse -%}{%- endif -%}
-{%- if display_limit -%}{%- assign filtered_posts = filtered_posts | slice:0, display_limit -%}{%- endif -%}
+{%- if post_display_limit -%}{%- assign filtered_posts = filtered_posts | slice:0, post_display_limit -%}{%- endif -%}
 
 <section id="collection-stream" class="md-flow">
   {%- for post in filtered_posts -%}
