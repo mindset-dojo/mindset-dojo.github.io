@@ -13,15 +13,16 @@ Outputs:
 - Calls sections/list.html with section object: { label, items }
 {%- endcomment -%}
 
-{%- assign src = include.principles | default: section.data.principles | default: page.principles -%}
-{%- assign section_types = include.principle_type | default: section.data.principle_type | default: page.principle_type -%}
-{%- assign data = site.data.sections.principles -%}
+{%- assign D = section.data -%}
+{%- assign src = D.principles -%}
+{%- assign section_types = D.principle_type -%}
+{%- assign principles_data = site.data.sections.principles -%}
 {%- assign matched = "" | split: "|" -%}
 
 {%- if section_types -%}
   {%- comment -%} match requested types against the grouped items {%- endcomment -%}
   {%- assign matched = "" | split: "|" -%}
-  {%- for item in data.items -%}
+  {%- for item in principles_data.items -%}
     {%- for want_type in section_types -%}
       {%- if item.type == want_type -%}
         {%- assign matched = matched | push: item -%}
@@ -33,7 +34,7 @@ Outputs:
 
 {%- elsif src -%}
   {%- comment -%} match requested ids against the flat items array {%- endcomment -%}
-  {%- for item in data.items -%}
+  {%- for item in principles_data.items -%}
     {%- for want in src -%}
       {%- assign want_norm = want | to_s | slugify -%}
       {%- if item.id == want or item.id == want_norm -%}
