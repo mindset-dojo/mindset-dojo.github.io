@@ -13,6 +13,7 @@ Minimal, readable, and safe defaults so callers like sections/principles.html ca
   {%- assign items = D.items | default: "" -%}
 {%- else -%}
   {%- assign items = D.items | default: "" | split: "|" -%}
+{%- endif -%}
 
 <section class="md-flow">
   <h2>{{ D.label }}</h2>
