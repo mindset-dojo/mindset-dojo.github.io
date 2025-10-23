@@ -3,36 +3,4 @@ Render: Form List (generalized)
 
 Assumptions (no defensive checks):
 - section.data.forms: array of strings (>= 1)
-- calls list.html to render as description list with:
-  - label: "Forms"
 {%- endcomment -%}
-
-{%- assign ids = include.forms | default: section.data.forms | default: page.forms -%}
-{%- if ids and ids[0] == nil -%}
-  {%- assign s = ids | to_s | strip -%}
-  {%- if s contains '[' and s contains ']' -%}
-    {%- assign s = s | remove:'[' | remove:']' | remove:'"' | remove:"'" | strip -%}
-  {%- endif -%}
-  {%- if s contains ',' -%}
-    {%- assign ids = s | split:',' | map:'strip' -%}
-  {%- else -%}
-    {%- assign ids = s | split:'\n' | map:'strip' -%}
-  {%- endif -%}
-{%- endif -%}
-{%- assign forms_data = site.data.sections.forms -%}
-{%- assign matched_forms = "" | split: "|" -%}
-{%- for form_id in ids -%}
-  {%- for form in forms_data -%}
-    {%- if form.id == form_id or form.id == (form_id | slugify) -%}
-      {%- assign matched_forms = matched_forms | push: form -%}
-    {%- endif -%}
-  {%- endfor -%}
-{%- endfor -%}
-{%- assign list_section = 
-    {
-    "label": 'Related Forms:',
-    "items": matched_forms
-    }
-  -%}
-
-{% include sections/list.html section=list_section %}
