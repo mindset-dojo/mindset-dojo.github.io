@@ -21,7 +21,7 @@ Each case delegates to a small, focused template for that section type.
     {%- assign author_slug = page.slug | split:"|" -%}
     {% if page.sections_key == "author" and (section.data.authors == nil or section.data.authors == empty) %}
       {% include sections/collection-stream.html section=section authors=author_slug %}
-    {% elsif page.forms %}
+    {% elsif page.sections_key == "insights" and page.forms %}
       {% include sections/collection-stream.html section=section forms=page.forms %}
     {% endif %}
 
