@@ -19,11 +19,8 @@ Each case delegates to a small, focused template for that section type.
 
   {%- when 'collection-stream' -%}
     {%- assign section_has_authors = section.data and section.data.authors -%}
-    {%- assign section_has_forms = section.data and section.data.forms -%}
     {%- if page.sections_key == "author" and section_has_authors == false -%}
       {% include sections/collection-stream.html section=section data=data authors=page.slug %}
-    {%- elsif section_has_forms == true -%}
-      {% include sections/collection-stream.html section=section data=data collection=forms %}
     {%- else -%}
       {% include sections/collection-stream.html section=section data=data %}
     {%- endif -%}
