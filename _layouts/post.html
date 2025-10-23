@@ -17,7 +17,14 @@ layout: default
   <hr>
 
   {% if page.forms %}
-    {% include sections/collection-stream.html section=section data=data %}
+    <h2> Related Forms </h2>
+    {% include collection-stream.html
+      collection="forms"
+      filters={
+      "forms": page.forms
+    }
+    excerpt_length=220
+    %}
     <hr>
   {% endif %}
 
