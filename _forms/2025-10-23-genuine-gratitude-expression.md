@@ -16,12 +16,11 @@ In an age where attention is overextended and often fragmented, genuine gratitud
 ## Experience
 
 In a dojo, every session begins and ends with a bow — a simple, shared gesture that acknowledges the mat, the teacher, and those we train with.  
-**Genuine Gratitude Expression** extends that same embodied awareness beyond the [Mat](./mat). It is the *bow of attention* — an energetic recognition of those who have shared presence, offered challenge, or contributed care.  
+**Genuine Gratitude Expression** extends that same embodied awareness beyond the [Mat](../mat/). It is the *bow of attention* — an energetic recognition of those who have shared presence, offered challenge, or contributed care.  
 
 Following a shared practice, collaboration, or demonstration, the practitioner takes time to sense where attention and energy have truly been exchanged. This reflection includes noticing who has shown care, contribution, or courageous presence — and recognizing that every such act represents a redirection of finite human energy. The practitioner considers what this effort may have required from the other person or community, what intention was behind it, and what value it has added to the shared field.  
 
 The expression of gratitude may take the form of words, gestures, or quiet acknowledgment, but what matters most is attunement — seeing and appreciating the other in a way that resonates with how they receive respect. Through this practice, gratitude becomes less about courtesy and more about coherence — the movement that keeps relational Ki flowing.
-
 
 ## Implementation
 
