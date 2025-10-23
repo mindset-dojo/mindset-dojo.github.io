@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Demonstration Becomes a Dojo
+title: "A Demonstration Becomes a Dojo"
 title_mark: Demonstration
 date: 2025-10-23
 authors:
@@ -13,7 +13,7 @@ principles:
   - center
   - meet
   - resonate
-excerpt: A reflection on our recent MetaShift Community Demonstration with Zen Leader — Off the Cushion, where the wisdom of the crowd helped clarify our signature form: Integration Under Fire.
+excerpt: "A reflection on our recent MetaShift Community Demonstration with Zen Leader — Off the Cushion, where the wisdom of the crowd helped clarify our signature form: Integration Under Fire."
 ---
 
 Last weekend, Kyle Ingersoll and I had the opportunity to share with the **Zen Leader — Off the Cushion** community — a higher-level dojo practice in every sense.
