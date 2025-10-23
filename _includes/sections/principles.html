@@ -25,24 +25,9 @@ Outputs:
   {%- assign list_section = type_block | merge: { "label": label_val, "items": items_val } -%}
 
 {%- elsif src -%}
-  {%- comment -%} normalize src into an array `wants` {%- endcomment -%}
-  {%- if src[0] != nil -%}
-    {%- assign wants = src -%}
-  {%- else -%}
-    {%- assign s = src | to_s | strip -%}
-    {%- if s contains '[' and s contains ']' -%}
-      {%- assign s = s | remove:'[' | remove:']' | remove:'"' | remove:"'" | strip -%}
-    {%- endif -%}
-    {%- if s contains ',' -%}
-      {%- assign wants = s | split:',' | map:'strip' -%}
-    {%- else -%}
-      {%- assign wants = s | split:'\n' | map:'strip' -%}
-    {%- endif -%}
-  {%- endif -%}
-
   {%- comment -%} match requested ids against the flat items array {%- endcomment -%}
   {%- for item in data.items -%}
-    {%- for want in wants -%}
+    {%- for want in src -%}
       {%- assign want_norm = want | to_s | slugify -%}
       {%- if item.id == want or item.id == want_norm -%}
         {%- assign matched = matched | push: item -%}
