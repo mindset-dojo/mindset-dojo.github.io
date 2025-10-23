@@ -68,6 +68,8 @@ sections:
               url: /forms/jiki/
             - label: 5 minute Zazen with Jiki
               url: https://youtu.be/q7Y5rwKiabQ?si=8keWWxVJrCp9BN1S
+            - label: Genuine Gratitude Expression
+              url: /forms/genuine-gratitude-expression/
         - color: green
           label: 5th Kyu
           level: -5
@@ -160,6 +162,8 @@ sections:
               url: https://www.choseizen.org/store/p/resonate
             - label: 15 minute Zazen by yourself
               url: https://youtu.be/q7Y5rwKiabQ?si=8keWWxVJrCp9BN1S
+            - label: MetaShift Community Demonstration
+              url: /forms/metashift-community-demonstration/
         - color: black
           label: Shodan
           level: 1
