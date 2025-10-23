@@ -9,7 +9,10 @@ Minimal, readable, and safe defaults so callers like sections/principles.html ca
 {%- endcomment -%}
 
 {%- assign D = section.data | default: section -%}
-{%- assign items = D.items | default: "" | split: "|" -%}
+{%- if D.items and D.items.size > 0 -%}
+  {%- assign items = D.items | default: "" -%}
+{%- else -%}
+  {%- assign items = D.items | default: "" | split: "|" -%}
 
 <section class="md-flow">
   <h2>{{ D.label }}</h2>
