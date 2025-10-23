@@ -15,21 +15,21 @@ Outputs:
 
 {%- assign D = section.data -%}
 {%- comment -%} normalize source of requested principle ids {%- endcomment -%}
-{%- assign src = include.principles | default: section.data.principles | default: page.principles -%}
-{%- assign section_types = include.principle_type | default: section.data.principle_type | default: page.principle_type -%}
+{%- assign src = section.data.principles -%}
+{%- assign sel_types = section.data.principle_type -%}
 {%- assign principles_data = include.page_data -%}
 {%- assign matched = "" | split: "|" -%}
 
 
 {%- comment -%} ensure section_types is iterable (normalize single string) {%- endcomment -%}
-{%- if section_types and section_types[0] == nil -%}
-  {%- assign section_types = section_types | split: ',' | map: 'strip' -%}
+{%- if sel_types and sel_types[0] == nil -%}
+  {%- assign sel_types = sel_types | split: ',' | map: 'strip' -%}
 {%- endif -%}
 
 {%- comment -%} collect items matching the requested types {%- endcomment -%}
 {%- assign matched = "" | split: "|" -%}
 {%- for item in principles_data.items -%}
-  {%- for want_type in section_types -%}
+  {%- for want_type in sel_types -%}
     {%- if item.type == want_type -%}
       {%- assign matched = matched | push: item -%}
       {%- break -%}
@@ -52,10 +52,10 @@ Outputs:
   {%- assign wants = src -%}
 {%- endif -%}
 
-{%- if section_types and section_types.size > 0 -%}
+{%- if sel_types and sel_types.size > 0 -%}
     {%- assign list_section = 
         {
-            "label": (principles_data.principle_type[section_types[0]].label | default: "Principles"),
+            "label": (principles_data.principle_type[sel_types[0]].label | default: "Principles"),
             "items": matched
         } -%}
 
