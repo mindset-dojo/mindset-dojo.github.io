@@ -1,14 +1,17 @@
 {%- comment -%}
-DRY sequential-flow collection-stream.html
+DRY sequential-flow collection-stream.html with authors + forms filtering
 - section.data.collection
 - section.data.sort_by (default "date")
 - section.data.reverse (boolean)
 - section.data.excerpt_length (optional)
 - section.data.authors OR include.authors: YAML array of author slugs
+- section.data.forms OR include.forms: YAML array of form slugs
 - section.data.post_display_limit (optional)
 - page.slug fallback for override authors
-- p.authors: YAML array of author slugs
-- Optional author filtering applied inline
+- p.authors: YAML array
+- p.forms: YAML array (optional)
+- Optional author + form filtering applied inline
+- Slug extraction for forms is now just the filename without .md
 {%- endcomment -%}
 
 {%- assign coll_name = section.data.collection -%}
@@ -19,22 +22,52 @@ DRY sequential-flow collection-stream.html
   {%- assign override_authors = page.slug | split:"|" -%}
 {%- endif -%}
 
+{%- assign override_forms = include.forms | default: section.data.forms -%}
+
 {%- assign sort_key_field = section.data.sort_by | default:"date" -%}
 {%- assign reverse_flag = section.data.reverse == true -%}
 
-{%- comment -%} Filter posts by author if override_authors exists {%- endcomment -%}
 {%- assign filtered_posts = "" | split:"|" -%}
 {%- for p in posts -%}
-  {%- assign keep = false -%}
+  {%- assign keep = true -%}
 
-  {%- if override_authors == nil -%}
-    {%- assign keep = true -%}
-  {%- elsif p.authors -%}
-    {%- for a in p.authors -%}
-      {%- if override_authors contains a -%}
-        {%- assign keep = true -%}
+  {%- comment -%} Author filtering {%- endcomment -%}
+  {%- if override_authors -%}
+    {%- assign author_match = false -%}
+    {%- if p.authors -%}
+      {%- for a in p.authors -%}
+        {%- if override_authors contains a -%}
+          {%- assign author_match = true -%}
+          {%- break -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+    {%- if author_match == false -%}
+      {%- assign keep = false -%}
+    {%- endif -%}
+  {%- endif -%}
+
+  {%- comment -%} Forms filtering {%- endcomment -%}
+  {%- if keep and override_forms -%}
+    {%- assign form_match = false -%}
+    {%- if p.forms -%}
+      {%- for f in p.forms -%}
+        {%- if override_forms contains f -%}
+          {%- assign form_match = true -%}
+          {%- break -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- else -%}
+      {%- comment -%} derive slug from filename (slug.md) {%- endcomment -%}
+      {%- assign filename = p.path | split:"/" | last -%}
+      {%- assign slug = filename | split:"." | first -%} 
+      {%- if override_forms contains slug -%}
+        {%- assign form_match = true -%}
       {%- endif -%}
-    {%- endfor -%}
+    {%- endif -%}
+    {%- if form_match == false -%}
+      {%- assign keep = false -%}
+    {%- endif -%}
   {%- endif -%}
 
   {%- if keep -%}
@@ -44,9 +77,8 @@ DRY sequential-flow collection-stream.html
 
 {%- assign filtered_posts = filtered_posts | sort: sort_key_field -%}
 {%- if reverse_flag -%}{%- assign filtered_posts = filtered_posts | reverse -%}{%- endif -%}
-
 {%- if section.data.post_display_limit -%}
-    {%- assign filtered_posts = filtered_posts | slice: 0, section.data.post_display_limit -%}
+  {%- assign filtered_posts = filtered_posts | slice: 0, section.data.post_display_limit -%}
 {%- endif -%}
 
 <section id="collection-stream" class="md-flow">
@@ -54,4 +86,3 @@ DRY sequential-flow collection-stream.html
     {% include sections/collection-item.html post=post excerpt_length=section.data.excerpt_length %}
   {%- endfor -%}
 </section>
-
