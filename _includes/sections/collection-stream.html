@@ -11,66 +11,87 @@ DRY sequential-flow collection-stream.html (dynamic filters, distilled)
       forms: ["my-form-slug"]
 - post_display_limit: section.data.post_display_limit (optional)
 - page.slug fallback for authors if not provided
-Note: This version intentionally keeps matching logic simple:
-- If a post has the expected field, compare its values.
-- If filtering by "forms" and the post lacks p.forms, compute the slug
-  from the filename by stripping a leading YYYY-MM-DD- prefix and match that.
+
+Notes:
+- This version runs filters *per post* (correct order).
+- If a post has the requested field (e.g. p.forms), we match against it.
+- If not and the filter key equals the collection name (e.g. filtering "forms" in the "forms" collection),
+  we compute the filename slug by stripping a leading YYYY-MM-DD- and match that.
 {%- endcomment -%}
 
 {%- assign coll_name = include.collection | default: section.data.collection -%}
-{%- assign posts = site[coll_name] -%}
+{%- assign posts = site[coll_name] | default: "" -%}
 
 {%- assign filters = include.filters | default: section.data.filters | default: {} -%}
 {%- if filters.authors == nil and page and page.slug -%}
   {%- assign filters = filters | merge: { "authors": page.slug | split:"|" } -%}
 {%- endif -%}
 
-{%- assign sort_key_field = section.data.sort_by | default:"date" -%}
+{%- assign sort_key_field = section.data.sort_by | default: "date" -%}
 {%- assign reverse_flag = section.data.reverse == true -%}
 {%- assign display_limit = section.data.post_display_limit -%}
 
-{%- assign filtered_posts = "" | split:"|" -%}
-{%- for filter_key in filters -%}
-  {%- assign filter_values = filters[filter_key] -%}
+{%- assign filtered_posts = "" | split: "|" -%}
 
-  {%- if filter_values and p[filter_key] -%}
-    {%- comment -%} match by explicit field value(s) {%- endcomment -%}
-    {%- assign post_field_joined = p[filter_key] | join: "|" -%}
-    {%- assign post_field_values = post_field_joined | split: "|" -%}
-    {%- assign match = false -%}
-    {%- for pfv in post_field_values -%}
-      {%- if filter_values contains pfv -%}
-        {%- assign match = true -%}
-        {%- break -%}
+{%- comment -%} Iterate posts and apply filters per-post {%- endcomment -%}
+{%- for p in posts -%}
+  {%- assign keep = true -%}
+
+  {%- for filter_key in filters -%}
+    {%- assign filter_values = filters[filter_key] -%}
+
+    {%- comment -%}
+      Case A: post exposes the field named after the filter_key (e.g. p.forms).
+      Treat the field as array-like via join/split so strings/arrays both work.
+    {%- endcomment -%}
+    {%- if filter_values and p[filter_key] -%}
+      {%- assign post_field_joined = p[filter_key] | join: "|" -%}
+      {%- assign post_field_values = post_field_joined | split: "|" -%}
+      {%- assign match = false -%}
+      {%- for pfv in post_field_values -%}
+        {%- if filter_values contains pfv -%}
+          {%- assign match = true -%}
+          {%- break -%}
+        {%- endif -%}
+      {%- endfor -%}
+      {%- if match == false -%}
+        {%- assign keep = false -%}
       {%- endif -%}
-    {%- endfor -%}
-    {%- if match == false -%}
+
+    {%- comment -%}
+      Case B: post lacks the named field, but we're filtering by the same name as the collection.
+      For example: filtering "forms" while iterating the "forms" collection.
+      Compute slug from filename by stripping leading YYYY-MM-DD- (11 chars) and match it.
+    {%- endcomment -%}
+    {%- elsif filter_values and filter_key == coll_name and p.path -%}
+      {%- assign filename = p.path | split: "/" | last -%}
+      {%- assign filename_no_ext = filename | split: "." | first -%}
+      {%- assign maybe_slug = filename_no_ext | slice: 11, 999 -%}
+      {%- if maybe_slug == nil or maybe_slug == "" -%}
+        {%- assign maybe_slug = filename_no_ext -%}
+      {%- endif -%}
+      {%- if filter_values contains maybe_slug -%}
+        {%- assign keep = true -%}
+      {%- else -%}
+        {%- assign keep = false -%}
+      {%- endif -%}
+
+    {%- comment -%}
+      Case C: filter exists but post doesn't meet it -> drop the post.
+    {%- endcomment -%}
+    {%- elsif filter_values -%}
       {%- assign keep = false -%}
     {%- endif -%}
 
-  {%- elsif filter_values and filter_key == coll_name and p.path -%}
-    {%- comment -%} match by filename slug (strip date prefix) {%- endcomment -%}
-    {%- assign filename = p.path | split: "/" | last -%}
-    {%- assign filename_no_ext = filename | split: "." | first -%}
-    {%- comment -%} strip leading YYYY-MM-DD- (10 chars + dash = 11) {%- endcomment -%}
-    {%- assign maybe_slug = filename_no_ext | slice: 11, 999 -%}
-    {%- if filter_values contains maybe_slug -%}
-      {%- assign match = true -%}
-    {%- else -%}
-      {%- assign keep = false -%}
-    {%- endif -%}
+    {%- if keep == false -%}{%- break -%}{%- endif -%}
+  {%- endfor -%}
 
-  {%- elsif filter_values -%}
-    {%- assign keep = false -%}
+  {%- if keep -%}
+    {%- assign filtered_posts = filtered_posts | push: p -%}
   {%- endif -%}
-
-  {%- if keep == false -%}{%- break -%}{%- endif -%}
 {%- endfor -%}
 
-{%- if keep -%}
-  {%- assign filtered_posts = filtered_posts | push: p -%}
-{%- endif -%}
-
+{%- comment -%} Sort, optional reverse and limit {%- endcomment -%}
 {%- assign filtered_posts = filtered_posts | sort: sort_key_field -%}
 {%- if reverse_flag -%}{%- assign filtered_posts = filtered_posts | reverse -%}{%- endif -%}
 {%- if display_limit -%}{%- assign filtered_posts = filtered_posts | slice: 0, display_limit -%}{%- endif -%}
