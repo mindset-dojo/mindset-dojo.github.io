@@ -5,7 +5,7 @@ description: "A layered training journey—presence, nervous-system skill, and c
 sections:
   - type: principles
     data:
-      principle_type: program
+      principle_type: "program"
   - type: levels
     data:
       label: "Training Levels"
