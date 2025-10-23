@@ -17,10 +17,10 @@ layout: default
   <hr>
 
   {% if page.forms %}
-  <h2>Related Forms</h2>
-  {%- assign filters = { "forms": page.forms } -%}
-  {% include sections/collection-stream.html collection="forms" filters=filters excerpt_length=220 post_display_limit=page.forms.size %}
-  <hr>
+    <h2>Related Forms</h2>
+    {%- assign filters = { "forms": page.forms } -%}
+    {% include sections/collection-stream.html collection="forms" filters=filters excerpt_length=220 post_display_limit=page.forms.size %}
+    <hr>
   {% endif %}
 
 
