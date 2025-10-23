@@ -1,47 +1,44 @@
 {%- comment -%}
-Simple principles include — lean and readable.
+Principles include — simple, predictable, works with posts or pages.
 
-Inputs (from dispatch):
-- section.data.principles   => ARRAY of ids (optional)
-- section.data.principle_type => STRING (optional)
+Inputs:
+- section.data.principles  => array of principle IDs (optional)
+- section.data.principle_type => string (optional)
+- page.principles => array of principle IDs (optional, used if section.data.principles missing)
+
+Data source:
+- include.page_data.items (fall back to site.data.sections.principles.items)
 
 Behavior:
-- Load dataset from include.page_data or site.data.sections.principles
-- Optionally filter by principle_type
-- If an id list is provided, select items in that order; otherwise render the filtered set
-- Pass { data: { label, items } } to sections/list.html
+- Filter by principle_type if provided
+- If principles array provided, select in that order
+- Pass to sections/list.html
 {%- endcomment -%}
 
-<pre>
-    include.section: {{ include.section | inspect }}
-    include.page_data present?: {{ include.page_data | inspect }}
-    src: {{ include.section.data.principles | inspect }}
-    items: {{ include.page_data.items | map:"id" | inspect }}
-    sel_type: {{ include.section.data.principle_type | inspect }}
-</pre>
+{%- assign data_source = include.page_data | default: site.data.sections.principles -%}
+{%- assign all_items = data_source.items -%}
 
+{%- assign src = section.data.principles | default: page.principles -%}
+{%- assign sel_type = section.data.principle_type -%}
 
-{%- assign principles = include.page_data | default: site.data.sections.principles -%}
-{%- assign items = principles.items -%}
-
-{%- assign sel_type = include.section.data.principle_type -%}
-{%- if sel_type -%}
-  {%- assign items = items | where: "type", sel_type -%}
+{%- comment -%} Filter by type if sel_type present {%- endcomment -%}
+{%- if sel_type %}
+  {%- assign all_items = all_items | where: "type", sel_type -%}
 {%- endif -%}
 
-{% assign src = include.section.data.principles | default: page.principles %}
-{%- if src -%}
+{%- comment -%} If src exists, select items in that order {%- endcomment -%}
+{%- if src %}
   {%- assign final_items = "" | split: "|" -%}
-  {%- for want in src -%}
-    {%- for it in items -%}
-      {%- if it.id == want -%}
-        {%- assign final_items = final_items | push: it -%}
+  {%- for want_id in src %}
+    {%- for item in all_items %}
+      {%- if item.id == want_id %}
+        {%- assign final_items = final_items | push: item -%}
         {%- break -%}
       {%- endif -%}
     {%- endfor -%}
   {%- endfor -%}
-{%- else -%}
-  {%- assign final_items = items -%}
+{%- else %}
+  {%- assign final_items = all_items -%}
 {%- endif -%}
 
 {%- assign list_section = { "data": { "label": "Related Principles", "items": final_items } } -%}
