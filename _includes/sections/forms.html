@@ -1,0 +1,27 @@
+{%- comment -%}
+Render: Form List (generalized)
+
+Assumptions (no defensive checks):
+- section.data.forms: array of strings (>= 1)
+- calls list.html to render as description list with:
+  - label: "Forms"
+{%- endcomment -%}
+
+{%- assign D = section.data -%}
+{%- assign forms_data = site.data.sections.forms -%}
+{%- assign matched_forms = "" | split: "|" -%}
+{%- for form_id in D.forms -%}
+  {%- for form in forms_data -%}
+    {%- if form.id == form_id -%}
+      {%- assign matched_forms = matched_forms | push: form -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endfor -%}
+{%- assign list_section = 
+    {
+    "label": 'Related Forms:',
+    "items": matched_forms
+    }
+  -%}
+
+{% include sections/list.html section=list_section %}
