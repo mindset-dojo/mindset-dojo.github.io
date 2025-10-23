@@ -18,13 +18,21 @@ layout: default
 
   {% if page.forms %}
     <h2> Related Forms </h2>
+
+    {%- comment -%} Build filters object and pass it into the include {%- endcomment -%}
+    {%- assign filters = {} -%}
+    {%- if page.forms -%}
+      {%- assign filters = filters | merge: { "forms": page.forms } -%}
+    {%- endif -%}
+
     {% include sections/collection-stream.html
       collection="forms"
-      filters={ "forms": page.forms }
+      filters=filters
       excerpt_length=220
     %}
     <hr>
   {% endif %}
+
 
   <p class="post-meta">
     This article was published {{ page.date | date: "%B %-d, %Y" }}
