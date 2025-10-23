@@ -1,53 +1,85 @@
 {%- comment -%}
-DRY sequential-flow collection-stream.html (fully dynamic filtering)
+DRY sequential-flow collection-stream.html (dynamic filters, distilled)
 - collection: include.collection OR section.data.collection
 - sort_by: section.data.sort_by (default "date")
 - reverse: section.data.reverse (boolean)
 - excerpt_length: section.data.excerpt_length (optional)
 - filters: include.filters OR section.data.filters
-    Example:
+  Example:
     filters:
       authors: ["kyle-ingersoll"]
-      forms: ["feedback", "survey"]
-      categories: ["mindset"]
+      forms: ["my-form-slug"]
 - post_display_limit: section.data.post_display_limit (optional)
 - page.slug fallback for authors if not provided
+Note: This version intentionally keeps matching logic simple:
+- If a post has the expected field, compare its values.
+- If filtering by "forms" and the post lacks p.forms, compute the slug
+  from the filename by stripping a leading YYYY-MM-DD- prefix and match that.
 {%- endcomment -%}
 
 {%- assign coll_name = include.collection | default: section.data.collection -%}
 {%- assign posts = site[coll_name] -%}
 
-{%- comment -%} Set up dynamic filters {%- endcomment -%}
 {%- assign filters = include.filters | default: section.data.filters | default: {} -%}
-
-{%- comment -%} Fallback for authors if not provided {%- endcomment -%}
 {%- if filters.authors == nil and page and page.slug -%}
   {%- assign filters = filters | merge: { "authors": page.slug | split:"|" } -%}
 {%- endif -%}
 
 {%- assign sort_key_field = section.data.sort_by | default:"date" -%}
 {%- assign reverse_flag = section.data.reverse == true -%}
+{%- assign display_limit = section.data.post_display_limit -%}
 
 {%- assign filtered_posts = "" | split:"|" -%}
-
 {%- for p in posts -%}
   {%- assign keep = true -%}
 
   {%- for filter_key in filters -%}
     {%- assign filter_values = filters[filter_key] -%}
+
+    {%- comment -%}
+      If the post has the filter field, test its values (works when the field is an array).
+      Otherwise, if we're filtering "forms", compute the slug from the filename:
+      - filename_no_ext: last segment of p.path without extension
+      - if filename starts with YYYY-MM-DD- (11 chars including dashes), strip first 11 chars
+      - compare the computed slug to filter_values
+    {%- endcomment -%}
+
     {%- if filter_values and p[filter_key] -%}
       {%- assign match = false -%}
-      {%- for val in p[filter_key] -%}
+      {%- assign post_field_joined = p[filter_key] | join: "|" -%}
+      {%- assign post_field_values = post_field_joined | split: "|" -%}
+      {%- for val in post_field_values -%}
         {%- if filter_values contains val -%}
           {%- assign match = true -%}
+          {%- break -%}
         {%- endif -%}
       {%- endfor -%}
       {%- if match == false -%}
         {%- assign keep = false -%}
       {%- endif -%}
-    {%- elsif filter_values and p[filter_key] == nil -%}
+
+    {%- elsif filter_values and filter_key == "forms" and p.path -%}
+      {%- comment -%} compute slug by stripping leading YYYY-MM-DD- from filename {%- endcomment -%}
+      {%- assign filename = p.path | split: "/" | last -%}
+      {%- assign filename_no_ext = filename | split: "." | first -%}
+      {%- assign prefix = filename_no_ext | slice: 0, 11 -%}
+      {%- if prefix contains "-" -%}
+        {%- assign computed_slug = filename_no_ext | slice: 11, 999 -%}
+      {%- else -%}
+        {%- assign computed_slug = filename_no_ext -%}
+      {%- endif -%}
+
+      {%- if filter_values contains computed_slug -%}
+        {%- assign keep = true -%}
+      {%- else -%}
+        {%- assign keep = false -%}
+      {%- endif -%}
+
+    {%- elsif filter_values -%}
       {%- assign keep = false -%}
     {%- endif -%}
+
+    {%- if keep == false -%}{%- break -%}{%- endif -%}
   {%- endfor -%}
 
   {%- if keep -%}
@@ -57,10 +89,7 @@ DRY sequential-flow collection-stream.html (fully dynamic filtering)
 
 {%- assign filtered_posts = filtered_posts | sort: sort_key_field -%}
 {%- if reverse_flag -%}{%- assign filtered_posts = filtered_posts | reverse -%}{%- endif -%}
-
-{%- if section.data.post_display_limit -%}
-    {%- assign filtered_posts = filtered_posts | slice: 0, section.data.post_display_limit -%}
-{%- endif -%}
+{%- if display_limit -%}{%- assign filtered_posts = filtered_posts | slice: 0, display_limit -%}{%- endif -%}
 
 <section id="collection-stream" class="md-flow">
   {%- for post in filtered_posts -%}
