@@ -9,6 +9,12 @@ Behavior:
 - Output section shaped for list.html: { "data": { "label": ..., "items": [...] } }
 {%- endcomment -%}
 
+<pre class="debug">
+    include.section: {{ include.section | inspect }}
+    include.page_data present?: {{ include.page_data != nil }}
+    src (section.data.principles): {{ include.section.data.principles | inspect }}
+</pre>
+
 {%- comment -%} Accept either include.section (from include call) or outer `section`. {%- endcomment -%}
 {%- assign src_section = include.section | default: section -%}
 
@@ -77,4 +83,5 @@ Behavior:
 {%- comment -%} prepare section object expected by list.html (section.data.*) {%- endcomment -%}
 {%- assign list_section = { "data": { "label": "Related Principles", "items": final_items } } -%}
 
+<!-- DEBUG: selected count = {{ final_items | size }} -->
 {% include sections/list.html section=list_section %}
