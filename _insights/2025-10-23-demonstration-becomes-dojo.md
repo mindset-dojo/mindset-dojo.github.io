@@ -6,6 +6,7 @@ date: 2025-10-23
 authors:
   - michael-basil
 forms:
+  - genuine-gratitude-expression
   - metashift-community-demonstration
   - integration-under-fire
 principles:
