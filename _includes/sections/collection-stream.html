@@ -1,74 +1,92 @@
 {%- comment -%}
-DRY sequential-flow collection-stream.html with authors + forms filtering
-- section.data.collection
-- section.data.sort_by (default "date")
-- section.data.reverse (boolean)
-- section.data.excerpt_length (optional)
-- section.data.authors OR include.authors: YAML array of author slugs
-- section.data.forms OR include.forms: YAML array of form slugs
-- section.data.post_display_limit (optional)
-- page.slug fallback for override authors
-- p.authors: YAML array
-- p.forms: YAML array (optional)
-- Optional author + form filtering applied inline
-- Slug extraction for forms is now just the filename without .md
+DRY collection-stream.html — Generic filter function
+Supports:
+- collection: include.collection OR section.data.collection
+- primary filters: include.filters (hash) or section.data.filters (hash)
+- backward-compatible: include.authors and include.forms (merged into filters)
+- author fallback: page.slug (if authors not provided)
+- normalization: every filter value coerced to array
+- matching: post must satisfy ALL filter keys (AND)
+  - if post has p[filter_key], compare values
+  - else if filter_key == collection name, match filename slug (slug.md)
+  - else fail
+- sort/reverse/limit/excerpt_length preserved
 {%- endcomment -%}
 
-{%- assign coll_name = section.data.collection -%}
-{%- assign posts = site[coll_name] -%}
+{%- assign coll_name = include.collection | default: section.data.collection -%}
+{%- assign posts = site[coll_name] | default: "" -%}
 
-{%- assign override_authors = include.authors | default: section.data.authors -%}
-{%- if override_authors == nil and page and page.slug -%}
-  {%- assign override_authors = page.slug | split:"|" -%}
+{%- comment -%} Build filters hash: prefer include.filters, fallback to section.data.filters. Merge back-compat include.authors/include.forms. {%- endcomment -%}
+{%- assign filters = include.filters | default: section.data.filters | default: {} -%}
+
+{%- if include.authors -%}
+  {%- assign filters = filters | merge: { "authors": include.authors } -%}
+{%- endif -%}
+{%- if include.forms -%}
+  {%- assign filters = filters | merge: { "forms": include.forms } -%}
 {%- endif -%}
 
-{%- assign override_forms = include.forms | default: section.data.forms -%}
+{%- comment -%} Author fallback: if no authors provided, use page.slug (split to array) {%- endcomment -%}
+{%- if filters.authors == nil and page and page.slug -%}
+  {%- assign filters = filters | merge: { "authors": page.slug | split:"|" } -%}
+{%- endif -%}
 
-{%- assign sort_key_field = section.data.sort_by | default:"date" -%}
+{%- assign sort_key_field = section.data.sort_by | default: "date" -%}
 {%- assign reverse_flag = section.data.reverse == true -%}
+{%- assign display_limit = section.data.post_display_limit | default: section.data.post_display_limit -%}
 
 {%- assign filtered_posts = "" | split:"|" -%}
+
 {%- for p in posts -%}
   {%- assign keep = true -%}
 
-  {%- comment -%} Author filtering {%- endcomment -%}
-  {%- if override_authors -%}
-    {%- assign author_match = false -%}
-    {%- if p.authors -%}
-      {%- for a in p.authors -%}
-        {%- if override_authors contains a -%}
-          {%- assign author_match = true -%}
-          {%- break -%}
-        {%- endif -%}
-      {%- endfor -%}
-    {%- endif -%}
-    {%- if author_match == false -%}
-      {%- assign keep = false -%}
-    {%- endif -%}
-  {%- endif -%}
+  {%- for filter_key in filters -%}
+    {%- comment -%} Ensure the filter values are an array {%- endcomment -%}
+    {%- assign raw_vals = filters[filter_key] -%}
+    {%- assign filter_values = raw_vals | array -%}
 
-  {%- comment -%} Forms filtering {%- endcomment -%}
-  {%- if keep and override_forms -%}
-    {%- assign form_match = false -%}
-    {%- if p.forms -%}
-      {%- for f in p.forms -%}
-        {%- if override_forms contains f -%}
-          {%- assign form_match = true -%}
+    {%- if filter_values == nil or filter_values == empty -%}
+      {%- continue -%} {# no-op empty filter #}
+    {%- endif -%}
+
+    {%- comment -%}
+      Case A: post exposes the field -> compare any value
+    {%- endcomment -%}
+    {%- if p[filter_key] -%}
+      {%- assign post_vals = p[filter_key] | array -%}
+      {%- assign matched = false -%}
+      {%- for pv in post_vals -%}
+        {%- if filter_values contains pv -%}
+          {%- assign matched = true -%}
           {%- break -%}
         {%- endif -%}
       {%- endfor -%}
-    {%- else -%}
-      {%- comment -%} derive slug from filename (slug.md) {%- endcomment -%}
-      {%- assign filename = p.path | split:"/" | last -%}
-      {%- assign slug = filename | split:"." | first -%} 
-      {%- if override_forms contains slug -%}
-        {%- assign form_match = true -%}
+      {%- if matched == false -%}
+        {%- assign keep = false -%}
       {%- endif -%}
-    {%- endif -%}
-    {%- if form_match == false -%}
+
+    {%- comment -%}
+      Case B: if post lacks the field but filter_key == current collection,
+      compute slug from filename (slug.md) and compare.
+    {%- endcomment -%}
+    {%- elsif filter_key == coll_name and p.path -%}
+      {%- assign filename = p.path | split:"/" | last -%}
+      {%- assign slug = filename | split:"." | first -%}
+      {%- if filter_values contains slug -%}
+        {%- assign keep = keep and true -%}
+      {%- else -%}
+        {%- assign keep = false -%}
+      {%- endif -%}
+
+    {%- comment -%}
+      Case C: post doesn't expose the field and filter isn't for this collection -> fail
+    {%- endcomment -%}
+    {%- else -%}
       {%- assign keep = false -%}
     {%- endif -%}
-  {%- endif -%}
+
+    {%- if keep == false -%}{%- break -%}{%- endif -%}
+  {%- endfor -%}
 
   {%- if keep -%}
     {%- assign filtered_posts = filtered_posts | push: p -%}
@@ -77,9 +95,7 @@ DRY sequential-flow collection-stream.html with authors + forms filtering
 
 {%- assign filtered_posts = filtered_posts | sort: sort_key_field -%}
 {%- if reverse_flag -%}{%- assign filtered_posts = filtered_posts | reverse -%}{%- endif -%}
-{%- if section.data.post_display_limit -%}
-  {%- assign filtered_posts = filtered_posts | slice: 0, section.data.post_display_limit -%}
-{%- endif -%}
+{%- if display_limit -%}{%- assign filtered_posts = filtered_posts | slice: 0, display_limit -%}{%- endif -%}
 
 <section id="collection-stream" class="md-flow">
   {%- for post in filtered_posts -%}
