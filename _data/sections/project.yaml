@@ -27,19 +27,9 @@ sections:
   - type: quote
     data:
       text: "Ideation is play; contribution is practice."
-  - type: list
+  - type: principles
     data:
-      label: "Engagement Principles"
-      items:
-        - id: transparency
-          label: "Transparency Invites Trust"
-          description: "Openness in process, intent, and communication turns control into shared clarity."
-        - id: contribution
-          label: "Contribution Shapes Coherence"
-          description: "Each act of authorship refines the whole; shared care turns complexity to rhythm."
-        - id: presence
-          label: "Presence Tends the Form"
-          description: "We tend the system as a living garden — pruning, nurturing, redesigning with awareness."
+      types: project
   - type: designations
     data:
       label: "Leadership Designations"
