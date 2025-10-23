@@ -14,12 +14,6 @@ Each case delegates to a small, focused template for that section type.
   {%- when 'authors' -%}
     {% include sections/authors.html section=section %}
 
-  {%- when 'ctas' -%}
-    {% include sections/ctas.html section=section %}
-
-  {%- when 'designations' -%}
-    {% include sections/designations.html section=section data=data %}
-  
   {%- when 'collection-item' -%}
     {% include sections/collection-item.html section=section data=data %}
 
@@ -30,6 +24,12 @@ Each case delegates to a small, focused template for that section type.
     {%- else -%}
       {% include sections/collection-stream.html section=section data=data %}
     {%- endif -%}
+    
+  {%- when 'ctas' -%}
+    {% include sections/ctas.html section=section %}
+
+  {%- when 'designations' -%}
+    {% include sections/designations.html section=section data=data %}
 
   {%- when 'levels' -%}
     {% include sections/levels.html section=section %}
