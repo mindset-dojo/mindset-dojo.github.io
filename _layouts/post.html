@@ -9,20 +9,17 @@ layout: default
     {% include sections/principles.html section=section page_data=site.data.sections.principles %}
     <hr>
   {% endif %}
-  
+
   <div class="post-body" itemprop="articleBody">
     {{ content }}
   </div>
 
   <hr>
 
-  <p class="post-forms">
-    {% if page.forms %}
-      {% include sections/forms.html page_data=page.forms %}
-    {% endif %}
-  </p>
-  
-  <hr>
+  {% if page.forms %}
+    {% include sections/forms.html page_data=page.forms %}
+    <hr>
+  {% endif %}
 
   <p class="post-meta">
     This article was published {{ page.date | date: "%B %-d, %Y" }}
