@@ -6,13 +6,7 @@ layout: default
     
   
   {% if page.principles %}
-    {% assign section = 
-      {
-        "type": "principles",
-        "data": { "principles": page.principles }
-      } 
-    %}
-    {% include sections/principles.html section=section page_data=site.data.sections.principles %}
+    {% include sections/principles.html page_data=site.data.sections.principles %}
   {% endif %}
 
 
