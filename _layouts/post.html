@@ -17,20 +17,10 @@ layout: default
   <hr>
 
   {% if page.forms %}
-    <h2> Related Forms </h2>
-
-    {%- comment -%} Build filters object and pass it into the include {%- endcomment -%}
-    {%- assign filters = {} -%}
-    {%- if page.forms -%}
-      {%- assign filters = filters | merge: { "forms": page.forms } -%}
-    {%- endif -%}
-
-    {% include sections/collection-stream.html
-      collection="forms"
-      filters=filters
-      excerpt_length=220
-    %}
-    <hr>
+  <h2>Related Forms</h2>
+  {%- assign filters = { "forms": page.forms } -%}
+  {% include sections/collection-stream.html collection="forms" filters=filters excerpt_length=220 %}
+  <hr>
   {% endif %}
 
 
