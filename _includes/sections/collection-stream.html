@@ -1,41 +1,54 @@
 {%- comment -%}
-DRY sequential-flow collection-stream.html
-- section.data.collection
-- section.data.sort_by (default "date")
-- section.data.reverse (boolean)
-- section.data.excerpt_length (optional)
-- section.data.authors OR include.authors: YAML array of author slugs
-- section.data.post_display_limit (optional)
-- page.slug fallback for override authors
-- p.authors: YAML array of author slugs
-- Optional author filtering applied inline
+DRY sequential-flow collection-stream.html (fully dynamic filtering)
+- collection: include.collection OR section.data.collection
+- sort_by: section.data.sort_by (default "date")
+- reverse: section.data.reverse (boolean)
+- excerpt_length: section.data.excerpt_length (optional)
+- filters: include.filters OR section.data.filters
+    Example:
+    filters:
+      authors: ["kyle-ingersoll"]
+      forms: ["feedback", "survey"]
+      categories: ["mindset"]
+- post_display_limit: section.data.post_display_limit (optional)
+- page.slug fallback for authors if not provided
 {%- endcomment -%}
 
-{%- assign coll_name = section.data.collection -%}
+{%- assign coll_name = include.collection | default: section.data.collection -%}
 {%- assign posts = site[coll_name] -%}
 
-{%- assign override_authors = include.authors | default: section.data.authors -%}
-{%- if override_authors == nil and page and page.slug -%}
-  {%- assign override_authors = page.slug | split:"|" -%}
+{%- comment -%} Set up dynamic filters {%- endcomment -%}
+{%- assign filters = include.filters | default: section.data.filters | default: {} -%}
+
+{%- comment -%} Fallback for authors if not provided {%- endcomment -%}
+{%- if filters.authors == nil and page and page.slug -%}
+  {%- assign filters = filters | merge: { "authors": page.slug | split:"|" } -%}
 {%- endif -%}
 
 {%- assign sort_key_field = section.data.sort_by | default:"date" -%}
 {%- assign reverse_flag = section.data.reverse == true -%}
 
-{%- comment -%} Filter posts by author if override_authors exists {%- endcomment -%}
 {%- assign filtered_posts = "" | split:"|" -%}
-{%- for p in posts -%}
-  {%- assign keep = false -%}
 
-  {%- if override_authors == nil -%}
-    {%- assign keep = true -%}
-  {%- elsif p.authors -%}
-    {%- for a in p.authors -%}
-      {%- if override_authors contains a -%}
-        {%- assign keep = true -%}
+{%- for p in posts -%}
+  {%- assign keep = true -%}
+
+  {%- for filter_key in filters -%}
+    {%- assign filter_values = filters[filter_key] -%}
+    {%- if filter_values and p[filter_key] -%}
+      {%- assign match = false -%}
+      {%- for val in p[filter_key] -%}
+        {%- if filter_values contains val -%}
+          {%- assign match = true -%}
+        {%- endif -%}
+      {%- endfor -%}
+      {%- if match == false -%}
+        {%- assign keep = false -%}
       {%- endif -%}
-    {%- endfor -%}
-  {%- endif -%}
+    {%- elsif filter_values and p[filter_key] == nil -%}
+      {%- assign keep = false -%}
+    {%- endif -%}
+  {%- endfor -%}
 
   {%- if keep -%}
     {%- assign filtered_posts = filtered_posts | push: p -%}
@@ -54,5 +67,3 @@ DRY sequential-flow collection-stream.html
     {% include sections/collection-item.html post=post excerpt_length=section.data.excerpt_length %}
   {%- endfor -%}
 </section>
-
-
