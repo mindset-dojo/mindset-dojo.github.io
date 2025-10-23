@@ -18,10 +18,9 @@ layout: default
 
   {% if page.forms %}
     <h2>Related Forms</h2>
-    {% include sections/collection-stream.html section=section collection=forms %}
+    {% include sections/collection-stream.html section=section forms=page.forms %}
     <hr>
   {% endif %}
-
 
   <p class="post-meta">
     This article was published {{ page.date | date: "%B %-d, %Y" }}

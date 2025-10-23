@@ -18,12 +18,12 @@ Each case delegates to a small, focused template for that section type.
     {% include sections/collection-item.html section=section data=data %}
 
   {%- when 'collection-stream' -%}
-    {%- assign section_has_authors = section.data and section.data.authors -%}
-    {%- if page.sections_key == "author" and section_has_authors == false -%}
-      {% include sections/collection-stream.html section=section data=data authors=page.slug %}
-    {%- else -%}
-      {% include sections/collection-stream.html section=section data=data %}
-    {%- endif -%}
+    {% if page.sections_key == "author" and (section.data.authors == nil or section.data.authors == empty) %}
+      {% include sections/collection-stream.html section=section authors=page.slug | split:"|" %}
+    {% else %}
+      {% include sections/collection-stream.html section=section %}
+    {% endif %}
+
 
 
   {%- when 'ctas' -%}
