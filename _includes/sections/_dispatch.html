@@ -36,7 +36,7 @@ Each case delegates to a small, focused template for that section type.
     {%- endif -%}
 
     {%- comment -%} Include the collection-stream snippet with dynamic filters {%- endcomment -%}
-    {% include sections/collection-stream.html section=section filters=filters %}
+    {% include sections/collection-stream.html section=section collection=collection filters=filters excerpt_length=excerpt_length %}
 
 
   {%- when 'ctas' -%}
