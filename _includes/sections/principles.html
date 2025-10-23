@@ -29,20 +29,25 @@ Assumptions (no defensive checks):
         } 
     -%}
 {% elsif src %}
-  {% for type in principles.principle_types %}
-    {% for principle in type.items %}
-        {% if src contains principle.id %}
-        {%- assign matched_principles = matched_principles | append: principle | append: ',' -%}
-        {% endif %}
-    {% endfor %}
-  {% endfor %}
-  {%- assign matched_principles = matched_principles | split: ',' | uniq | reject: '' -%}
-  {%- assign list_section = 
-      {
-      "label": 'Principles',
+  {% for type in principles.principle_types -%}
+  {%- for principle in type.items -%}
+    {%- assign pid = principle.id | to_s -%}
+    {%- for want in src -%}
+      {%- assign want_norm = want | to_s | slugify -%}
+      {%- if want == pid or want_norm == pid | slugify -%}
+        {%- assign matched_principles = matched_principles | push: principle -%}
+        {%- break -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endfor -%}
+{%- endfor -%}
+
+{%- assign list_section = 
+    {
+      "label": "Principles",
       "items": matched_principles
-      }
-    -%}
+    }
+ -%}
 {%- endif -%}
 
 {% include sections/list.html section=list_section %}
