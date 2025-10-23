@@ -7,19 +7,19 @@ Inputs accepted:
 - page.principles
 
 Also supports selecting a full type via:
-- include.types or section.data.types (maps into principle_types)
+- include.principle_type or section.data.principle_type (maps into principle_type)
 
 Outputs:
 - Calls sections/list.html with section object: { label, items }
 {%- endcomment -%}
 
 {%- assign src = include.principles | default: section.data.principles | default: page.principles -%}
-{%- assign section_types = include.types | default: section.data.types | default: page.principles_type -%}
+{%- assign section_types = include.principle_type | default: section.data.principle_type | default: page.principle_type -%}
 {%- assign data = site.data.sections.principles -%}
 {%- assign matched = "" | split: "|" -%}
 
 {%- if section_types -%}
-  {%- assign type_block = data.principle_types[section_types] -%}
+  {%- assign type_block = data.items.type[section_types] -%}
   {%- assign label_val = type_block.label | default: "Principles" -%}
   {%- assign items_val = type_block.items -%}
   {%- assign list_section = type_block | merge: { "label": label_val, "items": items_val } -%}
