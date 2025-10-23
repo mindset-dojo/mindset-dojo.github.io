@@ -18,8 +18,9 @@ Each case delegates to a small, focused template for that section type.
     {% include sections/collection-item.html section=section data=data %}
 
   {%- when 'collection-stream' -%}
+    {%- assign author_slug = page.slug | split:"|" -%}
     {% if page.sections_key == "author" and (section.data.authors == nil or section.data.authors == empty) %}
-      {% include sections/collection-stream.html section=section authors=page.slug | split:"|" %}
+      {% include sections/collection-stream.html section=section authors=author_slug %}
     {% else %}
       {% include sections/collection-stream.html section=section %}
     {% endif %}
