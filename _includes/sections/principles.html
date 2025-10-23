@@ -14,7 +14,7 @@ Outputs:
 {%- endcomment -%}
 
 {%- assign src = include.principles | default: section.data.principles | default: page.principles -%}
-{%- assign section_types = include.types | default: section.data.types | default: page.principles_types -%}
+{%- assign section_types = include.types | default: section.data.types | default: page.principles_type -%}
 {%- assign data = site.data.sections.principles -%}
 {%- assign matched = "" | split: "|" -%}
 
