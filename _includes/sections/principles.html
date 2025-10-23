@@ -55,7 +55,7 @@ Outputs:
 {%- if section_types and section_types.size > 0 -%}
     {%- assign list_section = 
         {
-            "label": (principles_data.principle_types[section_types[0]].label | default: "Principles"),
+            "label": (principles_data.principle_type[section_types[0]].label | default: "Principles"),
             "items": matched
         } -%}
 
