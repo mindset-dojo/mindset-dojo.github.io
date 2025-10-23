@@ -7,7 +7,7 @@ layout: default
   
   <p class="post-principles">
     {% if page.principles %}
-      {% include sections/principles.html principles=page.principles %}
+      {% include sections/principles.html page_data=page.principles %}
     {% endif %}
   </p>
 
@@ -21,7 +21,7 @@ layout: default
 
   <p class="post-forms">
     {% if page.forms %}
-      {% include sections/forms.html forms=page.forms %}
+      {% include sections/forms.html page_data=page.forms %}
     {% endif %}
   </p>
   
