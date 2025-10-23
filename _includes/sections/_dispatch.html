@@ -32,7 +32,7 @@ Each case delegates to a small, focused template for that section type.
     {% include sections/designations.html section=section data=data %}
 
   {%- when 'forms' -%}
-    {% include sections/forms.html section=section data=data %}
+    {% include sections/forms.html section=section page_data=data %}
   
   {%- when 'levels' -%}
     {% include sections/levels.html section=section %}
@@ -44,7 +44,7 @@ Each case delegates to a small, focused template for that section type.
     {% include sections/markdown.html section=section %}
 
   {%- when 'principles' -%}
-    {% include sections/principles.html section=section data=data %}
+    {% include sections/principles.html section=section page_data=data %}
 
   {%- when 'quote' -%}
     {% include sections/quote.html section=section %}
