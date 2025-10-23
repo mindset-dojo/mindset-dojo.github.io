@@ -16,10 +16,12 @@ Assumptions (no defensive checks):
             {%- assign principles = type -%}
         {% endif %}
     {% endfor %}
+    {%- assign label_val = principles.label | default: "Principles" -%}
+    {%- assign items_val = principles.items -%}
     {%- assign list_section = principles | merge: 
         {
-        "label": principles.label | default: 'Principles',
-        "items": principles.items
+          "label": label_val,
+          "items": items_val
         } 
     -%}
 {% elsif D.principles %}
