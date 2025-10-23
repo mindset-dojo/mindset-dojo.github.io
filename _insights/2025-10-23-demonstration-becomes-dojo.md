@@ -16,7 +16,7 @@ principles:
 excerpt: "A reflection on our recent MetaShift Community Demonstration with Zen Leader — Off the Cushion, where the wisdom of the crowd helped clarify our signature form: Integration Under Fire."
 ---
 
-Last weekend, Kyle Ingersoll and I had the opportunity to share with the **Zen Leader — Off the Cushion** community — a higher-level dojo practice in every sense.
+Last weekend, Kyle Ingersoll and I had the opportunity to share with the **Zen Leader: Alive Off the Cushion (ZLOTC)** community — a higher-level dojo practice in every sense.
 
 Their facilitation was skillful and balanced: a few quiet minutes of **Zazen**, followed by **conversational centering** that grounded the group in shared presence. From that field, genuine connection and curiosity emerged naturally.
 
@@ -37,7 +37,7 @@ This is what makes higher-level dojo practice alive.
 We show up with structure, we relax completely, and we allow emergence to teach.  
 Each time we do, the dojo itself grows clearer, and the Living Library deepens in coherence.
 
-Gratitude to the **Zen Leader — Off the Cushion** community for the generosity, skill, and field you hold.  
+Gratitude to the warm host community for the generosity, skill, and field you hold.  
 Your practice helped us see our own more fully.
 
 ⛩️🌿
