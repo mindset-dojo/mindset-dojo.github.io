@@ -18,12 +18,26 @@ Each case delegates to a small, focused template for that section type.
     {% include sections/collection-item.html section=section data=data %}
 
   {%- when 'collection-stream' -%}
-    {%- assign section_has_authors = section.data and section.data.authors -%}
-    {%- if page.sections_key == "author" and section_has_authors == false -%}
-      {% include sections/collection-stream.html section=section data=data authors=page.slug %}
-    {%- else -%}
-      {% include sections/collection-stream.html section=section data=data %}
+    {%- assign filters = {} -%}
+
+    {%- comment -%} Merge page-level author filter if filtering by author {%- endcomment -%}
+    {%- if page.sections_key == "author" -%}
+      {%- assign filters = filters | merge: { "authors": page.slug | split:"|" } -%}
     {%- endif -%}
+
+    {%- comment -%} Merge any section-level filters dynamically {%- endcomment -%}
+    {%- if section.data.filters -%}
+      {%- assign filters = filters | merge: section.data.filters -%}
+    {%- endif -%}
+
+    {%- comment -%} Merge section-level authors if defined separately (for backward compatibility) {%- endcomment -%}
+    {%- if section.data.authors -%}
+      {%- assign filters = filters | merge: { "authors": section.data.authors } -%}
+    {%- endif -%}
+
+    {%- comment -%} Include the collection-stream snippet with dynamic filters {%- endcomment -%}
+    {% include sections/collection-stream.html section=section filters=filters %}
+
 
   {%- when 'ctas' -%}
     {% include sections/ctas.html section=section %}
