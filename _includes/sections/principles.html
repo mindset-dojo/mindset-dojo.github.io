@@ -14,42 +14,50 @@ Outputs:
 {%- endcomment -%}
 
 {%- assign D = section.data -%}
-{%- assign src = D.principles -%}
-{%- assign section_types = D.principle_type -%}
+{%- comment -%} normalize source of requested principle ids {%- endcomment -%}
+{%- assign src = include.principles | default: section.data.principles | default: page.principles -%}
+{%- assign section_types = include.principle_type | default: section.data.principle_type | default: page.principle_type -%}
 {%- assign principles_data = site.data.sections.principles -%}
 {%- assign matched = "" | split: "|" -%}
 
-{%- if section_types -%}
-  {%- comment -%} match requested types against the grouped items {%- endcomment -%}
-  {%- assign matched = "" | split: "|" -%}
-  {%- for item in principles_data.items -%}
-    {%- for want_type in section_types -%}
-      {%- if item.type == want_type -%}
-        {%- assign matched = matched | push: item -%}
-        {%- break -%}
-      {%- endif -%}
-    {%- endfor -%}
-  {%- endfor -%}
-  {%- assign list_section = matched -%}
 
-{%- elsif src -%}
-  {%- comment -%} match requested ids against the flat items array {%- endcomment -%}
-  {%- for item in principles_data.items -%}
-    {%- for want in src -%}
-      {%- assign want_norm = want | to_s | slugify -%}
-      {%- if item.id == want or item.id == want_norm -%}
-        {%- assign matched = matched | push: item -%}
-        {%- break -%}
-      {%- endif -%}
-    {%- endfor -%}
-  {%- endfor -%}
+{%- comment -%} ensure section_types is iterable (normalize single string) {%- endcomment -%}
+{%- if section_types and section_types[0] == nil -%}
+  {%- assign section_types = section_types | split: ',' | map: 'strip' -%}
+{%- endif -%}
 
-  {%- assign list_section = 
-      {
-        "label": "Principles",
-        "items": matched
-      }
-  -%}
+{%- comment -%} collect items matching the requested types {%- endcomment -%}
+{%- assign matched = "" | split: "|" -%}
+{%- for item in principles_data.items -%}
+  {%- for want_type in section_types -%}
+    {%- if item.type == want_type -%}
+      {%- assign matched = matched | push: item -%}
+      {%- break -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endfor -%}
+
+{%- comment -%} normalize src into `wants` array if needed {%- endcomment -%}
+{%- if src and src[0] == nil -%}
+  {%- assign s = src | to_s | strip -%}
+  {%- if s contains '[' and s contains ']' -%}
+    {%- assign s = s | remove:'[' | remove:']' | remove:'"' | remove:"'" | strip -%}
+  {%- endif -%}
+  {%- if s contains ',' -%}
+    {%- assign wants = s | split:',' | map:'strip' -%}
+  {%- else -%}
+    {%- assign wants = s | split:'\n' | map:'strip' -%}
+  {%- endif -%}
+{%- else -%}
+  {%- assign wants = src -%}
+{%- endif -%}
+
+{%- if wants and wants.size > 0 -%}
+    {%- assign list_section = 
+        {
+            "label": (principles_data.principle_types[section_types[0]].label | default: "Principles"),
+            "items": matched
+        } -%}
 
 {%- else -%}
   {%- assign list_section = 
