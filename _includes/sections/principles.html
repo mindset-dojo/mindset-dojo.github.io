@@ -41,5 +41,15 @@ Behavior:
   {%- assign final_items = all_items -%}
 {%- endif -%}
 
-{%- assign list_section = { "data": { "label": "Related Principles", "items": final_items } } -%}
-{% include sections/list.html section=list_section %}
+<section class="md-flow">
+  <h2>Principles</h2>
+  <dl>
+    {%- for item in final_items -%}
+      {%- assign _id = "principle-" | append: item.id | slugify -%}
+      <dt id="{{ _id }}">{{ item.label }}</dt>
+      <dd aria-labelledby="{{ _id }}">{{ item.description | markdownify }}</dd>
+    {%- endfor -%}
+  </dl>
+</section>
+
+
