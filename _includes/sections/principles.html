@@ -6,6 +6,7 @@ Behavior:
 - src MUST be an ARRAY of ids if provided
 - sel_type SHOULD be a SINGLE string; if an array is passed accidentally we use its first element
 - Sequential pipeline: start with all items -> filter by type (if valid) -> filter by src (if provided)
+Note: removed slugify/gsub usage for src/id matching to avoid calling slugify on Arrays.
 {%- endcomment -%}
 
 {%- assign data = site.data.sections.principles -%}
@@ -39,8 +40,8 @@ This prevents slugify/from-gsub errors when templates pass an array by mistake.
 {%- comment -%}
 Sequential filtering:
 1) start with all items
-2) if sel_type is present and valid → filter by item.type
-3) if src is an array → filter by id according to src order
+2) if sel_type is present and valid → filter by item.type (uses slugify for robust type matching)
+3) if src is an array → filter by id according to src order (STRICT string equality; NO slugify)
 {%- endcomment -%}
 
 {%- assign filtered = "" | split: "|" -%}
@@ -64,13 +65,38 @@ Sequential filtering:
   {%- endif -%}
 {%- endif -%}
 
+{%- comment -%}
+Apply src filter only comparing normalized strings (no slugify).
+Normalization policy:
+- if want is an Array -> take first element
+- coerce to string
+- item.id is treated similarly (if it's an Array take first element then to_s)
+{%- endcomment -%}
 {%- if src and src[0] != nil -%}
   {%- assign wants = src -%}
   {%- assign by_id = "" | split: "|" -%}
   {%- for want in wants -%}
-    {%- assign want_norm = want | to_s | slugify -%}
+    {%- if want == nil -%}
+      {%- continue -%}
+    {%- endif -%}
+    {%- if want[0] != nil and want != want | to_s -%}
+      {%- assign want_val = want[0] -%}
+    {%- else -%}
+      {%- assign want_val = want -%}
+    {%- endif -%}
+    {%- assign want_str = want_val | to_s -%}
+
     {%- for it in filtered -%}
-      {%- if it.id == want or it.id == want_norm -%}
+      {%- assign it_id = it.id -%}
+      {%- if it_id == nil -%}
+        {%- continue -%}
+      {%- endif -%}
+      {%- if it_id[0] != nil and it_id != it_id | to_s -%}
+        {%- assign it_id = it_id[0] -%}
+      {%- endif -%}
+      {%- assign it_id_str = it_id | to_s -%}
+
+      {%- if it_id_str == want_str -%}
         {%- assign by_id = by_id | push: it -%}
         {%- break -%}
       {%- endif -%}
