@@ -1,19 +1,22 @@
 {%- comment -%}
 Render: Description List (generalized)
 
-Assumptions (no defensive checks):
-- section.data.label: string (section title)
-- section.data.items: array of objects (>= 1)
-- each item: { id: string, label: string, description: string }
+Now accepts either:
+- section.data (preferred)
+- or a plain section hash (fallback)
 
+Minimal, readable, and safe defaults so callers like sections/principles.html can pass either shape.
 {%- endcomment -%}
 
-{%- assign D = section.data -%}
+{%- assign D = section.data | default: section -%}
+{%- assign items = D.items | default: "" | split: "|" -%}
+
 <section class="md-flow">
   <h2>{{ D.label }}</h2>
   <dl>
-    {%- for it in D.items -%}
-      {%- assign _id = D.label | append: '-' | append: it.id | slugify -%}
+    {%- for it in items -%}
+      {%- assign id_val = it.id | default: forloop.index0 -%}
+      {%- assign _id = D.label | append: '-' | append: id_val | slugify -%}
       <dt id="{{ _id }}">{{ it.label }}</dt>
       <dd aria-labelledby="{{ _id }}">{{ it.description | markdownify }}</dd>
     {%- endfor -%}
