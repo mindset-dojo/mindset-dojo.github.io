@@ -12,6 +12,15 @@ Behavior:
 - Pass { data: { label, items } } to sections/list.html
 {%- endcomment -%}
 
+<pre>
+    include.section: {{ include.section | inspect }}
+    include.page_data present?: {{ include.page_data | inspect }}
+    src: {{ include.section.data.principles | inspect }}
+    items: {{ include.page_data.items | map:"id" | inspect }}
+    sel_type: {{ include.section.data.principle_type | inspect }}
+</pre>
+
+
 {%- assign principles = include.page_data | default: site.data.sections.principles -%}
 {%- assign items = principles.items -%}
 
