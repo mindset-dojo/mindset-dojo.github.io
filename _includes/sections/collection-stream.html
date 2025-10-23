@@ -103,7 +103,6 @@ Supports:
   {%- endfor -%}
 
   {%- comment -%} DEBUG: forms / authors / filtered_posts {%- endcomment -%}
-  {% if jekyll.environment != "production" %}
     <hr>
     <pre style="font-size: 0.8em; background: #f7f7f7; padding: 0.5em; border: 1px solid #ccc;">
       DEBUG — collection-stream.html
@@ -121,6 +120,5 @@ Supports:
         {% endfor %}
       {% endif %}
     </pre>
-  {% endif %}
 
 </section>
