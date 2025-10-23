@@ -84,6 +84,28 @@ Logic:
 {%- if reverse_flag -%}{%- assign filtered_posts = filtered_posts | reverse -%}{%- endif -%}
 {%- if display_limit -%}{%- assign filtered_posts = filtered_posts | slice:0, display_limit -%}{%- endif -%}
 
+{%- comment -%} DEBUG: Compare authors vs forms array per filtered post {%- endcomment -%}
+{%- for post in filtered_posts -%}
+  <pre style="background:#f0f0f0; padding:0.5em; margin:0.5em 0; font-size:0.85em;">
+    Post: {{ post.title | default: post.path }}
+    ---
+    Authors field: {{ post.authors | inspect }}
+    Forms field: {{ post.forms | inspect }}
+
+    Computed slug from path (if forms/collection filter applied):
+    {%- assign filename = post.path | split:"/" | last -%}
+    {%- assign basename = filename | split:"." | first -%}
+    {%- if basename[4] == "-" and basename[7] == "-" and basename[10] == "-" -%}
+      {%- assign slug = basename | slice:11,999 -%}
+    {%- else -%}
+      {%- assign slug = basename -%}
+    {%- endif -%}
+    Slug: {{ slug }}
+
+    Filters applied: {{ filters | inspect }}
+  </pre>
+{%- endfor -%}
+
 <section id="collection-stream" class="md-flow">
   {%- for post in filtered_posts -%}
     {% include sections/collection-item.html post=post excerpt_length=section.data.excerpt_length %}
