@@ -16,6 +16,17 @@ Behavior:
 - Pass { data: { label, items } } to sections/list.html
 {%- endcomment -%}
 
+<!-- DEBUG: show inputs for principles include (remove after) -->
+<pre class="debug">
+    page.principles: {{ page.principles | inspect }}
+    section (passed): {{ section | inspect }}
+    section.data.principles: {{ section.data.principles | inspect }}
+    include.page_data (site data passed): {{ include.page_data | inspect }}
+    site.data.sections.principles.items count: {{ site.data.sections.principles.items | size }}
+    site.data.ids: {{ site.data.sections.principles.items | map: "id" | inspect }}
+</pre>
+
+
 {%- assign section_data = include.page_data | default: site.data.sections.principles -%}
 {%- assign src = section.data.principles -%}
 {%- assign sel_type = section.data.principle_type -%}
