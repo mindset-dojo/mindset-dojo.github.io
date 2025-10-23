@@ -30,62 +30,46 @@ Note: This version intentionally keeps matching logic simple:
 {%- assign display_limit = section.data.post_display_limit -%}
 
 {%- assign filtered_posts = "" | split:"|" -%}
-{%- for p in posts -%}
-  {%- assign keep = true -%}
+{%- for filter_key in filters -%}
+  {%- assign filter_values = filters[filter_key] -%}
 
-  {%- for filter_key in filters -%}
-    {%- assign filter_values = filters[filter_key] -%}
-
-    {%- comment -%}
-      If the post has the filter field, test its values (works when the field is an array).
-      Otherwise, if we're filtering "forms", compute the slug from the filename:
-      - filename_no_ext: last segment of p.path without extension
-      - if filename starts with YYYY-MM-DD- (11 chars including dashes), strip first 11 chars
-      - compare the computed slug to filter_values
-    {%- endcomment -%}
-
-    {%- if filter_values and p[filter_key] -%}
-      {%- assign match = false -%}
-      {%- assign post_field_joined = p[filter_key] | join: "|" -%}
-      {%- assign post_field_values = post_field_joined | split: "|" -%}
-      {%- for val in post_field_values -%}
-        {%- if filter_values contains val -%}
-          {%- assign match = true -%}
-          {%- break -%}
-        {%- endif -%}
-      {%- endfor -%}
-      {%- if match == false -%}
-        {%- assign keep = false -%}
+  {%- if filter_values and p[filter_key] -%}
+    {%- comment -%} match by explicit field value(s) {%- endcomment -%}
+    {%- assign post_field_joined = p[filter_key] | join: "|" -%}
+    {%- assign post_field_values = post_field_joined | split: "|" -%}
+    {%- assign match = false -%}
+    {%- for pfv in post_field_values -%}
+      {%- if filter_values contains pfv -%}
+        {%- assign match = true -%}
+        {%- break -%}
       {%- endif -%}
-
-    {%- elsif filter_values and filter_key == "forms" and p.path -%}
-      {%- comment -%} compute slug by stripping leading YYYY-MM-DD- from filename {%- endcomment -%}
-      {%- assign filename = p.path | split: "/" | last -%}
-      {%- assign filename_no_ext = filename | split: "." | first -%}
-      {%- assign prefix = filename_no_ext | slice: 0, 11 -%}
-      {%- if prefix contains "-" -%}
-        {%- assign computed_slug = filename_no_ext | slice: 11, 999 -%}
-      {%- else -%}
-        {%- assign computed_slug = filename_no_ext -%}
-      {%- endif -%}
-
-      {%- if filter_values contains computed_slug -%}
-        {%- assign keep = true -%}
-      {%- else -%}
-        {%- assign keep = false -%}
-      {%- endif -%}
-
-    {%- elsif filter_values -%}
+    {%- endfor -%}
+    {%- if match == false -%}
       {%- assign keep = false -%}
     {%- endif -%}
 
-    {%- if keep == false -%}{%- break -%}{%- endif -%}
-  {%- endfor -%}
+  {%- elsif filter_values and filter_key == coll_name and p.path -%}
+    {%- comment -%} match by filename slug (strip date prefix) {%- endcomment -%}
+    {%- assign filename = p.path | split: "/" | last -%}
+    {%- assign filename_no_ext = filename | split: "." | first -%}
+    {%- comment -%} strip leading YYYY-MM-DD- (10 chars + dash = 11) {%- endcomment -%}
+    {%- assign maybe_slug = filename_no_ext | slice: 11, 999 -%}
+    {%- if filter_values contains maybe_slug -%}
+      {%- assign match = true -%}
+    {%- else -%}
+      {%- assign keep = false -%}
+    {%- endif -%}
 
-  {%- if keep -%}
-    {%- assign filtered_posts = filtered_posts | push: p -%}
+  {%- elsif filter_values -%}
+    {%- assign keep = false -%}
   {%- endif -%}
+
+  {%- if keep == false -%}{%- break -%}{%- endif -%}
 {%- endfor -%}
+
+{%- if keep -%}
+  {%- assign filtered_posts = filtered_posts | push: p -%}
+{%- endif -%}
 
 {%- assign filtered_posts = filtered_posts | sort: sort_key_field -%}
 {%- if reverse_flag -%}{%- assign filtered_posts = filtered_posts | reverse -%}{%- endif -%}
