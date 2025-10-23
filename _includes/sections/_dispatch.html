@@ -20,23 +20,31 @@ Each case delegates to a small, focused template for that section type.
   {%- when 'collection-stream' -%}
     {%- assign filters = {} -%}
 
-    {%- comment -%} Merge page-level author filter if filtering by author {%- endcomment -%}
-    {%- if page.sections_key == "author" -%}
+    {%- comment -%} Page-level author filter (author index pages) {%- endcomment -%}
+    {%- if page.sections_key == "author" and page.slug -%}
       {%- assign filters = filters | merge: { "authors": page.slug | split:"|" } -%}
     {%- endif -%}
 
-    {%- comment -%} Merge any section-level filters dynamically {%- endcomment -%}
+    {%- comment -%} Merge any section-level filters (section.data.filters takes precedence) {%- endcomment -%}
     {%- if section.data.filters -%}
       {%- assign filters = filters | merge: section.data.filters -%}
     {%- endif -%}
 
-    {%- comment -%} Merge section-level authors if defined separately (for backward compatibility) {%- endcomment -%}
+    {%- comment -%} Backward-compatible single authors key on the section {%- endcomment -%}
     {%- if section.data.authors -%}
       {%- assign filters = filters | merge: { "authors": section.data.authors } -%}
     {%- endif -%}
 
-    {%- comment -%} Include the collection-stream snippet with dynamic filters {%- endcomment -%}
-    {% include sections/collection-stream.html section=section collection=collection filters=filters excerpt_length=excerpt_length %}
+    {%- comment -%}
+      Include the collection-stream with the dynamic filters object.
+      Pass collection and excerpt_length if present in the section (or leave them out).
+    {%- endcomment -%}
+    {% include sections/collection-stream.html
+      section=section
+      collection=section.data.collection
+      filters=filters
+      excerpt_length=section.data.excerpt_length
+    %}
 
 
   {%- when 'ctas' -%}
