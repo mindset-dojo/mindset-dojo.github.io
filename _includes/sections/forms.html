@@ -7,12 +7,12 @@ Assumptions (no defensive checks):
   - label: "Forms"
 {%- endcomment -%}
 
-{%- assign D = section.data -%}
+{%- assign ids = include.forms | default: section.data.forms | default: page.forms -%}
 {%- assign forms_data = site.data.sections.forms -%}
 {%- assign matched_forms = "" | split: "|" -%}
-{%- for form_id in D.forms -%}
+{%- for form_id in ids -%}
   {%- for form in forms_data -%}
-    {%- if form.id == form_id -%}
+    {%- if form.id == form_id or form.id == (form_id | slugify) -%}
       {%- assign matched_forms = matched_forms | push: form -%}
     {%- endif -%}
   {%- endfor -%}
