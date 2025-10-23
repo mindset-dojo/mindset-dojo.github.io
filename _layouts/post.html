@@ -4,24 +4,27 @@ layout: default
 
 <article class="post-article" itemscope itemtype="https://schema.org/Article">
     
-  {% if page.principles %}
+  
   <p class="post-principles">
+    {% if page.principles %}
       {% include sections/principles.html principles=page.principles %}
+    {% endif %}
   </p>
-  <hr>
-  {% endif %}
 
+  <hr>
+  
   <div class="post-body" itemprop="articleBody">
     {{ content }}
   </div>
 
-  {% if page.forms %}
-    <hr>
-    <p class="post-forms">
-        {% include sections/forms.html forms=page.forms %}
-    </p>
-  {% endif %}
+  <hr>
 
+  <p class="post-forms">
+    {% if page.forms %}
+      {% include sections/forms.html forms=page.forms %}
+    {% endif %}
+  </p>
+  
   <hr>
 
   <p class="post-meta">
