@@ -1,70 +1,78 @@
 {%- comment -%}
-Render principles referenced by a page or section.
+Principles include — strict inputs and sequential filtering.
 
-Inputs accepted:
-- include.principles (array or CSV/JSON-like string)
-- section.data.principles
-- page.principles
+Assumptions / requirements:
+- site.data.sections.principles.items exists and is an array of items with fields: id, type, label, description, ...
+- include.principles / section.data.principles / page.principles MUST be an ARRAY of ids (e.g. ["relax","center"]) if provided.
+- include.principle_type / section.data.principle_type / page.principle_type MUST be a SINGLE string (e.g. "program" or "project") and must match one of the types present in the data.
+- No CSV/newline parsing. Inputs are strict for clarity and simplicity.
 
-Also supports selecting a full type via:
-- include.types or section.data.types (maps into principle_types)
-
-Outputs:
-- Calls sections/list.html with section object: { label, items }
+Behavior:
+- Start with all data.items.
+- If a valid sel_type is provided, keep only items with that type.
+- If a src array is provided, keep only items whose id is listed in src (preserves order of src).
+- Pass { label, items } to sections/list.html.
 {%- endcomment -%}
 
-{%- assign src = include.principles | default: section.data.principles | default: page.principles -%}
-{%- assign section_types = include.types | default: section.data.types | default: page.principles_type -%}
 {%- assign data = site.data.sections.principles -%}
-{%- assign matched = "" | split: "|" -%}
 
-{%- if section_types -%}
-  {%- assign type_block = data.principle_types[section_types] -%}
-  {%- assign label_val = type_block.label | default: "Principles" -%}
-  {%- assign items_val = type_block.items -%}
-  {%- assign list_section = type_block | merge: { "label": label_val, "items": items_val } -%}
+{%- comment -%} Strict inputs (no automatic parsing) {%- endcomment -%}
+{%- assign src = include.principles | default: section.data.principles | default: page.principles -%}
+{%- assign sel_type = include.principle_type | default: section.data.principle_type | default: page.principle_type -%}
 
-{%- elsif src -%}
-  {%- comment -%} normalize src into an array `wants` {%- endcomment -%}
-  {%- if src[0] != nil -%}
-    {%- assign wants = src -%}
+{%- comment -%} Build allowed types from the dataset (slugified) {%- endcomment -%}
+{%- assign allowed = "" | split: "|" -%}
+{%- for it in data.items -%}
+  {%- assign allowed = allowed | push: (it.type | to_s | slugify) -%}
+{%- endfor -%}
+{%- assign allowed = allowed | uniq -%}
+
+{%- comment -%}
+Sequential filtering:
+1) start with all items
+2) if sel_type is present and valid → filter by item.type
+3) if src is an array → filter by id according to src order
+{%- endcomment -%}
+
+{%- assign filtered = "" | split: "|" -%}
+{%- for it in data.items -%}
+  {%- assign filtered = filtered | push: it -%}
+{%- endfor -%}
+
+{%- comment -%} Apply type filter only if sel_type is a string and is allowed {%- endcomment -%}
+{%- if sel_type and sel_type != "" -%}
+  {%- assign sel_norm = sel_type | to_s | slugify -%}
+  {%- if allowed contains sel_norm -%}
+    {%- assign after_type = "" | split: "|" -%}
+    {%- for it in filtered -%}
+      {%- if it.type | to_s | slugify == sel_norm -%}
+        {%- assign after_type = after_type | push: it -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- assign filtered = after_type -%}
   {%- else -%}
-    {%- assign s = src | to_s | strip -%}
-    {%- if s contains '[' and s contains ']' -%}
-      {%- assign s = s | remove:'[' | remove:']' | remove:'"' | remove:"'" | strip -%}
-    {%- endif -%}
-    {%- if s contains ',' -%}
-      {%- assign wants = s | split:',' | map:'strip' -%}
-    {%- else -%}
-      {%- assign wants = s | split:'\n' | map:'strip' -%}
-    {%- endif -%}
+    {%- comment -%} sel_type provided but not in allowed list → produce empty list {%- endcomment -%}
+    {%- assign filtered = "" | split: "|" -%}
   {%- endif -%}
+{%- endif -%}
 
-  {%- comment -%} match requested ids against the flat items array {%- endcomment -%}
-  {%- for item in data.items -%}
-    {%- for want in wants -%}
-      {%- assign want_norm = want | to_s | slugify -%}
-      {%- if item.id == want or item.id == want_norm -%}
-        {%- assign matched = matched | push: item -%}
+{%- comment -%} Apply src filter only if src is an ARRAY (strict) {%- endcomment -%}
+{%- if src and src[0] != nil -%}
+  {%- assign wants = src -%}
+  {%- assign by_id = "" | split: "|" -%}
+  {%- for want in wants -%}
+    {%- assign want_norm = want | to_s | slugify -%}
+    {%- for it in filtered -%}
+      {%- if it.id == want or it.id == want_norm -%}
+        {%- assign by_id = by_id | push: it -%}
         {%- break -%}
       {%- endif -%}
     {%- endfor -%}
   {%- endfor -%}
-
-  {%- assign list_section = 
-      {
-        "label": "Principles",
-        "items": matched
-      }
-  -%}
-
-{%- else -%}
-  {%- assign list_section = 
-      {
-        "label": "Principles",
-        "items": "" | split: "|"
-      }
-  -%}
+  {%- assign filtered = by_id -%}
 {%- endif -%}
+
+{%- comment -%} Final section object and include {%- endcomment -%}
+{%- assign list_section = { "label": "Principles", "items": filtered } -%}
 
 {% include sections/list.html section=list_section %}
