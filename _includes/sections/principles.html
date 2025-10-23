@@ -19,10 +19,17 @@ Outputs:
 {%- assign matched = "" | split: "|" -%}
 
 {%- if section_types -%}
-  {%- assign type_block = data.items.type[section_types] -%}
-  {%- assign label_val = type_block.label | default: "Principles" -%}
-  {%- assign items_val = type_block.items -%}
-  {%- assign list_section = type_block | merge: { "label": label_val, "items": items_val } -%}
+  {%- comment -%} match requested types against the grouped items {%- endcomment -%}
+  {%- assign matched = "" | split: "|" -%}
+  {%- for item in data.items -%}
+    {%- for want_type in section_types -%}
+      {%- if item.type == want_type -%}
+        {%- assign matched = matched | push: item -%}
+        {%- break -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endfor -%}
+  {%- assign list_section = matched -%}
 
 {%- elsif src -%}
   {%- comment -%} match requested ids against the flat items array {%- endcomment -%}
