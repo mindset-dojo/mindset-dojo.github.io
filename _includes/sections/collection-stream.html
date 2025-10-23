@@ -1,5 +1,5 @@
 {%- comment -%}
-DRY collection-stream.html (dynamic filters, distilled)
+DRY collection-stream.html
 - collection: include.collection OR section.data.collection
 - sort_by: section.data.sort_by (default "date")
 - reverse: section.data.reverse (boolean)
@@ -13,15 +13,17 @@ DRY collection-stream.html (dynamic filters, distilled)
 - page.slug fallback for authors if not provided
 
 Logic:
-- If a post exposes a field matching the filter key, compare values.
-- If filtering by the collection name itself (e.g., "forms"), compute slug from filename (strip YYYY-MM-DD-).
-- Keep logic minimal and readable.
+- Generic field filtering: post must match any value in filter array.
+- Collection-name filtering: derive slug from filename (YYYY-MM-DD-slug.md) and match filter values.
+- All filters are combined with AND logic.
 {%- endcomment -%}
 
 {%- assign coll_name = include.collection | default: section.data.collection -%}
 {%- assign posts = site[coll_name] | default: "" -%}
 
 {%- assign filters = include.filters | default: section.data.filters | default: {} -%}
+
+{%- comment -%} Author fallback if not explicitly filtered {%- endcomment -%}
 {%- if filters.authors == nil and page and page.slug -%}
   {%- assign filters = filters | merge: { "authors": page.slug | split:"|" } -%}
 {%- endif -%}
@@ -36,10 +38,10 @@ Logic:
   {%- assign keep = true -%}
 
   {%- for filter_key in filters -%}
-    {%- assign filter_values = filters[filter_key] -%}
+    {%- assign filter_values = filters[filter_key] | array -%} {# ensures it's an array #}
 
     {%- if filter_values and p[filter_key] -%}
-      {%- assign post_values = p[filter_key] | join:"|" | split:"|" -%}
+      {%- assign post_values = p[filter_key] | array -%}
       {%- assign match = false -%}
       {%- for v in post_values -%}
         {%- if filter_values contains v -%}
@@ -75,7 +77,7 @@ Logic:
 
 {%- assign filtered_posts = filtered_posts | sort: sort_key_field -%}
 {%- if reverse_flag -%}{%- assign filtered_posts = filtered_posts | reverse -%}{%- endif -%}
-{%- if post_display_limit -%}{%- assign filtered_posts = filtered_posts | slice:0, post_display_limit -%}{%- endif -%}
+{%- if display_limit -%}{%- assign filtered_posts = filtered_posts | slice:0, display_limit -%}{%- endif -%}
 
 <section id="collection-stream" class="md-flow">
   {%- for post in filtered_posts -%}
