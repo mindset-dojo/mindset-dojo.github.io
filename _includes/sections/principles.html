@@ -29,7 +29,7 @@ Behavior:
   {%- assign items = items | where: "type", sel_type -%}
 {%- endif -%}
 
-{%- assign src = include.section.data.principles -%}
+{% assign src = include.section.data.principles | default: page.principles %}
 {%- if src -%}
   {%- assign final_items = "" | split: "|" -%}
   {%- for want in src -%}
