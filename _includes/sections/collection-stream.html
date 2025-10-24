@@ -84,6 +84,6 @@ Generic collection-stream with a small generic filter loop.
 
 <section id="collection-stream" class="md-flow">
   {%- for post in filtered_posts -%}
-    {% include sections/collection-item.html post=post excerpt_length=include.excerpt_length | default: section.data.excerpt_length %}
+    {% include sections/collection-item.html post=post excerpt_length=section.data.excerpt_length %}
   {%- endfor -%}
 </section>
