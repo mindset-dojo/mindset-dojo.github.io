@@ -20,9 +20,7 @@ layout: default
     <h2>Related Forms</h2>
 
     {%- assign filters = {} -%}
-    {%- if page.forms -%}
-      {%- assign filters = filters | merge: { "forms": page.forms } -%}
-    {%- endif -%}
+    {%- assign filters = filters | merge: { "forms": page.forms | array } -%}
 
     <pre>
       Check for existance of forms: {{ page.forms | jsonify }}
