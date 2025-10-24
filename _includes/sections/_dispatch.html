@@ -60,28 +60,25 @@ Each case delegates to a small, focused template for that section type.
       Preserve other keys and replace placeholder "__PAGE_SLUG__" in any array values.
     {%- endcomment -%}
     {%- if filters -%}
-      {%- assign merged_filters = {} -%}
-      {%- for key in filters -%}
-        {%- assign val = filters[key] -%}
-        {%- if val == val | append: '' and val contains "__PAGE_SLUG__" -%}
-          {%- assign val_array = val | split: ',' -%} {# split single string in case comma-delimited #}
-          {%- assign new_val_array = '' -%}
-          {%- for item in val_array -%}
-            {%- assign item_trim = item | strip -%}
-            {%- if item_trim == "__PAGE_SLUG__" -%}
-              {%- assign item_trim = page.slug | default: "" -%}
-            {%- endif -%}
-            {%- if forloop.first -%}
-              {%- assign new_val_array = item_trim -%}
-            {%- else -%}
-              {%- assign new_val_array = new_val_array | append: ',' | append: item_trim -%}
-            {%- endif -%}
-          {%- endfor -%}
-          {%- assign merged_filters = merged_filters | merge: key | parse_json: '{"' | append: key | append '":[' | append: new_val_array | append: ']}' -%}
-        {%- else -%}
-          {%- assign merged_filters = merged_filters | merge: key | parse_json: '{"' | append: key | append '":' | append: val | append: '}' -%}
-        {%- endif -%}
-      {%- endfor -%}
+      {%- assign merged_filters = filters -%}
+      {%- if merged_filters.authors contains "__PAGE_SLUG__" -%}
+        {%- comment -%} Replace placeholder in authors array while preserving other keys {%- endcomment -%}
+        {%- assign new_authors = '' -%}
+        {%- for a in merged_filters.authors -%}
+          {%- if a == "__PAGE_SLUG__" -%}
+            {%- assign val = page.slug | default: "" -%}
+          {%- else -%}
+            {%- assign val = a -%}
+          {%- endif -%}
+          {%- if forloop.first -%}
+            {%- assign new_authors = val -%}
+          {%- else -%}
+            {%- assign new_authors = new_authors | append: ',' | append: val -%}
+          {%- endif -%}
+        {%- endfor -%}
+        {%- assign replacement_json = '{"authors":[' | append: new_authors | append: ']}' -%}
+        {%- assign merged_filters = merged_filters | merge: replacement_json | parse_json -%}
+      {%- endif -%}
       {%- assign filters = merged_filters -%}
     {%- endif -%}
 
