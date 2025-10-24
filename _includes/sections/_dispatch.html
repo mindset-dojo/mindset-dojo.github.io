@@ -23,16 +23,19 @@ Each case delegates to a small, focused template for that section type.
       - Accepts filters via include.filters or section.data.filters
       - Accepts collection via include.collection or section.data.collection
       - Forwards excerpt_length and post_display_limit
-      - Dynamically builds filters as a JSON->hash map for robustness
+      - Dynamically builds filters as a proper JSON->hash map for robustness
     {%- endcomment -%}
 
-    {%- assign raw_filters = include.filters | default: section.data.filters | default: {} -%}
+    {%- assign raw_filters = include.filters | default: section.data.filters | default: nil -%}
 
-    {%- comment -%}
-      Convert filters to proper hash in case any values are arrays or need dynamic JSON parsing
-    {%- endcomment -%}
-    {%- assign filters_json = raw_filters | jsonify -%}
-    {%- assign filters = filters_json | parse_json -%}
+    {%- if raw_filters -%}
+      {%- capture filters_json -%}
+        {{ raw_filters | jsonify }}
+      {%- endcapture -%}
+      {%- assign filters = filters_json | parse_json -%}
+    {%- else -%}
+      {%- assign filters = nil -%}
+    {%- endif -%}
 
     {%- assign coll = include.collection | default: section.data.collection -%}
     {%- assign excerpt_length = include.excerpt_length | default: section.data.excerpt_length -%}
@@ -45,6 +48,7 @@ Each case delegates to a small, focused template for that section type.
       excerpt_length=excerpt_length
       post_display_limit=post_display_limit
     %}
+
 
 
 
