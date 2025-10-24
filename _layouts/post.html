@@ -22,13 +22,12 @@ layout: default
     {%- assign filters = {} -%}
 
     {%- if page.forms -%}
-      {%- capture filters_json -%}
-        { "forms": {{ page.forms | jsonify }} }
-      {%- endcapture -%}
+      {%- assign filters_json = '{"forms":' | append: (page.forms | jsonify) | append: '}' -%}
       {%- assign filters = filters_json | parse_json -%}
     {%- else -%}
       {%- assign filters = nil -%}
     {%- endif -%}
+
 
     <pre>
       Check for existance of forms: {{ page.forms | jsonify }}
