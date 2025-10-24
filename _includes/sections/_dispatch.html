@@ -37,7 +37,7 @@ Each case delegates to a small, focused template for that section type.
       {%- assign raw = section.data.filters | default: nil -%}
     {%- endif -%}
 
-    {%- if raw == nil or raw.size == 0 -%}
+    {%- if raw == blank -%}
       {%- assign filters = nil -%}
     {%- elsif raw is string -%}
       {%- assign first_char = raw | slice: 0, 1 -%}
