@@ -19,16 +19,17 @@ Each case delegates to a small, focused template for that section type.
 
   {%- when 'collection-stream' -%}
     {%- comment -%}
-      Robust dispatcher for collection-stream that avoids literal "{" in conditions.
+      Robust dispatcher for collection-stream that avoids literal "left bracket symbol" in conditions.
       Accepts include.filters (map or JSON/string), include.filter_key+filter_values shorthand,
-      or section.data.filters. Normalizes into `filters` (nil or a real hash).
+      or section.data.filters. Normalizes into `filters` (nil or a real hash), and
+      replaces placeholder "__PAGE_SLUG__" with page.slug while preserving other keys.
     {%- endcomment -%}
 
     {%- assign raw = nil -%}
 
-    {%- if include.filters %}
+    {%- if include.filters -%}
       {%- assign raw = include.filters -%}
-    {%- elsif include.filter_key and include.filter_values %}
+    {%- elsif include.filter_key and include.filter_values -%}
       {%- assign fv = include.filter_values | array -%}
       {%- assign keyname = include.filter_key | strip -%}
       {%- assign filters_json = '{"' | append: keyname | append: '":' | append: (fv | jsonify) | append: '}' -%}
@@ -43,19 +44,45 @@ Each case delegates to a small, focused template for that section type.
       {%- comment -%} raw is a string (JSON or quoted JSON) — determine which {%- endcomment -%}
       {%- assign first_char = raw | slice: 0, 1 -%}
       {%- if first_char == '"' -%}
-        {%- comment -%} raw is a quoted JSON string like "\"{...}\"" — strip outer quotes then parse inner JSON {%- endcomment -%}
         {%- assign raw_len = raw | size -%}
         {%- assign inner_len = raw_len | minus: 2 -%}
         {%- assign inner = raw | slice: 1, inner_len -%}
         {%- assign filters = inner | parse_json -%}
       {%- else -%}
-        {%- comment -%} raw is an unquoted JSON string (e.g. '{"forms":["x"]}') — parse directly {%- endcomment -%}
         {%- assign filters = raw | parse_json -%}
       {%- endif -%}
     {%- else -%}
-      {%- comment -%} raw is a native object/hash — round-trip to ensure a true hash {%- endcomment -%}
       {%- assign filters_json = raw | jsonify -%}
       {%- assign filters = filters_json | parse_json -%}
+    {%- endif -%}
+
+    {%- comment -%} 
+      Preserve other keys and replace placeholder "__PAGE_SLUG__" in any array values.
+    {%- endcomment -%}
+    {%- if filters -%}
+      {%- assign merged_filters = {} -%}
+      {%- for key in filters -%}
+        {%- assign val = filters[key] -%}
+        {%- if val == val | append: '' and val contains "__PAGE_SLUG__" -%}
+          {%- assign val_array = val | split: ',' -%} {# split single string in case comma-delimited #}
+          {%- assign new_val_array = '' -%}
+          {%- for item in val_array -%}
+            {%- assign item_trim = item | strip -%}
+            {%- if item_trim == "__PAGE_SLUG__" -%}
+              {%- assign item_trim = page.slug | default: "" -%}
+            {%- endif -%}
+            {%- if forloop.first -%}
+              {%- assign new_val_array = item_trim -%}
+            {%- else -%}
+              {%- assign new_val_array = new_val_array | append: ',' | append: item_trim -%}
+            {%- endif -%}
+          {%- endfor -%}
+          {%- assign merged_filters = merged_filters | merge: key | parse_json: '{"' | append: key | append '":[' | append: new_val_array | append: ']}' -%}
+        {%- else -%}
+          {%- assign merged_filters = merged_filters | merge: key | parse_json: '{"' | append: key | append '":' | append: val | append: '}' -%}
+        {%- endif -%}
+      {%- endfor -%}
+      {%- assign filters = merged_filters -%}
     {%- endif -%}
 
     {%- assign coll = include.collection | default: section.data.collection -%}
@@ -69,8 +96,6 @@ Each case delegates to a small, focused template for that section type.
       excerpt_length=excerpt_length
       post_display_limit=post_display_limit
     %}
-
-
 
   {%- when 'ctas' -%}
     {% include sections/ctas.html section=section %}
