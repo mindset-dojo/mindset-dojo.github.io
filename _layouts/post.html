@@ -18,10 +18,16 @@ layout: default
 
   {% if page.forms %}
     <h2>Related Forms</h2>
-    {%- assign filters = { "forms": page.forms | array } -%}
+
+    {%- assign filters = {} -%}
+    {%- if page.forms -%}
+      {%- assign filters = filters | merge: { "forms": page.forms | array } -%}
+    {%- endif -%}
+
     <pre>
       Filters hash just before passing to collection-stream.html: {{ filters | jsonify }}
     </pre>
+
     {% include sections/collection-stream.html collection="forms" section=section filters=filters %}
     <hr>
   {% endif %}
