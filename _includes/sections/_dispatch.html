@@ -18,23 +18,25 @@ Each case delegates to a small, focused template for that section type.
     {% include sections/collection-item.html section=section data=data %}
 
   {%- when 'collection-stream' -%}
-    {%- assign section_has_authors = section.data and section.data.authors -%}
-    {%- if page.sections_key == "author" and section_has_authors == false -%}
-      {%- assign author_slug = page.slug | split:"|" -%}
-      {% include sections/collection-stream.html section=section authors=author_slug collection=section.data.collection %}
-    {%- elsif page.layout == "post" -%}
-      {%- comment -%} On post pages: include the forms collection stream.
-       If the post declares page.forms, pass it (as an array). Otherwise omit the forms override. {%- endcomment -%}
+    {%- comment -%}
+    Generic dispatch for collection-stream:
+    - Accepts filters via include.filters or section.data.filters
+    - Accepts collection via include.collection or section.data.collection
+    - Forwards excerpt_length and post_display_limit
+    {%- endcomment -%}
 
-      {%- if page.forms -%}
-        {%- assign forms_arr = page.forms | array -%}
-        {% include sections/collection-stream.html section=section collection="forms" forms=forms_arr %}
-      {%- else -%}
-        {% include sections/collection-stream.html section=section collection="forms" %}
-      {%- endif -%}
-    {%- endif -%}
+    {%- assign filters = include.filters | default: section.data.filters | default: {} -%}
+    {%- assign coll = include.collection | default: section.data.collection -%}
+    {%- assign excerpt_length = include.excerpt_length | default: section.data.excerpt_length -%}
+    {%- assign post_display_limit = include.post_display_limit | default: section.data.post_display_limit -%}
 
-
+    {% include sections/collection-stream.html
+      section=section
+      collection=coll
+      filters=filters
+      excerpt_length=excerpt_length
+      post_display_limit=post_display_limit
+    %}
 
   {%- when 'ctas' -%}
     {% include sections/ctas.html section=section %}
