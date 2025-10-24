@@ -83,10 +83,6 @@
     background: transparent;
   }
 
-  .post-body {
-    text-align: center;    
-  }
-
   /* For lists inside .post-body: */
   :where(.post-body ul) {
     display: inline-block;       
