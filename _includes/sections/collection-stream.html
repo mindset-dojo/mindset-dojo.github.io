@@ -1,86 +1,71 @@
 {%- comment -%}
-DRY collection-stream.html — Generic filter function
-Supports:
+Generic collection-stream with a small generic filter loop.
 - collection: include.collection OR section.data.collection
-- primary filters: include.filters (hash) or section.data.filters (hash)
-- backward-compatible: include.authors and include.forms (merged into filters)
-- author fallback: page.slug (if authors not provided)
-- normalization: every filter value coerced to array
-- matching: post must satisfy ALL filter keys (AND)
-  - if post has p[filter_key], compare values
-  - else if filter_key == collection name, match filename slug (slug.md)
-  - else fail
-- sort/reverse/limit/excerpt_length preserved
+- filters: include.filters OR section.data.filters (hash). Values may be string or array.
+- sort_by / reverse / post_display_limit / excerpt_length supported.
 {%- endcomment -%}
 
 {%- assign coll_name = include.collection | default: section.data.collection -%}
 {%- assign posts = site[coll_name] | default: "" -%}
 
-{%- comment -%} Build filters hash: prefer include.filters, fallback to section.data.filters. Merge back-compat include.authors/include.forms. {%- endcomment -%}
+{%- comment -%} normalize filters into a proper hash/object {%- endcomment -%}
 {%- assign filters = include.filters | default: section.data.filters | default: {} -%}
-
-{%- if include.authors -%}
-  {%- assign filters = filters | merge: { "authors": include.authors } -%}
-{%- endif -%}
-{%- if include.forms -%}
-  {%- assign filters = filters | merge: { "forms": include.forms } -%}
-{%- endif -%}
-
-{%- comment -%} Author fallback: if no authors provided, use page.slug (split to array) {%- endcomment -%}
-{%- if filters.authors == nil and page and page.slug -%}
-  {%- assign filters = filters | merge: { "authors": page.slug | split:"|" } -%}
+{%- if filters == nil or filters == "" -%}
+  {%- assign filters = {} -%}
 {%- endif -%}
 
 {%- assign sort_key_field = section.data.sort_by | default: "date" -%}
 {%- assign reverse_flag = section.data.reverse == true -%}
-{%- assign display_limit = section.data.post_display_limit | default: section.data.post_display_limit -%}
+{%- assign display_limit = include.post_display_limit | default: section.data.post_display_limit -%}
 
-{%- assign filtered_posts = "" | split:"|" -%}
+{%- assign filtered_posts = "" | split: "|" -%}
 
 {%- for p in posts -%}
   {%- assign keep = true -%}
 
   {%- for filter_key in filters -%}
-    {%- comment -%} Ensure the filter values are an array {%- endcomment -%}
     {%- assign raw_vals = filters[filter_key] -%}
-    {%- assign filter_values = raw_vals | array -%}
+    {%- assign filter_values = raw_vals | array -%} {# coerce to array #}
 
     {%- if filter_values == nil or filter_values == empty -%}
-      {%- continue -%} {# no-op empty filter #}
+      {%- continue -%} {# skip empty filter values #}
     {%- endif -%}
 
-    {%- comment -%}
-      Case A: post exposes the field -> compare any value
-    {%- endcomment -%}
+    {%- comment -%} Case A: post exposes the field named after the filter_key {%- endcomment -%}
     {%- if p[filter_key] -%}
       {%- assign post_vals = p[filter_key] | array -%}
       {%- assign matched = false -%}
       {%- for pv in post_vals -%}
-        {%- if filter_values contains pv -%}
-          {%- assign matched = true -%}
-          {%- break -%}
-        {%- endif -%}
+        {%- assign pv_norm = pv | strip -%}
+        {%- for fv in filter_values -%}
+          {%- assign fv_norm = fv | strip -%}
+          {%- if pv_norm == fv_norm -%}
+            {%- assign matched = true -%}
+            {%- break -%}
+          {%- endif -%}
+        {%- endfor -%}
+        {%- if matched -%}{%- break -%}{%- endif -%}
       {%- endfor -%}
       {%- if matched == false -%}
         {%- assign keep = false -%}
       {%- endif -%}
 
-    {%- comment -%}
-      Case B: if post lacks the field but filter_key == current collection,
-      compute slug from filename (slug.md) and compare.
-    {%- endcomment -%}
+    {%- comment -%} Case B: post lacks the field but filter_key == this collection: match by filename slug (slug.md) {%- endcomment -%}
     {%- elsif filter_key == coll_name and p.path -%}
       {%- assign filename = p.path | split:"/" | last -%}
-      {%- assign slug = filename | split:"." | first -%}
-      {%- if filter_values contains slug -%}
-        {%- assign keep = keep and true -%}
-      {%- else -%}
+      {%- assign slug = filename | split:"." | first | strip -%}
+      {%- assign match = false -%}
+      {%- for fv in filter_values -%}
+        {%- if slug == (fv | strip) -%}
+          {%- assign match = true -%}
+          {%- break -%}
+        {%- endif -%}
+      {%- endfor -%}
+      {%- unless match -%}
         {%- assign keep = false -%}
-      {%- endif -%}
+      {%- endunless -%}
 
-    {%- comment -%}
-      Case C: post doesn't expose the field and filter isn't for this collection -> fail
-    {%- endcomment -%}
+    {%- comment -%} Case C: no match possible -> fail this post for this filter key {%- endcomment -%}
     {%- else -%}
       {%- assign keep = false -%}
     {%- endif -%}
@@ -99,25 +84,6 @@ Supports:
 
 <section id="collection-stream" class="md-flow">
   {%- for post in filtered_posts -%}
-    {% include sections/collection-item.html post=post excerpt_length=section.data.excerpt_length %}
+    {% include sections/collection-item.html post=post excerpt_length=include.excerpt_length | default: section.data.excerpt_length %}
   {%- endfor -%}
-
-  {%- comment -%} DEBUG: forms / authors / filtered_posts {%- endcomment -%}
-    <hr>
-    <pre style="font-size: 0.8em; background: #f7f7f7; padding: 0.5em; border: 1px solid #ccc;">
-      DEBUG — collection-stream.html
-      Collection: {{ coll_name }}
-      Filters hash just after passing to collection-item.html: {{ filters | jsonify }}
-      Filtered posts count: {{ filtered_posts | size }}
-      {% for p in filtered_posts %}
-        - {{ p.title }} (path: {{ p.path }})
-      {% endfor %}
-      {% if posts %}
-        --- All posts in {{ coll_name }} ({{ posts | size }} total) ---
-        {% for p in posts %}
-          • {{ p.title }} | authors: {{ p.authors | jsonify }} | forms: {{ p.forms | jsonify }}
-        {% endfor %}
-      {% endif %}
-    </pre>
-
 </section>
