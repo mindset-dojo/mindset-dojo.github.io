@@ -1,52 +1,56 @@
 {%- comment -%}
-DRY collection-stream.html with generic filters
+DRY collection-stream.html with fully generic optional filters
 - section.data.collection or include.collection
-- section.data.filters or include.filters
 - section.data.sort_by (default "date")
 - section.data.reverse (boolean)
 - section.data.excerpt_length (optional)
 - section.data.post_display_limit (optional)
-- Any key in filters hash: array of values; posts must match at least one value
+- filters: optional map (any key with array of strings)
+- If no filters provided, outputs all posts
+- For filters not present in post front matter, fall back to filename slug
 {%- endcomment -%}
 
 {%- assign coll_name = include.collection | default: section.data.collection -%}
 {%- assign posts = site[coll_name] -%}
 
-{%- assign filters = include.filters | default: {} -%}
-{%- assign sort_key_field = section.data.sort_by | default:"date" -%}
+{%- assign sort_key_field = section.data.sort_by | default: "date" -%}
 {%- assign reverse_flag = section.data.reverse == true -%}
+{%- assign excerpt_length = include.excerpt_length | default: section.data.excerpt_length -%}
+{%- assign post_display_limit = include.post_display_limit | default: section.data.post_display_limit -%}
+
+{%- assign filters = include.filters | default: nil -%}
 
 {%- assign filtered_posts = "" | split:"|" -%}
-
 {%- for p in posts -%}
   {%- assign keep = true -%}
 
-  {%- comment -%} Generic filter loop {%- endcomment -%}
-  {%- for filter_key in filters -%}
-    {%- assign allowed_values = filters[filter_key] -%}
-    {%- assign match_found = false -%}
+  {%- if filters != nil and filters != empty -%}
+    {%- for key in filters -%}
+      {%- assign filter_values = filters[key] -%}
+      {%- assign post_values = p[key] -%}
 
-    {%- if p[filter_key] -%}
-      {%- for val in p[filter_key] -%}
-        {%- if allowed_values contains val -%}
-          {%- assign match_found = true -%}
-          {%- break -%}
-        {%- endif -%}
-      {%- endfor -%}
-    {%- else -%}
-      {%- comment -%} Special case: derive slug from filename (slug.md) for forms or similar keys {%- endcomment -%}
-      {%- assign filename = p.path | split:"/" | last -%}
-      {%- assign slug = filename | split:"." | first -%}
-      {%- if allowed_values contains slug -%}
-        {%- assign match_found = true -%}
+      {%- if post_values == nil and key == "forms" -%}
+        {%- assign filename = p.path | split:"/" | last -%}
+        {%- assign slug = filename | split:"." | first -%}
+        {%- assign post_values = slug | split:"|" -%}
       {%- endif -%}
-    {%- endif -%}
 
-    {%- if match_found == false -%}
-      {%- assign keep = false -%}
-      {%- break -%}
-    {%- endif -%}
-  {%- endfor -%}
+      {%- assign match = false -%}
+      {%- if post_values != nil -%}
+        {%- for v in post_values -%}
+          {%- if filter_values contains v -%}
+            {%- assign match = true -%}
+            {%- break -%}
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endif -%}
+
+      {%- if match == false -%}
+        {%- assign keep = false -%}
+        {%- break -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
 
   {%- if keep -%}
     {%- assign filtered_posts = filtered_posts | push: p -%}
@@ -54,16 +58,15 @@ DRY collection-stream.html with generic filters
 {%- endfor -%}
 
 {%- assign filtered_posts = filtered_posts | sort: sort_key_field -%}
-{%- if reverse_flag -%}{%- assign filtered_posts = filtered_posts | reverse -%}{%- endif -%}
-{%- if section.data.post_display_limit -%}
-  {%- assign filtered_posts = filtered_posts | slice: 0, section.data.post_display_limit -%}
+{%- if reverse_flag -%}
+  {%- assign filtered_posts = filtered_posts | reverse -%}
+{%- endif -%}
+{%- if post_display_limit -%}
+  {%- assign filtered_posts = filtered_posts | slice: 0, post_display_limit -%}
 {%- endif -%}
 
 <section id="collection-stream" class="md-flow">
   {%- for post in filtered_posts -%}
-    {% include sections/collection-item.html
-       post=post
-       excerpt_length=section.data.excerpt_length
-    %}
+    {% include sections/collection-item.html post=post excerpt_length=excerpt_length %}
   {%- endfor -%}
 </section>
