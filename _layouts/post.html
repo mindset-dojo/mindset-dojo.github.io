@@ -19,22 +19,12 @@ layout: default
   {% if page.forms %}
     <h2>Related Forms</h2>
 
-    {%- assign filters = {} -%}
-
-    {%- if page.forms -%}
-      {%- assign filters_json = '{"forms":' | append: (page.forms | jsonify) | append: '}' -%}
-      {%- assign filters = filters_json | parse_json -%}
-    {%- else -%}
-      {%- assign filters = nil -%}
-    {%- endif -%}
-
-
     <pre>
       Check for existance of forms: {{ page.forms | jsonify }}
       Filters hash just before passing to collection-stream.html: {{ filters | jsonify }}
     </pre>
 
-    {% include sections/collection-stream.html section=section collection="forms" filters=filters %}
+    {% include sections/collection-stream.html section=section collection="forms" filter_key="forms" filter_values=page.forms %}
     <hr>
   {% endif %}
 
