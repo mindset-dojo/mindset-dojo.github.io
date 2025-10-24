@@ -107,7 +107,7 @@ Supports:
     <pre style="font-size: 0.8em; background: #f7f7f7; padding: 0.5em; border: 1px solid #ccc;">
       DEBUG — collection-stream.html
       Collection: {{ coll_name }}
-      Filters hash: {{ filters | jsonify }}
+      Filters hash just after passing to collection-item.html: {{ filters | jsonify }}
       Filtered posts count: {{ filtered_posts | size }}
       {% for p in filtered_posts %}
         - {{ p.title }} (path: {{ p.path }})
