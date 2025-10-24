@@ -18,8 +18,8 @@ layout: default
 
   {% if page.forms %}
     <h2>Related Forms</h2>
-    {% assign forms_array = page.forms | array %}
-    {% include sections/collection-stream.html collection="forms" section=section forms=forms_array %}
+    {%- assign filters = { "forms": page.forms | array } -%}
+    {% include sections/collection-stream.html collection="forms" section=section filters=filters %}
     <hr>
   {% endif %}
 
