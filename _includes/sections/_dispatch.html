@@ -25,19 +25,23 @@ Each case delegates to a small, focused template for that section type.
     {%- endcomment -%}
 
     {%- assign raw = include.filters | default: nil -%}
+
     {%- if raw == nil and include.filter_key and include.filter_values -%}
       {%- assign fv = include.filter_values | array -%}
       {%- assign keyname = include.filter_key | strip -%}
       {%- assign raw = '{"' | append: keyname | append: '":' | append: (fv | jsonify) | append: '}' -%}
     {%- endif -%}
+
     {%- if raw == nil -%}
       {%- assign raw = section.data.filters | default: nil -%}
     {%- endif -%}
 
-    {%- comment -%} Parse raw into a native hash only if needed {%- endcomment -%}
+    {%- comment -%}
+      Parse raw into a native hash only if it is a string
+    {%- endcomment -%}
     {%- if raw == blank -%}
       {%- assign filters = nil -%}
-    {%- elsif raw == raw | append: '' -%} {# raw is a string #}
+    {%- elsif raw == raw | append: '' -%} {# raw is string #}
       {%- assign first_char = raw | slice: 0, 1 -%}
       {%- if first_char == '"' -%}
         {%- assign inner = raw | slice: 1, raw | size | minus: 2 -%}
@@ -49,15 +53,17 @@ Each case delegates to a small, focused template for that section type.
       {%- assign filters = raw -%}
     {%- endif -%}
 
-    {%- comment -%} Replace "__PAGE_SLUG__" in any array value in filters {%- endcomment -%}
+    {%- comment -%}
+      Replace "__PAGE_SLUG__" placeholder in any array values
+    {%- endcomment -%}
     {%- if filters -%}
       {%- assign updated_filters = {} -%}
       {%- for key in filters -%}
         {%- assign val = filters[key] -%}
-        {%- if val == val | append: '' -%} {# string, keep as is #}
+        {%- if val == val | append: '' -%} {# string, leave as-is #}
           {%- assign updated_filters = updated_filters | merge: { key: val } -%}
-        {%- elsif val.size and val.size > 0 -%} {# likely an array #}
-          {%- assign new_array = '' | split: ',' -%}
+        {%- elsif val.size and val.size > 0 -%} {# array #}
+          {%- assign new_array = '' | split: ',' -%} {# empty array #}
           {%- for item in val -%}
             {%- if item == "__PAGE_SLUG__" -%}
               {%- assign new_array = new_array | push: page.slug -%}
@@ -66,7 +72,7 @@ Each case delegates to a small, focused template for that section type.
             {%- endif -%}
           {%- endfor -%}
           {%- assign updated_filters = updated_filters | merge: { key: new_array } -%}
-        {%- else -%}
+        {%- else -%} {# leave other types as-is #}
           {%- assign updated_filters = updated_filters | merge: { key: val } -%}
         {%- endif -%}
       {%- endfor -%}
