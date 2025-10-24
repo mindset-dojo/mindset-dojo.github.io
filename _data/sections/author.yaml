@@ -16,7 +16,7 @@ sections:
       excerpt_length: 220
       filters:
         authors: 
-          - "{{ page.author.id }}"
+          - "{{ page.slug }}"
       post_display_limit: 5
   - type: markdown
     data:
@@ -30,6 +30,6 @@ sections:
       excerpt_length: 220
       filters:
         authors: 
-          - "{{ page.author.id }}"
+          - "{{ page.slug }}"
       post_display_limit: 5
 ...
