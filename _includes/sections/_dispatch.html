@@ -35,7 +35,7 @@ Each case delegates to a small, focused template for that section type.
     {%- endif -%}
 
     {%- if filters == nil and page.sections_key == "author" -%}
-      {%- assign filters = '{"authors":[' | append: (page.slug | jsonify) | append: ']}' | parse_json -%}
+      {%- assign filters = '{"authors":["' | append: page.slug | append: '"]}' | parse_json -%}
     {%- endif -%}
 
     {%- assign coll = include.collection | default: section.data.collection -%}
