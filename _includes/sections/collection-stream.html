@@ -1,7 +1,7 @@
 {%- comment -%}
 DRY collection-stream.html with fully generic optional filters
 - section.data.collection or include.collection
-- section.data.sort_by (default "date")
+- section.data.sort_by (default: "date")
 - section.data.reverse (boolean)
 - section.data.excerpt_length (optional)
 - section.data.post_display_limit (optional)
@@ -29,25 +29,30 @@ DRY collection-stream.html with fully generic optional filters
       {%- assign filter_values = filters[key] -%}
       {%- assign post_values = p[key] -%}
 
+      {%- comment -%}
+        Special fallback for forms: derive slug from filename if post front matter missing
+      {%- endcomment -%}
       {%- if post_values == nil and key == "forms" -%}
         {%- assign filename = p.path | split:"/" | last -%}
         {%- assign slug = filename | split:"." | first -%}
         {%- assign post_values = slug | split:"|" -%}
       {%- endif -%}
 
-      {%- assign match = false -%}
-      {%- if post_values != nil -%}
+      {%- comment -%}
+        Only apply filter if post_values exists
+      {%- endcomment -%}
+      {%- if post_values != nil and post_values != empty -%}
+        {%- assign match = false -%}
         {%- for v in post_values -%}
           {%- if filter_values contains v -%}
             {%- assign match = true -%}
             {%- break -%}
           {%- endif -%}
         {%- endfor -%}
-      {%- endif -%}
-
-      {%- if match == false -%}
-        {%- assign keep = false -%}
-        {%- break -%}
+        {%- if match == false -%}
+          {%- assign keep = false -%}
+          {%- break -%}
+        {%- endif -%}
       {%- endif -%}
     {%- endfor -%}
   {%- endif -%}
@@ -56,6 +61,7 @@ DRY collection-stream.html with fully generic optional filters
     {%- assign filtered_posts = filtered_posts | push: p -%}
   {%- endif -%}
 {%- endfor -%}
+
 
 {%- assign filtered_posts = filtered_posts | sort: sort_key_field -%}
 {%- if reverse_flag -%}
