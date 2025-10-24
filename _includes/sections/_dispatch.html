@@ -34,10 +34,10 @@ Each case delegates to a small, focused template for that section type.
       {%- assign raw = section.data.filters | default: nil -%}
     {%- endif -%}
 
-    {%- comment -%} Parse raw into a native hash {%- endcomment -%}
+    {%- comment -%} Parse raw into a native hash only if needed {%- endcomment -%}
     {%- if raw == blank -%}
       {%- assign filters = nil -%}
-    {%- elsif raw == raw | append: '' -%} {# string check #}
+    {%- elsif raw == raw | append: '' -%} {# raw is a string #}
       {%- assign first_char = raw | slice: 0, 1 -%}
       {%- if first_char == '"' -%}
         {%- assign inner = raw | slice: 1, raw | size | minus: 2 -%}
@@ -45,8 +45,8 @@ Each case delegates to a small, focused template for that section type.
       {%- else -%}
         {%- assign filters = raw | parse_json -%}
       {%- endif -%}
-    {%- else -%}
-      {%- assign filters = raw | jsonify | parse_json -%}
+    {%- else -%} {# raw is already a hash #}
+      {%- assign filters = raw -%}
     {%- endif -%}
 
     {%- comment -%} Replace "__PAGE_SLUG__" in any array value in filters {%- endcomment -%}
