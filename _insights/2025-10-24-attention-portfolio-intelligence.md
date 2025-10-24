@@ -5,7 +5,8 @@ title_mark: Attention Portfolio
 date: 2025-10-24
 authors:
   - michael-basil
-forms: []
+forms: 
+  - integration-under-fire
 principles:
   - relax
   - center
