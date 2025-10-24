@@ -19,67 +19,58 @@ Each case delegates to a small, focused template for that section type.
 
   {%- when 'collection-stream' -%}
     {%- comment -%}
-      Robust dispatcher for collection-stream that avoids literal "left bracket symbol" in conditions.
-      Accepts include.filters (map or JSON/string), include.filter_key+filter_values shorthand,
-      or section.data.filters. Normalizes into `filters` (nil or a real hash), and
-      replaces placeholder "__PAGE_SLUG__" with page.slug while preserving other keys.
+      Normalize filters from include or section data,
+      replace "__PAGE_SLUG__" placeholders in any array values with page.slug,
+      and preserve all other keys.
     {%- endcomment -%}
 
-    {%- assign raw = nil -%}
-
-    {%- if include.filters -%}
-      {%- assign raw = include.filters -%}
-    {%- elsif include.filter_key and include.filter_values -%}
+    {%- assign raw = include.filters | default: nil -%}
+    {%- if raw == nil and include.filter_key and include.filter_values -%}
       {%- assign fv = include.filter_values | array -%}
       {%- assign keyname = include.filter_key | strip -%}
-      {%- assign filters_json = '{"' | append: keyname | append: '":' | append: (fv | jsonify) | append: '}' -%}
-      {%- assign raw = filters_json -%}
-    {%- else -%}
+      {%- assign raw = '{"' | append: keyname | append: '":' | append: (fv | jsonify) | append: '}' -%}
+    {%- endif -%}
+    {%- if raw == nil -%}
       {%- assign raw = section.data.filters | default: nil -%}
     {%- endif -%}
 
+    {%- comment -%} Parse raw into a native hash {%- endcomment -%}
     {%- if raw == blank -%}
       {%- assign filters = nil -%}
-    {%- elsif raw == raw | append: '' -%}
-      {%- comment -%} raw is a string (JSON or quoted JSON) — determine which {%- endcomment -%}
+    {%- elsif raw == raw | append: '' -%} {# string check #}
       {%- assign first_char = raw | slice: 0, 1 -%}
       {%- if first_char == '"' -%}
-        {%- assign raw_len = raw | size -%}
-        {%- assign inner_len = raw_len | minus: 2 -%}
-        {%- assign inner = raw | slice: 1, inner_len -%}
+        {%- assign inner = raw | slice: 1, raw | size | minus: 2 -%}
         {%- assign filters = inner | parse_json -%}
       {%- else -%}
         {%- assign filters = raw | parse_json -%}
       {%- endif -%}
     {%- else -%}
-      {%- assign filters_json = raw | jsonify -%}
-      {%- assign filters = filters_json | parse_json -%}
+      {%- assign filters = raw | jsonify | parse_json -%}
     {%- endif -%}
 
-    {%- comment -%} 
-      Preserve other keys and replace placeholder "__PAGE_SLUG__" in any array values.
-    {%- endcomment -%}
+    {%- comment -%} Replace "__PAGE_SLUG__" in any array value in filters {%- endcomment -%}
     {%- if filters -%}
-      {%- assign merged_filters = filters -%}
-      {%- if merged_filters.authors contains "__PAGE_SLUG__" -%}
-        {%- comment -%} Replace placeholder in authors array while preserving other keys {%- endcomment -%}
-        {%- assign new_authors = '' -%}
-        {%- for a in merged_filters.authors -%}
-          {%- if a == "__PAGE_SLUG__" -%}
-            {%- assign val = page.slug | default: "" -%}
-          {%- else -%}
-            {%- assign val = a -%}
-          {%- endif -%}
-          {%- if forloop.first -%}
-            {%- assign new_authors = val -%}
-          {%- else -%}
-            {%- assign new_authors = new_authors | append: ',' | append: val -%}
-          {%- endif -%}
-        {%- endfor -%}
-        {%- assign replacement_json = '{"authors":[' | append: new_authors | append: ']}' -%}
-        {%- assign merged_filters = merged_filters | merge: replacement_json | parse_json -%}
-      {%- endif -%}
-      {%- assign filters = merged_filters -%}
+      {%- assign updated_filters = {} -%}
+      {%- for key in filters -%}
+        {%- assign val = filters[key] -%}
+        {%- if val == val | append: '' -%} {# string, keep as is #}
+          {%- assign updated_filters = updated_filters | merge: { key: val } -%}
+        {%- elsif val.size and val.size > 0 -%} {# likely an array #}
+          {%- assign new_array = '' | split: ',' -%}
+          {%- for item in val -%}
+            {%- if item == "__PAGE_SLUG__" -%}
+              {%- assign new_array = new_array | push: page.slug -%}
+            {%- else -%}
+              {%- assign new_array = new_array | push: item -%}
+            {%- endif -%}
+          {%- endfor -%}
+          {%- assign updated_filters = updated_filters | merge: { key: new_array } -%}
+        {%- else -%}
+          {%- assign updated_filters = updated_filters | merge: { key: val } -%}
+        {%- endif -%}
+      {%- endfor -%}
+      {%- assign filters = updated_filters -%}
     {%- endif -%}
 
     {%- assign coll = include.collection | default: section.data.collection -%}
