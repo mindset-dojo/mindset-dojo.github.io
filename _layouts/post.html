@@ -21,7 +21,7 @@ layout: default
 
     {%- assign filters = {} -%}
     {%- if page.forms -%}
-      {%- assign filters = filters | merge: { "forms": page.forms | array } -%}
+      {%- assign filters = filters | merge: { "forms": page.forms } -%}
     {%- endif -%}
 
     <pre>
