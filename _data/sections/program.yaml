@@ -68,6 +68,8 @@ sections:
               url: /forms/jiki/
             - label: 5 minute Zazen with Jiki
               url: https://youtu.be/q7Y5rwKiabQ?si=8keWWxVJrCp9BN1S
+            - label: Genuine Gratitude Expression
+              url: /forms/genuine-gratitude-expression/
         - color: green
           label: 5th Kyu
           level: -5
@@ -160,6 +162,8 @@ sections:
               url: https://www.choseizen.org/store/p/resonate
             - label: 15 minute Zazen by yourself
               url: https://youtu.be/q7Y5rwKiabQ?si=8keWWxVJrCp9BN1S
+            - label: MetaShift Community Demonstration
+              url: /forms/metashift-community-demonstration/
         - color: black
           label: Shodan
           level: 1
@@ -168,6 +172,8 @@ sections:
           flows:
             - label: "The Hand-Sword and the Shadow - Using Force for Peace"
               url: /insights/force-for-peace/
+            - label: Attention Portfolio Intelligence
+              url: /insights/attention-portfolio-intelligence
             - label: 30 minute Zazen with Chosei Zen Virtual Dojo
               url: https://www.choseizen.org/virtual-dojo
             - label: Cultivating a Threshold-Based Authorship Network

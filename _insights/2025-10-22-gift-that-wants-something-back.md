@@ -5,6 +5,8 @@ title_mark: Wants
 date: 2025-10-22
 authors:
   - kyle-ingersoll
+forms:
+  - genuine-gratitude-expression
 principles:
   - relax
   - center
