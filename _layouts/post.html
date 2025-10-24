@@ -19,13 +19,10 @@ layout: default
   {% if page.forms %}
     <h2>Related Forms</h2>
 
-    <pre>
-      Check for existance of forms: {{ page.forms | jsonify }}
-      Filters hash just before passing to collection-stream.html: {{ filters | jsonify }}
-    </pre>
-
     {% include sections/collection-stream.html section=section collection="forms" filter_key="forms" filter_values=page.forms %}
+    
     <hr>
+    
   {% endif %}
 
   <p class="post-meta">
