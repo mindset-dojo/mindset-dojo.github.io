@@ -23,9 +23,9 @@ But a whisper rose: *What do I get?*
 
 He laughed at his own question — embarrassed, then curious.
 
-For the wealthy, giving becomes investment: a way to grow image, influence, control.
-For the poor, it becomes self-confirmation: proof of being a good person.
-Both call it generosity. Both are transactions of Ki.
+For some among the wealthy, giving can feel like investment — a way to grow image, influence, or control.
+For many with less, it can feel like self-confirmation — a quiet proof of being a good person.
+Both might call it generosity. Both seem to move Ki in their own way.
 
 So is there such a thing as *pure* giving?
 
