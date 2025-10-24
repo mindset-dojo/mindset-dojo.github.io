@@ -19,64 +19,23 @@ Each case delegates to a small, focused template for that section type.
 
   {%- when 'collection-stream' -%}
     {%- comment -%}
-      Normalize filters from include or section data,
-      replace "__PAGE_SLUG__" placeholders in any array values with page.slug,
-      and preserve all other keys.
+      Simplified collection-stream dispatcher:
+      - Use include.filters if provided (already a hash)
+      - Otherwise, build a hash from filter_key + filter_values
+      - For author pages, automatically filter by page.slug if no filters provided
     {%- endcomment -%}
 
-    {%- assign raw = include.filters | default: nil -%}
+    {%- assign filters = include.filters | default: nil -%}
 
-    {%- if raw == nil and include.filter_key and include.filter_values -%}
+    {%- if filters == nil and include.filter_key and include.filter_values -%}
       {%- assign fv = include.filter_values | array -%}
       {%- assign keyname = include.filter_key | strip -%}
-      {%- assign raw = '{"' | append: keyname | append: '":' | append: (fv | jsonify) | append: '}' -%}
+      {%- assign filters = {} | merge: { keyname: fv } -%}
     {%- endif -%}
 
-    {%- if raw == nil -%}
-      {%- assign raw = section.data.filters | default: nil -%}
-    {%- endif -%}
-
-    {%- comment -%}
-      Parse raw into a native hash only if it is a string
-    {%- endcomment -%}
-    {%- if raw == blank -%}
-      {%- assign filters = nil -%}
-    {%- elsif raw == raw | append: '' -%} {# raw is string #}
-      {%- assign first_char = raw | slice: 0, 1 -%}
-      {%- if first_char == '"' -%}
-        {%- assign inner = raw | slice: 1, raw | size | minus: 2 -%}
-        {%- assign filters = inner | parse_json -%}
-      {%- else -%}
-        {%- assign filters = raw | parse_json -%}
-      {%- endif -%}
-    {%- else -%} {# raw is already a hash #}
-      {%- assign filters = raw -%}
-    {%- endif -%}
-
-    {%- comment -%}
-      Replace "__PAGE_SLUG__" placeholder in any array values
-    {%- endcomment -%}
-    {%- if filters -%}
-      {%- assign updated_filters = {} -%}
-      {%- for key in filters -%}
-        {%- assign val = filters[key] -%}
-        {%- if val == val | append: '' -%} {# string, leave as-is #}
-          {%- assign updated_filters = updated_filters | merge: { key: val } -%}
-        {%- elsif val.size and val.size > 0 -%} {# array #}
-          {%- assign new_array = '' | split: ',' -%} {# empty array #}
-          {%- for item in val -%}
-            {%- if item == "__PAGE_SLUG__" -%}
-              {%- assign new_array = new_array | push: page.slug -%}
-            {%- else -%}
-              {%- assign new_array = new_array | push: item -%}
-            {%- endif -%}
-          {%- endfor -%}
-          {%- assign updated_filters = updated_filters | merge: { key: new_array } -%}
-        {%- else -%} {# leave other types as-is #}
-          {%- assign updated_filters = updated_filters | merge: { key: val } -%}
-        {%- endif -%}
-      {%- endfor -%}
-      {%- assign filters = updated_filters -%}
+    {%- comment -%} Auto-add authors filter for author pages if nothing else is set {%- endcomment -%}
+    {%- if filters == nil and page.sections_key == "author" -%}
+      {%- assign filters = { "authors": page.slug | array } -%}
     {%- endif -%}
 
     {%- assign coll = include.collection | default: section.data.collection -%}
@@ -90,6 +49,7 @@ Each case delegates to a small, focused template for that section type.
       excerpt_length=excerpt_length
       post_display_limit=post_display_limit
     %}
+
 
   {%- when 'ctas' -%}
     {% include sections/ctas.html section=section %}
