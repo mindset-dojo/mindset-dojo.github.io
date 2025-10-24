@@ -39,7 +39,8 @@ Each case delegates to a small, focused template for that section type.
 
     {%- if raw == blank -%}
       {%- assign filters = nil -%}
-    {%- elsif raw is string -%}
+    {%- elsif raw == raw | append: '' -%}
+      {%- comment -%} raw is a string (JSON or quoted JSON) — determine which {%- endcomment -%}
       {%- assign first_char = raw | slice: 0, 1 -%}
       {%- if first_char == '"' -%}
         {%- comment -%} raw is a quoted JSON string like "\"{...}\"" — strip outer quotes then parse inner JSON {%- endcomment -%}
