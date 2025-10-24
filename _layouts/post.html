@@ -25,6 +25,7 @@ layout: default
     {%- endif -%}
 
     <pre>
+      Check for existance of forms: {{ page.forms | jsonify }}
       Filters hash just before passing to collection-stream.html: {{ filters | jsonify }}
     </pre>
 
