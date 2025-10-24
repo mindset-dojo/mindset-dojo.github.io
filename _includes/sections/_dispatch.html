@@ -20,31 +20,25 @@ Each case delegates to a small, focused template for that section type.
   {%- when 'collection-stream' -%}
     {%- comment -%}
       Generic dispatch for collection-stream:
-      - Accepts filters via include.filters or section.data.filters
       - Accepts collection via include.collection or section.data.collection
+      - Accepts filters via include.filters or section.data.filters
       - Forwards excerpt_length and post_display_limit
-      - Dynamically builds filters as a JSON->hash map for robustness
+      - Filters are optional, each key is treated as an array of strings
     {%- endcomment -%}
 
-    {%- assign raw_filters = include.filters | default: section.data.filters | default: {} -%}
-
-    {%- comment -%}
-      Convert filters to proper hash in case any values are arrays or need dynamic JSON parsing
-    {%- endcomment -%}
-    {%- assign filters_json = raw_filters | jsonify -%}
-    {%- assign filters = filters_json | parse_json -%}
-
+    {%- assign filters = include.filters | default: section.data.filters | default: nil -%}
     {%- assign coll = include.collection | default: section.data.collection -%}
     {%- assign excerpt_length = include.excerpt_length | default: section.data.excerpt_length -%}
     {%- assign post_display_limit = include.post_display_limit | default: section.data.post_display_limit -%}
 
     {% include sections/collection-stream.html
-      section=section
-      collection=coll
-      filters=filters
-      excerpt_length=excerpt_length
-      post_display_limit=post_display_limit
+        section=section
+        collection=coll
+        filters=filters
+        excerpt_length=excerpt_length
+        post_display_limit=post_display_limit
     %}
+
 
 
   {%- when 'ctas' -%}
