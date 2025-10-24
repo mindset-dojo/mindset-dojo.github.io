@@ -19,11 +19,11 @@ Each case delegates to a small, focused template for that section type.
 
   {%- when 'collection-stream' -%}
     {%- comment -%}
-      Minimal, future-proof collection-stream dispatcher:
-      - Use include.filters if provided (already a hash)
-      - Otherwise, build a hash via filter_key + filter_values using jsonify
-      - Auto-filter authors for author pages if no filters provided
-      - Supports multiple keys dynamically in the future
+      DRY collection-stream dispatcher:
+      1. Use include.filters if given
+      2. Build filter from filter_key + filter_values if given
+      3. Auto-add authors filter for author pages if none provided
+      4. Ensure filters is always a hash (empty if needed)
     {%- endcomment -%}
 
     {%- assign filters = include.filters | default: nil -%}
@@ -38,6 +38,11 @@ Each case delegates to a small, focused template for that section type.
       {%- assign filters = '{"authors":["' | append: page.slug | append: '"]}' | parse_json -%}
     {%- endif -%}
 
+    {%- comment -%} Ensure filters is always a hash so collection-stream.html can iterate safely {%- endcomment -%}
+    {%- if filters == nil -%}
+      {%- assign filters = '{}' | parse_json -%}
+    {%- endif -%}
+
     {%- assign coll = include.collection | default: section.data.collection -%}
     {%- assign excerpt_length = include.excerpt_length | default: section.data.excerpt_length -%}
     {%- assign post_display_limit = include.post_display_limit | default: section.data.post_display_limit -%}
@@ -49,6 +54,7 @@ Each case delegates to a small, focused template for that section type.
       excerpt_length=excerpt_length
       post_display_limit=post_display_limit
     %}
+
 
 
 
