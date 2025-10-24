@@ -172,6 +172,8 @@ sections:
           flows:
             - label: "The Hand-Sword and the Shadow - Using Force for Peace"
               url: /insights/force-for-peace/
+            - label: Attention Portfolio Intelligence
+              url: /insights/attention-portfolio-intelligence
             - label: 30 minute Zazen with Chosei Zen Virtual Dojo
               url: https://www.choseizen.org/virtual-dojo
             - label: Cultivating a Threshold-Based Authorship Network
