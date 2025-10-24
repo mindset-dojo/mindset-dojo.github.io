@@ -19,10 +19,11 @@ Each case delegates to a small, focused template for that section type.
 
   {%- when 'collection-stream' -%}
     {%- comment -%}
-      Simplified collection-stream dispatcher:
+      Minimal, future-proof collection-stream dispatcher:
       - Use include.filters if provided (already a hash)
-      - Otherwise, build a hash from filter_key + filter_values
-      - For author pages, automatically filter by page.slug if no filters provided
+      - Otherwise, build a hash via filter_key + filter_values using jsonify
+      - Auto-filter authors for author pages if no filters provided
+      - Supports multiple keys dynamically in the future
     {%- endcomment -%}
 
     {%- assign filters = include.filters | default: nil -%}
@@ -30,12 +31,11 @@ Each case delegates to a small, focused template for that section type.
     {%- if filters == nil and include.filter_key and include.filter_values -%}
       {%- assign fv = include.filter_values | array -%}
       {%- assign keyname = include.filter_key | strip -%}
-      {%- assign filters = {} | merge: { keyname: fv } -%}
+      {%- assign filters = '{"' | append: keyname | append: '":' | append: (fv | jsonify) | append: '}' | parse_json -%}
     {%- endif -%}
 
-    {%- comment -%} Auto-add authors filter for author pages if nothing else is set {%- endcomment -%}
     {%- if filters == nil and page.sections_key == "author" -%}
-      {%- assign filters = { "authors": page.slug | array } -%}
+      {%- assign filters = '{"authors":[' | append: (page.slug | jsonify) | append: ']}' | parse_json -%}
     {%- endif -%}
 
     {%- assign coll = include.collection | default: section.data.collection -%}
@@ -49,6 +49,7 @@ Each case delegates to a small, focused template for that section type.
       excerpt_length=excerpt_length
       post_display_limit=post_display_limit
     %}
+
 
 
   {%- when 'ctas' -%}
