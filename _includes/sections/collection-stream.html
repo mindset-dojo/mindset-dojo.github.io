@@ -10,6 +10,13 @@ DRY collection-stream.html with fully generic optional filters
 - For missing post fields, fall back to filename slug (e.g., forms)
 {%- endcomment -%}
 
+<!-- 
+collection stream start debug code:
+section: {{ include.section | jsonify }}
+collection: {{ include.collection }}
+filters: {{ include.filters | jsonify }}
+-->
+
 {%- assign coll_name = include.collection | default: section.data.collection -%}
 {%- assign posts = site[coll_name] -%}
 
@@ -92,7 +99,11 @@ Now filtered_posts is a clean array of post objects (or empty). Sort/reverse/sli
   {%- assign filtered_posts = filtered_posts | slice: 0, post_display_limit -%}
 {%- endif -%}
 
-<!-- collection-stream.html code, just before collection-item.html call: filters: {{ filters | jsonify }} coll: {{ coll_name }} -->
+<!-- 
+collection-stream.html end code, just before collection-item.html call:
+coll: {{ coll_name }}
+filters: {{ filters | jsonify }} 
+-->
 
 <section id="collection-stream" class="md-flow">
   {%- for post in filtered_posts -%}
