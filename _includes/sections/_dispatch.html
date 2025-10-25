@@ -18,69 +18,16 @@ Each case delegates to a small, focused template for that section type.
     {% include sections/collection-item.html section=section data=data %}
 
   {%- when 'collection-stream' -%}
-    {%- comment -%}
-      Simple collection-stream dispatcher:
-      - Prefer include.filters (assumed hash)
-      - Else build map from include.filter_key + include.filter_values
-      - Else use section.data.filters (YAML)
-      - Convert empty map -> nil (so downstream means "no filters")
-      - No auto-add authors logic (removed)
-    {%- endcomment -%}
-
-    {%- assign filters = include.filters | default: section.data.filters | default: nil -%}
-
-    {%- comment -%}
-    Handle include.filter_key == "authors" with possible "__PAGE_SLUG__" sentinel.
-    This avoids unsupported filters (where_exp/indexing) and works in GitHub Pages Liquid.
-    {%- endcomment -%}
-
-    {%- assign raw_fv = include.filter_values | default: nil -%}
-
-    {%- if filters == nil and include.filter_key == "authors" and raw_fv -%}
-      {%- assign fv = raw_fv | array -%}
-      {%- assign new_fv = '' | split: ',' -%} {# empty array #}
-
-      {%- for item in fv -%}
-        {%- assign item = item | strip -%}
-        {%- if item != "__PAGE_SLUG__" and item != '' -%}
-          {%- unless new_fv contains item -%}
-            {%- assign new_fv = new_fv | push: item -%}
-          {%- endunless -%}
-        {%- endif -%}
-      {%- endfor -%}
-
-      {%- unless new_fv contains page.slug -%}
-        {%- assign new_fv = new_fv | push: page.slug -%}
-      {%- endunless -%}
-
-      {%- assign keyname = include.filter_key | strip -%}
-      {%- assign filters = '{"' | append: keyname | append: '":' | append: (new_fv | jsonify) | append: '}' | parse_json -%}
-
-    {%- elsif filters == nil and include.filter_key and include.filter_values -%}
-      {%- assign fv = include.filter_values | array -%}
-      {%- assign keyname = include.filter_key | strip -%}
-      {%- assign filters = '{"' | append: keyname | append: '":' | append: (fv | jsonify) | append: '}' | parse_json -%}
-    {%- endif -%}
-
-    {%- comment -%}
-      If filters exists but is an empty hash (no keys), treat as nil so collection-stream
-      displays all items by default.
-    {%- endcomment -%}
-    {%- if filters != nil and filters == empty -%}
-      {%- assign filters = nil -%}
-    {%- endif -%}
-
-    {%- assign coll = include.collection | default: section.data.collection -%}
-    {%- assign excerpt_length = include.excerpt_length | default: section.data.excerpt_length -%}
-    {%- assign post_display_limit = include.post_display_limit | default: section.data.post_display_limit -%}
-
-    {% include sections/collection-stream.html
+    {%- include sections/collection-stream.html
       section=section
-      collection=coll
-      filters=filters
-      excerpt_length=excerpt_length
-      post_display_limit=post_display_limit
-    %}
+      collection=section.data.collection
+      sort_by=section.data.sort_by
+      reverse=section.data.reverse
+      excerpt_length=section.data.excerpt_length
+      post_display_limit=section.data.post_display_limit
+      filter_key=section.data.filter_key
+      filter_values=section.data.filter_values
+    -%}
 
   {%- when 'ctas' -%}
     {% include sections/ctas.html section=section %}
