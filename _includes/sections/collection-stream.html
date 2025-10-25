@@ -32,7 +32,7 @@ Parameters:
 {%- endif -%}
 
 {%- comment -%} build filtered_posts: preserve Document objects {%- endcomment -%}
-{%- assign filtered_posts = posts | slice: 0, 0 -%} {# empty array #}
+{%- assign filtered_posts = posts | slice: 0, 0 -%}
 
 {%- if posts and posts != empty -%}
   {%- for post in posts -%}
