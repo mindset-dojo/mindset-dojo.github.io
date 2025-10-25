@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: form
 title: "Circle"
 title_mark: Circle
 published_date: 2025-10-20
