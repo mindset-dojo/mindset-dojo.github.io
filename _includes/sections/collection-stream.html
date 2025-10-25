@@ -17,7 +17,7 @@
 {%- if include.filter_key and include.filter_values -%}
   {%- assign key = include.filter_key -%}
   {%- assign vals = include.filter_values | array -%}
-  
+
   {%- for doc in coll -%}
     {%- assign field = doc[key] -%}
     {%- if field and vals contains field or (field | join: ",") contains (vals | first) -%}
@@ -34,6 +34,8 @@
   {%- assign sorted = sorted | reverse -%}
 {%- endif -%}
 
-{%- for item in sorted limit: include.post_display_limit -%}
-  {%- include sections/collection-item.html item=item excerpt_length=include.excerpt_length -%}
-{%- endfor -%}
+<section id="collection-stream" class="md-flow">
+  {%- for item in sorted limit: include.post_display_limit -%}
+    {%- include sections/collection-item.html item=item excerpt_length=include.excerpt_length -%}
+  {%- endfor -%}
+</section>
