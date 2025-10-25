@@ -23,7 +23,8 @@ layout: default
   {% endif %}
 
   <p class="post-meta">
-    Originally published {{ page.date | date: "%B %-d, %Y" }}
+    Originally published {{ page.published_date | date: "%B %-d, %Y" }}
+    Last modified {{ page.refactored_date | date: "%B %-d, %Y" }}
   </p>
 
   <hr>
