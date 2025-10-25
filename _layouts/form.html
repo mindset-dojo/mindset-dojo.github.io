@@ -3,3 +3,17 @@ layout: post
 ---
 
 {{ content }}
+
+{%- for insight in site.insights -%}
+    {%- if insight.forms and page.slug and insight.url != page.url -%}
+        {%- assign common_forms = insight.forms | where_exp: "form", page.slug contains form -%}
+        {%- if common_forms.size > 0 -%}
+            {% unless forloop.first %}
+                <hr>
+            {% endunless %}
+            <h2>Related Insights</h2>
+            {% include sections/collection-stream.html section=section collection="insights" filter_key="forms" filter_values=common_forms %}
+            {%- break -%}
+        {%- endif -%}
+    {%- endif -%}
+{%- endfor -%}
