@@ -11,15 +11,20 @@ DRY collection-stream.html with fully generic optional filters
 {%- endcomment -%}
 
 {%- assign coll_name = include.collection | default: section.data.collection -%}
-{%- assign posts = site[coll_name] -%}
+{%- assign posts = site[coll_name] | default: "" -%}
 
 {%- assign sort_key_field = section.data.sort_by | default: "date" -%}
 {%- assign reverse_flag = section.data.reverse == true -%}
 {%- assign excerpt_length = include.excerpt_length | default: section.data.excerpt_length -%}
 {%- assign post_display_limit = include.post_display_limit | default: section.data.post_display_limit -%}
 
+{%- comment -%}
+Create a true empty array for filtered_posts. Using site[coll_name] and slicing
+produces an empty array of the same "type" so push behaves reliably.
+{%- endcomment -%}
+{%- assign filtered_posts = posts | slice: 0, 0 -%}
+
 {%- assign filters = include.filters | default: nil -%}
-{%- assign filtered_posts = "" | split:"|" -%}
 
 {%- for p in posts -%}
   {%- assign keep = true -%}
@@ -60,6 +65,9 @@ DRY collection-stream.html with fully generic optional filters
   {%- endif -%}
 {%- endfor -%}
 
+{%- comment -%}
+Now filtered_posts is a clean array of post objects (or empty). Sort/reverse/slice safely.
+{%- endcomment -%}
 {%- assign filtered_posts = filtered_posts | sort: sort_key_field -%}
 {%- if reverse_flag -%}
   {%- assign filtered_posts = filtered_posts | reverse -%}
