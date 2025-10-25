@@ -59,6 +59,7 @@ about: |
   
   - [Email](mailto:michael@basil.one)
   - [LinkedIn](https://link.basil.one)
-  - [GitHub](https://github.com/michael-basil)
+  - [Resume](https://resume.michael.basil.one)
+  - [GitHub](https://git.michael.basil.one)
   - [Video](https://connect.michael.basil.one)
 ---
