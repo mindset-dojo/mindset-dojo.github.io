@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: form
 title: "Three Question Reflection"
 title_mark: Reflection
 published_date: 2025-10-20

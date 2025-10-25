@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: form
 title: "Four Element Zensei"
 title_mark: Four Element
 published_date: 2025-10-20

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: form
 title: "Integration Under Fire"
 title_mark: "Integration"
 published_date: 2025-10-22

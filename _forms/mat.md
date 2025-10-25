@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: form
 title: "Mat"
 title_mark: Mat
 published_date: 2025-10-20

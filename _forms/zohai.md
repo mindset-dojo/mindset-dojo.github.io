@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: form
 title: "Zohai"
 title_mark: Zohai
 published_date: 2025-10-20

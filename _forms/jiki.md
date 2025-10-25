@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: form
 title: "Jiki"
 title_mark: Jiki
 published_date: 2025-10-22

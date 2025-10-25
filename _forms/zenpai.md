@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: form
 title: "Zenpai"
 title_mark: Zenpai
 published_date: 2025-10-20

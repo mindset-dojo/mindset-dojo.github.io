@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: form
 title: "Zensei"
 title_mark: Zensei
 published_date: 2025-10-20

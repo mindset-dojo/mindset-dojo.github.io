@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: form
 title: "Dojo"
 title_mark: Dojo
 published_date: 2025-10-20
