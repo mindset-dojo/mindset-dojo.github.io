@@ -24,19 +24,9 @@ sections:
         - "We train to meet fear with presence and to turn reaction into response."
         - "We practice mind, body, and voice as one integrated discipline."
         - "We awaken the evolution already moving through each of us."
-  - type: list
+  - type: principles
     data:
-      label: "Energy Intention"
-      items:
-        - id: "authorship"
-          label: "Authorship Cultivates Flow"
-          description: "Energy moves through creation and contribution — not consumption."
-        - id: "attunement"
-          label: "Presence Tends the Field"
-          description: "Curiosity and awareness are subtle currencies; attention invites coherence."
-        - id: "reciprocity"
-          label: "Reciprocity Sustains Renewal"
-          description: "Balanced giving and receiving — emotional, creative, and financial — keeps energy circulating and the field vibrant."
+      principle_type: "mission"
   - type: text
     data:
       label: "Training Ground"
