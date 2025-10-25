@@ -4,23 +4,11 @@ layout: default
 
 <article class="post-article" itemscope itemtype="https://schema.org/Article">
     
-  
-  {% if page.principles %}
-    {% include sections/principles.html section=section principles_title="Related Principles" page_data=site.data.sections.principles %}
-    <hr>
-  {% endif %}
-
   <div class="post-body" itemprop="articleBody">
     {{ content }}
   </div>
 
   <hr>
-
-  {% if page.forms %}
-    <h2>Related Forms</h2>
-
-    {% include sections/collection-stream.html section=section collection="forms" filter_key="forms" filter_values=page.forms %}
-  {% endif %}
 
   <p class="post-meta">
     Originally published {{ page.published_date | date: "%B %-d, %Y" }} <br>
