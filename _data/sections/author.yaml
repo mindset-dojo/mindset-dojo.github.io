@@ -16,7 +16,7 @@ sections:
       excerpt_length: 220
       post_display_limit: 5
       filter_key: authors
-      filter_values: 
+      filter_values:
         - "__PAGE_SLUG__"
   - type: markdown
     data:
@@ -30,6 +30,6 @@ sections:
       excerpt_length: 220
       post_display_limit: 5
       filter_key: authors
-      filter_values: 
+      filter_values:
         - "__PAGE_SLUG__"
 ...
