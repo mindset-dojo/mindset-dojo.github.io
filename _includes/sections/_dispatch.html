@@ -80,6 +80,9 @@ Each case delegates to a small, focused template for that section type.
       {%- assign filters = '{}' | parse_json -%}
     {%- endif -%}
 
+    {%- comment -%} DEBUG: remove this line after verifying output in page HTML source {%- endcomment -%}
+    <!-- debug: collection-stream filters = {{ filters | jsonify }} -->
+
     {%- assign coll = include.collection | default: section.data.collection -%}
     {%- assign excerpt_length = include.excerpt_length | default: section.data.excerpt_length -%}
     {%- assign post_display_limit = include.post_display_limit | default: section.data.post_display_limit -%}
