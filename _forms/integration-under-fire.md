@@ -44,7 +44,6 @@ When tension or perceived attack arises, move deliberately.
 
 **Map consciousness.** Recognize the level of awareness being expressed — from fear to love — and choose your level of response deliberately.  
   
-
 **Respond.** Act or speak from the higher level of commitment without self-sacrifice.  
 
 Use this form around moments of compression — before entering them, while inside them, or after they pass.  
