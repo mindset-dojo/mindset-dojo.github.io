@@ -75,19 +75,14 @@ Notes:
   {% endfor %}
 {% endif %}
 
-{%- unless hide_author -%}
-    <article>
-        <h3 class="title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-        <p class="meta">
-            By {{ author_name_string | default: site.author }} — {{ post.published_date | date: "%b %-d, %Y" }}
-        </p>
-        <p class="excerpt">
-            {{ post.excerpt | default: post.content | strip_html | truncate: excerpt_len }}
-        </p>
-        <hr>
-    </article>
-{%- else -%}
-    <article>
-        <h3 class="title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-    </article>
-{%- endunless -%}
+
+<article>
+  <h3 class="title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+  <p class="meta">
+      By {{ author_name_string | default: site.author }} — {{ post.published_date | date: "%b %-d, %Y" }}
+  </p>
+  <p class="excerpt">
+      {{ post.excerpt | default: post.content | strip_html | truncate: excerpt_len }}
+  </p>
+  <hr>
+</article>
