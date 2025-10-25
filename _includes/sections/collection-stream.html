@@ -71,7 +71,7 @@ Parameters:
 {%- endif -%}
 
 {%- comment -%} sorting / reversing / limiting {%- endcomment -%}
-{%- assign sort_key_field = include.sort_by | default: section.data.sort_by | default: "date" -%}
+{%- assign sort_key_field = include.sort_by | default: section.data.sort_by | default: "published_date" -%}
 {%- assign reverse_flag = include.reverse | default: section.data.reverse | default: false -%}
 {%- assign post_display_limit = include.post_display_limit | default: section.data.post_display_limit | default: nil -%}
 
