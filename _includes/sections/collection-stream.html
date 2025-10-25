@@ -11,9 +11,9 @@
     post_display_limit: Maximum number of items to display (optional).
 {%- endcomment -%}
 
-{%- assign coll = include.collection | default: section.data.collection -%}
+{%- assign coll = section.data.collection -%}
 
-{%- assign filtered_coll = coll -%}
+{%- assign filtered_coll = site[coll] -%}
 {%- if include.filter_key and include.filter_values -%}
   {%- assign key = include.filter_key -%}
   {%- assign vals = include.filter_values | array -%}
