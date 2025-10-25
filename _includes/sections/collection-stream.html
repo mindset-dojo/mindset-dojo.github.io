@@ -17,8 +17,7 @@
 {%- if include.filter_key and include.filter_values -%}
   {%- assign key = include.filter_key -%}
   {%- assign vals = include.filter_values | array -%}
-
-  {%- assign filtered_coll = "" | split: "" -%}
+  
   {%- for doc in coll -%}
     {%- assign field = doc[key] -%}
     {%- if field and vals contains field or (field | join: ",") contains (vals | first) -%}
