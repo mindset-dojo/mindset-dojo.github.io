@@ -16,7 +16,7 @@ Behavior:
 - Pass to sections/list.html
 {%- endcomment -%}
 
-{%- assign title = include.principles.title | default: section.data.principles_title | default: "Principles" -%}
+{%- assign title = include.principles_title | default: section.data.principles_title | default: "Principles" -%}
 {%- assign data_source = include.page_data | default: site.data.sections.principles -%}
 {%- assign all_items = data_source.items -%}
 
