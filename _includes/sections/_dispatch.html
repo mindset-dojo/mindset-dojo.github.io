@@ -19,28 +19,41 @@ Each case delegates to a small, focused template for that section type.
 
   {%- when 'collection-stream' -%}
     {%- comment -%}
-      DRY collection-stream dispatcher:
-      1. Use include.filters if given
-      2. Build filter from filter_key + filter_values if given
-      3. Auto-add authors filter for author pages if none provided
-      4. Ensure filters is always a hash (empty if needed)
+      Fully generalized collection-stream dispatcher:
+      - Uses include.filters if provided
+      - Builds filters from filter_key + filter_values
+      - Auto-filters authors for author pages when applicable
+      - Preserves all other keys
+      - Always outputs a hash
     {%- endcomment -%}
 
     {%- assign filters = include.filters | default: nil -%}
 
+    {%- comment -%} Build single filter key dynamically if provided {%- endcomment -%}
     {%- if filters == nil and include.filter_key and include.filter_values -%}
       {%- assign fv = include.filter_values | array -%}
       {%- assign keyname = include.filter_key | strip -%}
       {%- assign filters = '{"' | append: keyname | append: '":' | append: (fv | jsonify) | append: '}' | parse_json -%}
     {%- endif -%}
 
+    {%- comment -%} Auto-add authors filter for author pages if filters is still nil {%- endcomment -%}
     {%- if filters == nil and page.sections_key == "author" -%}
       {%- assign filters = '{"authors":["' | append: page.slug | append: '"]}' | parse_json -%}
     {%- endif -%}
 
-    {%- comment -%} Ensure filters is always a hash so collection-stream.html can iterate safely {%- endcomment -%}
+    {%- comment -%} Ensure filters is always a hash for safe iteration {%- endcomment -%}
     {%- if filters == nil -%}
       {%- assign filters = '{}' | parse_json -%}
+    {%- endif -%}
+
+    {%- comment -%} Merge additional filter keys from section.data.filters if present {%- endcomment -%}
+    {%- if section.data.filters -%}
+      {%- assign merged_filters = filters -%}
+      {%- for key in section.data.filters -%}
+        {%- assign val = section.data.filters[key] -%}
+        {%- assign merged_filters = merged_filters | merge: ( '{"' | append: key | append: '":' | append: (val | jsonify) | append: '}' | parse_json ) -%}
+      {%- endfor -%}
+      {%- assign filters = merged_filters -%}
     {%- endif -%}
 
     {%- assign coll = include.collection | default: section.data.collection -%}
@@ -54,9 +67,6 @@ Each case delegates to a small, focused template for that section type.
       excerpt_length=excerpt_length
       post_display_limit=post_display_limit
     %}
-
-
-
 
   {%- when 'ctas' -%}
     {% include sections/ctas.html section=section %}
