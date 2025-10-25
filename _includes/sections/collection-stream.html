@@ -11,7 +11,7 @@ DRY collection-stream.html with fully generic optional filters
 {%- endcomment -%}
 
 {%- assign coll_name = include.collection | default: section.data.collection -%}
-{%- assign posts = site[coll_name] | default: "" -%}
+{%- assign posts = site[coll_name] -%}
 
 {%- assign sort_key_field = section.data.sort_by | default: "date" -%}
 {%- assign reverse_flag = section.data.reverse == true -%}
