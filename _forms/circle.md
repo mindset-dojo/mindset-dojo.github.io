@@ -2,7 +2,8 @@
 layout: post
 title: "Circle"
 title_mark: Circle
-date: 2025-10-20
+published_date: 2025-10-20
+refactored_date: 2025-10-25
 authors:
   - michael-basil
   - kyle-ingersoll

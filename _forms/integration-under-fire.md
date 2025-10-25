@@ -2,7 +2,8 @@
 layout: post
 title: "Integration Under Fire"
 title_mark: "Integration"
-date: 2025-10-22
+published_date: 2025-10-22
+refactored_date: 2025-10-25
 authors:
   - michael-basil
 excerpt: "A reflection form for working with compression — meeting lower-consciousness forces without collapsing or bypassing. Integration through practice, not martyrdom."
