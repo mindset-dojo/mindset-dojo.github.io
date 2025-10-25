@@ -76,6 +76,8 @@ Now filtered_posts is a clean array of post objects (or empty). Sort/reverse/sli
   {%- assign filtered_posts = filtered_posts | slice: 0, post_display_limit -%}
 {%- endif -%}
 
+<!-- collection-stream.html code, just before collection-item.html call: filters: {{ filters | jsonify }} coll: {{ coll_name }} -->
+
 <section id="collection-stream" class="md-flow">
   {%- for post in filtered_posts -%}
     {% include sections/collection-item.html post=post excerpt_length=excerpt_length %}

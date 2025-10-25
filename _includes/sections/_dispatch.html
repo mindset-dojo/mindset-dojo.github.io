@@ -81,7 +81,7 @@ Each case delegates to a small, focused template for that section type.
     {%- endif -%}
 
     {%- comment -%} DEBUG: remove this line after verifying output in page HTML source {%- endcomment -%}
-    <!-- debug: collection-stream filters = {{ filters | jsonify }} -->
+    <!-- debug: _dispatch.html debug code: collection-stream filters = {{ filters | jsonify }} -->
 
     {%- assign coll = include.collection | default: section.data.collection -%}
     {%- assign excerpt_length = include.excerpt_length | default: section.data.excerpt_length -%}
