@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: insight
 title: "The Gift That Wants Something Back"
 title_mark: Wants
 published_date: 2025-10-22
