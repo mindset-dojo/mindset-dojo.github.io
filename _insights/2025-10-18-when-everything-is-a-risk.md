@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: insight
 title: "When Everything Is a Risk"
 title_mark: Risk
 published_date: 2025-10-18

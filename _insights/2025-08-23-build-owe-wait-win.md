@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: insight
 title: "To Build Is to Owe. To Wait Is to Win."
 title_mark: Owe
 authors: 

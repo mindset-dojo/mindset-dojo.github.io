@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: insight
 title: "Spiraling with the Shadow in Star Wars"
 title_mark: Spiral
 published_date: 2025-10-09

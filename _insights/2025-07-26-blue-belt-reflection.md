@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: insight
 title: "Blue Belt Reflection"
 title_mark: Reflection
 authors: 

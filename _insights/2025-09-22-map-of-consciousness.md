@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: insight
 title: "Map of Consciousness"
 title_mark: Map
 authors: 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: insight
 title: "The Way of Plus Ki"
 title_mark: Way
 published_date: 2025-10-18

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: insight
 title: "Feedback Fields: Learning to Ride Together"
 title_mark: Learning
 published_date: 2025-10-16

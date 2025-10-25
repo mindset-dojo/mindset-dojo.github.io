@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: insight
 title: "Cultivating a Threshold-Based Authorship Network"
 title_mark: Authorship
 published_date: 2025-10-09

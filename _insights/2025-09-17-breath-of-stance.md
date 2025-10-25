@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: insight
 title: "The Breath of a Stance Shifts the Mountain"
 title_mark: Stance
 authors: 

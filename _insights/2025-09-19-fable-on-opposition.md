@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: insight
 title: "A Fable on Opposition"
 title_mark: Opposition
 authors: 

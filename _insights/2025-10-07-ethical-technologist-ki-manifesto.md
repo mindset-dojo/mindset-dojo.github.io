@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: insight
 title: "The Ethical Technologist’s Ki Manifesto"
 title_mark: Ethical
 published_date: 2025-10-07

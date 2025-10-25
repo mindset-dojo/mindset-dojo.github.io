@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: insight
 title: "Fear as Teacher, Shadow as Mirror, Presence as Response"
 title_mark: Presence
 published_date: 2025-09-30

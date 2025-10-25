@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: insight
 title: "The Human Guides, the AI Follows"
 title_mark: Human Guides
 published_date: 2025-10-16

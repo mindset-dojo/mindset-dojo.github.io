@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: insight
 title: "The Hand-Sword and the Shadow - Force for Peace"
 title_mark: Force for Peace
 published_date: 2025-10-15

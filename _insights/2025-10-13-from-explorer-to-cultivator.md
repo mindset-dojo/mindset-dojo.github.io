@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: insight
 title: "From Explorer to Cultivator"
 title_mark: Cultivator
 published_date: 2025-10-13

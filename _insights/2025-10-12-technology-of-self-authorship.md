@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: insight
 title: "The Technology of Self-Authorship"
 title_mark: Self-Authorship
 published_date: 2025-10-12

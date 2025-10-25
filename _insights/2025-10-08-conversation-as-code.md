@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: insight
 title: "Conversation as Code"
 title_mark: Conversation
 published_date: 2025-10-08

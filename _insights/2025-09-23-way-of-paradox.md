@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: insight
 title: "The Way of Paradox"
 title_mark: Paradox
 published_date: 2025-09-23

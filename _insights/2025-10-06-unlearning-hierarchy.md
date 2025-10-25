@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: insight
 title: "Unlearning Hierarchy"
 title_mark: learn
 published_date: 2025-10-06

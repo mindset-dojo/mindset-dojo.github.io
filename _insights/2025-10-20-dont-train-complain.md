@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: insight
 title: "Don't Train, Complain...? ⛩️"
 title_mark: "Complain...?"
 published_date: 2025-10-20

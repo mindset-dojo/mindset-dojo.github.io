@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: insight
 title: "Not Knowing Is Most Intimate"
 title_mark: Not Knowing
 authors: 

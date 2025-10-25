@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: insight
 title: "Houston, We Have an Attitude"
 title_mark: Attitude
 authors: 
