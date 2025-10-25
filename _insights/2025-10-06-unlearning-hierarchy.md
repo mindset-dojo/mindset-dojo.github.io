@@ -2,7 +2,8 @@
 layout: post
 title: "Unlearning Hierarchy"
 title_mark: learn
-date: 2025-10-06
+published_date: 2025-10-06
+refactored_date: 2025-10-25
 authors: 
   - michael-basil
   - kyle-ingersoll

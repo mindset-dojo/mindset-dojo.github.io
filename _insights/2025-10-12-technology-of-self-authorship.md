@@ -2,7 +2,8 @@
 layout: post
 title: "The Technology of Self-Authorship"
 title_mark: Self-Authorship
-date: 2025-10-12
+published_date: 2025-10-12
+refactored_date: 2025-10-25
 authors: 
   - michael-basil
 forms:

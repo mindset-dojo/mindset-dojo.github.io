@@ -2,7 +2,8 @@
 layout: post
 title: "Don't Train, Complain...? ⛩️"
 title_mark: "Complain...?"
-date: 2025-10-20
+published_date: 2025-10-20
+refactored_date: 2025-10-25
 authors:
   - michael-basil
 forms:

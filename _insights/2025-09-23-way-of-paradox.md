@@ -2,7 +2,8 @@
 layout: post
 title: "The Way of Paradox"
 title_mark: Paradox
-date: 2025-09-23
+published_date: 2025-09-23
+refactored_date: 2025-10-25
 authors: 
   - kyle-ingersoll
 forms:

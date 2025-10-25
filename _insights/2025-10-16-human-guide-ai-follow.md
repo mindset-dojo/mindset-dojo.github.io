@@ -2,7 +2,8 @@
 layout: post
 title: "The Human Guides, the AI Follows"
 title_mark: Human Guides
-date: 2025-10-16
+published_date: 2025-10-16
+refactored_date: 2025-10-25
 authors: 
   - kyle-ingersoll
 forms:

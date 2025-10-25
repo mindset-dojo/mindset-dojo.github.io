@@ -2,7 +2,8 @@
 layout: post
 title: "The Ethical Technologist’s Ki Manifesto"
 title_mark: Ethical
-date: 2025-10-07
+published_date: 2025-10-07
+refactored_date: 2025-10-25
 authors: 
   - kyle-ingersoll
 forms:

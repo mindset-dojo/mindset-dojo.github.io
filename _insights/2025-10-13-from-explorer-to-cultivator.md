@@ -2,7 +2,8 @@
 layout: post
 title: "From Explorer to Cultivator"
 title_mark: Cultivator
-date: 2025-10-13
+published_date: 2025-10-13
+refactored_date: 2025-10-25
 authors: 
   - michael-basil
 forms:

@@ -2,7 +2,8 @@
 layout: post
 title: "The Way of Plus Ki"
 title_mark: Way
-date: 2025-10-18
+published_date: 2025-10-18
+refactored_date: 2025-10-25
 authors:
   - kyle-ingersoll
 forms:

@@ -2,7 +2,8 @@
 layout: post
 title: "Feedback Fields: Learning to Ride Together"
 title_mark: Learning
-date: 2025-10-16
+published_date: 2025-10-16
+refactored_date: 2025-10-25
 authors: 
   - michael-basil
 forms:

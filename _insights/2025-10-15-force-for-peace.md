@@ -2,7 +2,8 @@
 layout: post
 title: "The Hand-Sword and the Shadow - Force for Peace"
 title_mark: Force for Peace
-date: 2025-10-15
+published_date: 2025-10-15
+refactored_date: 2025-10-25
 authors: 
   - kyle-ingersoll
 forms:

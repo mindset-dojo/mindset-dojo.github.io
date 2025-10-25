@@ -13,7 +13,8 @@ principles:
   - center
   - meet
   - resonate
-date: 2025-07-26
+published_date: 2025-07-26
+refactored_date: 2025-10-25
 excerpt: "Through Blue Belt training, I learned that Fearless Leadership begins not with control, but with the awareness to lead, follow, and act through balance."
 ---
 

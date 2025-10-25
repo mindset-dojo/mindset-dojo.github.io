@@ -11,7 +11,8 @@ forms:
 principles:
   - relax
   - center
-date: 2025-08-23
+published_date: 2025-08-23
+refactored_date: 2025-10-25
 excerpt: "A reflection on the MetaShift from Visionary to Organizer energy, where doing nothing—*for now*—becomes the wisest move."
 ---
 

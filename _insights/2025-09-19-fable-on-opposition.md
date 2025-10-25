@@ -12,7 +12,8 @@ principles:
   - center
   - meet
   - resonate
-date: 2025-09-19
+published_date: 2025-09-19
+refactored_date: 2025-10-25
 excerpt: "Opposition is not just resistance — it is the sharpening edge that deepens our roots, clarifies our direction, and prepares us to rise beyond limits."
 ---
 

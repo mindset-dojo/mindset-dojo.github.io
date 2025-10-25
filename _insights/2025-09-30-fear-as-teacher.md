@@ -2,7 +2,8 @@
 layout: post
 title: "Fear as Teacher, Shadow as Mirror, Presence as Response"
 title_mark: Presence
-date: 2025-09-30
+published_date: 2025-09-30
+refactored_date: 2025-10-25
 authors: 
   - kyle-ingersoll
 forms:

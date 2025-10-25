@@ -2,7 +2,8 @@
 layout: post
 title: "Cultivating a Threshold-Based Authorship Network"
 title_mark: Authorship
-date: 2025-10-09
+published_date: 2025-10-09
+refactored_date: 2025-10-25
 authors: 
   - michael-basil
 forms:

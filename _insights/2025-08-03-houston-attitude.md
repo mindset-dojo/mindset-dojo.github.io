@@ -14,7 +14,8 @@ principles:
   - center
   - meet
   - resonate
-date: 2025-08-03
+published_date: 2025-08-03
+refactored_date: 2025-10-25
 excerpt: "When tone shifts, awareness follows—revealing the MetaShift from control to connection that transforms every conversation into practice."
 ---
 

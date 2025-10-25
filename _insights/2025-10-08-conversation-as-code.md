@@ -2,7 +2,8 @@
 layout: post
 title: "Conversation as Code"
 title_mark: Conversation
-date: 2025-10-08
+published_date: 2025-10-08
+refactored_date: 2025-10-25
 authors: 
   - michael-basil
 forms:

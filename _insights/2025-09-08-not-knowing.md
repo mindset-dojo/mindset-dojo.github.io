@@ -14,7 +14,8 @@ principles:
   - center
   - meet
   - resonate
-date: 2025-09-08
+published_date: 2025-09-08
+refactored_date: 2025-10-25
 excerpt: "A reflection on how the Mat Sessions and community practice of Mindset Dojo helped me transform ego-driven self-improvement into humble, fearless growth through beginner’s mind."
 ---
 
