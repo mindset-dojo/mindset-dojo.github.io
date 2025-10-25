@@ -24,7 +24,7 @@ I will attempt to show Shakespeare used metaphor in an identical way, as a poeti
 
 Shakepeare's Sonnet 18 is one of his most famous, and is one of his best uses of metaphor.
 
-Shakespeare's Sonnet 18 praises the beauty of the poet's beloved, declaring it superior to a summer’s day, which is often imperfect and short-lived. 
+Shakespeare's Sonnet 18 praises the beauty of the poet's beloved, declaring it superior to a summer’s day, which is often imperfect and short-lived.
 
 "Shall I compare thee to a summer’s day?"
 
