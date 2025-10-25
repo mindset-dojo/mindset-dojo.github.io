@@ -29,21 +29,7 @@ Each case delegates to a small, focused template for that section type.
 
     {%- assign filters = nil -%}
 
-    {%- comment -%} 1) include.filters (use-as-is if hash; parse if string) {%- endcomment -%}
-    {%- if include.filters -%}
-      {%- assign raw_filters = include.filters -%}
-      {%- if raw_filters == raw_filters | append: '' -%} {# raw is a string -> parse #}
-        {%- assign first_char = raw_filters | slice: 0, 1 -%}
-        {%- if first_char == '"' -%}
-          {%- assign inner = raw_filters | slice: 1, raw_filters | size | minus: 2 -%}
-          {%- assign filters = inner | parse_json -%}
-        {%- else -%}
-          {%- assign filters = raw_filters | parse_json -%}
-        {%- endif -%}
-      {%- else -%}
-        {%- assign filters = raw_filters -%}
-      {%- endif -%}
-    {%- endif -%}
+    {%- assign filters = include.filters | default: section.data.filters | default: nil -%}
 
     {%- comment -%} 2) build from filter_key + filter_values if still nil {%- endcomment -%}
     {%- if filters == nil and include.filter_key and include.filter_values -%}
