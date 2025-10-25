@@ -29,6 +29,7 @@ sections:
       text: "Ideation is play; contribution is practice."
   - type: principles
     data:
+      principles_title: "Engagement Principles"
       principle_type: "project"
   - type: designations
     data:

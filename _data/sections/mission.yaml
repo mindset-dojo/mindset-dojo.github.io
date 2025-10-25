@@ -26,6 +26,7 @@ sections:
         - "We awaken the evolution already moving through each of us."
   - type: principles
     data:
+      principles_title: "Energy Intention"
       principle_type: "mission"
   - type: text
     data:

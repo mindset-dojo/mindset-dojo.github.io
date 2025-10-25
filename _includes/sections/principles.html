@@ -2,6 +2,7 @@
 Principles include — simple, predictable, works with posts or pages.
 
 Inputs:
+- section.data.principles_title => string (optional)
 - section.data.principles  => array of principle IDs (optional)
 - section.data.principle_type => string (optional)
 - page.principles => array of principle IDs (optional, used if section.data.principles missing)
@@ -15,6 +16,7 @@ Behavior:
 - Pass to sections/list.html
 {%- endcomment -%}
 
+{%- assign title = include.principles.title | default: section.data.principles_title | default: "Principles" -%}
 {%- assign data_source = include.page_data | default: site.data.sections.principles -%}
 {%- assign all_items = data_source.items -%}
 
@@ -42,7 +44,7 @@ Behavior:
 {%- endif -%}
 
 <section class="md-flow">
-  <h2>Principles</h2>
+  <h2>{{ title }}</h2>
   <dl>
     {%- for item in final_items -%}
       {%- assign _id = "principle-" | append: item.id | slugify -%}
