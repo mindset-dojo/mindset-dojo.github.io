@@ -42,7 +42,7 @@ Parameters:
       {%- comment -%} get the post's values for the key (normalize to array) {%- endcomment -%}
       {%- assign post_values = post[keyname] -%}
 
-      {%- if post_values == nil and keyname == "forms" -%}
+      {%- if post_values == nil -%}
         {%- assign filename = post.path | split:"/" | last -%}
         {%- assign slug = filename | split:"." | first -%}
         {%- assign post_values = slug | split:"|" -%}
