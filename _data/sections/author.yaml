@@ -15,6 +15,9 @@ sections:
       reverse: true
       excerpt_length: 220
       post_display_limit: 5
+      filter_key: authors
+      filter_values:
+        - "__PAGE_SLUG__"
   - type: markdown
     data:
       label: "Forms"
@@ -26,4 +29,7 @@ sections:
       reverse: true
       excerpt_length: 220
       post_display_limit: 5
+      filter_key: authors
+      filter_values:
+        - "__PAGE_SLUG__"
 ...

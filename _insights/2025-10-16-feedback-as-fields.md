@@ -1,10 +1,20 @@
 ---
-layout: post
+layout: insight
 title: "Feedback Fields: Learning to Ride Together"
 title_mark: Learning
-date: 2025-10-16
+published_date: 2025-10-16
+refactored_date: 2025-10-25
 authors: 
   - michael-basil
+forms:
+  - dojo
+  - zensei
+  - zenpai
+  - zohai
+  - integration-under-fire
+principles:
+  - center
+  - resonate
 excerpt: "As Mindset Dojo moves from late-alpha toward beta, feedback becomes our training ground — a way to find balance, alignment, and presence in motion."
 ---
 

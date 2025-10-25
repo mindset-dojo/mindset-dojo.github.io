@@ -3,7 +3,7 @@ layout: default
 ---
 
 <article class="post-article" itemscope itemtype="https://schema.org/Article">
-
+    
   <div class="post-body" itemprop="articleBody">
     {{ content }}
   </div>
@@ -11,7 +11,8 @@ layout: default
   <hr>
 
   <p class="post-meta">
-    This article was published {{ page.date | date: "%B %-d, %Y" }}
+    Originally published {{ page.published_date | date: "%B %-d, %Y" }} <br>
+    Last refactored {{ page.refactored_date | date: "%B %-d, %Y" }}
   </p>
 
   <hr>

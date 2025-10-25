@@ -14,23 +14,36 @@ Each case delegates to a small, focused template for that section type.
   {%- when 'authors' -%}
     {% include sections/authors.html section=section %}
 
+  {%- when 'collection-item' -%}
+    {% include sections/collection-item.html section=section data=data %}
+
+  {%- when 'collection-stream' -%}
+    {%- assign resolved_filter_values = "" | split: "|" -%}
+    {%- for fv in section.data.filter_values -%}
+      {%- if fv == "__PAGE_SLUG__" -%}
+        {%- assign resolved_filter_values = resolved_filter_values | push: page.slug -%}
+      {%- else -%}
+        {%- assign resolved_filter_values = resolved_filter_values | push: fv -%}
+      {%- endif -%}
+    {%- endfor -%}
+
+    {%- include sections/collection-stream.html
+      section=section
+      collection=section.data.collection
+      sort_by=section.data.sort_by
+      reverse=section.data.reverse
+      excerpt_length=section.data.excerpt_length
+      post_display_limit=section.data.post_display_limit
+      filter_key=section.data.filter_key
+      filter_values=resolved_filter_values
+    -%}
+
   {%- when 'ctas' -%}
     {% include sections/ctas.html section=section %}
 
   {%- when 'designations' -%}
     {% include sections/designations.html section=section data=data %}
   
-  {%- when 'collection-item' -%}
-    {% include sections/collection-item.html section=section data=data %}
-
-  {%- when 'collection-stream' -%}
-    {%- assign section_has_authors = section.data and section.data.authors -%}
-    {%- if page.sections_key == "author" and section_has_authors == false -%}
-      {% include sections/collection-stream.html section=section data=data authors=page.slug %}
-    {%- else -%}
-      {% include sections/collection-stream.html section=section data=data %}
-    {%- endif -%}
-
   {%- when 'levels' -%}
     {% include sections/levels.html section=section %}
 
@@ -39,6 +52,9 @@ Each case delegates to a small, focused template for that section type.
 
   {%- when 'markdown' -%}
     {% include sections/markdown.html section=section %}
+
+  {%- when 'principles' -%}
+    {% include sections/principles.html section=section principles_title=principles_title page_data=site.data.sections.principles %}
 
   {%- when 'quote' -%}
     {% include sections/quote.html section=section %}

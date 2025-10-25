@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: form
 title: "Jiki"
 title_mark: Jiki
-date: 2025-10-22
+published_date: 2025-10-22
+refactored_date: 2025-10-25
 authors:
   - michael-basil
 excerpt: "The Jiki takes responsibility for the space — directing rhythm, posture, and presence so the field can settle into coherence."

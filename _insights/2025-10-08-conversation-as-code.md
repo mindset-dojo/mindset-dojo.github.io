@@ -1,10 +1,19 @@
 ---
-layout: post
+layout: insight
 title: "Conversation as Code"
 title_mark: Conversation
-date: 2025-10-08
+published_date: 2025-10-08
+refactored_date: 2025-10-25
 authors: 
   - michael-basil
+forms:
+  - integration-under-fire
+  - dojo
+principles:
+  - relax
+  - center
+  - meet
+  - resonate
 excerpt: "Every conversation writes code into the field — tone, timing, and language compile into patterns that shape what becomes possible next."
 ---
 

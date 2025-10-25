@@ -136,6 +136,7 @@
      ======================= */
 
   :where(.md-flow) dl > dt {
+    text-align: center;
     font-weight: 700;
     margin-top: 1rem;
   }

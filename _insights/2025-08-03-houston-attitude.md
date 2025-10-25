@@ -1,11 +1,21 @@
 ---
-layout: post
+layout: insight
 title: "Houston, We Have an Attitude"
 title_mark: Attitude
 authors: 
   - michael-basil
   - kyle-ingersoll
-date: 2025-08-03
+forms:
+  - integration-under-fire
+  - dojo
+  - zensei
+principles:
+  - relax
+  - center
+  - meet
+  - resonate
+published_date: 2025-08-03
+refactored_date: 2025-10-25
 excerpt: "When tone shifts, awareness follows—revealing the MetaShift from control to connection that transforms every conversation into practice."
 ---
 

@@ -1,10 +1,21 @@
 ---
-layout: post
+layout: insight
 title: "Map of Consciousness"
 title_mark: Map
 authors: 
   - kyle-ingersoll
-date: 2025-09-22
+forms:
+  - dojo
+  - integration-under-fire
+  - zensei
+  - three-question-reflection
+principles:
+  - relax
+  - center
+  - meet
+  - resonate
+published_date: 2025-09-22
+refactored_date: 2025-10-25
 excerpt: "When life punches first, the Map of Consciousness helps us notice where we stand — below the line in contraction or above it in creation — and trains us to shift through breath, tone, and awareness."
 ---  
 
@@ -120,8 +131,8 @@ And so there was a bow, lighter than when the dojo was entered.
 
 - **Mindset Dojo Insights — Tone**  
 Explores how tone is the “weather” of a conversation — coloring every word and shifting whether dialogue builds, opens, or shuts down.  
-👉 [Read here]({{ '/insights/tone/' | relative_url }})
+👉 [Read here](../tone/)
 
 - **Mindset Dojo Insights — The Breath of a Stance Shifts the Mountain**  
 Shows how FEBI™ energies appear as stances in posture, breath, and tone — and how recognizing them helps align rather than oppose.  
-👉 [Read here]({{ '/insights/breath-of-stance/' | relative_url }})
+👉 [Read here](../breath-of-stance/)
