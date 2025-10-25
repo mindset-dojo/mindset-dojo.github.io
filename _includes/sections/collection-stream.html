@@ -25,8 +25,6 @@
       {%- assign filtered_coll = filtered_coll | push: doc -%}
     {%- endif -%}
   {%- endfor -%}
-{%- else -%}
-  {%- assign filtered_coll = coll -%}
 {%- endif -%}
 
 {%- assign sorted = filtered_coll -%}
