@@ -68,7 +68,15 @@ Each case delegates to a small, focused template for that section type.
 
     {%- comment -%} DEBUG: remove this line after verifying output in page HTML source {%- endcomment -%}
     <!-- debug: _dispatch.html debug code: collection-stream filters = {{ filters | jsonify }} -->
-
+    
+    {%- comment -%}
+    If filters is an empty hash (no keys or no useful values), treat it as nil
+    so downstream templates interpret it as "no filters" (show all).
+    {%- endcomment -%}
+    {%- if filters == empty -%}
+      {%- assign filters = nil -%}
+    {%- endif -%}
+    
     {%- assign coll = include.collection | default: section.data.collection -%}
     {%- assign excerpt_length = include.excerpt_length | default: section.data.excerpt_length -%}
     {%- assign post_display_limit = include.post_display_limit | default: section.data.post_display_limit -%}
