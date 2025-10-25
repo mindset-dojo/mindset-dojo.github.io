@@ -27,8 +27,6 @@ Each case delegates to a small, focused template for that section type.
       - Always output a native hash
     {%- endcomment -%}
 
-    {%- assign filters = nil -%}
-
     {%- assign filters = include.filters | default: section.data.filters | default: nil -%}
 
     {%- comment -%} 2) build from filter_key + filter_values if still nil {%- endcomment -%}
@@ -76,7 +74,7 @@ Each case delegates to a small, focused template for that section type.
     {%- if filters == empty -%}
       {%- assign filters = nil -%}
     {%- endif -%}
-    
+
     {%- assign coll = include.collection | default: section.data.collection -%}
     {%- assign excerpt_length = include.excerpt_length | default: section.data.excerpt_length -%}
     {%- assign post_display_limit = include.post_display_limit | default: section.data.post_display_limit -%}
