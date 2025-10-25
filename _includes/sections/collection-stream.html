@@ -26,10 +26,26 @@ produces an empty array of the same "type" so push behaves reliably.
 
 {%- assign filters = include.filters | default: nil -%}
 
+{%- comment -%}
+Decide if there are any meaningful filters:
+- filters must be present and must contain at least one key with a non-empty value.
+This prevents attempting to filter when filters == {} or keys exist but are empty.
+{%- endcomment -%}
+{%- assign has_filters = false -%}
+{%- if filters and filters != empty -%}
+  {%- for fk in filters -%}
+    {%- assign fv = filters[fk] -%}
+    {%- if fv != nil and fv != empty -%}
+      {%- assign has_filters = true -%}
+      {%- break -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endif -%}
+
 {%- for p in posts -%}
   {%- assign keep = true -%}
 
-  {%- if filters != nil and filters != empty -%}
+  {%- if has_filters -%}
     {%- for key in filters -%}
       {%- assign filter_values = filters[key] -%}
       {%- assign post_values = p[key] -%}
