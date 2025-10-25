@@ -19,17 +19,16 @@ Each case delegates to a small, focused template for that section type.
 
   {%- when 'collection-stream' -%}
     {%- comment -%}
-      Simplified, readable collection-stream dispatcher:
-      - Use include.filters (if string, parse it)
-      - Otherwise build single-key filter from filter_key + filter_values
-      - Auto-add authors filter for author pages (only when none provided)
-      - Merge any keys in section.data.filters
-      - Always output a native hash
+      Simple collection-stream dispatcher:
+      - Prefer include.filters (assumed hash)
+      - Else build map from include.filter_key + include.filter_values
+      - Else use section.data.filters (YAML)
+      - Convert empty map -> nil (so downstream means "no filters")
+      - No auto-add authors logic (removed)
     {%- endcomment -%}
 
     {%- assign filters = include.filters | default: section.data.filters | default: nil -%}
 
-    {%- comment -%} 2) build from filter_key + filter_values if still nil {%- endcomment -%}
     {%- if filters == nil and include.filter_key and include.filter_values -%}
       {%- assign fv = include.filter_values | array -%}
       {%- assign keyname = include.filter_key | strip -%}
@@ -37,41 +36,10 @@ Each case delegates to a small, focused template for that section type.
     {%- endif -%}
 
     {%- comment -%}
-      3) Auto-add authors filter ONLY when we still have no authors filter and we are
-      rendering an author page. Use direct slug insertion to avoid double-quoting.
+      If filters exists but is an empty hash (no keys), treat as nil so collection-stream
+      displays all items by default.
     {%- endcomment -%}
-    {%- if page.sections_key == "author" and (filters == nil or filters.authors == nil) -%}
-      {%- if filters == nil -%}
-        {%- assign filters = '{"authors":["' | append: page.slug | append: '"]}' | parse_json -%}
-      {%- else -%}
-        {%- assign filters = filters | merge: ( '{"authors":["' | append: page.slug | append: '"]}' | parse_json ) -%}
-      {%- endif -%}
-    {%- endif -%}
-
-    {%- comment -%} 4) Merge any explicit section.data.filters (preserve types) {%- endcomment -%}
-    {%- if section.data.filters -%}
-      {%- assign merged = filters | default: '{}' | parse_json -%}
-      {%- for key in section.data.filters -%}
-        {%- assign val = section.data.filters[key] -%}
-        {%- assign fragment = '{"' | append: key | append: '":' | append: (val | jsonify) | append: '}' -%}
-        {%- assign merged = merged | merge: (fragment | parse_json) -%}
-      {%- endfor -%}
-      {%- assign filters = merged -%}
-    {%- endif -%}
-
-    {%- comment -%} 5) Ensure filters is a hash (safe fallback) {%- endcomment -%}
-    {%- if filters == nil -%}
-      {%- assign filters = '{}' | parse_json -%}
-    {%- endif -%}
-
-    {%- comment -%} DEBUG: remove this line after verifying output in page HTML source {%- endcomment -%}
-    <!-- debug: _dispatch.html debug code: collection-stream filters = {{ filters | jsonify }} -->
-    
-    {%- comment -%}
-    If filters is an empty hash (no keys or no useful values), treat it as nil
-    so downstream templates interpret it as "no filters" (show all).
-    {%- endcomment -%}
-    {%- if filters == empty -%}
+    {%- if filters != nil and filters == empty -%}
       {%- assign filters = nil -%}
     {%- endif -%}
 
