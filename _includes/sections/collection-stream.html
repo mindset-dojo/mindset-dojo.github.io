@@ -19,6 +19,21 @@ DRY collection-stream.html with fully generic optional filters
 {%- assign post_display_limit = include.post_display_limit | default: section.data.post_display_limit -%}
 
 {%- comment -%}
+Support direct include usage with filter_key + filter_values:
+If the caller passed include.filters already, use it.
+Otherwise, if include.filter_key + include.filter_values exist, build filters.
+This mirrors the dispatcher behavior so pages that include collection-stream directly work.
+{%- endcomment -%}
+
+{%- assign filters = include.filters | default: nil -%}
+
+{%- if filters == nil and include.filter_key and include.filter_values -%}
+  {%- assign fv = include.filter_values | array -%}
+  {%- assign keyname = include.filter_key | strip -%}
+  {%- assign filters = '{"' | append: keyname | append: '":' | append: (fv | jsonify) | append: '}' | parse_json -%}
+{%- endif -%}
+
+{%- comment -%}
 Create a true empty array for filtered_posts. Using site[coll_name] and slicing
 produces an empty array of the same "type" so push behaves reliably.
 {%- endcomment -%}
