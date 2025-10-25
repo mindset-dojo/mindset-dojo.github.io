@@ -1,112 +1,40 @@
 {%- comment -%}
-DRY collection-stream.html with fully generic optional filters
-- collection: include.collection or section.data.collection
-- sort_by: section.data.sort_by (default "date")
-- reverse: section.data.reverse (boolean)
-- excerpt_length: include.excerpt_length or section.data.excerpt_length
-- post_display_limit: include.post_display_limit or section.data.post_display_limit
-- filters: optional hash (any key pointing to array of strings)
-- If no filters provided, outputs all posts
-- For missing post fields, fall back to filename slug (e.g., forms)
+  Renders a stream of collection items with optional filtering, sorting, and limiting.
+
+  Parameters:
+    collection: The name of the collection to render items from (required).
+    filter_key: The key in the document front matter to filter by (optional).
+    filter_values: An array of values to filter the documents by (optional).
+    sort_by: The key to sort the documents by (optional).
+    reverse: Boolean to indicate if the sorted documents should be reversed (optional).
+    excerpt_length: Length of the excerpt to display for each item (optional).
+    post_display_limit: Maximum number of items to display (optional).
 {%- endcomment -%}
 
-<!-- 
-collection stream start debug code:
-section: {{ include.section | jsonify }}
-collection: {{ include.collection }}
-filters: {{ include.filters | jsonify }}
--->
+{%- assign coll = site[include.collection] | default: site.collections[include.collection].docs -%}
 
-{%- assign coll_name = include.collection | default: section.data.collection -%}
-{%- assign posts = site[coll_name] -%}
+{%- assign filtered_coll = coll -%}
+{%- if include.filter_key and include.filter_values -%}
+  {%- assign key = include.filter_key -%}
+  {%- assign vals = include.filter_values | array -%}
 
-{%- assign sort_key_field = section.data.sort_by | default: "date" -%}
-{%- assign reverse_flag = section.data.reverse == true -%}
-{%- assign excerpt_length = include.excerpt_length | default: section.data.excerpt_length -%}
-{%- assign post_display_limit = include.post_display_limit | default: section.data.post_display_limit -%}
-
-{%- comment -%}
-Create a true empty array for filtered_posts. Using site[coll_name] and slicing
-produces an empty array of the same "type" so push behaves reliably.
-{%- endcomment -%}
-{%- assign filtered_posts = posts | slice: 0, 0 -%}
-
-{%- assign filters = include.filters | default: nil -%}
-
-{%- comment -%}
-Decide if there are any meaningful filters:
-- filters must be present and must contain at least one key with a non-empty value.
-This prevents attempting to filter when filters == {} or keys exist but are empty.
-{%- endcomment -%}
-{%- assign has_filters = false -%}
-{%- if filters and filters != empty -%}
-  {%- for fk in filters -%}
-    {%- assign fv = filters[fk] -%}
-    {%- if fv != nil and fv != empty -%}
-      {%- assign has_filters = true -%}
-      {%- break -%}
+  {%- assign filtered_coll = "" | split: "" -%}
+  {%- for doc in coll -%}
+    {%- assign field = doc[key] -%}
+    {%- if field and vals contains field or (field | join: ",") contains (vals | first) -%}
+      {%- assign filtered_coll = filtered_coll | push: doc -%}
     {%- endif -%}
   {%- endfor -%}
 {%- endif -%}
 
-{%- for p in posts -%}
-  {%- assign keep = true -%}
+{%- assign sorted = filtered_coll -%}
+{%- if include.sort_by -%}
+  {%- assign sorted = sorted | sort: include.sort_by -%}
+{%- endif -%}
+{%- if include.reverse -%}
+  {%- assign sorted = sorted | reverse -%}
+{%- endif -%}
 
-  {%- if has_filters -%}
-    {%- for key in filters -%}
-      {%- assign filter_values = filters[key] -%}
-      {%- assign post_values = p[key] -%}
-
-      {%- comment -%}
-        Fallback for forms: derive slug from filename if post front matter does not define the key
-      {%- endcomment -%}
-      {%- if post_values == nil and key == "forms" -%}
-        {%- assign filename = p.path | split:"/" | last -%}
-        {%- assign slug = filename | split:"." | first -%}
-        {%- assign post_values = slug | split:"|" -%}
-      {%- endif -%}
-
-      {%- assign match = false -%}
-      {%- if post_values != nil -%}
-        {%- for v in post_values -%}
-          {%- if filter_values contains v -%}
-            {%- assign match = true -%}
-            {%- break -%}
-          {%- endif -%}
-        {%- endfor -%}
-      {%- endif -%}
-
-      {%- if match == false -%}
-        {%- assign keep = false -%}
-        {%- break -%}
-      {%- endif -%}
-    {%- endfor -%}
-  {%- endif -%}
-
-  {%- if keep -%}
-    {%- assign filtered_posts = filtered_posts | push: p -%}
-  {%- endif -%}
+{%- for item in sorted limit: include.post_display_limit -%}
+  {%- include sections/collection-item.html item=item excerpt_length=include.excerpt_length -%}
 {%- endfor -%}
-
-{%- comment -%}
-Now filtered_posts is a clean array of post objects (or empty). Sort/reverse/slice safely.
-{%- endcomment -%}
-{%- assign filtered_posts = filtered_posts | sort: sort_key_field -%}
-{%- if reverse_flag -%}
-  {%- assign filtered_posts = filtered_posts | reverse -%}
-{%- endif -%}
-{%- if post_display_limit -%}
-  {%- assign filtered_posts = filtered_posts | slice: 0, post_display_limit -%}
-{%- endif -%}
-
-<!-- 
-collection-stream.html end code, just before collection-item.html call:
-coll: {{ coll_name }}
-filters: {{ filters | jsonify }} 
--->
-
-<section id="collection-stream" class="md-flow">
-  {%- for post in filtered_posts -%}
-    {% include sections/collection-item.html post=post excerpt_length=excerpt_length %}
-  {%- endfor -%}
-</section>
