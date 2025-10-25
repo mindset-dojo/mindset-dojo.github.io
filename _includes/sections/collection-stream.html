@@ -13,28 +13,19 @@
 
 {%- assign coll = site[include.collection] | default: site.collections[include.collection].docs -%}
 
-{%- assign filtered_coll = "" | split: "" -%}
-{%- assign key = include.filter_key -%}
-{%- assign vals = include.filter_values | array -%}
+{%- assign filtered_coll = coll -%}
+{%- if include.filter_key and include.filter_values -%}
+  {%- assign key = include.filter_key -%}
+  {%- assign vals = include.filter_values | array -%}
 
-{%- for doc in coll -%}
-  {%- assign field = doc[key] -%}
-
-  {%- comment -%} fallback for forms: derive slug if front matter missing {%- endcomment -%}
-  {%- if field == nil and key == "forms" -%}
-    {%- assign filename = doc.path | split: "/" | last -%}
-    {%- assign slug = filename | split: "." | first -%}
-    {%- assign field = slug | split: "|" -%}
-  {%- endif -%}
-
-  {%- assign field_arr = field | array -%}
-  {%- assign intersect = field_arr | where_exp: "f", "vals contains f" -%}
-
-  {%- if intersect != empty -%}
-    {%- assign filtered_coll = filtered_coll | push: doc -%}
-  {%- endif -%}
-{%- endfor -%}
-
+  {%- assign filtered_coll = "" | split: "" -%}
+  {%- for doc in coll -%}
+    {%- assign field = doc[key] -%}
+    {%- if field and vals contains field or (field | join: ",") contains (vals | first) -%}
+      {%- assign filtered_coll = filtered_coll | push: doc -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endif -%}
 
 {%- assign sorted = filtered_coll -%}
 {%- if include.sort_by -%}
