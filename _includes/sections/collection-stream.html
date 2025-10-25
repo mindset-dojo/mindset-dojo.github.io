@@ -83,10 +83,11 @@ Parameters:
   {%- assign filtered_posts = filtered_posts | slice: 0, post_display_limit -%}
 {%- endif -%}
 
+<!-- debug: filter key passed in = {{ filter_key | jsonify }} -->
+<!-- debug: filter_values passed in = {{ filter_values | jsonify }} -->
+<!-- debug: post keys passed in = {{ post | jsonify }} -->
+
 <section id="collection-stream" class="md-flow">
-  <!-- debug: filter key passed in = {{ filter_key | jsonify }} -->
-  <!-- debug: filter_values passed in = {{ filter_values | jsonify }} -->
-  <!-- debug: post keys passed in = {{ post | jsonify }} -->
   {%- for post in filtered_posts -%}
     {% include sections/collection-item.html post=post excerpt_length=include.excerpt_length %}
   {%- endfor -%}
