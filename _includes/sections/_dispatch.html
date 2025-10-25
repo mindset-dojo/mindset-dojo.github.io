@@ -19,41 +19,65 @@ Each case delegates to a small, focused template for that section type.
 
   {%- when 'collection-stream' -%}
     {%- comment -%}
-      Fully generalized collection-stream dispatcher:
-      - Uses include.filters if provided
-      - Builds filters from filter_key + filter_values
-      - Auto-filters authors for author pages when applicable
-      - Preserves all other keys
-      - Always outputs a hash
+      Simplified, readable collection-stream dispatcher:
+      - Use include.filters (if string, parse it)
+      - Otherwise build single-key filter from filter_key + filter_values
+      - Auto-add authors filter for author pages (only when none provided)
+      - Merge any keys in section.data.filters
+      - Always output a native hash
     {%- endcomment -%}
 
-    {%- assign filters = include.filters | default: nil -%}
+    {%- assign filters = nil -%}
 
-    {%- comment -%} Build single filter key dynamically if provided {%- endcomment -%}
+    {%- comment -%} 1) include.filters (use-as-is if hash; parse if string) {%- endcomment -%}
+    {%- if include.filters -%}
+      {%- assign raw_filters = include.filters -%}
+      {%- if raw_filters == raw_filters | append: '' -%} {# raw is a string -> parse #}
+        {%- assign first_char = raw_filters | slice: 0, 1 -%}
+        {%- if first_char == '"' -%}
+          {%- assign inner = raw_filters | slice: 1, raw_filters | size | minus: 2 -%}
+          {%- assign filters = inner | parse_json -%}
+        {%- else -%}
+          {%- assign filters = raw_filters | parse_json -%}
+        {%- endif -%}
+      {%- else -%}
+        {%- assign filters = raw_filters -%}
+      {%- endif -%}
+    {%- endif -%}
+
+    {%- comment -%} 2) build from filter_key + filter_values if still nil {%- endcomment -%}
     {%- if filters == nil and include.filter_key and include.filter_values -%}
       {%- assign fv = include.filter_values | array -%}
       {%- assign keyname = include.filter_key | strip -%}
       {%- assign filters = '{"' | append: keyname | append: '":' | append: (fv | jsonify) | append: '}' | parse_json -%}
     {%- endif -%}
 
-    {%- comment -%} Auto-add authors filter for author pages if filters is still nil {%- endcomment -%}
-    {%- if filters == nil and page.sections_key == "author" -%}
-      {%- assign filters = '{"authors":["' | append: page.slug | append: '"]}' | parse_json -%}
+    {%- comment -%}
+      3) Auto-add authors filter ONLY when we still have no authors filter and we are
+      rendering an author page. Use direct slug insertion to avoid double-quoting.
+    {%- endcomment -%}
+    {%- if page.sections_key == "author" and (filters == nil or filters.authors == nil) -%}
+      {%- if filters == nil -%}
+        {%- assign filters = '{"authors":["' | append: page.slug | append: '"]}' | parse_json -%}
+      {%- else -%}
+        {%- assign filters = filters | merge: ( '{"authors":["' | append: page.slug | append: '"]}' | parse_json ) -%}
+      {%- endif -%}
     {%- endif -%}
 
-    {%- comment -%} Ensure filters is always a hash for safe iteration {%- endcomment -%}
-    {%- if filters == nil -%}
-      {%- assign filters = '{}' | parse_json -%}
-    {%- endif -%}
-
-    {%- comment -%} Merge additional filter keys from section.data.filters if present {%- endcomment -%}
+    {%- comment -%} 4) Merge any explicit section.data.filters (preserve types) {%- endcomment -%}
     {%- if section.data.filters -%}
-      {%- assign merged_filters = filters -%}
+      {%- assign merged = filters | default: '{}' | parse_json -%}
       {%- for key in section.data.filters -%}
         {%- assign val = section.data.filters[key] -%}
-        {%- assign merged_filters = merged_filters | merge: ( '{"' | append: key | append: '":' | append: (val | jsonify) | append: '}' | parse_json ) -%}
+        {%- assign fragment = '{"' | append: key | append: '":' | append: (val | jsonify) | append: '}' -%}
+        {%- assign merged = merged | merge: (fragment | parse_json) -%}
       {%- endfor -%}
-      {%- assign filters = merged_filters -%}
+      {%- assign filters = merged -%}
+    {%- endif -%}
+
+    {%- comment -%} 5) Ensure filters is a hash (safe fallback) {%- endcomment -%}
+    {%- if filters == nil -%}
+      {%- assign filters = '{}' | parse_json -%}
     {%- endif -%}
 
     {%- assign coll = include.collection | default: section.data.collection -%}
