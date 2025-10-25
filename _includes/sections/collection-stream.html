@@ -83,9 +83,9 @@ Parameters:
   {%- assign filtered_posts = filtered_posts | slice: 0, post_display_limit -%}
 {%- endif -%}
 
-<!-- debug: filter key passed in = {{ filter_key | jsonify }} -->
-<!-- debug: filter_values passed in = {{ filter_values | jsonify }} -->
-<!-- debug: post keys passed in = {{ post | jsonify }} -->
+<!-- debug: filter key passed in = {{ filter_key }} -->
+<!-- debug: filter_values passed in = {{ filter_values }} -->
+<!-- debug: post keys passed in = {{ post }} -->
 
 <section id="collection-stream" class="md-flow">
   {%- for post in filtered_posts -%}
