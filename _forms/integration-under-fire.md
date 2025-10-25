@@ -43,6 +43,7 @@ When tension or perceived attack arises, move deliberately.
 **Name the energies.** Sense Driver, Organizer, Collaborator, and Visionary dynamics in yourself and others.  
 
 **Map consciousness.** Recognize the level of awareness being expressed — from fear to love — and choose your level of response deliberately.  
+  
 
 **Respond.** Act or speak from the higher level of commitment without self-sacrifice.  
 
