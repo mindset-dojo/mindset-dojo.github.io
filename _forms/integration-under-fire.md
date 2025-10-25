@@ -38,11 +38,11 @@ When tension or perceived attack arises, move deliberately.
 
 **Pause.** Feel the field before acting.  
 
+**Recenter.** [Breathe from Hara.](https://vimeo.com/944618879/47e96945a4)  
+
 **Name the energies.** Sense Driver, Organizer, Collaborator, and Visionary dynamics in yourself and others.  
 
 **Map consciousness.** Recognize the level of awareness being expressed — from fear to love — and choose your level of response deliberately.  
-
-**Recenter.** [Breathe from Hara.](https://vimeo.com/944618879/47e96945a4)  
 
 **Respond.** Act or speak from the higher level of commitment without self-sacrifice.  
 
