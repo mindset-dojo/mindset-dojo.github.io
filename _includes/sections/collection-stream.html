@@ -36,6 +36,7 @@ Parameters:
 
 {%- if posts and posts != empty -%}
   {%- for post in posts -%}
+  <!-- debug: post keys passed in = {{ post }} -->
     {%- assign keep = true -%}
 
     {%- if keyname and fv and fv != empty -%}
@@ -83,9 +84,9 @@ Parameters:
   {%- assign filtered_posts = filtered_posts | slice: 0, post_display_limit -%}
 {%- endif -%}
 
-<!-- debug: filter key passed in = {{ filter_key }} -->
-<!-- debug: filter_values passed in = {{ filter_values }} -->
-<!-- debug: post keys passed in = {{ post }} -->
+<!-- debug: filter key passed in = {{ include.filter_key }} -->
+<!-- debug: filter_values passed in = {{ include.filter_values }} -->
+
 
 <section id="collection-stream" class="md-flow">
   {%- for post in filtered_posts -%}
