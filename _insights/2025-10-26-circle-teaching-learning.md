@@ -39,13 +39,13 @@ That advice prepared me for ZLOTC’s deliberate pace—so different from the ra
 It echoed Ginny Whitelaw’s Flip *From Driving Results to Attracting the Future*—a shift from pushing to *opening space* where resonance can form.
 As *Resonate* notes, the first step toward flow is clearing interference—quieting enough to hear what wants to move through you.
 
-The second Flip, **From Let Go to Allow**, came from Paul Sevett.
+The second Flip, **From Let Go to Allow**, came from Paul in ZLOTC.
 He shared that in meditation, “letting go” felt binary—either holding or not holding.
 But *allowing* was a gradient, a continuum of release, like breath deepening without command.
 This mirrors the Flip *From Tension to Extension* in *The Zen Leader*: when energy aligns through openness, control dissolves into flow.
 Allowing is how resonance sustains itself—movement without forcing.
 
-The third Flip, **From Me to We**, came from Maureen Murphy.
+The third Flip, **From Me to We**, came from Maureen in ZLOTC.
 She spoke of breaking silos in healthcare, where specialization divides people like languages that cannot translate.
 In that, I saw Agile and DevOps—different fields, same spirit—moving *from isolated mastery to collective flow.*
 It was the Flip *From Local Self to Whole Self*: seeing through separation into the system’s wholeness.
