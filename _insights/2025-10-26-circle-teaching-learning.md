@@ -51,7 +51,7 @@ In that, I saw Agile and DevOps—different fields, same spirit—moving *from i
 It was the Flip *From Local Self to Whole Self*: seeing through separation into the system’s wholeness.
 As *Resonate* describes, when individual energy attunes with others, a shared resonance emerges—the sound of many frequencies becoming one.
 
-These three Flips—Reflection, Allowing, and We—form what [Michael]({{'/authors/michael-basil/' | relative_url}}) calls the **Meta-Flip**: the shift from *self in control* to *self in connection*.
+These three Flips—Reflection, Allowing, and We—form what [Michael]({{'/authors/michael-basil/' | relative_url}}) calls the **Meta-Flip**: the shift from *Self in control* to *Self in connection*.
 In *Resonate*, Ginny Whitelaw names this state **Two Sides**—where doing and being, sound and silence, leader and led, move as one dynamic flow.
 
 Koichi Tohei expressed this same truth through Ki: *“Be both pupil and instructor.”*
@@ -64,6 +64,6 @@ So perhaps the truest Flip I learned at ZLOTC was this:
 > From Teaching to Learning — From Circle to Spiral.
 
 And in that spiral, control dissolves into resonance.
-Teacher and student, self and other, individual and Universal—each are two sides of the same flow.
+Teacher and student, Self and Other, individual and Universal—each are two sides of the same flow.
 
 ⛩️🖥️
