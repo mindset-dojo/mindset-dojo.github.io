@@ -7,6 +7,7 @@ refactored_date: 2025-10-25
 authors:
   - michael-basil
   - kyle-ingersoll
+  - jeremy-mcmillan
 excerpt: "A Kohai follows the Sensei' and Senpai' fearless leadership, and applies MetaShift Method to the best of their ability."
 ---
 

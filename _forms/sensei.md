@@ -7,6 +7,7 @@ refactored_date: 2025-10-25
 authors:
   - michael-basil
   - kyle-ingersoll
+  - jeremy-mcmillan
 excerpt: "A Sensei fearlessly leads through modeling, guidance, and support through MetaShift Method."
 ---
 

@@ -7,6 +7,7 @@ refactored_date: 2025-10-25
 authors:
   - michael-basil
   - kyle-ingersoll
+  - jeremy-mcmillan
 excerpt: "The love child of Elemental FEBI™, 4 Patterns, and Simon Says."
 ---
 

@@ -7,6 +7,7 @@ refactored_date: 2025-10-25
 authors:
   - michael-basil
   - kyle-ingersoll
+  - jeremy-mcmillan
 excerpt: "A Senpai fearlessly learns MetaShift Method from the model and guidance of the Sensei, and acts as a guide and model for the Kohai."
 ---
 
