@@ -10,7 +10,7 @@ forms:
   - integration-under-fire
   - dojo
   - three-question-reflection
-  - zensei
+  - sensei
 principles:
   - relax
   - center

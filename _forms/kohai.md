@@ -1,18 +1,18 @@
 ---
 layout: form
-title: "Zohai"
-title_mark: Zohai
+title: "Kohai"
+title_mark: Kohai
 published_date: 2025-10-20
 refactored_date: 2025-10-25
 authors:
   - michael-basil
   - kyle-ingersoll
-excerpt: "A Zohai follows the Zensei' and Zenpai' fearless leadership, and applies MetaShift Method to the best of their ability."
+excerpt: "A Kohai follows the Sensei' and Senpai' fearless leadership, and applies MetaShift Method to the best of their ability."
 ---
 
 ## Intention
 
-A Zohai follows the [Zensei'](../zensei/) and [Zenpai'](../zenpai/) fearless leadership, and applies MetaShift Method to the best of their ability. They author Insights to cross each Level's threshold and to internalize their learning.
+A Kohai follows the [Sensei'](../sensei/) and [Senpai'](../senpai/) fearless leadership, and applies MetaShift Method to the best of their ability. They author Insights to cross each Level's threshold and to internalize their learning.
 
 ## Experience
 
@@ -20,7 +20,7 @@ You will experience a playfully serious resonance that will invite you to relax 
 
 ## Implementation
 
-To be a Zohai, one must have been invited to the [Mat](../mat/) and crossed the White Level threshold. Learn about and embody Fearless Leadership and MetaShift Method through training.
+To be a Kohai, one must have been invited to the [Mat](../mat/) and crossed the White Level threshold. Learn about and embody Fearless Leadership and MetaShift Method through training.
 
 ## Inspiration
 

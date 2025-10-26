@@ -11,9 +11,9 @@ forms:
   - dojo
   - circle
   - mat
-  - zensei
-  - zenpai
-  - zohai
+  - sensei
+  - senpai
+  - kohai
   - metashift-community-demonstration
   - genuine-gratitude-expression
 principles:
