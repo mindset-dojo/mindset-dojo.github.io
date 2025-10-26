@@ -144,7 +144,7 @@
     margin-top: 1rem;
   }
 
-  main h2#inspiration + ul {
+  main :is(h2,h3,h4)[id^="inspirat"] + ul {
     text-align: center;
   }
 
