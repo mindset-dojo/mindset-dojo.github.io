@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: insight
 title: "Metaphor in Shakepeare and Zen"
-title_mark: Demonstration
+title_mark: Metaphor
 published_date: 2025-10-25
 refactored_date: 2025-10-26
 authors:
