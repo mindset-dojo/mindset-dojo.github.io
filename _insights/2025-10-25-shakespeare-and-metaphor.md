@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: insight
 title: "Metaphor in Shakepeare and Zen"
 title_mark: Demonstration
 published_date: 2025-10-25
