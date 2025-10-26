@@ -33,8 +33,8 @@ about: |
   to see that trying to control everything—inside or out—was itself the obstacle.
   What once felt like strength revealed its limits. Letting go—and allowing for
   connection—became the real discipline. In that space, I began to understand the
-  human factor: the invisible networks of emotion, energy, and attention that shape
-  how we relate, decide, and lead.
+  human experience—the invisible networks of emotion, energy, and attention that
+  shape how we relate, decide, and lead.
 
   Mindset Dojo and the MetaShift Method emerged from that awareness—centering on
   conversational presence when it matters most, and meeting people at the depth
@@ -47,11 +47,11 @@ about: |
   code review, incident response, post-mortem reflection, organizational change,
   or difficult family conversations.
 
-  I’m especially drawn to inflection points where technical complexity and human
-  tension meet—and clarity becomes a competitive advantage. That includes helping
-  early-stage startups, scaling leadership teams, and emerging talent stepping
-  into their first leadership experiences—people hungry to learn fast, build well,
-  and lead with presence.
+  I’m drawn to inflection points where technical complexity and human tension meet—
+  where clarity becomes a competitive advantage. That includes helping early-stage
+  startups, scaling leadership teams, and emerging talent stepping into their first
+  leadership experiences—people hungry to learn fast, build well, and lead with
+  presence.
 
   ⛩️🌿
 
@@ -65,14 +65,18 @@ about: |
 
   #### Early-Stage Mentorship
 
-  Focused guidance for founders, students, and first-time leaders navigating their first growth curves—where learning through feedback, reflection, and small experiments builds confidence and clarity in motion.
+  Focused guidance for founders, students, and first-time leaders navigating their
+  first growth curves—where learning through feedback, reflection, and small
+  experiments builds confidence and clarity in motion.
 
   #### Strategic Engagement
 
-  Multi-dimensional engagement that meets deep technical, relational, and organizational complexity—integrating Zero Trust, Agile flow, and Human Experience principles to align growth with grounded presence.
+  Multi-dimensional engagement that meets deep technical, relational, and
+  organizational complexity—integrating Zero Trust, Agile flow, and Human
+  Experience principles to align growth with grounded presence.
 
   #### Resident Expertise
-
+  
   In-residence support through scaling or reinvention—bridging DevSecOps, Zero
   Trust identity, Agile transformation, and embodied leadership to stabilize
   delivery and culture.
