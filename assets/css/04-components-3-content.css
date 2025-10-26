@@ -90,7 +90,6 @@
   /* For lists inside .post-body: */
   :where(.post-body ul) {
     display: inline-block;       
-    text-align: center;
     width: 100%;
     list-style: none; 
     margin: 0;
