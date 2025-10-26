@@ -30,10 +30,10 @@ sections:
               url: /forms/circle/
             - label: Mat
               url: /forms/mat/
-            - label: Zohai
-              url: /forms/zohai/
-            - label: Four Element Zensei
-              url: /forms/four-element-zensei/
+            - label: Kohai
+              url: /forms/kohai/
+            - label: Four Element Sensei
+              url: /forms/four-element-sensei/
             - label: "Feedback Fields: Learning to Ride Together"
               url: /insights/feedback-as-fields/
         - color: yellow
@@ -92,8 +92,8 @@ sections:
               url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
             - label: Online Introduction to Zazen at Chosei Zen
               url: https://www.choseizen.org/online-intro-to-zazen
-            - label: Zenpai
-              url: /forms/zenpai/
+            - label: Senpai
+              url: /forms/senpai/
             - label: 10 minute Zazen with Jiki
               url: https://youtu.be/q7Y5rwKiabQ?si=8keWWxVJrCp9BN1S
         - color: purple
@@ -170,21 +170,21 @@ sections:
               url: /insights/cultivating-a-threshold-based-authorship-network/
             - label: Two Sides Integrative Randori with Beyond the Black Belt Circle
               url: https://vimeo.com/944663134/d4f1c4f333
-            - label: Zensei
-              url: /forms/zensei/
+            - label: Sensei
+              url: /forms/sensei/
   - type: designations
     data:
       label: "Leadership Designations"
       intention_label: "Intention"
       aspects_label: "Aspects"
       items:
-        - label: Zenpai
+        - label: Senpai
           intention: Model and enhance training among emerging leaders
           aspects:
             - label: Join Mat sessions regularly, lead periodically
             - label: Create and share Insights regularly, guiding earlier learners
             - label: Blue Level+
-        - label: Zensei
+        - label: Sensei
           intention: Model and guide leadership throughout the community
           aspects:
             - label: Lead Mat sessions regularly

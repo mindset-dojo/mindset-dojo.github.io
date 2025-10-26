@@ -25,7 +25,7 @@ Sometimes that guidance is gentle; sometimes it’s sharp. Both arise from care 
 ## Implementation
 
 To serve as Jiki, one undertakes training tangential but complementary to the Mindset Dojo program — through [Chosei Zen](https://www.choseizen.org/) or a related lineage of embodied Zen practice.  
-For proper introductions and guidance on integrating this role with Mindset Dojo’s training progression, work with [Zensei'](../zensei/), who can offer appropriate introductions, formal pointers and generally help you orient to leading zazen sessions within the program.
+For proper introductions and guidance on integrating this role with Mindset Dojo’s training progression, work with [Sensei'](../sensei/), who can offer appropriate introductions, formal pointers and generally help you orient to leading zazen sessions within the program.
 
 ## Inspiration
 

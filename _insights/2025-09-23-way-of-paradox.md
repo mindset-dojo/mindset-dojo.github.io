@@ -8,7 +8,7 @@ authors:
   - kyle-ingersoll
 forms:
   - dojo
-  - zensei
+  - sensei
   - integration-under-fire
 principles:
   - relax

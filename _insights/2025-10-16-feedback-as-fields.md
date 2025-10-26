@@ -8,9 +8,9 @@ authors:
   - michael-basil
 forms:
   - dojo
-  - zensei
-  - zenpai
-  - zohai
+  - sensei
+  - senpai
+  - kohai
   - integration-under-fire
 principles:
   - center

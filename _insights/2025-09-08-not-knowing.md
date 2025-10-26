@@ -5,7 +5,7 @@ title_mark: Not Knowing
 authors: 
   - kyle-ingersoll
 forms:
-  - zensei
+  - sensei
   - integration-under-fire
   - dojo
   - mat

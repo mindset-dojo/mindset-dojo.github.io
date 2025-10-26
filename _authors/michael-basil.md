@@ -13,7 +13,7 @@ program_level: 1
 program_level_date: 2025-01-12
 leadership_designations:
   - type: program
-    value: Zensei
+    value: Sensei
   - type: project
     value: Authorship Cultivator
 about: |

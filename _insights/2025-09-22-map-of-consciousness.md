@@ -7,7 +7,7 @@ authors:
 forms:
   - dojo
   - integration-under-fire
-  - zensei
+  - sensei
   - three-question-reflection
 principles:
   - relax
