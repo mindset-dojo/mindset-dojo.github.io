@@ -1,11 +1,22 @@
 ---
-layout: post
+layout: insight
 title: "Unlearning Hierarchy"
 title_mark: learn
-date: 2025-10-06
+published_date: 2025-10-06
+refactored_date: 2025-10-25
 authors: 
   - michael-basil
   - kyle-ingersoll
+forms:
+  - integration-under-fire
+  - dojo
+  - circle
+  - mat
+principles:
+  - relax
+  - center
+  - meet
+  - resonate
 excerpt: "In the Dojo, leadership is cultivation, not control. Circles replace chains of command. Authorship replaces ownership."
 ---
 

@@ -3,22 +3,10 @@ mantra: "Don't Resist. Resonate."
 mantra_mark: "Resonate."
 description: "A layered training journey—presence, nervous-system skill, and conversational leadership applied in real contexts."
 sections:
-  - type: list
+  - type: principles
     data:
-      label: "Core Principles"
-      items:
-        - id: "relax"
-          label: "Relax Completely"
-          description: "Mind and body release tension together — increasing agency."
-        - id: "center"
-          label: "Center with Intention"
-          description: "Sense the emotional and energetic field as it is — go from there."
-        - id: "meet"
-          label: "Meet Fear with Presence"
-          description: "Fear often signals potential expansion — inviting fresh possibility."
-        - id: "resonate"
-          label: "Playful Resonance Is Ki"
-          description: "As tension clears, playfulness returns — renewing movement."
+      principles_title: "Core Principles"
+      principle_type: "program"
   - type: levels
     data:
       label: "Training Levels"
