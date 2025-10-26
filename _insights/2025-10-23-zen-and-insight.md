@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: insight
 title: "Zen and Spiritual Insight"
 title_mark: Demonstration
 published_date: 2025-10-23

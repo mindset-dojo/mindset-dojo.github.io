@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: insight
 title: Attention Portfolio Intelligence
 title_mark: Attention Portfolio
 published_date: 2025-10-24

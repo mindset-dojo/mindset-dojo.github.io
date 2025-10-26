@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: insight
 title: "A Demonstration Becomes a Dojo"
 title_mark: Demonstration
 published_date: 2025-10-23
