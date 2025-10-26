@@ -2,7 +2,8 @@
 layout: post
 title: "Zen and Spiritual Insight"
 title_mark: Demonstration
-date: 2025-10-23
+published_date: 2025-10-23
+refactored_date: 2025-10-26
 authors:
   - bill-westfall
 forms:

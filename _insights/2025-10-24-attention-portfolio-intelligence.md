@@ -2,7 +2,8 @@
 layout: post
 title: Attention Portfolio Intelligence
 title_mark: Attention Portfolio
-date: 2025-10-24
+published_date: 2025-10-24
+refactored_date: 2025-10-26
 authors:
   - michael-basil
 forms: 

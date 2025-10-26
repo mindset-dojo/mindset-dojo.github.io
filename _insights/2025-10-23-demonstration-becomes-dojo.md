@@ -2,7 +2,8 @@
 layout: post
 title: "A Demonstration Becomes a Dojo"
 title_mark: Demonstration
-date: 2025-10-23
+published_date: 2025-10-23
+refactored_date: 2025-10-26
 authors:
   - michael-basil
 forms:
