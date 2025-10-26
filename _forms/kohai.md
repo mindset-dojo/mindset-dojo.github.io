@@ -3,7 +3,7 @@ layout: form
 title: "Kohai"
 title_mark: Kohai
 published_date: 2025-10-20
-refactored_date: 2025-10-25
+refactored_date: 2025-10-26
 authors:
   - michael-basil
   - kyle-ingersoll
