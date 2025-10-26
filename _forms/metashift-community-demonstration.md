@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: form
 title: MetaShift Community Demonstration
 title_mark: Community
 published_date: 2025-10-23

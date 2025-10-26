@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: form
 title: Genuine Gratitude Expression
 title_mark: Gratitude
 published_date: 2025-10-23
