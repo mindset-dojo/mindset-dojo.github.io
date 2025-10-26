@@ -63,3 +63,5 @@ So perhaps the truest Flip I learned at ZLOTC was this:
 
 And in that movement, control dissolves into connection.
 Teacher and student, self and other, individual and Universal—each are one Ki extending.
+
+⛩️🖥️
