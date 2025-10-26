@@ -2,7 +2,8 @@
 layout: post
 title: "Metaphor in Shakepeare and Zen"
 title_mark: Demonstration
-date: 2025-10-25
+published_date: 2025-10-25
+refactored_date: 2025-10-26
 authors:
   - bill-westfall
 forms:
