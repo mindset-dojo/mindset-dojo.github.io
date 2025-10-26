@@ -144,4 +144,8 @@
     margin-top: 1rem;
   }
 
+  main h2#inspiration + ul {
+    text-align: center;
+  }
+
 }
