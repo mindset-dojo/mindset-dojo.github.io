@@ -24,7 +24,7 @@ principles:
 excerpt: "At ZLOTC, I discovered that every act of teaching is also an act of learning — when we reflect, allow, and connect, Ki extends, and the circle becomes a spiral."
 ---
 
-Recently, Michael Basil and I presented at [**ZLOTC (Zen Leader Off the Cushion)**](https://zenleader.global/zlotc-registration), hosted by the [**Institute for Zen Leadership**](https://zenleader.global/).
+Recently, [Michael Basil]({{'/authors/michael-basil/' | relative_url}}) and [I]({{'/authors/kyle-ingersoll/' | relative_url}}) presented at [**ZLOTC (Zen Leader Off the Cushion)**](https://zenleader.global/zlotc-registration), hosted by the [**Institute for Zen Leadership**](https://zenleader.global/).
 Our topic: *Meta Energy*, *Elemental FEBI*, and the *Essential Flip — From Controlling to Connecting.*
 
 We had fun, yes—but the true lesson revealed itself only afterward. The ZLOTC community learned from us, but I found myself being flipped in return.
@@ -51,7 +51,7 @@ In that, I saw Agile and DevOps—different fields, same spirit—moving *from i
 It was the Flip *From Local Self to Whole Self*: seeing through separation into the system’s wholeness.
 As *Resonate* describes, when individual energy attunes with others, a shared resonance emerges—the sound of many frequencies becoming one.
 
-These three Flips—Reflection, Allowing, and We—form what *The Zen Leader* calls the **Meta-Flip**: the shift from *self in control* to *self in connection*.
+These three Flips—Reflection, Allowing, and We—form what [Michael]({{'/authors/michael-basil/' | relative_url}}) calls the **Meta-Flip**: the shift from *self in control* to *self in connection*.
 In *Resonate*, Ginny Whitelaw names this state **Two Sides**—where doing and being, sound and silence, leader and led, move as one dynamic flow.
 
 Koichi Tohei expressed this same truth through Ki: *“Be both pupil and instructor.”*
