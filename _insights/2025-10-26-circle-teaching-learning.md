@@ -1,6 +1,6 @@
 ---
 layout: insight
-title: "⛩️ The Circle of Teaching and Learning: From Control to Connection"
+title: "The Circle of Teaching and Learning: From Control to Connection"
 title_mark: Circle
 published_date: 2025-10-26
 refactored_date: 2025-10-26
