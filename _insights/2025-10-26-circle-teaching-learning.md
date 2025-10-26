@@ -36,7 +36,7 @@ This one came not from Zen, but from our own.
 > “If you’re stuck with something in Zen, sit with it until it makes sense, instead of reacting.”
 
 That advice prepared me for ZLOTC’s deliberate pace—so different from the rapid, technical rhythm of **Cloud Security Office Hours**.
-It echoed Ginny Whitelaw’s Flip *From Driving Results to Attracting Commitment*—a shift from pushing to *opening space* where resonance can form.
+It echoed Ginny Whitelaw’s Flip *From Driving Results to Attracting the Future*—a shift from pushing to *opening space* where resonance can form.
 As *Resonate* notes, the first step toward flow is clearing interference—quieting enough to hear what wants to move through you.
 
 The second Flip, **From Let Go to Allow**, came from Paul Sevett.
