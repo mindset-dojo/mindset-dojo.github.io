@@ -8,7 +8,7 @@ authors:
 forms:
   - integration-under-fire
   - dojo
-  - zensei
+  - sensei
 principles:
   - relax
   - center

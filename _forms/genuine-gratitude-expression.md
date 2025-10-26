@@ -27,7 +27,7 @@ The expression of gratitude may take the form of words, gestures, or quiet ackno
 
 ## Implementation
 
-As practitioners progress through the program, **Genuine Gratitude Expression** becomes a deeper study in relational awareness. When one feels ready to engage this practice intentionally, it is encouraged to learn from the model and to enter into conversation with [Zenpai](../zenpai/) and [Zensei](../zensei/) to explore how gratitude can be most skillfully and authentically expressed. Through dialogue, the practitioner learns to attune to timing, tone, and context, understanding that gratitude is not simply stated but embodied.
+As practitioners progress through the program, **Genuine Gratitude Expression** becomes a deeper study in relational awareness. When one feels ready to engage this practice intentionally, it is encouraged to learn from the model and to enter into conversation with [Senpai](../senpai/) and [Sensei](../sensei/) to explore how gratitude can be most skillfully and authentically expressed. Through dialogue, the practitioner learns to attune to timing, tone, and context, understanding that gratitude is not simply stated but embodied.
 
 ## Inspirations
 
