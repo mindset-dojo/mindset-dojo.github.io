@@ -31,7 +31,7 @@ We had fun, yes—but the true lesson revealed itself only afterward. The ZLOTC 
 
 The first Flip was **From Reaction to Reflection.**
 This one came not from Zen, but from our own.
-[Jeremy McMillian](../authors/jeremy-mcmillan/)—Aikido black belt, Site Reliability Engineer, and wise hermit-sage—once told me:
+[Jeremy McMillian]({{'/authors/jeremy-mcmillan/' | relative_url}})—Aikido black belt, Site Reliability Engineer, and wise hermit-sage—once told me:
 
 > “If you’re stuck with something in Zen, sit with it until it makes sense, instead of reacting.”
 
