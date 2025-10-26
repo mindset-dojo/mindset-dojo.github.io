@@ -4,6 +4,8 @@ title: Genuine Gratitude Expression
 title_mark: Gratitude
 published_date: 2025-10-23
 refactored_date: 2025-10-26
+authors:
+  - michael-basil
 excerpt: "A form for recognizing genuine contributions of attention and energy — honoring mutual investment, resonance, and presence within and beyond the dojo."
 ---
 
