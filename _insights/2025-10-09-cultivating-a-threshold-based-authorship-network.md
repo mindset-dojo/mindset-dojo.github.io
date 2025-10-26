@@ -1,10 +1,18 @@
 ---
-layout: post
+layout: insight
 title: "Cultivating a Threshold-Based Authorship Network"
 title_mark: Authorship
-date: 2025-10-09
+published_date: 2025-10-09
+refactored_date: 2025-10-25
 authors: 
   - michael-basil
+forms:
+  - integration-under-fire
+  - dojo
+principles:
+  - center
+  - meet
+  - resonate
 excerpt: "In the dojo, we’re not trying to build an audience — we’re cultivating a field of thresholds: experiences that transform presence into trust."
 ---
 

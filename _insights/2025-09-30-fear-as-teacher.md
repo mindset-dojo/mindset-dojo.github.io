@@ -1,10 +1,21 @@
 ---
-layout: post
+layout: insight
 title: "Fear as Teacher, Shadow as Mirror, Presence as Response"
 title_mark: Presence
-date: 2025-09-30
+published_date: 2025-09-30
+refactored_date: 2025-10-25
 authors: 
   - kyle-ingersoll
+forms:
+  - integration-under-fire
+  - dojo
+  - three-question-reflection
+  - zensei
+principles:
+  - relax
+  - center
+  - meet
+  - resonate
 excerpt: "How fear becomes a teacher and what its shadow reveals about presence and response."
 ---
 

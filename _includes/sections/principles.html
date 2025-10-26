@@ -1,0 +1,57 @@
+{%- comment -%}
+Principles include — simple, predictable, works with posts or pages.
+
+Inputs:
+- section.data.principles_title => string (optional)
+- section.data.principles  => array of principle IDs (optional)
+- section.data.principle_type => string (optional)
+- page.principles => array of principle IDs (optional, used if section.data.principles missing)
+
+Data source:
+- include.page_data.items (fall back to site.data.sections.principles.items)
+
+Behavior:
+- Filter by principle_type if provided
+- If principles array provided, select in that order
+- Pass to sections/list.html
+{%- endcomment -%}
+
+{%- assign title = include.principles_title | default: section.data.principles_title | default: "Principles" -%}
+{%- assign data_source = include.page_data | default: site.data.sections.principles -%}
+{%- assign all_items = data_source.items -%}
+
+{%- assign src = section.data.principles | default: page.principles -%}
+{%- assign sel_type = section.data.principle_type -%}
+
+{%- comment -%} Filter by type if sel_type present {%- endcomment -%}
+{%- if sel_type %}
+  {%- assign all_items = all_items | where: "type", sel_type -%}
+{%- endif -%}
+
+{%- comment -%} If src exists, select items in that order {%- endcomment -%}
+{%- if src %}
+  {%- assign final_items = "" | split: "|" -%}
+  {%- for want_id in src %}
+    {%- for item in all_items %}
+      {%- if item.id == want_id %}
+        {%- assign final_items = final_items | push: item -%}
+        {%- break -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endfor -%}
+{%- else %}
+  {%- assign final_items = all_items -%}
+{%- endif -%}
+
+<section class="md-flow">
+  <h2>{{ title }}</h2>
+  <dl>
+    {%- for item in final_items -%}
+      {%- assign _id = "principle-" | append: item.id | slugify -%}
+      <dt id="{{ _id }}">{{ item.label }}</dt>
+      <dd aria-labelledby="{{ _id }}">{{ item.description | markdownify }}</dd>
+    {%- endfor -%}
+  </dl>
+</section>
+
+

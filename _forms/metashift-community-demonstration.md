@@ -1,8 +1,12 @@
 ---
-layout: post
+layout: form
 title: MetaShift Community Demonstration
 title_mark: Community
-date: 2025-10-23
+published_date: 2025-10-23
+refactored_date: 2025-10-26
+authors:
+  - michael-basil
+  - kyle-ingersoll
 excerpt: "A higher-level dojo form for demonstrating presence within another community — embodying Mindset Dojo principles through participation and shared practice."
 ---
 

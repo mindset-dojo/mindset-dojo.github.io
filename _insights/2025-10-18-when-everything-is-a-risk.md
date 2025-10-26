@@ -1,10 +1,14 @@
 ---
-layout: post
+layout: insight
 title: "When Everything Is a Risk"
 title_mark: Risk
-date: 2025-10-18
+published_date: 2025-10-18
+refactored_date: 2025-10-25
 authors:
   - michael-basil
+forms:
+  - dojo
+  - integration-under-fire
 principles:
   - relax
   - center

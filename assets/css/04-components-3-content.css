@@ -72,6 +72,10 @@
      Post template visuals
      ======================= */
 
+  .collection-item {
+    text-align: center;
+  }
+  
   .post-article {
     max-width: 700px;
     background: transparent;
@@ -135,6 +139,7 @@
      ======================= */
 
   :where(.md-flow) dl > dt {
+    text-align: center;
     font-weight: 700;
     margin-top: 1rem;
   }

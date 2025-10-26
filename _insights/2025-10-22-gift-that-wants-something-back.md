@@ -1,12 +1,14 @@
 ---
-layout: post
+layout: insight
 title: "The Gift That Wants Something Back"
 title_mark: Wants
-date: 2025-10-22
+published_date: 2025-10-22
+refactored_date: 2025-10-25
 authors:
   - kyle-ingersoll
 forms:
   - genuine-gratitude-expression
+  - integration-under-fire
 principles:
   - relax
   - center
