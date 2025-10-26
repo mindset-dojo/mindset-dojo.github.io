@@ -6,9 +6,6 @@ date: 2025-10-25
 authors:
   - bill-westfall
 forms:
-  - genuine-gratitude-expression
-  - metashift-community-demonstration
-  - integration-under-fire
 principles:
   - relax
   - meet
