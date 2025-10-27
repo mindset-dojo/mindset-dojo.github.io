@@ -14,5 +14,10 @@ Options:
 
 <section class="md-flow">
   {%- if D.label -%}<h2>{{ D.label }}</h2>{%- endif -%}
-  {{ content_md | markdownify }}
+  {%- if content_md contains "{% raw %}{{{% endraw %} " -%}
+    {% capture content_md %}{{ content_md | replace: "{{", "{% raw %}{{" | replace: "}}", "}}{% endraw %}" }}{% endcapture %}
+    {{ content_md | markdownify }}
+  {%- else -%}
+    {{ content_md | markdownify }}
+  {%- endif -%}
 </section>
