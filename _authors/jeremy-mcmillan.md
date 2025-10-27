@@ -19,7 +19,7 @@ about: |
   
   As a co-author of the [**Circle Communities**](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/1-initial/circle-communities.md) pattern within the [**InnerSource Commons**](https://innersourcecommons.org) Foundation, Jeremy has modeled what it means to cultivate ecosystems where knowledge, leadership, and care circulate freely. Across each phase of the Dojo’s development, he’s shown up as a **calm, centered presence** — often appearing at key training thresholds to support others in leveling up.
   
-  Jeremy has helped many practitioners progress through training-level thresholds in both **SAP Dojo** and **Mindset Dojo**, including key program and project leaders such as [**Kyle Ingersoll**](../authors/kyle-ingersoll/). His steady mentorship, curiosity, and care have supported the growth of each member stepping into new levels of practice and leadership.
+  Jeremy has helped many practitioners progress through training-level thresholds in both **SAP Dojo** and **Mindset Dojo**, including key program and project leaders such as [**Kyle Ingersoll**](../kyle-ingersoll/). His steady mentorship, curiosity, and care have supported the growth of each member stepping into new levels of practice and leadership.
   
   Those who train with him recognize the depth of his **energetic presence** — a balance of technical precision, emotional steadiness, and an unwavering commitment to the greater good. His professional craft in **security, risk, and reliability engineering** reflects the same principles he embodies in the Dojo: **clarity under pressure**, **discipline in motion**, and **service through wisdom**.
   
