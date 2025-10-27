@@ -43,4 +43,11 @@ Without clear intention, AI mirrors your stuckness. Resonance checks are Ki. Deb
 
 Thank you, Michael Basil.
 
+---
+
+**Sequel:**
+
+[*Mind Without Ki, Ki Given Form*](../mind-ki-form) — how stillness and motion become one.
+
+
 ⛩️🖥️ -> https://kyle.mindset.dojo.center/
