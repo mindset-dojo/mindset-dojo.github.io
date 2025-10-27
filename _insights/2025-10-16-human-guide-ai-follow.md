@@ -49,5 +49,4 @@ Thank you, Michael Basil.
 
 [*Mind Without Ki, Ki Given Form*](../mind-ki-form) — how stillness and motion become one.
 
-
 ⛩️🖥️ -> https://kyle.mindset.dojo.center/
