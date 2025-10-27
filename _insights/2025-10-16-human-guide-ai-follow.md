@@ -42,3 +42,11 @@ Once we defined what the code should do, we asked ChatGPT to help simplify it, *
 Without clear intention, AI mirrors your stuckness. Resonance checks are Ki. Debt can become value—but only when we pause, reflect, and let human mentorship illuminate the path.
 
 Thank you, Michael Basil.
+
+---
+
+**Sequel:**
+
+[*Mind Without Ki, Ki Given Form*](../mind-ki-form) — how stillness and motion become one.
+
+⛩️🖥️

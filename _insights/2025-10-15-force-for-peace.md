@@ -57,3 +57,5 @@ To meet fear with presence so strong that even aggression bows.
 - When you wield darkness for the light, what keeps your edge from turning inward?  
 - When every word can wound or heal, how sharp is your silence?  
 - If you can end the fight and choose not to — what, then, have you truly mastered?  
+
+⛩️🖥️

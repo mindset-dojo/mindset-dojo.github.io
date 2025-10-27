@@ -50,3 +50,5 @@ In that sense, restraint isn’t about rejection — it’s about timing.
 This experience taught me that technology must serve the purpose — **Conversational Mastery** — and not overshadow it.  
 Sometimes the best contribution isn’t more code, but the discipline to protect simplicity.  
 And sometimes wisdom means saying *not yet.*
+
+⛩️🖥️
