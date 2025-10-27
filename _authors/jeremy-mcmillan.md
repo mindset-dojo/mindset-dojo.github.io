@@ -24,5 +24,6 @@ about: |
   Jeremy’s leadership continues to inspire both the architecture and the attitude of Mindset Dojo: grounded, generous, and fiercely alive to The Way.
   
   ### Connect
-  - LinkedIn: https://www.linkedin.com/in/jeremymcm
+
+  - [LinkedIn](https://www.linkedin.com/in/jeremymcm)
 ---
