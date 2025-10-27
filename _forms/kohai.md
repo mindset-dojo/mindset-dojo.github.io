@@ -3,8 +3,9 @@ layout: form
 title: "Kohai"
 title_mark: Kohai
 published_date: 2025-10-20
-refactored_date: 2025-10-25
+refactored_date: 2025-10-27
 authors:
+  - jeremy-mcmillan
   - michael-basil
   - kyle-ingersoll
 excerpt: "A Kohai follows the Sensei' and Senpai' fearless leadership, and applies MetaShift Method to the best of their ability."

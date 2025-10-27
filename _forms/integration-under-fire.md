@@ -3,9 +3,10 @@ layout: form
 title: "Integration Under Fire"
 title_mark: "Integration"
 published_date: 2025-10-22
-refactored_date: 2025-10-26
+refactored_date: 2025-10-27
 authors:
   - michael-basil
+  - jeremy-mcmillan
 excerpt: "A reflection form for working with compression — meeting lower-consciousness forces without collapsing or bypassing. Integration through practice, not martyrdom."
 ---
 

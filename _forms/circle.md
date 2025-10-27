@@ -3,9 +3,10 @@ layout: form
 title: "Circle"
 title_mark: Circle
 published_date: 2025-10-20
-refactored_date: 2025-10-25
+refactored_date: 2025-10-27
 authors:
   - michael-basil
+  - jeremy-mcmillan
   - kyle-ingersoll
 excerpt: "Circles are brave spaces for mutual exploration and reflection bound together by a web of trust and shared principles."
 ---
