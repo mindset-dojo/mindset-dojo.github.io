@@ -1,7 +1,7 @@
 ---
 layout: insight
-title: The Evolution of Emotional Extraction
-title_mark: Evolution
+title: Self-Evolution of Emotional Extraction
+title_mark: Self-Evolution
 published_date: 2025-10-27
 refactored_date: 2025-10-27
 authors:
