@@ -72,4 +72,4 @@ But I now understand what the path looks like. I’ve taken the first real steps
 
 Going forward, I’ll continue building these habits: journaling reflections on user story work, meditating regularly, and saying “yes” when the Sensei draws the next door.
 
-⛩️🖥️
+⛩️🖥️ -> https://kyle.mindset.dojo.center/

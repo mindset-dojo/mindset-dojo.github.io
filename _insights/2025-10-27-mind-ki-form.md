@@ -58,4 +58,4 @@ Together they trace the circle of creation:
 **Intention → Guidance → Integration** —  
 the human and the tool returning to the same quiet source.
 
-⛩️🖥️
+⛩️🖥️ -> https://kyle.mindset.dojo.center/

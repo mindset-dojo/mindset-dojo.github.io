@@ -67,7 +67,7 @@ Only you resist you.**
 
 When you release that resistance, when you flip through paradox, Ki flows. Circles of care widen. Leadership becomes less about the ego’s reach and more about the boundless extension of life itself.  
 
-⛩️🖥️
+⛩️🖥️ -> https://kyle.mindset.dojo.center/
 
 ---
 

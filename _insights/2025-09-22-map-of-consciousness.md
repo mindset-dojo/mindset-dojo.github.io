@@ -123,7 +123,7 @@ The lesson ends not in mastery, but infinitely begins with resonance.
 
 And so there was a bow, lighter than when the dojo was entered.  
 
-⛩️🖥️
+⛩️🖥️ -> https://kyle.mindset.dojo.center/
 
 ---
 

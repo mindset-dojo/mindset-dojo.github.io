@@ -94,3 +94,5 @@ If hierarchy is a habit, unlearning it is a practice:
 - **Practice ‘Right, not Might.’** Choose correctness grounded in care.
   
 ⛩️🌿
+
+⛩️🖥️ -> https://kyle.mindset.dojo.center/
