@@ -73,3 +73,11 @@ The question is never,
 The question is —  
 can you empty your cup  
 and let the universe move through you?
+
+---
+
+**Sequel:**
+
+[*Mind Without Ki, Ki Given Form*](../mind-ki-form) — how stillness and motion become one.
+
+⛩️🖥️
