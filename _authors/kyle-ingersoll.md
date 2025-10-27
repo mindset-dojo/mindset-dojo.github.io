@@ -30,7 +30,7 @@ about: |
 
   Now I mix security, Free Software values, and conversational practice: building safe DevOps pipelines, enforcing automated quality gates, and writing Insight pieces — all toward one mission: to protect and expand human freedom through sociotechnical engineering. And yes — we have fun doing it. Zen-like discipline without joy is just a posture; the real practice is rigorous, kind, and, occasionally, delightfully playful. After all, what is a dream without resonance? A delusion.
 
-  {{ page.emoji_signature }}
+  ⛩️🖥️
 
   ### Connect
   
