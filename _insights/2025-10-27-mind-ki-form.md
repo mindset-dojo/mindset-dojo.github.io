@@ -52,7 +52,7 @@ The steam rose between them, curling, vanishing.
 Thus the three teachings align:  
 [*The Way of Plus Ki*](../way-of-plus-ki/) — how energy extends.  
 [*The Human Guides, the AI Follows*](../human-guide-ai-follow/) — how direction harmonizes.  
-*Mind Without Ki, Ki Given Form* — how stillness and motion become one.  
+[*Mind Without Ki, Ki Given Form*](../mind-ki-form/) — how stillness and motion become one.  
 
 Together they trace the circle of creation:  
 **Intention → Guidance → Integration** —  
