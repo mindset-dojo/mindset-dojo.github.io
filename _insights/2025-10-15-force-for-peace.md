@@ -58,4 +58,4 @@ To meet fear with presence so strong that even aggression bows.
 - When every word can wound or heal, how sharp is your silence?  
 - If you can end the fight and choose not to — what, then, have you truly mastered?  
 
-⛩️🖥️ -> https://kyle.mindset.dojo.center/
+⛩️🖥️

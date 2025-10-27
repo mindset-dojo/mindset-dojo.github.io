@@ -61,4 +61,4 @@ So the question becomes:
 > Can you give in such a way that both you and the world become richer —
 not in possessions, but in resonance?
 
-⛩️🖥️ -> https://kyle.mindset.dojo.center/
+⛩️🖥️

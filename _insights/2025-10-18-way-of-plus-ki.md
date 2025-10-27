@@ -80,4 +80,4 @@ and let the universe move through you?
 
 [*Mind Without Ki, Ki Given Form*](../mind-ki-form) — how stillness and motion become one.
 
-⛩️🖥️ -> https://kyle.mindset.dojo.center/
+⛩️🖥️

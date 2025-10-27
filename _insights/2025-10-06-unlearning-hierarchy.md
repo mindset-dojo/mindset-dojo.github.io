@@ -95,4 +95,4 @@ If hierarchy is a habit, unlearning it is a practice:
   
 ⛩️🌿
 
-⛩️🖥️ -> https://kyle.mindset.dojo.center/
+⛩️🖥️
