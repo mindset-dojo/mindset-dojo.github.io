@@ -31,15 +31,17 @@ At that point, what once felt like love begins to feel like labor. The emotion t
 
 Eventually, the body senses what the mind resists: extraction. That’s when the deeper immune system activates—[immunity from emotional exploitation](../immunity-from-emotional-exploitation/) isn’t coldness; it’s cellular wisdom saying, “enough.” We stop paying in sympathy. We cut the current that fuels the old exchange.
 
-But the end of extraction is not the end of the pattern—it’s the beginning of its evolution. When the current ceases, the nervous system doesn’t simply relax; it reorganizes. The energy that once powered the story seeks a new configuration.
+But the end of extraction is not the end of the pattern—it’s the beginning of its evolution. When the current ceases, the nervous system doesn’t simply relax; it reorganizes. The same energy that once powered the story begins to reconfigure itself.
 
-This is where [self-evolution becomes socially annoying](../self-evolution-is-socially-annoying/). Because the moment you stop orbiting the old gravity—the loop of approval, guilt, and repair—others who depend on that orbit feel destabilized. They may project, label, or moralize. That’s just the ecosystem noticing its imbalance.
+This is where [Self-evolution becomes socially annoying](../self-evolution-is-socially-annoying/). Because the moment you stop orbiting the old gravity—the loop of approval, guilt, and repair—those accustomed to that orbit feel destabilized. They may project, label, or moralize. That’s just the ecosystem noticing its imbalance.
 
 Then comes [zero-sympathy phasing](../zero-sympathy-phasing/)—the dojo stance of presence without purchase. No running, no chasing. No emotional subsidies or narrative loans. The bond either refines or burns itself out. Either way, what’s unwell in the bond must distill.
 
-From those ashes, we don’t know what will rise—or if it needs to. Maybe a fresh dynamic grounded in the present. Maybe complete separation, a dimensional distance born of clarity. Either way, the unhealthiness dissolves, and what remains is presence: an attention portfolio finally rebalanced, an immune system attuned, a self no longer socially compliant but genuinely available.
+From those ashes, we don’t know what will rise—or if it needs to. Maybe a fresh dynamic grounded in the present. Maybe complete separation, a dimensional distance born of clarity.  
 
-There’s nothing to run from and nothing to chase in the present. The extraction becomes expansion. Zero-sympathy becomes compassion without collapse. 
+Either way, the unhealthiness dissolves, and what remains is presence: an attention portfolio finally rebalanced, an immune system attuned, a self no longer socially compliant but genuinely available.
+
+There’s nothing to run from and nothing to chase in the present. The extraction becomes expansion. Zero-sympathy becomes compassion without collapse.  
 
 > Love stops being a transaction and becomes a field.
 
