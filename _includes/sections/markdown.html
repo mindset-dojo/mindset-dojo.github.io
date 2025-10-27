@@ -11,10 +11,11 @@ Options:
 
 {%- assign D = section.data -%}
 {%- assign content_md = include.content_md | default: D.content | default: page[D.field] -%}
+{%- assign jekyll_syntax_in_md = content_md contains "{% raw %}{%" | replace: "%}", or content_md contains "{{ | replace: "}}" {% endraw %}" -%}
 
 <section class="md-flow">
   {%- if D.label -%}<h2>{{ D.label }}</h2>{%- endif -%}
-  {%- if content_md contains "{% raw %}{{{% endraw %} " -%}
+  {%- if jekyll_syntax_in_md -%}
     {% capture content_md %}{{ content_md | replace: "{{", "{% raw %}{{" | replace: "}}", "}}{% endraw %}" }}{% endcapture %}
     {{ content_md | markdownify }}
   {%- else -%}
