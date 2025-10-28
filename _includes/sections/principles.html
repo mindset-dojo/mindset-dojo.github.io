@@ -24,8 +24,8 @@ Behavior:
 {%- assign sel_type = section.data.principle_type -%}
 
 {%- comment -%} Filter by type if sel_type present {%- endcomment -%}
-{%- if sel_type %}
-  {%- assign all_items = all_items | where: "type", sel_type -%}
+{%- if sel_type %-}
+  {%- assign all_items = all_items | where: "principles", sel_type -%}
 {%- endif -%}
 
 {%- comment -%} If src exists, select items in that order {%- endcomment -%}
