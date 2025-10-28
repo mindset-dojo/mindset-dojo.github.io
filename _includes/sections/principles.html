@@ -23,27 +23,17 @@ Inputs:
 {%- if src -%}
   {%- for want_id in src -%}
     {%- assign found = nil -%}
-    {%- if sel_type and grouped[sel_type] -%}
-      {%- for candidate in grouped[sel_type] -%}
+    {%- for group_key in grouped | keys -%}
+      {%- for candidate in grouped[group_key] -%}
         {%- if candidate.id == want_id -%}
           {%- assign found = candidate -%}
           {%- break -%}
         {%- endif -%}
       {%- endfor -%}
-    {%- else -%}
-      {%- for group_key in grouped | keys -%}
-        {%- for candidate in grouped[group_key] -%}
-          {%- if candidate.id == want_id -%}
-            {%- assign found = candidate -%}
-            {%- break -%}
-          {%- endif -%}
-        {%- endfor -%}
-        {%- if found -%}{%- break -%}{%- endif -%}
-      {%- endfor -%}
-    {%- endif -%}
+      {%- if found -%}{%- break -%}{%- endif -%}
+    {%- endfor -%}
     {%- if found -%}{%- assign final_items = final_items | push: found -%}{%- endif -%}
   {%- endfor -%}
-
 {%- else -%}
   {%- if sel_type and grouped[sel_type] -%}
     {%- for item in grouped[sel_type] -%}
