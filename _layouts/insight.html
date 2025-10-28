@@ -6,7 +6,7 @@ layout: post
 
 {% for slug in page.authors %}
     {% for author in site.authors %}
-        {% if author.page.slug == slug and author.emoji_signature %}
+        {% if (author.page.slug == slug) and author.emoji_signature %}
             {% include sections/markdown.html section=section content_md=author.emoji_signature %}
         {% endif %}
     {% endfor %}
