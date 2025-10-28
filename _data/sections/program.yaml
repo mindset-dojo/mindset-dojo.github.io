@@ -20,7 +20,7 @@ sections:
           intention: Orientation
           edge: Four Patterns Reflection
           flows:
-            - label: "Don't Train, Complain...? ⛩️"
+            - label: "Don't Train, Complain...?"
               url: /insights/dont-train-complain/
             - label: The Technology of Self-Authorship
               url: /insights/technology-of-self-authorship/
@@ -160,10 +160,8 @@ sections:
           flows:
             - label: "The Hand-Sword and the Shadow - Using Force for Peace"
               url: /insights/force-for-peace/
-            - label: Attention Portfolio Intelligence
-              url: /insights/attention-portfolio-intelligence
-            - label: "Immunity from Emotional Exploitation"
-              url: /insights/immunity-from-emotional-exploitation/
+            - label: Self-Evolution of Emotional Extraction
+              url: /insights/self-evolution-of-emotional-extraction/
             - label: 30 minute Zazen with Chosei Zen Virtual Dojo
               url: https://www.choseizen.org/virtual-dojo
             - label: Cultivating a Threshold-Based Authorship Network

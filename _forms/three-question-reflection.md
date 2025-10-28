@@ -25,3 +25,4 @@ Find a willing [Circle](../circle/), engage the [Mat](../mat/), and begin the se
 ## Inspiration
 
 - [Socratic Method](https://en.wikipedia.org/wiki/Socratic_method)
+- [Calibrated Questions – Black Swan Group](https://www.blackswanltd.com/newsletter/taking-the-mystery-out-of-calibrated-questions)  
