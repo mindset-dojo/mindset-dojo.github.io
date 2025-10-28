@@ -41,5 +41,3 @@ Each time we do, the dojo itself grows clearer, and the Living Library deepens i
 
 Gratitude to the warm host community for the generosity, skill, and field you hold.  
 Your practice helped us see our own more fully.
-
-⛩️🌿

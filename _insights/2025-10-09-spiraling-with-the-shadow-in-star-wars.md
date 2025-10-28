@@ -44,5 +44,3 @@ Einstein said we cannot solve our problems at the same level of consciousness th
 - Where are you moving in circles right now, repeating an old story?  
 - What happens if you bring the “other side” — the shadow, the opposite, the fear — into awareness?  
 - Does the circle begin to open into a spiral?
-
-⛩️🌿

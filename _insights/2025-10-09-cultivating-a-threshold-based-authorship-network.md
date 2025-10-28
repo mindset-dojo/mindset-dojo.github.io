@@ -57,4 +57,3 @@ All of it belongs to the same current — energy circulating through trust, sust
 The Mindset Dojo isn’t a following. It is a living lattice of practice and authorship — a threshold network cultivated through conversation, energy agility, and fearless presence.
 
 And this authorship continues to evolve — into a shared repository that includes conversational presence patterns, a living record of how we learn to meet life and one another with clarity, compassion, and courage.
-⛩️🌿

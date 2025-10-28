@@ -107,8 +107,6 @@ When the system fails and the people falter,
 is security in the patch,  
 or in the hand that meets fear with presence?  
 
-⛩️🖥️
-
 ---
 
 ## Bow of Respect

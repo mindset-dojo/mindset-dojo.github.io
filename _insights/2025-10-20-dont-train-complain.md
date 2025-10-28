@@ -111,5 +111,3 @@ How to find gratitude without guarantee.
 How to train, even when the system doesn’t yet know how.  
 
 Welcome to the threshold.  
-
-⛩️🌿  
