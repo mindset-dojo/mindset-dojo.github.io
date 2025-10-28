@@ -18,7 +18,7 @@ Behavior:
 
 {%- assign title = include.principles_title | default: section.data.principles_title | default: "Principles" -%}
 {%- assign data_source = include.page_data | default: site.data.sections.principles -%}
-{%- assign all_items = data_source.items -%}
+{%- assign all_items = data_source -%}
 
 {%- assign src = section.data.principles | default: page.principles -%}
 {%- assign sel_type = section.data.principle_type -%}
