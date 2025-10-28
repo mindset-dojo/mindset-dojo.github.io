@@ -19,7 +19,7 @@ Your thoughts may come and go. If there is a thought or passage you want to espe
 
 ## Implementation
 
-Engage with meaningful topics and consider thoughts and ideas that may (or may not) be brought into the group. Also consider ideas you want to meditate on for individual growth or insight.
+Engage with meaningful topics and consider thoughts and ideas that may (or may not) be brought into a [Circle](../circle/). Also consider ideas you want to meditate on for individual growth or insight.
 
 ## Inspiration
 
