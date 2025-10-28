@@ -68,8 +68,9 @@
     font-size: 0;
   }
 
-  .md-authors section.md-author-card h4.author-card-emoji-signature {
+  .md-authors section.md-author-card h3.author-card-emoji-signature {
     text-align: center;
+    font-size: var(--h4);
   }
 
   /* =======================
