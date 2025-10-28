@@ -25,6 +25,10 @@ if called without an author object.
 
   <h2><a href="{{ profile_url }}">{{ author_name }}</a></h2>
 
+  {%- if include.emoji_signature -%}
+    <p> {{ include.emoji_signature }} </p>
+  {%- endif -%}
+  
   {%- assign ld = include.author.leadership_designations -%}
   {%- if ld -%}
     {%- assign lines = "" | split: "" -%}
