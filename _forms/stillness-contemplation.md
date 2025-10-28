@@ -15,7 +15,7 @@ Stillness Contemplation is a beginner's meditation to sit (or lie) simply in sil
 
 ## Experience
 
-Your thoughts may come and go. If there is a thought or passage you want to especially focus on, you can go over it before starting Stllness Contemplation.
+Your thoughts may come and go. If there is a thought or passage you want to especially focus on, you can go over it before starting Stillness Contemplation.
 
 ## Implementation
 
