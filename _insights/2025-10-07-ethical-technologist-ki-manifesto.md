@@ -86,5 +86,3 @@ To resonate is to serve.
 To serve is to stay centered.  
 To stay centered is to remember:  
 The true dojo is everywhere you stand.  
-
-⛩️🖥️

@@ -4,6 +4,19 @@ layout: post
 
 {{ content }}
 
+{%- comment -%} {%- emoji_signature render code -%} {%- endcomment -%}
+{% for author_slug in page.authors %}
+  {% assign normalized_author_slug = author_slug | slugify %}
+  {% for author in site.authors %}
+    {% assign filename = author.path | split:"/" | last %}
+    {% assign file_slug = filename | split:"." | first | slugify %}
+    {% if file_slug == normalized_author_slug and author.emoji_signature %}
+      {% include sections/markdown.html section=section content_md=author.emoji_signature %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
+
 {% if page.principles %}
     {% include sections/principles.html section=section principles_title="Related Principles" page_data=site.data.sections.principles %}
     <hr>

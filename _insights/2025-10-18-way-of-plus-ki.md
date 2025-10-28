@@ -79,5 +79,3 @@ and let the universe move through you?
 **Sequel:**
 
 [*Mind Without Ki, Ki Given Form*](../mind-ki-form) — how stillness and motion become one.
-
-⛩️🖥️

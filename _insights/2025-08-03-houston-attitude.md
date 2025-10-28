@@ -194,5 +194,3 @@ Defend or connect?
 
 If you want connection—you’ll need an attitude.  
 A practiced one that can MetaShift.
-
-⛩️🌿🖥️

@@ -92,7 +92,3 @@ If hierarchy is a habit, unlearning it is a practice:
 - **Lead by question, not instruction.** “What’s the smallest next step?”  
 - **Mirror and amplify.** Reflect what you hear; name what wants acknowledgment.  
 - **Practice ‘Right, not Might.’** Choose correctness grounded in care.
-  
-⛩️🌿
-
-⛩️🖥️

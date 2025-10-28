@@ -73,5 +73,3 @@ merging as mindfulness.
 That’s how exploration becomes authorship.  
 How curiosity becomes coherence.  
 How we evolve the practice — and ourselves.  
-
-⛩️🌿
