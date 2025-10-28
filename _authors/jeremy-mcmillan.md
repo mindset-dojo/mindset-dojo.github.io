@@ -10,6 +10,8 @@ join_date: 2021-01-01
 program_level: -6
 program_level_date: 2025-03-16
 leadership_designations: []
+emoji_signature: null
+custom_url: null
 about: |
   ### Connect
   

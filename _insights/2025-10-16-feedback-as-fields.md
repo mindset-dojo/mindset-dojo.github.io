@@ -86,5 +86,3 @@ When feedback comes, something I’m finding useful is to pause and ask:
 
 Presence isn’t a destination; it’s the balance we train for with every turn of the wheel.  
 Feedback is how we ride together — and how we sense when the next threshold level is approaching.  
-
-⛩️🌿

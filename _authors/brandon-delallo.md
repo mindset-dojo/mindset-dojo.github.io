@@ -10,6 +10,8 @@ join_date: 2025-10-24
 program_level: -8
 program_level_date: 2025-11-25
 leadership_designations: []
+emoji_signature: null
+custom_url: null
 about: |
   ### Executive Leader
 

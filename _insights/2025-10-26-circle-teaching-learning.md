@@ -65,5 +65,3 @@ So perhaps the truest Flip I learned at ZLOTC was this:
 
 And in that spiral, control dissolves into resonance.
 Teacher and student, Self and Other, individual and Universal—each are two sides of the same flow.
-
-⛩️🖥️
