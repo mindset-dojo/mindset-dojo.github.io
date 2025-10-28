@@ -68,6 +68,10 @@
     font-size: 0;
   }
 
+  .md-authors section.md-author-card h3.author-card-emoji-signature {
+    text-align: center;
+  }
+  
   /* =======================
      Post template visuals
      ======================= */
