@@ -32,6 +32,8 @@ sections:
               url: /forms/mat/
             - label: Kohai
               url: /forms/kohai/
+            - label: Stillness Contemplation
+              url: /forms/stillness-contemplation/
             - label: Four Element Sensei
               url: /forms/four-element-sensei/
             - label: "Feedback Fields: Learning to Ride Together"
