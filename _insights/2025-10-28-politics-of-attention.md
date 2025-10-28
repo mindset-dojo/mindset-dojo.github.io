@@ -58,9 +58,9 @@ These are the circles worth building:
 
 ### A Reflective Contemplation…
 
--  Where is my attention truly received?  
--  Where is it only consumed?  
--  Who around me practices presence more than performance?  
--  Those are your training opportunities.  
+-  Where is my attention truly received?
+-  Where is it only consumed?
+-  Who around me practices presence more than performance?
+-  Those are your training opportunities.
 
 Because in the end, negotiating for attention isn’t about getting more of it — it’s about choosing where your presence can expand rather than contract.
