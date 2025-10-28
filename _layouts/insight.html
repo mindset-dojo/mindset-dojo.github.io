@@ -4,6 +4,7 @@ layout: post
 
 {{ content }}
 
+{%- comment -%} {%- emoji_signature render code -%} {%- endcomment -%}
 {% for author_slug in page.authors %}
   {% assign normalized_author_slug = author_slug | slugify %}
   {% for author in site.authors %}
