@@ -29,11 +29,11 @@ Inputs:
 </p>
 
 {%- if src -%}
-  {%- assign sel_type = "" | split: "|" -%}
-  {%- assign sel_type = sel_type | push: "program" | push: "project" | push: "mission" -%}
+  {%- assign principles_group = "" | split: "|" -%}
+  {%- assign principles_group = principles_group | push: "program" | push: "project" | push: "mission" -%}
   {%- for want_id in src -%}
     {%- assign found = nil -%}
-    {%- for key in sel_type -%}
+    {%- for key in principles_group -%}
       {%- for candidate in grouped[key] -%}
         {%- if candidate.id == want_id -%}
           {%- assign found = candidate -%}
