@@ -17,7 +17,7 @@ Inputs:
 {%- assign grouped = data_source.principles -%}
 {%- assign src = include.principles | default: section.data.principles -%}
 {%- assign sel_type = section.data.principle_type -%}
-{%- assign principles_groups = include.principles_groups | default: section.data.principles_groups | default: "" | split: "|" -%}
+{%- assign principles_groups = include.principles_groups | default: section.data.principles_groups -%}
 {%- assign final_items = "" | split: "|" -%}
 
 {%- if src and principles_groups -%}
