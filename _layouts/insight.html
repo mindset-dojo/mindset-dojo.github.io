@@ -19,7 +19,7 @@ layout: post
 
 {% if page.principles %}
   {%- assign principles_groups = "" | split: "|" -%}
-  {%- assign principles_groups = principles_group | push: "program" | push: "project" | push: "mission" -%}
+  {%- assign principles_groups = principles_groups | push: "program" | push: "project" | push: "mission" -%}
   
   {% include sections/principles.html section=section principles_title="Related Principles" page_data=site.data.sections.principles principles=page.principles principles_groups=principles_groups %}
   <hr>
