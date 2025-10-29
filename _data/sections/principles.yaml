@@ -1,6 +1,6 @@
 ---
 principles:
-  - program:
+  program:
     - id: "relax"
       label: "Relax Completely"
       description: "Mind and body release tension together — increasing agency."
@@ -13,7 +13,7 @@ principles:
     - id: "resonate"
       label: "Playful Resonance Is Ki"
       description: "As tension clears, playfulness returns — renewing movement."
-  - project:
+  project:
     - id: "transparency"
       label: "Transparency Invites Trust"
       description: "Openness in process, intent, and communication turns control into shared clarity."
@@ -23,7 +23,7 @@ principles:
     - id: "presence"
       label: "Presence Tends the Form"
       description: "We tend the system as a living garden — pruning, nurturing, redesigning with awareness."
-  - mission: 
+  mission: 
     - id: "authorship"
       label: "Authorship Cultivates Flow"
       description: "Energy moves through creation and contribution — not consumption."
