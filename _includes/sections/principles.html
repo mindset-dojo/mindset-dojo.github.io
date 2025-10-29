@@ -31,8 +31,8 @@ Inputs:
 {%- if src -%}
   {%- for want_id in src -%}
     {%- assign found = nil -%}
-    {%- for group_key in grouped -%}
-      {%- for candidate in grouped[group_key] -%}
+    {%- for group_list in grouped -%}
+      {%- for candidate in group_list -%}
         {%- if candidate.id == want_id -%}
           {%- assign found = candidate -%}
           {%- break -%}
