@@ -23,7 +23,7 @@ Inputs:
 {%- if src and principles_groups -%}
   {%- for want_id in src -%}
     {%- assign found = nil -%}
-    {%- for key in principles_group -%}
+    {%- for key in principles_groups -%}
       {%- for candidate in grouped[key] -%}
         {%- if candidate.id == want_id -%}
           {%- assign found = candidate -%}
