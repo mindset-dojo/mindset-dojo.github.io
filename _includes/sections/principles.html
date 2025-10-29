@@ -29,16 +29,21 @@ Inputs:
 </p>
 
 {%- if src -%}
+  {%- assign sel_type = "" | split: "|" -%}
+  {%- assign sel_type = sel_type | push: "program" | push: "project" | push: "mission" -%}
   {%- for want_id in src -%}
     {%- assign found = nil -%}
-    {%- for group_list in grouped -%}
-      {%- for candidate in group_list -%}
-        {%- if candidate.id == want_id -%}
-          {%- assign found = candidate -%}
-          {%- break -%}
-        {%- endif -%}
-      {%- endfor -%}
+    {%- for key in sel_type -%}
+      {%- for group_list in grouped[key] -%}
+        {%- for candidate in group_list -%}
+          {%- if candidate.id == want_id -%}
+            {%- assign found = candidate -%}
+            {%- break -%}
+          {%- endif -%}
+        {%- if found -%}{%- break -%}{%- endif -%}
+        {%- endfor -%}
       {%- if found -%}{%- break -%}{%- endif -%}
+      {%- endfor -%}
     {%- endfor -%}
     {%- if found -%}{%- assign final_items = final_items | push: found -%}{%- endif -%}
   {%- endfor -%}
