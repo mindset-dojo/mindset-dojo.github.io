@@ -23,7 +23,7 @@ Inputs:
 {%- if src -%}
   {%- for want_id in src -%}
     {%- assign found = nil -%}
-    {%- for group_key in grouped | keys -%}
+    {%- for group_key in grouped -%}
       {%- for candidate in grouped[group_key] -%}
         {%- if candidate.id == want_id -%}
           {%- assign found = candidate -%}
@@ -40,7 +40,7 @@ Inputs:
       {%- assign final_items = final_items | push: item -%}
     {%- endfor -%}
   {%- else -%}
-    {%- for group_key in grouped | keys -%}
+    {%- for group_key in grouped -%}
       {%- for item in grouped[group_key] -%}
         {%- assign final_items = final_items | push: item -%}
       {%- endfor -%}
