@@ -54,7 +54,7 @@ Each case delegates to a small, focused template for that section type.
     {% include sections/markdown.html section=section %}
 
   {%- when 'principles' -%}
-    {% include sections/principles.html section=section principles_title=principles_title page_data=site.data.sections.principles principles=principles %}
+    {% include sections/principles.html section=section principles_title=principles_title page_data=site.data.sections.principles principles=principles principles_groups=principles_groups %}
 
   {%- when 'quote' -%}
     {% include sections/quote.html section=section %}

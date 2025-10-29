@@ -18,12 +18,15 @@ layout: post
 
 
 {% if page.principles %}
-    {% include sections/principles.html section=section principles_title="Related Principles" page_data=site.data.sections.principles principles=page.principles %}
-    <hr>
+  {%- assign principles_groups = "" | split: "|" -%}
+  {%- assign principles_groups = principles_group | push: "program" | push: "project" | push: "mission" -%}
+  
+  {% include sections/principles.html section=section principles_title="Related Principles" page_data=site.data.sections.principles principles=page.principles principles_groups=principles_groups %}
+  <hr>
 {% endif %}
 
 {% if page.forms %}
-    <h2>Related Forms</h2>
+  <h2>Related Forms</h2>
 
-    {% include sections/collection-stream.html section=section collection="forms" filter_key="forms" filter_values=page.forms %}
+  {% include sections/collection-stream.html section=section collection="forms" filter_key="forms" filter_values=page.forms %}
 {% endif %}

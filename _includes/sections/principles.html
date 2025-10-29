@@ -17,12 +17,10 @@ Inputs:
 {%- assign grouped = data_source.principles -%}
 {%- assign src = include.principles | default: section.data.principles -%}
 {%- assign sel_type = section.data.principle_type -%}
-
+{%- assign principles_groups = include.principles_groups | default: section.data.principles_groups | default: "" | split: "|" -%}
 {%- assign final_items = "" | split: "|" -%}
 
-{%- if src -%}
-  {%- assign principles_group = "" | split: "|" -%}
-  {%- assign principles_group = principles_group | push: "program" | push: "project" | push: "mission" -%}
+{%- if src and principles_groups-%}
   {%- for want_id in src -%}
     {%- assign found = nil -%}
     {%- for key in principles_group -%}
