@@ -32,6 +32,8 @@ sections:
               url: /forms/mat/
             - label: Kohai
               url: /forms/kohai/
+            - label: Stillness Contemplation
+              url: /forms/stillness-contemplation/
             - label: Four Element Sensei
               url: /forms/four-element-sensei/
             - label: "Feedback Fields: Learning to Ride Together"
@@ -102,8 +104,8 @@ sections:
           intention: Presence
           edge: Apply MetaShift Forms live during a spirited conversation
           flows:
-            - label: When Everything Is a Risk
-              url: /insights/when-everything-is-a-risk/
+            - label: Presence, Performance, and the Politics of Attention
+              url: /insights/politics-of-attention/
             - label: Integration Under Fire
               url: /forms/integration-under-fire/
             - label: Zen Toolkit - Four Patterns
