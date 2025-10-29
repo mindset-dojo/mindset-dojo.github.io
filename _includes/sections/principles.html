@@ -20,14 +20,6 @@ Inputs:
 
 {%- assign final_items = "" | split: "|" -%}
 
-<p class="debug">src = {{ src | join: " | " }}</p>
-
-<p class="debug">group keys:
-  {%- for k in grouped -%}
-    {{ k }}{% if forloop.last == false %}, {% endif %}
-  {%- endfor -%}
-</p>
-
 {%- if src -%}
   {%- assign principles_group = "" | split: "|" -%}
   {%- assign principles_group = principles_group | push: "program" | push: "project" | push: "mission" -%}
