@@ -23,7 +23,7 @@ principles:
     - id: "presence"
       label: "Presence Tends the Form"
       description: "We tend the system as a living garden — pruning, nurturing, redesigning with awareness."
-  mission: 
+  mission:
     - id: "authorship"
       label: "Authorship Cultivates Flow"
       description: "Energy moves through creation and contribution — not consumption."
