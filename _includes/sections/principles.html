@@ -34,18 +34,16 @@ Inputs:
   {%- for want_id in src -%}
     {%- assign found = nil -%}
     {%- for key in sel_type -%}
-      {%- for group_list in grouped[key] -%}
-        {%- for candidate in group_list -%}
-          {%- if candidate.id == want_id -%}
-            {%- assign found = candidate -%}
-            {%- break -%}
-          {%- endif -%}
+      {%- for candidate in grouped[key] -%}
+        {%- if candidate.id == want_id -%}
+          {%- assign found = candidate -%}
+          {%- break -%}
+        {%- endif -%}
         {%- if found -%}{%- break -%}{%- endif -%}
-        {%- endfor -%}
-      {%- if found -%}{%- break -%}{%- endif -%}
       {%- endfor -%}
+    {%- if found -%}{%- break -%}{%- endif -%}
     {%- endfor -%}
-    {%- if found -%}{%- assign final_items = final_items | push: found -%}{%- endif -%}
+  {%- if found -%}{%- assign final_items = final_items | push: found -%}{%- endif -%}
   {%- endfor -%}
 {%- else -%}
   {%- if sel_type and grouped[sel_type] -%}
