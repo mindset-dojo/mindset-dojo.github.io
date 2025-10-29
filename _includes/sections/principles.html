@@ -29,7 +29,7 @@ Inputs:
 </p>
 
 {%- if src -%}
-  {%- assign principle_group = "" | split "|" -%}
+  {%- assign principle_group = "" | split: "|" -%}
   {%- assign principle_group = principle_group | push: "program" | push: "project" | push: "mission" -%}
   {%- for want_id in src -%}
     {%- assign found = nil -%}
