@@ -20,7 +20,7 @@ Inputs:
 {%- assign principles_groups = include.principles_groups | default: section.data.principles_groups | default: "" | split: "|" -%}
 {%- assign final_items = "" | split: "|" -%}
 
-{%- if src and principles_groups-%}
+{%- if src and principles_groups -%}
   {%- for want_id in src -%}
     {%- assign found = nil -%}
     {%- for key in principles_group -%}
