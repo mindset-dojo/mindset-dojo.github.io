@@ -144,6 +144,8 @@ sections:
           intention: Resonance
           edge: Lead a Mat Breakout Session integrating MetaShift Forms in live Circle
           flows:
+            - label: "FlowOps: Continuous Reconciliation in a Networked World" 
+              url: /insights/continuous-reconciliation/
             - label: Making Hara Breathing Automatic
               url: https://youtu.be/UVz1E_cKxp4?si=hl5c7qB4iR6R7ZSs
             - label: The Way of Plus Ki
