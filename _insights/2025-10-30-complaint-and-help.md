@@ -23,7 +23,7 @@ The Bible concordance I used brought up the first reference to complaint as Exod
 
 The terms "cried out" and "their desperate cry" are the terms that map to the concept of complaint.
 
-The Hebrew word זָעַק (za'aq) primarily means "to cry out," "to call," or "to call for help." It conveys an urgent, often loud appeal, typically from distress, danger, or anguish, and can also imply a summons or proclamation publicly announced. The root expresses both individual cries for divine aid and collective calls for gathering or action. 
+The Hebrew word זָעַק (za'aq) primarily means "to cry out," "to call," or "to call for help." It conveys an urgent, often loud appeal, typically from distress, danger, or anguish, and can also imply a summons or proclamation publicly announced. The root expresses both individual cries for divine aid and collective calls for gathering or action.
 
 In biblical contexts, זָעַק is widely used to describe cries that elicit God's compassionate response, reinforcing His role as a present help in times of trouble. It appears in narratives, laments, prayers, and prophetic calls, highlighting themes of human need, divine attentiveness, and covenantal intervention. Examples include national laments, personal prayers, and urgent calls for deliverance or justice.
 
