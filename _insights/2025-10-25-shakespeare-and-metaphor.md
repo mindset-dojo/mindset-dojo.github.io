@@ -7,6 +7,7 @@ refactored_date: 2025-10-26
 authors:
   - bill-westfall
 forms:
+  - stillness-contemplation
 principles:
   - relax
   - meet
