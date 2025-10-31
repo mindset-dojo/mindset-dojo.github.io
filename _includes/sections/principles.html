@@ -16,7 +16,6 @@ Inputs:
 {%- assign data_source = include.page_data | default: site.data.sections.principles -%}
 {%- assign grouped = data_source.principles -%}
 {%- assign src = include.principles | default: section.data.principles -%}
-{%- assign sel_type = section.data.principle_type -%}
 {%- assign principles_groups = include.principles_groups | default: section.data.principles_groups -%}
 {%- assign final_items = "" | split: "|" -%}
 
@@ -36,8 +35,8 @@ Inputs:
   {%- if found -%}{%- assign final_items = final_items | push: found -%}{%- endif -%}
   {%- endfor -%}
 {%- else -%}
-  {%- if sel_type and grouped[sel_type] -%}
-    {%- for item in grouped[sel_type] -%}
+  {%- if principles_groups and grouped[principles_groups] -%}
+    {%- for item in grouped[principles_groups] -%}
       {%- assign final_items = final_items | push: item -%}
     {%- endfor -%}
   {%- else -%}
