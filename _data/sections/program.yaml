@@ -6,7 +6,7 @@ sections:
   - type: principles
     data:
       principles_title: "Core Principles"
-      principles_groups: 
+      principles_groups:
         - "program"
   - type: levels
     data:

@@ -30,7 +30,7 @@ sections:
   - type: principles
     data:
       principles_title: "Engagement Principles"
-      principles_groups: 
+      principles_groups:
         - "project"
   - type: designations
     data:
