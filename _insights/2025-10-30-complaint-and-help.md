@@ -15,7 +15,7 @@ principles:
 excerpt: "Reflection on the 'Don't Train, Complain...?' Mindset Dojo insight."
 ---
 
-[Don't Train, Complain...?](../2025-10-20-dont-train-complain/) is a gray level training insight from the Mindset Dojo. This insight looks at complaint as a foothold into training and reflexive reaction. I wanted to dive deeper into the concept of 'complaint', since this has a negative context generally.
+'Don't Train, Complain...?' is a gray level training insight from the Mindset Dojo. This insight looks at complaint as a foothold into training and reflexive reaction. I wanted to dive deeper into the concept of 'complaint', since this has a negative context generally.
 
 The Bible concordance I used brought up the first reference to complaint as Exodus 2:23, which reads:
 
