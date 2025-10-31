@@ -44,5 +44,3 @@ Either way, the unhealthiness dissolves, and what remains is presence: an attent
 There’s nothing to run from and nothing to chase in the present. The extraction becomes expansion. Zero-sympathy becomes compassion without collapse.  
 
 > Love stops being a transaction and becomes a field.
-
-⛩️🌿
