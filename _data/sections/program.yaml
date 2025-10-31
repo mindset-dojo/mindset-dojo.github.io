@@ -6,7 +6,8 @@ sections:
   - type: principles
     data:
       principles_title: "Core Principles"
-      principles_groups: "program"
+      principles_groups: 
+        - "program"
   - type: levels
     data:
       label: "Training Levels"
