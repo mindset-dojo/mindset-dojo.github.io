@@ -27,7 +27,7 @@ sections:
   - type: principles
     data:
       principles_title: "Energy Intention"
-      principle_type: "mission"
+      principles_groups: "mission"
   - type: text
     data:
       label: "Training Ground"
