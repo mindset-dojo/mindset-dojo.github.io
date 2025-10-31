@@ -8,7 +8,7 @@ Expect data_source.principles to be a map:
 Inputs:
 - section.data.principles_title
 - section.data.principles  (array of ids, optional)
-- section.data.principles_groups (array of strings, optional)
+- section.data.principles_groups (array of strings, required)
 - page.principles (fallback)
 {%- endcomment -%}
 
@@ -35,17 +35,13 @@ Inputs:
   {%- if found -%}{%- assign final_items = final_items | push: found -%}{%- endif -%}
   {%- endfor -%}
 {%- else -%}
-  {%- if principles_groups and grouped[principles_groups] -%}
-    {%- for item in grouped[principles_groups] -%}
-      {%- assign final_items = final_items | push: item -%}
-    {%- endfor -%}
-  {%- else -%}
-    {%- for group_key in grouped -%}
-      {%- for item in grouped[group_key] -%}
+  {%- for key in principles_groups -%}
+    {%- if principles_groups and grouped[key] -%}
+      {%- for item in grouped[key] -%}
         {%- assign final_items = final_items | push: item -%}
       {%- endfor -%}
-    {%- endfor -%}
-  {%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
 {%- endif -%}
 
 <section class="md-flow">
