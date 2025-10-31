@@ -2,7 +2,8 @@
 layout: post
 title: "Complaint and a Cry for Help"
 title_mark: Demonstration
-date: 2025-10-30
+published_date: 2025-10-30
+refactored_date: 2025-10-30
 authors:
   - bill-westfall
 forms:
