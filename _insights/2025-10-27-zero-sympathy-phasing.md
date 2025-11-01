@@ -39,5 +39,3 @@ By withholding automatic sympathy while staying fully attuned, **the system reco
 Zero-sympathy phasing is the **pause that restores ecology** to the relational pond. It’s the metabolic reset through which false empathy drains away and the water clears. From there, compassion returns—healthy, balanced, mutual, genuine.  
 
 > **Zero-sympathy phasing:** staying fully connected and fully centered until the emotional ecosystem learns to breathe on its own.
-
-⛩️🌿
