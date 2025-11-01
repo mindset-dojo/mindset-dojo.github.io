@@ -38,7 +38,7 @@ This is how conflict begins to teach, when both stop trying to win.
 
 ---
 
-## Relax Completely 
+## Relax Completely
 
 To release what defends itself is not weakness — it is the first act of courage.  
 On the mat, we learn that tension blinds. Only when we soften can we feel what’s truly happening.  
