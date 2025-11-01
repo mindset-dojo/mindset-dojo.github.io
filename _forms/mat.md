@@ -3,9 +3,10 @@ layout: form
 title: "Mat"
 title_mark: Mat
 published_date: 2025-10-20
-refactored_date: 2025-10-25
+refactored_date: 2025-10-27
 authors:
   - michael-basil
+  - jeremy-mcmillan
   - kyle-ingersoll
 excerpt: "A Mat is a martial attitude one brings with them to do mutual (Jungian) shadow integration through embodied practice."
 ---

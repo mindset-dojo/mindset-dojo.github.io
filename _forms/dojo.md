@@ -3,9 +3,10 @@ layout: form
 title: "Dojo"
 title_mark: Dojo
 published_date: 2025-10-20
-refactored_date: 2025-10-25
+refactored_date: 2025-10-27
 authors:
   - michael-basil
+  - jeremy-mcmillan
   - kyle-ingersoll
 excerpt: "A Dojo is a Circle of learning that embodies Fearless Leadership through practicing MetaShift Method on a Mat."
 ---

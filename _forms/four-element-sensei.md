@@ -3,10 +3,11 @@ layout: form
 title: "Four Element Sensei"
 title_mark: Four Element
 published_date: 2025-10-20
-refactored_date: 2025-10-25
+refactored_date: 2025-10-27
 authors:
   - michael-basil
   - kyle-ingersoll
+  - jeremy-mcmillan
 excerpt: "The love child of Elemental FEBI™, 4 Patterns, and Simon Says."
 ---
 
