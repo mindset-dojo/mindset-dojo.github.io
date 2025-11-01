@@ -69,6 +69,8 @@ When laughter returns after tension, when curiosity replaces defense — that is
 Conflict, then, becomes choreography.  
 The pressure that once divided now moves both as one rhythm, one learning, one pulse of growth.  
 
+---
+
 Koichi Tohei called this *Right, not Might* — a reminder, not a rule.  
 We follow its spirit, seeking movement aligned with principle rather than force.  
 When we act from what feels quietly right, not what feels powerful, conflict turns to practice, and practice turns to peace.  
