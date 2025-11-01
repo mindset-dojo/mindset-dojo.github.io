@@ -16,7 +16,7 @@ leadership_designations:
   - type: project
     value: DevOps Cultivator
 emoji_signature: ⛩️🖥️
-custom_url: https://kyle.mindset.dojo.center/
+custom_url: https://kyle.mindset.dojo.center
 about: |
   ### Socio-Technical Engineer
 

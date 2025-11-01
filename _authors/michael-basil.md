@@ -17,7 +17,7 @@ leadership_designations:
   - type: project
     value: Authorship Cultivator
 emoji_signature: ⛩️🌿
-custom_url: https://michael.basil.one/
+custom_url: https://michael.basil.one
 about: |
   ### Leadership 🌱 Culture ☯ Technology
   
