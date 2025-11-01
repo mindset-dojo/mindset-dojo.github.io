@@ -1,46 +1,47 @@
 {%- comment -%}
-Principles include — simple, predictable, works with posts or pages.
-
+Compact grouped-principles renderer
+Expect data_source.principles to be a map:
+  principles:
+    program: [...]
+    project: [...]
+    mission: [...]
 Inputs:
-- section.data.principles_title => string (optional)
-- section.data.principles  => array of principle IDs (optional)
-- section.data.principle_type => string (optional)
-- page.principles => array of principle IDs (optional, used if section.data.principles missing)
-
-Data source:
-- include.page_data.items (fall back to site.data.sections.principles.items)
-
-Behavior:
-- Filter by principle_type if provided
-- If principles array provided, select in that order
-- Pass to sections/list.html
+- section.data.principles_title
+- section.data.principles  (array of ids, optional)
+- section.data.principles_groups (array of strings, required)
+- page.principles (fallback)
 {%- endcomment -%}
 
 {%- assign title = include.principles_title | default: section.data.principles_title | default: "Principles" -%}
 {%- assign data_source = include.page_data | default: site.data.sections.principles -%}
-{%- assign all_items = data_source.items -%}
+{%- assign grouped = data_source.principles -%}
+{%- assign src = include.principles | default: section.data.principles -%}
+{%- assign principles_groups = include.principles_groups | default: section.data.principles_groups -%}
+{%- assign final_items = "" | split: "|" -%}
 
-{%- assign src = section.data.principles | default: page.principles -%}
-{%- assign sel_type = section.data.principle_type -%}
-
-{%- comment -%} Filter by type if sel_type present {%- endcomment -%}
-{%- if sel_type %}
-  {%- assign all_items = all_items | where: "type", sel_type -%}
-{%- endif -%}
-
-{%- comment -%} If src exists, select items in that order {%- endcomment -%}
-{%- if src %}
-  {%- assign final_items = "" | split: "|" -%}
-  {%- for want_id in src %}
-    {%- for item in all_items %}
-      {%- if item.id == want_id %}
-        {%- assign final_items = final_items | push: item -%}
-        {%- break -%}
-      {%- endif -%}
+{%- if src and principles_groups -%}
+  {%- for want_id in src -%}
+    {%- assign found = nil -%}
+    {%- for key in principles_groups -%}
+      {%- for candidate in grouped[key] -%}
+        {%- if candidate.id == want_id -%}
+          {%- assign found = candidate -%}
+          {%- break -%}
+        {%- endif -%}
+        {%- if found -%}{%- break -%}{%- endif -%}
+      {%- endfor -%}
+    {%- if found -%}{%- break -%}{%- endif -%}
     {%- endfor -%}
+  {%- if found -%}{%- assign final_items = final_items | push: found -%}{%- endif -%}
   {%- endfor -%}
-{%- else %}
-  {%- assign final_items = all_items -%}
+{%- else -%}
+  {%- for key in principles_groups -%}
+    {%- if principles_groups and grouped[key] -%}
+      {%- for item in grouped[key] -%}
+        {%- assign final_items = final_items | push: item -%}
+      {%- endfor -%}
+    {%- endif -%}
+  {%- endfor -%}
 {%- endif -%}
 
 <section class="md-flow">
@@ -53,5 +54,3 @@ Behavior:
     {%- endfor -%}
   </dl>
 </section>
-
-

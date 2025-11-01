@@ -6,7 +6,8 @@ sections:
   - type: principles
     data:
       principles_title: "Core Principles"
-      principle_type: "program"
+      principles_groups:
+        - "program"
   - type: levels
     data:
       label: "Training Levels"
@@ -20,7 +21,7 @@ sections:
           intention: Orientation
           edge: Four Patterns Reflection
           flows:
-            - label: "Don't Train, Complain...? ⛩️"
+            - label: "Don't Train, Complain...?"
               url: /insights/dont-train-complain/
             - label: The Technology of Self-Authorship
               url: /insights/technology-of-self-authorship/
@@ -32,6 +33,8 @@ sections:
               url: /forms/mat/
             - label: Kohai
               url: /forms/kohai/
+            - label: Stillness Contemplation
+              url: /forms/stillness-contemplation/
             - label: Four Element Sensei
               url: /forms/four-element-sensei/
             - label: "Feedback Fields: Learning to Ride Together"
@@ -102,8 +105,8 @@ sections:
           intention: Presence
           edge: Apply MetaShift Forms live during a spirited conversation
           flows:
-            - label: When Everything Is a Risk
-              url: /insights/when-everything-is-a-risk/
+            - label: Presence, Performance, and the Politics of Attention
+              url: /insights/politics-of-attention/
             - label: Integration Under Fire
               url: /forms/integration-under-fire/
             - label: Zen Toolkit - Four Patterns
@@ -142,6 +145,8 @@ sections:
           intention: Resonance
           edge: Lead a Mat Breakout Session integrating MetaShift Forms in live Circle
           flows:
+            - label: "FlowOps: Continuous Reconciliation in a Networked World"
+              url: /insights/continuous-reconciliation/
             - label: Making Hara Breathing Automatic
               url: https://youtu.be/UVz1E_cKxp4?si=hl5c7qB4iR6R7ZSs
             - label: The Way of Plus Ki
@@ -160,12 +165,8 @@ sections:
           flows:
             - label: "The Hand-Sword and the Shadow - Using Force for Peace"
               url: /insights/force-for-peace/
-            - label: Attention Portfolio Intelligence
-              url: /insights/attention-portfolio-intelligence
-            - label: "Immunity from Emotional Exploitation"
-              url: /insights/immunity-from-emotional-exploitation/
-            - label: "Zero Sympathy Phasing"
-              url: /insights/zero-sympathy-phasing/
+            - label: Self-Evolution of Emotional Extraction
+              url: /insights/self-evolution-of-emotional-extraction/
             - label: 30 minute Zazen with Chosei Zen Virtual Dojo
               url: https://www.choseizen.org/virtual-dojo
             - label: Cultivating a Threshold-Based Authorship Network

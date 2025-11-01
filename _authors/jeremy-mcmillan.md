@@ -10,6 +10,8 @@ join_date: 2021-01-01
 program_level: -2
 program_level_date: 2025-10-26
 leadership_designations: []
+emoji_signature: null
+custom_url: null
 about: |  
   Jeremy has been part of the Mindset Dojo since its predecessor, the DevOps Dojo at SAP, where his perspective helped shape a deeper current behind the Dojo — beyond pop-culture references and into the living spirit of Aikido, Zen, and disciplined growth. An old-school Unix Sysadmin, Shodan in Aikido and experienced Zen practitioner, Jeremy brings a rare synthesis of technical mastery and embodied wisdom to every circle he joins.
   

@@ -36,5 +36,3 @@ Training rewires the nervous system to rebalance attention under pressure, to tr
 Sometimes rebalancing is gentle; sometimes it’s evolutionary — liquidating outdated identities and reauthoring a new allocation of self.  
 
 That’s [Self-Authorship](../technology-of-self-authorship/): alpha training for the nervous system — the art of turning awareness into yield and change into learning.
-
-⛩️🌿

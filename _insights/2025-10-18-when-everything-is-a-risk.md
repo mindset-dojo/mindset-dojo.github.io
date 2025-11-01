@@ -59,5 +59,3 @@ it keeps the energy vampires away.
 And as we keep training, our energy investments become seeds  
 planted in healthy soil — for ourselves, our families, and our friends —  
 to grow something steady, alive, and worth tending together.  
-
-⛩️🌿

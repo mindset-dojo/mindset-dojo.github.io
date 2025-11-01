@@ -1,12 +1,13 @@
 ---
 layout: insight
-title: "Metaphor in Shakepeare and Zen"
+title: "Metaphor in Shakespeare and Zen"
 title_mark: Metaphor
 published_date: 2025-10-25
 refactored_date: 2025-10-26
 authors:
   - bill-westfall
 forms:
+  - stillness-contemplation
 principles:
   - relax
   - meet
@@ -20,7 +21,7 @@ As I understand it (as one just starting in Zen), Zen views metaphor as a powerf
 
 I will attempt to show Shakespeare used metaphor in an identical way, as a poetic "conceit" to make a larger point that is not necessarily core to the metaphor.
 
-Shakepeare's Sonnet 18 is one of his most famous, and is one of his best uses of metaphor.
+Shakespeare's Sonnet 18 is one of his most famous, and is one of his best uses of metaphor.
 
 Shakespeare's Sonnet 18 praises the beauty of the poet's beloved, declaring it superior to a summer’s day, which is often imperfect and short-lived.
 

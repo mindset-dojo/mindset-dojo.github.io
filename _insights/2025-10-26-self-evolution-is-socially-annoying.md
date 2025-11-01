@@ -54,6 +54,4 @@ Sitting with that—without closing off or collapsing—is its own form of train
 
 I’m grateful for the **seriously playful, playfully serious training partners** in the circles I’m familiar with—people willing to practice attention, regulation, and reflection in real time, to stay kind even when our evolution annoys each other a bit.  
 
-Because every messy phase feels, in hindsight, like part of the choreography. And maybe that’s what training really is: learning how to stay connected while we evolve.  
-
-⛩️🌿
+Because every messy phase feels, in hindsight, like part of the choreography. And maybe that’s what training really is: learning how to stay connected while we evolve.

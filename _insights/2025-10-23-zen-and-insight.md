@@ -7,8 +7,7 @@ refactored_date: 2025-10-26
 authors:
   - bill-westfall
 forms:
-  - jiki
-  - integration-under-fire
+  - stillness-contemplation
 principles:
   - relax
   - center

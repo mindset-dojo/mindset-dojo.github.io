@@ -1,6 +1,6 @@
 ---
 layout: insight
-title: "Don't Train, Complain...? ⛩️"
+title: "Don't Train, Complain...?"
 title_mark: "Complain...?"
 published_date: 2025-10-20
 refactored_date: 2025-10-25
@@ -111,5 +111,3 @@ How to find gratitude without guarantee.
 How to train, even when the system doesn’t yet know how.  
 
 Welcome to the threshold.  
-
-⛩️🌿  
