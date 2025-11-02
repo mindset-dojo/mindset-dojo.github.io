@@ -25,14 +25,14 @@ principles:
 excerpt: "At ZLOTC, I discovered that every act of teaching is also an act of learning — when we reflect, allow, and connect, Ki extends, and the circle becomes a spiral."
 ---
 
-Recently, [Michael Basil]({{'/authors/michael-basil/' | relative_url}}) and [I]({{'/authors/kyle-ingersoll/' | relative_url}}) presented at [**ZLOTC (Zen Leader Off the Cushion)**](https://zenleader.global/zlotc-registration), hosted by the [**Institute for Zen Leadership**](https://zenleader.global/).
+Recently, [Michael Basil](../../authors/michael-basil/) and [I](../..//authors/kyle-ingersoll/) presented at [**ZLOTC (Zen Leader Off the Cushion)**](https://zenleader.global/zlotc-registration), hosted by the [**Institute for Zen Leadership**](https://zenleader.global/).
 Our topic: *Meta Energy*, *Elemental FEBI*, and the *Essential Flip — From Controlling to Connecting.*
 
 We had fun, yes—but the true lesson revealed itself only afterward. The ZLOTC community learned from us, but I found myself being flipped in return.
 
 The first Flip was **From Reaction to Reflection.**
 This one came not from Zen, but from our own.
-[Jeremy McMillian]({{'/authors/jeremy-mcmillan/' | relative_url}})—Aikido black belt, Site Reliability Engineer, and wise hermit-sage—once told me:
+[Jeremy McMillian](../../authors/jeremy-mcmillan/)—Aikido black belt, Site Reliability Engineer, and wise hermit-sage—once told me:
 
 > “If you’re stuck with something in Zen, sit with it until it makes sense, instead of reacting.”
 
@@ -52,7 +52,7 @@ In that, I saw Agile and DevOps—different fields, same spirit—moving *from i
 It was the Flip *From Local Self to Whole Self*: seeing through separation into the system’s wholeness.
 As *Resonate* describes, when individual energy attunes with others, a shared resonance emerges—the sound of many frequencies becoming one.
 
-These three Flips—Reflection, Allowing, and We—from what [Michael Basil]({{'/authors/michael-basil/' | relative_url}}) calls a **MetaShift**: the shift from *Self in control* to *Self in connection*.
+These three Flips—Reflection, Allowing, and We—from what [Michael Basil](../../authors/michael-basil/) calls a **MetaShift**: the shift from *Self in control* to *Self in connection*.
 In *Resonate*, Ginny Whitelaw names this state **Two Sides**—where doing and being, sound and silence, leader and led, move as one dynamic flow.
 
 Koichi Tohei expressed this same truth through Ki: *“Be both pupil and instructor.”*

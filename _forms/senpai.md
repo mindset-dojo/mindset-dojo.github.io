@@ -3,9 +3,10 @@ layout: form
 title: "Senpai"
 title_mark: Senpai
 published_date: 2025-10-20
-refactored_date: 2025-10-25
+refactored_date: 2025-10-27
 authors:
   - michael-basil
+  - jeremy-mcmillan
   - kyle-ingersoll
 excerpt: "A Senpai fearlessly learns MetaShift Method from the model and guidance of the Sensei, and acts as a guide and model for the Kohai."
 ---
