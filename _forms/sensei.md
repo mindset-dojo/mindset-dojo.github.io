@@ -3,9 +3,10 @@ layout: form
 title: "Sensei"
 title_mark: Sensei
 published_date: 2025-10-20
-refactored_date: 2025-10-25
+refactored_date: 2025-10-27
 authors:
   - michael-basil
+  - jeremy-mcmillan
   - kyle-ingersoll
 excerpt: "A Sensei fearlessly leads through modeling, guidance, and support through MetaShift Method."
 ---
