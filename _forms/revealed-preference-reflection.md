@@ -2,8 +2,8 @@
 layout: form
 title: "Revealed Preference Reflection"
 title_mark: Reflection
-published_date: 2025-11-2
-refactored_date: 2025-11-2
+published_date: 2025-11-02
+refactored_date: 2025-11-02
 authors:
   - kyle-ingersoll
 excerpt: "Revealed Preference Reflection is a combination of Stillness Contemplation and Integration Under Fire, analyzing one's desires through their actions."

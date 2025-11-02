@@ -2,8 +2,8 @@
 layout: form
 title: "Threshold"
 title_mark: Threshold
-published_date: 2025-11-1
-refactored_date: 2025-11-1
+published_date: 2025-11-01
+refactored_date: 2025-11-01
 authors:
   - michael-basil
   - kyle-ingersoll
