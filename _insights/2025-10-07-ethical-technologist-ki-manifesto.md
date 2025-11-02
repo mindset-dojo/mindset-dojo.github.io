@@ -3,12 +3,13 @@ layout: insight
 title: "The Ethical Technologist’s Ki Manifesto"
 title_mark: Ethical
 published_date: 2025-10-07
-refactored_date: 2025-10-25
+refactored_date: 2025-11-02
 authors: 
   - kyle-ingersoll
 forms:
   - integration-under-fire
   - dojo
+  - revealed-preference-reflection
 principles:
   - relax
   - center

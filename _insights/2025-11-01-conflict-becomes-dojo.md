@@ -3,13 +3,15 @@ layout: insight
 title: "The Productive Tension: When Conflict Becomes the Dojo"
 title_mark: Conflict
 published_date: 2025-11-01
-refactored_date: 2025-11-01
+refactored_date: 2025-11-02
 authors:
   - kyle-ingersoll
 forms:
   - integration-under-fire
   - dojo
   - mat
+  - threshold
+  - revealed-preference-reflection
 principles:
   - relax
   - center

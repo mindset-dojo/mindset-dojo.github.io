@@ -3,13 +3,15 @@ layout: insight
 title: "The Human Guides, the AI Follows"
 title_mark: Human Guides
 published_date: 2025-10-16
-refactored_date: 2025-10-25
+refactored_date: 2025-11-02
 authors: 
   - kyle-ingersoll
 forms:
   - sensei
   - dojo
   - integration-under-fire
+  - threshold
+  - revealed-preference-reflection
 principles:
   - relax
   - center

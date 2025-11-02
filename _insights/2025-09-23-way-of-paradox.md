@@ -3,13 +3,14 @@ layout: insight
 title: "The Way of Paradox"
 title_mark: Paradox
 published_date: 2025-09-23
-refactored_date: 2025-10-25
+refactored_date: 2025-11-02
 authors: 
   - kyle-ingersoll
 forms:
   - dojo
   - sensei
   - integration-under-fire
+  - threshold
 principles:
   - relax
   - center

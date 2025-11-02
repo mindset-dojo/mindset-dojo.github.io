@@ -3,11 +3,13 @@ layout: insight
 title: "The Hand-Sword and the Shadow - Force for Peace"
 title_mark: Force for Peace
 published_date: 2025-10-15
-refactored_date: 2025-10-25
+refactored_date: 2025-11-02
 authors: 
   - kyle-ingersoll
 forms:
   - integration-under-fire
+  - threshold
+  - revealed-preference-reflection
 principles:
   - relax
   - center

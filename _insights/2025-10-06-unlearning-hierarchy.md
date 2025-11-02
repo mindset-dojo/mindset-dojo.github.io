@@ -3,7 +3,7 @@ layout: insight
 title: "Unlearning Hierarchy"
 title_mark: learn
 published_date: 2025-10-06
-refactored_date: 2025-10-25
+refactored_date: 2025-11-02
 authors: 
   - michael-basil
   - kyle-ingersoll
@@ -12,6 +12,7 @@ forms:
   - dojo
   - circle
   - mat
+  - threshold
 principles:
   - relax
   - center
