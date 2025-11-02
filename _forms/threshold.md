@@ -16,11 +16,11 @@ A threshold is the line between thought and action, Visionary and Driver energy.
 
 ## Experience
 
-You will feel the tension as you get close to the threshold. However, to refuse to cross a threshold one has set out for you, is to cross a threshold you set out for yourself. Thus, one can never truly refuse to cross a threshold, doing nothing is still a decision, thus one can only choose which thresholds to cross. We are always crossing thresholds in their life, whether we like it or not. 
+You will feel the tension as you get close to the threshold. However, to refuse to cross a threshold one has set out for you, is to cross a threshold you set out for yourself. Thus, one can never truly refuse to cross a threshold, doing nothing is still a decision, thus one can only choose which thresholds to cross. We are always crossing thresholds in their life, whether we like it or not.
 
 ## Implementation
 
-You first ensure that the other person understands the full context of the choice they are about to make, to the best of your ability. While we cannot fully convey our context to other people through language and we all operate on incomplete information, as a rule of thumb, don't manipulate people. Then after laying out the threshold, the door, you invite them to cross through while making it clear the consequences if they don't and that you are willing to follow through on the consequences. As Chris Voss says, Never Split the Difference (never make a bad deal) since it is worse than no deal. If they cross through, great, if they don't, respect that decision. 
+You first ensure that the other person understands the full context of the choice they are about to make, to the best of your ability. While we cannot fully convey our context to other people through language and we all operate on incomplete information, as a rule of thumb, don't manipulate people. Then after laying out the threshold, the door, you invite them to cross through while making it clear the consequences if they don't and that you are willing to follow through on the consequences. As Chris Voss says, Never Split the Difference (never make a bad deal) since it is worse than no deal. If they cross through, great, if they don't, respect that decision.
 
 ## Inspiration
 
