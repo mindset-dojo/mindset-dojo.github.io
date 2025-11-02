@@ -25,6 +25,8 @@ sections:
               url: /insights/dont-train-complain/
             - label: The Technology of Self-Authorship
               url: /insights/technology-of-self-authorship/
+            - label: Threshold
+              url: /forms/threshold/
             - label: Dojo
               url: /forms/dojo/
             - label: Circle
@@ -53,6 +55,8 @@ sections:
               url: /insights/tone/
             - label: Map of Consciousness
               url: /insights/map-of-consciousness/
+            - label: Revealed Preference Reflection
+              url: /forms/revealed-preference-reflection/
             - label: Three Question Reflection
               url: /forms/three-question-reflection/
             - label: Jiki
