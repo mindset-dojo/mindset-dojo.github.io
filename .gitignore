@@ -1,0 +1,30 @@
+# Jekyll
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Ruby/Bundler
+vendor/
+.bundle/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.venv*/
+env/
+.venv*/
+.pytest_cache/
+
+# GitHub Actions
+# (keep workflows; ignore only generated logs/artifacts)
+*.log
+
+# Editor/OS
+.DS_Store
+.vscode/
+.idea/
+
+# Env
+.env

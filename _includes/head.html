@@ -19,6 +19,7 @@
 
   {%- assign canonical_abs = page.url | absolute_url -%}
   {%- assign canonical_rel = page.url | relative_url -%}
+  {%- assign is_article = page.article -%}
 
   <title>{{ raw_title }}</title>
   <meta name="description" content="{{ meta_desc }}">
@@ -26,7 +27,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="max-image-preview:large">
 
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="{% if is_article %}article{% else %}website{% endif %}">
   <meta property="og:title" content="{{ raw_title }}">
   <meta property="og:description" content="{{ meta_desc }}">
   <meta property="og:url" content="{{ canonical_abs }}">
@@ -50,4 +51,80 @@
   <link rel="icon" href="{{ '/assets/favicon.png' | relative_url }}" sizes="192x192">
   <link rel="apple-touch-icon" href="{{ '/assets/favicon.png' | relative_url }}">
   <meta name="msapplication-TileImage" content="{{ '/assets/favicon.png' | relative_url }}">
+
+  {%- if is_article -%}
+    {%- assign published_source = page.published_date | default: page.date -%}
+    {%- assign modified_source = page.refactored_date
+                                  | default: page.modified_date
+                                  | default: page.last_modified_at
+                                  | default: published_source -%}
+    {%- if published_source -%}
+      {%- assign published_iso = published_source | date_to_xmlschema -%}
+      <meta property="article:published_time" content="{{ published_iso }}">
+    {%- endif -%}
+    {%- if modified_source -%}
+      {%- assign modified_iso = modified_source | date_to_xmlschema -%}
+      <meta property="article:modified_time" content="{{ modified_iso }}">
+      <meta property="og:updated_time" content="{{ modified_iso }}">
+    {%- endif -%}
+
+    {%- assign author_nodes = "" | split: "|" -%}
+    {%- if page.authors -%}
+      {%- for author_slug in page.authors -%}
+        {%- assign normalized_author_slug = author_slug | slugify -%}
+        {%- assign matched_author = nil -%}
+        {%- for author in site.authors -%}
+          {%- assign filename = author.path | split: "/" | last -%}
+          {%- assign file_slug = filename | split: "." | first | slugify -%}
+          {%- if file_slug == normalized_author_slug -%}
+            {%- assign matched_author = author -%}
+          {%- endif -%}
+        {%- endfor -%}
+        {%- if matched_author -%}
+          {%- assign author_name = matched_author.name
+                                   | default: matched_author.title
+                                   | default: author_slug -%}
+          {%- assign potential_url = matched_author.custom_url
+                                     | default: matched_author.url -%}
+          {%- assign author_url = "" -%}
+          {%- if potential_url -%}
+            {%- if potential_url contains '://' -%}
+              {%- assign author_url = potential_url -%}
+            {%- else -%}
+              {%- assign author_url = potential_url | absolute_url -%}
+            {%- endif -%}
+          {%- endif -%}
+          {%- capture author_json -%}{
+            "@type":"Person",
+            "name":{{ author_name | jsonify }}{% if author_url != "" %},
+            "url":{{ author_url | jsonify }}{% endif %}
+          }{%- endcapture -%}
+          {%- assign author_nodes = author_nodes | push: author_json -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+
+    {%- assign publisher_logo = '/assets/favicon.png' | absolute_url -%}
+    {%- capture article_json_ld -%}{
+      "@context":"https://schema.org",
+      "@type":"Article",
+      "mainEntityOfPage":{{ canonical_abs | jsonify }},
+      "headline":{{ raw_title | jsonify }},
+      "description":{{ meta_desc | jsonify }}{% if published_iso %},
+      "datePublished":"{{ published_iso }}"{% endif %}{% if modified_iso %},
+      "dateModified":"{{ modified_iso }}"{% endif %}{% if author_nodes.size > 0 %},
+      "author":[{{ author_nodes | join: ',' }}]{% endif %},
+      "publisher":{
+        "@type":"Organization",
+        "name":{{ site.title | default: "Mindset Dojo" | jsonify }},
+        "logo":{
+          "@type":"ImageObject",
+          "url":{{ publisher_logo | jsonify }}
+        }
+      }
+    }{%- endcapture -%}
+    <script type="application/ld+json">
+      {{ article_json_ld | strip }}
+    </script>
+  {%- endif -%}
 </head>
