@@ -12,11 +12,12 @@
   "customizations": {
     "vscode": {
       "settings": {
-        "terminal.integrated.defaultProfile.linux": "bash"
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "liquid.engine": "jekyll"
       },
       "extensions": [
-        "rebornix.ruby",
-        "wingrunr21.vscode-ruby"
+        "shopify.ruby-lsp",
+        "sissel.shopify-liquid"
       ]
     }
   }
