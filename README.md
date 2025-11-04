@@ -19,3 +19,4 @@ Respect:
 Engage:
 
 * [CONTRIBUTING](CONTRIBUTING.md)
+* [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](?tab=codespaces)
