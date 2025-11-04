@@ -1,6 +1,6 @@
 ---
 layout: insight
-title: "The First Ninety Seconds"
+title: "The Fable of the First Ninety Seconds"
 title_mark: Ninety Seconds
 published_date: 2025-11-03
 refactored_date: 2025-11-03
@@ -30,7 +30,7 @@ The Council did not seek performance. They sought alignment.
 
 To pass, he would need not only mastery of craft, but the capacity to bring others into rhythm — to create trust within the limits of time.
 
-So he prepared his stances. Not for battle, but for attention.
+So he prepared his [Stances](../breath-of-stance). Not for battle, but for attention.
 
 When the moment came, he bowed deeply, grounding in stillness.
 
