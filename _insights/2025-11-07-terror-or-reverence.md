@@ -1,7 +1,7 @@
 ---
 layout: insight
-title: "Fear, Terror or Reverence"
-title_mark: Demonstration
+title: "Fear Terror or Reverence"
+title_mark: Fear
 published_date: 2025-11-07
 refactored_date: 2025-11-07
 authors:
