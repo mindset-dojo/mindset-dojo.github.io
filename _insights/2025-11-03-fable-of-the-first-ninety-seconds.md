@@ -49,3 +49,5 @@ Afterward, one elder asked, “What was that presence you carried in the opening
 The warrior smiled.
 
 “That,” he said, “was the first ninety seconds. The rest was just the echo.”
+
+[Read the meta reflection →](../art-of-the-first-ninety-seconds)

@@ -20,8 +20,6 @@ principles:
 excerpt: "A meta reflection on composing Driver, Organizer, Collaborator, and Visionary energies within the first ninety seconds to regulate trust."
 ---
 
-[Read the original fable →](../fable-of-the-first-ninety-seconds)
-
 When time is scarce and attention fragmented, leaders often mistake speed for strength. But in the Dojo, we learn that speed without stance is chaos. The first ninety seconds reveal the true discipline of energy intelligence.
 
 The warrior’s secret was not confidence — it was composition. He understood that every human system — a team, a council, a room — synchronizes around what it feels before it believes what it hears. The first ninety seconds set the tone not by what is said, but by the energy that frames it.
@@ -46,3 +44,5 @@ The discipline is simple, but not easy:
 
 The first ninety seconds are never about performance.
 They are about presence under pressure — and that, in any domain, is mastery.
+
+[Read the inspirational fable →](../fable-of-the-first-ninety-seconds)
