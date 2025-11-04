@@ -46,3 +46,5 @@ The discipline is simple, but not easy:
 
 The first ninety seconds are never about performance.
 They are about presence under pressure — and that, in any domain, is mastery.
+
+[Read the original fable →](../fable-of-the-first-ninety-seconds)

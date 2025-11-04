@@ -20,6 +20,8 @@ principles:
 excerpt: "During a timed council trial, a warrior moves through Driver, Organizer, Collaborator, and Visionary stances to create alignment within the first ninety seconds."
 ---
 
+[Read the meta reflection →](../art-of-the-first-ninety-seconds)
+
 The Council had announced the terms: One hour for the trial. Twenty minutes to reveal the art. No more. No less.
 
 Many prepared by memorizing words, polishing slides, or weaving clever code.
@@ -49,3 +51,5 @@ Afterward, one elder asked, “What was that presence you carried in the opening
 The warrior smiled.
 
 “That,” he said, “was the first ninety seconds. The rest was just the echo.”
+
+[Read the meta reflection →](../art-of-the-first-ninety-seconds)
