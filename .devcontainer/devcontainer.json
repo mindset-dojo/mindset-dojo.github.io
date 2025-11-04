@@ -15,8 +15,7 @@
         "terminal.integrated.defaultProfile.linux": "bash"
       },
       "extensions": [
-        "rebornix.ruby",
-        "wingrunr21.vscode-ruby"
+        "shopify.ruby-lsp"
       ]
     }
   }
