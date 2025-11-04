@@ -55,8 +55,6 @@ sections:
               url: /insights/tone/
             - label: Map of Consciousness
               url: /insights/map-of-consciousness/
-            - label: Revealed Preference Reflection
-              url: /forms/revealed-preference-reflection/
             - label: Three Question Reflection
               url: /forms/three-question-reflection/
             - label: Jiki
@@ -97,6 +95,8 @@ sections:
               url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
             - label: Negotiation 9™ Move - Mirrors
               url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
+            - label: Revealed Preference Reflection
+              url: /forms/revealed-preference-reflection/
             - label: Online Introduction to Zazen at Chosei Zen
               url: https://www.choseizen.org/online-intro-to-zazen
             - label: Senpai
