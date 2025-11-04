@@ -1,0 +1,16 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Serve Jekyll",
+      "type": "shell",
+      "command": "bundle exec jekyll serve --host 0.0.0.0 --port 4000 --livereload",
+      "isBackground": true,
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
