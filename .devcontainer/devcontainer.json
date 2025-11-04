@@ -15,7 +15,8 @@
         "terminal.integrated.defaultProfile.linux": "bash"
       },
       "extensions": [
-        "shopify.ruby-lsp"
+        "shopify.ruby-lsp",
+        "sissel.shopify-liquid"
       ]
     }
   }
