@@ -15,7 +15,7 @@ custom_url: null
 about: |
   ### Summary
   
-  Dynamic QA Lead/Manager with extensive experience at SAP Concur, expert in migrating services to AWS and leading agile teams. Achieved significant process improvements using Python and Cucumber, enhancing project delivery and team efficiency. Skilled in AWS, test automation, and project management, demonstrating exceptional leadership and technical prowess in fast-paced environments.
+  QA Lead/Manager with proven expertise in service migration and agile team leadership. Demonstrates a strong track record of driving process improvements that significantly enhance project outcomes and team productivity. Adept in project management, combining exceptional leadership with technical skills to excel in dynamic, fast-paced environments.
   
   ### Connect
 
