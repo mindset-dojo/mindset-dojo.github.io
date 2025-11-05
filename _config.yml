@@ -14,6 +14,18 @@ collections:
     output: true
     permalink: /forms/:slug/
 
+defaults:
+  - scope:
+      path: ""
+      type: insights
+    values:
+      article: true
+  - scope:
+      path: ""
+      type: forms
+    values:
+      article: true
+
 action_links:
   program: /program/
   project: /project/
