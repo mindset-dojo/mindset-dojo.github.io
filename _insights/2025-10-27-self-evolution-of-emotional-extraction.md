@@ -3,7 +3,7 @@ layout: insight
 title: Self-Evolution of Emotional Extraction
 title_mark: Self-Evolution
 published_date: 2025-10-27
-refactored_date: 2025-10-27
+refactored_date: 2025-11-02
 authors:
   - michael-basil
 forms: 
@@ -12,6 +12,8 @@ forms:
   - mat
   - three-question-reflection
   - integration-under-fire
+  - threshold
+  - revealed-preference-reflection
 principles:
   - relax
   - center

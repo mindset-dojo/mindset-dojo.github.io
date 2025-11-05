@@ -3,7 +3,7 @@ layout: insight
 title: "Feedback Fields: Learning to Ride Together"
 title_mark: Learning
 published_date: 2025-10-16
-refactored_date: 2025-10-25
+refactored_date: 2025-11-02
 authors: 
   - michael-basil
 forms:
@@ -12,6 +12,7 @@ forms:
   - senpai
   - kohai
   - integration-under-fire
+  - revealed-preference-reflection
 principles:
   - center
   - resonate

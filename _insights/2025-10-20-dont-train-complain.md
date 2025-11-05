@@ -3,12 +3,14 @@ layout: insight
 title: "Don't Train, Complain...?"
 title_mark: "Complain...?"
 published_date: 2025-10-20
-refactored_date: 2025-10-25
+refactored_date: 2025-11-02
 authors:
   - michael-basil
 forms:
   - dojo
   - integration-under-fire
+  - threshold
+  - revealed-preference-reflection
 principles:
   - relax
   - center

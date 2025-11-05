@@ -3,13 +3,14 @@ layout: insight
 title: "A Demonstration Becomes a Dojo"
 title_mark: Demonstration
 published_date: 2025-10-23
-refactored_date: 2025-10-26
+refactored_date: 2025-11-02
 authors:
   - michael-basil
 forms:
   - genuine-gratitude-expression
   - metashift-community-demonstration
   - integration-under-fire
+  - threshold
 principles:
   - relax
   - center

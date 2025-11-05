@@ -3,12 +3,14 @@ layout: insight
 title: "Conversation as Code"
 title_mark: Conversation
 published_date: 2025-10-08
-refactored_date: 2025-10-25
+refactored_date: 2025-11-02
 authors: 
   - michael-basil
 forms:
   - integration-under-fire
   - dojo
+  - threshold
+  - revealed-preference-reflection
 principles:
   - relax
   - center

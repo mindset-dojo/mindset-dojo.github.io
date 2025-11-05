@@ -7,13 +7,14 @@ authors:
 forms:
   - dojo
   - integration-under-fire
+  - threshold
 principles:
   - relax
   - center
   - meet
   - resonate
 published_date: 2025-09-19
-refactored_date: 2025-10-25
+refactored_date: 2025-11-02
 excerpt: "Opposition is not just resistance — it is the sharpening edge that deepens our roots, clarifies our direction, and prepares us to rise beyond limits."
 ---
 

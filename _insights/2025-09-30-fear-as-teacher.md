@@ -3,7 +3,7 @@ layout: insight
 title: "Fear as Teacher, Shadow as Mirror, Presence as Response"
 title_mark: Presence
 published_date: 2025-09-30
-refactored_date: 2025-10-25
+refactored_date: 2025-11-02
 authors: 
   - kyle-ingersoll
 forms:
@@ -11,6 +11,8 @@ forms:
   - dojo
   - three-question-reflection
   - sensei
+  - threshold
+  - revealed-preference-reflection
 principles:
   - relax
   - center

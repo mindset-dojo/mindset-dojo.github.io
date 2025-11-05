@@ -3,7 +3,7 @@ layout: insight
 title: Presence, Performance, and the Politics of Attention
 title_mark: Politics of Attention
 published_date: 2025-10-28
-refactored_date: 2025-10-28
+refactored_date: 2025-11-02
 authors:
   - michael-basil
 forms: 
@@ -12,6 +12,7 @@ forms:
   - mat
   - three-question-reflection
   - integration-under-fire
+  - revealed-preference-reflection
 principles:
   - relax
   - center
