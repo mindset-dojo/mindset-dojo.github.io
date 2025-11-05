@@ -83,8 +83,29 @@ Parameters:
   {%- assign filtered_posts = filtered_posts | slice: 0, post_display_limit -%}
 {%- endif -%}
 
-<section id="collection-stream" class="md-flow">
-  {%- for post in filtered_posts -%}
-    {% include sections/collection-item.html post=post excerpt_length=include.excerpt_length %}
-  {%- endfor -%}
-</section>
+{%- assign posts_count = filtered_posts | size -%}
+{%- assign D = section.data | default: nil -%}
+{%- assign label = include.label -%}
+{%- if label == nil and D -%}
+  {%- assign label = D.label -%}
+{%- endif -%}
+
+{%- assign content_md = include.content_md -%}
+{%- if content_md == nil and D -%}
+  {%- assign content_md = D.content -%}
+{%- endif -%}
+{%- if content_md == nil and D and D.field -%}
+  {%- assign content_md = page[D.field] -%}
+{%- endif -%}
+
+{%- if posts_count > 0 -%}
+  <section id="collection-stream" class="md-flow">
+    {%- if label -%}<h2>{{ label }}</h2>{%- endif -%}
+    {%- if content_md -%}
+      {{ content_md | markdownify }}
+    {%- endif -%}
+    {%- for post in filtered_posts -%}
+      {% include sections/collection-item.html post=post excerpt_length=include.excerpt_length %}
+    {%- endfor -%}
+  </section>
+{%- endif -%}
