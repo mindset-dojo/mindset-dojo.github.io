@@ -27,10 +27,10 @@ When encountering a threshold, regardless of how it became apparant or if someon
 ## Inspiration
 
 - [Torii Gate](https://theartofzen.org/the-enchanting-world-of-torii-gates-in-japan/)
-- [The Art of Clear Thinking](https://www.amazon.com/Art-Clear-Thinking-Timeless-Decisions/dp/125028144X)
+- [The Art of Clear Thinking by Hasard Lee](https://www.amazon.com/Art-Clear-Thinking-Timeless-Decisions/dp/125028144X)
 - [Evolutionary Meme Theory & Political Polarization](https://www.youtube.com/watch?v=PvGiL9lRkJA)
-- [Never Split the Difference](https://www.amazon.com/Never-Split-Difference-Negotiating-Depended/dp/0062407805)
-- [Ki in Daily Life](https://www.amazon.com/Ki-Daily-Life-Koichi-Tohei/dp/4889960716)
+- [Never Split the Difference by Chris Voss](https://www.amazon.com/Never-Split-Difference-Negotiating-Depended/dp/0062407805)
+- [Ki in Daily Life by Koichi Tohei](https://www.amazon.com/Ki-Daily-Life-Koichi-Tohei/dp/4889960716)
 - [Zen Toolkit - 4 Patterns](https://vimeo.com/944675826/c57a7ce142)
 - [Zen Toolkit - 3 Centers](https://www.youtube.com/watch?v=OuK3HOIfUiw)
 - [Institute for Zen Leadership](https://zenleader.global/)
