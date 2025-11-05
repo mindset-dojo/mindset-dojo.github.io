@@ -16,7 +16,7 @@ A threshold is the line between thought and action, Visionary and Driver energy.
 
 ## Experience
 
-You will feel the tension as you get close to the threshold. However, to refuse to cross a threshold one has set out for you, is to cross a threshold you set out for yourself. Thus, one can never truly refuse to cross a threshold, doing nothing is still a decision, thus one can only choose which thresholds to cross. We are always crossing thresholds in their life, whether we like it or not.
+You will feel the tension as you get close to the threshold. However, to refuse to cross a threshold one has offered for you, is to cross a threshold you set out for yourself. Thus, one can never truly refuse to cross a threshold, doing nothing is still a decision, thus one can only choose which thresholds to cross. We are always crossing thresholds in their life, whether we like it or not.
 
 ## Implementation
 
