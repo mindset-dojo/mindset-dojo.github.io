@@ -12,7 +12,7 @@ excerpt: "A threshold is the line between thought and action, Visionary and Driv
 
 ## Intention
 
-A threshold is the line between thought and action, Visionary and Driver energy. It is when the body is invited to act and make a decision. As Koichi Tohei says, however, Mind moves Body. Thus the decision will be based on one's values, attitudes, and general conditioning.
+A threshold is the line between thought and action, Visionary and Driver energy. It is when the body is invited to act and make a decision. As some martial arts masters say, "Mind moves Body"<sup>1</sup>. Thus the decision will be based on one's values, attitudes, and general conditioning.
 
 ## Experience
 
@@ -30,7 +30,7 @@ When encountering a threshold, regardless of how it became apparant or if someon
 - [The Art of Clear Thinking by Hasard Lee](https://www.amazon.com/Art-Clear-Thinking-Timeless-Decisions/dp/125028144X)
 - [Evolutionary Meme Theory & Political Polarization](https://www.youtube.com/watch?v=PvGiL9lRkJA)
 - [Never Split the Difference by Chris Voss](https://www.amazon.com/Never-Split-Difference-Negotiating-Depended/dp/0062407805)
-- [Ki in Daily Life by Koichi Tohei](https://www.amazon.com/Ki-Daily-Life-Koichi-Tohei/dp/4889960716)
+- [Ki in Daily Life by Koichi Tohei](https://www.amazon.com/Ki-Daily-Life-Koichi-Tohei/dp/4889960716)<sup>1</sup>
 - [Zen Toolkit - 4 Patterns](https://vimeo.com/944675826/c57a7ce142)
 - [Zen Toolkit - 3 Centers](https://www.youtube.com/watch?v=OuK3HOIfUiw)
 - [Institute for Zen Leadership](https://zenleader.global/)
