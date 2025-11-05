@@ -12,7 +12,7 @@ excerpt: "A threshold is the line between thought and action, Visionary and Driv
 
 ## Intention
 
-A threshold is the line between thought and action, Visionary and Driver energy. It is when the body is forced to act and make a decision. As Koichi Tohei says, however, Mind moves Body. Thus the decision will be based on one's values, attitudes, and general conditioning.
+A threshold is the line between thought and action, Visionary and Driver energy. It is when the body is invited to act and make a decision. As Koichi Tohei says, however, Mind moves Body. Thus the decision will be based on one's values, attitudes, and general conditioning.
 
 ## Experience
 
