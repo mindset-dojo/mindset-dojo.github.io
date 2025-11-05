@@ -11,7 +11,7 @@ excerpt: "Revealed Preference Reflection is a combination of Stillness Contempla
 
 ## Intention
 
-Revealed Preference Reflection is a combination of [Stillness Contemplation](../stillness-contemplation) and [Integration Under Fire](../integration-under-fire), analyzing one's desires through their actions continuously. Through crossing a [Threshold](../threshold) and sacrificing something to do so one reveals their priorities.
+Revealed Preference Reflection is a combination of [Stillness Contemplation](../stillness-contemplation) and [Integration Under Fire](../integration-under-fire), analyzing one's desires through their actions continuously. Through crossing a [Threshold](../threshold) and sacrificing something, like time or energy, to do so one reveals their priorities.
 
 ## Experience
 
