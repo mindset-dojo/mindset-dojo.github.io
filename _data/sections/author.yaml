@@ -6,21 +6,20 @@ sections:
       field: about
   - type: collection-stream
     data:
-      label: "Insights"
-      content: "Recent reflections"
-      collection: insights
-      sort_by: date
-      reverse: true
+      label: "Forms"
+      content: "Cultural contributions"
+      collection: forms
+      sort_by: title
+      reverse: false
       excerpt_length: 220
-      post_display_limit: 5
       filter_key: authors
       filter_values:
         - "__PAGE_SLUG__"
   - type: collection-stream
     data:
-      label: "Forms"
-      content: "Recent contributions"
-      collection: forms
+      label: "Insights"
+      content: "Recent reflections"
+      collection: insights
       sort_by: date
       reverse: true
       excerpt_length: 220
