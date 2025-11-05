@@ -15,7 +15,7 @@ Revealed Preference Reflection is a combination of [Stillness Contemplation](../
 
 ## Experience
 
-One sits with their own or another's actions until they make sense. Many negative emotions can come up while doing this, including sadness, betrayal, or fear. One confronts those feelings with presence.
+You sit with your own or another's actions until they make sense from your perspective. Many negative emotions can come up while doing this, including sadness, betrayal, or fear. One confronts those feelings with presence.
 
 ## Implementation
 
