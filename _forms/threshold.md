@@ -20,7 +20,9 @@ You may feel tension as you get close to the threshold. However, to refuse to cr
 
 ## Implementation
 
-You first ensure that the other person understands the full context of the choice they are about to make, to the best of your ability. While we cannot fully convey our context to other people through language and we all operate on incomplete information, as a rule of thumb, don't manipulate people. Then after laying out the threshold, the door, you invite them to cross through while making it clear the consequences if they don't and that you are willing to follow through on the consequences. As Chris Voss says, Never Split the Difference (never make a bad deal) since it is worse than no deal. If they cross through, great, if they don't, respect that decision.
+When offering a threshold, remember that by doing so, you yourself are crossing through that threshold and are part of that relationship. As such, you bear responsibility for the impact that may have. Make sure that you give as close to the full context as possible when offering a threshold to avoid potential manipulation and resulting damage to the relationship. If they cross through the threshold, great, if they don't, respect that decision.
+
+When encountering a threshold, regardless of how it became apparant or if someone else is offering, you first do Three Centers, or check your mind, emotions, and gut. If they aren't aligned on a decision, question yourself about what center is out of alignment and why. If and when they are aligned, then make that decision ASAP. Don't let that opportunity pass you by!
 
 ## Inspiration
 
@@ -30,4 +32,5 @@ You first ensure that the other person understands the full context of the choic
 - [Never Split the Difference](https://www.amazon.com/Never-Split-Difference-Negotiating-Depended/dp/0062407805)
 - [Ki in Daily Life](https://www.amazon.com/Ki-Daily-Life-Koichi-Tohei/dp/4889960716)
 - [Zen Toolkit - 4 Patterns](https://vimeo.com/944675826/c57a7ce142)
+- [Zen Toolkit - 3 Centers](https://www.youtube.com/watch?v=OuK3HOIfUiw)
 - [Institute for Zen Leadership](https://zenleader.global/)
