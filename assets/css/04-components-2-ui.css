@@ -4,7 +4,7 @@
      ======================= */
 
   /* zero specificity: applies to both main>a and .md-cta-group a */
-  :where(main > a, .md-cta-group a) {
+  :where(main > a, .md-cta-group a, .collection-stream-toggle) {
     align-items: center;
     border-width: 0;
     display: inline-flex;
@@ -17,6 +17,7 @@
     transition: all 0.5s ease;
     border-radius: 36px;
     color: var(--button-text-color);
+    font-size: var(--text-m);
     font-weight: 700;
     font-style: italic;
     padding: 16px 40px;
@@ -24,12 +25,23 @@
     max-width: 328px;
   }
 
-  main > a {
+  :where(main > a, .collection-stream-toggle) {
     margin-top: 20px;
   }
 
-  main > a:hover {
+  .collection-stream-toggle {
+    width: auto;
+    max-width: none;
+    padding: 16px 28px;
+  }
+
+  :where(main > a, .collection-stream-toggle):hover {
     background-color: var(--button-background-hover-color);
+  }
+
+  :where(main > a, .collection-stream-toggle):focus-visible {
+    outline: 2px solid var(--brand-color-primary);
+    outline-offset: 4px;
   }
 
   /* =======================
