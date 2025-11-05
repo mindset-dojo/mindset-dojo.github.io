@@ -2,13 +2,14 @@
 layout: insight
 title: "Fear, Terror or Reverence"
 title_mark: Fear
-published_date: 2025-11-07
-refactored_date: 2025-11-07
+published_date: 2025-11-05
+refactored_date: 2025-11-05
 authors:
   - bill-westfall
 forms:
   - stillness-contemplation
   - dojo
+  - integration-under-fire
 principles:
   - relax
   - center
@@ -41,4 +42,4 @@ Yir'ah shapes ethical conduct, justice, and leadership, as leaders are called to
 
 A modern example might be the recent rescue of 20 hikers who were rescued from Mount Washington in New Hampshire. They climbed the mountain in normal hiking clothes, but had to be rescued after being trapped on the snow bound peak. A lack of 'reverence' for a dangerous force of nature can result in a lack of fear for the obvious dangers it presents.
 
-In the end fear is a complex, disparate concept that we all need to wrestle with on our own terms. Engage with the Dojo to help you with this!
+In the end fear is a complex, disparate concept that we all need to wrestle with on our own terms. Engage with the Dojo to learn to meet fear with presence.
