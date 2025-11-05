@@ -22,7 +22,7 @@ You may feel tension as you get close to the threshold. However, to refuse to cr
 
 When offering a threshold, remember that by doing so, you yourself are crossing through that threshold and are part of that relationship. As such, you bear responsibility for the impact that may have. Make sure that you give as close to the full context as possible when offering a threshold to avoid potential manipulation and resulting damage to the relationship. If they cross through the threshold, great, if they don't, respect that decision.
 
-When encountering a threshold, regardless of how it became apparant or if someone else is offering, you first do Three Centers, or check your mind, emotions, and gut. If they aren't aligned on a decision, question yourself about what center is out of alignment and why. If and when they are aligned, then make that decision ASAP. Don't let that opportunity pass you by!
+When encountering a threshold, regardless of how it became apparant or if someone else is offering, you first do [Three Centers](https://www.youtube.com/watch?v=OuK3HOIfUiw), or check your mind, emotions, and gut. If they aren't aligned on a decision, question yourself about what center is out of alignment and why. If and when they are aligned, then make that decision ASAP. Don't let that opportunity pass you by!
 
 ## Inspiration
 
