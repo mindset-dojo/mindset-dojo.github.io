@@ -25,7 +25,8 @@ When you offer a threshold, remember that you, too, are crossing it. You become 
 If others cross through on their own, or you cross together, wonderful. If only one—or none—steps through, stay with what arises. [Reflect through Stillness Contemplation](../stillness-contemplation) on the edges and gaps that surface in you when another’s decision unsettles you.
 
 When encountering a threshold—whether it reveals itself naturally or is offered by someone else—begin with [Three Centers](https://www.youtube.com/watch?v=OuK3HOIfUiw): check your mind, emotions, and gut. If they are not aligned, inquire which center is out of sync and why.
-When alignment emerges, act. Cross. Don’t let the moment dissolve into hesitat
+
+When alignment emerges, act. Cross. Don’t let the moment dissolve into hesitatation! ⛩️
 
 ## Inspiration
 
