@@ -53,7 +53,7 @@ Most corporate challenges are attention challenges in disguise: misalignment, di
 
 That’s why with Mindset Dojo, we don’t constrain attention with new frameworks or slogans. We **train** it—through the nervous system, through presence, through practice.
 
-> Don’t constrain. Train.
+> Don’t Constrain. Train.
 
 When awareness becomes embodied, clarity follows. When presence stabilizes, performance integrates. When the nervous system stays open under pressure, real collaboration begins.
 
