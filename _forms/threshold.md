@@ -22,10 +22,10 @@ You may feel tension as you get close to the threshold. However, to refuse to cr
 
 When you offer a threshold, remember that you, too, are crossing it. You become part of the relationship that forms around that invitation. With that comes responsibility for the impact it may have. Offer as much context as you can, so that what you extend is not manipulation but genuine invitation.
 
-If they cross through on their own, or you cross together, wonderful. If only one—or neither—steps through, stay with what arises. Reflect on the edges and gaps that surface in you when their decision unsettles you.
+If others cross through on their own, or you cross together, wonderful. If only one—or none—steps through, stay with what arises. [Reflect through Stillness Contemplation](../stillness-contemplation) on the edges and gaps that surface in you when another’s decision unsettles you.
 
-When encountering a threshold—whether it reveals itself naturally or is offered by another—begin with [Three Centers](https://www.youtube.com/watch?v=OuK3HOIfUiw): check your mind, emotions, and gut. If they are not aligned, inquire which center is out of sync and why.
-When alignment emerges, act. Cross. Don’t let the opportunity dissolve into hesitation.
+When encountering a threshold—whether it reveals itself naturally or is offered by someone else—begin with [Three Centers](https://www.youtube.com/watch?v=OuK3HOIfUiw): check your mind, emotions, and gut. If they are not aligned, inquire which center is out of sync and why.
+When alignment emerges, act. Cross. Don’t let the moment dissolve into hesitat
 
 ## Inspiration
 
