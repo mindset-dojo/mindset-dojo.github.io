@@ -1,49 +1,50 @@
 ---
 rally: Fearless Leadership
-mantra: "Don't Complain. Train."
+mantra: "Don’t Constrain. Train."
 mantra_mark: "Train."
-description: "Leadership training that builds clarity, confidence, and calm under pressure through mindful, embodied practice. Fearless leadership starts here."
+description: "Training that restores coherence at the root level — integrating mind, body, and voice through embodied awareness. Where practice becomes presence, and presence becomes self-authorship."
 sections:
   - type: text
     data:
       items:
-        - "When the pressure hits, you don't rise to your best intentions."
-        - "You meet the truth of your conditioning."
-        - "..."
-        - "In the middle of a stuck conversation…"
-        - "When trust hangs in the balance…"
-        - "In that flash between stimulus and response…"
-        - "That’s where leadership lives."
+        - "We work with specialists all the time — therapists, coaches, lawyers, mediators, consultants."
+        - "Each sees a part of the picture, often with great skill."
+        - "But like the blind men describing the elephant, they’re often touching only one part of the whole."
+        - "That’s the culture of over-specialization — branches and leaves without roots."
+        - "Our collective attention gets scattered from branch to branch, framework to framework — clever, but not coherent."
   - type: quote
     data:
-      text: "Fearless leadership isn’t the absence of fear — it’s the ability to stay fluid, focused, and free under pressure."
+      text: "Fixing what’s wrong and imagining what’s possible aren’t the same as becoming reliable in how you show up."
   - type: text
     data:
       label: "Fearless Leadership: Mission"
       items:
-        - "We train to meet fear with presence and to turn reaction into response."
-        - "We practice mind, body, and voice as one integrated discipline."
-        - "We awaken the evolution already moving through each of us."
+        - "At the Mindset Dojo, we train for presence — and we train it into full embodiment."
+        - "We train at the root level: mind, body, and voice integrated through the nervous system."
+        - "Through conversation, reflection, breath, and embodied practice, awareness becomes lived, not theorized."
+        - "The whole tree begins to move as one — steady under pressure, responsive in flow."
   - type: principles
     data:
-      principles_title: "Energy Intention"
+      principles_title: "Root Integration"
       principles_groups:
         - "mission"
   - type: text
     data:
       label: "Training Ground"
       items:
-        - "Mindset Dojo is not a classroom. It’s a living field of practice."
+        - "Mindset Dojo isn’t a classroom. It’s a living field of practice."
         - "Each conversation, each silence, each embodied pause — is training."
-        - "We build energy agility together: clarity in mind, compassion in heart, coherence in action."
+        - "Together, we dissolve attention whiplash and restore coherence from the inside out."
+        - "From that root awareness, self-agency strengthens and matures into Self-authorship."
   - type: authors
     data:
       leadership_flow:
-        label: "⛩️⚡ Authors"
+        label: "⛩️🌿 Authors"
         limit: 16
   - type: ctas
     data:
       items:
         - label: "Cross the Threshold"
           ref: program
+
 ...
