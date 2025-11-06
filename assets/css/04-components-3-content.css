@@ -17,6 +17,14 @@
     margin: 0 0 12px;
   }
 
+  .md-authors section.md-author-card > p.author-card-mantra {
+    font-style: italic;
+  }
+
+  .collection-stream-item.is-hidden {
+    display: none;
+  }
+
   .md-authors {
     display: grid;
     align-items: initial;

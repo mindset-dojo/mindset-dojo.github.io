@@ -41,8 +41,8 @@ header_links:
     href: /project/
   - label: FORMS
     href: /forms/
-  - label: INSIGHTS
-    href: /insights/
+  - label: AUTHORS
+    href: /authors/
 
 footer_primary_links:
   - label: MISSION
@@ -53,8 +53,8 @@ footer_primary_links:
     href: /project/
   - label: FORMS
     href: /forms/
-  - label: INSIGHTS
-    href: /insights/
+  - label: AUTHORS
+    href: /authors/
   - label: CONTACT
     href: https://connect.mindset.dojo.center
     external: true
