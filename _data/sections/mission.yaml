@@ -2,7 +2,7 @@
 rally: Fearless Leadership
 mantra: "Don’t Constrain. Train."
 mantra_mark: "Train."
-description: "Training that restores coherence at the root level — integrating mind, body, and voice through embodied awareness. Where practice becomes presence, and presence becomes self-authorship."
+description: "Training that restores coherence at the root level — integrating mind, body, and voice through embodied awareness. Where practice becomes presence, and presence becomes self-authorship — seriously playful, and playfully serious. It’s not all sunshine and rainbows, but eventually fun once tasted, felt, and digested."
 sections:
   - type: text
     data:
@@ -34,6 +34,8 @@ sections:
       items:
         - "Mindset Dojo isn’t a classroom. It’s a living field of practice."
         - "Each conversation, each silence, each embodied pause — is training."
+        - "We train deep, and we train real — seriously playful, and playfully serious."
+        - "It’s not all sunshine and rainbows, but eventually fun once tasted, felt, and digested."
         - "Together, we dissolve attention whiplash and restore coherence from the inside out."
         - "From that root awareness, self-agency strengthens and matures into Self-authorship."
   - type: authors
@@ -46,5 +48,4 @@ sections:
       items:
         - label: "Cross the Threshold"
           ref: program
-
 ...
