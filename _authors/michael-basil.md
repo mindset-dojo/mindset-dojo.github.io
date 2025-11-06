@@ -1,8 +1,8 @@
 ---
 layout: threshold
 sections_key: author
-mantra: "Don’t Label. Listen."
-mantra_mark: "Listen."
+mantra: "Awareness is Ki"
+mantra_mark: "Ki"
 description: |
   Leadership presence coach and systems thinker drawn to early-stage founders and emerging
   talent—bridging Zero Trust, Agile flow, and embodied practice.
