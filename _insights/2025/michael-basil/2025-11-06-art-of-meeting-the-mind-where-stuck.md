@@ -21,8 +21,7 @@ principles:
 excerpt: "Whenever attention is stuck—whether in frustration, overthinking, or burnout—the way forward isn’t to push harder. It’s to meet awareness where it’s holding on, and draw a threshold toward movement."
 ---
 
-In nearly every relationship—personal, professional, or collective—one invisible force shapes connection: **attention.**  
-Where it goes, energy flows. Where it gets stuck, frustration grows.
+In nearly every relationship—personal, professional, or collective—one invisible force shapes connection: **attention.** Where it goes, energy flows. Where it gets stuck, frustration grows.
 
 We’re living through a **presence deficit**—not a shortage of intelligence or goodwill, but of embodied awareness. When attention is fragmented, reactive, or hijacked, we lose our capacity to meet each other in real time. That’s where practice begins.
 
@@ -48,8 +47,7 @@ That’s attention negotiation in motion: **meet the mind where it’s stuck, fr
 
 ## From Personal to Professional
 
-The same pattern shows up everywhere—in team meetings, leadership breakdowns, and organizational change.  
-Most corporate challenges are attention challenges in disguise: misalignment, distraction, burnout.
+The same pattern shows up everywhere—in team meetings, leadership breakdowns, and organizational change. Most corporate challenges are attention challenges in disguise: misalignment, distraction, burnout.
 
 That’s why with Mindset Dojo, we don’t constrain attention with new frameworks or slogans. We **train** it—through the nervous system, through presence, through practice.
 
@@ -66,7 +64,6 @@ When awareness becomes embodied, clarity follows. When presence stabilizes, perf
 3. Draw a threshold. Offer a next step—a question, a pause, a breath.  
 4. Listen openly. Let mutual attention reveal what’s next.
 
-This is how we shift from reacting to relating. From presence deficit to presence training.  
-From control to curiosity.
+This is how we shift from reacting to relating. From presence deficit to presence training. From control to curiosity.
 
 Because once you can train your attention, any situation is playfully tameable.
