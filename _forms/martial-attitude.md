@@ -13,11 +13,11 @@ excerpt: "Martial Attitude is an oppositional Stance in which malice is applied 
 
 ## Intention
 
-Martial Attitude is an oppositional Stance in which malice is applied for the greater good, the Whole instead of Local Self. It is the core attitude powering the [Mat](../mat/) and is the attitude needed for successful integrative Shadow work.
+Martial Attitude is an oppositional [Stance](../stance/) in which malice is applied for the greater good, the Whole instead of Local Self. It is the core attitude powering the [Mat](../mat/) and is the attitude needed for successful integrative Shadow work.
 
 ## Experience
 
-You will feel at first separation, an enemy to overcome. When engaging, however, the fight turns into a dance, and integration through mutual resonance occurs. A master of this Stance can win through presence alone, avoiding the fight and thus achieving the highest level of victory.
+You will feel at first separation, an enemy to overcome. When engaging, however, the fight turns into a dance, and integration through mutual resonance occurs. A master of this [Stance](../stance/) can win through presence alone, avoiding the fight and thus achieving the highest level of victory.
 
 
 ## Implementation
