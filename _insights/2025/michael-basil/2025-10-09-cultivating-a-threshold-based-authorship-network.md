@@ -3,13 +3,14 @@ layout: insight
 title: "Cultivating a Threshold-Based Authorship Network"
 title_mark: Authorship
 published_date: 2025-10-09
-refactored_date: 2025-11-02
+refactored_date: 2025-11-07
 authors: 
   - michael-basil
 forms:
   - integration-under-fire
   - dojo
   - threshold
+  - stance
 principles:
   - center
   - meet

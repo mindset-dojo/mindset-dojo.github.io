@@ -3,7 +3,7 @@ layout: insight
 title: "The Human Guides, the AI Follows"
 title_mark: Human Guides
 published_date: 2025-10-16
-refactored_date: 2025-11-02
+refactored_date: 2025-11-07
 authors: 
   - kyle-ingersoll
 forms:
@@ -12,6 +12,7 @@ forms:
   - integration-under-fire
   - threshold
   - revealed-preference-reflection
+  - stance
 principles:
   - relax
   - center

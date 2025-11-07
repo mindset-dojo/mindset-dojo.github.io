@@ -3,7 +3,7 @@ layout: insight
 title: "Don't Train, Complain...?"
 title_mark: "Complain...?"
 published_date: 2025-10-20
-refactored_date: 2025-11-02
+refactored_date: 2025-11-07
 authors:
   - michael-basil
 forms:
@@ -11,6 +11,8 @@ forms:
   - integration-under-fire
   - threshold
   - revealed-preference-reflection
+  - stance
+  - martial-attitude
 principles:
   - relax
   - center

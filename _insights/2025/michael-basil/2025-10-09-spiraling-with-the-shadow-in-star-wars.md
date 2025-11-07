@@ -3,12 +3,13 @@ layout: insight
 title: "Spiraling with the Shadow in Star Wars"
 title_mark: Spiral
 published_date: 2025-10-09
-refactored_date: 2025-11-02
+refactored_date: 2025-11-07
 authors: 
   - michael-basil
 forms:
   - integration-under-fire
   - threshold
+  - stance
 principles:
   - center
   - meet

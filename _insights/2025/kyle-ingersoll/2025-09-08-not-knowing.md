@@ -10,13 +10,14 @@ forms:
   - dojo
   - mat
   - revealed-preference-reflection
+  - stance
 principles:
   - relax
   - center
   - meet
   - resonate
 published_date: 2025-09-08
-refactored_date: 2025-11-02
+refactored_date: 2025-11-07
 excerpt: "A reflection on how the Mat Sessions and community practice of Mindset Dojo helped me transform ego-driven self-improvement into humble, fearless growth through beginner’s mind."
 ---
 

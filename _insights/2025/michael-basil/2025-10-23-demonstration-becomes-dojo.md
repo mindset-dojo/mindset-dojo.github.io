@@ -3,7 +3,7 @@ layout: insight
 title: "A Demonstration Becomes a Dojo"
 title_mark: Demonstration
 published_date: 2025-10-23
-refactored_date: 2025-11-02
+refactored_date: 2025-11-07
 authors:
   - michael-basil
 forms:
@@ -11,6 +11,7 @@ forms:
   - metashift-community-demonstration
   - integration-under-fire
   - threshold
+  - stance
 principles:
   - relax
   - center

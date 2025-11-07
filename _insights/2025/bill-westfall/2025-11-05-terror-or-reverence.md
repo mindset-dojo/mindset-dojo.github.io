@@ -3,13 +3,14 @@ layout: insight
 title: "Fear, Terror or Reverence"
 title_mark: Fear
 published_date: 2025-11-05
-refactored_date: 2025-11-05
+refactored_date: 2025-11-07
 authors:
   - bill-westfall
 forms:
   - stillness-contemplation
   - dojo
   - integration-under-fire
+  - stance
 principles:
   - relax
   - center

@@ -3,12 +3,13 @@ layout: insight
 title: "The Way of Plus Ki"
 title_mark: Way
 published_date: 2025-10-18
-refactored_date: 2025-10-25
+refactored_date: 2025-11-07
 authors:
   - kyle-ingersoll
 forms:
   - dojo
   - sensei
+  - stance
 principles:
   - relax
   - resonate

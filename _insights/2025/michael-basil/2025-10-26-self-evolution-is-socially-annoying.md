@@ -3,7 +3,7 @@ layout: insight
 title: Self-Evolution Is Socially Annoying
 title_mark: Socially Annoying
 published_date: 2025-10-26
-refactored_date: 2025-11-02
+refactored_date: 2025-11-07
 authors:
   - michael-basil
 forms: 
@@ -14,6 +14,8 @@ forms:
   - integration-under-fire
   - threshold
   - revealed-preference-reflection
+  - stance
+  - martial-attitude
 principles:
   - relax
   - center

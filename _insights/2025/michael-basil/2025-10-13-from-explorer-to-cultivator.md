@@ -3,12 +3,13 @@ layout: insight
 title: "From Explorer to Cultivator"
 title_mark: Cultivator
 published_date: 2025-10-13
-refactored_date: 2025-11-02
+refactored_date: 2025-11-07
 authors: 
   - michael-basil
 forms:
   - dojo
   - threshold
+  - stance
 principles:
   - center
   - resonate
