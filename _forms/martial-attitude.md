@@ -3,7 +3,7 @@ layout: form
 title: "Martial Attitude"
 title_mark: Martial
 published_date: 2025-11-06
-refactored_date: 2025-11-06
+refactored_date: 2025-11-07
 authors:
   - jeremy-mcmillan
   - michael-basil

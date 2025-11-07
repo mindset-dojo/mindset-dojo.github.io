@@ -3,7 +3,7 @@ layout: form
 title: "Stance"
 title_mark: Stance
 published_date: 2025-11-06
-refactored_date: 2025-11-06
+refactored_date: 2025-11-07
 authors:
   - michael-basil
   - kyle-ingersoll
