@@ -5,7 +5,6 @@ title_mark: Stance
 published_date: 2025-11-06
 refactored_date: 2025-11-06
 authors:
-  - jeremy-mcmillan
   - michael-basil
   - kyle-ingersoll
 excerpt: "A Stance is the personal expression of one's FEBI™ energy archetypes through breath, tone, timing, and attention."
