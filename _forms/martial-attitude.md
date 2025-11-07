@@ -21,7 +21,7 @@ At first, you may feel the tension of polarity — a separate “other” to ove
 
 ## Implementation
 
-Begin by centering. Feel your breath settle into the earth beneath you. As you engage, extend Ki — not toward their body, but toward the space between you. Sense where your energies meet. Allow no separation in mind, no judgment in heart. Listen with your whole being. Guide the flow with integrity, not control. True mastery is not defeating your partner but co-regulating the field so that both can expand awareness together.
+Begin by centering. Feel your breath settle into the earth beneath you. As you engage, extend Ki (your energy flow) — not toward their body, but toward the space between you. Sense where your energies meet. Allow no separation in mind, no judgment in heart. Listen with your whole being. Guide the flow with integrity, not control. True mastery is not defeating your partner but co-regulating the field so that both can expand awareness together.
 
 ## Inspiration
 
