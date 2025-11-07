@@ -7,12 +7,12 @@ refactored_date: 2025-11-07
 authors:
   - michael-basil
   - kyle-ingersoll
-excerpt: "A Stance is the personal expression of one's FEBI™ energy archetypes through breath, tone, timing, and attention."
+excerpt: "A Stance is the personal expression of one's FEBI™ energy archetypes through breath, tone, timing, and attention in relation to a context (others in the interaction and shared energy field)."
 ---
 
 ## Intention
 
-A Stance is the personal expression of one's FEBI™ energy archetypes through breath, tone, timing, and attention. In short, one's attitude during the moments that matter. Different people have different Stances, and Stances can be shifted. Apply both the Platnum and Golden Rules when shifting Stances.
+A Stance is the personal expression of one's FEBI™ energy archetypes through breath, tone, timing, and attention in relation to a context (others in the interaction and shared energy field). In short, one's attitude during the moments that matter. Different people have different Stances, and Stances can be shifted. Apply both the Platnum and Golden Rules when shifting Stances.
 
 ## Experience
 
