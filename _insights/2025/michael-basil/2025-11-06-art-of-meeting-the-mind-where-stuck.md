@@ -59,10 +59,11 @@ When awareness becomes embodied, clarity follows. When presence stabilizes, perf
 
 ## Practicing Attention Negotiation
 
-1. Notice where attention is. Yours or theirs. Where is it fixated or looping?  
-2. Name the stuck point. Without judgment, bring awareness to it.  
-3. Draw a threshold. Offer a next step—a question, a pause, a breath.  
-4. Listen openly. Let mutual attention reveal what’s next.
+1. Take a hara (gut, belly) breath. Exhale fully, allow the shoulders to soften.
+2. Notice where attention is. Yours and theirs. Where is it fixated or looping?  
+3. Name the stuck point. Without judgment, bring awareness to it.  
+4. Draw a threshold. Offer a next step—a question, a pause, a breath.  
+5. Listen openly. Let mutual attention reveal what’s next.
 
 This is how we shift from reacting to relating. From presence deficit to presence training. From control to curiosity.
 
