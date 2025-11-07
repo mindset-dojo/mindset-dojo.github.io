@@ -8,20 +8,21 @@ authors:
   - jeremy-mcmillan
   - michael-basil
   - kyle-ingersoll
-excerpt: "Martial Attitude is an oppositional Stance in which malice is applied for the greater good, the Whole instead of Local Self."
+excerpt: "Martial Attitude is not opposition but attunement — the clarity to meet force with harmony, transforming conflict into coherence."
 ---
 
 ## Intention
 
-Martial Attitude is an oppositional [Stance](../stance/) in which malice is applied for the greater good, the Whole instead of Local Self. It is the core attitude powering the [Mat](../mat/) and is the attitude needed for successful integrative Shadow work.
+Martial Attitude is the stance of alignment under pressure. What once appeared as malice is seen as misdirected energy — a fragment seeking reintegration into the Whole. To embody this attitude is to meet even hostility with centered responsiveness, converting collision into connection. It is the spirit through which the Mat
+becomes a dojo of consciousness, and shadow work becomes a path of unity.
 
 ## Experience
 
-You will feel at first separation, an enemy to overcome. When engaging, however, the fight turns into a dance, and integration through mutual resonance occurs. A master of this [Stance](../stance/) can win through presence alone, avoiding the fight and thus achieving the highest level of victory.
+At first, you may feel the tension of polarity — a separate “other” to overcome. But as Ki becomes continuous, the opponent dissolves into relationship. The fight becomes a flow, the resistance a rhythm, and through this rhythm, self and other are revealed as one movement. Victory emerges not from domination but from resonance — presence so attuned that no conflict is required.
 
 ## Implementation
 
-First consider your training partner as an enemy. Don't focus on the image of them in your mind, pay attention to their presence now. To win, you must resonate with them and understand both their and your own shadow on a deeper level than they do with you. You need to understand their decision making, and make it flow in a way that benefits you.
+Begin by centering. Feel your breath settle into the earth beneath you. As you engage, extend Ki — not toward their body, but toward the space between you. Sense where your energies meet. Allow no separation in mind, no judgment in heart. Listen with your whole being. Guide the flow with integrity, not control. True mastery is not defeating your partner but co-regulating the field so that both can expand awareness together.
 
 ## Inspiration
 
