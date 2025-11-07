@@ -36,6 +36,7 @@ about: |
   
   - [Email](mailto:kyle.ingersoll@dojo.center)
   - [LinkedIn](https://www.linkedin.com/in/kyle-ingersoll)
+  - [Resume](https://docs.google.com/document/d/1Td_lG11bPvTlavuiQBKHYEE9l2SuLBQm/edit?usp=sharing&ouid=100774120019107734935&rtpof=true&sd=true)
   - [GitHub](https://github.com/Computer8543)
   - [Video](https://calendly.com/college1b7e/30min)
 ---
