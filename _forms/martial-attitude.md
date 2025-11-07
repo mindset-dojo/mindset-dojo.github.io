@@ -25,6 +25,8 @@ Begin by centering. Feel your breath settle into the earth beneath you. As you e
 
 ## Inspiration
 
+- [Aikido](https://en.wikipedia.org/wiki/Aikido)
+- [O-Sensei Quote - True Victory is Self Victory](https://www.gohitsushodostudio.com/masakatsu-agatsu/)
 - [Ki in Daily Life by Koichi Tohei](https://www.amazon.com/Ki-Daily-Life-Koichi-Tohei/dp/4889960716)
 - [Tenshinkan Dojo](https://japaneseculturecenter.com/classes/aikido)
 - [Institute for Zen Leadership](https://zenleader.global)
