@@ -13,8 +13,7 @@ excerpt: "Martial Attitude is not opposition but attunement — the clarity to m
 
 ## Intention
 
-Martial Attitude is the stance of alignment under pressure. What once appeared as malice is seen as misdirected energy — a fragment seeking reintegration into the Whole. To embody this attitude is to meet even hostility with centered responsiveness, converting collision into connection. It is the spirit through which the Mat
-becomes a dojo of consciousness, and shadow work becomes a path of unity.
+Martial Attitude is the stance of alignment under pressure. What once appeared as malice is seen as misdirected energy — a fragment seeking reintegration into the Whole. To embody this attitude is to meet even hostility with centered responsiveness, converting collision into connection. It is the spirit through which the Mat becomes a dojo of consciousness, and shadow work becomes a path of unity.
 
 ## Experience
 
