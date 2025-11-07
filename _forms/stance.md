@@ -18,11 +18,9 @@ A Stance is the personal expression of one's FEBI™ energy archetypes through b
 
 You resonate/vibe with the Other, truely present and connected with them. You then lead them by example in the conversational direction you want them to go.
 
-
 ## Implementation
 
 You first feel your own and your conversational partners FEBI™ energies and positions on the Map of Consciousness. Then you internally label it. For example, a Organizer-Visionary blend of FEBI™ energy based in fear could be labeled a cynical Stance. Once you understand your own and your conversational partner's Stances, you adjust your own FEBI™ energy and position on the Map of Consciousness through Zero Sympathy Phasing, i.e. connecting with them without being consumed by their energy, so that you invite them to cross the [Threshold](../threshold/) and assume the Stance you want.
-
 
 ## Inspiration
 

@@ -19,11 +19,9 @@ Martial Attitude is an oppositional [Stance](../stance/) in which malice is appl
 
 You will feel at first separation, an enemy to overcome. When engaging, however, the fight turns into a dance, and integration through mutual resonance occurs. A master of this [Stance](../stance/) can win through presence alone, avoiding the fight and thus achieving the highest level of victory.
 
-
 ## Implementation
 
 First consider your training partner as an enemy. Don't focus on the image of them in your mind, pay attention to their presence now. To win, you must resonate with them and understand both their and your own shadow on a deeper level than they do with you. You need to understand their decision making, and make it flow in a way that benefits you.
-
 
 ## Inspiration
 
