@@ -20,7 +20,7 @@ You resonate/vibe with the people in the group and overall field, truely present
 
 ## Implementation
 
-You first feel your own and your conversational partners FEBI™ energies and positions on the Map of Consciousness. Then you internally label it. For example, a Organizer-Visionary blend of FEBI™ energy based in fear could be labeled a cynical Stance. Once you understand your own and your conversational partner's Stances, you adjust your own FEBI™ energy and position on the Map of Consciousness through Zero Sympathy Phasing, i.e. connecting with them without being consumed by their energy, so that you invite them to cross the [Threshold](../threshold/) and assume the Stance you want.
+You first label your own and your conversational partners FEBI™ energies and positions on the Map of Consciousness from your own perspective (not to mind read or impose, rather to have a context from which to calibrate from). Then you internally label it. For example, a Organizer-Visionary blend of FEBI™ energy based in fear could be labeled a cynical Stance. Once you understand your own and your conversational partner's Stances, you adjust your own FEBI™ energy and position on the Map of Consciousness through Zero Sympathy Phasing, i.e. connecting with them without being consumed by their energy, so that you introduce through invitation mutually beneficial and well timed [thresholds](../threshold/).
 
 ## Inspiration
 
