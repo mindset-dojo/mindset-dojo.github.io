@@ -16,7 +16,7 @@ A Stance is the personal expression of one's FEBI™ energy archetypes through b
 
 ## Experience
 
-You resonate/vibe with the Other, truely present and connected with them. You then lead them by example in the conversational direction you want them to go.
+You resonate/vibe with the people in the group and overall field, truely present and connected with them. You then lead them by example through understanding their energy capabilities (learning as we go if less familiar) and inviting for mutually beneficial and well timed shifts.
 
 ## Implementation
 
