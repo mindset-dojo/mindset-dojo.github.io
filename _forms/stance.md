@@ -32,3 +32,4 @@ You first feel your own and your conversational partners FEBI™ energies and po
 - [What's Better than the Golden Rule?](https://www.thecaap.org/news/whats-better-than-the-golden-rulenbsp)
 - [Resonate by Ginny Whitelaw](https://www.choseizen.org/store/p/resonate)
 - [The Zen Leader by Ginny Whitelaw](https://www.choseizen.org/store/p/the-zen-leader)
+- [Zen Toolkit - Two Sides](https://vimeo.com/944663134/d4f1c4f333)

@@ -32,3 +32,4 @@ First consider your training partner as an enemy. Don't focus on the image of th
 - [Resonate by Ginny Whitelaw](https://www.choseizen.org/store/p/resonate)
 - [The Zen Leader by Ginny Whitelaw](https://www.choseizen.org/store/p/the-zen-leader)
 - [OODA Loop](https://en.wikipedia.org/wiki/OODA_loop)
+- [Zen Toolkit - Two Sides](https://vimeo.com/944663134/d4f1c4f333)
