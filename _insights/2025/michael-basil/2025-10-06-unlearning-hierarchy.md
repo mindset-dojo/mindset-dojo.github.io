@@ -3,7 +3,7 @@ layout: insight
 title: "Unlearning Hierarchy"
 title_mark: learn
 published_date: 2025-10-06
-refactored_date: 2025-11-02
+refactored_date: 2025-11-07
 authors: 
   - michael-basil
   - kyle-ingersoll
@@ -13,6 +13,8 @@ forms:
   - circle
   - mat
   - threshold
+  - stance
+  - martial-attitude
 principles:
   - relax
   - center

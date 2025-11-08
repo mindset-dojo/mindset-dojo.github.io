@@ -3,7 +3,7 @@ layout: insight
 title: "The Fable of the First Ninety Seconds"
 title_mark: Ninety Seconds
 published_date: 2025-11-03
-refactored_date: 2025-11-03
+refactored_date: 2025-11-07
 authors:
   - michael-basil
 forms:
@@ -12,6 +12,8 @@ forms:
   - mat
   - stillness-contemplation
   - integration-under-fire
+  - stance
+  - martial-attitude
 principles:
   - relax
   - center

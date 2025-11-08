@@ -3,13 +3,15 @@ layout: insight
 title: Attention Portfolio Intelligence
 title_mark: Attention Portfolio
 published_date: 2025-10-24
-refactored_date: 2025-11-02
+refactored_date: 2025-11-07
 authors:
   - michael-basil
 forms: 
   - dojo
   - integration-under-fire
   - revealed-preference-reflection
+  - stance
+  - martial-attitude
 principles:
   - relax
   - center

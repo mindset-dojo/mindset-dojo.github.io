@@ -3,12 +3,13 @@ layout: insight
 title: "Zen and Spiritual Insight"
 title_mark: Demonstration
 published_date: 2025-10-23
-refactored_date: 2025-11-02
+refactored_date: 2025-11-07
 authors:
   - bill-westfall
 forms:
   - stillness-contemplation
   - revealed-preference-reflection
+  - stance
 principles:
   - relax
   - center

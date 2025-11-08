@@ -3,7 +3,7 @@ layout: insight
 title: "The Productive Tension: When Conflict Becomes the Dojo"
 title_mark: Conflict
 published_date: 2025-11-01
-refactored_date: 2025-11-02
+refactored_date: 2025-11-07
 authors:
   - kyle-ingersoll
 forms:
@@ -12,6 +12,8 @@ forms:
   - mat
   - threshold
   - revealed-preference-reflection
+  - stance
+  - martial-attitude
 principles:
   - relax
   - center

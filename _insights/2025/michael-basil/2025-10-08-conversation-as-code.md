@@ -3,7 +3,7 @@ layout: insight
 title: "Conversation as Code"
 title_mark: Conversation
 published_date: 2025-10-08
-refactored_date: 2025-11-02
+refactored_date: 2025-11-07
 authors: 
   - michael-basil
 forms:
@@ -11,6 +11,7 @@ forms:
   - dojo
   - threshold
   - revealed-preference-reflection
+  - stance
 principles:
   - relax
   - center

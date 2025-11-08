@@ -3,7 +3,7 @@ layout: insight
 title: "The Circle of Teaching and Learning: From Control to Connection"
 title_mark: Circle
 published_date: 2025-10-26
-refactored_date: 2025-11-02
+refactored_date: 2025-11-07
 authors:
   - kyle-ingersoll
 forms:
@@ -17,6 +17,8 @@ forms:
   - metashift-community-demonstration
   - genuine-gratitude-expression
   - threshold
+  - stance
+  - martial-attitude
 principles:
   - relax
   - center
