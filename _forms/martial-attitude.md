@@ -21,7 +21,7 @@ Where first you perceive war, through connection and redirection of resonance, y
 
 ## Implementation
 
-Begin through [Three Centers](https://vimeo.com/944672806/e099593826). Once Head, Heart, and Hara (Mind, Emotions, and Gut) are aligned, then do [Two Sides](https://vimeo.com/944663134/d4f1c4f333) to see through your own, their own, and the wider relationship field's points of view. Utilizing systems thinking i.e. FEBI™ energy and the Map of Consciousness, find mutual connection points and move towards mutually beneficial [Thresholds](../threshold/) through extending Ki (your energy flow) in the relational field and adjusting your own stance and resonance, fearlessly leading through example. In short, Presence is Ki.
+Begin practicing through [Three Centers](https://vimeo.com/944672806/e099593826). Once Head, Heart, and Hara (Mind, Emotions, and Gut) are aligned, then do [Two Sides](https://vimeo.com/944663134/d4f1c4f333) to see through your own, their own, and the wider relationship field's points of view. Utilizing systems thinking i.e. Four Patterns and the Map of Consciousness, find mutual connection points and move towards mutually beneficial [Thresholds](../threshold/) through extending Ki (your energy flow) in the relational field and adjusting your own stance and resonance, fearlessly leading through example. In short, Presence is Ki.
 
 ## Inspiration
 
