@@ -26,6 +26,7 @@ First, you sit, either on a chair or cushion. Make sure that your legs are suppo
 
 - [Institute for Zen Leadership](https://zenleader.global/)
 - [Chosei Zen](https://www.choseizen.org/)
+- [Chosei Zen - Virtual Dojo](https://www.choseizen.org/virtual-dojo)
 - [Chosei Zen - Online Introduction to Zazen](https://www.choseizen.org/online-intro-to-zazen)
 - [Resonate - Zen and the Way of Making a Difference by Ginny Whitelaw](https://www.choseizen.org/store/p/resonate)
 - [Instructions for Sitting Meditation - Zazen](https://www.youtube.com/watch?v=q7Y5rwKiabQ)
