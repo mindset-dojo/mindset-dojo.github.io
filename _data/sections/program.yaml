@@ -60,7 +60,7 @@ sections:
             - label: Jiki
               url: /forms/jiki/
             - label: 5 minute Zazen with Jiki
-              url: https://youtu.be/q7Y5rwKiabQ?si=8keWWxVJrCp9BN1S
+              url: /forms/zazen/
             - label: Genuine Gratitude Expression
               url: /forms/genuine-gratitude-expression/
         - color: green
@@ -80,7 +80,7 @@ sections:
             - label: The Way of Paradox
               url: /insights/way-of-paradox/
             - label: 5 minute Zazen by yourself
-              url: https://youtu.be/q7Y5rwKiabQ?si=8keWWxVJrCp9BN1S
+              url: /forms/zazen/
         - color: blue
           label: 4th Kyu
           level: -4
@@ -102,7 +102,7 @@ sections:
             - label: Senpai
               url: /forms/senpai/
             - label: 10 minute Zazen with Jiki
-              url: https://youtu.be/q7Y5rwKiabQ?si=8keWWxVJrCp9BN1S
+              url: /forms/zazen/
         - color: purple
           label: 3rd Kyu
           level: -3
@@ -128,7 +128,7 @@ sections:
             - label: "Houston, We Have an Attitude"
               url: /insights/houston-attitude/
             - label: 10 minute Zazen by yourself
-              url: https://youtu.be/q7Y5rwKiabQ?si=8keWWxVJrCp9BN1S
+              url: /forms/zazen/
         - color: brown
           label: 2nd Kyu
           level: -2
@@ -144,7 +144,7 @@ sections:
             - label: Never Split the Difference - Negotiating As If Your Life Depended On It
               url: https://www.amazon.com/Never-Split-Difference-Negotiating-Depended/dp/0062407805
             - label: 15 minute Zazen with Jiki
-              url: https://youtu.be/q7Y5rwKiabQ?si=8keWWxVJrCp9BN1S
+              url: /forms/zazen/
             - label: Zen Leader Off the Cushion
               url: https://zenleader.global/events
         - color: red
@@ -162,7 +162,7 @@ sections:
             - label: Resonate - Zen and the Way of Making a Difference
               url: https://www.choseizen.org/store/p/resonate
             - label: 15 minute Zazen by yourself
-              url: https://youtu.be/q7Y5rwKiabQ?si=8keWWxVJrCp9BN1S
+              url: /forms/zazen/
             - label: MetaShift Community Demonstration
               url: /forms/metashift-community-demonstration/
         - color: black
@@ -176,7 +176,7 @@ sections:
             - label: Self-Evolution of Emotional Extraction
               url: /insights/self-evolution-of-emotional-extraction/
             - label: 30 minute Zazen with Chosei Zen Virtual Dojo
-              url: https://www.choseizen.org/virtual-dojo
+              url: /forms/zazen/
             - label: Cultivating a Threshold-Based Authorship Network
               url: /insights/cultivating-a-threshold-based-authorship-network/
             - label: Two Sides Integrative Randori with Beyond the Black Belt Circle

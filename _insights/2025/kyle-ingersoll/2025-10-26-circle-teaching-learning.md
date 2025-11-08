@@ -19,6 +19,7 @@ forms:
   - threshold
   - stance
   - martial-attitude
+  - zazen
 principles:
   - relax
   - center
