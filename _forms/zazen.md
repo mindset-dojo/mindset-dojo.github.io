@@ -5,8 +5,8 @@ title_mark: Zazen
 published_date: 2025-11-08
 refactored_date: 2025-11-08
 authors:
-  - michael-basil
   - kyle-ingersoll
+  - michael-basil
 excerpt: "Zazen is a practice of sitting meditation combining breath, posture, and stillness into an artform."
 ---
 
