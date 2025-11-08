@@ -13,15 +13,15 @@ excerpt: "Martial Attitude is not opposition but attunement — the clarity to m
 
 ## Intention
 
-Martial Attitude is the stance of alignment under pressure. What once appeared as malice is seen as misdirected energy — a fragment seeking reintegration into the Whole. To embody this attitude is to meet even hostility with centered responsiveness, converting collision into connection. It is the spirit through which the [Mat](../mat/) becomes a dojo of consciousness, and shadow work (integrating what one represses into awareness) becomes a path of unity.
+Martial Attitude is the continuous integration and deployment of awareness and action, cultivating fluid trust through presence. It interprets perceived malice through systems thinking, allowing one to engage with the hyperactive, seperated from the wider flow, energy from a higher level of consciousness without collapsing into that stagnant energy. It powers the [Mat](../mat/) and ensures the shadow work (integrating what one represses into awareness) leads to Fearless Leadership.
 
 ## Experience
 
-At first, you may feel the tension of polarity — a separate “other” to overcome. But as Ki becomes continuous, the opponent dissolves into relationship. The fight becomes a flow, the resistance a rhythm, and through this rhythm, self and other are revealed as one movement. Victory emerges not from domination but from resonance — presence so attuned that no conflict is required.
+Where first you perceive war, through connection and redirection of resonance, you transform that into a dance. By collapsing the internal hierarchy and connecting person to person, the underlying need to fight disappears in most instances. Where it doesn't, through seeing through the Other's eyes and thus collapsing the illusion of seperation between Self and Other, you have the knowledge of their priorities and thus their vulnerabiiities, which can be exploited, if necessary, to stop the harm they plan on doing and restore harmony.
 
 ## Implementation
 
-Begin by centering. Feel your breath settle into the earth beneath you. As you engage, extend Ki (your energy flow) — not toward their body, but toward the space between you. Sense where your energies meet. Allow no separation in mind, no judgment in heart. Listen with your whole being. Guide the flow with integrity, not control. True mastery is not defeating your partner but co-regulating the field so that both can expand awareness together.
+Begin through [Three Centers](https://vimeo.com/944672806/e099593826). Once Head, Heart, and Hara (Mind, Emotions, and Gut) are aligned, then do [Two Sides](https://vimeo.com/944663134/d4f1c4f333) to see through your own, their own, and the wider relationship field's points of view. Utilizing systems thinking i.e. FEBI™ energy and the Map of Consciousness, find mutual connection points and move towards mutually beneficial [Thresholds](../threshold/) through extending Ki (your energy flow) in the relational field and adjusting your own stance and resonance, fearlessly leading through example. In short, Presence is Ki.
 
 ## Inspiration
 
@@ -35,3 +35,4 @@ Begin by centering. Feel your breath settle into the earth beneath you. As you e
 - [The Zen Leader by Ginny Whitelaw](https://www.choseizen.org/store/p/the-zen-leader)
 - [OODA Loop](https://en.wikipedia.org/wiki/OODA_loop)
 - [Zen Toolkit - Two Sides](https://vimeo.com/944663134/d4f1c4f333)
+- [Zen Toolkit - Three Centers](https://vimeo.com/944672806/e099593826)
