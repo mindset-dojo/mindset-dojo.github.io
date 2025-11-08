@@ -3,12 +3,12 @@ layout: form
 title: "Martial Attitude"
 title_mark: Martial
 published_date: 2025-11-06
-refactored_date: 2025-11-07
+refactored_date: 2025-11-08
 authors:
   - kyle-ingersoll
   - michael-basil
   - jeremy-mcmillan
-excerpt: "Martial Attitude is not opposition but attunement — the clarity to meet force with harmony, transforming conflict into coherence."
+excerpt: "Martial Attitude is the continuous integration and deployment of awareness and action, cultivating fluid trust through presence."
 ---
 
 ## Intention
