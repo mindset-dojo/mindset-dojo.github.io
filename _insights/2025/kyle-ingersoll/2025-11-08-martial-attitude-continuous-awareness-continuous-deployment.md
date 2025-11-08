@@ -1,6 +1,6 @@
 ---
 layout: insight
-title: "The Martial Attitude: Continuous Awareness, Continuous Deployment"
+title: "The Martial Attitude: Continuous Awareness, Continuous Deployment, and Zero Trust"
 title_mark: Martial
 published_date: 2025-11-08
 refactored_date: 2025-11-08
