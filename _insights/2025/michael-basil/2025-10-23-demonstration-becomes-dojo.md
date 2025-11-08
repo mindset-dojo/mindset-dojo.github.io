@@ -12,6 +12,7 @@ forms:
   - integration-under-fire
   - threshold
   - stance
+  - zazen
 principles:
   - relax
   - center
