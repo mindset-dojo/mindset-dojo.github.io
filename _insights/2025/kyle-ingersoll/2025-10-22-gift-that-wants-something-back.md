@@ -3,7 +3,7 @@ layout: insight
 title: "The Gift That Wants Something Back"
 title_mark: Wants
 published_date: 2025-10-22
-refactored_date: 2025-11-02
+refactored_date: 2025-11-07
 authors:
   - kyle-ingersoll
 forms:
@@ -11,6 +11,7 @@ forms:
   - integration-under-fire
   - threshold
   - revealed-preference-reflection
+  - stance
 principles:
   - relax
   - center

@@ -3,7 +3,7 @@ layout: insight
 title: "The Art of Meeting the Mind Where It’s Stuck"
 title_mark: Meeting the Mind
 published_date: 2025-11-06
-refactored_date: 2025-11-06
+refactored_date: 2025-11-07
 authors:
   - michael-basil
 forms:
@@ -13,6 +13,8 @@ forms:
   - stillness-contemplation
   - integration-under-fire
   - threshold
+  - stance
+  - martial-attitude
 principles:
   - relax
   - center

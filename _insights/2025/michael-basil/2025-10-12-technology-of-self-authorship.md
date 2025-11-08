@@ -3,13 +3,14 @@ layout: insight
 title: "The Technology of Self-Authorship"
 title_mark: Self-Authorship
 published_date: 2025-10-12
-refactored_date: 2025-11-02
+refactored_date: 2025-11-07
 authors: 
   - michael-basil
 forms:
   - dojo
   - integration-under-fire
   - threshold
+  - stance
 principles:
   - relax
   - center

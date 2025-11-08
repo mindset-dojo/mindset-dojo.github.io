@@ -3,13 +3,14 @@ layout: insight
 title: "Mind Without Ki, Ki Given Form"
 title_mark: Ki
 published_date: 2025-10-27
-refactored_date: 2025-10-27
+refactored_date: 2025-11-07
 authors:
   - kyle-ingersoll
 forms:
   - integration-under-fire
   - sensei
   - dojo
+  - stance
 principles:
   - relax
   - center

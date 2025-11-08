@@ -3,7 +3,7 @@ layout: insight
 title: "FlowOps: Continuous Reconciliation in a Networked World"
 title_mark: Continuous Reconciliation
 published_date: 2025-10-30
-refactored_date: 2025-11-02
+refactored_date: 2025-11-07
 authors:
   - michael-basil
 forms: 
@@ -12,6 +12,8 @@ forms:
   - stillness-reflection
   - threshold
   - revealed-preference-reflection
+  - stance
+  - martial-attitude
 principles:
   - relax
   - center
