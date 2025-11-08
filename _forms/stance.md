@@ -20,7 +20,7 @@ You resonate/vibe with the people in the group and overall field, truely present
 
 ## Implementation
 
-You first label your own and your conversational partners FEBI™ energies and positions on the Map of Consciousness from your own perspective (not to mind read or impose, rather to have a context from which to calibrate from). Once you understand your own and your conversational partner's Stance tendencies, you adjust your own FEBI™ energy and position on the Map of Consciousness through connecting with them without being consumed by their energy, so that you introduce through invitation mutually beneficial and well timed [thresholds](../threshold/). Sometimes this shift may be into Driver other times into Visionary for example, so it isn't always "soft" and "passive", but is harmonious by intention.
+You first label your own and your conversational partners FEBI™ energies and positions on the Map of Consciousness from your own perspective (not to mind read or impose, rather to have a context from which to calibrate from). Once you understand your own and your conversational partner's Stance tendencies, you adjust your own FEBI™ energy and position on the Map of Consciousness through connecting with them without being consumed by their energy, so that you introduce through invitation mutually beneficial and well timed [Thresholds](../threshold/). Sometimes this shift may be into Driver other times into Visionary for example, so it isn't always "soft" and "passive", but is harmonious by intention.
 
 ## Inspiration
 
