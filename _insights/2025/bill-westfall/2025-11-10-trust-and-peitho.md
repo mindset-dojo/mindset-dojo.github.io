@@ -2,8 +2,8 @@
 layout: insight
 title: "Trust and the myth of Peithō"
 title_mark: Trust
-published_date: 2025-11-10
-refactored_date: 2025-11-10
+published_date: 2025-11-09
+refactored_date: 2025-11-08
 authors:
   - bill-westfall
 forms:
