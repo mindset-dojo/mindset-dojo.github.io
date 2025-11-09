@@ -141,13 +141,13 @@ sections:
       label: "Leadership Designations"
       items:
         - label: Senpai
-          intentions: 
+          intentions:
             - label: Model and enhance training among emerging leaders
             - label: Join Mat sessions regularly, lead periodically
             - label: Create and share Insights regularly, guiding earlier learners
             - label: Blue Level+
         - label: Sensei
-          intentions: 
+          intentions:
             - label: Model and guide leadership throughout the community
             - label: Lead Mat sessions regularly
             - label: Create and share Insights regularly, guiding growing leaders
