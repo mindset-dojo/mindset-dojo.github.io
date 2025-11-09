@@ -15,8 +15,6 @@ Four Energy Reflection is the entry form for Mindset Dojo training — an inner 
 
 This form introduces the Four Energy Patterns (FEBI™ - Driver, Organizer, Collaborator, Visionary) as living expressions of focus, structure, relationship, and possibility. By seeing and naming our patterns, we begin to train choice — moving from habit to authorship.
 
----
-
 ## Experience
 
 Across this process you will:
@@ -29,8 +27,6 @@ Across this process you will:
 
 Each published reflection becomes part of the open-source living field of practice.
 
----
-
 ## Implementation
 
 1. Preparation (10 min) — Set a calm space; review the intention to observe, not judge.  
@@ -40,12 +36,7 @@ Each published reflection becomes part of the open-source living field of practi
 5. Integration (30-60 min) — Write a brief reflection or fable capturing new awareness and next-practice intention.  
 6. Optional Follow-On (Flexible) — Apply learnings through [Mat](../mat/) practice, journaling, or other Mindset Dojo form work.
 
----
-
 ## Inspiration
 
 - [FEBI™ Pattern Framework](https://zenleader.global/resources/febi-assessment)
 - [Institute for Zen Leadership](https://zenleader.global)
-
----
-
