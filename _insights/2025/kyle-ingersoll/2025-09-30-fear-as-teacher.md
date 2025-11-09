@@ -14,11 +14,6 @@ forms:
   - threshold
   - revealed-preference-reflection
   - stance
-principles:
-  - relax
-  - center
-  - meet
-  - resonate
 excerpt: "How fear becomes a teacher and what its shadow reveals about presence and response."
 ---
 

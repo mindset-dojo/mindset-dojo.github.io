@@ -12,11 +12,6 @@ forms:
   - revealed-preference-reflection
   - stance
   - martial-attitude
-principles:
-  - relax
-  - center
-  - meet
-  - resonate
 excerpt: "When resonance fails and words no longer reach, the true martial art is to wield even one’s shadow with clarity — using force not to conquer, but to protect the peace that presence built."
 ---
 

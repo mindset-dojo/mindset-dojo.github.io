@@ -17,14 +17,6 @@ layout: post
 {% endfor %}
 
 
-{% if page.principles %}
-  {%- assign principles_groups = "" | split: "|" -%}
-  {%- assign principles_groups = principles_groups | push: "program" -%}
-  
-  {% include sections/principles.html section=section principles_title="Related Principles" page_data=site.data.sections.principles principles=page.principles principles_groups=principles_groups %}
-  <hr>
-{% endif %}
-
 {% if page.forms %}
   <h2>Related Forms</h2>
 

@@ -14,11 +14,6 @@ forms:
   - integration-under-fire
   - stance
   - martial-attitude
-principles:
-  - relax
-  - center
-  - meet
-  - resonate
 excerpt: "During a timed council trial, a warrior moves through Driver, Organizer, Collaborator, and Visionary stances to create alignment within the first ninety seconds."
 ---
 
