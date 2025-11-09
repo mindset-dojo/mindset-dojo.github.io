@@ -105,7 +105,7 @@ sections:
             - label: Mat – Visionary
               url: /forms/mat/
             - label: Small Group Randori – Visionary
-              url: /forms/randroi/
+              url: /forms/randori/
         - color: red
           label: 1st Kyu
           level: -1
@@ -120,7 +120,7 @@ sections:
             - label: Mat – Integration Under Fire
               url: /forms/mat/
             - label: Small Group Randori – Integration Under Fire
-              url: /forms/randroi/
+              url: /forms/randori/
             - label: MetaShift Community Demonstration
               url: /forms/metashift-community-demonstration/
         - color: black
