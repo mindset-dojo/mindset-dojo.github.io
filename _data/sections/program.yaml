@@ -29,6 +29,8 @@ sections:
               url: /forms/kohai/
             - label: Stillness Contemplation
               url: /forms/stillness-contemplation/
+            - label: Four Energy Reflection
+              url: /forms/four-energy-reflection/
             - label: Four Element Sensei
               url: /forms/four-element-sensei/
         - color: yellow
