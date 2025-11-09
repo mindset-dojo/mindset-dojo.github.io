@@ -3,6 +3,16 @@ mantra: "Don't Resist. Resonate."
 mantra_mark: "Resonate."
 description: "A layered training journey—presence, nervous-system skill, and conversational leadership applied in real contexts."
 sections:
+  - type: text
+    data:
+      label: "At the Threshold"
+      items:
+        - "Training begins with contact — not concept."
+        - "Orient to the field, where principles set the tone for practice."
+        - "Each level is a threshold, not a rank — a way of deepening presence."
+        - "Leadership designations steward the rhythm and keep the field alive."
+        - "Before entering Orientation, reach out to a Cultivator for context."
+        - "Human connection is the first threshold."
   - type: principles
     data:
       principles_title: "Core Principles"
