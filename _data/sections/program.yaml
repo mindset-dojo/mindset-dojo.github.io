@@ -66,87 +66,63 @@ sections:
         - color: green
           label: 5th Kyu
           level: -5
-          intention: Perception
-          edge: Reflect on a spirited conversation from multiple points of view
+          intention: Driver
+          edge: Train decisiveness and healthy assertiveness through embodied practice
           flows:
-            - label: From Explorer to Cultivator
-              url: /insights/from-explorer-to-cultivator/
-            - label: Zen Toolkit - Two Sides
+            - label: Zen Toolkit – Two Sides
               url: https://vimeo.com/944663134/d4f1c4f333
-            - label: Negotiation 9™ Move - Calibrated Questions
-              url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
-            - label: Negotiation 9™ Move - Dynamic Silence
-              url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
-            - label: The Way of Paradox
-              url: /insights/way-of-paradox/
             - label: 5 minute Zazen by yourself
               url: /forms/zazen/
+            - label: Mat – Driver
+              url: /forms/mat/
+            - label: Arena – Driver
+              url: /forms/arena/
         - color: blue
           label: 4th Kyu
           level: -4
-          intention: Listening
-          edge: Listen deeply with fresh ears and reflect back what you hear
+          intention: Organizer
+          edge: Train steadiness and structure under pressure
           flows:
-            - label: Conversation as Code
-              url: /insights/conversation-as-code/
-            - label: Zen Toolkit - Three Centers
+            - label: Zen Toolkit – Three Centers
               url: https://vimeo.com/944672806/e099593826
-            - label: Negotiation 9™ Move - Labels
-              url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
-            - label: Negotiation 9™ Move - Mirrors
-              url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
-            - label: Revealed Preference Reflection
-              url: /forms/revealed-preference-reflection/
-            - label: Online Introduction to Zazen at Chosei Zen
-              url: https://www.choseizen.org/online-intro-to-zazen
-            - label: Senpai
-              url: /forms/senpai/
             - label: 10 minute Zazen with Jiki
               url: /forms/zazen/
+            - label: Mat – Driver
+              url: /forms/mat/
+            - label: Arena – Organizer
+              url: /forms/arena/
         - color: purple
           label: 3rd Kyu
           level: -3
-          intention: Presence
-          edge: Apply MetaShift Forms live during a spirited conversation
+          intention: Collaborator
+          edge: Train relational presence and mutual attunement
           flows:
-            - label: Presence, Performance, and the Politics of Attention
-              url: /insights/politics-of-attention/
-            - label: Integration Under Fire
-              url: /forms/integration-under-fire/
-            - label: Zen Toolkit - Four Patterns
+            - label: Zen Toolkit – Four Patterns
               url: https://vimeo.com/944675826/c57a7ce142
-            - label: Stance
-              url: /forms/stance/
-            - label: The Fable of the First Ninety Seconds
-              url: /insights/fable-of-the-first-ninety-seconds/
-            - label: The Art of the First Ninety Seconds
-              url: /insights/art-of-the-first-ninety-seconds/
-            - label: Negotiation 9™ Move - Paraphrasing
-              url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
-            - label: Negotiation 9™ Move - Summary
-              url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
-            - label: "Houston, We Have an Attitude"
-              url: /insights/houston-attitude/
             - label: 10 minute Zazen by yourself
               url: /forms/zazen/
+            - label: Integration Under Fire
+              url: /forms/integration-under-fire/
+            - label: Mat – Collaborator
+              url: /forms/mat/
+            - label: Arena – Collaborator
+              url: /forms/arena/
         - color: brown
           label: 2nd Kyu
           level: -2
-          intention: Shadow
-          edge: Demonstrate MetaShift Forms in a live Circle
+          intention: Visionary
+          edge: Train intuitive spaciousness and integrative awareness
           flows:
-            - label: "Self-Evolution Is Socially Annoying"
-              url: /insights/self-evolution-is-socially-annoying/
-            - label: Negotiation 9™ Move - “I” Messages
-              url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
-            - label: Negotiation 9™ Move - Encouragers
-              url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
-            - label: Never Split the Difference - Negotiating As If Your Life Depended On It
-              url: https://www.amazon.com/Never-Split-Difference-Negotiating-Depended/dp/0062407805
-            - label: 15 minute Zazen with Jiki
-              url: /forms/zazen/
+            - label: Stillness Contemplation
+              url: /forms/stillness-contemplation/
             - label: Zen Leader Off the Cushion
               url: https://zenleader.global/events
+            - label: 15 minute Zazen with Jiki
+              url: /forms/zazen/
+            - label: Mat – Visionary
+              url: /forms/mat/
+            - label: Arena – Visionary
+              url: /forms/arena/
         - color: red
           label: 1st Kyu
           level: -1
