@@ -13,7 +13,7 @@ excerpt: "The love child of Elemental FEBI™, 4 Patterns, and Simon Says."
 
 ## Intention
 
-The love child of Elemental FEBI™, Four Patterns, and Simon Says. Meant to integrate both left and right brain mode thinking into the body's nervous system. This allows one to embody energy agility through practicing the Four Patterns through motion.
+The love child of Elemental FEBI™, [Four Patterns](../four-patterns/), and Simon Says. Meant to integrate both left and right brain mode thinking into the body's nervous system. This allows one to embody energy agility through practicing the Four Patterns through motion.
 
 ## Experience
 
