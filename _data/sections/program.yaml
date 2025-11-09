@@ -61,8 +61,8 @@ sections:
               url: /forms/zazen/
             - label: Mat – Driver
               url: /forms/mat/
-            - label: Arena – Driver
-              url: /forms/arena/
+            - label: Dyad Randori – Driver
+              url: /forms/randori/
         - color: blue
           label: 4th Kyu
           level: -4
@@ -74,8 +74,8 @@ sections:
               url: /forms/zazen/
             - label: Mat – Organizer
               url: /forms/mat/
-            - label: Arena – Organizer
-              url: /forms/arena/
+            - label: Triad Randori – Organizer
+              url: /forms/randori/
             - label: Senpai
               url: /forms/senpai/
         - color: purple
@@ -89,8 +89,8 @@ sections:
               url: /forms/zazen/
             - label: Mat – Collaborator
               url: /forms/mat/
-            - label: Arena – Collaborator
-              url: /forms/arena/
+            - label: Small Group Randori – Collaborator
+              url: /forms/randori/
         - color: brown
           label: 2nd Kyu
           level: -2
@@ -102,12 +102,12 @@ sections:
               url: /forms/zazen/
             - label: Mat – Visionary
               url: /forms/mat/
-            - label: Arena – Visionary
-              url: /forms/arena/
+            - label: Small Group Randori – Visionary
+              url: /forms/randroi/
         - color: red
           label: 1st Kyu
           level: -1
-          intention: Resonance
+          intention: Integration
           flows:
             - label: Resonate - Zen and the Way of Making a Difference
               url: https://www.choseizen.org/store/p/resonate
@@ -117,8 +117,8 @@ sections:
               url: /forms/integration-under-fire/
             - label: Mat – Integration Under Fire
               url: /forms/mat/
-            - label: Arena – Integration Under Fire
-              url: /forms/arena/
+            - label: Small Randori – Integration Under Fire
+              url: /forms/randroi/
             - label: MetaShift Community Demonstration
               url: /forms/metashift-community-demonstration/
         - color: black
@@ -130,12 +130,12 @@ sections:
               url: /forms/zazen/
             - label: Martial Attitude
               url: /forms/martial-attitude/
-            - label: Mat – Conversational Randori
+            - label: Integration Under Fire
+              url: /forms/integration-under-fire/
+            - label: Mat – Integration Under Fire
               url: /forms/mat/
-            - label: Arena – Conversational Randori
-              url: /forms/arena/
-            - label: Sensei
-              url: /forms/sensei/
+            - label: Full Circle Randori – Integration Under Fire
+              url: /forms/randori/
   - type: designations
     data:
       label: "Leadership Designations"
@@ -155,7 +155,7 @@ sections:
   - type: authors
     data:
       leadership_flow:
-        label: "⛩️💫 Guides"
+        label: "⛩️💫 Cultivators"
         designation_type: program
         limit: 16
   - type: ctas
