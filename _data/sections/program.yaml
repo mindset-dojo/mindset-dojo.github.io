@@ -117,7 +117,7 @@ sections:
               url: /forms/integration-under-fire/
             - label: Mat – Integration Under Fire
               url: /forms/mat/
-            - label: Small Randori – Integration Under Fire
+            - label: Small Group Randori – Integration Under Fire
               url: /forms/randroi/
             - label: MetaShift Community Demonstration
               url: /forms/metashift-community-demonstration/
@@ -130,11 +130,9 @@ sections:
               url: /forms/zazen/
             - label: Martial Attitude
               url: /forms/martial-attitude/
-            - label: Integration Under Fire
-              url: /forms/integration-under-fire/
-            - label: Mat – Integration Under Fire
+            - label: Mat – Martial Attitude
               url: /forms/mat/
-            - label: Full Circle Randori – Integration Under Fire
+            - label: Full Circle Randori
               url: /forms/randori/
   - type: designations
     data:
