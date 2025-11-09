@@ -22,7 +22,7 @@ Across formats—conversation drills, scenario play, quiet presence, or group fl
 - Recognize your default stance and its energetic signature.  
 - Shift intentionally among energies—cut (Driver), stabilize (Organizer), harmonize (Collaborator), expand (Visionary).  
 - Transition fluidly as conditions change, maintaining breath, tone, and Ki extension.  
-- Integrate by capturing a brief reflection for the Book of Shadow Integrations.
+- Integrate by capturing a brief reflection for the Open Source Mindset Dojo book.
 
 Each Randori adapts to the people present and the energy at hand.
 
