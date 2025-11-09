@@ -21,10 +21,6 @@ sections:
           intention: Orientation
           edge: Four Patterns Reflection
           flows:
-            - label: "Don't Train, Complain...?"
-              url: /insights/dont-train-complain/
-            - label: The Technology of Self-Authorship
-              url: /insights/technology-of-self-authorship/
             - label: Threshold
               url: /forms/threshold/
             - label: Dojo
@@ -39,16 +35,12 @@ sections:
               url: /forms/stillness-contemplation/
             - label: Four Element Sensei
               url: /forms/four-element-sensei/
-            - label: "Feedback Fields: Learning to Ride Together"
-              url: /insights/feedback-as-fields/
         - color: yellow
           label: 6th Kyu
           level: -6
           intention: Centering
           edge: Meditate until a spirited conversation makes sense and share insights
           flows:
-            - label: A Fable on Opposition
-              url: /insights/fable-on-opposition/
             - label: Zen Toolkit - One Breath
               url: https://vimeo.com/944618879/47e96945a4
             - label: Tone
@@ -127,16 +119,13 @@ sections:
           intention: Resonance
           edge: Lead a Mat Breakout Session integrating MetaShift Forms in live Circle
           flows:
-            - label: Making Hara Breathing Automatic
-              url: https://youtu.be/UVz1E_cKxp4?si=hl5c7qB4iR6R7ZSs
-            - label: The Way of Plus Ki
-              url: /insights/way-of-plus-ki/
             - label: Resonate - Zen and the Way of Making a Difference
               url: https://www.choseizen.org/store/p/resonate
             - label: 15 minute Zazen by yourself
               url: /forms/zazen/
             - label: Integration Under Fire
               url: /forms/integration-under-fire/
+            - label: Mat – Integration Under Fire
               url: /forms/mat/
             - label: Arena – Integration Under Fire
               url: /forms/arena/
@@ -148,16 +137,14 @@ sections:
           intention: Wu-Wei
           edge: Lead a Mindset Dojo MetaShift Method demonstration in a live Circle
           flows:
-            - label: Martial Attitude
-              url: /forms/martial-attitude/
-            - label: Self-Evolution of Emotional Extraction
-              url: /insights/self-evolution-of-emotional-extraction/
             - label: 30 minute Zazen with Chosei Zen Virtual Dojo
               url: /forms/zazen/
-            - label: Cultivating a Threshold-Based Authorship Network
-              url: /insights/cultivating-a-threshold-based-authorship-network/
-            - label: Two Sides Integrative Randori with Beyond the Black Belt Circle
-              url: https://vimeo.com/944663134/d4f1c4f333
+            - label: Martial Attitude
+              url: /forms/martial-attitude/
+            - label: Mat – Conversational Randori
+              url: /forms/mat/
+            - label: Arena – Conversational Randori
+              url: /forms/arena/
             - label: Sensei
               url: /forms/sensei/
   - type: designations
