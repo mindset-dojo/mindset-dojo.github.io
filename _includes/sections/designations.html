@@ -3,21 +3,16 @@ designations section
 
 Expects (section.data):
   - label            (optional)  -> fallback: data.context.designations_label -> "Leadership Designations"
-  - intention_label  (optional)  -> fallback: data.context.designations_intention_label -> "Intention"
-  - aspects_label    (optional)  -> fallback: data.context.designations_aspects_label -> "Aspects"
   - items            (optional)  -> fallback: data.designations
 
 Each designation item shape:
   - label: string
-  - intention: string (optional)
-  - aspects: array of {label:string} OR plain strings
+  - intensions: array of {label:string}
 {%- endcomment -%}
 
 {%- assign D = section.data -%}
 {%- assign dz_items   = D.items | default: data.designations -%}
 {%- assign dz_label   = D.label | default: data.context.designations_label | default: 'Leadership Designations' -%}
-{%- assign dz_intent  = D.intention_label | default: data.context.designations_intention_label | default: 'Intention' -%}
-{%- assign dz_aspects = D.aspects_label | default: data.context.designations_aspects_label | default: 'Aspects' -%}
 
 {%- if dz_items and dz_items.size > 0 -%}
 <section class="md-flow">
@@ -27,18 +22,9 @@ Each designation item shape:
     <br>
     <h3>{{ designation.label }}</h3>
 
-    {% if designation.intention %}
-      <p><strong>{{ dz_intent }}</strong></p>
-      <p>{{ designation.intention }}</p>
-    {% endif %}
-
-    {% if designation.aspects and designation.aspects.size > 0 %}
-      <p><strong>{{ dz_aspects }}</strong></p>
-      {% for item in designation.aspects %}
-        {%- assign aspect_text = item.label | default: item -%}
-        <p>{{ aspect_text }}</p>
-      {% endfor %}
-    {% endif %}
+    {% for item in designation.intentions %}
+      <p>{{ item.label  }}</p>
+    {% endfor %}
   {% endfor %}
 </section>
 {%- endif -%}

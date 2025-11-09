@@ -35,18 +35,16 @@ sections:
   - type: designations
     data:
       label: "Leadership Designations"
-      intention_label: "Intention"
-      aspects_label: "Aspects"
       items:
         - label: "(Domain-Focused) Cultivator"
-          intention: "Strengthen, clarify, and amplify the mission"
-          aspects:
+          intentions: 
+            - label: "Strengthen, clarify, and amplify the mission"
             - label: "Join Cultivator Circle regularly"
             - label: "Contribute expertise in a mutually beneficial way"
             - label: "Green Level+, vouched for by existing Cultivator(s)"
         - label: "(Organizationally-Focused) Cultivator"
-          intention: "Guide, harmonize, and model training authorship"
-          aspects:
+          intentions: 
+            - label: "Guide, harmonize, and model training authorship"
             - label: "Lead Cultivator Circle sessions regularly"
             - label: "Cultivate project culture and brand coherence"
             - label: "Black Level, vouched for by existing Cultivator(s)"

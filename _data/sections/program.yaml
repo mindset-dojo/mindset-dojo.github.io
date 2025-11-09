@@ -11,15 +11,12 @@ sections:
   - type: levels
     data:
       label: "Training Levels"
-      intention_label: "Intention"
-      edge_label: "Edge"
       flows_label: "Flows"
       items:
         - color: gray
           label: 7th Kyu
           level: -7
           intention: Orientation
-          edge: Four Patterns Reflection
           flows:
             - label: Threshold
               url: /forms/threshold/
@@ -39,7 +36,6 @@ sections:
           label: 6th Kyu
           level: -6
           intention: Centering
-          edge: Meditate until a spirited conversation makes sense and share insights
           flows:
             - label: Zen Toolkit - One Breath
               url: https://vimeo.com/944618879/47e96945a4
@@ -59,7 +55,6 @@ sections:
           label: 5th Kyu
           level: -5
           intention: Driver
-          edge: Train until healthy assertiveness can emerge
           flows:
             - label: Zen Toolkit – Two Sides
               url: https://vimeo.com/944663134/d4f1c4f333
@@ -73,7 +68,6 @@ sections:
           label: 4th Kyu
           level: -4
           intention: Organizer
-          edge: Train until structured steadiness can emerge
           flows:
             - label: Zen Toolkit – Three Centers
               url: https://vimeo.com/944672806/e099593826
@@ -89,7 +83,6 @@ sections:
           label: 3rd Kyu
           level: -3
           intention: Collaborator
-          edge: Train until relational presence can emerge
           flows:
             - label: Zen Toolkit – Four Patterns
               url: https://vimeo.com/944675826/c57a7ce142
@@ -103,7 +96,6 @@ sections:
           label: 2nd Kyu
           level: -2
           intention: Visionary
-          edge: Train until intuitive spaciousness can emerge
           flows:
             - label: Zen Leader Off the Cushion
               url: https://zenleader.global/events
@@ -117,7 +109,6 @@ sections:
           label: 1st Kyu
           level: -1
           intention: Resonance
-          edge: Lead a Mat Breakout Session integrating MetaShift Forms in live Circle
           flows:
             - label: Resonate - Zen and the Way of Making a Difference
               url: https://www.choseizen.org/store/p/resonate
@@ -135,7 +126,6 @@ sections:
           label: Shodan
           level: 1
           intention: Wu-Wei
-          edge: Lead a Mindset Dojo MetaShift Method demonstration in a live Circle
           flows:
             - label: 30 minute Zazen with Chosei Zen Virtual Dojo
               url: /forms/zazen/
@@ -150,18 +140,16 @@ sections:
   - type: designations
     data:
       label: "Leadership Designations"
-      intention_label: "Intention"
-      aspects_label: "Aspects"
       items:
         - label: Senpai
-          intention: Model and enhance training among emerging leaders
-          aspects:
+          intentions: 
+            - label: Model and enhance training among emerging leaders
             - label: Join Mat sessions regularly, lead periodically
             - label: Create and share Insights regularly, guiding earlier learners
             - label: Blue Level+
         - label: Sensei
-          intention: Model and guide leadership throughout the community
-          aspects:
+          intentions: 
+            - label: Model and guide leadership throughout the community
             - label: Lead Mat sessions regularly
             - label: Create and share Insights regularly, guiding growing leaders
             - label: Black Level, Zen Leadership Instructor designation
