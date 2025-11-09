@@ -11,7 +11,6 @@ sections:
   - type: levels
     data:
       label: "Training Levels"
-      flows_label: "Flows"
       items:
         - color: gray
           label: 7th Kyu

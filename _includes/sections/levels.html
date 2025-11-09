@@ -3,7 +3,6 @@ levels section
 
 section.data expects:
   - label:            string            e.g., "Levels"
-  - flows_label:      string            e.g., "Flows"
   - items:            array of level objects
 
 Each level item shape:
@@ -30,26 +29,23 @@ Each level item shape:
 
     <p><strong>{{ lv.intention }}</strong></p>
 
-    {%- if D.flows_label and lv.flows and lv.flows.size > 0 -%}
-      <p><strong>{{ D.flows_label }}</strong></p>
-      <ul>
-        {%- for f in lv.flows -%}
-          {%- if f.url | slice: 0, 1 == "/" -%}
-            <li>
-              <a href="{{ f.url | relative_url }}">
-                {{ f.label }}
-              </a>
-            </li>
-          {%- else -%}
-            <li>
-              <a href="{{ f.url }}">
-                {{ f.label }}
-              </a>
-            </li>
-          {%- endif -%}
-        {%- endfor -%}
-      </ul>
-    {%- endif -%}
+    <ul>
+      {%- for f in lv.flows -%}
+        {%- if f.url | slice: 0, 1 == "/" -%}
+          <li>
+            <a href="{{ f.url | relative_url }}">
+              {{ f.label }}
+            </a>
+          </li>
+        {%- else -%}
+          <li>
+            <a href="{{ f.url }}">
+              {{ f.label }}
+            </a>
+          </li>
+        {%- endif -%}
+      {%- endfor -%}
+    </ul>
   {%- endfor -%}
 </section>
 {%- endif -%}
