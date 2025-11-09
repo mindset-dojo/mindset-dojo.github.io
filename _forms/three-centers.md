@@ -1,7 +1,7 @@
 ---
 layout: form
 title: Three Centers
-title_mark: Three
+title_mark: Centers
 published_date: 2025-11-09
 refactored_date: 2025-11-09
 authors:

@@ -1,7 +1,7 @@
 ---
 layout: form
 title: Two Sides
-title_mark: Two
+title_mark: Sides
 published_date: 2025-11-09
 refactored_date: 2025-11-09
 authors:
