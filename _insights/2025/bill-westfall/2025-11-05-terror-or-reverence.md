@@ -19,7 +19,7 @@ principles:
 excerpt: "Reflection on the 'Dojo' Mindset form."
 ---
 
-Dojo is introduced in the gray level training from the Mindset Dojo. While this form describes the overall Dojo concept, it also references fear and 'fearless' concepts at its core. I wanted to dive deeper into the concept of 'fear' as it is not only seen in the Dojo form, but is referenced in many Mindset forms and insights.
+[Dojo](../../forms/dojo/) is introduced in the gray level training from the Mindset Dojo. While this form describes the overall Dojo concept, it also references fear and 'fearless' concepts at its core. I wanted to dive deeper into the concept of 'fear' as it is not only seen in the Dojo form, but is referenced in many Mindset forms and insights.
 
 Fear is a basic, primal emotion that serves as a protective mechanism alerting us to the presence of danger or threat, whether physical or psychological. Psychologically, fear is acute and specific to a distinct threat, resolving once the danger passes.
 
