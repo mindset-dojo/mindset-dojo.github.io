@@ -6,17 +6,6 @@ sections:
       field: about
   - type: collection-stream
     data:
-      label: "Forms"
-      content: "Cultural contributions"
-      collection: forms
-      sort_by: title
-      reverse: false
-      excerpt_length: 220
-      filter_key: authors
-      filter_values:
-        - "__PAGE_SLUG__"
-  - type: collection-stream
-    data:
       label: "Insights"
       content: "Training reflections"
       collection: insights
@@ -24,6 +13,19 @@ sections:
       reverse: true
       excerpt_length: 220
       post_display_limit: 5
+      show_all_toggle: true
+      filter_key: authors
+      filter_values:
+        - "__PAGE_SLUG__"
+  - type: collection-stream
+    data:
+      label: "Forms"
+      content: "Cultural contributions"
+      collection: forms
+      sort_by: title
+      reverse: false
+      excerpt_length: 220
+      post_display_limit: 3
       show_all_toggle: true
       filter_key: authors
       filter_values:
