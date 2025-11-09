@@ -87,7 +87,7 @@ sections:
               url: https://vimeo.com/944672806/e099593826
             - label: 10 minute Zazen with Jiki
               url: /forms/zazen/
-            - label: Mat – Driver
+            - label: Mat – Organizer
               url: /forms/mat/
             - label: Arena – Organizer
               url: /forms/arena/
@@ -101,8 +101,6 @@ sections:
               url: https://vimeo.com/944675826/c57a7ce142
             - label: 10 minute Zazen by yourself
               url: /forms/zazen/
-            - label: Integration Under Fire
-              url: /forms/integration-under-fire/
             - label: Mat – Collaborator
               url: /forms/mat/
             - label: Arena – Collaborator
@@ -113,12 +111,12 @@ sections:
           intention: Visionary
           edge: Train intuitive spaciousness and integrative awareness
           flows:
-            - label: Stillness Contemplation
-              url: /forms/stillness-contemplation/
             - label: Zen Leader Off the Cushion
               url: https://zenleader.global/events
             - label: 15 minute Zazen with Jiki
               url: /forms/zazen/
+            - label: Stillness Contemplation
+              url: /forms/stillness-contemplation/
             - label: Mat – Visionary
               url: /forms/mat/
             - label: Arena – Visionary
@@ -129,8 +127,6 @@ sections:
           intention: Resonance
           edge: Lead a Mat Breakout Session integrating MetaShift Forms in live Circle
           flows:
-            - label: "FlowOps: Continuous Reconciliation in a Networked World"
-              url: /insights/continuous-reconciliation/
             - label: Making Hara Breathing Automatic
               url: https://youtu.be/UVz1E_cKxp4?si=hl5c7qB4iR6R7ZSs
             - label: The Way of Plus Ki
@@ -139,6 +135,11 @@ sections:
               url: https://www.choseizen.org/store/p/resonate
             - label: 15 minute Zazen by yourself
               url: /forms/zazen/
+            - label: Integration Under Fire
+              url: /forms/integration-under-fire/
+              url: /forms/mat/
+            - label: Arena – Integration Under Fire
+              url: /forms/arena/
             - label: MetaShift Community Demonstration
               url: /forms/metashift-community-demonstration/
         - color: black
