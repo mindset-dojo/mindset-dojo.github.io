@@ -27,4 +27,4 @@ One deeply breaths through their belly as slowly as possible. Repeat this breath
 - [Institute for Zen Leadership](https://zenleader.global)
 - [Zen Toolkit - One Breath](https://vimeo.com/944618879/47e96945a4)
 - [Resonate by Ginny Whitelaw](https://www.choseizen.org/store/p/resonate)
-- [Chosei Zen](https://www.choseizen.org/)  
+- [Chosei Zen](https://www.choseizen.org/)
