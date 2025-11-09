@@ -83,6 +83,8 @@ sections:
               url: /forms/mat/
             - label: Arena – Organizer
               url: /forms/arena/
+            - label: Senpai
+              url: /forms/senpai/
         - color: purple
           label: 3rd Kyu
           level: -3
