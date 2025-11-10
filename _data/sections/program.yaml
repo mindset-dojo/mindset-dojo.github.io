@@ -103,7 +103,7 @@ sections:
               url: /forms/zazen/
             - label: Mat – Collaborator
               url: /forms/mat/
-            - label: Small Group Randori – Collaborator
+            - label: Group Circle Randori – Collaborator
               url: /forms/randori/
         - color: brown
           label: 2nd Kyu
@@ -116,7 +116,7 @@ sections:
               url: /forms/zazen/
             - label: Mat – Visionary
               url: /forms/mat/
-            - label: Small Group Randori – Visionary
+            - label: Group Randori – Visionary
               url: /forms/randori/
         - color: red
           label: 1st Kyu
@@ -131,7 +131,7 @@ sections:
               url: /forms/integration-under-fire/
             - label: Mat – Integration Under Fire
               url: /forms/mat/
-            - label: Small Group Randori – Integration Under Fire
+            - label: Group Circle Randori – Integration Under Fire
               url: /forms/randori/
             - label: MetaShift Community Demonstration
               url: /forms/metashift-community-demonstration/
@@ -148,7 +148,7 @@ sections:
               url: /forms/meta/
             - label: Mat – Meta & Martial Attitude
               url: /forms/mat/
-            - label: Full Circle Randori
+            - label: Real-Life Randori
               url: /forms/randori/
   - type: designations
     data:
