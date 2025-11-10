@@ -22,6 +22,8 @@ forms:
   - zazen
   - four-patterns
   - two-sides
+  - high-presence-networking
+  - resonate
 excerpt: "At ZLOTC, I discovered that every act of teaching is also an act of learning — when we reflect, allow, and connect, Ki extends, and the circle becomes a spiral."
 ---
 
