@@ -12,6 +12,8 @@ forms:
   - threshold
   - revealed-preference-reflection
   - stance
+  - one-breath
+  - three-centers
 principles:
   - relax
   - center

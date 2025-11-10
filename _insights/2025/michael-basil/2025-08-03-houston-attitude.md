@@ -11,6 +11,9 @@ forms:
   - sensei
   - stance
   - martial-attitude
+  - one-breath
+  - two-sides
+  - four-patterns
 principles:
   - relax
   - center

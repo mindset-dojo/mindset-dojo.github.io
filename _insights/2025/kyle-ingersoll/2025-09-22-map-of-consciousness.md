@@ -11,6 +11,10 @@ forms:
   - three-question-reflection
   - threshold
   - stance
+  - one-breath
+  - two-sides
+  - three-centers
+  - four-patterns
 principles:
   - relax
   - center

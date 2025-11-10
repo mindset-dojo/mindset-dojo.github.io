@@ -11,6 +11,8 @@ forms:
   - sensei
   - dojo
   - stance
+  - two-sides
+  - three-centers
 principles:
   - relax
   - center

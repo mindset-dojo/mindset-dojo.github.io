@@ -14,6 +14,9 @@ forms:
   - integration-under-fire
   - stance
   - martial-attitude
+  - two-sides
+  - three-centers
+  - four-patterns
 principles:
   - relax
   - center

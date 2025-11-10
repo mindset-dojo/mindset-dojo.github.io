@@ -9,6 +9,7 @@ forms:
   - integration-under-fire
   - revealed-preference-reflection
   - stance
+  - four-patterns
 principles:
   - relax
   - center

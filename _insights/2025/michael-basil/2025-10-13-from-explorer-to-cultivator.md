@@ -10,6 +10,8 @@ forms:
   - dojo
   - threshold
   - stance
+  - three-centers
+  - four-patterns
 principles:
   - center
   - resonate

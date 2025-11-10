@@ -10,6 +10,8 @@ forms:
   - integration-under-fire
   - threshold
   - stance
+  - two-sides
+  - three-centers
 principles:
   - center
   - meet

@@ -20,6 +20,8 @@ forms:
   - stance
   - martial-attitude
   - zazen
+  - four-patterns
+  - two-sides
 principles:
   - relax
   - center

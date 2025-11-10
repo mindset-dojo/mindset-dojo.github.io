@@ -15,6 +15,10 @@ forms:
   - threshold
   - stance
   - martial-attitude
+  - one-breath
+  - two-sides
+  - three-centers
+  - four-patterns
 principles:
   - relax
   - center

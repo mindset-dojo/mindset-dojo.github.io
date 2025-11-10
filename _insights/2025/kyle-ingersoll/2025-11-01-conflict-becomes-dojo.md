@@ -14,6 +14,9 @@ forms:
   - revealed-preference-reflection
   - stance
   - martial-attitude
+  - one-breath
+  - two-sides
+  - three-centers
 principles:
   - relax
   - center

@@ -15,6 +15,8 @@ forms:
   - threshold
   - stance
   - martial-attitude
+  - two-sides
+  - three-centers
 principles:
   - relax
   - center

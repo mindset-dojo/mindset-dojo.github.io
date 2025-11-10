@@ -11,6 +11,8 @@ forms:
   - integration-under-fire
   - threshold
   - stance
+  - three-centers
+  - four-patterns
 principles:
   - relax
   - center

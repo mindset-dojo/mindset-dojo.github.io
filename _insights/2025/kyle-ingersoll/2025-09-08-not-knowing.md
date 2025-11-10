@@ -11,6 +11,9 @@ forms:
   - mat
   - revealed-preference-reflection
   - stance
+  - one-breath
+  - four-patterns
+  - zazen
 principles:
   - relax
   - center

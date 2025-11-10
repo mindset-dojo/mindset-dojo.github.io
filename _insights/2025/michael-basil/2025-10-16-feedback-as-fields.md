@@ -15,6 +15,9 @@ forms:
   - revealed-preference-reflection
   - stance
   - martial-attitude
+  - two-sides
+  - three-centers
+  - four-patterns
 principles:
   - center
   - resonate

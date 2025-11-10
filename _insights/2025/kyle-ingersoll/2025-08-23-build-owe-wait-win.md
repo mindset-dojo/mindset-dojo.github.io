@@ -9,6 +9,7 @@ forms:
   - integration-under-fire
   - sensei
   - stance
+  - four-patterns
 principles:
   - relax
   - center

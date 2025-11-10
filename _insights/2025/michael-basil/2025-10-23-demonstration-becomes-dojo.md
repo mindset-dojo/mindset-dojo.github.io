@@ -13,6 +13,9 @@ forms:
   - threshold
   - stance
   - zazen
+  - two-sides
+  - three-centers
+  - four-patterns
 principles:
   - relax
   - center

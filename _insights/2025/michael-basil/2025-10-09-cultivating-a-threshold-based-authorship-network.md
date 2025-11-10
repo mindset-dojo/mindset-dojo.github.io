@@ -11,6 +11,8 @@ forms:
   - dojo
   - threshold
   - stance
+  - two-sides
+  - three-centers
 principles:
   - center
   - meet

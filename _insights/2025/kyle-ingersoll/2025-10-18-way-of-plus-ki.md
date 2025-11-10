@@ -10,6 +10,7 @@ forms:
   - dojo
   - sensei
   - stance
+  - four-patterns
 principles:
   - relax
   - resonate

@@ -12,6 +12,8 @@ forms:
   - threshold
   - revealed-preference-reflection
   - stance
+  - four-patterns
+  - three-centers
 principles:
   - relax
   - center
