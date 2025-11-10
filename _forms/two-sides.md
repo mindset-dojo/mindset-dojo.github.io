@@ -20,7 +20,9 @@ You see through the Other's eyes as well as your own, allowing you to truly conn
 
 ## Implementation
 
-Draw a quadrant on a piece of paper. At the same time, get a straight object like your belt or a yardstick and place it on the floor. One side is your Self, the other side is the Other. Upper Quadrant is Virtues, Bottom Quadrant is Concerns. While filling out the paper Quadrants, move accordingly on the floor. When finished, evaluate the Quadrant to see commonalities and differences.
+1. Review [the video](https://vimeo.com/944663134/d4f1c4f333)
+2. See our interpretation below:
+    - Draw a quadrant on a piece of paper. At the same time, get a straight object like your belt or a yardstick and place it on the floor. One side is your Self, the other side is the Other. Upper Quadrant is Virtues, Bottom Quadrant is Concerns. While filling out the paper Quadrants, move accordingly on the floor. When finished, evaluate the Quadrant to see commonalities and differences.
 
 ## Inspirations
 
