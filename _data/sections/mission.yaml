@@ -33,11 +33,6 @@ sections:
         - "Training mindset as a martial art reconditions how we meet life — transforming reaction into rhythm, and pressure into flow."
         - "The training often starts subtle — a conversation that feels less charged, a breath that lands deeper, a bit more room inside a stuck moment — that’s when the practice starts to feel alive, and even fun."
         - "The result is coherence, courage, and the capacity to reclaim your life over time."
-  - type: principles
-    data:
-      principles_title: "Root-Level Principles"
-      principles_groups:
-        - "mission"
   - type: text
     data:
       label: "Training Ground"
