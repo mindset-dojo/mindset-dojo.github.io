@@ -6,7 +6,7 @@ published_date: 2025-11-10
 refactored_date: 2025-11-10
 authors:
   - michael-basil
-excerpt: "Meta is the awareness that emerges through training. It influences the timing, coordination, and integration of all other forms — awakening the inner sensei that learns to guide from wholeness. Informed by [Martial Attitude](../martial-attitude/), Meta learns the rhythm of when to act, when to wait, and when to dissolve."
+excerpt: "Meta is the awareness that emerges through training. It influences the timing, coordination, and integration of all other forms — awakening the inner sensei that learns to guide from wholeness. Informed by Martial Attitude, Meta learns the rhythm of when to act, when to wait, and when to dissolve."
 ---
 
 ## Intention
