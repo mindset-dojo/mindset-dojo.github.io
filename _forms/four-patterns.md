@@ -7,12 +7,12 @@ refactored_date: 2025-11-09
 authors:
   - kyle-ingersoll
   - michael-basil
-excerpt: "Four Patterns is from Zen Toolkit from Institute of Zen Leadership and introduces the archtypical FEBI™ energies (Driver, Organizer, Collaborator, Visionary) into embodied practice through motion."
+excerpt: "Four Patterns is part of the Zen Toolkit from Institute of Zen Leadership and introduces the archtypical FEBI™ energies (Driver, Organizer, Collaborator, Visionary) into embodied practice through motion."
 ---
 
 ## Intention
 
-Four Patterns is from Zen Toolkit from Institute of Zen Leadership and introduces the archtypical FEBI™ energies (Driver, Organizer, Collaborator, Visionary) into embodied practice through motion. Those energies represent common aspects of people's personalities. Through practice, one can tap into those parts of themselves at will.
+Four Patterns is part of the Zen Toolkit from Institute of Zen Leadership and introduces the archtypical FEBI™ energies (Driver, Organizer, Collaborator, Visionary) into embodied practice through motion. Those energies represent common aspects of people's personalities. Through practice, one can tap into those parts of themselves at will.
 
 ## Experience
 
