@@ -12,7 +12,7 @@ excerpt: "Three Centers is part of the Zen Toolkit from Institute of Zen Leaders
 
 ## Intention
 
-Three Centers is part of the Zen Toolkit from Institute of Zen Leadership and aligns your Head, Heart, and Hara so that they communicate properly. It acts as sort of a gut check, and can be done sitting down, standing, or laying on the floor.
+Three Centers is part of the Zen Toolkit from Institute of Zen Leadership and aligns your Head, Heart, and Hara (gut, belly) so that they communicate properly. It acts as sort of a gut check, and can be done sitting down, standing, or laying on the floor.
 
 ## Experience
 
