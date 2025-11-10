@@ -26,7 +26,7 @@ Read slowly. Let the ideas land in your nervous system, not just your intellect.
 
 As you engage [Resonate - Zen and the Way of Making a Difference](https://www.choseizen.org/store/p/resonate), listen for how the material vibrates through you. Where do you tighten? Where do you expand? Notice which pattern leads your response — the Driver that pushes ahead, the Organizer that structures, the Collaborator that harmonizes, the Visionary that imagines. Allow each to be seen without judgment.  
 
-Pause often for [Stillness Contemplation](../stillness-contemplation/) to let awareness settle. Breathe with [One Breath](../one-breath/) to re-center. Sense the relational field with [Two Sides](../two-sides/), and align through [Three Centers](../three-centers/). 
+Pause often for [Stillness Contemplation](../stillness-contemplation/) to let awareness settle. Breathe with [One Breath](../one-breath/) to re-center. Sense the relational field with [Two Sides](../two-sides/), and align through [Three Centers](../three-centers/).
 
 Let *Resonate* become a dojo in text — a living mirror for how energy flows through you.
 
