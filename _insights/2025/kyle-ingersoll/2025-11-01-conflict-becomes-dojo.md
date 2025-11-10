@@ -14,6 +14,9 @@ forms:
   - revealed-preference-reflection
   - stance
   - martial-attitude
+  - one-breath
+  - two-sides
+  - three-centers
 excerpt: | 
   When two people meet in conflict with the intention to learn rather than win, tension becomes the dojo where relationship, awareness, and leadership are forged.
 ---

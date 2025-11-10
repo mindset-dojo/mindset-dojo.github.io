@@ -15,6 +15,9 @@ forms:
   - revealed-preference-reflection
   - stance
   - martial-attitude
+  - two-sides
+  - three-centers
+  - four-patterns
 excerpt: "As Mindset Dojo moves from late-alpha toward beta, feedback becomes our training ground — a way to find balance, alignment, and presence in motion."
 ---
 

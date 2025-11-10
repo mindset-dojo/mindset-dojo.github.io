@@ -15,6 +15,8 @@ forms:
   - threshold
   - stance
   - martial-attitude
+  - two-sides
+  - three-centers
 excerpt: "In the Dojo, leadership is cultivation, not control. Circles replace chains of command. Authorship replaces ownership."
 ---
 

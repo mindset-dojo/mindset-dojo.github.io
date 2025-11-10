@@ -10,6 +10,8 @@ forms:
   - integration-under-fire
   - threshold
   - stance
+  - two-sides
+  - three-centers
 excerpt: "When we turn toward the shadow — fear, anger, ambition, loss — and bring it into awareness, the circle becomes a spiral."
 ---
 

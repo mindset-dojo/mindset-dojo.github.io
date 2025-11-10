@@ -16,6 +16,9 @@ forms:
   - revealed-preference-reflection
   - stance
   - martial-attitude
+  - two-sides
+  - three-centers
+  - four-patterns
 excerpt: >
   Zero-sympathy phasing is not detachment but metabolization—the ability to stay
   fully connected to the emotional field without collapsing into rescue or control.
