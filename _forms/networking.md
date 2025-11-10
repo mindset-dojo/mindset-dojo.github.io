@@ -1,7 +1,7 @@
 ---
 layout: form
-title: "Networking"
-title_mark: Networking
+title: "High Presence Networking"
+title_mark: Presence
 published_date: 2025-11-10
 refactored_date: 2025-11-10
 authors:
