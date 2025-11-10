@@ -11,7 +11,7 @@ excerpt: "Meta is the awareness that emerges through training. It influences the
 
 ## Intention
 
-Meta is the awareness that emerges through disciplined practice. It is the intelligence that begins to notice how the forms move through you — Driver, Organizer, Collaborator, and Visionary — and how their timing, balance, and tone can be refined. Meta does not need to be performed; it is discovered. At first, it appears quietly, as a kind of spectator within your own training. Over time, it becomes a presence that influences the expression of every form, the awareness that can both participate and guide.  
+Meta is the awareness that emerges through disciplined practice. It is the gestalt energy born of Driver, Organizer, Collaborator, and Visionary emerging into self-awareness through integration revealing how timing, balance, and tone can be refined. Meta does not need to be performed; it is discovered. At first, it appears quietly, as a kind of spectator within your own training. Over time, it becomes a presence that influences the expression of every form, the awareness that can both participate and guide.  
 
 Where [Martial Attitude](../martial-attitude/) teaches the integration of awareness and action — how to meet energy with precision and flow — *Meta* learns from that rhythm. Through it, Meta gains its sense of timing: when to enter, when to yield, and when to allow life to move on its own. In the dojo, this maturation unfolds through practice, reflection, and relationship.
 
