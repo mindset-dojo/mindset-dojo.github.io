@@ -6,6 +6,7 @@ published_date: 2025-11-10
 refactored_date: 2025-11-10
 authors:
   - michael-basil
+  - kyle-ingersoll
 excerpt: "A companion training form for reading Resonate - Zen and the Way of Making a Difference by Ginny Whitelaw — deepening embodiment of the Zen Toolkit and FEBI™ patterns through practice, reflection, and resonance. Read it as dojo training, not theory."
 ---
 
@@ -38,7 +39,7 @@ As you work through the book:
 
 2. **Practice the Principles.** Bring each Mindset Dojo principle into lived experience.
 
-3. **Stillness Contemplations.** Pause frequently to digest what’s been felt or learned before turning the page.  
+3. **Stillness Contemplations.** Pause frequently to digest what’s been felt or learned before turning the page. Ask yourself Calibrated Questions (What and How questions) about any stuck points that arise through the reading of the text and make room using Dynamic Silence for the answers.  
 
 4. **Completion Reflection.** When finished, take time for [Three-Question Reflection](../three-question-reflection/):  
    - What became clearer about how I resonate with life and others?  
@@ -53,4 +54,6 @@ Reading *Resonate* is a bridge between insight and embodiment — a way to align
 
 - [Resonate - Zen and the Way of Making a Difference by Ginny Whitelaw](https://www.choseizen.org/store/p/resonate)  
 - [Institute for Zen Leadership](https://zenleader.global)  
-- [Chosei Zen](https://www.choseizen.org/)  
+- [Chosei Zen](https://www.choseizen.org/)
+- [Negotiation 9 Move - Calibrated Questions - Black Swan Group](https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9)
+- [Negotiation 9 Move - Dynamic Silence - Black Swan Group](https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9)  
