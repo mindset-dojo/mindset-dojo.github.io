@@ -12,6 +12,7 @@ forms:
   - stance
   - two-sides
   - three-centers
+  - tone
 excerpt: "When we turn toward the shadow — fear, anger, ambition, loss — and bring it into awareness, the circle becomes a spiral."
 ---
 

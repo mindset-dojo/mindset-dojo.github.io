@@ -13,6 +13,7 @@ forms:
   - threshold
   - revealed-preference-reflection
   - stance
+  - tone
 excerpt: "When code becomes debt, only human guidance can teach AI the Way forward."
 ---
 

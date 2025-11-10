@@ -14,6 +14,7 @@ forms:
   - stance
   - four-patterns
   - three-centers
+  - tone
 excerpt: "Giving without awareness creates imbalance; giving with awareness turns donation into resonance, where both giver and world are enriched."
 ---
 

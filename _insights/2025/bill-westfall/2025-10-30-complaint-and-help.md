@@ -9,6 +9,7 @@ authors:
 forms:
   - stillness-contemplation
   - stance
+  - tone
 excerpt: "Reflection on the 'Don't Train, Complain...?' Mindset Dojo insight."
 ---
 

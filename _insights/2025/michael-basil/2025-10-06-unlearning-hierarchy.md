@@ -17,6 +17,7 @@ forms:
   - martial-attitude
   - two-sides
   - three-centers
+  - tone
 excerpt: "In the Dojo, leadership is cultivation, not control. Circles replace chains of command. Authorship replaces ownership."
 ---
 

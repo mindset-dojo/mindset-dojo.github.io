@@ -15,6 +15,7 @@ forms:
   - two-sides
   - three-centers
   - four-patterns
+  - tone
 excerpt: "When guarantees fade and change becomes constant, presence becomes the most reliable investment."
 ---
 
