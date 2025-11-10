@@ -22,7 +22,7 @@ You relax completely, feeling the Ki (energy flow) through the Three Centers. Th
 
 1. Review [the video](https://vimeo.com/944672806/e099593826).
 2. See our interpretation below:
-    - You make sure your big toes are touching something, timing your movement with the exhale. You have your vision at 180 degrees, and then you do Hara breathing (Belly breathing). Feel the Heart and Hara align with your hands, and once you have a feeling of how they work together while breathing, shift your hands, palms facing forward, to the sides of your head so you can just barely see them on the edge of your 180 degree vision. Once all Three Centers align, then you can go about your day.
+    - You make sure your big toes are touching something, timing your movement with the exhale. You have your vision at 180 degrees, and then you do Hara breathing (Belly breathing). Feel the Heart and Hara align with your hands, and once you have a feeling of how they work together while breathing, shift your hands, palms facing forward, to the sides of your head so you can just barely see them on the edge of your 180 degree vision. Once all Three Centers align, then your priorities become clearer, allowing Visionary to shift into Driver through Organizer. This allows you to go about your day with a sense of purpose and calm awareness.
 
 ## Inspirations
 
