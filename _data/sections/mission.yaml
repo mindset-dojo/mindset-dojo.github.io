@@ -1,8 +1,8 @@
 ---
-rally: Fearless Leadership
+rally: Reclaim Your Life
 mantra: "Don’t Constrain. Train."
 mantra_mark: "Train."
-description: "Training that restores coherence at the root level — integrating mind, body, and voice through embodied awareness. Where practice becomes presence, and presence becomes self-authorship — seriously playful, and playfully serious. It’s not all sunshine and rainbows, but eventually fun once tasted, felt, and digested."
+description: "The Martial Art of Mindset — training that reclaims coherence at the root level by integrating mind, body, and voice through embodied awareness. We teach presence as a martial art: where focus, energy, and balance align under pressure, and Self-authorship becomes a way of life. For leaders, creators, and seekers ready to move beyond theory into disciplined, fearless practice — one conversation at a time."
 sections:
   - type: text
     data:
@@ -12,16 +12,18 @@ sections:
         - "But like the blind men describing the elephant, they’re often touching only one part of the whole."
         - "That’s the culture of over-specialization — branches and leaves without roots."
         - "Our collective attention gets scattered from branch to branch, framework to framework — clever, but not coherent."
+        - "The Martial Art of Mindset restores that root coherence — reclaiming focus, energy, and balance through integrated training."
   - type: quote
     data:
       text: "Fixing what’s wrong and imagining what’s possible aren’t the same as becoming reliable in how you show up."
   - type: text
     data:
-      label: "Fearless Leadership: Mission"
+      label: "Reclaim Your Life: Mission"
       items:
         - "With Mindset Dojo, we train for presence — and we train it into full embodiment."
         - "We train at the root level: mind, body, and voice integrated through the nervous system."
         - "Through conversation, reflection, breath, and embodied practice, awareness becomes lived, not theorized."
+        - "This is the Martial Art of Mindset — training that reconditions the nervous system to stay centered when it matters."
         - "The whole tree begins to move as one — steady under pressure, responsive in flow."
   - type: principles
     data:
