@@ -12,11 +12,6 @@ forms:
   - threshold
   - revealed-preference-reflection
   - stance
-principles:
-  - relax
-  - center
-  - meet
-  - resonate
 excerpt: "Giving without awareness creates imbalance; giving with awareness turns donation into resonance, where both giver and world are enriched."
 ---
 

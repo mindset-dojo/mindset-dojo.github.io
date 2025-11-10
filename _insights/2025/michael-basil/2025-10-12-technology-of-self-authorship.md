@@ -11,11 +11,6 @@ forms:
   - integration-under-fire
   - threshold
   - stance
-principles:
-  - relax
-  - center
-  - meet
-  - resonate
 excerpt: "In Mindset Dojo, we integrate presence through language — weaving body, breath, system, and story into a living practice of awareness and authorship."
 ---
 

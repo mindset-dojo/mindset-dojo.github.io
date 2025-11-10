@@ -3,6 +3,16 @@ mantra: "Don't Resist. Resonate."
 mantra_mark: "Resonate."
 description: "A layered training journey—presence, nervous-system skill, and conversational leadership applied in real contexts."
 sections:
+  - type: text
+    data:
+      label: "At the Threshold"
+      items:
+        - "Training begins with contact — not concept."
+        - "Orient to the field, where principles set the tone for practice."
+        - "Each level is a threshold, not a rank — a way of deepening presence."
+        - "Leadership designations steward the rhythm and keep the field alive."
+        - "Before entering Orientation, reach out to a Cultivator for context."
+        - "Human connection is the first threshold."
   - type: principles
     data:
       principles_title: "Core Principles"
@@ -11,20 +21,12 @@ sections:
   - type: levels
     data:
       label: "Training Levels"
-      intention_label: "Intention"
-      edge_label: "Edge"
-      flows_label: "Flows"
       items:
         - color: gray
           label: 7th Kyu
           level: -7
           intention: Orientation
-          edge: Four Patterns Reflection
           flows:
-            - label: "Don't Train, Complain...?"
-              url: /insights/dont-train-complain/
-            - label: The Technology of Self-Authorship
-              url: /insights/technology-of-self-authorship/
             - label: Threshold
               url: /forms/threshold/
             - label: Dojo
@@ -37,18 +39,15 @@ sections:
               url: /forms/kohai/
             - label: Stillness Contemplation
               url: /forms/stillness-contemplation/
+            - label: Four Energy Reflection
+              url: /forms/four-energy-reflection/
             - label: Four Element Sensei
               url: /forms/four-element-sensei/
-            - label: "Feedback Fields: Learning to Ride Together"
-              url: /insights/feedback-as-fields/
         - color: yellow
           label: 6th Kyu
           level: -6
           intention: Centering
-          edge: Meditate until a spirited conversation makes sense and share insights
           flows:
-            - label: A Fable on Opposition
-              url: /insights/fable-on-opposition/
             - label: Zen Toolkit - One Breath
               url: https://vimeo.com/944618879/47e96945a4
             - label: Tone
@@ -66,145 +65,107 @@ sections:
         - color: green
           label: 5th Kyu
           level: -5
-          intention: Perception
-          edge: Reflect on a spirited conversation from multiple points of view
+          intention: Driver
           flows:
-            - label: From Explorer to Cultivator
-              url: /insights/from-explorer-to-cultivator/
-            - label: Zen Toolkit - Two Sides
+            - label: Zen Toolkit – Two Sides
               url: https://vimeo.com/944663134/d4f1c4f333
-            - label: Negotiation 9™ Move - Calibrated Questions
-              url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
-            - label: Negotiation 9™ Move - Dynamic Silence
-              url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
-            - label: The Way of Paradox
-              url: /insights/way-of-paradox/
             - label: 5 minute Zazen by yourself
               url: /forms/zazen/
+            - label: Mat – Driver
+              url: /forms/mat/
+            - label: Dyad Randori – Driver
+              url: /forms/randori/
         - color: blue
           label: 4th Kyu
           level: -4
-          intention: Listening
-          edge: Listen deeply with fresh ears and reflect back what you hear
+          intention: Organizer
           flows:
-            - label: Conversation as Code
-              url: /insights/conversation-as-code/
-            - label: Zen Toolkit - Three Centers
+            - label: Zen Toolkit – Three Centers
               url: https://vimeo.com/944672806/e099593826
-            - label: Negotiation 9™ Move - Labels
-              url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
-            - label: Negotiation 9™ Move - Mirrors
-              url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
-            - label: Revealed Preference Reflection
-              url: /forms/revealed-preference-reflection/
-            - label: Online Introduction to Zazen at Chosei Zen
-              url: https://www.choseizen.org/online-intro-to-zazen
-            - label: Senpai
-              url: /forms/senpai/
             - label: 10 minute Zazen with Jiki
               url: /forms/zazen/
+            - label: Mat – Organizer
+              url: /forms/mat/
+            - label: Triad Randori – Organizer
+              url: /forms/randori/
+            - label: Senpai
+              url: /forms/senpai/
         - color: purple
           label: 3rd Kyu
           level: -3
-          intention: Presence
-          edge: Apply MetaShift Forms live during a spirited conversation
+          intention: Collaborator
           flows:
-            - label: Presence, Performance, and the Politics of Attention
-              url: /insights/politics-of-attention/
-            - label: Integration Under Fire
-              url: /forms/integration-under-fire/
-            - label: Zen Toolkit - Four Patterns
+            - label: Zen Toolkit – Four Patterns
               url: https://vimeo.com/944675826/c57a7ce142
-            - label: Stance
-              url: /forms/stance/
-            - label: The Fable of the First Ninety Seconds
-              url: /insights/fable-of-the-first-ninety-seconds/
-            - label: The Art of the First Ninety Seconds
-              url: /insights/art-of-the-first-ninety-seconds/
-            - label: Negotiation 9™ Move - Paraphrasing
-              url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
-            - label: Negotiation 9™ Move - Summary
-              url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
-            - label: "Houston, We Have an Attitude"
-              url: /insights/houston-attitude/
             - label: 10 minute Zazen by yourself
               url: /forms/zazen/
+            - label: Mat – Collaborator
+              url: /forms/mat/
+            - label: Small Group Randori – Collaborator
+              url: /forms/randori/
         - color: brown
           label: 2nd Kyu
           level: -2
-          intention: Shadow
-          edge: Demonstrate MetaShift Forms in a live Circle
+          intention: Visionary
           flows:
-            - label: "Self-Evolution Is Socially Annoying"
-              url: /insights/self-evolution-is-socially-annoying/
-            - label: Negotiation 9™ Move - “I” Messages
-              url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
-            - label: Negotiation 9™ Move - Encouragers
-              url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
-            - label: Never Split the Difference - Negotiating As If Your Life Depended On It
-              url: https://www.amazon.com/Never-Split-Difference-Negotiating-Depended/dp/0062407805
-            - label: 15 minute Zazen with Jiki
-              url: /forms/zazen/
             - label: Zen Leader Off the Cushion
               url: https://zenleader.global/events
+            - label: 15 minute Zazen with Jiki
+              url: /forms/zazen/
+            - label: Mat – Visionary
+              url: /forms/mat/
+            - label: Small Group Randori – Visionary
+              url: /forms/randori/
         - color: red
           label: 1st Kyu
           level: -1
-          intention: Resonance
-          edge: Lead a Mat Breakout Session integrating MetaShift Forms in live Circle
+          intention: Meta
           flows:
-            - label: "FlowOps: Continuous Reconciliation in a Networked World"
-              url: /insights/continuous-reconciliation/
-            - label: Making Hara Breathing Automatic
-              url: https://youtu.be/UVz1E_cKxp4?si=hl5c7qB4iR6R7ZSs
-            - label: The Way of Plus Ki
-              url: /insights/way-of-plus-ki/
             - label: Resonate - Zen and the Way of Making a Difference
               url: https://www.choseizen.org/store/p/resonate
             - label: 15 minute Zazen by yourself
               url: /forms/zazen/
+            - label: Integration Under Fire
+              url: /forms/integration-under-fire/
+            - label: Mat – Integration Under Fire
+              url: /forms/mat/
+            - label: Small Group Randori – Integration Under Fire
+              url: /forms/randori/
             - label: MetaShift Community Demonstration
               url: /forms/metashift-community-demonstration/
         - color: black
           label: Shodan
           level: 1
           intention: Wu-Wei
-          edge: Lead a Mindset Dojo MetaShift Method demonstration in a live Circle
           flows:
-            - label: Martial Attitude
-              url: /forms/martial-attitude/
-            - label: Self-Evolution of Emotional Extraction
-              url: /insights/self-evolution-of-emotional-extraction/
             - label: 30 minute Zazen with Chosei Zen Virtual Dojo
               url: /forms/zazen/
-            - label: Cultivating a Threshold-Based Authorship Network
-              url: /insights/cultivating-a-threshold-based-authorship-network/
-            - label: Two Sides Integrative Randori with Beyond the Black Belt Circle
-              url: https://vimeo.com/944663134/d4f1c4f333
-            - label: Sensei
-              url: /forms/sensei/
+            - label: Martial Attitude
+              url: /forms/martial-attitude/
+            - label: Mat – Martial Attitude
+              url: /forms/mat/
+            - label: Full Circle Randori
+              url: /forms/randori/
   - type: designations
     data:
       label: "Leadership Designations"
-      intention_label: "Intention"
-      aspects_label: "Aspects"
       items:
         - label: Senpai
-          intention: Model and enhance training among emerging leaders
-          aspects:
+          intentions:
+            - label: Model and enhance training among emerging leaders
             - label: Join Mat sessions regularly, lead periodically
             - label: Create and share Insights regularly, guiding earlier learners
             - label: Blue Level+
         - label: Sensei
-          intention: Model and guide leadership throughout the community
-          aspects:
+          intentions:
+            - label: Model and guide leadership throughout the community
             - label: Lead Mat sessions regularly
             - label: Create and share Insights regularly, guiding growing leaders
             - label: Black Level, Zen Leadership Instructor designation
   - type: authors
     data:
       leadership_flow:
-        label: "⛩️💫 Guides"
+        label: "⛩️💫 Cultivators"
         designation_type: program
         limit: 16
   - type: ctas

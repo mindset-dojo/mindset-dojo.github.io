@@ -12,11 +12,6 @@ forms:
   - revealed-preference-reflection
   - stance
   - martial-attitude
-principles:
-  - relax
-  - center
-  - meet
-  - resonate
 excerpt: "When guarantees fade and change becomes constant, presence becomes the most reliable investment."
 ---
 

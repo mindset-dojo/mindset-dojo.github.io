@@ -3,9 +3,6 @@ levels section
 
 section.data expects:
   - label:            string            e.g., "Levels"
-  - intention_label:  string            e.g., "Intention"
-  - edge_label:       string            e.g., "Edge"
-  - flows_label:      string            e.g., "Flows"
   - items:            array of level objects
 
 Each level item shape:
@@ -13,7 +10,6 @@ Each level item shape:
   - label:    string    # level label, e.g., "7th Kyu"
   - level:    number    # keeps your schema for reference
   - intention:string
-  - edge:     string
   - flows:    array of {label, url}
 {%- endcomment -%}
 
@@ -31,36 +27,25 @@ Each level item shape:
         title=lv.label %}
     </h3>
 
-    {%- if D.intention_label and lv.intention -%}
-      <p><strong>{{ D.intention_label }}</strong></p>
-      <p>{{ lv.intention }}</p>
-    {%- endif -%}
+    <p><strong>{{ lv.intention }}</strong></p>
 
-    {%- if D.edge_label and lv.edge -%}
-      <p><strong>{{ D.edge_label }}</strong></p>
-      <p>{{ lv.edge }}</p>
-    {%- endif -%}
-
-    {%- if D.flows_label and lv.flows and lv.flows.size > 0 -%}
-      <p><strong>{{ D.flows_label }}</strong></p>
-      <ul>
-        {%- for f in lv.flows -%}
-          {%- if f.url | slice: 0, 1 == "/" -%}
-            <li>
-              <a href="{{ f.url | relative_url }}">
-                {{ f.label }}
-              </a>
-            </li>
-          {%- else -%}
-            <li>
-              <a href="{{ f.url }}">
-                {{ f.label }}
-              </a>
-            </li>
-          {%- endif -%}
-        {%- endfor -%}
-      </ul>
-    {%- endif -%}
+    <ul>
+      {%- for f in lv.flows -%}
+        {%- if f.url | slice: 0, 1 == "/" -%}
+          <li>
+            <a href="{{ f.url | relative_url }}">
+              {{ f.label }}
+            </a>
+          </li>
+        {%- else -%}
+          <li>
+            <a href="{{ f.url }}">
+              {{ f.label }}
+            </a>
+          </li>
+        {%- endif -%}
+      {%- endfor -%}
+    </ul>
   {%- endfor -%}
 </section>
 {%- endif -%}

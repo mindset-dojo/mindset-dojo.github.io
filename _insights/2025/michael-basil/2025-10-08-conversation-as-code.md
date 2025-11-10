@@ -12,11 +12,6 @@ forms:
   - threshold
   - revealed-preference-reflection
   - stance
-principles:
-  - relax
-  - center
-  - meet
-  - resonate
 excerpt: "Every conversation writes code into the field — tone, timing, and language compile into patterns that shape what becomes possible next."
 ---
 
