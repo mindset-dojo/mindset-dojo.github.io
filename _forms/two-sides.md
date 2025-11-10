@@ -7,12 +7,12 @@ refactored_date: 2025-11-09
 authors:
   - kyle-ingersoll
   - michael-basil
-excerpt: "Two Sides is where you evaluate both sides of an argument/narrative to see what is valid and what concerns exist."
+excerpt: "Two Sides is from Zen Toolkit from Institute of Zen Leadership and is where you evaluate both sides of an argument/narrative to see what is valid and what concerns exist."
 ---
 
 ## Intention
 
-Two Sides is where you evaluate both sides of an argument/narrative to see what is valid and what concerns exist.
+Two Sides is from Zen Toolkit from Institute of Zen Leadership and is where you evaluate both sides of an argument/narrative to see what is valid and what concerns exist.
 
 ## Experience
 

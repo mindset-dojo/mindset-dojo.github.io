@@ -7,12 +7,12 @@ refactored_date: 2025-11-09
 authors:
   - kyle-ingersoll
   - michael-basil
-excerpt: "One Breath is when one takes 3-5 Hara Breaths (Belly Breathing), to center one's self."
+excerpt: "One Breath is from Zen Toolkit from Institute of Zen Leadership and is when one takes 3-5 Hara breaths (Belly Breathing) to center one's self."
 ---
 
 ## Intention
 
-One Breath is when one takes 3-5 Hara breaths (Belly Breathing) to center one's self. It can be used before, after, and during the conversations that matter, for one's breath is taken with you everywhere you go.
+One Breath is from Zen Toolkit from Institute of Zen Leadership and is when one takes 3-5 Hara breaths (Belly Breathing) to center one's self. It can be used before, after, and during the conversations that matter, for one's breath is taken with you everywhere you go.
 
 ## Experience
 
