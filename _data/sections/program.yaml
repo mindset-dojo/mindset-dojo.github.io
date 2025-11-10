@@ -142,10 +142,10 @@ sections:
               url: /forms/zazen/
             - label: Martial Attitude
               url: /forms/martial-attitude/
-            - label: Mat – Martial Attitude
-              url: /forms/mat/
             - label: Meta
               url: /forms/meta/
+            - label: Mat – Meta & Martial Attitude
+              url: /forms/mat/
             - label: Full Circle Randori
               url: /forms/randori/
   - type: designations
