@@ -119,7 +119,7 @@ sections:
         - color: red
           label: 1st Kyu
           level: -1
-          intention: Integration Under Fire
+          intention: Integration
           flows:
             - label: Resonate - Zen and the Way of Making a Difference
               url: https://www.choseizen.org/store/p/resonate
