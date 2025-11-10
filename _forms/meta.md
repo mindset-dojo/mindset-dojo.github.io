@@ -31,7 +31,7 @@ Train the other forms. Train them sincerely, repeatedly, and with curiosity. Met
 
 Each form — from [Stance](../stance/) to [Circle](../circle/), from [Stillness Contemplation](../stillness-contemplation/) to [Three-Question Reflection](../three-question-reflection/) — provides conditions for Meta to emerge. As your Self-authorship grows, awareness begins to widen. Sometimes Meta shows up as insight after a difficult exchange, sometimes as intuition mid-conversation, sometimes as silence that steadies the field.  
 
-Acknowledge it. Let it participate. Allow it to mature without grasping for control. Informed by [Martial Attitude](martial-attitude), Meta learns the deeper rhythm of right timing — when awareness must move decisively, and when stillness itself is the most skillful move.
+Acknowledge it. Let it participate. Allow it to mature without grasping for control. Informed by [Martial Attitude](../martial-attitude/), Meta learns the deeper rhythm of right timing — when awareness must move decisively, and when stillness itself is the most skillful move.
 
 Meta may tend to develop in phases that mirror the dojo social learning progression:
 
