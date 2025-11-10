@@ -18,6 +18,7 @@ forms:
   - two-sides
   - three-centers
   - four-patterns
+  - meta
   - tone
 excerpt: |
   Attention has become the most contested resource in modern life. 

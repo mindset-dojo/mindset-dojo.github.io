@@ -19,6 +19,7 @@ forms:
   - two-sides
   - three-centers
   - four-patterns
+  - meta
   - tone
 excerpt: >
   Zero-sympathy phasing is not detachment but metabolization—the ability to stay

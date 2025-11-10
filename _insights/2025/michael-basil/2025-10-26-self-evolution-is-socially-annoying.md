@@ -19,6 +19,7 @@ forms:
   - two-sides
   - three-centers
   - four-patterns
+  - meta
   - tone
 excerpt: >
   Evolution can feel like magic from the inside and disruption from the outside. 

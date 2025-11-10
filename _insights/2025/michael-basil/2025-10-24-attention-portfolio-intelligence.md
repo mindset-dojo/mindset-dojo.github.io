@@ -15,6 +15,7 @@ forms:
   - two-sides
   - three-centers
   - four-patterns
+  - meta
   - tone
 excerpt: |
   Every living system runs on one scarce resource: attention. How we train it determines what grows, what withers, and what evolves. 
