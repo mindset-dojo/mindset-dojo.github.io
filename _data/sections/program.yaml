@@ -95,8 +95,6 @@ sections:
           level: -3
           intention: Collaborator
           flows:
-            - label: Integration Under Fire
-              url: /forms/integration-under-fire/
             - label: Four Patterns
               url: /forms/four-patterns/
             - label: Stance
