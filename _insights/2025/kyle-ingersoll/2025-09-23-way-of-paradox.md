@@ -12,10 +12,6 @@ forms:
   - integration-under-fire
   - threshold
   - stance
-principles:
-  - relax
-  - center
-  - resonate
 excerpt: "Paradox is the hidden gate of leadership, where resistance dissolves and the small self expands into the boundless flow of Ki."
 ---
 

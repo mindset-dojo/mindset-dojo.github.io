@@ -9,11 +9,6 @@ authors:
 forms:
   - stillness-contemplation
   - stance
-principles:
-  - relax
-  - center
-  - meet
-  - resonate
 excerpt: "Reflection on the 'Don't Train, Complain...?' Mindset Dojo insight."
 ---
 

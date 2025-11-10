@@ -11,11 +11,6 @@ forms:
   - dojo
   - integration-under-fire
   - stance
-principles:
-  - relax
-  - center
-  - meet
-  - resonate
 excerpt: "Reflection on the 'Dojo' Mindset form."
 ---
 

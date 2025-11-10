@@ -16,11 +16,6 @@ forms:
   - revealed-preference-reflection
   - stance
   - martial-attitude
-principles:
-  - relax
-  - center
-  - meet
-  - resonate
 excerpt: |
   When sympathy stops being care and becomes currency, the bond is ready to evolve.  
   This piece traces how emotional extraction refines into awareness—linking the arc from  

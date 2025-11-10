@@ -11,10 +11,6 @@ forms:
   - dojo
   - threshold
   - stance
-principles:
-  - center
-  - meet
-  - resonate
 excerpt: "In the dojo, we’re not trying to build an audience — we’re cultivating a field of thresholds: experiences that transform presence into trust."
 ---
 

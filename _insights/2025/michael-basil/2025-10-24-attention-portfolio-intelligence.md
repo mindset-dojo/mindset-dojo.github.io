@@ -12,11 +12,6 @@ forms:
   - revealed-preference-reflection
   - stance
   - martial-attitude
-principles:
-  - relax
-  - center
-  - meet
-  - resonate
 excerpt: |
   Every living system runs on one scarce resource: attention. How we train it determines what grows, what withers, and what evolves. 
   This piece explores how Lean, Agile, and finance principles converge in the art of managing the attention portfolio — and how awareness itself becomes alpha.

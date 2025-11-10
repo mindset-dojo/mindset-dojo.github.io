@@ -9,11 +9,6 @@ authors:
 forms:
   - stillness-contemplation
   - circle
-principles:
-  - relax
-  - center
-  - meet
-  - resonate
 excerpt: "Reflection on 'trust' in the 'Circle' Mindset form."
 ---
 

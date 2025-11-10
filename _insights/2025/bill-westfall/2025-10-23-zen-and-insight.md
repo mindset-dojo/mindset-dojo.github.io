@@ -10,10 +10,6 @@ forms:
   - stillness-contemplation
   - revealed-preference-reflection
   - stance
-principles:
-  - relax
-  - center
-  - resonate
 excerpt: "Simple beginning Zen principles applied to larger spiritual insight."
 ---
 

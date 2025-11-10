@@ -10,9 +10,6 @@ forms:
   - dojo
   - threshold
   - stance
-principles:
-  - center
-  - resonate
 excerpt: "In Mindset Dojo, every pull request tests a threshold — transforming exploration into cultivation, and curiosity into coherence."
 ---
 
