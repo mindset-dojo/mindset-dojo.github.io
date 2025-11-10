@@ -15,6 +15,7 @@ forms:
   - revealed-preference-reflection
   - stance
   - one-breath
+  - tone
 excerpt: "How fear becomes a teacher and what its shadow reveals about presence and response."
 ---
 

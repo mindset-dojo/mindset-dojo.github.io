@@ -20,6 +20,7 @@ forms:
   - three-centers
   - four-patterns
   - meta
+  - tone
 excerpt: >
   Evolution can feel like magic from the inside and disruption from the outside. 
   When awareness deepens, social gravity shifts—and both the person changing and 

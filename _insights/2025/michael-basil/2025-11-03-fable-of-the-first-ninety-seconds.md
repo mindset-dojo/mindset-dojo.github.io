@@ -18,6 +18,7 @@ forms:
   - three-centers
   - four-patterns
   - meta
+  - tone
 excerpt: "During a timed council trial, a warrior moves through Driver, Organizer, Collaborator, and Visionary stances to create alignment within the first ninety seconds."
 ---
 

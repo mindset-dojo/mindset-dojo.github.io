@@ -11,6 +11,7 @@ forms:
   - dojo
   - integration-under-fire
   - stance
+  - tone
 excerpt: "Reflection on the 'Dojo' Mindset form."
 ---
 

@@ -11,6 +11,7 @@ forms:
   - threshold
   - stance
   - four-patterns
+  - tone
 published_date: 2025-07-26
 refactored_date: 2025-11-07
 excerpt: "Through Blue Belt training, I learned that Fearless Leadership begins not with control, but with the awareness to lead, follow, and act through balance."
