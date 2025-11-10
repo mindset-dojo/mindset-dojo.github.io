@@ -123,8 +123,8 @@ sections:
           level: -1
           intention: Integration
           flows:
-            - label: Resonate - Zen and the Way of Making a Difference
-              url: https://www.choseizen.org/store/p/resonate
+            - label: Resonate
+              url: /forms/resonate/
             - label: 15 minute Zazen by yourself
               url: /forms/zazen/
             - label: Integration Under Fire
