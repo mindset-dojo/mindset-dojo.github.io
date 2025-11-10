@@ -20,7 +20,7 @@ You feel the undercurrent of the conversation in your gut and are invited to res
 
 ## Implementation
 
-First, you use [One Breath](../one-breath/) and then [Three Centers](../three-centers/) to align your Self. You then check first your own, and then your conversational partner(s) positions on the Map of Consciousness. We do not use the Map of Consciousness as a ladder to climb once, but rather as a compass to check in the storm to find our Way. When using the Map of Consciousness, ask yourself this: 
+First, you use [One Breath](../one-breath/) and then [Three Centers](../three-centers/) to align your Self. You then check first your own, and then your conversational partner(s) positions on the Map of Consciousness. We do not use the Map of Consciousness as a ladder to climb once, but rather as a compass to check in the storm to find our Way. When using the Map of Consciousness, ask yourself this:
 
 > "Is the conversation and/or the individuals in the conversation trending above or below the line?"
 
