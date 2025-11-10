@@ -11,6 +11,8 @@ forms:
   - integration-under-fire
   - threshold
   - stance
+  - three-centers
+  - four-patterns
 excerpt: "In Mindset Dojo, we integrate presence through language — weaving body, breath, system, and story into a living practice of awareness and authorship."
 ---
 

@@ -12,6 +12,8 @@ forms:
   - threshold
   - revealed-preference-reflection
   - stance
+  - four-patterns
+  - three-centers
 excerpt: "Giving without awareness creates imbalance; giving with awareness turns donation into resonance, where both giver and world are enriched."
 ---
 

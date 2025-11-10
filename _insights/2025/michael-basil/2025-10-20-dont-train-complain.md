@@ -13,6 +13,9 @@ forms:
   - revealed-preference-reflection
   - stance
   - martial-attitude
+  - two-sides
+  - three-centers
+  - four-patterns
 excerpt: "Every practitioner begins with a complaint — it’s the first mirror of the dojo. This piece opens the gate: an orientation to frustration, Self-learning, and the quiet art of turning noise into clarity."
 ---
 

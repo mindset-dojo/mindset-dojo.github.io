@@ -14,6 +14,9 @@ forms:
   - integration-under-fire
   - stance
   - martial-attitude
+  - two-sides
+  - three-centers
+  - four-patterns
 excerpt: "A meta reflection on composing Driver, Organizer, Collaborator, and Visionary energies within the first ninety seconds to regulate trust."
 ---
 

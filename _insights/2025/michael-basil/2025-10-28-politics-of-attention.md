@@ -15,6 +15,9 @@ forms:
   - revealed-preference-reflection
   - stance
   - martial-attitude
+  - two-sides
+  - three-centers
+  - four-patterns
 excerpt: |
   Attention has become the most contested resource in modern life. 
   The way we give, guard, and negotiate it reveals how we relate—to ourselves, to others, and to the moment we're in.

@@ -12,6 +12,9 @@ forms:
   - revealed-preference-reflection
   - stance
   - martial-attitude
+  - two-sides
+  - three-centers
+  - four-patterns
 excerpt: "When guarantees fade and change becomes constant, presence becomes the most reliable investment."
 ---
 

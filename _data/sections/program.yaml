@@ -48,8 +48,8 @@ sections:
           level: -6
           intention: Centering
           flows:
-            - label: Zen Toolkit - One Breath
-              url: https://vimeo.com/944618879/47e96945a4
+            - label: One Breath
+              url: /forms/one-breath/
             - label: Tone
               url: /insights/tone/
             - label: Map of Consciousness
@@ -67,8 +67,8 @@ sections:
           level: -5
           intention: Driver
           flows:
-            - label: Zen Toolkit – Two Sides
-              url: https://vimeo.com/944663134/d4f1c4f333
+            - label: Two Sides
+              url: /forms/two-sides/
             - label: 5 minute Zazen by yourself
               url: /forms/zazen/
             - label: Mat – Driver
@@ -80,8 +80,8 @@ sections:
           level: -4
           intention: Organizer
           flows:
-            - label: Zen Toolkit – Three Centers
-              url: https://vimeo.com/944672806/e099593826
+            - label: Three Centers
+              url: /forms/three-centers/
             - label: 10 minute Zazen with Jiki
               url: /forms/zazen/
             - label: Mat – Organizer
@@ -95,8 +95,12 @@ sections:
           level: -3
           intention: Collaborator
           flows:
-            - label: Zen Toolkit – Four Patterns
-              url: https://vimeo.com/944675826/c57a7ce142
+            - label: Integration Under Fire
+              url: /forms/integration-under-fire/
+            - label: Four Patterns
+              url: /forms/four-patterns/
+            - label: Stance
+              url: /forms/stance/
             - label: 10 minute Zazen by yourself
               url: /forms/zazen/
             - label: Mat – Collaborator
