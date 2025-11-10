@@ -17,6 +17,7 @@ forms:
   - one-breath
   - two-sides
   - three-centers
+  - tone
 excerpt: | 
   When two people meet in conflict with the intention to learn rather than win, tension becomes the dojo where relationship, awareness, and leadership are forged.
 ---

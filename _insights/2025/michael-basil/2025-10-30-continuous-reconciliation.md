@@ -16,6 +16,8 @@ forms:
   - martial-attitude
   - two-sides
   - three-centers
+  - meta
+  - tone
 excerpt: |
   Networking is what happens when distance dissolves. When there’s no gap between intention and impact, signals flow and the system breathes. Whether in APIs or human conversations, networks are where awareness meets awareness.
 ---

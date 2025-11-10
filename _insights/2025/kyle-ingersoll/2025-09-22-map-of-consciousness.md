@@ -15,6 +15,7 @@ forms:
   - two-sides
   - three-centers
   - four-patterns
+  - tone
 published_date: 2025-09-22
 refactored_date: 2025-11-07
 excerpt: "When life punches first, the Map of Consciousness helps us notice where we stand — below the line in contraction or above it in creation — and trains us to shift through breath, tone, and awareness."

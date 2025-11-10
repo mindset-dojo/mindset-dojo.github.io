@@ -14,6 +14,7 @@ forms:
   - stance
   - one-breath
   - three-centers
+  - tone
 excerpt: "Every conversation writes code into the field — tone, timing, and language compile into patterns that shape what becomes possible next."
 ---
 

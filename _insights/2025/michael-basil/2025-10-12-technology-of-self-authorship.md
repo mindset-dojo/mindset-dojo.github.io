@@ -13,6 +13,7 @@ forms:
   - stance
   - three-centers
   - four-patterns
+  - tone
 excerpt: "In Mindset Dojo, we integrate presence through language — weaving body, breath, system, and story into a living practice of awareness and authorship."
 ---
 
