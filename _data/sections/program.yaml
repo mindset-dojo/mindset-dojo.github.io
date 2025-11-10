@@ -15,7 +15,7 @@ sections:
         - "Human connection is the first threshold."
   - type: principles
     data:
-      principles_title: "Core Principles"
+      principles_title: "Root Principles"
       principles_groups:
         - "program"
   - type: levels
