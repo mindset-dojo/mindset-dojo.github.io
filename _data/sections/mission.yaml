@@ -1,31 +1,42 @@
 ---
-rally: Fearless Leadership
-mantra: "Don’t Constrain. Train."
-mantra_mark: "Train."
-description: "Training that restores coherence at the root level — integrating mind, body, and voice through embodied awareness. Where practice becomes presence, and presence becomes self-authorship — seriously playful, and playfully serious. It’s not all sunshine and rainbows, but eventually fun once tasted, felt, and digested."
+mantra: "Reclaim Your Life."
+mantra_mark: "Life."
+description: "The Martial Art of Mindset — training that reclaims coherence at the root level by integrating mind, body, and voice through embodied awareness. We teach Presence as a martial art: where focus, energy, and balance align under pressure, and Self-authorship becomes a way of life. For leaders, creators, and seekers ready to move beyond theory into disciplined, fearless practice — one conversation at a time."
 sections:
   - type: text
     data:
+      label: "Root Stance"
       items:
-        - "We work with specialists all the time — therapists, coaches, lawyers, mediators, consultants."
-        - "Each sees a part of the picture, often with great skill."
-        - "But like the blind men describing the elephant, they’re often touching only one part of the whole."
-        - "That’s the culture of over-specialization — branches and leaves without roots."
-        - "Our collective attention gets scattered from branch to branch, framework to framework — clever, but not coherent."
+        - "Don’t Shame."
+        - "Don’t Blame."
+        - "Don’t Complain."
+        - "Don’t Constrain."
+        - "Train."
+        - "Train Presence."
+        - "Reclaim Your Life through the Martial Art of Mindset."
+  - type: text
+    data:
+      label: "Hijacked Attention"
+      items:
+        - "We live in an age of fractured focus and emotional reactivity."
+        - "Our nervous systems are overstimulated — our attention scattered."
+        - "Therapists, niche coaches, consultants, and leaders each touch part of the whole — yet the roots remain untended."
+        - "Mindset Dojo training restores root-level coherence through embodied practice that unifies focus, energy, and balance."
+        - "We stop reacting and start reclaiming — one breath, one conversation at a time."
   - type: quote
     data:
       text: "Fixing what’s wrong and imagining what’s possible aren’t the same as becoming reliable in how you show up."
   - type: text
     data:
-      label: "Fearless Leadership: Mission"
+      label: "The Martial Art of Mindset"
       items:
-        - "With Mindset Dojo, we train for presence — and we train it into full embodiment."
-        - "We train at the root level: mind, body, and voice integrated through the nervous system."
-        - "Through conversation, reflection, breath, and embodied practice, awareness becomes lived, not theorized."
-        - "The whole tree begins to move as one — steady under pressure, responsive in flow."
+        - "With Mindset Dojo, we Train Presence — and we train it into embodiment."
+        - "Through conversation, reflection, and somatic awareness, the nervous system learns to stay centered in the gaps and under contact."
+        - "Training mindset as a martial art reconditions how we meet life — transforming reaction into rhythm, and pressure into flow."
+        - "The result is coherence, courage, and the capacity to reclaim your life over time."
   - type: principles
     data:
-      principles_title: "Root Integration"
+      principles_title: "Root-Level Principles"
       principles_groups:
         - "mission"
   - type: text
