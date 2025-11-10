@@ -36,7 +36,7 @@ Each Randori adapts to the people present and the energy at hand.
 6. Integration (10–20 min) — authored reflection or fable; next-practice commitment.  
 7. Close (5–10 min) — reset the field; invite the next threshold.
 
-Formats: solo, dyad, small group, or full-circle; online or in-person.  
+Formats: solo, dyad, triad, group circle, or real-life; online or in-person.  
 Roles: facilitator/senpai, participants.
 
 ## Inspiration
