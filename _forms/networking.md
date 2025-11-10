@@ -51,9 +51,5 @@ This is the fieldwork of dojo presence — where awareness meets community in re
 
 ## Inspiration
 
-- [Chosei Zen](https://www.choseizen.org/)  
-- [Japanese Culture Center / Tenshinkan Dojo](https://japaneseculturecenter.com/classes/aikido)  
-- [InnerSource Commons Foundation](https://innersourcecommons.org/)  
-- [Fearless Change](https://www.fearlesschangepatterns.com/)  
 - [Cloud Security Office Hours](https://csoh.org/)  
 - [Institute for Zen Leadership](https://zenleader.global)
