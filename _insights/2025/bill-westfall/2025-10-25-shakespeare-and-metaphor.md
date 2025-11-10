@@ -8,10 +8,6 @@ authors:
   - bill-westfall
 forms:
   - stillness-contemplation
-principles:
-  - relax
-  - meet
-  - resonate
 excerpt: "The use of metaphor in Zen and Shakespeare and how they both bring value."
 ---
 

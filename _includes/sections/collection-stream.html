@@ -5,6 +5,8 @@ Parameters:
   collection: collection name (include.collection or section.data.collection)
   filter_key: front-matter key to filter by (optional)
   filter_values: array or scalar of filter values (optional)
+  label: heading shown above the stream (optional; falls back to section data)
+  show_hr: render an <hr> above the section when true (default false)
   sort_by: key to sort by (include.sort_by or section.data.sort_by)
   reverse: boolean to reverse results (include.reverse or section.data.reverse)
   excerpt_length: passed to collection-item include
@@ -109,8 +111,12 @@ Parameters:
 {%- if content_md == nil and D and D.field -%}
   {%- assign content_md = page[D.field] -%}
 {%- endif -%}
+{%- assign show_hr = include.show_hr | default: section.data.show_hr | default: false -%}
 
 {%- if posts_count > 0 -%}
+  {%- if show_hr -%}
+    <hr>
+  {%- endif -%}
   {%- assign section_attrs = 'id="collection-stream" class="md-flow"' -%}
   {%- if initial_limit -%}
     {%- capture section_attrs -%}id="collection-stream" class="md-flow" data-collection-stream="toggle" data-initial-limit="{{ initial_limit }}"{%- endcapture -%}

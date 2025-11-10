@@ -12,11 +12,6 @@ forms:
   - revealed-preference-reflection
   - stance
   - martial-attitude
-principles:
-  - relax
-  - center
-  - meet
-  - resonate
 excerpt: "When the coder becomes the cultivator — ethics ceases to be rule-following and becomes resonance itself."
 ---
 

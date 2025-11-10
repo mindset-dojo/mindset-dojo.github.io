@@ -17,11 +17,6 @@ forms:
   - martial-attitude
   - two-sides
   - three-centers
-principles:
-  - relax
-  - center
-  - meet
-  - resonate
 excerpt: "In the Dojo, leadership is cultivation, not control. Circles replace chains of command. Authorship replaces ownership."
 ---
 

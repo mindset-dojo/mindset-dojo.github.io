@@ -19,11 +19,6 @@ forms:
   - two-sides
   - three-centers
   - four-patterns
-principles:
-  - relax
-  - center
-  - meet
-  - resonate
 excerpt: >
   Evolution can feel like magic from the inside and disruption from the outside. 
   When awareness deepens, social gravity shifts—and both the person changing and 

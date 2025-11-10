@@ -13,10 +13,6 @@ forms:
   - threshold
   - revealed-preference-reflection
   - stance
-principles:
-  - relax
-  - center
-  - resonate
 excerpt: "When code becomes debt, only human guidance can teach AI the Way forward."
 ---
 

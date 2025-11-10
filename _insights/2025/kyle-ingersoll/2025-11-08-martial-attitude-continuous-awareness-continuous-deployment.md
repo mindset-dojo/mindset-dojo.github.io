@@ -16,11 +16,6 @@ forms:
   - threshold
   - two-sides
   - three-centers
-principles:
-  - relax
-  - center
-  - meet
-  - resonate
 excerpt: "Martial Attitude is not opposition but attunement — the clarity to meet force with harmony, transforming conflict into coherence."
 ---
 

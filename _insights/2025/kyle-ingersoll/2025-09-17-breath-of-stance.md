@@ -10,11 +10,6 @@ forms:
   - revealed-preference-reflection
   - stance
   - four-patterns
-principles:
-  - relax
-  - center
-  - meet
-  - resonate
 published_date: 2025-09-17
 refactored_date: 2025-11-07
 excerpt: "When tension hardens between mismatched energies, Stances offer a way to realign through breath, tone, and presence—shifting both yourself and the field of conversation."

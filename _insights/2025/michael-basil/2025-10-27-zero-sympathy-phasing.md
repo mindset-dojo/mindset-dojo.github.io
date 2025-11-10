@@ -19,11 +19,6 @@ forms:
   - two-sides
   - three-centers
   - four-patterns
-principles:
-  - relax
-  - center
-  - meet
-  - resonate
 excerpt: >
   Zero-sympathy phasing is not detachment but metabolization—the ability to stay
   fully connected to the emotional field without collapsing into rescue or control.

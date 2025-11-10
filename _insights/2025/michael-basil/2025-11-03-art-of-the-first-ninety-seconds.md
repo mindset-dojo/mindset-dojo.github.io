@@ -17,11 +17,6 @@ forms:
   - two-sides
   - three-centers
   - four-patterns
-principles:
-  - relax
-  - center
-  - meet
-  - resonate
 excerpt: "A meta reflection on composing Driver, Organizer, Collaborator, and Visionary energies within the first ninety seconds to regulate trust."
 ---
 

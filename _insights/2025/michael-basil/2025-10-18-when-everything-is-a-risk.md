@@ -15,11 +15,6 @@ forms:
   - two-sides
   - three-centers
   - four-patterns
-principles:
-  - relax
-  - center
-  - meet
-  - resonate
 excerpt: "When guarantees fade and change becomes constant, presence becomes the most reliable investment."
 ---
 

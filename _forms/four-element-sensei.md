@@ -27,4 +27,5 @@ Find a [Circle](../circle/), engage the [Mat](../mat/), and begin the game. The 
 
 - [Institute for Zen Leadership](https://zenleader.global)
 - [Tenshinkan Dojo Aikido Family Class](https://japaneseculturecenter.com/classes/aikido/)
-- [Four Patterns Experience](https://www.youtube.com/watch?v=uVTGeFjsD3s)
+- [FEBI™ Pattern Framework](https://zenleader.global/resources/febi-assessment)
+- [FEBI™ Four Patterns Experience](https://www.youtube.com/watch?v=uVTGeFjsD3s)

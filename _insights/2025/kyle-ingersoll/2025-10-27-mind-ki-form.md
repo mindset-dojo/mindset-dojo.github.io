@@ -13,11 +13,6 @@ forms:
   - stance
   - two-sides
   - three-centers
-principles:
-  - relax
-  - center
-  - meet
-  - resonate
 excerpt: "When mind without Ki meets Ki given form, structure and spirit find each other — and even silence begins to move."
 ---
 

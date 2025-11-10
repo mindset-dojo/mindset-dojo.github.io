@@ -11,9 +11,6 @@ forms:
   - sensei
   - stance
   - four-patterns
-principles:
-  - relax
-  - resonate
 excerpt: "When the mind empties, body and universe become one — this is Plus Ki."
 ---
 

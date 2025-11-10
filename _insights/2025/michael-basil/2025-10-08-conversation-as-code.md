@@ -14,11 +14,6 @@ forms:
   - stance
   - one-breath
   - three-centers
-principles:
-  - relax
-  - center
-  - meet
-  - resonate
 excerpt: "Every conversation writes code into the field — tone, timing, and language compile into patterns that shape what becomes possible next."
 ---
 
