@@ -48,7 +48,7 @@ sections:
           level: -6
           intention: Centering
           flows:
-            - label: Zen Toolkit - One Breath
+            - label: One Breath
               url: /forms/one-breath/
             - label: Tone
               url: /insights/tone/
@@ -67,7 +67,7 @@ sections:
           level: -5
           intention: Driver
           flows:
-            - label: Zen Toolkit - Two Sides
+            - label: Two Sides
               url: /forms/two-sides/
             - label: 5 minute Zazen by yourself
               url: /forms/zazen/
@@ -80,7 +80,7 @@ sections:
           level: -4
           intention: Organizer
           flows:
-            - label: Zen Toolkit - Three Centers
+            - label: Three Centers
               url: /forms/three-centers/
             - label: 10 minute Zazen with Jiki
               url: /forms/zazen/
@@ -97,7 +97,7 @@ sections:
           flows:
             - label: Integration Under Fire
               url: /forms/integration-under-fire/
-            - label: Zen Toolkit - Four Patterns
+            - label: Four Patterns
               url: /forms/four-patterns/
             - label: Stance
               url: /forms/stance/
