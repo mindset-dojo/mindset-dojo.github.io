@@ -22,7 +22,8 @@ As you breathe through the Hara, you achieve a sense of relaxed awareness, allow
 
 1. Review [the video](https://vimeo.com/944618879/47e96945a4).
 2. See our interpretation below:
-    - One deeply breaths through their belly as slowly as possible. Repeat this breath 3-5 times. Make sure your exhale is longer than your inhale. Also, make sure your big toes touch something when you exhale.
+
+    One deeply breaths through their belly as slowly as possible. Repeat this breath 3-5 times. Make sure your exhale is longer than your inhale. Also, make sure your big toes touch something when you exhale.
 
 ## Inspirations
 
