@@ -11,6 +11,9 @@ forms:
   - sensei
   - stance
   - martial-attitude
+  - one-breath
+  - two-sides
+  - four-patterns
 published_date: 2025-08-03
 refactored_date: 2025-11-07
 excerpt: "When tone shifts, awareness follows—revealing the MetaShift from control to connection that transforms every conversation into practice."

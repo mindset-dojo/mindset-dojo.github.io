@@ -16,6 +16,9 @@ forms:
   - revealed-preference-reflection
   - stance
   - martial-attitude
+  - two-sides
+  - three-centers
+  - four-patterns
 excerpt: >
   Evolution can feel like magic from the inside and disruption from the outside. 
   When awareness deepens, social gravity shifts—and both the person changing and 

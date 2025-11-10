@@ -15,6 +15,10 @@ forms:
   - threshold
   - stance
   - martial-attitude
+  - one-breath
+  - two-sides
+  - three-centers
+  - four-patterns
 excerpt: "Whenever attention is stuck—whether in frustration, overthinking, or burnout—the way forward isn’t to push harder. It’s to meet awareness where it’s holding on, and draw a threshold toward movement."
 ---
 

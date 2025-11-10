@@ -10,6 +10,8 @@ forms:
   - dojo
   - threshold
   - stance
+  - three-centers
+  - four-patterns
 excerpt: "In Mindset Dojo, every pull request tests a threshold — transforming exploration into cultivation, and curiosity into coherence."
 ---
 

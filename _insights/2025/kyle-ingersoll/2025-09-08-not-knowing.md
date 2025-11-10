@@ -11,6 +11,9 @@ forms:
   - mat
   - revealed-preference-reflection
   - stance
+  - one-breath
+  - four-patterns
+  - zazen
 published_date: 2025-09-08
 refactored_date: 2025-11-07
 excerpt: "A reflection on how the Mat Sessions and community practice of Mindset Dojo helped me transform ego-driven self-improvement into humble, fearless growth through beginner’s mind."

@@ -10,6 +10,7 @@ forms:
   - dojo
   - sensei
   - stance
+  - four-patterns
 excerpt: "When the mind empties, body and universe become one — this is Plus Ki."
 ---
 
