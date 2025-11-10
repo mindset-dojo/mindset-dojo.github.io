@@ -23,14 +23,4 @@ principles:
     - id: "presence"
       label: "Presence Tends the Form"
       description: "We tend the system as a living garden — pruning, nurturing, redesigning with awareness."
-  mission:
-    - id: "authorship"
-      label: "Authorship Cultivates Flow"
-      description: "When awareness roots deeply, energy moves through creation and contribution — not consumption."
-    - id: "attunement"
-      label: "Presence Tends the Field"
-      description: "Embodied curiosity and attention align the whole system — restoring coherence in motion."
-    - id: "reciprocity"
-      label: "Reciprocity Sustains Renewal"
-      description: "Balanced giving and receiving — emotional, creative, and financial — keeps energy circulating and the field vibrant."
 ...
