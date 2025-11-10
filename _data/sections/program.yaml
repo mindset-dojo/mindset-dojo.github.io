@@ -95,8 +95,6 @@ sections:
           level: -3
           intention: Collaborator
           flows:
-            - label: Integration Under Fire
-              url: /forms/integration-under-fire/
             - label: Four Patterns
               url: /forms/four-patterns/
             - label: Stance
@@ -105,7 +103,7 @@ sections:
               url: /forms/zazen/
             - label: Mat – Collaborator
               url: /forms/mat/
-            - label: Small Group Randori – Collaborator
+            - label: Group Circle Randori – Collaborator
               url: /forms/randori/
         - color: brown
           label: 2nd Kyu
@@ -118,12 +116,12 @@ sections:
               url: /forms/zazen/
             - label: Mat – Visionary
               url: /forms/mat/
-            - label: Small Group Randori – Visionary
+            - label: Group Circle Randori – Visionary
               url: /forms/randori/
         - color: red
           label: 1st Kyu
           level: -1
-          intention: Meta
+          intention: Integration
           flows:
             - label: Resonate - Zen and the Way of Making a Difference
               url: https://www.choseizen.org/store/p/resonate
@@ -133,22 +131,24 @@ sections:
               url: /forms/integration-under-fire/
             - label: Mat – Integration Under Fire
               url: /forms/mat/
-            - label: Small Group Randori – Integration Under Fire
+            - label: Group Circle Randori – Integration Under Fire
               url: /forms/randori/
             - label: MetaShift Community Demonstration
               url: /forms/metashift-community-demonstration/
         - color: black
           label: Shodan
           level: 1
-          intention: Wu-Wei
+          intention: Meta
           flows:
             - label: 30 minute Zazen with Chosei Zen Virtual Dojo
               url: /forms/zazen/
             - label: Martial Attitude
               url: /forms/martial-attitude/
-            - label: Mat – Martial Attitude
+            - label: Meta
+              url: /forms/meta/
+            - label: Mat – Meta & Martial Attitude
               url: /forms/mat/
-            - label: Full Circle Randori
+            - label: Real-Life Randori
               url: /forms/randori/
   - type: designations
     data:
