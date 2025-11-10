@@ -28,5 +28,5 @@ Start with a few people you trust, then invite friends they trust. Webs of trust
 - [InnerSource Commons Foundation](https://innersourcecommons.org)
 - [Circle Communities Pattern](https://github.com/InnerSourceCommons/InnerSourcePatterns/blob/main/patterns/1-initial/circle-communities.md)
 - [Fearless Change Patterns](https://fearlesschangepatterns.com/)
-- [Cloud Security Office Hours](https://csoh.org/conc8/)
+- [Cloud Security Office Hours](https://csoh.org/)
 - [SAP Dojo](https://github.com/sap-samples/dojo)
