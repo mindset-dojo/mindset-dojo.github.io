@@ -26,7 +26,7 @@ When moving, **focus**, narrow your vision and move towards your goal with sharp
 
 ### Organizer (Earth)
 
-When moving, get everything aligned and in order. Focus on your posture and order your movement. Align your hands into parallel planes, and make a box out of negative space in your mind using your motion. Tip your upper body side to side while leaving your lower body still, and feel the pivot point in the Solar Plexus. Take a step forward, back, left, or right with one foot, and then bring your other foot to align with the first foot. 
+When moving, get everything aligned and in order. Focus on your posture and order your movement. Align your hands into parallel planes, and make a box out of negative space in your mind using your motion. Tip your upper body side to side while leaving your lower body still, and feel the pivot point in the Solar Plexus. Take a step forward, back, left, or right with one foot, and then bring your other foot to align with the first foot.
 
 ### Collaborator (Water)
 
@@ -37,7 +37,7 @@ When moving, go with the flow. Keep shaking your hands, feeling the vibration. T
 When moving, feel the possibilities. Move your arms and hands around you, never repeating the same motion, feeling the freedom you have. Allow your tension to fade away.
 
 ## Inspirations
- 
+
 - [Institute for Zen Leadership](https://zenleader.global)
 - [Zen Toolkit - Four Patterns](https://vimeo.com/944675826/c57a7ce142)
 - [Move to Greatness by Ginny Whitelaw](https://zenleader.global/resources/store/p/move-to-greatness-book)
