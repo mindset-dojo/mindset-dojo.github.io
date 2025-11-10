@@ -20,12 +20,12 @@ You see through the Other's eyes as well as your own, allowing you to truly conn
 
 ## Implementation
 
-First, review the [Zen Toolkit - Two Sides Instructional Video](https://vimeo.com/944663134/d4f1c4f333). 
+First, review the [Zen Toolkit - Two Sides Instructional Video](https://vimeo.com/944663134/d4f1c4f333).
 
 Take notes as necessary, then practice the exercise for yourself.
 
 After that, see how it is expressed in Mindset Dojo training:
-    
+
 Draw a quadrant on a piece of paper. At the same time, get a straight object like your belt or a yardstick and place it on the floor. One side is your Self, the other side is the Other. Upper Quadrant is Virtues, Bottom Quadrant is Concerns. While filling out the paper Quadrants, move accordingly on the floor. When finished, evaluate the Quadrant to see commonalities and differences.
 
 ## Inspirations

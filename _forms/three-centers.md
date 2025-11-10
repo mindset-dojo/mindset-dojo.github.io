@@ -25,7 +25,7 @@ Review the [Zen Toolkit - Three Centers Instructional Video](https://vimeo.com/9
 Take notes as necessary, then practice the exercise for yourself.
 
 After that, see how it is expressed in Mindset Dojo training:
-    
+
 You make sure your big toes are touching something, timing your movement with the exhale. You have your vision at 180 degrees, and then you do Hara breathing (Belly breathing). Feel the Heart and Hara align with your hands, and once you have a feeling of how they work together while breathing, shift your hands, palms facing forward, to the sides of your head so you can just barely see them on the edge of your 180 degree vision. Once all Three Centers align, then your priorities become clearer, allowing Visionary to shift into Driver through Organizer. This allows you to go about your day with a sense of purpose and calm awareness.
 
 ## Inspirations
