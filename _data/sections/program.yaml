@@ -51,9 +51,7 @@ sections:
             - label: One Breath
               url: /forms/one-breath/
             - label: Tone
-              url: /insights/tone/
-            - label: Map of Consciousness
-              url: /insights/map-of-consciousness/
+              url: /forms/tone/
             - label: Three Question Reflection
               url: /forms/three-question-reflection/
             - label: Jiki
