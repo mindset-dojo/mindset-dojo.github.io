@@ -20,24 +20,27 @@ You will feel the FEBI™ energies course through you as you move in accordance 
 
 ## Implementation
 
-1. Review [the video](https://vimeo.com/944675826/c57a7ce142).
-2. See our interpretation below:
+Review the [Zen Toolkit - Four Patterns Instructional Video](https://vimeo.com/944675826/c57a7ce142).
 
-    **Driver (Fire)**
+Take notes as necessary, then practice the exercise for yourself.
 
-    When moving, **focus**, narrow your vision and move towards your goal with sharp movements. You can jab straight ahead of you, like emphasizing something in someone's face. You can turn your hands into perpendicular planes, and use the vertical plane to hit the horizontal plane. You can stomp hard with your feet. You can also make an hand-gun with both of your hands, folding your hands together and aligning your index fingers in a straight line, arms straight ahead while aiming, and fire.
+After that, see how it is expressed in Mindset Dojo training:
 
-    **Organizer (Earth)**
+### Driver (Fire)
 
-    When moving, get everything aligned and in order. Focus on your posture and order your movement. Align your hands into parallel planes, and make a box out of negative space in your mind using your motion. Tip your upper body side to side while leaving your lower body still, and feel the pivot point in the Solar Plexus. Take a step forward, back, left, or right with one foot, and then bring your other foot to align with the first foot.
+When moving, **focus**, narrow your vision and move towards your goal with sharp movements. You can jab straight ahead of you, like emphasizing something in someone's face. You can turn your hands into perpendicular planes, and use the vertical plane to hit the horizontal plane. You can stomp hard with your feet. You can also make an hand-gun with both of your hands, folding your hands together and aligning your index fingers in a straight line, arms straight ahead while aiming, and fire.
 
-    **Collaborator (Water)**
+### Organizer (Earth)
 
-    When moving, go with the flow. Keep shaking your hands, feeling the vibration. Then make figure eights with your arms, feeling the wave-like movement.
+When moving, get everything aligned and in order. Focus on your posture and order your movement. Align your hands into parallel planes, and make a box out of negative space in your mind using your motion. Tip your upper body side to side while leaving your lower body still, and feel the pivot point in the Solar Plexus. Take a step forward, back, left, or right with one foot, and then bring your other foot to align with the first foot.
 
-    **Visionary (Air)**
+### Collaborator (Water)
 
-    When moving, feel the possibilities. Move your arms and hands around you, never repeating the same motion, feeling the freedom you have. Allow your tension to fade away.
+When moving, go with the flow. Keep shaking your hands, feeling the vibration. Then make figure eights with your arms, feeling the wave-like movement.
+
+### Visionary (Air)
+
+When moving, feel the possibilities. Move your arms and hands around you, never repeating the same motion, feeling the freedom you have. Allow your tension to fade away.
 
 ## Inspirations
 
