@@ -136,7 +136,7 @@ sections:
         - color: black
           label: Shodan
           level: 1
-          intention: Wu-Wei
+          intention: Meta
           flows:
             - label: 30 minute Zazen with Chosei Zen Virtual Dojo
               url: /forms/zazen/
@@ -144,6 +144,8 @@ sections:
               url: /forms/martial-attitude/
             - label: Mat – Martial Attitude
               url: /forms/mat/
+            - label: Meta
+              url: /forms/meta/
             - label: Full Circle Randori
               url: /forms/randori/
   - type: designations
