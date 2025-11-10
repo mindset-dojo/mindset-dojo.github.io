@@ -9,6 +9,7 @@ authors:
 forms:
   - stillness-contemplation
   - circle
+  - tone
 excerpt: "Reflection on 'trust' in the 'Circle' Mindset form."
 ---
 

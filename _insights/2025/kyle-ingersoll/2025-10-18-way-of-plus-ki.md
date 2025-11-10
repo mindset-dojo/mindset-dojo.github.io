@@ -11,6 +11,7 @@ forms:
   - sensei
   - stance
   - four-patterns
+  - tone
 excerpt: "When the mind empties, body and universe become one — this is Plus Ki."
 ---
 
