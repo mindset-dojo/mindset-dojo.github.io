@@ -22,7 +22,8 @@ You will feel the FEBI™ energies course through you as you move in accordance 
 
 1. Review [the video](https://vimeo.com/944675826/c57a7ce142).
 2. See our interpretation below:
-    - ### Driver (Fire)
+    - 
+      ### Driver (Fire)
 
       When moving, **focus**, narrow your vision and move towards your goal with sharp movements. You can jab straight ahead of you, like emphasizing something in someone's face. You can turn your hands into perpendicular planes, and use the vertical plane to hit the horizontal plane. You can stomp hard with your feet. You can also make an hand-gun with both of your hands, folding your hands together and aligning your index fingers in a straight line, arms straight ahead while aiming, and fire.
 
