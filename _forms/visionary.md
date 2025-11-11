@@ -7,71 +7,65 @@ refactored_date: 2025-11-11
 authors:
   - kyle-ingersoll
   - michael-basil
-excerpt: "Part of the 4 Patterns from Institute for Zen Leadership, Visionary energy expands perspective, connects insight to purpose, and orients the whole toward what matters most."
+excerpt: "Part of the 4 Patterns from Institute for Zen Leadership, Visionary energy expands one's awareness beyond their immediate context, attracting the future."
 ---
 
 ## Intention
 
-Part of the [4 Patterns](../four-patterns/) from Institute for Zen Leadership, Visionary energy expands perspective, connects insight to purpose, and orients the whole toward what matters most. It opens awareness beyond the immediate, perceiving patterns, timing, and direction that others may not yet sense. Visionary invites the discipline of staying in touch with possibility while remaining anchored in reality — seeing clearly without drifting away.
+Part of the [4 Patterns](../four-patterns/) from Institute for Zen Leadership, Visionary energy expands one's awareness beyond their immediate context, attracting the future.
 
 ## Experience
 
 ### External  
 
-You step back and see connections others miss — a pattern beneath the noise, a story emerging in real time. Visionary shows up as foresight, imagination, and the capacity to name what is *becoming*. When you speak from this space, others pause — they can feel you’re seeing from a wider field.
+You perceive what others cannot, acting beyond the immediate.
 
 ### Internal  
 
-Inside, Visionary feels spacious, calm, and quietly alert. Ideas surface from stillness rather than effort. Insight arrives like weather — sensed, not forced. When balanced, there’s creative detachment with compassionate engagement. When unbalanced, it can drift toward abstraction or avoidance — seeing everything, doing nothing.
+Visionary is born of the subconscious, feeling like air. Above the line, you can both see the idea in your mind and form it into reality. Below the line, one gets stuck in the mind and avoids reality.
 
 ### Collective  
 
-In groups, Visionary brings direction and inspiration. It links the now to the next — translating meaning into motion. When attuned, the collective orients around shared purpose. When distorted, the group loses grounding in pursuit of idealized futures or unattainable perfection.
+Visionary brings unity of action through collective meaning. Above the line, purpose acts as a point of unity. Below the line, people chase a dream that will never come to fruition, a delusion.
 
 ---
 
 ### Shadow & Variations  
 
-Shadow – Escapism disguised as elevation. The vision disconnects from embodiment; wisdom becomes words without weight.  
+Shadow – All talk, no walk. Hypocrisy personified. 
 
-Overactive – Ideation without integration. Constant reframing and reimagining exhaust the field.  
+Overactive – Exhaustion through overthinking with no follow through.  
 
-Imploding – Cynicism or doubt after vision meets resistance. The fire of inspiration collapses into isolation.  
+Imploding – One gives up after facing reality.  
 
-Disassociated – Loss of meaning; nothing feels significant. The visionary becomes a spectator of life rather than a participant.  
+Disassociated – Descent into nihilism.
 
-The work is to let vision pass through you like light — illuminating what’s here, not replacing it.
+You should let thought flow thorugh you, accepting what makes sense and letting the rest pass through.
 
 ## Implementation
 
-Visionary practice is about widening perception without losing presence. Each moment of seeing — whether future, pattern, or possibility — is a dojo for integrating imagination and embodiment through the **Four Principles of Mindset Dojo**.
+Practicing Visionary is attracting the future while being present now.
 
-### Relax Completely  
+### Our Principles: 
 
-Before you imagine or articulate, relax completely. Take [One-Breath](../one-breath). Mind and body release tension together — allowing awareness to expand naturally. Tension narrows imagination; relaxation restores wonder. From that ease, images, metaphors, and insights arrive on their own, clear and alive.
+- Relax Completely
+- Center with Intention
+- Meet Fear with Presence
+- Playful Resonance is Ki  
 
-### Center with Intention  
+### Implementing the Principles
 
-Sense the emotional and energetic field as it is — then go from there. Align [Three-Centers](../three-centers). Vision rooted in sensing becomes guidance; vision detached from it becomes fantasy. Centering grounds insight in relational truth, ensuring that what you see connects to what others feel.
-
-### Meet Fear with Presence  
-
-Fear often arises when vision asks us to step beyond the known — to lead without proof. Stay with the fear; let it become a teacher. Rather than suppress it, breathe into it and listen. Presence turns fear into precision — clarifying which possibilities are alive and which are projections.
-
-### Playful Resonance Is Ki  
-
-As tension clears, imagination turns to play. Ideas interweave freely; metaphors spark, laughter returns, and new paths reveal themselves. Playfulness keeps vision adaptive and participatory — an open system rather than a rigid ideal. This is the creative heartbeat of Ki: imagination meeting reality through joyful experimentation.
+Release tension by taking [One Breath](../one-breath), and allow the [Visionary](../visionary/) and [Collaborator](../collaborator/) energy to rush in. Use [Two Sides](../two-sides/) to perceive things as they are, not as you want them to be, and feel where they want to go. Then align your [Three Centers](../three-centers/) and act. Sense, not fantasize. Learn from fear, do not let it rule you. Let the future flow forth from resonance.
 
 ### In Conversation  
 
-When expressed verbally, Visionary energy invites exploration and reframing:
-  
-- *What if…* questions open possibility without promise.  
-- Metaphors translate insight into shared imagery.  
-- Reflection pauses integrate insight before decision.  
-- Reframing shifts constraint into creative potential.  
+In conversation, Visionary changes one's perception of reality:
 
-Mature Visionary energy blends foresight with follow-through — inspiration embodied, not abstracted.
+- Mirrors explore key points further
+- Dynamic Silence holds space for the future to arrive  
+- An soft, inviting [Tone] lures in possibility. 
+
+When mature, Visionary is embodied through execution.
 
 ## Inspiration
 
