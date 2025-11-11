@@ -20,7 +20,7 @@ You are working in a team, resonating together. You are in the collective flow, 
 
 ## Implementation
 
-You use Labels™ to surface underlying emotions, Encouragers™ to show your engagement, and [Tone](../tone/) to show that you care.
+You use Labels™ to surface underlying emotions, Encouragers™ to show your engagement, and a playful, warm [Tone](../tone/) to show that you care.
 
 ## Inspiration
 
