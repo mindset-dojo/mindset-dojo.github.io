@@ -16,7 +16,6 @@ Part of the [4 Patterns](../four-patterns/) from Institute for Zen Leadership, D
 It channels clarity into motion — transforming insight into initiative and resistance into rhythm.  
 Driver invites the discipline of decisive action balanced with embodied awareness.
 
-
 ## Experience
 
 ### External 
@@ -77,7 +76,6 @@ When expressed verbally, Driver takes the form of *structured curiosity and clea
 - Summary completes loops so energy can move to the next focus.  
 
 Driver’s mature form is coherence in motion — the ability to move clearly while staying connected to self, others, and field.
-
 
 ## Inspiration
 

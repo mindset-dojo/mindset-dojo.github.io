@@ -14,7 +14,6 @@ excerpt: "Part of the 4 Patterns from Institute for Zen Leadership, Organizer en
 
 Part of the [4 Patterns](../four-patterns/) from Institute for Zen Leadership, Organizer energy structures complexity into clarity and coherence. It transforms chaos into pattern and potential into process. Organizer invites the discipline of creating conditions where order supports flow — a living architecture that allows people, ideas, and systems to breathe.
 
-
 ## Experience
 
 ### External  
@@ -73,7 +72,6 @@ When expressed verbally, Organizer shapes shared understanding:
 - Summaries and checkpoints create trust that the process will hold.  
 
 Mature Organizer energy doesn’t impose structure — it reveals it, inviting others into a rhythm of clarity and trust.
-
 
 ## Inspiration
 

@@ -14,7 +14,6 @@ excerpt: "Part of the 4 Patterns from Institute for Zen Leadership, Visionary en
 
 Part of the [4 Patterns](../four-patterns/) from Institute for Zen Leadership, Visionary energy expands perspective, connects insight to purpose, and orients the whole toward what matters most. It opens awareness beyond the immediate, perceiving patterns, timing, and direction that others may not yet sense. Visionary invites the discipline of staying in touch with possibility while remaining anchored in reality — seeing clearly without drifting away.
 
-
 ## Experience
 
 ### External  
@@ -42,7 +41,6 @@ Imploding – Cynicism or doubt after vision meets resistance. The fire of inspi
 Disassociated – Loss of meaning; nothing feels significant. The visionary becomes a spectator of life rather than a participant.  
 
 The work is to let vision pass through you like light — illuminating what’s here, not replacing it.
-
 
 ## Implementation
 

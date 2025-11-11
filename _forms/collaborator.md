@@ -14,7 +14,6 @@ excerpt: "Part of the 4 Patterns from Institute for Zen Leadership, Collaborator
 
 Part of the [4 Patterns](../four-patterns/) from Institute for Zen Leadership, Collaborator energy connects people and ideas through resonance and shared purpose. It attunes to relationship as the primary medium of change — where understanding, trust, and rhythm allow something larger to emerge than any individual could construct alone. Collaborator invites the discipline of listening deeply, aligning intention, and co-creating flow.
 
-
 ## Experience
 
 ### External  
@@ -42,7 +41,6 @@ Imploding – Withdrawal or resentment after over-giving. Feeling unseen or unap
 Disassociated – Emotional numbness. Connection feels performative, the warmth gone flat.  
 
 The work is to stay connected without collapsing — to co-regulate rather than co-fuse.
-
 
 ## Implementation
 
