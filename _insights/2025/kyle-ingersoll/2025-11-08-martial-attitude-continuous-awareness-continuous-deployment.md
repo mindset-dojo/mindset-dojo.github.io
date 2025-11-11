@@ -17,6 +17,10 @@ forms:
   - two-sides
   - three-centers
   - tone
+  - driver
+  - organizer
+  - collaborator
+  - visionary
 excerpt: "Martial Attitude is not opposition but attunement — the clarity to meet force with harmony, transforming conflict into coherence."
 ---
 

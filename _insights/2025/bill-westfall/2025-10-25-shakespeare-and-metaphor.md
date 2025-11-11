@@ -8,6 +8,7 @@ authors:
   - bill-westfall
 forms:
   - stillness-contemplation
+  - visionary
 excerpt: "The use of metaphor in Zen and Shakespeare and how they both bring value."
 ---
 

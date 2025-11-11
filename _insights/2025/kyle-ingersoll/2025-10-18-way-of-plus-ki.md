@@ -12,6 +12,10 @@ forms:
   - stance
   - four-patterns
   - tone
+  - driver
+  - organizer
+  - collaborator
+  - visionary
 excerpt: "When the mind empties, body and universe become one — this is Plus Ki."
 ---
 

@@ -10,6 +10,7 @@ forms:
   - stillness-contemplation
   - stance
   - tone
+  - visionary
 excerpt: "Reflection on the 'Don't Train, Complain...?' Mindset Dojo insight."
 ---
 

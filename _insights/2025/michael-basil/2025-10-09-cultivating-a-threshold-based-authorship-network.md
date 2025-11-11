@@ -13,6 +13,10 @@ forms:
   - stance
   - two-sides
   - three-centers
+  - driver
+  - organizer
+  - collaborator
+  - visionary
 excerpt: "In the dojo, we’re not trying to build an audience — we’re cultivating a field of thresholds: experiences that transform presence into trust."
 ---
 

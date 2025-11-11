@@ -12,6 +12,7 @@ forms:
   - integration-under-fire
   - stance
   - tone
+  - visionary
 excerpt: "Reflection on the 'Dojo' Mindset form."
 ---
 

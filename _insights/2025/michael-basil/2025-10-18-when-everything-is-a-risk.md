@@ -16,6 +16,10 @@ forms:
   - three-centers
   - four-patterns
   - tone
+  - driver
+  - organizer
+  - collaborator
+  - visionary
 excerpt: "When guarantees fade and change becomes constant, presence becomes the most reliable investment."
 ---
 

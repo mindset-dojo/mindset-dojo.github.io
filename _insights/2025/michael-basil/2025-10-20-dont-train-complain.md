@@ -17,6 +17,10 @@ forms:
   - three-centers
   - four-patterns
   - tone
+  - driver
+  - organizer
+  - collaborator
+  - visionary
 excerpt: "Every practitioner begins with a complaint — it’s the first mirror of the dojo. This piece opens the gate: an orientation to frustration, Self-learning, and the quiet art of turning noise into clarity."
 ---
 
