@@ -7,73 +7,67 @@ refactored_date: 2025-11-11
 authors:
   - kyle-ingersoll
   - michael-basil
-excerpt: "Part of the 4 Patterns from Institute for Zen Leadership, Collaborator energy connects people and ideas through resonance and shared purpose."
+excerpt: "Part of the 4 Patterns from Institute for Zen Leadership, Collaborator energy creates resonance from relationship through alignment."
 ---
 
 ## Intention
 
-Part of the [4 Patterns](../four-patterns/) from Institute for Zen Leadership, Collaborator energy connects people and ideas through resonance and shared purpose. It attunes to relationship as the primary medium of change — where understanding, trust, and rhythm allow something larger to emerge than any individual could construct alone. Collaborator invites the discipline of listening deeply, aligning intention, and co-creating flow.
+Part of the [4 Patterns](../four-patterns/) from Institute for Zen Leadership, Collaborator energy creates resonance from relationship through alignment.
 
 ## Experience
 
 ### External  
 
-You enter the conversation not to convince, but to connect. Collaborator shows up as warmth, humor, or curiosity that draws others into engagement. Dialogue becomes a dance — each person influencing the tempo and tone through presence rather than position.
+Through presence, you connect with others in the conversation. Instead of a script to be read, a dance flows forth.
 
 ### Internal  
 
-Inside, Collaborator feels open, relational, and fluid. Awareness spreads wide; attention softens enough to sense tone, timing, and subtext. When balanced, there’s a grounded empathy — the ability to feel-with without losing center. When unbalanced, boundaries blur; your energy scatters in the effort to maintain harmony.
+You are calmly aware, open to and flowing with the Other. Above the line, one blends with without dissolving. Below the line, one is absorbed by the Other.
 
 ### Collective  
 
-In groups, Collaborator creates cohesion. People begin finishing each other’s sentences, building on one another’s ideas, finding shared language. When attuned, the field hums with trust and participation. When misaligned, collaboration slides into compliance — connection without authenticity.
+Collaborator is the glue holding together social groups. Above the line, people trust and participate freely. Below the line is slavery and compliance.
 
 ---
 
 ### Shadow & Variations  
 
-Shadow – The need to belong eclipses the need to be real. Empathy becomes appeasement.  
+Shadow – Everything is performance, nothing is secure.  
 
-Overactive – Over-accommodating, losing one’s own perspective in service of group comfort. Trying to “hold it all together” drains the very energy needed to stay connected.  
+Overactive – Groupthink personified, sacrificing one's individuality on the altar of normalcy.  
 
-Imploding – Withdrawal or resentment after over-giving. Feeling unseen or unappreciated.  
+Imploding – Resentment born of giving without receiving gratitude. 
 
-Disassociated – Emotional numbness. Connection feels performative, the warmth gone flat.  
+Disassociated – No warmth, only performance and virtue-signaling.
 
-The work is to stay connected without collapsing — to co-regulate rather than co-fuse.
+Connect with others, without living through them.
 
 ## Implementation
 
-Collaborator practice begins with the body’s capacity for resonance. Connection doesn’t start with words; it starts with breath, eyes, tone, and timing. When you engage the **Four Principles of Mindset Dojo**, relationships become living systems of flow.
+Practice begins with body language and [Tone](../tone/).
 
-### Relax Completely  
+### Our Principles: 
 
-Before entering connection, relax completely. Take [One-Breath](../one-breath). Mind and body release tension together — increasing agency to sense others clearly. Tension creates static in the field; relaxation restores bandwidth for empathy. When you soften, others sense safety, and authenticity follows naturally.
+- Relax Completely
+- Center with Intention
+- Meet Fear with Presence
+- Playful Resonance is Ki  
 
-### Center with Intention  
+### Implementing the Principles
 
-Sense the emotional and energetic field as it is — then go from there. Consider [Two-Sides](../two-sides) to remember that every interaction is reciprocal. Centering transforms listening into leadership: you feel the whole field, not just your side of the story. Intention becomes shared direction, not personal agenda.
-
-### Meet Fear with Presence  
-
-In authentic collaboration, fear often arises as vulnerability — fear of being wrong, excluded, or unseen. Rather than manage that fear, meet it. Stay present in the discomfort; breathe until it softens into curiosity. Fear reveals where deeper trust can form — both within yourself and in the relationship.
-
-### Playful Resonance Is Ki  
-
-As tension clears, the space between people becomes play. Conversation regains improvisational rhythm — laughter, shared silence, intuitive timing. Playfulness transforms collaboration from transaction into co-creation. This is Ki in its social form: movement made possible by mutual ease.
+Release tension by taking [One Breath](../one-breath), and allow the [Visionary](../visionary/) and [Collaborator](../collaborator/) energy to rush in. Use [Two Sides](../two-sides/) to perceive things as they are, not as you want them to be, and feel where they want to go. Then align your [Three Centers](../three-centers/) and act. Confront vulnerability and be honest, since that invites authenticity and trust. Playful resonance forms from the ability to trust each other.
 
 ---
 
 ### In Conversation  
 
-When expressed verbally, Collaborator energy cultivates shared sensemaking:
-  
-- Open Questions invite participation without agenda.  
-- Reflective Listening mirrors understanding back into the field.  
-- Affirmations and Acknowledgments reinforce safety and belonging.  
-- Summaries integrate the whole before moving forward.  
+In conversation, Collaborator allows for a shared perception of reality:
 
-Mature Collaborator energy feels like harmony — distinct voices resonating toward shared purpose.
+- Labels surface underlying feelings, allowing them to be acknowledged  
+- Encouragers show presence and mutual support. 
+- A caring, soft [Tone](../tone/) shows empathy through one's actions.
+
+When mature, Collaborator creates harmony out of the emergent order.
 
 ## Inspiration
 
