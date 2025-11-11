@@ -53,11 +53,11 @@ Each moment of forward motion is a micro-dojo: a place to embody the **Four Prin
 
 ### Relax Completely  
 
-Before you move, *soften*. Let mind and body release tension together. Take [One-Breath](../one-breath) and consider [Two-Sides](../two-sides).  The paradox of Driver is that power increases through relaxation. Tension narrows perception; release expands agency. From that openness, you see the clear next move rather than forcing one.
+Before you move, *soften*. Let mind and body release tension together. Take [One-Breath](../one-breath).  The paradox of Driver is that power increases through relaxation. Tension narrows perception; release expands agency. From that openness, you see the clear next move rather than forcing one.
 
 ### Center with Intention  
 
-Sense the emotional and energetic field as it is — then go from there. Driver without sensing becomes force; sensing without movement becomes drift. By centering, you acknowledge what *is* before deciding what *will be*. From that grounded awareness, intention arises naturally, not reactively.
+Sense the emotional and energetic field as it is — then go from there. Consider [Two-Sides](../two-sides). Driver without sensing becomes force; sensing without movement becomes drift. By centering, you acknowledge what *is* before deciding what *will be*. From that grounded awareness, intention arises naturally, not reactively.
 
 ### Meet Fear with Presence
 

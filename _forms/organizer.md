@@ -49,11 +49,11 @@ Organizer practice is about bringing harmony to systems — not by tightening, b
 
 ### Relax Completely  
 
-Before you organize, pause and soften. Mind and body release tension together — increasing agency to sense what truly matters. From this relaxed clarity, you see not just *what* needs order, but *why*. Tension distorts priority; relaxation restores perspective.
+Before you organize, pause and soften. Take [One-Breath](../one-breath). Mind and body release tension together — increasing agency to sense what truly matters. From this relaxed clarity, you see not just *what* needs order, but *why*. Tension distorts priority; relaxation restores perspective.
 
 ### Center with Intention  
 
-Sense the emotional and energetic field as it is — then go from there. Take [One-Breath](../one-breath) and consider [Two-Sides](../two-sides).  Ask: *What wants to be held right now? What can be released?* Centering prevents the Organizer from over-scripting reality. Intention becomes the spine; everything else arranges naturally around it.
+Sense the emotional and energetic field as it is — then go from there. Consider [Two-Sides](../two-sides).  Ask: *What wants to be held right now? What can be released?* Centering prevents the Organizer from over-scripting reality. Intention becomes the spine; everything else arranges naturally around it.
 
 ### Meet Fear with Presence  
 
