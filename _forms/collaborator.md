@@ -66,7 +66,8 @@ As tension clears, the space between people becomes play. Conversation regains i
 
 ### In Conversation  
 
-When expressed verbally, Collaborator energy cultivates shared sensemaking:  
+When expressed verbally, Collaborator energy cultivates shared sensemaking:
+  
 - Open Questions invite participation without agenda.  
 - Reflective Listening mirrors understanding back into the field.  
 - Affirmations and Acknowledgments reinforce safety and belonging.  

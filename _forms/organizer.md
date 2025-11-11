@@ -66,7 +66,8 @@ When tension clears, structure becomes play. Lists turn into choreography; plans
 
 ### In Conversation  
 
-When expressed verbally, Organizer shapes shared understanding:  
+When expressed verbally, Organizer shapes shared understanding:
+  
 - Clarifying Questions uncover underlying structure: *“What outcome are we aiming for?”*  
 - Framing Statements translate complexity into coherence.  
 - Summaries and checkpoints create trust that the process will hold.  

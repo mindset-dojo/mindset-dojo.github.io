@@ -70,7 +70,8 @@ As tension clears, playfulness returns — renewing movement and restoring flow.
 
 ### In Conversation  
 
-When expressed verbally, Driver takes the form of *structured curiosity and clean closure*:  
+When expressed verbally, Driver takes the form of *structured curiosity and clean closure*:
+  
 - Calibrated Questions direct attention forward through inquiry, not imposition.  
 - “I” Messages align accountability with tone, keeping presence relational.  
 - Summary completes loops so energy can move to the next focus.  

@@ -64,7 +64,8 @@ As tension clears, imagination turns to play. Ideas interweave freely; metaphors
 
 ### In Conversation  
 
-When expressed verbally, Visionary energy invites exploration and reframing:  
+When expressed verbally, Visionary energy invites exploration and reframing:
+  
 - *What if…* questions open possibility without promise.  
 - Metaphors translate insight into shared imagery.  
 - Reflection pauses integrate insight before decision.  
