@@ -12,71 +12,62 @@ excerpt: "Part of the 4 Patterns from Institute for Zen Leadership, Driver energ
 
 ## Intention
 
-Part of the [4 Patterns](../four-patterns/) from Institute for Zen Leadership, Driver energy concentrates your focus and moves you forward.  
-It channels clarity into motion — transforming insight into initiative and resistance into rhythm.  
-Driver invites the discipline of decisive action balanced with embodied awareness.
+Part of the [4 Patterns](../four-patterns/) from Institute for Zen Leadership, Driver energy is like a laser. It causes you to focus forwards, step by step.
 
 ## Experience
 
 ### External 
 
-You are in the strike zone — all attention focused, body aligned, the next move inevitable. Driver shows up as crisp initiation: the moment someone says, “Let’s move,” and momentum begins to organize around that impulse.
+You are in a flow state, following the impulse to do something whereever that came from to it's end state. As you get closer to the destination, so does the momentum carrying you there.
 
 ### Internal  
 
-Inside, the experience is alert and steady. The mind narrows into purpose; breath lengthens to match the motion. When balanced, there’s a sense of clean effort — doing without strain. When unbalanced, effort hardens into pressure, and the focus that once inspired becomes tunnel vision.
+When above the line, one is able to do Wu-Wei (effortless action) with a sense of calm alertness, feeling like a part of the universe. When below the line, one is in crunch time, tense and blinded by fear.
 
 ### Collective  
 
-In teams and groups, Driver energy cuts through diffusion. It sets a cadence that others can align to — a pulse that turns conversation into creation.  
-When attuned, it carries everyone forward together. When rigid, it leaves people trailing in its wake.
+Driver is the start of resonance, taking that first step on the journey. It sets the beat of the drum that everyone else follows. With above the line [Collaborator](../collaborator/), it unites people around a point of focus into a movement. With below the line or no [Collaborator](../collaborator/), it leaves behind or runs people over. 
 
 ---
 
 ### Shadow & Variations
 
-Shadow – Control disguised as clarity. The push to move forward can eclipse the capacity to listen. 
+Shadow – Just following orders without question and grimly marching forward without considering the people around you. Movement without resonance leads one in circles to nowhere. 
 
-Overactive – Constant doing, no integration; a sprint that forgets recovery.  
+Overactive – Working without rest or reflection until one breaks.  
 
-Imploding – Drive turns inward; frustration builds where flow once lived.  
+Imploding – Getting frustrated that you can't do anything, depression.  
 
-Disassociated – The wheel spins, but no one’s steering; motion without meaning.
+Disassociated – Work is done for no reason, and for no result.
 
-The work is to sense motion itself — not as something you cause, but something you join.
+Feel into the existing Driver energy waves that are there, and blend with them to influence them.
 
 ## Implementation
 
-Driver integrates through practice, not pressure.  
-Each moment of forward motion is a micro-dojo: a place to embody the **Four Principles of Mindset Dojo**.
+Driver comes from the momentum born of habit, not forced out when you need it.
 
-### Relax Completely  
+### Our Principles: 
 
-Before you move, *soften*. Let mind and body release tension together. Take [One-Breath](../one-breath).  The paradox of Driver is that power increases through relaxation. Tension narrows perception; release expands agency. From that openness, you see the clear next move rather than forcing one.
+- Relax Completely
+- Center with Intention
+- Meet Fear with Presence
+- Playful Resonance is Ki  
 
-### Center with Intention  
+### Implementing the Principles
 
-Sense the emotional and energetic field as it is — then go from there. Consider [Two-Sides](../two-sides). Driver without sensing becomes force; sensing without movement becomes drift. By centering, you acknowledge what *is* before deciding what *will be*. From that grounded awareness, intention arises naturally, not reactively.
-
-### Meet Fear with Presence
-
-Fear signals the edges of expansion. When you feel that surge before a difficult step or conversation, stay with it — breathe into the sensation instead of escaping it. Presence converts fear into guidance: the body showing you where more life wants to move. Every courageous act begins here.
-
-### Playful Resonance Is Ki  
-
-As tension clears, playfulness returns — renewing movement and restoring flow. True Driver isn’t grim determination; it’s creative engagement with what’s emerging. Playfulness keeps the momentum supple, able to adapt, invite, and respond. When movement feels like play, Ki flows freely.
+Release tension by taking [One Breath](../one-breath), and allow the [Visionary](../visionary/) and [Collaborator](../collaborator/) energy to rush in. You are at your most powerful when relaxed, paradoxically, since you are working with instead of against the flow. Then align your [Three Centers](../three-centers/) and examine [Two Sides](../two-sides/) Feel into the collective resonance to attract the future that wants to happen and find your personal Way, then at the moment of maximum vibration between your local and whole Self (you and your context), **move**. Remember, fear often signals opportunity for growth, and playfulness keeps you in the Game.
 
 ---
 
 ### In Conversation  
 
-When expressed verbally, Driver takes the form of *structured curiosity and clean closure*:
-  
-- Calibrated Questions direct attention forward through inquiry, not imposition.  
-- “I” Messages align accountability with tone, keeping presence relational.  
-- Summary completes loops so energy can move to the next focus.  
+When communicating, Driver probes into and resolves conversations.
 
-Driver’s mature form is coherence in motion — the ability to move clearly while staying connected to self, others, and field.
+- Calibrated Questions move the conversation foward through invitation, not force.  
+- Take responsibility for what you are saying with “I” Messages.
+- Summary ensures alignment so the conversation can conclude cleanly.  
+
+When mature, Driver allows you to move forward towards your ideals while maintaining connection with everything else.
 
 ## Inspiration
 
