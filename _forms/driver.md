@@ -65,7 +65,8 @@ When communicating, Driver probes into and resolves conversations.
 
 - Calibrated Questions move the conversation foward through invitation, not force.  
 - Take responsibility for what you are saying with “I” Messages.
-- Summary ensures alignment so the conversation can conclude cleanly.  
+- Summary ensures alignment so the conversation can conclude cleanly.
+- A confident, firm [Tone](../tone/) invites action and trust.  
 
 When mature, Driver allows you to move forward towards your ideals while maintaining connection with everything else.
 
