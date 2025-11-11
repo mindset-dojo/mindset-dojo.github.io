@@ -16,7 +16,7 @@ Part of the [4 Patterns](../four-patterns/) from Institute for Zen Leadership, C
 
 ## Experience
 
-You are working in a team, resonating together. You are in the collective flow, your Self temporarily dissolved into the collective Will pursuing the Way. 
+You are working in a team, resonating together. You are in the collective flow, your Self temporarily dissolved into the collective Will pursuing the Way.
 
 ## Implementation
 

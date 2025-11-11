@@ -16,7 +16,7 @@ Part of the [4 Patterns](../four-patterns/) from Institute for Zen Leadership, V
 
 ## Experience
 
-You are brainstorming to solve a problem (i.e. Driver-Visionary). You fail to solve the problem then, and decide to take a shower. During the shower, you figure out the solution to the problem (i.e. Visionary-Organizer). 
+You are brainstorming to solve a problem (i.e. Driver-Visionary). You fail to solve the problem then, and decide to take a shower. During the shower, you figure out the solution to the problem (i.e. Visionary-Organizer).
 
 ## Implementation
 
