@@ -32,6 +32,8 @@ Inside, the experience is alert and steady. The mind narrows into purpose; breat
 In teams and groups, Driver energy cuts through diffusion. It sets a cadence that others can align to — a pulse that turns conversation into creation.  
 When attuned, it carries everyone forward together. When rigid, it leaves people trailing in its wake.
 
+---
+
 ### Shadow & Variations
 
 Shadow – Control disguised as clarity. The push to move forward can eclipse the capacity to listen. 
@@ -43,7 +45,6 @@ Imploding – Drive turns inward; frustration builds where flow once lived.
 Disassociated – The wheel spins, but no one’s steering; motion without meaning.
 
 The work is to sense motion itself — not as something you cause, but something you join.
-
 
 ## Implementation
 
@@ -65,6 +66,8 @@ Fear signals the edges of expansion. When you feel that surge before a difficult
 ### Playful Resonance Is Ki  
 
 As tension clears, playfulness returns — renewing movement and restoring flow. True Driver isn’t grim determination; it’s creative engagement with what’s emerging. Playfulness keeps the momentum supple, able to adapt, invite, and respond. When movement feels like play, Ki flows freely.
+
+---
 
 ### In Conversation  
 

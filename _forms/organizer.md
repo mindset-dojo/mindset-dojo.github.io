@@ -29,6 +29,8 @@ Inside, Organizer feels grounded and steady, like exhaling into structure.  The 
 
 In teams and organizations, Organizer stabilizes the field. It gives rhythm to the work, reliability to agreements, and coherence to change. When attuned, the collective nervous system relaxes; trust in the process grows. When rigid, order becomes armor — process replaces presence.
 
+---
+
 ### Shadow & Variations  
 
 Shadow – Mistaking structure for safety. Control disguised as care. When the Organizer fears chaos, it over-engineers the living system it’s meant to support.  
@@ -40,7 +42,6 @@ Imploding – Overwhelm disguised as analysis. The structure collapses under its
 Disassociated – Drift or avoidance of structure entirely. Things pile up, and the Organizer’s gift of clarity feels out of reach.  
 
 The work is to hold form lightly — to design for flow rather than containment.
-
 
 ## Implementation
 
@@ -61,6 +62,8 @@ Fear of failure, uncertainty, or imperfection can drive the Organizer into overc
 ### Playful Resonance Is Ki  
 
 When tension clears, structure becomes play. Lists turn into choreography; plans become improvisation with rhythm. Playfulness invites collaboration — others start participating in order instead of resisting it. That shared ease is Ki in motion.
+
+---
 
 ### In Conversation  
 
