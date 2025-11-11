@@ -46,14 +46,7 @@ Remember, everything you build is a debt. Thus build minimally and build fluidly
 
 Using Organizer properly is about building emergent context-aware order. The things you build are your own reflection staring at you in the mirror. 
 
-### Our Principles: 
-
-- Relax Completely
-- Center with Intention
-- Meet Fear with Presence
-- Playful Resonance is Ki  
-
-### Implementing the Principles
+### Implementing Our Principles
 
 Release tension by taking [One Breath](../one-breath), and allow the [Visionary](../visionary/) and [Collaborator](../collaborator/) energy to rush in. Use [Two Sides](../two-sides/) to perceive things as they are, not as you want them to be, and feel where they want to go. Then align your [Three Centers](../three-centers/) and act. Don't be afraid to fail, since the road to success is paved with countless failures. Take failure as a learning opportunity instead of a indictment of your character. Order emerges from chaos through playfulness, inviting [Collaborator](../collaborator/).
 

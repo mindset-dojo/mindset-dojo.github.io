@@ -44,16 +44,9 @@ You should let thought flow thorugh you, accepting what makes sense and letting 
 
 ## Implementation
 
-Practicing Visionary is attracting the future while being present now.
+Practicing Visionary is attracting the future while being present now. 
 
-### Our Principles: 
-
-- Relax Completely
-- Center with Intention
-- Meet Fear with Presence
-- Playful Resonance is Ki  
-
-### Implementing the Principles
+### Implementing Our Principles
 
 Release tension by taking [One Breath](../one-breath), and allow the [Visionary](../visionary/) and [Collaborator](../collaborator/) energy to rush in. Use [Two Sides](../two-sides/) to perceive things as they are, not as you want them to be, and feel where they want to go. Then align your [Three Centers](../three-centers/) and act. Sense, not fantasize. Learn from fear, do not let it rule you. Let the future flow forth from resonance.
 
