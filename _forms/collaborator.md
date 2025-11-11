@@ -36,7 +36,7 @@ Shadow – Everything is performance, nothing is secure.
 
 Overactive – Groupthink personified, sacrificing one's individuality on the altar of normalcy.  
 
-Imploding – Resentment born of giving without receiving gratitude. 
+Imploding – Resentment born of giving without receiving gratitude.
 
 Disassociated – No warmth, only performance and virtue-signaling.
 
@@ -57,7 +57,7 @@ Release tension by taking [One Breath](../one-breath), and allow the [Visionary]
 In conversation, Collaborator allows for a shared perception of reality:
 
 - Labels surface underlying feelings, allowing them to be acknowledged  
-- Encouragers show presence and mutual support. 
+- Encouragers show presence and mutual support.
 - A caring, soft [Tone](../tone/) shows empathy through one's actions.
 
 When mature, Collaborator creates harmony out of the emergent order.

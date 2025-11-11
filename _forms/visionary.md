@@ -32,7 +32,7 @@ Visionary brings unity of action through collective meaning. Above the line, pur
 
 ### Shadow & Variations  
 
-Shadow – All talk, no walk. Hypocrisy personified. 
+Shadow – All talk, no walk. Hypocrisy personified.
 
 Overactive – Exhaustion through overthinking with no follow through.  
 
@@ -44,7 +44,7 @@ You should let thought flow thorugh you, accepting what makes sense and letting 
 
 ## Implementation
 
-Practicing Visionary is attracting the future while being present now. 
+Practicing Visionary is attracting the future while being present now.
 
 ### Implementing Our Principles
 
@@ -56,7 +56,7 @@ In conversation, Visionary changes one's perception of reality:
 
 - Mirrors explore key points further
 - Dynamic Silence holds space for the future to arrive  
-- An soft, inviting [Tone] lures in possibility. 
+- An soft, inviting [Tone] lures in possibility.
 
 When mature, Visionary is embodied through execution.
 

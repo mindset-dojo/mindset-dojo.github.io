@@ -16,7 +16,7 @@ Part of the [4 Patterns](../four-patterns/) from Institute for Zen Leadership, D
 
 ## Experience
 
-### External 
+### External
 
 You are in a flow state, following the impulse to do something whereever that came from to it's end state. As you get closer to the destination, so does the momentum carrying you there.
 
@@ -26,13 +26,13 @@ When above the line, one is able to do Wu-Wei (effortless action) with a sense o
 
 ### Collective  
 
-Driver is the start of resonance, taking that first step on the journey. It sets the beat of the drum that everyone else follows. With above the line [Collaborator](../collaborator/), it unites people around a point of focus into a movement. With below the line or no [Collaborator](../collaborator/), it leaves behind or runs people over. 
+Driver is the start of resonance, taking that first step on the journey. It sets the beat of the drum that everyone else follows. With above the line [Collaborator](../collaborator/), it unites people around a point of focus into a movement. With below the line or no [Collaborator](../collaborator/), it leaves behind or runs people over.
 
 ---
 
 ### Shadow & Variations
 
-Shadow – Just following orders without question and grimly marching forward without considering the people around you. Movement without resonance leads one in circles to nowhere. 
+Shadow – Just following orders without question and grimly marching forward without considering the people around you. Movement without resonance leads one in circles to nowhere.
 
 Overactive – Working without rest or reflection until one breaks.  
 

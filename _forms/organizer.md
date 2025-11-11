@@ -32,7 +32,7 @@ Organizer is the precondition to trust, allowing relaxation. However, when below
 
 ### Shadow & Variations  
 
-Shadow – Controlling instead of connecting with chaos, pursuing a false sense of safety through artificial structure. 
+Shadow – Controlling instead of connecting with chaos, pursuing a false sense of safety through artificial structure.
 
 Overactive – Controlling every little thing, allowing nothing to grow or breathe.
 
@@ -44,7 +44,7 @@ Remember, everything you build is a debt. Thus build minimally and build fluidly
 
 ## Implementation
 
-Using Organizer properly is about building emergent context-aware order. The things you build are your own reflection staring at you in the mirror. 
+Using Organizer properly is about building emergent context-aware order. The things you build are your own reflection staring at you in the mirror.
 
 ### Implementing Our Principles
 
