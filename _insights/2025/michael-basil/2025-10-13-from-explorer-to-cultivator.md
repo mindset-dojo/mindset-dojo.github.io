@@ -13,6 +13,10 @@ forms:
   - three-centers
   - four-patterns
   - tone
+  - driver
+  - organizer
+  - collaborator
+  - visionary
 excerpt: "In Mindset Dojo, every pull request tests a threshold — transforming exploration into cultivation, and curiosity into coherence."
 ---
 

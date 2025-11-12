@@ -15,6 +15,9 @@ forms:
   - four-patterns
   - three-centers
   - tone
+  - driver
+  - collaborator
+  - visionary
 excerpt: "Giving without awareness creates imbalance; giving with awareness turns donation into resonance, where both giver and world are enriched."
 ---
 

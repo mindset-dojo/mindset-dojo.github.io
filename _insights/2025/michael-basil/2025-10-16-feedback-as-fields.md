@@ -19,6 +19,10 @@ forms:
   - three-centers
   - four-patterns
   - tone
+  - driver
+  - organizer
+  - collaborator
+  - visionary
 excerpt: "As Mindset Dojo moves from late-alpha toward beta, feedback becomes our training ground — a way to find balance, alignment, and presence in motion."
 ---
 

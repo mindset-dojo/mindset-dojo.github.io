@@ -19,6 +19,10 @@ forms:
   - four-patterns
   - meta
   - tone
+  - driver
+  - organizer
+  - collaborator
+  - visionary
 excerpt: "A meta reflection on composing Driver, Organizer, Collaborator, and Visionary energies within the first ninety seconds to regulate trust."
 ---
 

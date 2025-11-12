@@ -14,6 +14,10 @@ forms:
   - revealed-preference-reflection
   - stance
   - tone
+  - driver
+  - organizer
+  - collaborator
+  - visionary
 excerpt: "When code becomes debt, only human guidance can teach AI the Way forward."
 ---
 
