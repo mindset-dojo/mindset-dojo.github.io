@@ -44,7 +44,7 @@ You should let thought flow thorugh you, accepting what makes sense and letting 
 
 ## Implementation
 
-Practicing Visionary is attracting the future while being present now.
+Practicing Visionary is attracting the future while being present Now.
 
 ### Implementing Our Principles
 
