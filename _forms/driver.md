@@ -48,7 +48,7 @@ Driver comes from the momentum born of habit, not forced out when you need it.
 
 ### Implementing Our Principles
 
-Release tension by taking [One Breath](../one-breath), and allow the [Visionary](../visionary/) and [Collaborator](../collaborator/) energy to rush in. You are at your most powerful when relaxed, paradoxically, since you are working with instead of against the flow. Then align your [Three Centers](../three-centers/) and examine [Two Sides](../two-sides/) Feel into the collective resonance to attract the future that wants to happen and find your personal Way, then at the moment of maximum vibration between your local and whole Self (you and your context), **move**. Remember, fear often signals opportunity for growth, and playfulness keeps you in the Game.
+Release tension by taking [One Breath](../one-breath), and allow the [Visionary](../visionary/) and [Collaborator](../collaborator/) energy to blend in. You are at your most powerful when relaxed, paradoxically, since you are working with instead of against the flow. Then align your [Three Centers](../three-centers/) and examine [Two Sides](../two-sides/) Feel into the collective resonance to attract the future that wants to happen and find your personal Way, then at the moment of maximum vibration between your local and whole Self (you and your context), **move**. Remember, fear often signals opportunity for growth, and playfulness keeps you in the Game.
 
 ---
 
