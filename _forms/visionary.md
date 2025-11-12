@@ -8,6 +8,8 @@ authors:
   - kyle-ingersoll
   - michael-basil
 excerpt: "Part of the 4 Patterns from Institute for Zen Leadership, Visionary energy expands one's awareness beyond their immediate context, attracting the future."
+principles_groups:
+  - program
 ---
 
 ## Intention
@@ -46,11 +48,7 @@ You should let thought flow thorugh you, accepting what makes sense and letting 
 
 Practicing Visionary is attracting the future while being present now.
 
----
-
-{%- include sections/principles.html principles_title="Our Principles" principles_groups="program" -%}
-
----
+{%- include sections/principles.html principles_title="Our Principles" principles_groups=page.principles_groups -%}
 
 ### Implementing Our Principles
 
