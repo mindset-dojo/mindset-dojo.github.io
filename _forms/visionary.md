@@ -48,7 +48,7 @@ You should let thought flow thorugh you, accepting what makes sense and letting 
 
 Practicing Visionary is attracting the future while being present now.
 
-{%- include sections/principles.html principles_title="Our Principles" principles_groups=page.principles_groups -%}
+{%- include sections/principles.html section=section principles_title="Our Principles" principles_groups=page.principles_groups -%}
 
 ### Implementing Our Principles
 
