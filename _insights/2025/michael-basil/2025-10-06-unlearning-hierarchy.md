@@ -18,6 +18,10 @@ forms:
   - two-sides
   - three-centers
   - tone
+  - driver
+  - organizer
+  - collaborator
+  - visionary
 excerpt: "In the Dojo, leadership is cultivation, not control. Circles replace chains of command. Authorship replaces ownership."
 ---
 

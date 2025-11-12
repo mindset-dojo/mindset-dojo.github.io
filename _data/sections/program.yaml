@@ -69,6 +69,8 @@ sections:
               url: /forms/two-sides/
             - label: 5 minute Zazen by yourself
               url: /forms/zazen/
+            - label: Driver
+              url: /forms/driver/
             - label: Mat – Driver
               url: /forms/mat/
             - label: Dyad Randori – Driver
@@ -82,6 +84,8 @@ sections:
               url: /forms/three-centers/
             - label: 10 minute Zazen with Jiki
               url: /forms/zazen/
+            - label: Organizer
+              url: /forms/organizer/
             - label: Mat – Organizer
               url: /forms/mat/
             - label: Triad Randori – Organizer
@@ -99,6 +103,8 @@ sections:
               url: /forms/stance/
             - label: 10 minute Zazen by yourself
               url: /forms/zazen/
+            - label: Collaborator
+              url: /forms/collaborator/
             - label: Mat – Collaborator
               url: /forms/mat/
             - label: Group Circle Randori – Collaborator
@@ -112,6 +118,8 @@ sections:
               url: /forms/high-presence-networking
             - label: 15 minute Zazen with Jiki
               url: /forms/zazen/
+            - label: Visionary
+              url: /forms/visionary/
             - label: Mat – Visionary
               url: /forms/mat/
             - label: Group Circle Randori – Visionary

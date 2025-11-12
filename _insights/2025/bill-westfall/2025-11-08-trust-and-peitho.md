@@ -10,6 +10,7 @@ forms:
   - stillness-contemplation
   - circle
   - tone
+  - visionary
 excerpt: "Reflection on 'trust' in the 'Circle' Mindset form."
 ---
 

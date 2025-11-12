@@ -16,6 +16,10 @@ forms:
   - stance
   - one-breath
   - tone
+  - driver
+  - organizer
+  - collaborator
+  - visionary
 excerpt: "How fear becomes a teacher and what its shadow reveals about presence and response."
 ---
 

@@ -15,6 +15,10 @@ forms:
   - one-breath
   - three-centers
   - tone
+  - driver
+  - organizer
+  - collaborator
+  - visionary
 excerpt: "Every conversation writes code into the field — tone, timing, and language compile into patterns that shape what becomes possible next."
 ---
 

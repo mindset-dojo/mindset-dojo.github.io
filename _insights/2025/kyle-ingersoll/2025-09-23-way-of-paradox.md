@@ -12,6 +12,8 @@ forms:
   - integration-under-fire
   - threshold
   - stance
+  - visionary
+  - driver
 excerpt: "Paradox is the hidden gate of leadership, where resistance dissolves and the small self expands into the boundless flow of Ki."
 ---
 

@@ -21,6 +21,10 @@ forms:
   - four-patterns
   - meta
   - tone
+  - driver
+  - organizer
+  - collaborator
+  - visionary
 excerpt: >
   Evolution can feel like magic from the inside and disruption from the outside. 
   When awareness deepens, social gravity shifts—and both the person changing and 

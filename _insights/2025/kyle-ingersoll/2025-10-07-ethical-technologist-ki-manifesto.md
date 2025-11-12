@@ -12,6 +12,10 @@ forms:
   - revealed-preference-reflection
   - stance
   - martial-attitude
+  - driver
+  - organizer
+  - collaborator
+  - visionary
 excerpt: "When the coder becomes the cultivator — ethics ceases to be rule-following and becomes resonance itself."
 ---
 
