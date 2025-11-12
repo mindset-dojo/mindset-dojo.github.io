@@ -48,7 +48,7 @@ Practicing Visionary is attracting the future while being present Now.
 
 ### Implementing Our Principles
 
-Release tension by taking [One Breath](../one-breath), and allow the [Visionary](../visionary/) and [Collaborator](../collaborator/) energy to blend in. Use [Two Sides](../two-sides/) to perceive things as they are, not as you want them to be, and feel where they want to go. Then align your [Three Centers](../three-centers/) and act. Sense, not fantasize. Learn from fear, do not let it rule you. Let the future flow forth from resonance.
+Release tension by taking [One Breath](../one-breath), and allow the [Driver](../driver/) and [Collaborator](../collaborator/) energy to blend in. Use [Two Sides](../two-sides/) to perceive things as they are, not as you want them to be, and feel where they want to go. Then align your [Three Centers](../three-centers/) and act. Sense, not fantasize. Learn from fear, do not let it rule you. Let the future flow forth from resonance.
 
 ### In Conversation  
 
