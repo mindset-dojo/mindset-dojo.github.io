@@ -56,7 +56,7 @@ In conversation, Visionary changes one's perception of reality:
 
 - Mirrors explore key points further
 - Dynamic Silence holds space for the future to arrive  
-- An soft, inviting [Tone] lures in possibility.
+- A soft, inviting [Tone](../tone/) lures in possibility.
 
 When mature, Visionary is embodied through execution.
 
