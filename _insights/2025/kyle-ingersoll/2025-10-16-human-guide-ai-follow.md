@@ -3,7 +3,7 @@ layout: insight
 title: "The Human Guides, the AI Follows"
 title_mark: Human Guides
 published_date: 2025-10-16
-refactored_date: 2025-11-07
+refactored_date: 2025-11-13
 authors: 
   - kyle-ingersoll
 forms:
@@ -18,6 +18,8 @@ forms:
   - organizer
   - collaborator
   - visionary
+  - domain-focused-cultivator
+  - organizationally-focused-cultivator
 excerpt: "When code becomes debt, only human guidance can teach AI the Way forward."
 ---
 
