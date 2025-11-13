@@ -7,12 +7,12 @@ refactored_date: 2025-11-11
 authors:
   - kyle-ingersoll
   - michael-basil
-excerpt: "Part of the 4 Patterns from Institute for Zen Leadership, Organizer energy makes complexity legible through distillment, building the foundation for life to emerge and grow."
+excerpt: "Part of the Four Patterns from Institute for Zen Leadership, Organizer energy makes complexity legible through distillment, building the foundation for life to emerge and grow."
 ---
 
 ## Intention
 
-Part of the [4 Patterns](../four-patterns/) from Institute for Zen Leadership, Organizer energy makes complexity legible through distillment, building the foundation for life to emerge and grow.
+Part of the [Four Patterns](../four-patterns/) from Institute for Zen Leadership, Organizer energy makes complexity legible through distillment, building the foundation for life to emerge and grow.
 
 ## Experience
 

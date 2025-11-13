@@ -13,7 +13,7 @@ forms:
   - stance
   - one-breath
   - four-patterns
-  - zazen
+  - sitting-meditation
   - tone
   - visionary
 published_date: 2025-09-08
