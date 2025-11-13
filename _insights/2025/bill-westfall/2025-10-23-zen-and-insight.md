@@ -10,6 +10,7 @@ forms:
   - stillness-contemplation
   - revealed-preference-reflection
   - stance
+  - visionary
 excerpt: "Simple beginning Zen principles applied to larger spiritual insight."
 ---
 

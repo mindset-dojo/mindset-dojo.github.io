@@ -13,6 +13,10 @@ forms:
   - two-sides
   - three-centers
   - tone
+  - driver
+  - organizer
+  - collaborator
+  - visionary
 excerpt: "When we turn toward the shadow — fear, anger, ambition, loss — and bring it into awareness, the circle becomes a spiral."
 ---
 

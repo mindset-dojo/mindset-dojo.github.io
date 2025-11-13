@@ -14,6 +14,10 @@ forms:
   - two-sides
   - three-centers
   - tone
+  - driver
+  - organizer
+  - collaborator
+  - visionary
 excerpt: "When mind without Ki meets Ki given form, structure and spirit find each other — and even silence begins to move."
 ---
 

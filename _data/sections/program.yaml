@@ -72,6 +72,8 @@ sections:
               url: /forms/two-sides/
             - label: 5 minute Solo Sitting Meditation session
               url: /forms/sitting-meditation/
+            - label: Driver
+              url: /forms/driver/
             - label: Mat – Driver
               url: /forms/mat/
             - label: Dyad Randori – Driver
@@ -85,6 +87,8 @@ sections:
               url: /forms/three-centers/
             - label: 10 minute Sitting Meditation Dyad
               url: /forms/sitting-medtiation/
+            - label: Organizer
+              url: /forms/organizer/
             - label: Mat – Organizer
               url: /forms/mat/
             - label: Triad Randori – Organizer
@@ -102,6 +106,8 @@ sections:
               url: /forms/stance/
             - label: 10 minute Solo Sitting Meditation session
               url: /forms/sitting-meditation/
+            - label: Collaborator
+              url: /forms/collaborator/
             - label: Mat – Collaborator
               url: /forms/mat/
             - label: Group Circle Randori – Collaborator
@@ -115,6 +121,8 @@ sections:
               url: /forms/high-presence-networking
             - label: 15 minute Sitting Meditation Dyad
               url: /forms/sitting-meditation/
+            - label: Visionary
+              url: /forms/visionary/
             - label: Mat – Visionary
               url: /forms/mat/
             - label: Group Circle Randori – Visionary
