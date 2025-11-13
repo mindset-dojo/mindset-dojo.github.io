@@ -1,29 +1,33 @@
 ---
 mantra: "Don’t Control. Co-Create."
 mantra_mark: "Co-Create."
-description: "An open-source dojo — where presence meets practice through shared stewardship. Structure evolves through care, contribution, and rhythm as we train together."
+description: |
+  An open-source dojo — where presence meets practice through shared stewardship.
+  The project evolves through reciprocity, clarity, and the collective rhythm of
+  those actively training. Open-source becomes a metaphor for integration: nothing
+  is distant, siloed, or hidden.
 sections:
   - type: text
     data:
       label: "Dojo Infrastructure: Open Source’d"
       items:
-        - "The Project is the living infrastructure of Mindset Dojo — a training ground for co-creation itself."
-        - "It grows through contributions from those actively training and refining their craft."
-        - "Hosted openly on GitHub — transparency, reciprocity, and rhythm guide its evolution."
+        - "The Project is the living infrastructure of Mindset Dojo — a training ground for co-creation and presence under real conditions."
+        - "It grows through contributions from those practicing and refining their craft."
+        - "Hosted openly on GitHub — transparency, rhythm, and relational integrity guide its evolution."
   - type: text
     data:
       label: "Open Source as Practice"
       items:
-        - "Every commit is a calibration."
-        - "Every refactor, a bow of respect toward clarity."
-        - "We treat the codebase as we treat the mat — with presence and precision."
+        - "Every commit is a calibration toward coherence."
+        - "Every refactor, a bow to clarity."
+        - "We treat the codebase as we treat the mat — with presence, precision, and respect."
   - type: text
     data:
       label: "Ways to Contribute"
       items:
-        - "Refactor language, structure, or function toward greater clarity."
+        - "Refactor language, structure, or function toward clarity and coherence."
         - "Offer patterns, practices, or feedback that help others move with ease."
-        - "Model reciprocity through guidance, review, and mentorship."
+        - "Model reciprocity through guidance, review, and mentorship — the inverse of distancing."
   - type: quote
     data:
       text: "Ideation is play; contribution is practice."
