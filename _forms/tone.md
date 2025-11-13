@@ -12,7 +12,7 @@ excerpt: "Tone is not merely one's tone of voice, but rather the subliminal expr
 
 ## Intention
 
-Tone is not merely one's tone of voice, but rather the subliminal expression of the level of consciousness of a conversation — it quietly decides whether others open up, lash out, or shut down. [Breath](../one-breath/), body language, and voice all combine into Tone. It colors the individual's expression of the [4 Patterns](../four-patterns/), emerging into [Stances](../stance/). It is the lever of David Hawkins's Map of Consciousness, exposing and affecting the Jungian shadow (what is being repressed or beneath the surface) of the individuals themselves and the collective relational field. Through mastery of Tone, resonance is formed through a Plus Ki (energy flow instead of stagnation) orientation through integration of the shadow.
+Tone is not merely one's tone of voice, but rather the subliminal expression of the level of consciousness of a conversation — it quietly decides whether others open up, lash out, or shut down. [Breath](../one-breath/), body language, and voice all combine into Tone. It colors the individual's expression of the [Four Patterns](../four-patterns/), emerging into [Stances](../stance/). It is the lever of David Hawkins's Map of Consciousness, exposing and affecting the Jungian shadow (what is being repressed or beneath the surface) of the individuals themselves and the collective relational field. Through mastery of Tone, resonance is formed through a Plus Ki (energy flow instead of stagnation) orientation through integration of the shadow.
 
 ## Experience
 
@@ -40,7 +40,7 @@ Thus:
 - [Never Split the Difference by Chris Voss](https://www.amazon.com/Never-Split-Difference-Negotiating-Depended/dp/0062407805)
 - [Negotiation 9 Move - Tone - by Black Swan Group](https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9)
 - [Ki in Daily Life by Koichi Tohei](https://www.amazon.com/Ki-Daily-Life-Koichi-Tohei/dp/4889960716)
-- [Zen Toolkit – 4 Patterns](https://vimeo.com/944675826/c57a7ce142)
+- [Zen Toolkit – Four Patterns](https://vimeo.com/944675826/c57a7ce142)
 - [Institute for Zen Leadership](https://zenleader.global/)
 - [Move to Greatness by Ginny Whitelaw](https://zenleader.global/resources/store/p/move-to-greatness-book)
 - [The Map of Consciousness Explained by David Hawkins](https://www.amazon.com/Map-Consciousness-Explained-Actualize-Potential/dp/1401959644)

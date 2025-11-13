@@ -1,7 +1,14 @@
 ---
 mantra: "Reclaim Your Life."
 mantra_mark: "Life."
-description: "Reclaim Your Life from the age of hijacked attention. The Martial Art of Mindset is training designed to bring your focus, energy, and balance back to center. Through embodied awareness, we integrate mind, body, and voice so coherence becomes natural — even under pressure. Presence is trained as a martial art: disciplined, alive, and practical. This is how Self-authorship takes root — not through theory, but through lived practice, one conversation at a time. When Presence returns, life starts to feel lighter, livelier, and more possible."
+description: |
+  Reclaim your life from the era of social distancing and hijacked attention.
+  The Martial Art of Mindset is a live training game that restores your focus,
+  energy, and balance — bringing your system back to center. Through embodied
+  awareness, we reintegrate mind, body, and voice so coherence becomes natural
+  again, even under pressure.  This is how Self-Authorship takes root —
+  not through more concepts, but through lived practice, one conversation at
+  a time. When presence returns, life feels lighter, more connected, and more possible.
 sections:
   - type: text
     data:
@@ -12,16 +19,16 @@ sections:
         - "Don’t Complain."
         - "Don’t Constrain."
         - "Train."
-        - "Train Presence."
-        - "Reclaim Your Life through the Martial Art of Mindset."
+        - "Train the Game."
+        - "Reclaim Your Life through the Martial Art of Mindset — a live training game."
   - type: text
     data:
       label: "Hijacked Attention"
       items:
-        - "In an age of fractured focus and emotional reactivity, our nervous systems are overstimulated and our attention scattered."
-        - "Therapists, niche coaches, consultants, and leaders each touch part of the whole — yet the roots remain untended."
-        - "Mindset Dojo training restores root-level coherence through embodied practice that unifies focus, energy, and balance."
-        - "We stop reacting and start reclaiming — one breath, one conversation at a time."
+        - "In an age of fractured focus, digital saturation, and emotional reactivity, our nervous systems are dehydrated and overextended."
+        - "Therapists, coaches, and consultants address fragments — but the root integration remains untouched."
+        - "Mindset Dojo reconnects the system from the inside out through a presence-based training game that restores coherence where distancing and overload have pulled us apart."
+        - "We stop reacting and start reclaiming — one breath, one embodied conversation at a time."
   - type: quote
     data:
       text: "When mind, body, and voice move as one, even pressure feels like flow."
@@ -29,19 +36,19 @@ sections:
     data:
       label: "The Martial Art of Mindset"
       items:
-        - "With Mindset Dojo, we train presence into embodiment through conversation, reflection, and somatic awareness."
-        - "Training mindset as a martial art reconditions how we meet life — transforming reaction into rhythm, and pressure into flow."
-        - "The training often starts subtle — a conversation that feels less charged, a breath that lands deeper, a bit more room inside a stuck moment — that’s when the practice starts to feel alive, and even fun."
-        - "The result is coherence, courage, and the capacity to reclaim your life over time."
+        - "With Mindset Dojo, presence becomes a trained capacity — developed through conversation, somatic awareness, and intentional rhythm."
+        - "Training mindset as a martial art reverses distancing patterns — transforming reaction into rhythm and pressure into flow."
+        - "Training begins subtle: a clearer breath, a softened moment, a conversation that no longer collapses — that’s when the training starts to feel alive."
+        - "The result is coherence, courage, and the capacity to reclaim your life through integration rather than avoidance."
   - type: text
     data:
       label: "Training Ground"
       items:
-        - "Mindset Dojo isn’t a classroom but a living field of practice — each conversation, each silence, each embodied pause is training."
-        - "We train deep, and we train real — seriously playful, and playfully serious."
-        - "It’s not all sunshine and rainbows — but as the practice takes root, challenge turns into curiosity, and curiosity into fun. You start to feel life moving again."
-        - "Together, we dissolve attention whiplash and restore coherence from the inside out."
-        - "From that root awareness, self-agency strengthens and matures into Self-Authorship."
+        - "Mindset Dojo isn’t a classroom — it’s a structured training game where every conversation, silence, and embodied pause becomes practice."
+        - "We train deep, real, and playful — seriously playful and playfully serious."
+        - "It’s not all sunshine and rainbows — but as the practice roots, challenge becomes curiosity, and curiosity becomes flow."
+        - "Together, we reverse attention whiplash and rebuild real presence — the antidote to an over-distanced culture."
+        - "From that root, self-agency strengthens and matures into Self-Authorship."
   - type: authors
     data:
       leadership_flow:

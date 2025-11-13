@@ -39,6 +39,6 @@ Don’t let the moment dissolve into hesitation. ⛩️
 - [Evolutionary Meme Theory & Political Polarization](https://www.youtube.com/watch?v=PvGiL9lRkJA)
 - [Never Split the Difference by Chris Voss](https://www.amazon.com/Never-Split-Difference-Negotiating-Depended/dp/0062407805)
 - [Ki in Daily Life by Koichi Tohei](https://www.amazon.com/Ki-Daily-Life-Koichi-Tohei/dp/4889960716)<sup>1</sup>
-- [Zen Toolkit – 4 Patterns](https://vimeo.com/944675826/c57a7ce142)
-- [Zen Toolkit – 3 Centers](https://www.youtube.com/watch?v=OuK3HOIfUiw)
+- [Zen Toolkit – Four Patterns](https://vimeo.com/944675826/c57a7ce142)
+- [Zen Toolkit – Three Centers](https://www.youtube.com/watch?v=OuK3HOIfUiw)
 - [Institute for Zen Leadership](https://zenleader.global/)
