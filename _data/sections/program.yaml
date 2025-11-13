@@ -59,10 +59,8 @@ sections:
               url: /forms/tone/
             - label: Three Question Reflection
               url: /forms/three-question-reflection/
-            - label: Jiki
-              url: /forms/jiki/
-            - label: 5 minute Zazen with Jiki
-              url: /forms/zazen/
+            - label: 5 minute Sitting Meditation Dyad
+              url: /forms/sitting-meditation/
             - label: Genuine Gratitude Expression
               url: /forms/genuine-gratitude-expression/
         - color: green
@@ -72,8 +70,8 @@ sections:
           flows:
             - label: Two Sides
               url: /forms/two-sides/
-            - label: 5 minute Zazen by yourself
-              url: /forms/zazen/
+            - label: 5 minute Solo Sitting Meditation session
+              url: /forms/sitting-meditation/
             - label: Mat – Driver
               url: /forms/mat/
             - label: Dyad Randori – Driver
@@ -85,8 +83,8 @@ sections:
           flows:
             - label: Three Centers
               url: /forms/three-centers/
-            - label: 10 minute Zazen with Jiki
-              url: /forms/zazen/
+            - label: 10 minute Sitting Meditation Dyad
+              url: /forms/sitting-medtiation/
             - label: Mat – Organizer
               url: /forms/mat/
             - label: Triad Randori – Organizer
@@ -102,8 +100,8 @@ sections:
               url: /forms/four-patterns/
             - label: Stance
               url: /forms/stance/
-            - label: 10 minute Zazen by yourself
-              url: /forms/zazen/
+            - label: 10 minute Solo Sitting Meditation session
+              url: /forms/sitting-meditation/
             - label: Mat – Collaborator
               url: /forms/mat/
             - label: Group Circle Randori – Collaborator
@@ -115,8 +113,8 @@ sections:
           flows:
             - label: High Presence Networking
               url: /forms/high-presence-networking
-            - label: 15 minute Zazen with Jiki
-              url: /forms/zazen/
+            - label: 15 minute Sitting Meditation Dyad
+              url: /forms/sitting-meditation/
             - label: Mat – Visionary
               url: /forms/mat/
             - label: Group Circle Randori – Visionary
@@ -128,8 +126,8 @@ sections:
           flows:
             - label: Resonate
               url: /forms/resonate/
-            - label: 15 minute Zazen by yourself
-              url: /forms/zazen/
+            - label: 15 minute Solo Sitting Meditation session
+              url: /forms/sitting-meditation/
             - label: Integration Under Fire
               url: /forms/integration-under-fire/
             - label: Mat – Integration Under Fire
@@ -143,8 +141,8 @@ sections:
           level: 1
           intention: Meta
           flows:
-            - label: 30 minute Zazen with Chosei Zen Virtual Dojo
-              url: /forms/zazen/
+            - label: 30 minute Group Sitting Meditation
+              url: /forms/sitting-meditation/
             - label: Martial Attitude
               url: /forms/martial-attitude/
             - label: Meta

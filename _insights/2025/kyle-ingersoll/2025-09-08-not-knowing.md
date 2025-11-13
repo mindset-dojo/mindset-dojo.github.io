@@ -13,7 +13,7 @@ forms:
   - stance
   - one-breath
   - four-patterns
-  - zazen
+  - sitting-meditation
   - tone
 published_date: 2025-09-08
 refactored_date: 2025-11-07
