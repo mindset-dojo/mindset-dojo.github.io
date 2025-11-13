@@ -161,6 +161,8 @@ sections:
               url: /forms/mat/
             - label: Real-Life Randori
               url: /forms/randori/
+            - label: Sensei
+              url: /forms/sensei/
             - label: Organizationally-Focused Cultivator
               url: /forms/organizationally-focused-cultivator/
   - type: designations
