@@ -3,7 +3,7 @@ layout: insight
 title: "Fear as Teacher, Shadow as Mirror, Presence as Response"
 title_mark: Presence
 published_date: 2025-09-30
-refactored_date: 2025-11-07
+refactored_date: 2025-11-13
 authors: 
   - kyle-ingersoll
 forms:
@@ -20,6 +20,8 @@ forms:
   - organizer
   - collaborator
   - visionary
+  - domain-focused-cultivator
+  - organizationally-foucsed-cultivator
 excerpt: "How fear becomes a teacher and what its shadow reveals about presence and response."
 ---
 

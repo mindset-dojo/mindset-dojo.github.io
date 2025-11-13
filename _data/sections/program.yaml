@@ -78,6 +78,8 @@ sections:
               url: /forms/mat/
             - label: Dyad Randori – Driver
               url: /forms/randori/
+            - label: Domain-Focused Cultivator
+              url: /forms/domain-focused-cultivator/
         - color: blue
           label: 4th Kyu
           level: -4
@@ -159,6 +161,10 @@ sections:
               url: /forms/mat/
             - label: Real-Life Randori
               url: /forms/randori/
+            - label: Sensei
+              url: /forms/sensei/
+            - label: Organizationally-Focused Cultivator
+              url: /forms/organizationally-focused-cultivator/
   - type: designations
     data:
       label: "Leadership Designations"

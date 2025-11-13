@@ -3,7 +3,7 @@ layout: insight
 title: "From Explorer to Cultivator"
 title_mark: Cultivator
 published_date: 2025-10-13
-refactored_date: 2025-11-07
+refactored_date: 2025-11-13
 authors: 
   - michael-basil
 forms:
@@ -17,6 +17,8 @@ forms:
   - organizer
   - collaborator
   - visionary
+  - domain-focused-cultivator
+  - organizationally-focused-cultivator
 excerpt: "In Mindset Dojo, every pull request tests a threshold — transforming exploration into cultivation, and curiosity into coherence."
 ---
 
