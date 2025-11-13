@@ -8,7 +8,7 @@ authors:
   - michael-basil
   - kyle-ingersoll
   - jeremy-mcmillan
-excerpt: "The love child of Elemental FEBI™, 4 Patterns, and Simon Says."
+excerpt: "The love child of Elemental FEBI™, Four Patterns, and Simon Says."
 ---
 
 ## Intention
@@ -21,7 +21,7 @@ You center with intention to have playful resonance. You will relax completely a
 
 ## Implementation
 
-Find a [Circle](../circle/), engage the [Mat](../mat/), and begin the game. The [Sensei](../sensei/) picks either the Elemental (Fire, Water, Earth, Air) or FEBI™ (Driver, Collaborator, Organizer, Visionary) version of the 4 Patterns. The rest of the [Circle](../circle/) in the [Mat](../mat/) session follows the lead of the [Sensei](../sensei/) and imitates them. The [Sensei](../sensei/) then names another member of the [Circle](../circle/), the [Sensei](../sensei/), while naming the Pattern they want the group to imitiate. This cycle repeats until everyone in the [Circle](../circle/) has been [Sensei](../sensei/) twice.
+Find a [Circle](../circle/), engage the [Mat](../mat/), and begin the game. The [Sensei](../sensei/) picks either the Elemental (Fire, Water, Earth, Air) or FEBI™ (Driver, Collaborator, Organizer, Visionary) version of the Four Patterns. The rest of the [Circle](../circle/) in the [Mat](../mat/) session follows the lead of the [Sensei](../sensei/) and imitates them. The [Sensei](../sensei/) then names another member of the [Circle](../circle/), the [Sensei](../sensei/), while naming the Pattern they want the group to imitiate. This cycle repeats until everyone in the [Circle](../circle/) has been [Sensei](../sensei/) twice.
 
 ## Inspiration
 

@@ -7,12 +7,12 @@ refactored_date: 2025-11-11
 authors:
   - kyle-ingersoll
   - michael-basil
-excerpt: "Part of the 4 Patterns from Institute for Zen Leadership, Driver energy concentrates your focus and moves you forward."
+excerpt: "Part of the Four Patterns from Institute for Zen Leadership, Driver energy concentrates your focus and moves you forward."
 ---
 
 ## Intention
 
-Part of the [4 Patterns](../four-patterns/) from Institute for Zen Leadership, Driver energy is like a laser. It causes you to focus on moving foward, step by step.
+Part of the [Four Patterns](../four-patterns/) from Institute for Zen Leadership, Driver energy is like a laser. It causes you to focus on moving foward, step by step.
 
 ## Experience
 
