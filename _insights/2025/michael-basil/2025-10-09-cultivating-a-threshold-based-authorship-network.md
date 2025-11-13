@@ -3,7 +3,7 @@ layout: insight
 title: "Cultivating a Threshold-Based Authorship Network"
 title_mark: Authorship
 published_date: 2025-10-09
-refactored_date: 2025-11-07
+refactored_date: 2025-11-13
 authors: 
   - michael-basil
 forms:
@@ -17,6 +17,8 @@ forms:
   - organizer
   - collaborator
   - visionary
+  - domain-focused-cultivator
+  - organizationally-focused-cultivator
 excerpt: "In the dojo, we’re not trying to build an audience — we’re cultivating a field of thresholds: experiences that transform presence into trust."
 ---
 
