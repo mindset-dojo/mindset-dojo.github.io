@@ -36,6 +36,24 @@ sections:
       principles_title: "Engagement Principles"
       principles_groups:
         - "project"
+  - type: text
+    data:
+      label: "Target Condition - Mantra"
+      items:
+        - "Get in."
+        - "Train."
+        - "Contribute."
+        - "Earn trust."
+        - "Become Cultivator."
+        - "Support the Game."
+        - "Network."
+        - "Train more."
+        - "Contribute more."
+        - "Earn more trust."
+        - "Level Up."
+        - "Change your focus."
+        - "Change your world."
+        - "Never stop training."
   - type: designations
     data:
       label: "Leadership Designations"
