@@ -180,7 +180,7 @@ sections:
         - "Be Sensei."
         - "Make your own Game."
         - "Be like fungi, spread your Game."
-        - "Never stop training."           
+        - "Never stop training."          
   - type: designations
     data:
       label: "Leadership Designations"
