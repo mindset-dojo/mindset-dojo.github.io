@@ -21,5 +21,5 @@ about: |
 
   - [Email](mailto:c7v7aspinwall@hotmail.com)
   - [LinkedIn](https://www.linkedin.com/in/christian-aspinwall/)
-  - [Github]https://github.com/Caspinwall1/Caspinwall1)
+  - [Github](https://github.com/Caspinwall1/Caspinwall1)
 ---
