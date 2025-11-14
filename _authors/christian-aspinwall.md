@@ -8,7 +8,7 @@ name: Christian Aspinwall
 active: true
 join_date: 2025-11-13
 program_level: -8
-program_level_date: 2025-10-16
+program_level_date: 2025-11-13
 leadership_designations: []
 emoji_signature: null
 custom_url: null
