@@ -179,7 +179,9 @@ sections:
         - "Level Up."
         - "Be Sensei."
         - "Make your own Game."
-        - "Be like fungi, spread your Game."
+        - "Be like fungi."
+        - "Network."
+        - "Spread the Game."
         - "Never stop training."
   - type: designations
     data:
