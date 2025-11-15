@@ -25,12 +25,12 @@ The session begins with a warm-up, such as [Four Energy Sensei](../four-energy-s
 
 Participants then rotate through dyads or triads. In each conversation, they share not only their personal FEBI™ tendencies and interests, but also:
 
-- how energy moves in *their* domain  
-- what patterns they observe in the systems they’re part of  
-- where they experience coherence  
+- how energy moves in *their* domain
+- what patterns they observe in the systems they’re part of
+- where they experience coherence
 - where they perceive edges or gaps
-- where they sense opportunity or potential  
-- what tensions, challenges, or openings their domain is facing  
+- where they sense opportunity or potential
+- what tensions, challenges, or openings their domain is facing
 - what kind of energy is needed next
 
 In this way, each small group becomes a micro-network sensing node: learning about people and about the worlds they inhabit.
@@ -39,10 +39,10 @@ As rotations continue, a collective picture begins to form — a felt sense of t
 
 When the full group reconvenes, the discussion naturally unfolds:
 
-- What domains did we encounter?  
-- What patterns or gaps repeated across them?  
-- What unexpected opportunities surfaced?  
-- How do these domains resonate or challenge one another?  
+- What domains did we encounter?
+- What patterns or gaps repeated across them?
+- What unexpected opportunities surfaced?
+- How do these domains resonate or challenge one another?
 - What possibilities emerge when seen together?
 
 Some in the group begin to sense a network of domains, not just individuals.
