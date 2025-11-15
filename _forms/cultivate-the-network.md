@@ -85,6 +85,8 @@ Steps:
    - peer clusters  
    - further sensing conversations
 
+### Reflective Harvest
+
 This practice helps a community:
 
 - Understand who is present  
