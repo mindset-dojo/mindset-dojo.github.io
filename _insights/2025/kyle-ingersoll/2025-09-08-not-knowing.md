@@ -13,7 +13,6 @@ forms:
   - stance
   - one-breath
   - four-patterns
-  - sitting-meditation
   - tone
   - visionary
 published_date: 2025-09-08
@@ -39,7 +38,7 @@ That’s why **Mindset Dojo means so much to me**.
 
 Here, I’ve found both **structure and intention**. The rhythm of our Mat Sessions — arrival, centering, breathing, flows, and reflection — grounds my energy and gives me a framework to keep growing.
 
-The **breathing and meditation practices** in particular have helped me slow down, focus, and connect with what matters most.
+The **breathing and stillness practices** in particular have helped me slow down, focus, and connect with what matters most.
 
 ---
 
