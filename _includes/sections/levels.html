@@ -27,7 +27,7 @@ Each level item shape:
         title=lv.label %}
     </h3>
 
-    <p><strong>{{ lv.intention }}</strong></p>
+    <p><strong>{{lv.label}} - {{ lv.intention }}</strong></p>
 
     <ul>
       {%- for f in lv.flows -%}
