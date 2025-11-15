@@ -79,7 +79,7 @@ sections:
             - label: Mat – Driver
               url: /forms/mat/
             - label: Dyad Randori – Driver
-              url: /forms/randori/
+              url: /forms/four-energy-randori/
             - label: Domain-Focused Cultivator
               url: /forms/domain-focused-cultivator/
             - label: Level Up Transition
@@ -96,7 +96,7 @@ sections:
             - label: Mat – Organizer
               url: /forms/mat/
             - label: Triad Randori – Organizer
-              url: /forms/randori/
+              url: /forms/four-energy-randori/
             - label: Senpai
               url: /forms/senpai/
             - label: Level Up Transition
@@ -115,7 +115,7 @@ sections:
             - label: Mat – Collaborator
               url: /forms/mat/
             - label: Group Circle Randori – Collaborator
-              url: /forms/randori/
+              url: /forms/four-energy-randori/
             - label: Level Up Transition
               url: /forms/level-up-transition/
         - color: brown
@@ -130,7 +130,7 @@ sections:
             - label: Mat – Visionary
               url: /forms/mat/
             - label: Group Circle Randori – Visionary
-              url: /forms/randori/
+              url: /forms/four-energy-randori/
             - label: Level Up Transition
               url: /forms/level-up-transition/
         - color: red
@@ -145,7 +145,7 @@ sections:
             - label: Mat – Integration Under Fire
               url: /forms/mat/
             - label: Group Circle Randori – Integration Under Fire
-              url: /forms/randori/
+              url: /forms/four-energy-randori/
             - label: MetaShift Community Demonstration
               url: /forms/metashift-community-demonstration/
             - label: Cultivate the Network Support
@@ -164,9 +164,9 @@ sections:
             - label: Mat – Meta & Martial Attitude
               url: /forms/mat/
             - label: Real-Life Randori
-              url: /forms/randori/
-            - label: Cultivate the Network Leadership
-              url: /forms/cultivate-the-network/
+              url: /forms/four-energy-randori/
+            - label: Four Energy Networking
+              url: /forms/four-energy-networking/
             - label: Sensei
               url: /forms/sensei/
             - label: Organizationally-Focused Cultivator
