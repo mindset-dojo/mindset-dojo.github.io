@@ -153,22 +153,15 @@ sections:
               url: /forms/organizationally-focused-cultivator/
   - type: text
     data:
-      label: "Target Condition - Mantra"
+      label: "Mantra"
       items:
-        - "Get in."
+        - "Enter."
         - "Train."
-        - "Earn trust."
-        - "Become Senpai."
-        - "Support another Game."
-        - "Train more."
-        - "Earn more trust."
-        - "Level Up."
-        - "Be Sensei."
-        - "Make your own Game."
-        - "Be like fungi."
-        - "Network."
-        - "Spread the Game."
-        - "Never stop training."
+        - "Level up."
+        - "Open gates within."
+        - "Open gates for others."
+        - "Always return to training."
+        - "Grow the field."
   - type: designations
     data:
       label: "Leadership Designations"
