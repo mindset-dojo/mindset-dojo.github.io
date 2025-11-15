@@ -48,6 +48,8 @@ sections:
               url: /forms/four-energy-reflection/
             - label: Four Element Sensei
               url: /forms/four-element-sensei/
+            - label: Level Up Transition
+              url: /forms/level-up-transition/
         - color: yellow
           label: 6th Kyu
           level: -6
@@ -61,6 +63,8 @@ sections:
               url: /forms/three-question-reflection/
             - label: Genuine Gratitude Expression
               url: /forms/genuine-gratitude-expression/
+            - label: Level Up Transition
+              url: /forms/level-up-transition/
         - color: green
           label: 5th Kyu
           level: -5
@@ -76,6 +80,8 @@ sections:
               url: /forms/randori/
             - label: Domain-Focused Cultivator
               url: /forms/domain-focused-cultivator/
+            - label: Level Up Transition
+              url: /forms/level-up-transition/
         - color: blue
           label: 4th Kyu
           level: -4
@@ -91,6 +97,8 @@ sections:
               url: /forms/randori/
             - label: Senpai
               url: /forms/senpai/
+            - label: Level Up Transition
+              url: /forms/level-up-transition/
         - color: purple
           label: 3rd Kyu
           level: -3
@@ -106,6 +114,8 @@ sections:
               url: /forms/mat/
             - label: Group Circle Randori – Collaborator
               url: /forms/randori/
+            - label: Level Up Transition
+              url: /forms/level-up-transition/
         - color: brown
           label: 2nd Kyu
           level: -2
@@ -119,6 +129,8 @@ sections:
               url: /forms/mat/
             - label: Group Circle Randori – Visionary
               url: /forms/randori/
+            - label: Level Up Transition
+              url: /forms/level-up-transition/
         - color: red
           label: 1st Kyu
           level: -1
@@ -134,6 +146,8 @@ sections:
               url: /forms/randori/
             - label: MetaShift Community Demonstration
               url: /forms/metashift-community-demonstration/
+            - label: Level Up Transition
+              url: /forms/level-up-transition/
         - color: black
           label: Shodan
           level: 1
@@ -151,6 +165,8 @@ sections:
               url: /forms/sensei/
             - label: Organizationally-Focused Cultivator
               url: /forms/organizationally-focused-cultivator/
+            - label: Level Up Transition
+              url: /forms/level-up-transition/
   - type: text
     data:
       label: "Mantra"
