@@ -32,7 +32,7 @@ Connect with others in this phase — not as a requirement, but as a practice.
 - Reach out to peers and reflect together on how each of you has changed.  
 - Engage a [Senpai](../senpai/) and or [Sensei](../sensei/) for a conversation to sense what is emerging in you.  
 - Notice where leadership begins to arise naturally — not assigned, not claimed, simply present.  
-- Bring awareness to the [Thresholds](../threshold/)] you have crossed in this level: what you carried in, what transformed, and what remains unresolved.  
+- Bring awareness to the [Thresholds](../threshold/) you have crossed in this level: what you carried in, what transformed, and what remains unresolved.  
 - Sense into the gaps and edges you are aware of now that you couldn’t see before.
 
 As part of leveling up, you will create a short insight article capturing this transition.  In your written insight, reflect on:
