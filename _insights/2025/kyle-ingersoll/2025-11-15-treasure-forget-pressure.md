@@ -55,16 +55,17 @@ And in that larger mind, gratitude returned like breath after being held too lon
 
 So the question remains:
 
-**When urgency grips you, what treasure do you forget?**
-**And how do you train to remember before loss becomes your teacher?**
+> When urgency grips you, what treasure do you forget?
+> And how do you train to remember before loss becomes your teacher?
 
 ---
 
-**Practice:**
+## Practice
+
 The next time something “urgent” appears, pause.
 Feel your field contract — breath shallow, vision narrow, Driver pushing, Organizer trembling.
 Ask one quiet question:
 
-**“If my mind were larger, what would I already know?”**
+> "If my mind were larger, what would I already know?”
 
 Let that remembering guide you back to the treasure already in your hands.
