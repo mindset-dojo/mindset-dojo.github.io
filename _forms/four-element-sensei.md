@@ -1,7 +1,7 @@
 ---
 layout: form
-title: "Four Element Sensei"
-title_mark: Four Element
+title: "Four Energy Sensei"
+title_mark: Four Energy
 published_date: 2025-10-20
 refactored_date: 2025-10-27
 authors:

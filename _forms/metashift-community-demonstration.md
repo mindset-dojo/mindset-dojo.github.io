@@ -29,7 +29,7 @@ A typical session unfolds as follows:
 
 **Context Setting** – The dojo team acknowledges shared intentions and bridges vocabulary with the host community’s culture.  
 
-**Demonstration** – Three to five dojo forms are introduced or embodied (e.g., [Circle](../circle/), [Mat](../mat/), [Sensei](../sensei/), [Senpai](../senpai/), [Four Element Sensei](../four-element-sensei/), [Three Question Reflection](../three-question-reflection/)).  
+**Demonstration** – Three to five dojo forms are introduced or embodied (e.g., [Circle](../circle/), [Mat](../mat/), [Sensei](../sensei/), [Senpai](../senpai/), [Four Energy Sensei](../four-energy-sensei/), [Three Question Reflection](../three-question-reflection/)).  
 
 **Participation** – Attendees are invited to “step onto the mat,” moving fluidly between witnessing and engaging.  
 
