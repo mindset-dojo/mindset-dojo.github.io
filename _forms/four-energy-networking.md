@@ -63,9 +63,7 @@ When the group returns to a full circle, the collective picture becomes clearer:
    - coaching  
    - continued field sensing
 
-### Reflective Harvest
-
-#### What I gain
+### What I gain
 
 - A clearer sense of my own energy tendencies  
 - A better understanding of how others experience me  
@@ -73,7 +71,7 @@ When the group returns to a full circle, the collective picture becomes clearer:
 - Language for describing gaps, tensions, and opportunities  
 - New relationships and potential collaborators
 
-#### What the community gains
+### What the community gains
 
 - A shared picture of who is here and what domains we represent  
 - Visibility into system-wide gaps and opportunities  
