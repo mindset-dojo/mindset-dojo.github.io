@@ -38,22 +38,15 @@ sections:
         - "project"
   - type: text
     data:
-      label: "Target Condition - Mantra"
+      label: "Mantra"
       items:
-        - "Get in."
-        - "Train."
+        - "Enter."
         - "Contribute."
         - "Earn trust."
-        - "Become Cultivator."
-        - "Support the Game."
-        - "Network."
-        - "Train more."
-        - "Contribute more."
-        - "Earn more trust."
-        - "Level Up."
-        - "Change your focus."
-        - "Change your world."
-        - "Never stop training."
+        - "Level up."
+        - "Become a Cultivator."
+        - "Open pathways for others."
+        - "Grow the field."
   - type: designations
     data:
       label: "Leadership Designations"
