@@ -68,4 +68,3 @@ Ask one quiet question:
 **“If my mind were larger, what would I already know?”**
 
 Let that remembering guide you back to the treasure already in your hands.
-
