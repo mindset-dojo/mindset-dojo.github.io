@@ -12,7 +12,7 @@ forms:
   - integration-under-fire
   - threshold
   - stance
-  - sitting-meditation
+  - sitting-contemplation
   - two-sides
   - three-centers
   - four-patterns
@@ -29,7 +29,7 @@ excerpt: "A reflection on our recent MetaShift Community Demonstration with Zen 
 
 Last weekend, Kyle Ingersoll and I had the opportunity to share with the [ZLOTC (Zen Leader Off the Cushion)](https://zenleader.global/zlotc-registration) community — hosted by the [Institute for Zen Leadership](https://zenleader.global/).
 
-Their facilitation was skillful and balanced: a few quiet minutes of **Sitting Meditation**, followed by **conversational centering** that grounded the group in shared presence. From that field, genuine connection and curiosity emerged naturally.
+Their facilitation was skillful and balanced: a few quiet minutes of **Sitting Meditation (Zazen)**, followed by **conversational centering** that grounded the group in shared presence. From that field, genuine connection and curiosity emerged naturally.
 
 We arrived to demonstrate a form that has become foundational at the red level — **MetaShift Community Demonstration** — where a lead and supporting practitioner bring dojo presence into another community. The intention is simple: to lay down a conceptual mat, share a few core forms, and invite participation through demonstration rather than explanation.
 
