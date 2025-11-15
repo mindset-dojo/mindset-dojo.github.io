@@ -6,6 +6,7 @@ published_date: 2025-11-15
 refactored_date: 2025-11-15
 authors:
   - michael-basil
+  - kyle-ingersoll
 excerpt: "A simple, relational practice for understanding how energy moves through people and the domains they serve — so that individuals and communities can collaborate with greater clarity, coherence, and care."
 ---
 
@@ -13,9 +14,11 @@ excerpt: "A simple, relational practice for understanding how energy moves throu
 
 Four Energy Networking is a way for people to understand one another through the lens of the Four Energies (FEBI™ - Focus Energy Balance Indicator) and the domains they move in. It opens a space where I can share not only who I am, but how energy moves through my work, my challenges, and my opportunities — so that I can connect with others more skillfully and be seen more clearly.
 
+In spirit, it is Draw Toast with FEBI™ Energies — a way of mapping how energy moves through people and the domains they serve.
+
 At the same time, it reveals how our domains relate, intersect, or differ — so that the community can understand its collective landscape, recognize where gaps or tensions lie, and discover where natural alliances or support can emerge.
 
-This form creates a simple structure for seeing ourselves and each other as part of a larger field of relationships.
+This form creates a simple structure for seeing ourselves and each other as part of a larger field of relationships. 
 
 ## Experience
 
@@ -85,3 +88,4 @@ Four Energy Networking strengthens the field by helping us sense our worlds — 
 
 - [Institute for Zen Leadership](https://zenleader.global)
 - [Mycelial and Lichen Intelligence](https://www.themarginalian.org/2025/11/02/lichen/)
+- [Draw Toast TED Talk](https://www.ted.com/talks/tom_wujec_got_a_wicked_problem_first_tell_me_how_you_make_toast/)
