@@ -63,8 +63,6 @@ sections:
               url: /forms/three-question-reflection/
             - label: Genuine Gratitude Expression
               url: /forms/genuine-gratitude-expression/
-            - label: Cultivate the Network Participation
-              url: /forms/cultivate-the-network/
             - label: Level Up Transition
               url: /forms/level-up-transition/
         - color: green
@@ -148,8 +146,6 @@ sections:
               url: /forms/four-energy-randori/
             - label: MetaShift Community Demonstration
               url: /forms/metashift-community-demonstration/
-            - label: Cultivate the Network Support
-              url: /forms/cultivate-the-network/
             - label: Level Up Transition
               url: /forms/level-up-transition/
         - color: black
