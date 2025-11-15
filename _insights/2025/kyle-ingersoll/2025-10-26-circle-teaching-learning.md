@@ -19,7 +19,7 @@ forms:
   - threshold
   - stance
   - martial-attitude
-  - sitting-contemplation
+  - stillness-contemplation
   - four-patterns
   - two-sides
   - high-presence-networking

@@ -12,7 +12,7 @@ forms:
   - integration-under-fire
   - threshold
   - stance
-  - sitting-contemplation
+  - stillness-contemplation
   - two-sides
   - three-centers
   - four-patterns
