@@ -28,7 +28,7 @@ Participants then rotate through dyads or triads. In each conversation, they sha
 - how energy moves in *their* domain  
 - what patterns they observe in the systems they’re part of  
 - where they experience coherence  
-- where they perceive edges or gaps 
+- where they perceive edges or gaps
 - where they sense opportunity or potential  
 - what tensions, challenges, or openings their domain is facing  
 - what kind of energy is needed next
