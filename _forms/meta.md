@@ -20,7 +20,7 @@ Where [Martial Attitude](../martial-attitude/) teaches the integration of awaren
 
 ## Experience
 
-Meta often reveals itself in moments of reflection or stillness — when awareness steps back just enough to see the whole field of energy in motion. You may notice it during [Stillness Contemplation](../stillness-contemplation/), [One Breath](../one-breath/), [Two Sides](../two-sides/), [Three Centers](../three-centers/), [Four Patterns](../four-patterns/), or in the immediacy of [Randori](../randori/) and [Integration Under Fire](../integration-under-fire/).  
+Meta often reveals itself in moments of reflection or stillness — when awareness steps back just enough to see the whole field of energy in motion. You may notice it during [Stillness Contemplation](../stillness-contemplation/), [One Breath](../one-breath/), [Two Sides](../two-sides/), [Three Centers](../three-centers/), [Four Patterns](../four-patterns/), or in the immediacy of [Four Energy Randori](../randori/) and [Integration Under Fire](../integration-under-fire/).  
 
 At first, it feels like a quiet observer watching practice unfold — the sense that something larger is tracking the field. As training deepens, Meta becomes more relational. It senses pressure, rhythm, and timing — when to extend, when to soften, when to redirect. Through its connection with [Martial Attitude](../martial-attitude/), Meta refines the bridge between *seeing* and *acting*, *form* and *freedom*. It helps you feel the pulse of practice as living dialogue: awareness meeting circumstance, again and again.
 
