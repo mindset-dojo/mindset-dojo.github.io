@@ -41,7 +41,7 @@ As part of leveling up, you will create a short insight article capturing this t
 
 - Your experience crossing this [Threshold](../threshold/)  
 - What shifted in your practice, presence, or patterns  
-- What you learned from [Circle](../circle/), [Mat](../Mat) and other form-based training  
+- What you learned from [Circle](../circle/), [Mat](../mat) and other form-based training  
 - What was distilled from the previous phase  
 - What gaps and edges remain and how you intend to relate to them  
 - What becomes possible for you — and for those you train with — as you move into the next level
