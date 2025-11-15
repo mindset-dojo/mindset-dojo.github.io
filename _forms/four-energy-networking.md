@@ -1,7 +1,7 @@
 ---
 layout: form
 title: "Four Energy Networking"
-title_mark: Four Energy Networking
+title_mark: Networking
 published_date: 2025-11-15
 refactored_date: 2025-11-15
 authors:
