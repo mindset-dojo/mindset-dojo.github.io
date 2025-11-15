@@ -18,7 +18,7 @@ In spirit, it is Draw Toast with FEBI™ Energies — a way of mapping how energ
 
 At the same time, it reveals how our domains relate, intersect, or differ — so that the community can understand its collective landscape, recognize where gaps or tensions lie, and discover where natural alliances or support can emerge.
 
-This form creates a simple structure for seeing ourselves and each other as part of a larger field of relationships. 
+This form creates a simple structure for seeing ourselves and each other as part of a larger field of relationships.
 
 ## Experience
 
