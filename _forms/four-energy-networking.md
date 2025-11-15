@@ -31,7 +31,7 @@ When the group returns to a full circle, the collective picture becomes clearer:
 
 **Prerequisite:** Each participant brings their FEBI™ report (or page 5 summary).
 
-**Steps**
+### Steps
 
 1. **Warm-up (optional):**  
    Use [Four Energy Sensei](../four-energy-sensei) as a full-group opener.
@@ -63,16 +63,18 @@ When the group returns to a full circle, the collective picture becomes clearer:
    - coaching  
    - continued field sensing
 
-## Reflective Harvest
+### Reflective Harvest
 
-### **What I gain**
+**What I gain**
+
 - A clearer sense of my own energy tendencies  
 - A better understanding of how others experience me  
 - Insight into the energy dynamics of my domain  
 - Language for describing gaps, tensions, and opportunities  
 - New relationships and potential collaborators
 
-### **What the community gains**
+**What the community gains**
+
 - A shared picture of who is here and what domains we represent  
 - Visibility into system-wide gaps and opportunities  
 - Early signals of natural alliances and support structures  
