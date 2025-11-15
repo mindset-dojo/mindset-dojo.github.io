@@ -19,33 +19,15 @@ This form creates the conditions for that relational mapping. It helps a group r
 
 ## Experience
 
-Every participant arrives having completed a basic FEBI™ assessment and brief reflection. They bring their FEBI report — not as identity, but as a lens.
+Participants arrive having completed a basic FEBI™ assessment and a brief reflection. They bring their FEBI™ report — not as identity, but as a lens.
 
-The session begins with a warm-up, such as [Four Energy Sensei](../four-energy-sensei/), to open the body and attune perception.
+The session begins with a warm-up such as [Four Energy Sensei](../four-energy-sensei/), helping the group settle, attune, and open perception.
 
-Participants then rotate through dyads or triads. In each conversation, they share not only their personal FEBI™ tendencies and interests, but also:
+From there, participants rotate through dyads or triads. These small-group conversations create a simple structure for getting to know one another’s energy tendencies, key domains, and the dynamics at play within those domains. As people share what they notice in their own fields — patterns, gaps, coherence, tensions, and possibilities — each rotation adds another thread to the larger picture.
 
-- how energy moves in *their* domain
-- what patterns they observe in the systems they’re part of
-- where they experience coherence
-- where they perceive edges or gaps
-- where they sense opportunity or potential
-- what tensions, challenges, or openings their domain is facing
-- what kind of energy is needed next
+Over multiple rounds, the group begins to sense both the individuals present and the broader landscape they collectively represent. A felt map of domains, energies, and opportunities starts to take shape.
 
-In this way, each small group becomes a micro-network sensing node: learning about people and about the worlds they inhabit.
-
-As rotations continue, a collective picture begins to form — a felt sense of the broader field.
-
-When the full group reconvenes, the discussion naturally unfolds:
-
-- What domains did we encounter?
-- What patterns or gaps repeated across them?
-- What unexpected opportunities surfaced?
-- How do these domains resonate or challenge one another?
-- What possibilities emerge when seen together?
-
-Some in the group begin to sense a network of domains, not just individuals.
+When the full group reconvenes, the conversation turns to what emerged across these rotations: recurring patterns, shared gaps, unexpected insights, and possibilities that only become visible when the network is viewed as a whole.
 
 ## Implementation
 
