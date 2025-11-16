@@ -24,7 +24,7 @@ You first label your own and your conversational partners FEBI™ energies and p
 
 ### Stance Transitions
 
-Before the conversation, enter an Visionary-Driver Stance through making a list of all the terrible things someone could say about you, and address those fears during a conversation to confront them with presence.
+Before the conversation, enter an Visionary-Driver Stance through a variation of [Two Sides](../two-sides/), making a list of all the terrible things someone could say about you, and address those fears during a conversation to confront them with presence. With the thoughts and emotions that come up during this process, take [One Breath](../one-breath/), align [Three Centers](../three-centers/), and trace the thoughts back to their source so you can send them back there without getting attached to them.
 
 Ask What and How questions to invite a Visionary-Driver Stance, remain silent afterwards to invite Visionary-Collaborator, then paraphrase what they said to move to a Collaborator-Organizer Stance.
 
