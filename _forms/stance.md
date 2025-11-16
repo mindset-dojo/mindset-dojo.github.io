@@ -30,13 +30,13 @@ Ask What and How questions to invite a Visionary-Driver Stance, remain silent af
 
 To maintain a Collaborator-Visionary Stance, mirror key words and phrases back at the conversational partner with an curious [Tone](../tone/). You can also label what you feel your partner's underlying feelings are to invite this Stance.
 
-To enter an Visionary-Organizer Stance and invite Collaborator, buffer 'You' statements with 'I' statements to take responsiblity for your subjective perception of the situation.
+To enter an Visionary-Organizer Stance and create space for Collaborator, buffer 'You' statements with 'I' statements to take responsiblity for your subjective perception of the situation.
 
-For a Collaborator-Driver Stance show ackowledgement of what they are saying through verbal and nonverbal means.
+For a Collaborator-Visionary Stance show ackowledgement of what they are saying through verbal and nonverbal means.
 
 Invite a Driver-Collaborator Stance with No-Oriented Questions, questions that invite a response from the body.
 
-To close off the conversation with an Organizer-Collaborator Stance, summarize the conversation through telling the entire story through their perspective.
+To close off the conversation with an Organizer-Collaborator Stance, Summarize the conversation in structured form while reflecting their emotional and factual reality.
 
 ## Inspiration
 
