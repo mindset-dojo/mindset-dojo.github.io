@@ -1,7 +1,7 @@
 ---
 layout: form
-title: "Four Element Sensei"
-title_mark: Four Element
+title: "Four Energy Sensei"
+title_mark: Four Energy
 published_date: 2025-10-20
 refactored_date: 2025-10-27
 authors:
@@ -21,7 +21,22 @@ You center with intention to have playful resonance. You will relax completely a
 
 ## Implementation
 
-Find a [Circle](../circle/), engage the [Mat](../mat/), and begin the game. The [Sensei](../sensei/) picks either the Elemental (Fire, Water, Earth, Air) or FEBI™ (Driver, Collaborator, Organizer, Visionary) version of the Four Patterns. The rest of the [Circle](../circle/) in the [Mat](../mat/) session follows the lead of the [Sensei](../sensei/) and imitates them. The [Sensei](../sensei/) then names another member of the [Circle](../circle/), the [Sensei](../sensei/), while naming the Pattern they want the group to imitiate. This cycle repeats until everyone in the [Circle](../circle/) has been [Sensei](../sensei/) twice.
+### Steps
+
+1. **Orient (2–3 min)**  
+  Center the Circle and name the chosen set of patterns (Elemental or FEBI™). Clarify the intention: playful embodiment and energy agility.
+
+1. **Pattern Preview (2–3 min)**  
+  The Sensei demonstrates brief movements for each pattern so everyone has a felt reference.
+
+1. **Sensei Rotation (8–12 min)**  
+  The starting [Sensei](../sensei/) leads a short movement sequence in one pattern, then calls the next Sensei *and* names the pattern they must lead. Each person becomes Sensei twice. Movements stay simple, clear, and embodied.
+
+1. **Group Flow (3–5 min)**  
+  The Circle moves together while leadership shifts fluidly—anyone may change the pattern, and everyone adapts immediately.
+
+1. **Close (2–3 min)**  
+  Return to stillness, acknowledge the [Circle](../circle/), and optionally capture a quick practice insight.
 
 ## Inspiration
 

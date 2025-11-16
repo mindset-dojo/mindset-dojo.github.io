@@ -46,8 +46,10 @@ sections:
               url: /forms/stillness-contemplation/
             - label: Four Energy Reflection
               url: /forms/four-energy-reflection/
-            - label: Four Element Sensei
-              url: /forms/four-element-sensei/
+            - label: Four Energy Sensei
+              url: /forms/four-energy-sensei/
+            - label: Level Up Transition
+              url: /forms/level-up-transition/
         - color: yellow
           label: 6th Kyu
           level: -6
@@ -61,6 +63,8 @@ sections:
               url: /forms/three-question-reflection/
             - label: Genuine Gratitude Expression
               url: /forms/genuine-gratitude-expression/
+            - label: Level Up Transition
+              url: /forms/level-up-transition/
         - color: green
           label: 5th Kyu
           level: -5
@@ -73,9 +77,11 @@ sections:
             - label: Mat – Driver
               url: /forms/mat/
             - label: Dyad Randori – Driver
-              url: /forms/randori/
+              url: /forms/four-energy-randori/
             - label: Domain-Focused Cultivator
               url: /forms/domain-focused-cultivator/
+            - label: Level Up Transition
+              url: /forms/level-up-transition/
         - color: blue
           label: 4th Kyu
           level: -4
@@ -88,9 +94,11 @@ sections:
             - label: Mat – Organizer
               url: /forms/mat/
             - label: Triad Randori – Organizer
-              url: /forms/randori/
+              url: /forms/four-energy-randori/
             - label: Senpai
               url: /forms/senpai/
+            - label: Level Up Transition
+              url: /forms/level-up-transition/
         - color: purple
           label: 3rd Kyu
           level: -3
@@ -105,7 +113,9 @@ sections:
             - label: Mat – Collaborator
               url: /forms/mat/
             - label: Group Circle Randori – Collaborator
-              url: /forms/randori/
+              url: /forms/four-energy-randori/
+            - label: Level Up Transition
+              url: /forms/level-up-transition/
         - color: brown
           label: 2nd Kyu
           level: -2
@@ -118,7 +128,9 @@ sections:
             - label: Mat – Visionary
               url: /forms/mat/
             - label: Group Circle Randori – Visionary
-              url: /forms/randori/
+              url: /forms/four-energy-randori/
+            - label: Level Up Transition
+              url: /forms/level-up-transition/
         - color: red
           label: 1st Kyu
           level: -1
@@ -131,9 +143,11 @@ sections:
             - label: Mat – Integration Under Fire
               url: /forms/mat/
             - label: Group Circle Randori – Integration Under Fire
-              url: /forms/randori/
+              url: /forms/four-energy-randori/
             - label: MetaShift Community Demonstration
               url: /forms/metashift-community-demonstration/
+            - label: Level Up Transition
+              url: /forms/level-up-transition/
         - color: black
           label: Shodan
           level: 1
@@ -146,11 +160,15 @@ sections:
             - label: Mat – Meta & Martial Attitude
               url: /forms/mat/
             - label: Real-Life Randori
-              url: /forms/randori/
+              url: /forms/four-energy-randori/
+            - label: Four Energy Networking
+              url: /forms/four-energy-networking/
             - label: Sensei
               url: /forms/sensei/
             - label: Organizationally-Focused Cultivator
               url: /forms/organizationally-focused-cultivator/
+            - label: Level Up Transition
+              url: /forms/level-up-transition/
   - type: text
     data:
       label: "Mantra"

@@ -29,12 +29,25 @@ Each published reflection becomes part of the open-source living field of practi
 
 ## Implementation
 
-1. Preparation (10 min) — Set a calm space; review the intention to observe, not judge.  
-2. Assessment (20–30 min) — Complete the FEBI™ instrument; record initial impressions.  
-3. Review (30-60 min) — Read your results; highlight patterns that feel familiar or surprising.  
-4. [Sensei](../sensei/) Guided Unpacking (30–45 min) — Engage in dialogue to interpret your energy distribution in context.  
-5. Integration (30-60 min) — Write a brief reflection or fable capturing new awareness and next-practice intention.  
-6. Optional Follow-On (Flexible) — Apply learnings through [Mat](../mat/) practice, journaling, or other Mindset Dojo form work.
+### Steps
+
+1. **Preparation (10 min)**  
+  Set a calm space; review the intention to observe, not judge.  
+
+1. **Assessment (20–30 min)**  
+  Complete the FEBI™ instrument; record initial impressions.  
+
+1. **Review (30-60 min)**  
+  Read your results; highlight patterns that feel familiar or surprising.  
+
+1. **[Sensei](../sensei/) Guided Unpacking (30–45 min)**  
+  Engage in dialogue to interpret your energy distribution in context.  
+
+1. **Integration (30-60 min)**  
+  Write a brief reflection or fable capturing new awareness and next-practice intention.  
+
+1. **Optional Follow-On (Flexible)**  
+  Apply learnings through [Mat](../mat/) practice, journaling, or other Mindset Dojo form work.
 
 ## Inspiration
 
