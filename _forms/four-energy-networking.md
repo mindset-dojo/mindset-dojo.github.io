@@ -3,7 +3,7 @@ layout: form
 title: "Four Energy Networking"
 title_mark: Networking
 published_date: 2025-11-15
-refactored_date: 2025-11-15
+refactored_date: 2025-11-16
 authors:
   - michael-basil
   - kyle-ingersoll
@@ -26,7 +26,7 @@ The session begins with a brief warm-up such as [Four Energy Sensei](../four-ene
 
 From there, the group rotates through short conversations in dyads or triads. In each round, people share their energy tendencies, their primary domain of practice or influence, and what they are noticing in that domain. Over a few rounds, patterns, tensions, and possibilities begin to surface.
 
-When the group returns to a full circle, the collective picture becomes clearer: how energy is moving across the community, where support is needed, and what opportunities are emerging.
+When the group returns to a full [Circle](../circle/), the collective picture becomes clearer: how energy is moving across the community, where support is needed, and what opportunities are emerging.
 
 ## Implementation
 

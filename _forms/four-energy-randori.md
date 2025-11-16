@@ -3,15 +3,16 @@ layout: form
 title: "Four Energy Randori"
 title_mark: Randori
 published_date: 2025-11-09
-refactored_date: 2025-11-09
+refactored_date: 2025-11-16
 authors:
   - michael-basil
+  - kyle-ingersoll
 excerpt: "Four Energy Randori is a presence-training form where we meet changing conditions with centeredness and adaptability through the Four Energy Patterns: Driver, Organizer, Collaborator, and Visionary."
 ---
 
 ## Intention
 
-Randori (lit. “seizing chaos”) invites us to meet unpredictable conditions—inner, interpersonal, and situational—while remaining centered, connected, and adaptive. With Mindset Dojo, randori is always pattern-aware: the Four Energy Patterns (Driver, Organizer, Collaborator, Visionary from FEBI™) provide the frame for noticing how energy moves, how we respond, and how we can shift with intention.
+Randori (lit. “seizing chaos”) invites us to meet unpredictable conditions—inner, interpersonal, and situational—while remaining centered, connected, and adaptive. With Mindset Dojo, randori is always pattern-aware: the Four Energy Patterns ([Driver](../driver/), [Organizer](../organizer/), [Collaborator](../collaborator/), [Visionary](../visionary/) from FEBI™) provide the frame for noticing how energy moves, how we respond, and how we can shift with intention.
 
 Four Energy Randori integrates the dojo’s practices into one living field. It is where insight becomes contact, and contact becomes integration.
 
@@ -23,10 +24,10 @@ With guidance from [Sensei](../sensei/) and support from [Senpai](../senpai/), y
 
 - Notice your default stance and energetic signature.  
 - Shift intentionally among the Four Energies:
-  - **Driver** to cut through, act, or clarify.  
-  - **Organizer** to stabilize, structure, or align.  
-  - **Collaborator** to join, connect, or harmonize.  
-  - **Visionary** to expand, reframe, or open space.  
+  - [**Driver**](../driver/) to cut through, act, or clarify.  
+  - [**Organizer**](../organizer/) to stabilize, structure, or align.  
+  - [**Collaborator**](../collaborator/) to join, connect, or harmonize.  
+  - [**Visionary**](../collaborator/) to expand, reframe, or open space.  
 - Recover center as conditions shift—breath, posture, voice, timing.  
 - Integrate insights in a brief reflection for the Open Source Mindset Dojo book.
 

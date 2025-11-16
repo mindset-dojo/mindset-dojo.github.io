@@ -12,7 +12,7 @@ excerpt: "Part of the Four Patterns from Institute for Zen Leadership, Visionary
 
 ## Intention
 
-Part of the [Four Patterns](../four-patterns/) from Institute for Zen Leadership, Visionary energy expands one's awareness beyond their immediate context, attracting the future.
+Part of the [Four Patterns](../four-patterns/) from Institute for Zen Leadership, Visionary (In Elemental FEBI™, it is also known as Air) energy expands one's awareness beyond their immediate context, attracting the future.
 
 ## Experience
 
