@@ -3,7 +3,7 @@ layout: insight
 title: "The Treasure You Forget Under Pressure"
 title_mark: Treasure
 published_date: 2025-11-15
-refactored_date: 2025-11-15
+refactored_date: 2025-11-16
 authors:
   - kyle-ingersoll
 forms:
