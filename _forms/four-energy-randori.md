@@ -56,7 +56,7 @@ Each randori adapts to who is present and what the moment demands.
 7. **Close (5–10 min)**  
    Reset the field and acknowledge the threshold crossed.
 
-### Formats:
+### Formats
 
 - Solo
 - Dyad
@@ -65,7 +65,7 @@ Each randori adapts to who is present and what the moment demands.
 - Online
 - In-person
 
-### Roles:
+### Roles
 
 - [Sensei](../sensei/)
 - [Senpai](../senpai/)
