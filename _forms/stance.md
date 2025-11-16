@@ -24,15 +24,15 @@ You start by doing [Three Centers](../three-centers/) to center with intention u
 
 ### Stance Transitions
 
-Before a challenging conversation, where the conversational partner is highly negatively biased against you, enter an Visionary-Driver Stance through a variation of [Two Sides](../two-sides/), making a list of all the terrible things someone could say about you, and address those fears during a conversation to confront them with presence. With the thoughts and emotions that come up during this process, take [One Breath](../one-breath/), align [Three Centers](../three-centers/), and trace the thoughts back to their source so you can send them back there without getting attached to them.
-
 Ask What and How questions to invite a Visionary-Driver Stance, remain silent afterwards to invite Visionary-Collaborator, then paraphrase what they said to move to a Collaborator-Organizer Stance.
+
+If one is dealing with stuck points or edges in an conversation, start with [Two Sides](../two-sides/) and then do a [Three Question Reflection](../three-question-reflection/) with a curious, empathetic [Tone](../tone/) to invite dissolving them.
 
 To maintain a Collaborator-Visionary Stance, mirror key words and phrases back at the conversational partner with an curious [Tone](../tone/). You can also label what you feel your partner's underlying feelings are to invite this Stance.
 
 To enter an Visionary-Organizer Stance and create space for Collaborator, buffer 'You' statements with 'I' statements to take responsiblity for your subjective perception of the situation.
 
-For a Collaborator-Visionary Stance show ackowledgement of what they are saying through verbal and nonverbal means.
+For a Collaborator-Visionary Stance show acknowledgement of what they are saying through verbal and nonverbal means.
 
 Invite a Driver-Collaborator Stance with No-Oriented Questions, questions that invite a response from the body.
 
