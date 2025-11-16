@@ -11,9 +11,9 @@ excerpt: "A simple, relational practice for understanding how energy moves throu
 
 ## Intention
 
-Four Energy Networking is a way for people to understand one another through the lens of the Four Energies (FEBI™ - Focus Energy Balance Indicator) and the domains they move in. It opens a space where I can share not only who I am, but how energy moves through my work, my challenges, and my opportunities — so that I can connect with others more skillfully and be seen more clearly.
+Four Energy Networking is a way for people to understand one another through the lens of the Four Energies (FEBI™ - Focus Energy Balance Indicator) and the domains they move in. It opens a space where one can share not only who they are, but how energy moves through their work, challenges, and opportunities — so that they can connect with others more skillfully and be seen more clearly.
 
-At the same time, it reveals how our domains relate, intersect, or differ — so that the community can understand its collective landscape, recognize where gaps or tensions lie, and discover where natural alliances or support can emerge.
+At the same time, as a community it reveals how our domains relate, intersect, or differ — so that the we can understand the collective landscape, recognize where gaps or tensions lie, and discover where natural alliances or support can emerge.
 
 This form creates a simple structure for seeing ourselves and each other as part of a larger field of relationships.
 
