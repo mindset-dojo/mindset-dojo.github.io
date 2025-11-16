@@ -22,6 +22,7 @@ forms:
   - organizer
   - collaborator
   - visionary
+  - genuine-gratitude-expression
 excerpt: “Under pressure, the student’s awareness shrank until even a priceless teaching seemed ordinary—only when his mind widened again did he recognize the treasure he nearly traded away.”
 ---
 
