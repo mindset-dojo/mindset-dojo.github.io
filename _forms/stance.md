@@ -36,7 +36,7 @@ For a Collaborator-Visionary Stance show ackowledgement of what they are saying 
 
 Invite a Driver-Collaborator Stance with No-Oriented Questions, questions that invite a response from the body.
 
-To close off the conversation with an Organizer-Collaborator Stance, Summarize the conversation in structured form while reflecting their emotional and factual reality.
+To close off the conversation with an Organizer-Collaborator Stance, summarize the conversation in structured form while reflecting their emotional reality. If that reality is distorted, do [Two Sides](../two-sides/) and [Three Centers](../three-centers/) first. Approach this from a [Martial Attitude](../martial-attitude) and ask What and How questions in an curious and empathetic [Tone](../tone/) to find and address contraditions, stuck points, and the underlying root of that distorted worldview. 
 
 ## Inspiration
 
