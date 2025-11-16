@@ -57,7 +57,7 @@ A typical session includes:
   Choose 3–5 forms appropriate for the host’s orientation (cognitive, relational, somatic, contemplative).
   
 1. **Define Roles & Flow**  
-  In general: 
+  In general:
     - Primary Presenter leads narrative and field-shaping.  
     - Supporting Presenter manages timing, breakouts, and subtle energetic stabilization.
 
