@@ -12,7 +12,7 @@ excerpt: "Part of the Four Patterns from Institute for Zen Leadership, Collabora
 
 ## Intention
 
-Part of the [Four Patterns](../four-patterns/) from Institute for Zen Leadership, Collaborator energy creates resonance from relationship through alignment.
+Part of the [Four Patterns](../four-patterns/) from Institute for Zen Leadership, Collaborator (In Elemental FEBI™, it is also known as Water) energy creates resonance from relationship through alignment.
 
 ## Experience
 
