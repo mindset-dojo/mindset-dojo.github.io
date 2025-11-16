@@ -1,59 +1,56 @@
 ---
-mantra: "Reclaim Your Life."
-mantra_mark: "Life."
+mantra: "Level Up Your Network."
+mantra_mark: "Network."
 description: |
-  Reclaim your life from the era of social distancing and hijacked attention.
-  The Martial Art of Mindset is a live training game that restores your focus,
-  energy, and balance — bringing your system back to center. Through embodied
-  awareness, we reintegrate mind, body, and voice so coherence becomes natural
-  again, even under pressure.  This is how Self-Authorship takes root —
-  not through more concepts, but through lived practice, one conversation at
-  a time. When presence returns, life feels lighter, more connected, and more possible.
+  The world is changing faster than ever — new technology, new pressures, and new
+  opportunities. But one skill grows more important in every era: the ability to
+  connect well with yourself and others. Mindset Dojo trains practical human
+  connection and communication skills for a world shaped by AI, rapid change,
+  and rising complexity.
+
+  Learn to navigate conversations, decisions, and high-pressure moments with
+  clarity, presence, and confidence. As you improve how you connect, you unlock
+  new possibilities, strengthen your network, and increase the probability of
+  healthier, more expansive outcomes at work, at home, and in everyday life.
 sections:
   - type: text
     data:
-      label: "Root Stance"
+      label: "A Skill for a Changing World"
       items:
-        - "Don’t Shame."
-        - "Don’t Blame."
-        - "Don’t Complain."
-        - "Don’t Constrain."
-        - "Train."
-        - "Train the Game."
-        - "Reclaim Your Life through the Martial Art of Mindset — a live training game."
+        - "Technology accelerates. Pressures rise. Paths shift."
+        - "Human connection helps us adapt, collaborate, and stay centered."
+        - "Mindset Dojo makes connection a simple, trainable skill."
+        - "Better connection → better decisions → better possibilities."
   - type: text
     data:
-      label: "Hijacked Attention"
+      label: "What We Train"
       items:
-        - "In an age of fractured focus, digital saturation, and emotional reactivity, our nervous systems are dehydrated and overextended."
-        - "Therapists, coaches, and consultants address fragments — but the root integration remains untouched."
-        - "Mindset Dojo reconnects the system from the inside out through a presence-based training game that restores coherence where distancing and overload have pulled us apart."
-        - "We stop reacting and start reclaiming — one breath, one embodied conversation at a time."
+        - "How to ground yourself when situations move fast."
+        - "How to communicate clearly, naturally, and without tension."
+        - "How to navigate pressure and uncertainty with presence."
+        - "How to open possibilities instead of closing them."
+        - "How to strengthen and refresh your network through simple human skills."
   - type: quote
     data:
-      text: "When mind, body, and voice move as one, even pressure feels like flow."
+      text: "In a fast-changing world, connection is a superpower you can train."
   - type: text
     data:
-      label: "The Martial Art of Mindset"
+      label: "A Live Training Game"
       items:
-        - "With Mindset Dojo, presence becomes a trained capacity — developed through conversation, somatic awareness, and intentional rhythm."
-        - "Training mindset as a martial art reverses distancing patterns — transforming reaction into rhythm and pressure into flow."
-        - "Training begins subtle: a clearer breath, a softened moment, a conversation that no longer collapses — that’s when the training starts to feel alive."
-        - "The result is coherence, courage, and the capacity to reclaim your life through integration rather than avoidance."
+        - "Mindset Dojo isn’t a course — it’s a live training game."
+        - "Every interaction becomes real practice."
+        - "You build rhythm, clarity, and confidence one moment at a time."
+        - "Simple. Playful. Grounded. Real."
+        - "You don’t need mastery — just curiosity and willingness."
   - type: text
     data:
-      label: "Training Ground"
+      label: "The Outcome"
       items:
-        - "Mindset Dojo isn’t a classroom — it’s a structured training game where every conversation, silence, and embodied pause becomes practice."
-        - "We train deep, real, and playful — seriously playful and playfully serious."
-        - "It’s not all sunshine and rainbows — but as the practice roots, challenge becomes curiosity, and curiosity becomes flow."
-        - "Together, we reverse attention whiplash and rebuild real presence — the antidote to an over-distanced culture."
-        - "From that root, self-agency strengthens and matures into Self-Authorship."
-  - type: authors
-    data:
-      leadership_flow:
-        label: "⛩️🌿 Self-Authors"
-        limit: 16
+        - "You navigate change with more confidence and less stress."
+        - "Conversations become easier, clearer, and more natural."
+        - "Your network expands in healthy, energizing ways."
+        - "Your decisions improve because your connection improves."
+        - "Life opens — one connection at a time."
   - type: ctas
     data:
       items:
