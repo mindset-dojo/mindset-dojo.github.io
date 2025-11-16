@@ -44,6 +44,7 @@ To close off the conversation with an Organizer-Collaborator Stance, summarize t
 - [Tenshinkan Dojo](https://japaneseculturecenter.com/classes/aikido)
 - [Institute for Zen Leadership](https://zenleader.global)
 - [Never Split the Difference by Chris Voss](https://www.amazon.com/Never-Split-Difference-Negotiating-Depended/dp/0062407805)
+- [Negotiation 9 Moves from Black Swan Group](https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9)
 - [Black Swan Group: 3 Negotiator Types](https://info.blackswanltd.com/hubfs/Content/3%20Types%20of%20Negotiators.pdf)
 - [What's Better than the Golden Rule?](https://www.thecaap.org/news/whats-better-than-the-golden-rulenbsp)
 - [Resonate by Ginny Whitelaw](https://www.choseizen.org/store/p/resonate)
