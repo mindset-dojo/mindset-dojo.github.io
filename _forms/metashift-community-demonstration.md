@@ -97,3 +97,4 @@ A typical session includes:
 - [Tenshinkan Dojo](https://japaneseculturecenter.com/classes/aikido)  
 - [Chosei Zen](https://www.choseizen.org/)  
 - [Institute for Zen Leadership](https://zenleader.global)
+- [Negotiation 9 Moves by Black Swan Group](https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9)
