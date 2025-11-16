@@ -22,6 +22,22 @@ You resonate/vibe with the people in the group and overall field, truely present
 
 You first label your own and your conversational partners FEBI™ energies and positions on the Map of Consciousness from your own perspective (not to mind read or impose, rather to have a context from which to calibrate from). Once you understand your own and your conversational partner's Stance tendencies, you adjust your own FEBI™ energy and position on the Map of Consciousness through connecting with them without being consumed by their energy, so that you introduce through invitation mutually beneficial and well timed [Thresholds](../threshold/). Sometimes this shift may be into Driver other times into Visionary for example, so it isn't always "soft" and "passive", but is harmonious by intention.
 
+### Stance Transitions
+
+Before the conversation, enter an Visionary-Driver Stance through making a list of all the terrible things someone could say about you, and address those fears during a conversation to confront them with presence. 
+
+Ask What and How questions to invite a Visionary-Driver Stance, remain silent afterwards to invite Visionary-Collaborator, then paraphrase what they said to move to a Collaborator-Organizer Stance.
+
+To maintain a Collaborator-Visionary Stance, mirror key words and phrases back at the conversational partner with an curious [Tone](../tone/). You can also label what you feel your partner's underlying feelings are to invite this Stance.
+
+To enter an Visionary-Organizer Stance and invite Collaborator, buffer 'You' statements with 'I' statements to take responsiblity for your subjective perception of the situation. 
+
+For a Collaborator-Driver Stance show ackowledgement of what they are saying through verbal and nonverbal means.
+
+Invite a Driver-Collaborator Stance with No-Oriented Questions, questions that invite a response from the body.
+
+To close off the conversation with an Organizer-Collaborator Stance, summarize the conversation through telling the entire story through their perspective.
+
 ## Inspiration
 
 - [Ki in Daily Life by Koichi Tohei](https://www.amazon.com/Ki-Daily-Life-Koichi-Tohei/dp/4889960716)
