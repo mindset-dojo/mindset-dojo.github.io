@@ -33,37 +33,38 @@ When the group returns to a full circle, the collective picture becomes clearer:
 
 ### Steps
 
-1. **Warm-up (optional):**  
-   Use [Four Energy Sensei](../four-energy-sensei) as a full-group opener.
+1. **Warm-up (optional)**  
+  Use [Four Energy Sensei](../four-energy-sensei) as a full-group opener.
+  
+1. **Rotating Dyads/Triads**  
+  Move through 3–5 short rounds of conversation.
 
-2. **Rotating Dyads/Triads:**  
-   Move through 3–5 short rounds of conversation.
+1. **Personal + Domain Sharing**  
+  In each round, participants briefly share:
+    - personal energy tendencies  
+    - the domain they work in or care about  
+    - what they are noticing in that domain  
+    - gaps or tensions they perceive  
+    - opportunities or openings they sense
+  
+1. **Field Awareness**  
+  Notice recurring themes or resonances across the rotations.
+  
+1. **Whole-Group Harvest**  
+  As a group, reflect on:
+    - What did we learn about each other?
+    - What did we learn about our domains?
+    - What gaps or opportunities showed up repeatedly?
+    - Where is support or collaboration naturally emerging?
+  
+1. **Optional Follow-Up**  
+  Consider the following when it makes sense:
+    - Collaboration conversations  
+    - Peer or small-group clusters  
+    - Continued field sensing
+    - 1:1 or small group coaching  
 
-3. **Personal + Domain Sharing:**  
-   In each round, participants briefly share:
-   - personal energy tendencies  
-   - the domain they work in or care about  
-   - what they are noticing in that domain  
-   - gaps or tensions they perceive  
-   - opportunities or openings they sense
-
-4. **Field Awareness:**  
-   Notice recurring themes or resonances across the rotations.
-
-5. **Whole-Group Harvest:**  
-   As a group, reflect on:
-   - What did we learn about each other?
-   - What did we learn about our domains?
-   - What gaps or opportunities showed up repeatedly?
-   - Where is support or collaboration naturally emerging?
-
-6. **Optional Follow-Up:**  
-   - collaboration conversations  
-   - peer or small-group clusters  
-   - coaching  
-   - continued field sensing
-
-### What I gain
+### As an Individual, I gain
 
 - A clearer sense of my own energy tendencies  
 - A better understanding of how others experience me  
@@ -71,7 +72,7 @@ When the group returns to a full circle, the collective picture becomes clearer:
 - Language for describing gaps, tensions, and opportunities  
 - New relationships and potential collaborators
 
-### What the community gains
+### As a Community, We gain
 
 - A shared picture of who is here and what domains we represent  
 - Visibility into system-wide gaps and opportunities  

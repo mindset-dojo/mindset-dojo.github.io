@@ -1,7 +1,7 @@
 ---
 layout: form
 title: "Level Up Transition"
-title_mark: Level Up Transition
+title_mark: Transition
 published_date: 2025-11-15
 refactored_date: 2025-11-15
 authors:
