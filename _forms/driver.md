@@ -12,7 +12,7 @@ excerpt: "Part of the Four Patterns from Institute for Zen Leadership, Driver en
 
 ## Intention
 
-Part of the [Four Patterns](../four-patterns/) from Institute for Zen Leadership, Driver energy is like a laser. It causes you to focus on moving foward, step by step.
+Part of the [Four Patterns](../four-patterns/) from Institute for Zen Leadership, Driver (In Elemental FEBI™, it is also known as Fire) energy is like a laser. It causes you to focus on moving foward, step by step.
 
 ## Experience
 

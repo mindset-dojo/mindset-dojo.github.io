@@ -12,7 +12,7 @@ excerpt: "Part of the Four Patterns from Institute for Zen Leadership, Organizer
 
 ## Intention
 
-Part of the [Four Patterns](../four-patterns/) from Institute for Zen Leadership, Organizer energy makes complexity legible through distillment, building the foundation for life to emerge and grow.
+Part of the [Four Patterns](../four-patterns/) from Institute for Zen Leadership, Organizer (In Elemental FEBI™, it is also known as Earth) energy makes complexity legible through distillment, building the foundation for life to emerge and grow.
 
 ## Experience
 
