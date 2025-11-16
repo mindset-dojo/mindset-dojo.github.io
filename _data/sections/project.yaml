@@ -2,35 +2,38 @@
 mantra: "Don’t Control. Co-Create."
 mantra_mark: "Co-Create."
 description: |
-  An open-source dojo — where presence meets practice through shared stewardship.
-  The project evolves through reciprocity, clarity, and the collective rhythm of
-  those actively training. Open-source becomes part of the training game itself:
-  nothing is distant, siloed, or hidden.
+  An open-source dojo — presence expressed through shared stewardship.
+  The project evolves through reciprocity, clarity, and the rhythm of those
+  actively training. Open source is part of the training game itself.
 sections:
   - type: text
     data:
       label: "Dojo Infrastructure: Open Source’d"
       items:
-        - "The Project is the living infrastructure of Mindset Dojo — a training ground for co-creation and presence under real conditions."
-        - "It grows through contributions from those practicing and refining their craft."
-        - "Hosted openly on GitHub — transparency, rhythm, and relational integrity guide its evolution."
+        - "Built openly on GitHub — transparency sets the tone."
+        - "Start by exploring the repo and sensing where your presence can help."
+        - "Each small move strengthens the field and clarifies the path."
+        - "Reach out to a Cultivator before making your first contribution."
+        - "Reciprocity is how the gate opens."
   - type: text
     data:
       label: "Open Source as Practice"
       items:
-        - "Every commit is a calibration toward coherence — a move in the training game."
-        - "Every refactor is a bow to clarity."
-        - "We treat the codebase as we treat the mat — with presence, precision, and respect."
+        - "Every commit is a calibration toward coherence."
+        - "Every refactor is a bow toward clarity."
+        - "Every review is a gesture of mutual stewardship."
+        - "Treat the codebase like the mat — with presence and respect."
   - type: text
     data:
       label: "Ways to Contribute"
       items:
-        - "Refactor language, structure, or function toward clarity and coherence."
-        - "Offer patterns, practices, or feedback that help others move with ease."
-        - "Model reciprocity through guidance, review, and mentorship — the inverse of distancing."
+        - "Refactor language, structure, or flows toward coherence."
+        - "Propose improvements that reduce friction and increase clarity."
+        - "Offer patterns, insights, or practices that help others move with ease."
+        - "Support others through review, conversation, and steady presence."
   - type: quote
     data:
-      text: "Ideation is play; contribution is practice."
+      text: "Ideas spark, pull requests land — Cultivators help with alignment."
   - type: principles
     data:
       principles_title: "Engagement Principles"
@@ -47,22 +50,6 @@ sections:
         - "Become a Cultivator."
         - "Open pathways for others."
         - "Grow the field."
-  - type: designations
-    data:
-      label: "Leadership Designations"
-      items:
-        - label: "(Domain-Focused) Cultivator"
-          intentions:
-            - label: "Strengthen, clarify, and amplify the mission"
-            - label: "Join Cultivator Circle regularly"
-            - label: "Contribute expertise in a mutually beneficial way"
-            - label: "Green Level+, vouched for by existing Cultivator(s)"
-        - label: "(Organizationally-Focused) Cultivator"
-          intentions:
-            - label: "Guide, harmonize, and model training authorship"
-            - label: "Lead Cultivator Circle sessions regularly"
-            - label: "Cultivate project culture and brand coherence"
-            - label: "Black Level, vouched for by existing Cultivator(s)"
   - type: authors
     data:
       leadership_flow:

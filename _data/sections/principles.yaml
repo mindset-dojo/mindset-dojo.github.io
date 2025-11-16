@@ -16,11 +16,14 @@ principles:
   project:
     - id: "transparency"
       label: "Transparency Invites Trust"
-      description: "Openness in process, intent, and communication turns control into shared clarity."
+      description: "Open process and clear intent turn control into shared clarity."
     - id: "contribution"
       label: "Contribution Shapes Coherence"
-      description: "Each act of authorship refines the whole; shared care turns complexity to rhythm."
+      description: "Each move refines the whole and turns complexity into rhythm."
     - id: "presence"
       label: "Presence Tends the Form"
-      description: "We tend the system as a living garden — pruning, nurturing, redesigning with awareness."
+      description: "Tend the system like a garden — prune and shape with awareness."
+    - id: "culture"
+      label: "Code Cultivates Culture"
+      description: "Keep it like a bonsai or race car — light, alive, and never a dump truck."
 ...

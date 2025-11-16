@@ -24,10 +24,10 @@ With guidance from [Sensei](../sensei/) and support from [Senpai](../senpai/), y
 
 - Notice your default stance and energetic signature.  
 - Shift intentionally among the Four Energies:
-  - [**Driver**](../driver/) to cut through, act, or clarify.  
-  - [**Organizer**](../organizer/) to stabilize, structure, or align.  
-  - [**Collaborator**](../collaborator/) to join, connect, or harmonize.  
-  - [**Visionary**](../collaborator/) to expand, reframe, or open space.  
+  - [Driver](../driver/) to cut through, act, or clarify.  
+  - [Organizer](../organizer/) to stabilize, structure, or align.  
+  - [Collaborator](../collaborator/) to join, connect, or harmonize.  
+  - [Visionary](../collaborator/) to expand, reframe, or open space.  
 - Recover center as conditions shift—breath, posture, voice, timing.  
 - Integrate insights in a brief reflection for the Open Source Mindset Dojo book.
 
