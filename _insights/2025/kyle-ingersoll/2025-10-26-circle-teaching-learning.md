@@ -32,7 +32,7 @@ forms:
 excerpt: "At ZLOTC, I discovered that every act of teaching is also an act of learning — when we reflect, allow, and connect, Ki extends, and the circle becomes a spiral."
 ---
 
-Recently, [Michael Basil](../../authors/michael-basil/) and [I](../..//authors/kyle-ingersoll/) presented at [**ZLOTC (Zen Leader Off the Cushion)**](https://zenleader.global/zlotc-registration), hosted by the [**Institute for Zen Leadership**](https://zenleader.global/).
+Recently, [Michael Basil](../../authors/michael-basil/) and [I](../..//authors/kyle-ingersoll/) presented at [ZLOTC (Zen Leader Off the Cushion)](https://zenleader.global/zlotc-registration), hosted by the [Institute for Zen Leadership](https://zenleader.global/).
 Our topic: *Meta Energy*, *Elemental FEBI*, and the *Essential Flip — From Controlling to Connecting.*
 
 We had fun, yes—but the true lesson revealed itself only afterward. The ZLOTC community learned from us, but I found myself being flipped in return.
