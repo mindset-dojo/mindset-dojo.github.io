@@ -12,7 +12,7 @@ excerpt: "Four Energy Randori is a presence-training form where we meet changing
 
 ## Intention
 
-Randori (lit. “seizing chaos”) invites us to meet unpredictable conditions—inner, interpersonal, and situational—while remaining centered, connected, and adaptive. With Mindset Dojo, randori is always pattern-aware: the Four Energy Patterns (Driver, Organizer, Collaborator, Visionary from FEBI™) provide the frame for noticing how energy moves, how we respond, and how we can shift with intention.
+Randori (lit. “seizing chaos”) invites us to meet unpredictable conditions—inner, interpersonal, and situational—while remaining centered, connected, and adaptive. With Mindset Dojo, randori is always pattern-aware: the Four Energy Patterns ([Driver](../driver/), [Organizer](../organizer/), [Collaborator](../collaborator/), [Visionary](../visionary/) from FEBI™) provide the frame for noticing how energy moves, how we respond, and how we can shift with intention.
 
 Four Energy Randori integrates the dojo’s practices into one living field. It is where insight becomes contact, and contact becomes integration.
 
