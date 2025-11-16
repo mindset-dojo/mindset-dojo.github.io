@@ -56,8 +56,20 @@ Each randori adapts to who is present and what the moment demands.
 7. **Close (5–10 min)**  
    Reset the field and acknowledge the threshold crossed.
 
-**Formats:** solo, dyad, triad, group circle; online or in-person.  
-**Roles:** [Sensei](../sensei/)]/[Senpai](../senpai/) and participants.
+### Formats:
+
+- Solo
+- Dyad
+- Triad
+- Group circle
+- Online
+- In-person
+
+### Roles:
+
+- [Sensei](../sensei/)
+- [Senpai](../senpai/)
+- Chaos Agents
 
 ## Inspiration
 
