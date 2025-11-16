@@ -28,7 +28,7 @@ To progress the conversation, ask What and How questions, remain silent afterwar
 
 Show acknowledgement of what they are saying through verbal and nonverbal means.
 
-Mirror key words and phrases back at the conversational partner with an curious, empathetic [Tone](../tone/). 
+Mirror key words and phrases back at the conversational partner with an curious, empathetic [Tone](../tone/).
 
 Label what you feel your conversational partner's underlying feelings are.
 

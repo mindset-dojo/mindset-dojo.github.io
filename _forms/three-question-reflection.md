@@ -36,4 +36,4 @@ Following this exercise is a good time to consider authoring an Insight post abo
 
 - [Socratic Method](https://en.wikipedia.org/wiki/Socratic_method)
 - [Calibrated Questions – Black Swan Group](https://www.blackswanltd.com/newsletter/taking-the-mystery-out-of-calibrated-questions)
-- [Negotiation 9 Moves from Black Swan Group](https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9)   
+- [Negotiation 9 Moves from Black Swan Group](https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9)
