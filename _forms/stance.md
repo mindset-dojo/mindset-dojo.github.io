@@ -20,23 +20,21 @@ You resonate/vibe with the people in the group and overall field, truely present
 
 ## Implementation
 
-You start by doing [Three Centers](../three-centers/) to center with intention upon having an integrative conversation, despite any pressure you are under. Then you do a variation of [Two Sides](../two-sides/), labeling your own and your conversational partners' FEBI™ energies and positions on the Map of Consciousness from your own perspective (not to mind read or impose, rather to have a context from which to calibrate from). Once you understand your own and your conversational partner's Stance tendencies, you adjust your own FEBI™ energy and position on the Map of Consciousness through connecting with them without being consumed by their energy, so that you introduce through invitation mutually beneficial and well timed [Thresholds](../threshold/).
+Be the change you want to see, and invite others to follow.
 
 ### Stance Transitions
 
-Ask What and How questions to invite a Visionary-Driver Stance, remain silent afterwards to invite Visionary-Collaborator, then paraphrase what they said to move to a Collaborator-Organizer Stance.
+To progress the conversation, ask What and How questions, remain silent afterwards, then paraphrase what your converational partner said.
 
-If one is dealing with stuck points or edges in an conversation, start with [Two Sides](../two-sides/) and then do a [Three Question Reflection](../three-question-reflection/) with a curious, empathetic [Tone](../tone/) to invite dissolving them.
+Show acknowledgement of what they are saying through verbal and nonverbal means.
 
-To maintain a Collaborator-Visionary Stance, mirror key words and phrases back at the conversational partner with an curious [Tone](../tone/). You can also label what you feel your partner's underlying feelings are to invite this Stance.
+Mirror key words and phrases back at the conversational partner with an curious, empathetic [Tone](../tone/). 
 
-To enter an Visionary-Organizer Stance and create space for Collaborator, buffer 'You' statements with 'I' statements to take responsiblity for your subjective perception of the situation.
+Label what you feel your conversational partner's underlying feelings are.
 
-For a Collaborator-Visionary Stance show acknowledgement of what they are saying through verbal and nonverbal means.
+Buffer 'You' statements with 'I' statements to take responsiblity for your subjective perception of the situation.
 
-Invite a Driver-Collaborator Stance with No-Oriented Questions, questions that invite a response from the body.
-
-To close off the conversation with an Organizer-Collaborator Stance, summarize the conversation in structured form while reflecting their emotional reality. If that reality is distorted, do [Two Sides](../two-sides/) and [Three Centers](../three-centers/) first. Approach this from a [Martial Attitude](../martial-attitude) and ask What and How questions in an curious and empathetic [Tone](../tone/) to find and address contraditions, stuck points, and the underlying root of that distorted worldview.
+To close off the conversation, summarize the conversation in structured form while reflecting their emotional reality. If one is dealing with stuck points or edges in an conversation, start with [Two Sides](../two-sides/) and then do a [Three Question Reflection](../three-question-reflection/) with a curious, empathetic [Tone](../tone/) to invite dissolving those stuck points/edges.
 
 ## Inspiration
 
