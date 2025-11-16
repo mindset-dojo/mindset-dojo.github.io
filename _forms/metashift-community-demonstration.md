@@ -12,7 +12,7 @@ excerpt: "A higher-level dojo form for demonstrating presence within another com
 
 ## Intention
 
-To **demonstrate presence under invitation** — embodying dojo principles within another community or lineage without relying on explanation or persuasion. The aim is to bridge dojos and disciplines through mutual recognition, allowing presence itself to transmit practice.
+To **demonstrate presence under invitation** — embodying [dojo](../dojo/) principles within another community or lineage without relying on explanation or persuasion. The aim is to bridge [dojos](../dojo/) and disciplines through mutual recognition, allowing presence itself to transmit practice.
 
 This form represents a higher-level expression of leadership: an act of **networking through demonstration**, where teaching, authorship, and relational resonance converge.
 
@@ -29,10 +29,10 @@ A typical session includes:
   The host initiates in a way that suits their community, establishing shared presence.
 
 - **Context Setting**  
-  The dojo pair bridges vocabularies and intentions, aligning frames without imposing language.
+  The [dojo](../dojo/) pair bridges vocabularies and intentions, aligning frames without imposing language.
 
 - **Demonstration**  
-  Three to five dojo forms are embodied in real time (e.g., [Circle](../circle/), [Mat](../mat/), [Sensei](../sensei/), [Senpai](../senpai/), [Four Energy Sensei](../four-energy-sensei/), [Three Question Reflection](../three-question-reflection/)).
+  Three to five [dojo](../dojo/) forms are embodied in real time (e.g., [Circle](../circle/), [Mat](../mat/), [Sensei](../sensei/), [Senpai](../senpai/), [Four Energy Sensei](../four-energy-sensei/), [Three Question Reflection](../three-question-reflection/)).
 
 - **Participation**  
   Attendees “step onto the mat,” shifting between witnessing, co-regulating, and active engagement.
@@ -48,7 +48,7 @@ A typical session includes:
 ### Preparation Phase (Internal Dojo Alignment)
 
 1. **Initiate with Senpai/Sensei**  
-  When a practitioner is ready to represent the dojo publicly, they collaborate with their mentors to clarify intention, scope, and readiness.
+  When a practitioner is ready to represent the [dojo](../dojo/) publicly, they collaborate with their mentors to clarify intention, scope, and readiness.
   
 1. **Study the Host Community**  
   Map cultural patterns, rituals, and language. Identify shared intentions and likely bridges.
@@ -70,7 +70,7 @@ A typical session includes:
   Enter with centered posture, open attention, and attunement to the host’s style.
   
 1. **Bridge Without Translating Everything**  
-  Present dojo practices in a way that resonates with the host’s language, but avoid over-explaining.
+  Present [dojo](../dojo/) practices in a way that resonates with the host’s language, but avoid over-explaining.
   
 1. **Lead Through Embodiment, Not Persuasion**  
   Let presence, coherence, and clarity be the teaching.
@@ -90,7 +90,7 @@ A typical session includes:
   Complete a [Genuine Gratitude Expression](../genuine-gratitude-expression/) to honor the host community.
   
 1. **Contribute New Learnings**  
-  Any new forms, variations, or pressure-tested patterns  (e.g., [Integration Under Fire](../integration-under-fire/)) are added back into the dojo’s **Form Library**, closing the loop from demonstration → reflection → authorship.
+  Any new forms, variations, or pressure-tested patterns  (e.g., [Integration Under Fire](../integration-under-fire/)) are added back into the [dojo’s](../dojo/) **Form Library**, closing the loop from demonstration → reflection → authorship.
 
 ## Inspirations
 
