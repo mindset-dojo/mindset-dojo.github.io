@@ -10,7 +10,7 @@ sections:
     data:
       label: "Dojo Infrastructure: Open Source’d"
       items:
-        - "The Project is built openly on GitHub — transparency is the training ground."
+        - "Built openly on GitHub — transparency sets the tone."
         - "Start by exploring the repo and sensing where your presence can help."
         - "Each small move strengthens the field and clarifies the path."
         - "Reach out to a Cultivator before making your first contribution."
@@ -22,7 +22,7 @@ sections:
         - "Every commit is a calibration toward coherence."
         - "Every refactor is a bow toward clarity."
         - "Every review is a gesture of mutual stewardship."
-        - "We treat the codebase as we treat the mat — with presence and respect."
+        - "Treat the codebase like the mat — with presence and respect."
   - type: text
     data:
       label: "Ways to Contribute"
@@ -33,7 +33,7 @@ sections:
         - "Support others through review, conversation, and steady presence."
   - type: quote
     data:
-      text: "Ideation is play; contribution is practice."
+      text: "Ideas spark, pull requests land — Cultivators help with alignment."
   - type: principles
     data:
       principles_title: "Engagement Principles"
