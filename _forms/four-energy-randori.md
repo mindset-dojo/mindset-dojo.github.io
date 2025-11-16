@@ -36,25 +36,25 @@ Each randori adapts to who is present and what the moment demands.
 
 ### Steps
 
-1.  **Orient (10–15 min)**  
+1. **Orient (10–15 min)**  
   Establish safety, intention, and review the Four Energy frame.
 
-1.  **Baseline Pass (15–25 min)**  
+1. **Baseline Pass (15–25 min)**  
   Engage the scenario or drill exactly as you are. This reveals default energy patterns.
 
-1.  **Pattern Practice (35–50 min)**  
+1. **Pattern Practice (35–50 min)**  
   Targeted rounds exploring one or more energies in contrast or combination.
 
-1.  **Free Randori (20–30 min)**  
+1. **Free Randori (20–30 min)**  
   Spontaneous flow where conditions shift and energies must adapt in real time.
 
-1.  **Debrief (15–20 min)**  
+1. **Debrief (15–20 min)**  
   Reflect on breath, body, voice, timing, attention, and relational impact.
 
-1.  **Integration (10–20 min)**  
+1. **Integration (10–20 min)**  
   Capture a short written insight or fable; articulate a next-practice commitment.
   
-1.  **Close (5–10 min)**  
+1. **Close (5–10 min)**  
   Reset the field and acknowledge the threshold crossed.
 
 ## Inspiration

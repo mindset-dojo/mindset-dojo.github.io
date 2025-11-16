@@ -47,49 +47,49 @@ A typical session includes:
 
 ### Preparation Phase (Internal Dojo Alignment)
 
-1.  **Initiate with Senpai/Sensei**  
+1. **Initiate with Senpai/Sensei**  
   When a practitioner is ready to represent the dojo publicly, they collaborate with their mentors to clarify intention, scope, and readiness.
   
-1.  **Study the Host Community**  
+1. **Study the Host Community**  
   Map cultural patterns, rituals, and language. Identify shared intentions and likely bridges.
   
-1.  **Select Demonstration Forms**  
+1. **Select Demonstration Forms**  
   Choose 3–5 forms appropriate for the host’s orientation (cognitive, relational, somatic, contemplative).
   
-1.  **Define Roles & Flow**  
+1. **Define Roles & Flow**  
   In general: 
     - Primary Presenter leads narrative and field-shaping.  
     - Supporting Presenter manages timing, breakouts, and subtle energetic stabilization.
 
-1.  **Rehearse Threshold Moments**  
+1. **Rehearse Threshold Moments**  
   Practice the opening, transitions between forms, and the closing rhythm to balance **spontaneity** with **structure**.
 
 ### Delivery Phase (The Public Demonstration)
 
-1.  **Anchor Presence Early**  
+1. **Anchor Presence Early**  
   Enter with centered posture, open attention, and attunement to the host’s style.
   
-1.  **Bridge Without Translating Everything**  
+1. **Bridge Without Translating Everything**  
   Present dojo practices in a way that resonates with the host’s language, but avoid over-explaining.
   
-1.  **Lead Through Embodiment, Not Persuasion**  
+1. **Lead Through Embodiment, Not Persuasion**  
   Let presence, coherence, and clarity be the teaching.
   
-1.  **Facilitate Participation**  
+1. **Facilitate Participation**  
   Invite attendees into active practice while maintaining safety and containment.
 
 ### Integration Phase (After the Event)
 
-1.  **Immediate Reflection**  
+1. **Immediate Reflection**  
   The presenters capture energetic impressions, learning edges, and pattern dynamics.
   
-1.  **Compose an Insight Article**  
+1. **Compose an Insight Article**  
   Within a few days, write a concise reflection to document the event for the Form Library.
   
-1.  **Express Gratitude**  
+1. **Express Gratitude**  
   Complete a [Genuine Gratitude Expression](../genuine-gratitude-expression/) to honor the host community.
   
-1.  **Contribute New Learnings**  
+1. **Contribute New Learnings**  
   Any new forms, variations, or pressure-tested patterns  (e.g., [Integration Under Fire](../integration-under-fire/)) are added back into the dojo’s **Form Library**, closing the loop from demonstration → reflection → authorship.
 
 ## Inspirations

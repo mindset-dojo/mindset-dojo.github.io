@@ -33,13 +33,13 @@ When the group returns to a full circle, the collective picture becomes clearer:
 
 ### Steps
 
-1.  **Warm-up (optional)**  
+1. **Warm-up (optional)**  
   Use [Four Energy Sensei](../four-energy-sensei) as a full-group opener.
   
-1.  **Rotating Dyads/Triads**  
+1. **Rotating Dyads/Triads**  
   Move through 3–5 short rounds of conversation.
 
-1.  **Personal + Domain Sharing**  
+1. **Personal + Domain Sharing**  
   In each round, participants briefly share:
     - personal energy tendencies  
     - the domain they work in or care about  
@@ -47,17 +47,17 @@ When the group returns to a full circle, the collective picture becomes clearer:
     - gaps or tensions they perceive  
     - opportunities or openings they sense
   
-1.  **Field Awareness**  
+1. **Field Awareness**  
   Notice recurring themes or resonances across the rotations.
   
-1.  **Whole-Group Harvest**  
+1. **Whole-Group Harvest**  
   As a group, reflect on:
     - What did we learn about each other?
     - What did we learn about our domains?
     - What gaps or opportunities showed up repeatedly?
     - Where is support or collaboration naturally emerging?
   
-1.  **Optional Follow-Up**  
+1. **Optional Follow-Up**  
   Consider the following when it makes sense:
     - Collaboration conversations  
     - Peer or small-group clusters  
