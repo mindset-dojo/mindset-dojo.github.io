@@ -84,7 +84,7 @@ A typical session includes:
   The presenters capture energetic impressions, learning edges, and pattern dynamics.
   
 1. **Compose an Insight Article**  
-  Within a few days, write a concise reflection to document the event for the Form Library.
+  Within a few days, write a concise reflection to document the event in the Insight Stream.
   
 1. **Express Gratitude**  
   Complete a [Genuine Gratitude Expression](../genuine-gratitude-expression/) to honor the host community.
