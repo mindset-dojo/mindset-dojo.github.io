@@ -107,8 +107,6 @@ sections:
               url: /forms/four-patterns/
             - label: Stance
               url: /forms/stance/
-            - label: PSP (Probe, Silence, Paraphrase) Cycle
-              url: /forms/psp-cycle/
             - label: Collaborator
               url: /forms/collaborator/
             - label: Mat – Collaborator
