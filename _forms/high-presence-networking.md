@@ -36,8 +36,6 @@ This is the fieldwork of dojo presence — where awareness meets community in re
 
 ## Implementation
 
-### steps
-
 ### Steps
 
 1. **Choose with Intention**  
