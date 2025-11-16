@@ -3,9 +3,10 @@ layout: form
 title: "Level Up Transition"
 title_mark: Transition
 published_date: 2025-11-15
-refactored_date: 2025-11-15
+refactored_date: 2025-11-16
 authors:
   - michael-basil
+  - kyle-ingersoll
 excerpt: "A level-up transition marks the shift from one phase of training to the next. It is a moment to sense, connect, integrate, and cross with awareness."
 ---
 
@@ -13,7 +14,7 @@ excerpt: "A level-up transition marks the shift from one phase of training to th
 
 A level-up transition is not a reward or a promotion. It is a shift in awareness. A moment when you realize that your practice has begun to change you — and that a new phase of training is opening.
 
-This form supports that shift. It slows the moment down so you can recognize what is moving, what is deepening, and what is ready to be crossed. It invites you to connect with peers, [Senpai](../senpai/), and [Sensei](../sensei/), because progress in a dojo is never a solitary act.
+This form supports that shift. It slows the moment down so you can recognize what is moving, what is deepening, and what is ready to be crossed. It invites you to connect with peers, [Senpai](../senpai/), and [Sensei](../sensei/), because progress in a [dojo](../dojo/) is never a solitary act.
 
 A level-up transition is a chance to sense where you are, where you’ve been, and where you are now being invited.
 
@@ -46,7 +47,7 @@ As part of leveling up, you will create a short insight article capturing this t
 - What gaps and edges remain and how you intend to relate to them  
 - What becomes possible for you — and for those you train with — as you move into the next level
 
-This reflective harvest completes the Level Up Transition and becomes part of the living dojo.
+This reflective harvest completes the Level Up Transition and becomes part of the living [dojo](../dojo/).
 
 ## Inspiration
 
