@@ -22,7 +22,7 @@ You feel the undercurrent of the conversation in your gut and are invited to res
 
 ### Preparation
 
-First, relax completely with [One Breath](../one-breath/) and then do [Two Sides](../two-sides/) to center your Self.
+First, relax completely with [One Breath](../one-breath/) to center yourself and [Two Sides](../two-sides/) if helpful.
 
 ### Introduction of Meta Compass
 
