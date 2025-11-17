@@ -25,7 +25,7 @@ First, you use [One Breath](../one-breath/) and then [Three Centers](../three-ce
 
 ### Introduction of Meta Compass
 
-Through using a [Three Question Reflection](../three-question-reflection/), Meta Compass is a powerful and simple way to read the tone of a conversation.
+Using a [Three Question Reflection](../three-question-reflection/), Meta Compass is a powerful and simple way to read the tone of a conversation.
 
 ### How to use Meta Compass
 
