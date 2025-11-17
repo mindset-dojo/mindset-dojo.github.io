@@ -40,7 +40,7 @@ Imploding – Coping, things pile up until everything breaks under it's own weig
 
 Disassociated – Tyranny of Structurelessness. Movement without clarity of purpose.
 
-Remember, everything you build is a debt. Thus build minimally and build fluidly. Maintain Plus Ki (energy flow) orientation.
+Remember, everything you build is a debt. Thus build minimally and build fluidly. Maintain energy flow.
 
 ## Implementation
 
