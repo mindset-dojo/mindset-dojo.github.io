@@ -25,7 +25,7 @@ First, you use [One Breath](../one-breath/) and then [Three Centers](../three-ce
 
 ### Introduction of Meta Compass
 
-Using a [Three Question Reflection](../three-question-reflection/) and powered by [Meta Energy](../meta/), Meta Compass is a powerful and simple way to read the tone of a conversation.
+Using a [Three Question Reflection](../three-question-reflection/) and powered by [Meta Energy](../meta/), Meta Compass is a powerful and simple way to read the tone of a conversation. It measures the [Four Energy Patterns](../four-patterns/) that manifest in the conversation, then checks if the energies are moving and to where. With that knowledge, one can move the conversation in a mutually beneficial direction through well-timed [Stance](../stance/) transitions and invitation.
 
 ### How to use Meta Compass
 
