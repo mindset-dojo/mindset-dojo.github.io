@@ -34,4 +34,3 @@ You first label your own and your conversational partners FEBI energies and posi
 - [The Zen Leader by Ginny Whitelaw](https://www.choseizen.org/store/p/the-zen-leader)
 - [Zen Toolkit - Two Sides](https://vimeo.com/944663134/d4f1c4f333)
 - [FEBI®](https://zenleader.global/resources/febi-assessment) is a registered trademark of the [Institute for Zen Leadership](https://zenleader.global/)
-

@@ -54,4 +54,3 @@ Each published reflection becomes part of the open-source living field of practi
 - [FEBI® Pattern Framework](https://zenleader.global/resources/febi-assessment)
 - [Institute for Zen Leadership](https://zenleader.global)
 - [FEBI®](https://zenleader.global/resources/febi-assessment) is a registered trademark of the [Institute for Zen Leadership](https://zenleader.global/)
-
