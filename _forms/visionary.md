@@ -51,8 +51,8 @@ Release tension by taking [One Breath](../one-breath), and allow the [Driver](..
 
 In conversation, Visionary changes one's perception of reality:
 
-- Mirrors explore key points further
-- Dynamic Silence holds space for the future to arrive  
+- Mirror back key words in an conversation to explore important points further
+- Being silent after you say something holds space for the future to arrive  
 - A soft, inviting [Tone](../tone/) lures in possibility.
 
 When mature, Visionary is embodied through execution.
