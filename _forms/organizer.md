@@ -30,15 +30,12 @@ Organizer is the precondition to trust, allowing relaxation. However, when below
 
 ---
 
-### Shadow & Variations  
+### Energy Flow/Consciousness Vector States
 
-Shadow – Controlling instead of connecting with chaos, pursuing a false sense of safety through artificial structure.
-
-Overactive – Controlling every little thing, allowing nothing to grow or breathe.
-
-Imploding – Coping, things pile up until everything breaks under it's own weight.
-
-Disassociated – Tyranny of Structurelessness. Movement without clarity of purpose.
+- **Flowing + Above the Line:** Brings calm structure that supports growth, alignment, and shared stability.
+- **Flowing + Below the Line:** Channels structure into control, policing details to manage fear or insecurity.
+- **Stagnant + Above the Line:** Aims to support clarity but gets stuck overthinking, planning, or tightening.
+- **Stagnant + Below the Line:** Collapses into rigid avoidance, clinging to rules or retreating from uncertainty.
 
 Remember, everything you build is a debt. Thus build minimally and build fluidly. Maintain energy flow.
 
