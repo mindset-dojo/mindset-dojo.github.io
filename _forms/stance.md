@@ -12,7 +12,7 @@ excerpt: "A Stance is the personal expression of one's FEBI® energy archetypes 
 
 ## Intention
 
-A Stance is the personal expression of one's [FEBI®](https://zenleader.global/resources/febi-assessment) energy archetypes through breath, tone, timing, and attention in relation to a context (others in the interaction and shared energy field). In short, one's attitude during the moments that matter. Different people have different Stances, and Stances can be shifted. Apply both the Platnum and Golden Rules when shifting Stances.
+A Stance is the personal expression of one's [FEBI®](https://zenleader.global/resources/febi-assessment) energy archetypes through breath, [Tone](../tone/), timing, and attention in relation to a context (others in the interaction and shared energy field). In short, one's attitude during the moments that matter. Different people have different Stances, and Stances can be shifted. Apply both the Platnum and Golden Rules when shifting Stances.
 
 ## Experience
 
