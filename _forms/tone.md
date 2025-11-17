@@ -32,7 +32,7 @@ Using a [Three Question Reflection](../three-question-reflection/) and powered b
 
 First ask yourself:
 
-> "What combination of the [4 Energy Patterns](../four-patterns/) is powering this conversation right now?"
+> "What combination of or individual [4 Energy Patterns](../four-patterns/) do I and my conversational partner have?"
 
 This allows you to determine which [Stance](../stance/) you and your conversational partner are in, thus giving you the opportunity to change it if necessary.
 
