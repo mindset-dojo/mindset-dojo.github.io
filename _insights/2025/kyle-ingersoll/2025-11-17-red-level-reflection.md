@@ -23,7 +23,7 @@ My experience passing the Red Level Threshold was that it was like running a mar
 
 What shifted in my practice is that I started meditating through Zazen. I managed to get up to 15 minutes of Zazen before I got too distracted to continue. I noticed an improval in my mental state after meditation, being more calm and less attached to the mind. My mind is more open and empathetic than it used to be because of my training.
 
-What I learned from Form based training, mainly making a lot of the Forms and storming with the Sensei during making those Forms, is that if they aren't connected to your lived experience, then you aren't merely mentally masturbating, you are fucking with people's lives. Thus, there is no Form that is not embodied in some way.
+What I learned from Form based training, mainly making a lot of the Forms and storming with the Sensei during making those Forms, is that if they aren't connected to your lived experience, then they are useless to other people. They won't resonate because they aren't connected to shared reality. Thus, there is no Form that is not embodied in some way.
 
 What was distilled from the previous phase was my tendency to avoid connecting with energies and situations I didn't like or wasn't entertained by. Before, I tried to force Driver, resulting in it being below the line, to be present. In the future, I plan on mirroring the Sensei's approach by living the future of me being a Collaborator in that moment.
 
