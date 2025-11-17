@@ -26,19 +26,19 @@ In short, be the change you want to see, and invite others to follow.
 
 ### Stance Transitions
 
-To progress the conversation, ask What and How questions, remain silent afterwards, then paraphrase what your converational partner said.
+To progress the conversation, ask What and How questions (Visionary-Driver), remain silent afterwards (Visionary-Collaborator), then paraphrase what your converational partner said (Collaborator-Organizer).
 
-Show acknowledgement of what they are saying through verbal and nonverbal means.
+Show acknowledgement of what they are saying through verbal and nonverbal means (Collaborator-Visionary).
 
-Mirror key words and phrases back at the conversational partner with an curious, empathetic [Tone](../tone/).
+Mirror key words and phrases back at the conversational partner with an curious, empathetic [Tone](../tone/) (Collaborator-Visionary).
 
-Label what you feel your conversational partner's underlying feelings are.
+Label what you feel your conversational partner's underlying feelings are (Collaborator–Visionary).
 
-Buffer 'You' statements with 'I' statements to take responsiblity for your subjective perception of the situation.
+Buffer 'You' statements with 'I' statements to take responsiblity for your subjective perception of the situation (Visionary–Organizer).
 
-Invite commitment through very specific questions that seeking a cooperative No. An example would be, "Is meeting at 4:30 PM a bad time?". This invites the body to commit, instead of mere acquiescence of the mind.
+Invite commitment through very specific questions that seeking a cooperative No (Driver–Collaborator). An example would be, "Is meeting at 4:30 PM a bad time?". This invites the body to commit, instead of mere acquiescence of the mind.
 
-To complete or clear up the conversation, summarize the conversation in structured form while reflecting their emotional reality. If one is dealing with stuck points or edges in an conversation, start with [Two Sides](../two-sides/) and then do a [Three Question Reflection](../three-question-reflection/) with a curious, empathetic [Tone](../tone/) to invite dissolving those stuck points/edges.
+To complete or clear up the conversation, summarize the conversation in structured form while reflecting their emotional reality (Organizer–Collaborator). If one is dealing with stuck points or edges in an conversation, start with [Two Sides](../two-sides/) (Collaborator–Organizer) and then do a [Three Question Reflection](../three-question-reflection/) (Visionary–Collaborator) with a curious, empathetic [Tone](../tone/) to invite dissolving those stuck points/edges.
 
 ## Inspiration
 
