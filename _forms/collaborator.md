@@ -30,7 +30,7 @@ Collaborator is the glue holding together social groups. Above the line, people 
 
 ---
 
-### Vector of Being States
+### Meta Compass Directions
 
 - **Flowing + Above the Line:** Creates warm resonance that strengthens connection and mutual uplift.
 - **Flowing + Below the Line:** Spreads emotional entanglement, overhelping or appeasing to avoid conflict.

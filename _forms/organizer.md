@@ -30,7 +30,7 @@ Organizer is the precondition to trust, allowing relaxation. However, when below
 
 ---
 
-### Vector of Being States
+### Meta Compass Directions
 
 - **Flowing + Above the Line:** Brings calm structure that supports growth, alignment, and shared stability.
 - **Flowing + Below the Line:** Channels structure into control, policing details to manage fear or insecurity.

@@ -30,7 +30,7 @@ Driver is the start of resonance, taking that first step on the journey. It sets
 
 ---
 
-### Vector of Being States
+### Meta Compass Directions
 
 - **Flowing + Above the Line:** Moves decisively with relaxed confidence, turning clarity into constructive action.
 - **Flowing + Below the Line:** Becomes forceful and aggressive, pushing forward with ego-driven urgency.
