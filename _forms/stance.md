@@ -20,7 +20,7 @@ You resonate/vibe with the people in the group and overall field, truely present
 
 ## Implementation
 
-Start by doing [Three Centers](../three-centers/), then [Two Sides](../two-sides/). Center with intention to have an integrative conversation, then use Meta Compass in [Tone](../tone/) to figure out the current state and target condition of the conversation (not to mind read or impose, rather to have a context from which to calibrate from). Once you understand your own and your conversational partner's Stance tendencies, you adjust your own position on the Meta Compass through connecting with them without being consumed by their energy, so that you introduce through invitation mutually beneficial and well timed [Thresholds](../thresholds/).
+Start by doing [Three Centers](../three-centers/), then [Two Sides](../two-sides/). Center with intention to have an integrative conversation, then use Meta Compass in [Tone](../tone/) to figure out the current state and target condition of the conversation (not to mind read or impose, rather to have a context from which to calibrate from). Once you understand your own and your conversational partner's Stance tendencies, you adjust your own position on the Meta Compass through connecting with them without being consumed by their energy, so that you introduce through invitation mutually beneficial and well timed [Thresholds](../threshold/).
 
 In short, be the change you want to see, and invite others to follow.
 
