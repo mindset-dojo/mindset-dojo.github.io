@@ -20,7 +20,9 @@ You resonate/vibe with the people in the group and overall field, truely present
 
 ## Implementation
 
-Be the change you want to see, and invite others to follow.
+You start by doing Three Centers to center with intention upon having an integrative conversation, despite any pressure you are under. Then you do a variation of Two Sides, labeling your own and your conversational partners' FEBI energies and positions on the Map of Consciousness from your own perspective (not to mind read or impose, rather to have a context from which to calibrate from). Once you understand your own and your conversational partner's Stance tendencies, you adjust your own FEBI™ energy and position on the Map of Consciousness through connecting with them without being consumed by their energy, so that you introduce through invitation mutually beneficial and well timed Thresholds.
+
+In short, be the change you want to see, and invite others to follow.
 
 ### Stance Transitions
 
