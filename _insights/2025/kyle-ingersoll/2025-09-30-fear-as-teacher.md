@@ -117,7 +117,7 @@ or in the hand that meets fear with presence?
 
 ## Bow of Respect
 
-I bow in respect and gratitude to the [Institute for Zen Leadership](https://zenleader.global/), guardians and stewards of the **Zen Toolkit** and the **FEBI™ framework**, whose practices and teachings make this kind of work possible.
+I bow in respect and gratitude to the [Institute for Zen Leadership](https://zenleader.global/), guardians and stewards of the **Zen Toolkit** and the **[FEBI®](https://zenleader.global/resources/febi-assessment) framework**, whose practices and teachings make this kind of work possible.
 
 Their lineage of presence, shadow-awareness, and embodied leadership have quietly shaped the language I bring into the intersection of technology and inner work.
 

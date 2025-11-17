@@ -33,7 +33,7 @@ excerpt: "At ZLOTC, I discovered that every act of teaching is also an act of le
 ---
 
 Recently, [Michael Basil](../../authors/michael-basil/) and [I](../..//authors/kyle-ingersoll/) presented at [ZLOTC (Zen Leader Off the Cushion)](https://zenleader.global/zlotc-registration), hosted by the [Institute for Zen Leadership](https://zenleader.global/).
-Our topic: *Meta Energy*, *Elemental FEBI*, and the *Essential Flip — From Controlling to Connecting.*
+Our topic: *Meta Energy*, *Elemental [FEBI(https://zenleader.global/resources/febi-assessment), and the *Essential Flip — From Controlling to Connecting.*
 
 We had fun, yes—but the true lesson revealed itself only afterward. The ZLOTC community learned from us, but I found myself being flipped in return.
 

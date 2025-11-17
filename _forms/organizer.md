@@ -12,7 +12,7 @@ excerpt: "Part of the Four Patterns from Institute for Zen Leadership, Organizer
 
 ## Intention
 
-Part of the [Four Patterns](../four-patterns/) from Institute for Zen Leadership, Organizer (In Elemental FEBI™, it is also known as Earth) energy makes complexity legible through distillment, building the foundation for life to emerge and grow.
+Part of the [Four Patterns](../four-patterns/) from Institute for Zen Leadership, Organizer (In Elemental [FEBI®](https://zenleader.global/resources/febi-assessment), it is also known as Earth) energy makes complexity legible through distillment, building the foundation for life to emerge and grow.
 
 ## Experience
 
@@ -70,3 +70,4 @@ When mature, Organizer simply reveals what is already there and invites others t
 - [Ki in Daily Life by Koichi Tohei](https://www.amazon.com/Ki-Daily-Life-Koichi-Tohei/dp/4889960716)
 - [Institute for Zen Leadership](https://zenleader.global/)
 - [Move to Greatness by Ginny Whitelaw](https://zenleader.global/resources/store/p/move-to-greatness-book)
+- [FEBI®](https://zenleader.global/resources/febi-assessment) is a registered trademark of the [Institute for Zen Leadership](https://zenleader.global/)

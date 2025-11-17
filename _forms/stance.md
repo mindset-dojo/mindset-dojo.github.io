@@ -7,12 +7,12 @@ refactored_date: 2025-11-07
 authors:
   - kyle-ingersoll
   - michael-basil
-excerpt: "A Stance is the personal expression of one's FEBI™ energy archetypes through breath, tone, timing, and attention in relation to a context (others in the interaction and shared energy field)."
+excerpt: "A Stance is the personal expression of one's FEBI® energy archetypes through breath, tone, timing, and attention in relation to a context (others in the interaction and shared energy field)."
 ---
 
 ## Intention
 
-A Stance is the personal expression of one's FEBI™ energy archetypes through breath, tone, timing, and attention in relation to a context (others in the interaction and shared energy field). In short, one's attitude during the moments that matter. Different people have different Stances, and Stances can be shifted. Apply both the Platnum and Golden Rules when shifting Stances.
+A Stance is the personal expression of one's [FEBI®](https://zenleader.global/resources/febi-assessment) energy archetypes through breath, tone, timing, and attention in relation to a context (others in the interaction and shared energy field). In short, one's attitude during the moments that matter. Different people have different Stances, and Stances can be shifted. Apply both the Platnum and Golden Rules when shifting Stances.
 
 ## Experience
 
@@ -20,7 +20,7 @@ You resonate/vibe with the people in the group and overall field, truely present
 
 ## Implementation
 
-You first label your own and your conversational partners FEBI™ energies and positions on the Map of Consciousness from your own perspective (not to mind read or impose, rather to have a context from which to calibrate from). Once you understand your own and your conversational partner's Stance tendencies, you adjust your own FEBI™ energy and position on the Map of Consciousness through connecting with them without being consumed by their energy, so that you introduce through invitation mutually beneficial and well timed [Thresholds](../threshold/). Sometimes this shift may be into Driver other times into Visionary for example, so it isn't always "soft" and "passive", but is harmonious by intention.
+You first label your own and your conversational partners FEBI energies and positions on the Map of Consciousness from your own perspective (not to mind read or impose, rather to have a context from which to calibrate from). Once you understand your own and your conversational partner's Stance tendencies, you adjust your own FEBI energy and position on the Map of Consciousness through connecting with them without being consumed by their energy, so that you introduce through invitation mutually beneficial and well timed [Thresholds](../threshold/). Sometimes this shift may be into Driver other times into Visionary for example, so it isn't always "soft" and "passive", but is harmonious by intention.
 
 ## Inspiration
 
@@ -33,3 +33,4 @@ You first label your own and your conversational partners FEBI™ energies and p
 - [Resonate by Ginny Whitelaw](https://www.choseizen.org/store/p/resonate)
 - [The Zen Leader by Ginny Whitelaw](https://www.choseizen.org/store/p/the-zen-leader)
 - [Zen Toolkit - Two Sides](https://vimeo.com/944663134/d4f1c4f333)
+- [FEBI®](https://zenleader.global/resources/febi-assessment) is a registered trademark of the [Institute for Zen Leadership](https://zenleader.global/)

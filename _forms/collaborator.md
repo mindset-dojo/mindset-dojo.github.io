@@ -12,7 +12,7 @@ excerpt: "Part of the Four Patterns from Institute for Zen Leadership, Collabora
 
 ## Intention
 
-Part of the [Four Patterns](../four-patterns/) from Institute for Zen Leadership, Collaborator (In Elemental FEBI™, it is also known as Water) energy creates resonance from relationship through alignment.
+Part of the [Four Patterns](../four-patterns/) from Institute for Zen Leadership, Collaborator (In Elemental [FEBI®](https://zenleader.global/resources/febi-assessment), it is also known as Water) energy creates resonance from relationship through alignment.
 
 ## Experience
 
@@ -70,3 +70,4 @@ When mature, Collaborator creates harmony out of the emergent order.
 - [Zen Toolkit – Four Patterns](https://vimeo.com/944675826/c57a7ce142)
 - [Institute for Zen Leadership](https://zenleader.global/)
 - [Move to Greatness by Ginny Whitelaw](https://zenleader.global/resources/store/p/move-to-greatness-book)
+- [FEBI®](https://zenleader.global/resources/febi-assessment) is a registered trademark of the [Institute for Zen Leadership](https://zenleader.global/)
