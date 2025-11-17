@@ -53,8 +53,8 @@ Release tension by taking [One Breath](../one-breath), and allow the [Driver](..
 
 In conversation, Collaborator allows for a shared perception of reality:
 
-- Labels surface underlying feelings, allowing them to be acknowledged  
-- Encouragers show presence and mutual support.
+- Label underlying feelings in the conversation to surface them, allowing them to be acknowledged  
+- Show that you are present verbally and nonverbally to show presence and mutual support.
 - A caring, soft [Tone](../tone/) shows empathy through one's actions.
 
 When mature, Collaborator creates harmony out of the emergent order.
