@@ -21,7 +21,7 @@ excerpt: "Through Red Level training, I learned that Energy Agility must be embo
 
 My experience passing the Red Level Threshold was that it was like running a marathon. The shadow work I had to do to work with the Sensei for the Zen Leader Off The Cushion presentation was very difficult, and at times led to us getting below the line. Afterwards, completing the Community's Alpha Threshold took even more work. When my Driver is exhausted, I retreat back to Visionary-Organizer but I notice that it doesn't truly help me relax. The Sensei is inviting me to shift to an Visionary-Collaborator Stance since connecting with others is better than attempting to control the future.
 
-What shifted in my practice is that I started meditating through Zazen. I managed to get up to 15 minutes of Zazen before I got too distracted to continue. I noticed an improval in my mental state after meditation, being more calm and less attached to the mind. My mind is more open and empathetic than it used to be because of my training.
+What shifted in my practice is that I started meditating through Zazen. I managed to get up to 15 minutes of Zazen before I got too distracted to continue. I noticed an improvement in my mental state after meditation, being more calm and less attached to the mind. My mind is more open and empathetic than it used to be because of my training.
 
 What I learned from Form based training, mainly making a lot of the Forms and storming with the Sensei during making those Forms, is that if they aren't connected to your lived experience, then they are useless to other people. They won't resonate because they aren't connected to shared reality. Thus, there is no Form that is not embodied in some way.
 
