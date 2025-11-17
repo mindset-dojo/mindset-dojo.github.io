@@ -7,12 +7,12 @@ refactored_date: 2025-11-16
 authors:
   - kyle-ingersoll
   - michael-basil
-excerpt: "A Stance is the personal expression of one's FEBI™ energy archetypes through breath, tone, timing, and attention in relation to a context (others in the interaction and shared energy field)."
+excerpt: "A Stance is the personal expression of one's FEBI® energy archetypes through breath, tone, timing, and attention in relation to a context (others in the interaction and shared energy field)."
 ---
 
 ## Intention
 
-A Stance is the personal expression of one's FEBI™ energy archetypes through breath, tone, timing, and attention in relation to a context (others in the interaction and shared energy field). In short, one's attitude during the moments that matter. Different people have different Stances, and Stances can be shifted. Apply both the Platnum and Golden Rules when shifting Stances.
+A Stance is the personal expression of one's [FEBI®](https://zenleader.global/resources/febi-assessment) energy archetypes through breath, tone, timing, and attention in relation to a context (others in the interaction and shared energy field). In short, one's attitude during the moments that matter. Different people have different Stances, and Stances can be shifted. Apply both the Platnum and Golden Rules when shifting Stances.
 
 ## Experience
 
@@ -50,3 +50,4 @@ To close off the conversation, summarize the conversation in structured form whi
 - [Resonate by Ginny Whitelaw](https://www.choseizen.org/store/p/resonate)
 - [The Zen Leader by Ginny Whitelaw](https://www.choseizen.org/store/p/the-zen-leader)
 - [Zen Toolkit - Two Sides](https://vimeo.com/944663134/d4f1c4f333)
+- [FEBI®](https://zenleader.global/resources/febi-assessment) is a registered trademark of the [Institute for Zen Leadership](https://zenleader.global/)

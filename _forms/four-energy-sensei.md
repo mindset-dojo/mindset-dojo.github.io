@@ -8,12 +8,12 @@ authors:
   - michael-basil
   - kyle-ingersoll
   - jeremy-mcmillan
-excerpt: "The love child of Elemental FEBI™, Four Patterns, and Simon Says."
+excerpt: "The love child of Elemental FEBI®, Four Patterns, and Simon Says."
 ---
 
 ## Intention
 
-The love child of Elemental FEBI™, [Four Patterns](../four-patterns/), and Simon Says. Meant to integrate both left and right brain mode thinking into the body's nervous system. This allows one to embody energy agility through practicing the Four Patterns through motion.
+The love child of Elemental [FEBI®](https://zenleader.global/resources/febi-assessment), [Four Patterns](../four-patterns/), and Simon Says. Meant to integrate both left and right brain mode thinking into the body's nervous system. This allows one to embody energy agility through practicing the Four Patterns through motion.
 
 ## Experience
 
@@ -24,7 +24,7 @@ You center with intention to have playful resonance. You will relax completely a
 ### Steps
 
 1. **Orient (2–3 min)**  
-  Center the Circle and name the chosen set of patterns (Elemental or FEBI™). Clarify the intention: playful embodiment and energy agility.
+  Center the Circle and name the chosen set of patterns (Elemental or FEBI). Clarify the intention: playful embodiment and energy agility.
 
 1. **Pattern Preview (2–3 min)**  
   The Sensei demonstrates brief movements for each pattern so everyone has a felt reference.
@@ -42,5 +42,6 @@ You center with intention to have playful resonance. You will relax completely a
 
 - [Institute for Zen Leadership](https://zenleader.global)
 - [Tenshinkan Dojo Aikido Family Class](https://japaneseculturecenter.com/classes/aikido/)
-- [FEBI™ Pattern Framework](https://zenleader.global/resources/febi-assessment)
-- [FEBI™ Four Patterns Experience](https://www.youtube.com/watch?v=uVTGeFjsD3s)
+- [FEBI® Pattern Framework](https://zenleader.global/resources/febi-assessment)
+- [FEBI® Four Patterns Experience](https://www.youtube.com/watch?v=uVTGeFjsD3s)
+- [FEBI®](https://zenleader.global/resources/febi-assessment) is a registered trademark of the [Institute for Zen Leadership](https://zenleader.global/)
