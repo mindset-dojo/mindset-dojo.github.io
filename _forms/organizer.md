@@ -22,7 +22,7 @@ Through care and diligence, you move and get rid of things as it makes sense. Th
 
 ### Internal  
 
-Organizer is your center. When above the line, it feels like alignment with the Way, when below the line, one is fighting with and judging the world.
+Organizer is your center. When above the line, it feels like alignment with your true Self, when below the line, one is fighting with and judging the world.
 
 ### Collective  
 
