@@ -22,7 +22,7 @@ You are in a flow state, following the impulse to do something whereever that ca
 
 ### Internal  
 
-When above the line, effortless action (Wu-Wei) emerges from one's being with a sense of calm alertness, feeling like a part of the universe. When below the line, one is in crunch time, tense and blinded by fear.
+When above the line, effortless action emerges from one's being with a sense of calm alertness, feeling like a part of the universe. When below the line, one is in crunch time, tense and blinded by fear.
 
 ### Collective  
 
