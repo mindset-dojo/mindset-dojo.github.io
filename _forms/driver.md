@@ -40,6 +40,10 @@ Imploding – Getting frustrated that you can't do anything, depression.
 
 Disassociated – Work is done for no reason, and for no result.
 
+Flowing - Extension from relaxation and connection.
+
+Stagnant - Tension from rigidity and control.
+
 Feel into the existing Driver energy waves that are there, and blend with them to influence them.
 
 ## Implementation
