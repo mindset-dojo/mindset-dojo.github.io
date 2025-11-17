@@ -30,7 +30,7 @@ Visionary brings unity of action through collective meaning. Above the line, pur
 
 ---
 
-### Energy Flow/Consciousness Vector States
+### Vector of Being States
 
 - **Flowing + Above the Line:** Opens into clear intuition that illuminates possibility without losing grounding.
 - **Flowing + Below the Line:** Expands into ungrounded fantasy, projection, or anxiety-driven storymaking.

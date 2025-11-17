@@ -30,7 +30,7 @@ Organizer is the precondition to trust, allowing relaxation. However, when below
 
 ---
 
-### Energy Flow/Consciousness Vector States
+### Vector of Being States
 
 - **Flowing + Above the Line:** Brings calm structure that supports growth, alignment, and shared stability.
 - **Flowing + Below the Line:** Channels structure into control, policing details to manage fear or insecurity.
