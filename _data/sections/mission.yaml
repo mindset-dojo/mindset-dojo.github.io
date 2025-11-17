@@ -41,7 +41,7 @@ sections:
         - "Every interaction becomes real practice."
         - "You build rhythm, clarity, and confidence one moment at a time."
         - "Simple. Playful. Grounded. Real."
-        - "You don’t need mastery — just curiosity and willingness."
+        - "You don’t need mastery to begin — just curiosity and willingness."
   - type: text
     data:
       label: "The Outcome"
@@ -51,6 +51,11 @@ sections:
         - "Your network expands in healthy, energizing ways."
         - "Your decisions improve because your connection improves."
         - "Life opens — one connection at a time."
+  - type: authors
+    data:
+      leadership_flow:
+        label: "⛩️🌿 Self-Authors"
+        limit: 16
   - type: ctas
     data:
       items:
