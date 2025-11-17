@@ -38,14 +38,14 @@ This allows you to determine which [Stance](../stance/) you and your conversatio
 
 You then ask another question:
 
-> "Is the energy flowing, or is it stagnating or stuck? Am I going somewhere, or are we circling around the same point(s)?"
+> "Is the energy flowing, or is it stagnating or stuck?"
 
 - **Flowing energy:** One is extending and connecting.
 - **Stagnant energy:** One is contracting and disconnecting.  
 
 If the energy is flowing, great! You can move on to the next gut check. If not, refer to the Stance Transitions section in [Stances](../stance/) for ways to get the conversation moving again.
 
-Then check your own, and then your conversational partner(s) positions on the Map of Consciousness to figure out **where** the energy is flowing. When using the Map of Consciousness, ask yourself this:
+Then figure out **where** the energy is flowing. Ask yourself this:
 
 > "Is the conversation and/or the individuals in the conversation trending above or below the line?"
 
