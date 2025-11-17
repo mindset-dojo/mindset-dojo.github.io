@@ -42,7 +42,7 @@ You then ask another question:
 - **Flowing energy:** One is extending and connecting.
 - **Stagnant energy:** One is contracting and disconnecting.  
 
-If the energy is flowing, great! You can move on to the next gut check. If not, refer to the Stance Transition section in [Stances](../stance/) for ways to get the conversation moving again.
+If the energy is flowing, great! You can move on to the next gut check. If not, refer to the Stance Transitions section in [Stances](../stance/) for ways to get the conversation moving again.
 
 Then check your own, and then your conversational partner(s) positions on the Map of Consciousness to figure out **where** the energy is flowing. When using the Map of Consciousness, ask yourself this:
 
@@ -53,9 +53,11 @@ What we mean by that is simple:
 - **Below the line** (pride, fear, anger, shame): we are moving *away* from coherance.
 - **Above the line** (love, reason, peace, enlightenment): we are moving *towards* coherance.
 
-Then identify the specific position of the displayed emotions on the Map of Consciousness if needed. Remember, we do not use the Map of Consciousness as a ladder to climb once, but rather as a compass to check in the storm to find our Way. Blend with and invite further up if above the line. If the energy wave is below the line, don't fight fire with fire. Blend into and connect with the energy without being consumed by it and hold the lifeline downwards for your partner or yourself to climb up the Map of Consciousness.
+Blend with and invite further up if above the line. If the energy wave is below the line, don't fight fire with fire. Blend into and connect with the energy without being consumed by it and hold the lifeline downwards for your partner or yourself to move above the line.
 
-Together, measuring the energy type, flow, and emotional hue in an conversation allows you to guide it to a mutually beneficial conclusion through well-timed [Stances](../stance/). Through regular practice, using Meta Compass becomes instinctual, felt instead of thought. Once that happens, the correct course of action will come naturally.
+### Conclusion
+
+Through regular practice, using Meta Compass becomes instinctual, felt instead of thought. Once that happens, the correct course of action will come naturally.
 
 Thus:
 
