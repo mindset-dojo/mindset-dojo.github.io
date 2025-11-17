@@ -30,15 +30,12 @@ Visionary brings unity of action through collective meaning. Above the line, pur
 
 ---
 
-### Shadow & Variations  
+### Energy Flow/Consciousness Vector States
 
-Shadow – All talk, no walk. Hypocrisy personified.
-
-Overactive – Exhaustion through overthinking with no follow through.  
-
-Imploding – One gives up after facing reality.  
-
-Disassociated – Descent into nihilism.
+- **Flowing + Above the Line:** Opens into clear intuition that illuminates possibility without losing grounding.
+- **Flowing + Below the Line:** Expands into ungrounded fantasy, projection, or anxiety-driven storymaking.
+- **Stagnant + Above the Line:** Reaches for insight but disperses into fog, abstraction, or indecision.
+- **Stagnant + Below the Line:** Contracts into dissociation, escapism, or anxious inner spirals detached from reality.
 
 You should let thought flow thorugh you, accepting what makes sense and letting the rest pass through.
 
