@@ -12,11 +12,11 @@ excerpt: "Tone is not merely one's tone of voice, but rather the subliminal expr
 
 ## Intention
 
-Tone is not merely one's tone of voice, but rather the subliminal expression of the level of consciousness of a conversation — it quietly decides whether others open up, lash out, or shut down. [Breath](../one-breath/), body language, and voice all combine into Tone. It colors the individual's expression of the [Four Patterns](../four-patterns/), emerging into [Stances](../stance/). It is the lever of the Meta Compass, exposing and affecting what is being repressed or beneath the surface of the individuals themselves and the collective relational field. Through mastery of Tone, resonance is formed through energy flow and integration of what one is repressing.
+Tone is not merely one's tone of voice, but rather the subliminal expression of the level of consciousness of a conversation — it quietly decides whether others open up, lash out, or shut down. [Breath](../one-breath/), body language, and voice all combine into Tone. It colors the individual's expression of the [Four Patterns](../four-patterns/), emerging into [Stances](../stance/). It is the primary conversational level, exposing and affecting what is being repressed or beneath the surface of the individuals themselves and the collective relational field. Through mastery of Tone, resonance is formed through energy flow and integration of what one is repressing.
 
 ## Experience
 
-You feel the undercurrent of the conversation in your gut and are invited to resonate with it. However, the same is true for your counterpart. Through the [Martial Attitude](../martial-attitude/), applied through shifting [Stances](../stance/) to invite for a specific [Energy Pattern](../four-patterns/), you guide the conversation to mutually beneficial [Thresholds](../threshold/). The more experienced you are using Meta Compass, the more you feel a sense of calm awareness, balance - manuvering between the paradox (like breath itself) of emotional hyperactivity and inactivity, and can achieve effortless action.
+You feel the undercurrent of the conversation in your gut and are invited to resonate with it. However, the same is true for your counterpart. Through the [Martial Attitude](../martial-attitude/), applied through shifting [Stances](../stance/) to invite for a specific [Energy Pattern](../four-patterns/), you guide the conversation to mutually beneficial [Thresholds](../threshold/). The more experienced you are using Tone, the more you feel a sense of calm awareness, balance - manuvering between the paradox (like breath itself) of emotional hyperactivity and inactivity, and can achieve effortless action.
 
 ## Implementation
 
