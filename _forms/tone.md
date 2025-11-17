@@ -20,16 +20,24 @@ You feel the undercurrent of the conversation in your gut and are invited to res
 
 ## Implementation
 
-First, you use [One Breath](../one-breath/) and then [Three Centers](../three-centers/) to align your Self. You then check your own, and then your conversational partner(s) positions on the Map of Consciousness. We do not use the Map of Consciousness as a ladder to climb once, but rather as a compass to check in the storm to find our Way. When using the Map of Consciousness, ask yourself this:
+First, you use [One Breath](../one-breath/) and then [Three Centers](../three-centers/) to align your Self. 
+
+You then do a simple gut check of the conversation and the [Four Energy Patterns](../four-patterns/) underlying it:
+
+> "Is the energy flowing, or is it stagnating or stuck? Am I going somewhere, or are we circling around the same point(s)?"
+
+If the energy is flowing, great! You can move on to the next gut check. If not, refer to the Stance Transition section in [Stances](../stances/) for ways to get the conversation moving again. 
+
+Then check your own, and then your conversational partner(s) positions on the Map of Consciousness to figure out **where** the energy is flowing. When using the Map of Consciousness, ask yourself this:
 
 > "Is the conversation and/or the individuals in the conversation trending above or below the line?"
 
 What we mean by that is simple:
 
-- **Below the line** (reds and greys): we shrink, resist, blame, or collapse. Energy stagnates, i.e. Minus Ki.
-- **Above the line** (greens and higher): we expand, open, and create. Energy flows, i.e. Plus Ki.
+- **Below the line** (reds and greys): we shrink, resist, blame, or collapse. Energy stagnates.
+- **Above the line** (greens and higher): we expand, open, and create. Energy flows.
 
-Then identify the specific position of the displayed emotions on the Map of Consciousness if needed. Blend with and invite further up if above the line. If the energy wave is below the line, don't fight fire with fire. Blend into and connect with the energy without being consumed by it and hold the lifeline downwards for your partner or yourself to climb up the Map of Consciousness.
+Then identify the specific position of the displayed emotions on the Map of Consciousness if needed. Remember, we do not use the Map of Consciousness as a ladder to climb once, but rather as a compass to check in the storm to find our Way. Blend with and invite further up if above the line. If the energy wave is below the line, don't fight fire with fire. Blend into and connect with the energy without being consumed by it and hold the lifeline downwards for your partner or yourself to climb up the Map of Consciousness.
 
 Thus:
 
