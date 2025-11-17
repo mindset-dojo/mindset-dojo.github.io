@@ -30,15 +30,12 @@ Collaborator is the glue holding together social groups. Above the line, people 
 
 ---
 
-### Shadow & Variations  
+### Energy Flow/Consciousness Vector States
 
-Shadow – Everything is performance, nothing is secure.  
-
-Overactive – Groupthink personified, sacrificing one's individuality on the altar of normalcy.  
-
-Imploding – Resentment born of giving without receiving gratitude.
-
-Disassociated – No warmth, only performance and virtue-signaling.
+- **Flowing + Above the Line:** Creates warm resonance that strengthens connection and mutual uplift.
+- **Flowing + Below the Line:** Spreads emotional entanglement, overhelping or appeasing to avoid conflict.
+- **Stagnant + Above the Line:** Tries to connect but collapses into self-doubt, losing presence or voice.
+- **Stagnant + Below the Line:** Implodes into submissiveness, people-pleasing, or emotional retreat.
 
 Connect with others, without living through them.
 
