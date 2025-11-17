@@ -49,5 +49,5 @@ When moving, feel the possibilities. Move your arms and hands around you, never 
 - [Move to Greatness by Ginny Whitelaw](https://zenleader.global/resources/store/p/move-to-greatness-book)
 - [Resonate by Ginny Whitelaw](https://www.choseizen.org/store/p/resonate)
 - [Chosei Zen](https://www.choseizen.org/)
+- [FEBI®](https://zenleader.global/resources/febi-assessment) is a registered trademark of the [Institute for Zen Leadership](https://zenleader.global/)
 
-[FEBI®](https://zenleader.global/resources/febi-assessment) was developed by and is a registered trademark of the [Institute for Zen Leadership](https://zenleader.global/)

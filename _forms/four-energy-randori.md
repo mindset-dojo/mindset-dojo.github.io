@@ -63,5 +63,5 @@ Each randori adapts to who is present and what the moment demands.
 - [Randori in Aikido](https://en.wikipedia.org/wiki/Randori#In_aikido)  
 - [Tenshinkan Dojo](https://japaneseculturecenter.com/classes/aikido)  
 - [Institute for Zen Leadership](https://zenleader.global)
+- [FEBI®](https://zenleader.global/resources/febi-assessment) is a registered trademark of the [Institute for Zen Leadership](https://zenleader.global/)
 
-[FEBI®](https://zenleader.global/resources/febi-assessment) was developed by and is a registered trademark of the [Institute for Zen Leadership](https://zenleader.global/)

@@ -70,5 +70,6 @@ When mature, Driver allows you to move forward towards your ideals while maintai
 - [Ki in Daily Life by Koichi Tohei](https://www.amazon.com/Ki-Daily-Life-Koichi-Tohei/dp/4889960716)
 - [Institute for Zen Leadership](https://zenleader.global/)
 - [Move to Greatness by Ginny Whitelaw](https://zenleader.global/resources/store/p/move-to-greatness-book)
+- [FEBI®](https://zenleader.global/resources/febi-assessment) is a registered trademark of the [Institute for Zen Leadership](https://zenleader.global/)
 
-[FEBI®](https://zenleader.global/resources/febi-assessment) was developed by and is a registered trademark of the [Institute for Zen Leadership](https://zenleader.global/)
+

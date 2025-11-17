@@ -57,5 +57,5 @@ Reading *Resonate* is a bridge between insight and embodiment — a way to align
 - [Chosei Zen](https://www.choseizen.org/)
 - [Negotiation 9 Move - Calibrated Questions - Black Swan Group](https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9)
 - [Negotiation 9 Move - Dynamic Silence - Black Swan Group](https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9)  
+- [FEBI®](https://zenleader.global/resources/febi-assessment) is a registered trademark of the [Institute for Zen Leadership](https://zenleader.global/)
 
-[FEBI®](https://zenleader.global/resources/febi-assessment) was developed by and is a registered trademark of the [Institute for Zen Leadership](https://zenleader.global/)

@@ -44,5 +44,5 @@ You center with intention to have playful resonance. You will relax completely a
 - [Tenshinkan Dojo Aikido Family Class](https://japaneseculturecenter.com/classes/aikido/)
 - [FEBI® Pattern Framework](https://zenleader.global/resources/febi-assessment)
 - [FEBI® Four Patterns Experience](https://www.youtube.com/watch?v=uVTGeFjsD3s)
+- [FEBI®](https://zenleader.global/resources/febi-assessment) is a registered trademark of the [Institute for Zen Leadership](https://zenleader.global/)
 
-[FEBI®](https://zenleader.global/resources/febi-assessment) was developed by and is a registered trademark of the [Institute for Zen Leadership](https://zenleader.global/)

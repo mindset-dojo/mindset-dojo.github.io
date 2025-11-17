@@ -88,5 +88,5 @@ Four Energy Networking strengthens the field by helping us sense our worlds — 
 - [Institute for Zen Leadership](https://zenleader.global)
 - [Mycelial and Lichen Intelligence](https://www.themarginalian.org/2025/11/02/lichen/)
 - [Draw Toast TED Talk](https://www.ted.com/talks/tom_wujec_got_a_wicked_problem_first_tell_me_how_you_make_toast/)
+- [FEBI®](https://zenleader.global/resources/febi-assessment) is a registered trademark of the [Institute for Zen Leadership](https://zenleader.global/)
 
-[FEBI®](https://zenleader.global/resources/febi-assessment) was developed by and is a registered trademark of the [Institute for Zen Leadership](https://zenleader.global/)
