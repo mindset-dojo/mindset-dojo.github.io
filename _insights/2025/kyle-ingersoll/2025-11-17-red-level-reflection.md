@@ -25,7 +25,7 @@ What shifted in my practice is that I started meditating through Zazen. I manage
 
 What I learned from Form based training, mainly making a lot of the Forms and storming with the Sensei during making those Forms, is that if they aren't connected to your lived experience, then they are useless to other people. They won't resonate because they aren't connected to shared reality. Thus, there is no Form that is not embodied in some way.
 
-What was distilled from the previous phase was my tendency to avoid connecting with energies and situations I didn't like or wasn't entertained by. Before, I tried to force Driver, resulting in it being below the line, to be present. In the future, I plan on mirroring the Sensei's approach by living the future of me being a Collaborator in that moment.
+What was distilled from the previous phase was my tendency to avoid connecting with energies and situations I didn't like or wasn't entertained by. Before, I tried to force Driver, resulting in it being below the line, to be present. In the future, I plan on exploring the Sensei's approach by living the future of me being a Collaborator in that moment.
 
 The gaps and edges that remain and how I intend to relate to them is that I still lack embodiment of Energy Agility, and I intend to train to be able to shift into Visionary-Collaborator more easily when recharging my Driver as well as shifting into and sustaining Collaborator-Organizer when dealing with Pull Requests as a DevOps Cultivator. I also plan on increasing my Zazen practice to 30 minutes a day so that I can network better with Chosei Zen.
 
