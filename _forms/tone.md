@@ -22,17 +22,17 @@ You feel the undercurrent of the conversation in your gut and are invited to res
 
 ### Preparation
 
-First, you use [One Breath](../one-breath/) and then [Three Centers](../three-centers/) to align your Self.
+First, relax completely with [One Breath](../one-breath/) and then do [Two Sides](../two-sides/) to center your Self.
 
 ### Introduction of Meta Compass
 
-Using a [Three Question Reflection](../three-question-reflection/) and powered by [Meta Energy](../meta/), Meta Compass is a powerful and simple way to read the tone of a conversation. It measures the [Four Energy Patterns](../four-patterns/) that manifest in the conversation, then checks one's Ki orientation (if the energy is flowing) and one's position on the Map of Consciousness (above or below the line). With that knowledge, one can move the conversation in a mutually beneficial direction through well-timed [Stance](../stance/) transitions and invitations.
+Using a [Three Question Reflection](../three-question-reflection/), Meta Compass is a powerful and simple way to read the tone of a conversation. It suggests the [Four Energy Patterns](../four-patterns/) that manifest in the conversation, then checks one's energy flow and emotional level of the conversation. With that knowledge, one can move the conversation in a mutually beneficial direction through well-timed [Stance](../stance/) transitions and invitations.
 
 ### How to use Meta Compass
 
 First ask yourself:
 
-> "What combination of or individual [4 Energy Patterns](../four-patterns/) do I and my conversational partner have?"
+> "What combination of or individual [Four Energy Patterns](../four-patterns/) do I and my conversational partner have?"
 
 This allows you to determine which [Stance](../stance/) you and your conversational partner are in, thus giving you the opportunity to change it if necessary.
 
@@ -47,14 +47,14 @@ If the energy is flowing, great! You can move on to the next gut check. If not, 
 
 Then figure out **where** the energy is flowing. Ask yourself this:
 
-> "Is the conversation and/or the individuals in the conversation trending above or below the line?"
+> "Is the emotion in the conversation trending above or below the line?"
 
 What we mean by that is simple:
 
 - **Below the line** (pride, fear, anger, shame): we are moving *away* from coherance.
 - **Above the line** (love, reason, peace, enlightenment): we are moving *towards* coherance.
 
-Blend with and invite further up if above the line. If the energy wave is below the line, don't fight fire with fire. Blend into and connect with the energy without being consumed by it and hold the lifeline downwards for your partner or yourself to move above the line.
+Blend with and invite further up if above the line to elevate the emotional state. If the energy wave is below the line, don't fight fire with fire. Blend into and connect with the energy without being consumed by it and hold the lifeline downwards for your partner or yourself to move above the line.
 
 ### Conclusion
 
