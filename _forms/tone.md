@@ -21,6 +21,7 @@ You feel the undercurrent of the conversation in your gut and are invited to res
 ## Implementation
 
 ### Preparation
+
 First, you use [One Breath](../one-breath/) and then [Three Centers](../three-centers/) to align your Self.
 
 ### Introduction of Meta Compass
