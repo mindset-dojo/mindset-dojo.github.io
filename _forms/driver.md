@@ -30,19 +30,12 @@ Driver is the start of resonance, taking that first step on the journey. It sets
 
 ---
 
-### Shadow & Variations
+### Energy Flow/Consciousness Vector States
 
-Shadow – Just following orders without question and grimly marching forward without considering the people around you. Movement without resonance leads one in circles to nowhere.
-
-Overactive – Working without rest or reflection until one breaks.  
-
-Imploding – Getting frustrated that you can't do anything, depression.  
-
-Disassociated – Work is done for no reason, and for no result.
-
-Flowing - Extension from relaxation and connection.
-
-Stagnant - Tension from rigidity and control.
+- **Flowing + Above the Line:** Moves decisively with relaxed confidence, turning clarity into constructive action.
+- **Flowing + Below the Line:** Becomes forceful and aggressive, pushing forward with ego-driven urgency.
+- **Stagnant + Above the Line:** Wants to act constructively but freezes, second-guesses, or hesitates under tension.
+- **Stagnant + Below the Line:** Shuts down into frustration or withdrawal when action feels futile or dangerous.
 
 Feel into the existing Driver energy waves that are there, and blend with them to influence them.
 
