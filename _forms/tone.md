@@ -20,9 +20,14 @@ You feel the undercurrent of the conversation in your gut and are invited to res
 
 ## Implementation
 
+### Beginning
 First, you use [One Breath](../one-breath/) and then [Three Centers](../three-centers/) to align your Self.
 
-You then do a simple gut check of the conversation and the [Four Energy Patterns](../four-patterns/) underlying it:
+### Introduction of Meta Compass
+
+Through only two questions instead of a [Three Question Reflection](../three-question-reflection/), Meta Compass is a powerful and simple way to read the tone of a conversation.
+
+You first do a simple gut check of the conversation and the [Four Energy Patterns](../four-patterns/) underlying it:
 
 > "Is the energy flowing, or is it stagnating or stuck? Am I going somewhere, or are we circling around the same point(s)?"
 
@@ -42,7 +47,7 @@ What we mean by that is simple:
 
 Then identify the specific position of the displayed emotions on the Map of Consciousness if needed. Remember, we do not use the Map of Consciousness as a ladder to climb once, but rather as a compass to check in the storm to find our Way. Blend with and invite further up if above the line. If the energy wave is below the line, don't fight fire with fire. Blend into and connect with the energy without being consumed by it and hold the lifeline downwards for your partner or yourself to climb up the Map of Consciousness.
 
-Together, measuring the energy flow (magnitude) in an conversation and the conversation's position on the Map of Consciousness creates a mental Vector of Being. Using that vector, you can quickly measure where the conversation is and where it will likely go, allowing you to invite a change in direction through a change in your [Stance](../stance/). Through regular practice, using this vector becomes instinctual, and you won't need to consciously think about it, you will feel it. Once you feel it, the correct course of action will come naturally.
+Together, measuring the energy flow (magnitude) in an conversation and the conversation's position on the Map of Consciousness acts as a compass powered by [Meta energy](../meta/). Using it, you can quickly measure where the conversation is and where it will likely go, allowing you to invite a change in direction through a change in your [Stance](../stance/). Through regular practice, using this compass becomes instinctual, and you won't need to consciously think about it, you will feel it. Once you feel it, the correct course of action will come naturally.
 
 Thus:
 
