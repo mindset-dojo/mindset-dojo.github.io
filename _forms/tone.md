@@ -37,8 +37,8 @@ Then check your own, and then your conversational partner(s) positions on the Ma
 
 What we mean by that is simple:
 
-- **Below the line** (reds and greys): we are moving *away* from coherance.
-- **Above the line** (greens and higher): we are moving *towards* coherance.
+- **Below the line** (pride, fear, anger, shame): we are moving *away* from coherance.
+- **Above the line** (love, reason, peace, enlightenment): we are moving *towards* coherance.
 
 Then identify the specific position of the displayed emotions on the Map of Consciousness if needed. Remember, we do not use the Map of Consciousness as a ladder to climb once, but rather as a compass to check in the storm to find our Way. Blend with and invite further up if above the line. If the energy wave is below the line, don't fight fire with fire. Blend into and connect with the energy without being consumed by it and hold the lifeline downwards for your partner or yourself to climb up the Map of Consciousness.
 
