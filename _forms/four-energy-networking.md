@@ -12,7 +12,7 @@ excerpt: "A simple, relational practice for understanding how energy moves throu
 
 ## Intention
 
-Four Energy Networking is a way for people to understand one another through the lens of the Four Energies (FEBI™ - Focus Energy Balance Indicator) and the domains they move in. It opens a space where one can share not only who they are, but how energy moves through their work, challenges, and opportunities — so that they can connect with others more skillfully and be seen more clearly.
+Four Energy Networking is a way for people to understand one another through the lens of the Four Energies ([FEBI®](https://zenleader.global/resources/febi-assessment) - Focus Energy Balance Indicator) and the domains they move in. It opens a space where one can share not only who they are, but how energy moves through their work, challenges, and opportunities — so that they can connect with others more skillfully and be seen more clearly.
 
 At the same time, it reveals how our domains relate, intersect, or differ — so that the community can understand its collective landscape, recognize where gaps or tensions lie, and discover where natural alliances or support can emerge.
 
@@ -20,7 +20,7 @@ This form creates a simple structure for seeing ourselves and each other as part
 
 ## Experience
 
-Participants arrive having completed a basic FEBI™ assessment and a short reflection. They bring their report as a reference point, not a label.
+Participants arrive having completed a basic FEBI assessment and a short reflection. They bring their report as a reference point, not a label.
 
 The session begins with a brief warm-up such as [Four Energy Sensei](../four-energy-sensei/), helping everyone settle and sense into their own energy before connecting with others.
 
@@ -30,7 +30,7 @@ When the group returns to a full [Circle](../circle/), the collective picture be
 
 ## Implementation
 
-**Prerequisite:** Each participant brings their FEBI™ report (or page 5 summary).
+**Prerequisite:** Each participant brings their FEBI® report (or page 5 summary).
 
 ### Steps
 
@@ -88,3 +88,5 @@ Four Energy Networking strengthens the field by helping us sense our worlds — 
 - [Institute for Zen Leadership](https://zenleader.global)
 - [Mycelial and Lichen Intelligence](https://www.themarginalian.org/2025/11/02/lichen/)
 - [Draw Toast TED Talk](https://www.ted.com/talks/tom_wujec_got_a_wicked_problem_first_tell_me_how_you_make_toast/)
+
+[FEBI®](https://zenleader.global/resources/febi-assessment) was developed by and is a registered trademark of the [Institute for Zen Leadership](https://zenleader.global/)

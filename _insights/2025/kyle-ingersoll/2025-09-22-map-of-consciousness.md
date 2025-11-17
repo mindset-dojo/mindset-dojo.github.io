@@ -138,5 +138,5 @@ Explores how tone is the “weather” of a conversation — coloring every word
 👉 [Read here](../tone/)
 
 - **Mindset Dojo Insights — The Breath of a Stance Shifts the Mountain**  
-Shows how FEBI™ energies appear as stances in posture, breath, and tone — and how recognizing them helps align rather than oppose.  
+Shows how [FEBI®](https://zenleader.global/resources/febi-assessment) energies appear as stances in posture, breath, and tone — and how recognizing them helps align rather than oppose.  
 👉 [Read here](../breath-of-stance/)

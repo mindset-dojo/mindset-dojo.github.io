@@ -12,7 +12,7 @@ excerpt: "Part of the Four Patterns from Institute for Zen Leadership, Visionary
 
 ## Intention
 
-Part of the [Four Patterns](../four-patterns/) from Institute for Zen Leadership, Visionary (In Elemental FEBI™, it is also known as Air) energy expands one's awareness beyond their immediate context, attracting the future.
+Part of the [Four Patterns](../four-patterns/) from Institute for Zen Leadership, Visionary (In Elemental [FEBI®](https://zenleader.global/resources/febi-assessment), it is also known as Air) energy expands one's awareness beyond their immediate context, attracting the future.
 
 ## Experience
 
@@ -68,3 +68,5 @@ When mature, Visionary is embodied through execution.
 - [Zen Toolkit – Four Patterns](https://vimeo.com/944675826/c57a7ce142)
 - [Institute for Zen Leadership](https://zenleader.global/)
 - [Move to Greatness by Ginny Whitelaw](https://zenleader.global/resources/store/p/move-to-greatness-book)
+
+[FEBI®](https://zenleader.global/resources/febi-assessment) was developed by and is a registered trademark of the [Institute for Zen Leadership](https://zenleader.global/)

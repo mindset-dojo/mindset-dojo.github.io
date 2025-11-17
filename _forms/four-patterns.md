@@ -7,16 +7,16 @@ refactored_date: 2025-11-09
 authors:
   - kyle-ingersoll
   - michael-basil
-excerpt: "Four Patterns is part of the Zen Toolkit from Institute of Zen Leadership and introduces the archtypical FEBI™ energies (Driver, Organizer, Collaborator, Visionary) into embodied practice through motion."
+excerpt: "Four Patterns is part of the Zen Toolkit from Institute of Zen Leadership and introduces the archtypical FEBI® energies (Driver, Organizer, Collaborator, Visionary) into embodied practice through motion."
 ---
 
 ## Intention
 
-Four Patterns is part of the Zen Toolkit from Institute of Zen Leadership and introduces the archtypical FEBI™ energies ([Driver](../driver/), [Organizer](../organizer/), [Collaborator](../collaborator/), [Visionary](../visionary/)) into embodied practice through motion. Those energies represent common aspects of people's personalities. Through practice, one can tap into those parts of themselves at will.
+Four Patterns is part of the Zen Toolkit from Institute of Zen Leadership and introduces the archtypical [FEBI®](https://zenleader.global/resources/febi-assessment) energies ([Driver](../driver/), [Organizer](../organizer/), [Collaborator](../collaborator/), [Visionary](../visionary/)) into embodied practice through motion. Those energies represent common aspects of people's personalities. Through practice, one can tap into those parts of themselves at will.
 
 ## Experience
 
-You will feel the FEBI™ energies course through you as you move in accordance with the corresponding Pattern. Some energies will likely be easier for you to tap into than others. Repeated practice will allow you to recognize these Patterns and energies in your daily life, and thus give you the opportunity to shift them.
+You will feel the FEBI energies course through you as you move in accordance with the corresponding Pattern. Some energies will likely be easier for you to tap into than others. Repeated practice will allow you to recognize these Patterns and energies in your daily life, and thus give you the opportunity to shift them.
 
 ## Implementation
 
@@ -49,3 +49,5 @@ When moving, feel the possibilities. Move your arms and hands around you, never 
 - [Move to Greatness by Ginny Whitelaw](https://zenleader.global/resources/store/p/move-to-greatness-book)
 - [Resonate by Ginny Whitelaw](https://www.choseizen.org/store/p/resonate)
 - [Chosei Zen](https://www.choseizen.org/)
+
+[FEBI®](https://zenleader.global/resources/febi-assessment) was developed by and is a registered trademark of the [Institute for Zen Leadership](https://zenleader.global/)

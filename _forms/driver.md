@@ -12,7 +12,7 @@ excerpt: "Part of the Four Patterns from Institute for Zen Leadership, Driver en
 
 ## Intention
 
-Part of the [Four Patterns](../four-patterns/) from Institute for Zen Leadership, Driver (In Elemental FEBI™, it is also known as Fire) energy is like a laser. It causes you to focus on moving foward, step by step.
+Part of the [Four Patterns](../four-patterns/) from Institute for Zen Leadership, Driver (In Elemental [FEBI®](https://zenleader.global/resources/febi-assessment), it is also known as Fire) energy is like a laser. It causes you to focus on moving foward, step by step.
 
 ## Experience
 
@@ -70,3 +70,5 @@ When mature, Driver allows you to move forward towards your ideals while maintai
 - [Ki in Daily Life by Koichi Tohei](https://www.amazon.com/Ki-Daily-Life-Koichi-Tohei/dp/4889960716)
 - [Institute for Zen Leadership](https://zenleader.global/)
 - [Move to Greatness by Ginny Whitelaw](https://zenleader.global/resources/store/p/move-to-greatness-book)
+
+[FEBI®](https://zenleader.global/resources/febi-assessment) was developed by and is a registered trademark of the [Institute for Zen Leadership](https://zenleader.global/)
