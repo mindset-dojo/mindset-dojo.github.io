@@ -53,9 +53,9 @@ Release tension by taking [One Breath](../one-breath), and allow the [Visionary]
 
 In conversation, Organizer invites alignment:
 
-- Paraphrasing acts as a mirror, showing engagment and understanding
-- "I" Messages ensure personal distance through accountability, preventing unneeded discord
-- Summary ensures alignment to allow for closure
+- Paraphrase what your conversational partner said to you to act as a mirror, showing engagment and understanding
+- Buffer You statements with I statements to ensure personal distance through accountability, preventing unneeded discord
+- Summarize the conversation ensures alignment to allow for closure
 - A reasonable [Tone](../tone/) allows for optimum performance through psychological safety
 
 When mature, Organizer simply reveals what is already there and invites others to join in.
