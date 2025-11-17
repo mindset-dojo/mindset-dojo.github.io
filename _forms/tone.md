@@ -20,14 +20,22 @@ You feel the undercurrent of the conversation in your gut and are invited to res
 
 ## Implementation
 
-### Beginning
+### Preparation
 First, you use [One Breath](../one-breath/) and then [Three Centers](../three-centers/) to align your Self.
 
 ### Introduction of Meta Compass
 
-Through only two questions instead of a [Three Question Reflection](../three-question-reflection/), Meta Compass is a powerful and simple way to read the tone of a conversation.
+Through using a [Three Question Reflection](../three-question-reflection/), Meta Compass is a powerful and simple way to read the tone of a conversation.
 
-You first do a simple gut check of the conversation and the [Four Energy Patterns](../four-patterns/) underlying it:
+### How to use Meta Compass
+
+First ask yourself:
+
+> "What combination of the [4 Energy Patterns](../four-patterns/) is powering this conversation right now?"
+
+This allows you to determine which [Stance](../stance/) you and your conversational partner are in, thus giving you the opportunity to change it if necessary.
+
+You then ask another question:
 
 > "Is the energy flowing, or is it stagnating or stuck? Am I going somewhere, or are we circling around the same point(s)?"
 
@@ -47,7 +55,7 @@ What we mean by that is simple:
 
 Then identify the specific position of the displayed emotions on the Map of Consciousness if needed. Remember, we do not use the Map of Consciousness as a ladder to climb once, but rather as a compass to check in the storm to find our Way. Blend with and invite further up if above the line. If the energy wave is below the line, don't fight fire with fire. Blend into and connect with the energy without being consumed by it and hold the lifeline downwards for your partner or yourself to climb up the Map of Consciousness.
 
-Together, measuring the energy flow (magnitude) in an conversation and the conversation's position on the Map of Consciousness acts as a compass powered by [Meta energy](../meta/). Using it, you can quickly measure where the conversation is and where it will likely go, allowing you to invite a change in direction through a change in your [Stance](../stance/). Through regular practice, using this compass becomes instinctual, and you won't need to consciously think about it, you will feel it. Once you feel it, the correct course of action will come naturally.
+Together, measuring the energy type, flow, and emotional hue in an conversation allows you to guide it to a mutually beneficial conclusion through well-timed [Stances](../stance/). Through regular practice, using Meta Compass becomes instinctual, felt instead of thought. Once that happens, the correct course of action will come naturally.
 
 Thus:
 
