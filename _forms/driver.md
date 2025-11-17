@@ -55,7 +55,7 @@ When communicating, Driver probes into and resolves conversations.
 
 **Tips:**
 
-- Use What and How questions move the conversation foward through invitation, not force.  
+- Use What and How questions to move the conversation foward through invitation, not force.  
 - Take responsibility for what you are saying by buffering You statements with I statements.
 - Summarize the conversation to ensure alignment so the conversation can conclude cleanly.
 - A confident, firm [Tone](../tone/) invites action and trust.  
