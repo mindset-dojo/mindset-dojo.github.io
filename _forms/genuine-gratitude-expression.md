@@ -26,7 +26,7 @@ The key to successfully executing the Form is to tailor the expression of the Fo
 
 ## Inspirations
 
-- [David R. Hawkins – Map of Consciousness](https://veritaspub.com/map-of-consciousness/) 
+- [David R. Hawkins – Map of Consciousness](https://veritaspub.com/map-of-consciousness/)
 - [Institute for Zen Leadership — Leadership Off the Cushion](https://zenleader.global/)  
 - [Tenshinkan Dojo](https://japaneseculturecenter.com/classes/aikido)
 - [What's Better than the Golden Rule?](https://www.thecaap.org/news/whats-better-than-the-golden-rulenbsp)
