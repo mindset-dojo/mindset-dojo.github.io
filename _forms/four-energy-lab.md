@@ -1,18 +1,18 @@
 ---
 layout: form
-title: "Four Energy Networking"
-title_mark: Networking
+title: "Four Energy Lab"
+title_mark: "Lab"
 published_date: 2025-11-15
-refactored_date: 2025-11-16
+refactored_date: 2025-11-18
 authors:
   - michael-basil
   - kyle-ingersoll
-excerpt: "A simple, relational practice for understanding how energy moves through people and the domains they serve — so that individuals and communities can collaborate with greater clarity, coherence, and care."
+excerpt: "An experiential practice lab for sensing how the Four Energies move through people, systems, and the domains they serve — so that individuals and communities can act with greater clarity, coherence, and care."
 ---
 
 ## Intention
 
-Four Energy Networking is a way for people to understand one another through the lens of the Four Energies ([FEBI®](https://zenleader.global/resources/febi-assessment) - Focus Energy Balance Indicator) and the domains they move in. It opens a space where one can share not only who they are, but how energy moves through their work, challenges, and opportunities — so that they can connect with others more skillfully and be seen more clearly.
+The Four Energy Lab is an experiential way to understand one another through the lens of the Four Energies ([FEBI®](https://zenleader.global/resources/febi-assessment) - Focus Energy Balance Indicator) and the domains they move in. It opens a space where one can share not only who they are, but how energy moves through their work, challenges, and opportunities — so that they can connect with others more skillfully and be seen more clearly.
 
 At the same time, it reveals how our domains relate, intersect, or differ — so that the community can understand its collective landscape, recognize where gaps or tensions lie, and discover where natural alliances or support can emerge.
 
@@ -27,7 +27,6 @@ The session begins with a brief warm-up such as [Four Energy Sensei](../four-ene
 From there, the group rotates through short conversations in dyads or triads. In each round, people share their energy tendencies, their primary domain of practice or influence, and what they are noticing in that domain. Over a few rounds, patterns, tensions, and possibilities begin to surface.
 
 When the group returns to a full [Circle](../circle/), the collective picture becomes clearer: how energy is moving across the community, where support is needed, and what opportunities are emerging.
-
 ## Implementation
 
 **Prerequisite:** Each participant brings their FEBI® report (or page 5 summary).
@@ -81,7 +80,8 @@ When the group returns to a full [Circle](../circle/), the collective picture be
 - A more coherent, flexible network  
 - A foundation for collective action or deeper practice
 
-Four Energy Networking strengthens the field by helping us sense our worlds — and each other — more clearly.
+
+The Four Energy Lab strengthens the field by helping us sense our worlds — and each other — more clearly.
 
 ## Inspiration
 
