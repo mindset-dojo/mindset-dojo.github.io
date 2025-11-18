@@ -3,18 +3,16 @@ layout: form
 title: Genuine Gratitude Expression
 title_mark: Gratitude
 published_date: 2025-10-23
-refactored_date: 2025-10-26
+refactored_date: 2025-11-18
 authors:
   - michael-basil
+  - kyle-ingersoll
 excerpt: "A form for recognizing genuine contributions of attention and energy — honoring mutual investment, resonance, and presence within and beyond the dojo."
 ---
 
 ## Intention
 
-To **recognize and honor genuine contributions of attention and energy** within and beyond the dojo.  
-This form cultivates awareness of how others have shifted focus, extended care, or shown up with presence — and invites us to respond with acknowledgment that is personal, grounded, and aligned with both our values and theirs.
-
-In an age where attention is overextended and often fragmented, genuine gratitude becomes a form of **Fearless Leadership**. It restores coherence between perception and appreciation. When expressed with awareness, gratitude functions as a form of relational centering — strengthening the field that connects us and sustaining the energetic fabric of the network.
+When people go above and beyond what they are required to do in terms of care or presence, acknowledge that. Gratitude is critical to sustaining healthy relationships, so make that a regular practice.
 
 ## Experience
 
