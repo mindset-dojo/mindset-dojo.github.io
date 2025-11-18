@@ -4,14 +4,14 @@ mantra_mark: "Level Up."
 description: |
   Mindset Dojo is human-to-human live training for modern personal development,
   communication, and leadership. In a world shaped by AI, rapid change, and
-  rising complexity, the ability to stay grounded, connect clearly, and navigate
-  relationships with confidence has become a critical human skill.
+  rising complexity, the ability to stay grounded, connect clearly, and
+  navigate relationships with confidence has become a critical human skill.
 
-  Our training is delivered as a simple, embodied mindset game you play through
-  real conversations and real interactions. Each session builds practical
-  skills you can use immediately in work, relationships, and everyday life.
-  As you train your Self, your Network, and your World, you begin to move
-  through life with more clarity, presence, and authorship.
+  Our training is delivered as simple, embodied mentorship practiced through
+  experiential sessions, practice labs, and real conversations. Each session
+  builds practical skills you can use immediately in work, relationships, and
+  everyday life. As you train your Self, your Network, and your World, you
+  begin to move through life with more clarity, presence, and authorship.
 sections:
   - type: text
     data:
@@ -34,13 +34,16 @@ sections:
         - "Learn to influence culture through steady presence and behavior."
         - "Create environments where clarity and psychological safety grow."
         - "Show up as a grounded, empowering force in your circles that matter."
+  - type: quote
+    data:
+      text: "Human skills can be trained like martial arts — one level at a time."
   - type: text
     data:
       label: "The Experience"
       items:
-        - "Human-to-human live training — practical, simple, and embodied."
-        - "Delivered as a mindset game you play through real interactions."
-        - "Playful forms that build rhythm, awareness, and confidence each rep."
+        - "Human-to-human live mentorship — experiential, simple, and embodied."
+        - "Guided through practice labs, real conversations, and real interactions."
+        - "Playful forms that build rhythm, awareness, and confidence with each rep."
   - type: text
     data:
       label: "The Transformation"
