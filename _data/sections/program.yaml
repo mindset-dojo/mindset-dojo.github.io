@@ -22,6 +22,9 @@ sections:
       principles_title: "Root Principles"
       principles_groups:
         - "program"
+  - type: quote
+    data:
+      text: "Human skills can be trained like martial arts — one level at a time."
   - type: levels
     data:
       label: "Training Levels"

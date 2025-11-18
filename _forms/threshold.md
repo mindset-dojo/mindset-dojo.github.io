@@ -14,6 +14,8 @@ excerpt: "A threshold is the line between thought and action, Visionary and Driv
 
 A threshold is the line between thought and action — between Visionary and Driver energy. It’s the moment when the body is invited to act and make a decision. As some martial arts masters say, *“Mind moves Body.”*<sup>1</sup> The quality of that movement reflects one’s values, attitudes, and conditioning.
 
+Crossing a threshold is more than taking an action — it is a shift in identity. Each crossing reconfigures how you see yourself and how others experience you. What lies beyond a threshold is not reward or consequence, but a new stance: a fresh level of authorship, coherence, and capacity to engage your Self, your Network, and your World.
+
 ## Experience
 
 Tension often rises near a threshold. To refuse a threshold offered to you is to cross another — the one you set for yourself. Doing nothing is still a decision. We are always crossing thresholds, whether consciously or not.
