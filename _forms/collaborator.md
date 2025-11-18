@@ -45,7 +45,7 @@ Practice begins with body language and [Tone](../tone/).
 
 ### Implementing Our Principles
 
-Release tension by taking [One Breath](../one-breath), and allow the [Driver](../driver/) and [Visionary](../visionary/) energy to blend in. Use [Two Sides](../two-sides/) to perceive things as they are, not as you want them to be, and feel where they want to go. Then **act**. Confront vulnerability and be honest, since that invites authenticity and trust. Playful resonance forms from the ability to trust each other.
+Release tension by taking [One Breath](../one-breath), and allow the [Driver](../driver/) and [Visionary](../visionary/) energy to blend in. Perceive things as they are, not as you want them to be, and feel where they want to go. Then **act**. Confront vulnerability and be honest, since that invites authenticity and trust. Playful resonance forms from the ability to trust each other.
 
 ---
 

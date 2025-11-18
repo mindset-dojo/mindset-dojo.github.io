@@ -45,7 +45,7 @@ Using Organizer properly is about building emergent context-aware order. The thi
 
 ### Implementing Our Principles
 
-Release tension by taking [One Breath](../one-breath), and allow the [Visionary](../visionary/) and [Collaborator](../collaborator/) energy to blend in. Use [Two Sides](../two-sides/) to perceive things as they are, not as you want them to be, and feel where they want to go. Then **act**. Don't be afraid to fail, since the road to success is paved with countless failures. Take failure as a learning opportunity instead of a indictment of your character. Order emerges from chaos through playfulness, inviting [Collaborator](../collaborator/).
+Release tension by taking [One Breath](../one-breath), and allow the [Visionary](../visionary/) and [Collaborator](../collaborator/) energy to blend in. Perceive things as they are, not as you want them to be, and feel where they want to go. Then **act**. Don't be afraid to fail, since the road to success is paved with countless failures. Take failure as a learning opportunity instead of a indictment of your character. Order emerges from chaos through playfulness, inviting [Collaborator](../collaborator/).
 
 ---
 
