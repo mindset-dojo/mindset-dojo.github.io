@@ -43,7 +43,9 @@ You then ask another question:
 - **Flowing energy:** One is extending and connecting.
 - **Stagnant energy:** One is contracting and disconnecting.  
 
-If the energy is flowing, great! You can move on to the next gut check. If not, refer to the Stance Transitions section in [Stances](../stance/) for ways to get the conversation moving again.
+If the energy is flowing, great! You can move on to the next gut check. 
+
+If not, start with mirroring key words back at them to restablish the connection (Collaborator-Visionary), label the underlying emotions in the conversation (Visionary-Collaborator), paraphrase what they say back (Collaborator-Organizer), use What and How questions to move the conversation forward and acknowledge agency (Visionary-Driver), and finally invite commitment through a question that seeks no for an answer (Driver-Collaborator). 
 
 Then figure out **where** the energy is flowing. Ask yourself this:
 
