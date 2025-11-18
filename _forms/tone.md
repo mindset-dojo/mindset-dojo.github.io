@@ -12,7 +12,7 @@ excerpt: "Tone is not merely one's tone of voice, but rather the subliminal expr
 
 ## Intention
 
-Tone is not merely one's tone of voice, but rather the subliminal expression of the level of consciousness of a conversation — it quietly decides whether others open up, lash out, or shut down. [Breath](../one-breath/), body language, and voice all combine into Tone. It colors the individual's expression of the [Four Patterns](../four-patterns/), emerging into [Stances](../stance/). It is the primary conversational lever, exposing and affecting what is being repressed or beneath the surface of the individuals themselves and the collective relational field. Through mastery of Tone, resonance is formed through energy flow and integration of what one is repressing.
+Tone is not merely one's tone of voice, but rather the subliminal expression of the level of consciousness of a conversation — it quietly decides whether others open up, lash out, or shut down. [Breath](../one-breath/), body language, and voice all combine into Tone. It colors the individual's expression of the [Four Energy Patterns](../four-patterns/), emerging into the hue of [Stances](../stance/). It is the primary conversational lever, exposing and affecting what is being repressed or beneath the surface of the individuals themselves and the collective relational field. Through mastery of Tone, resonance is formed through energy flow and integration of what one is repressing.
 
 ## Experience
 
