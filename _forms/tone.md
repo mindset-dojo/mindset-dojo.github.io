@@ -53,8 +53,8 @@ Then figure out **where** the energy is flowing. Ask yourself this:
 
 What we mean by that is simple:
 
-- **Below the line** (pride, fear, anger, shame): we are moving *away* from coherance.
-- **Above the line** (love, reason, peace, enlightenment): we are moving *towards* coherance.
+- **Below the line** (pride, fear, anger, shame, etc. Negative emotions.): we are moving *away* from coherance.
+- **Above the line** (love, reason, peace, enlightenment, etc. Positive emotions.): we are moving *towards* coherance.
 
 Blend with and invite further up if above the line to elevate the emotional state. If the energy wave is below the line, don't fight fire with fire. Blend into and connect with the energy without being consumed by it and hold the lifeline downwards for your partner or yourself to move above the line.
 
