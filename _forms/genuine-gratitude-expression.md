@@ -20,7 +20,9 @@ You acknowledge the investment of finite energy and are genuinely grateful for t
 
 ## Implementation
 
-You start with a flowing, above the line Collaborator-Visionary (with just a touch of Organizer to support) [Stance](../stance/). Use Meta Compass in [Tone](../tone/) to make sure you are in the correct [Stance](../stance/) and have the correct [Tone](../tone/) before demonstrating this Form. Executing this Form incorrectly or without genuine gratitude can lead to significant backlash and resentment. Beyond the Form, make sure you are authentically aligned with Head, Heart, and Hara before communicating. [One Breath](../one-breath/), [Two Sides](../two-sides/) and [Three Centers](../three-centers/) can be helpful in preparation.
+You start with a flowing, above the line Collaborator-Visionary (with just a touch of Organizer to support) [Stance](../stance/). Use Meta Compass in [Tone](../tone/) to make sure you are in the correct [Stance](../stance/) and have the correct [Tone](../tone/) before demonstrating this Form. Executing this Form incorrectly or without genuine gratitude can lead to significant backlash and resentment. 
+
+Beyond the Form, make sure you are authentically aligned with Head, Heart, and Hara before communicating. [One Breath](../one-breath/), [Two Sides](../two-sides/) and [Three Centers](../three-centers/) can be helpful in preparation.
 
 The key to successfully executing the Form is to tailor the expression of the Form to match the norms of the recipiant, the relationship, and the cultural context. Remember both Platnum and Golden Rules when expressing gratitude.
 
