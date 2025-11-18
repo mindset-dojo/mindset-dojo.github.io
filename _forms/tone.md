@@ -16,7 +16,7 @@ Tone is not merely one's tone of voice, but rather the subliminal expression of 
 
 ## Experience
 
-You have emotional awareness of the flow of the conversation, and the parties involved, which allows you to guide the conversation to a mutually beneficial [Thresholds](../threshold/).
+You have emotional awareness of the flow of the conversation, and the parties involved, which allows you to influence the conversation to mutually beneficial [Thresholds](../threshold/).
 
 ## Implementation
 
@@ -56,7 +56,7 @@ What we mean by that is simple:
 - **Negatively trending** (pride, fear, anger, shame, etc.): we are moving *away* from coherance.
 - **Positively trending** (love, reason, peace, enlightenment, etc.): we are moving *towards* coherance.
 
-Blend with and invite further up if postively trending to elevate the emotional state. If the energy wave is negatively trending, don't fight fire with fire. Blend into and connect with the energy without being consumed by it and hold the lifeline downwards for your partner or yourself to move above the line.
+Blend with and invite further up if postively trending to elevate the emotional state. If the energy wave is negatively trending, don't fight fire with fire. Blend into and connect with the energy without being consumed by it and hold the lifeline downwards for your partner or yourself to move postively.
 
 ### Conclusion
 
