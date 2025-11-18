@@ -146,7 +146,7 @@ sections:
               url: /forms/mat/
             - label: Group Circle Randori – Integration Under Fire
               url: /forms/four-energy-randori/
-            - label: Four Energy Lab - Support
+            - label: Four Energy Lab - Secondary
               url: /forms/four-energy-lab/
             - label: Level Up Transition
               url: /forms/level-up-transition/
@@ -163,7 +163,7 @@ sections:
               url: /forms/mat/
             - label: Real-Life Randori
               url: /forms/four-energy-randori/
-            - label: Four Energy Lab - Lead
+            - label: Four Energy Lab - Primary
               url: /forms/four-energy-lab/
             - label: Sensei
               url: /forms/sensei/
