@@ -51,5 +51,6 @@ To complete or clear up the conversation, summarize the conversation in structur
 - [What's Better than the Golden Rule?](https://www.thecaap.org/news/whats-better-than-the-golden-rulenbsp)
 - [Resonate by Ginny Whitelaw](https://www.choseizen.org/store/p/resonate)
 - [The Zen Leader by Ginny Whitelaw](https://www.choseizen.org/store/p/the-zen-leader)
+- [Move to Greatness by Ginny Whitelaw](https://zenleader.global/resources/store/p/move-to-greatness-book)
 - [Zen Toolkit - Two Sides](https://vimeo.com/944663134/d4f1c4f333)
 - [FEBI®](https://zenleader.global/resources/febi-assessment) is a registered trademark of the [Institute for Zen Leadership](https://zenleader.global/)
