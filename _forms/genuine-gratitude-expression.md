@@ -20,10 +20,13 @@ You acknowledge the investment of finite energy and are genuinely grateful for t
 
 ## Implementation
 
-As practitioners progress through the program, **Genuine Gratitude Expression** becomes a deeper study in relational awareness. When one feels ready to engage this practice intentionally, it is encouraged to learn from the model and to enter into conversation with [Senpai](../senpai/) and [Sensei](../sensei/) to explore how gratitude can be most skillfully and authentically expressed. Through dialogue, the practitioner learns to attune to timing, tone, and context, understanding that gratitude is not simply stated but embodied.
+You start with a flowing, above the line Collaborator-Visionary (with just a touch of Organizer to support) [Stance](../stance/). Use Meta Compass in [Tone](../tone/) to make sure you are in the correct [Stance](../stance/) and have the correct [Tone](../tone/) before demonstrating this Form. Executing this Form incorrectly or without genuine gratitude can lead to significant backlash and resentment.
+
+The key to successfully executing the Form is to tailor the expression of the Form to match the norms of the recipiant, the relationship, and the cultural context. Remember both Platnum and Golden Rules when expressing gratitude.
 
 ## Inspirations
 
-- [David R. Hawkins – Map of Consciousness](https://veritaspub.com/map-of-consciousness/)  
+- [David R. Hawkins – Map of Consciousness](https://veritaspub.com/map-of-consciousness/) 
 - [Institute for Zen Leadership — Leadership Off the Cushion](https://zenleader.global/)  
 - [Tenshinkan Dojo](https://japaneseculturecenter.com/classes/aikido)
+- [What's Better than the Golden Rule?](https://www.thecaap.org/news/whats-better-than-the-golden-rulenbsp)
