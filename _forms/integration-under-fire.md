@@ -17,35 +17,11 @@ Maintain a high level of consciousness and connection under social pressure from
 
 ## Experience
 
-When challenged, the reactive self wants to defend, justify, or withdraw.  
-In the dojo, we treat those impulses as **signals for training** — invitations to sense the energies at play, to balance the field, and to respond from integrity rather than instinct.  
-
-Each encounter reveals a mirror.  
-Where am I contracting?  
-What energy pattern is being invited into awareness?  
-What level of consciousness is expressing through me — and what level am I choosing to respond from?  
-
-By turning attention inward while maintaining outward presence, we transform conflict into practice.  
-Integration becomes a living posture — relaxed, centered, and responsive.
+You are feeling the pressure from the stagnant, negatively trending energies around you. They pressure you to give in and mirror their [Stance](../stance/), while you struggle to metabolize them and invite flowing, positively trending energies.
 
 ## Implementation
 
-This reflection can be engaged before, during, or after challenging exchanges — as preparation, presence, or integration.  
-It may be completed privately through journaling, or in dialogue with your favorite **AI companion** for a deeper mirror experience.  
-Treat the AI not as a judge or authority, but as a reflective presence helping to clarify what your awareness is already sensing.  
-
-When tension or perceived attack arises, move deliberately.  
-
-- **Pause.** Feel the field before acting.  
-- **Recenter.** [Breathe from Hara.](https://vimeo.com/944618879/47e96945a4)  
-- **Name the energies.** Sense Driver, Organizer, Collaborator, and Visionary dynamics in yourself and others.  
-- **Map consciousness.** Recognize the level of awareness being expressed — from fear to love — and choose your level of response deliberately.  
-
-**Respond.** Act or speak from the higher level of commitment without Self-sacrifice.  
-
-Use this form around moments of compression — before entering them, while inside them, or after they pass.  
-Record what occurred, what you sensed, what you learned, and what integration looks like now.  
-Practice until reflection becomes reflex.
+When challenged, train through looking at your internal mirror while maintaining outward presence. Do [One Breath](../one-breath/) and [Three Centers](../three-centers/) if helpful. Enter a flowing, postively trending Visionary-Organizer (with [Driver](../driver/) and [Collaborator](../collaborator/) support) [Stance](../stance/). Listen to [Meta energy](../meta/) and use the Meta Compass in [Tone](../tone/) to determine what your next [Stance](../stance/) should be. Then **act** from your Gut.
 
 ## Inspiration
 
