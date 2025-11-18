@@ -19,24 +19,24 @@ principles:
       description: "Share your intent openly so momentum can align without pressure."
     - id: "align"
       label: "Alignment Comes From Action"
-      description: “Make your move—each action brings the system into clearer shape.”
+      description: "Make your move—each action brings the system into clearer shape."
     - id: "presence"
       label: "Presence over Process"
       description: "Agility over bureaucracy — people over plans."
     - id: "move"
       label: "The First Move Creates the Path"
-      description: “What you add sets both direction and drag—start light so the system stays alive.”
+      description: "What you add sets both direction and drag—start light so the system stays alive."
   form:
     - id: "one"
       label: "Center from One Point"
-      description: “Start from one intention, and return to it whenever the form drifts.”
+      description: "Start from one intention, and return to it whenever the form drifts."
     - id: "pen"
       label: "Give the Learner the Pen"
-      description: “Shape prompts so the learner fills the space, not you.”
+      description: "Shape prompts so the learner fills the space, not you."
     - id: "experience"
       label: "Let Experience Do the Writing"
-      description: “Include only what you’ve embodied in real conversations.”
+      description: "Include only what you’ve embodied in real conversations."
     - id: "light"
       label: "Build for Lightness"
-      description: “Every addition is a debt. Prune like bonsai.”
+      description: "Every addition is a debt. Prune like bonsai."
 ...
