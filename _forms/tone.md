@@ -49,14 +49,14 @@ If not, dissolve the stuck points using the [Stance Tips](../stance/) as appropr
 
 Then figure out **where** the energy is flowing. Ask yourself this:
 
-> "Is the emotion in the conversation trending above or below the line?"
+> "Is the emotion in the conversation trending positively or negatively?"
 
 What we mean by that is simple:
 
-- **Below the line** (pride, fear, anger, shame, etc. Negative emotions.): we are moving *away* from coherance.
-- **Above the line** (love, reason, peace, enlightenment, etc. Positive emotions.): we are moving *towards* coherance.
+- **Negatively trending** (pride, fear, anger, shame, etc.): we are moving *away* from coherance.
+- **Positively trending** (love, reason, peace, enlightenment, etc.): we are moving *towards* coherance.
 
-Blend with and invite further up if above the line to elevate the emotional state. If the energy wave is below the line, don't fight fire with fire. Blend into and connect with the energy without being consumed by it and hold the lifeline downwards for your partner or yourself to move above the line.
+Blend with and invite further up if postively trending to elevate the emotional state. If the energy wave is negatively trending, don't fight fire with fire. Blend into and connect with the energy without being consumed by it and hold the lifeline downwards for your partner or yourself to move above the line.
 
 ### Conclusion
 
