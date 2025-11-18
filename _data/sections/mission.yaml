@@ -1,56 +1,56 @@
 ---
-mantra: "Level Up Your Network."
-mantra_mark: "Network."
+mantra: "Level Up."
+mantra_mark: "Level Up."
 description: |
-  The world is changing faster than ever — new technology, new pressures, and new
-  opportunities. But one skill grows more important in every era: the ability to
-  connect well with yourself and others. Mindset Dojo trains practical human
-  connection and communication skills for a world shaped by AI, rapid change,
-  and rising complexity.
+  Mindset Dojo is human-to-human live training for modern personal development,
+  communication, and leadership. In a world shaped by AI, rapid change, and
+  rising complexity, the ability to stay grounded, connect clearly, and navigate
+  relationships with confidence has become a critical human skill.
 
-  Learn to navigate conversations, decisions, and high-pressure moments with
-  clarity, presence, and confidence. As you improve how you connect, you unlock
-  new possibilities, strengthen your network, and increase the probability of
-  healthier, more expansive outcomes at work, at home, and in everyday life.
+  Our training is delivered as a simple, embodied mindset game you play through
+  real conversations and real interactions. Each session builds practical
+  skills you can use immediately in work, relationships, and everyday life.
+  As you train your Self, your Network, and your World, you begin to move
+  through life with more clarity, presence, and authorship.
 sections:
   - type: text
     data:
-      label: "A Skill for a Changing World"
+      label: "Your Self"
       items:
-        - "Technology accelerates. Pressures rise. Paths shift."
-        - "Human connection helps us adapt, collaborate, and stay centered."
-        - "Mindset Dojo makes connection a simple, trainable skill."
-        - "Better connection → better decisions → better possibilities."
+        - "Build presence, emotional stability, and inner clarity under pressure."
+        - "Shift your energetic patterns and recover your center in real time."
+        - "Develop Self-Authorship — the ability to lead your inner world."
   - type: text
     data:
-      label: "What We Train"
+      label: "Your Network"
       items:
-        - "How to ground yourself when situations move fast."
-        - "How to communicate clearly, naturally, and without tension."
-        - "How to navigate pressure and uncertainty with presence."
-        - "How to open possibilities instead of closing them."
-        - "How to strengthen and refresh your network with simple, human skills."
+        - "Strengthen the relational skill that shapes every conversation."
+        - "Communicate with more ease, honesty, and natural authority."
+        - "Transform reactive patterns into generative, collaborative ones."
+  - type: text
+    data:
+      label: "Your World"
+      items:
+        - "Learn to influence culture through steady presence and behavior."
+        - "Create environments where clarity and psychological safety grow."
+        - "Show up as a grounded, empowering force in your communities and teams."
+  - type: text
+    data:
+      label: "The Experience"
+      items:
+        - "Human-to-human live training — practical, simple, and embodied."
+        - "Delivered as a mindset game you play through real interactions."
+        - "Playful forms that build rhythm, awareness, and confidence moment by moment."
+  - type: text
+    data:
+      label: "The Transformation"
+      items:
+        - "Less reactivity, more clarity — especially in hard moments."
+        - "Stronger relationships built on presence, honesty, and connection."
+        - "A more grounded inner compass that improves how you lead and live."
   - type: quote
     data:
-      text: "In a fast-changing world, connection is a superpower you can train."
-  - type: text
-    data:
-      label: "A Live Training Game"
-      items:
-        - "Mindset Dojo isn’t a course — it’s a live training game."
-        - "Every interaction becomes real practice."
-        - "You build rhythm, clarity, and confidence one moment at a time."
-        - "Simple. Playful. Grounded. Real."
-        - "You don’t need mastery to begin — just curiosity and willingness."
-  - type: text
-    data:
-      label: "The Outcome"
-      items:
-        - "You navigate change with more confidence and less stress."
-        - "Conversations become easier, clearer, and more natural."
-        - "Your network expands in healthy, energizing ways."
-        - "Your decisions improve because your connection improves."
-        - "Life opens — one connection at a time."
+      text: "In a fast-changing world, human connection is a superpower you can train."
   - type: authors
     data:
       leadership_flow:
