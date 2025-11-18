@@ -3,18 +3,17 @@ layout: form
 title: "Integration Under Fire"
 title_mark: "Integration"
 published_date: 2025-10-22
-refactored_date: 2025-10-27
+refactored_date: 2025-11-18
 authors:
   - michael-basil
+  - kyle-ingersoll
   - jeremy-mcmillan
 excerpt: "A reflection form for working with compression — meeting lower-consciousness forces without collapsing or bypassing. Integration through practice, not martyrdom."
 ---
 
 ## Intention
 
-To recognize when we’re being pulled into lower-consciousness exchanges — fear, control, extraction — and to stay centered in higher commitment.  
-This form supports integration without martyrdom: the art of meeting compression without collapse, and conflict without losing coherence.  
-The practice rests on the principle **Relax Completely** — staying connected to Ki in daily life, even under pressure.
+Maintain a high level of consciousness and connection under social pressure from surrounding lower level [FEBI®](https://zenleader.global/resources/febi-assessment) energies.
 
 ## Experience
 
@@ -56,3 +55,4 @@ Practice until reflection becomes reflex.
 - [Ki in Daily Life – Koichi Tohei](https://www.amazon.com/Ki-Daily-Life-Koichi-Tohei/dp/4889960716)  
 - [Dynamic Silence – Black Swan Group](https://www.blackswanltd.com/newsletter/3-benefits-of-dynamic-silence%EF%B8%8F)  
 - [David R. Hawkins – Map of Consciousness](https://veritaspub.com/map-of-consciousness/)  
+- [FEBI®](https://zenleader.global/resources/febi-assessment) is a registered trademark of the [Institute for Zen Leadership](https://zenleader.global/)
