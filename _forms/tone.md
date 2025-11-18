@@ -16,7 +16,7 @@ Tone is not merely one's tone of voice, but rather the subliminal expression of 
 
 ## Experience
 
-You feel the undercurrent of the conversation in your gut and are invited to resonate with it. However, the same is true for your counterpart. Through the [Martial Attitude](../martial-attitude/), applied through shifting [Stances](../stance/) to invite for a specific [Energy Pattern](../four-patterns/), you guide the conversation to mutually beneficial [Thresholds](../threshold/). The more experienced you are using Tone, the more you feel a sense of calm awareness, balance, and ability to act effortlessly.
+You have emotional awareness of the flow of the conversation, and the parties involved, which allows you to guide the conversation to a mutually beneficial [Thresholds](../threshold/).
 
 ## Implementation
 
