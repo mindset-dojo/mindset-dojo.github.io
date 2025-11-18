@@ -131,6 +131,8 @@ sections:
               url: /forms/mat/
             - label: Group Circle Randori – Visionary
               url: /forms/four-energy-randori/
+            - label: Four Energy Lab - Support
+              url: /forms/four-energy-lab/
             - label: Level Up Transition
               url: /forms/level-up-transition/
         - color: red
@@ -146,8 +148,6 @@ sections:
               url: /forms/mat/
             - label: Group Circle Randori – Integration Under Fire
               url: /forms/four-energy-randori/
-            - label: MetaShift Community Demonstration - Supporting
-              url: /forms/metashift-community-demonstration/
             - label: Level Up Transition
               url: /forms/level-up-transition/
         - color: black
@@ -163,10 +163,8 @@ sections:
               url: /forms/mat/
             - label: Real-Life Randori
               url: /forms/four-energy-randori/
-            - label: MetaShift Community Demonstration - Primary
-              url: /forms/metashift-community-demonstration/
-            - label: Four Energy Networking
-              url: /forms/four-energy-networking/
+            - label: Four Energy Lab - Lead
+              url: /forms/four-energy-lab/
             - label: Sensei
               url: /forms/sensei/
             - label: Organizationally-Focused Cultivator

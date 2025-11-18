@@ -1,18 +1,18 @@
 ---
 layout: form
-title: "Four Energy Networking"
-title_mark: Networking
+title: "Four Energy Lab"
+title_mark: "Lab"
 published_date: 2025-11-15
-refactored_date: 2025-11-16
+refactored_date: 2025-11-18
 authors:
   - michael-basil
   - kyle-ingersoll
-excerpt: "A simple, relational practice for understanding how energy moves through people and the domains they serve — so that individuals and communities can collaborate with greater clarity, coherence, and care."
+excerpt: "An experiential practice lab for sensing how the Four Energies move through people, systems, and the domains they serve — so that individuals and communities can act with greater clarity, coherence, and care."
 ---
 
 ## Intention
 
-Four Energy Networking is a way for people to understand one another through the lens of the Four Energies ([FEBI®](https://zenleader.global/resources/febi-assessment) - Focus Energy Balance Indicator) and the domains they move in. It opens a space where one can share not only who they are, but how energy moves through their work, challenges, and opportunities — so that they can connect with others more skillfully and be seen more clearly.
+The Four Energy Lab is an experiential way to understand one another through the lens of the Four Energies ([FEBI®](https://zenleader.global/resources/febi-assessment) - Focus Energy Balance Indicator) and the domains they move in. It opens a space where one can share not only who they are, but how energy moves through their work, challenges, and opportunities — so that they can connect with others more skillfully and be seen more clearly.
 
 At the same time, it reveals how our domains relate, intersect, or differ — so that the community can understand its collective landscape, recognize where gaps or tensions lie, and discover where natural alliances or support can emerge.
 
@@ -81,7 +81,7 @@ When the group returns to a full [Circle](../circle/), the collective picture be
 - A more coherent, flexible network  
 - A foundation for collective action or deeper practice
 
-Four Energy Networking strengthens the field by helping us sense our worlds — and each other — more clearly.
+The Four Energy Lab strengthens the field by helping us sense our worlds — and each other — more clearly.
 
 ## Inspiration
 
