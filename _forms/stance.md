@@ -24,7 +24,7 @@ Guided by the Meta Compass in the [Tone Form](../tone/), recognize your own and 
 
 In short, be the change you want to see, and invite others to follow.
 
-### Stance Transitions
+### Stance Tips
 
 To progress the conversation, ask What and How questions (Visionary-Driver), remain silent afterwards (Visionary-Collaborator), then paraphrase what your converational partner said (Collaborator-Organizer).
 

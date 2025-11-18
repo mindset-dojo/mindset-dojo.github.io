@@ -45,7 +45,7 @@ You then ask another question:
 
 If the energy is flowing, great! You can move on to the next gut check.
 
-If not, dissolve the stuck points using the [Stance Transitions](../stance/) as appropriate.
+If not, dissolve the stuck points using the [Stance Tips](../stance/) as appropriate.
 
 Then figure out **where** the energy is flowing. Ask yourself this:
 
