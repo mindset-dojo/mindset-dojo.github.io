@@ -26,4 +26,17 @@ principles:
     - id: "culture"
       label: "Code Cultivates Culture"
       description: "Keep it like a bonsai or race car — light, alive, and never a dump truck."
+  form:
+    - id: "one"
+      label: "Center from One Point"
+      description: “Start from one intention, and return to it whenever the form drifts.”
+    - id: "pen"
+      label: "Give the Learner the Pen"
+      description: “Shape prompts so the learner fills the space, not you.”
+    - id: "experience"
+      label: "Let Experience Do the Writing"
+      description: “Include only what you’ve embodied in real conversations.”
+    - id: "light"
+      label: "Build for Lightness"
+      description: “Every addition is a debt. Prune like bonsai.”
 ...
