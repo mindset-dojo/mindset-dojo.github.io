@@ -38,7 +38,7 @@ Buffer 'You' statements with 'I' statements to take responsiblity for your subje
 
 Invite commitment through very specific questions that seeking a cooperative No (Driver–Collaborator). An example would be, "Is meeting at 4:30 PM a bad time?". This invites the body to commit, instead of mere acquiescence of the mind.
 
-To complete or clear up the conversation, summarize the conversation in structured form while reflecting their emotional reality (Organizer–Collaborator). If one is dealing with stuck points or edges in an conversation, start with [Two Sides](../two-sides/) (Collaborator–Organizer) and then do a [Three Question Reflection](../three-question-reflection/) (Visionary–Collaborator) with a curious, empathetic [Tone](../tone/) to invite dissolving those stuck points/edges.
+To complete or clear up the conversation, summarize the conversation in structured form while reflecting their emotional reality (Organizer–Collaborator). If one is dealing with stuck points or edges in an conversation, start with [Two Sides](../two-sides/) (Collaborator–Organizer) and then do a [Three Question Reflection](../three-question-reflection/) (Visionary–Collaborator) with a curious, empathetic [Tone](../tone/) to invite dissolving those stuck points/edges. Remember, having no agreement is better than a unsatisfying agreement between both parties. This is because that unsatisfaction breeds resentment which moves the relationship below the line.
 
 ## Inspiration
 
