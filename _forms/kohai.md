@@ -1,14 +1,23 @@
 ---
 layout: form
-title: "Kohai"
+title: Kohai
 title_mark: Kohai
 published_date: 2025-10-20
 refactored_date: 2025-10-27
 authors:
-  - jeremy-mcmillan
-  - michael-basil
-  - kyle-ingersoll
-excerpt: "A Kohai follows the Sensei' and Senpai' fearless leadership, and applies MetaShift Method to the best of their ability."
+- jeremy-mcmillan
+- michael-basil
+- kyle-ingersoll
+excerpt: A Kohai follows the Sensei' and Senpai' fearless leadership, and applies MetaShift Method to the best of their ability.
+inspirations:
+- label: Ki in Daily Life by Koichi Tohei
+  url: https://www.amazon.com/Ki-Daily-Life-Koichi-Tohei/dp/4889960716
+- label: Tenshinkan Dojo
+  url: https://japaneseculturecenter.com/classes/aikido
+- label: Chosei Zen
+  url: https://www.choseizen.org/
+- label: Institute for Zen Leadership
+  url: https://zenleader.global
 ---
 
 ## Intention
@@ -23,9 +32,4 @@ You will experience a playfully serious resonance that will invite you to relax 
 
 To be a Kohai, one must have been invited to the [Mat](../mat/) and crossed the White Level threshold. Learn about and embody Fearless Leadership and MetaShift Method through training.
 
-## Inspiration
 
-- [Ki in Daily Life by Koichi Tohei](https://www.amazon.com/Ki-Daily-Life-Koichi-Tohei/dp/4889960716)
-- [Tenshinkan Dojo](https://japaneseculturecenter.com/classes/aikido)
-- [Chosei Zen](https://www.choseizen.org/)
-- [Institute for Zen Leadership](https://zenleader.global)

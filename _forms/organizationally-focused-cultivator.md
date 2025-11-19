@@ -5,8 +5,23 @@ title_mark: Cultivator
 published_date: 2025-11-13
 refactored_date: 2025-11-13
 authors:
-  - kyle-ingersoll
-excerpt: "A Organizationally-Focused Cultivator supports the community through their deep knowledge of the Program, the Dojo, and The Way."
+- kyle-ingersoll
+excerpt: A Organizationally-Focused Cultivator supports the community through their deep knowledge of the Program, the Dojo, and The Way.
+inspirations:
+- label: Ki in Daily Life by Koichi Tohei
+  url: https://www.amazon.com/Ki-Daily-Life-Koichi-Tohei/dp/4889960716
+- label: Institute for Zen Leadership
+  url: https://zenleader.global
+- label: Chosei Zen
+  url: https://www.choseizen.org/
+- label: Tenshinkan Dojo
+  url: https://japaneseculturecenter.com/classes/aikido
+- label: Dojo Consortium
+  url: https://dojoconsortium.org
+- label: SAP Dojo
+  url: https://github.com/sap-samples/dojo
+- label: InnerSource Commons Foundation
+  url: https://innersourcecommons.org
 ---
 
 ## Intention
@@ -21,12 +36,4 @@ You aid the organization and community holistically through mastery of what is t
 
 As a Domain-Focused Cultivator, keep making contributions, networking, and training in the Program. Once you pass the Black Level [Threshold](../threshold/), negotiate with other Cultivators sponsorship. Once you get it, make a pull request claiming the Organizationally-Focused Cultivator designation.
 
-## Inspiration
 
-- [Ki in Daily Life by Koichi Tohei](https://www.amazon.com/Ki-Daily-Life-Koichi-Tohei/dp/4889960716)
-- [Institute for Zen Leadership](https://zenleader.global)
-- [Chosei Zen](https://www.choseizen.org/)
-- [Tenshinkan Dojo](https://japaneseculturecenter.com/classes/aikido)
-- [Dojo Consortium](https://dojoconsortium.org)
-- [SAP Dojo](https://github.com/sap-samples/dojo)
-- [InnerSource Commons Foundation](https://innersourcecommons.org)

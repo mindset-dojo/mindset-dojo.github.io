@@ -1,12 +1,19 @@
 ---
 layout: form
-title: "Four Energy Reflection"
+title: Four Energy Reflection
 title_mark: Reflection
 published_date: 2025-11-09
 refactored_date: 2025-11-09
 authors:
-  - michael-basil
-excerpt: "Four Energy Reflection is an introductory self-awareness form that reveals your natural energy patterns through the FEBI® lens — Driver, Organizer, Collaborator, and Visionary — and invites embodied reflection as the first threshold of practice."
+- michael-basil
+excerpt: Four Energy Reflection is an introductory self-awareness form that reveals your natural energy patterns through the FEBI® lens — Driver, Organizer, Collaborator, and Visionary — and invites embodied reflection as the first threshold of practice.
+inspirations:
+- label: FEBI® Pattern Framework
+  url: https://zenleader.global/resources/febi-assessment
+- label: Institute for Zen Leadership
+  url: https://zenleader.global
+- label: FEBI® is a registered trademark of the Institute for Zen Leadership
+  url: https://zenleader.global/resources/febi-assessment
 ---
 
 ## Intention
@@ -49,8 +56,4 @@ Each published reflection becomes part of the open-source living field of practi
 1. **Optional Follow-On (Flexible)**  
   Apply learnings through [Mat](../mat/) practice, journaling, or other Mindset Dojo form work.
 
-## Inspiration
 
-- [FEBI® Pattern Framework](https://zenleader.global/resources/febi-assessment)
-- [Institute for Zen Leadership](https://zenleader.global)
-- [FEBI®](https://zenleader.global/resources/febi-assessment) is a registered trademark of the [Institute for Zen Leadership](https://zenleader.global/)

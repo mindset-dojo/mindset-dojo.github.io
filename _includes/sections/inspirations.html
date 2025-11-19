@@ -1,0 +1,42 @@
+{%- assign inspirations = include.inspirations | default: page.inspirations -%}
+{%- if inspirations and inspirations != empty -%}
+  {%- assign toggle_label = include.label | default: "Inspirations" -%}
+  {%- assign page_slug = page.slug | default: page.title | default: page.url | default: "inspiration" -%}
+  {%- assign toggle_id_base = include.toggle_id | default: page_slug | append: "-inspirations" -%}
+  {%- assign toggle_id = toggle_id_base | slugify -%}
+  <hr>
+  <section class="md-flow inspiration-section" data-related-toggle="true">
+    <h2>{{ toggle_label }}</h2>
+    <div class="collection-stream-related-action">
+      <button
+        type="button"
+        class="collection-stream-toggle related-toggle-button"
+        data-related-toggle-button
+        data-show-label="Show"
+        data-hide-label="Hide"
+        aria-expanded="false"
+        aria-controls="{{ toggle_id }}">
+        Show
+      </button>
+    </div>
+    <div
+      id="{{ toggle_id }}"
+      class="inspiration-list-wrap"
+      data-related-toggle-content
+      hidden>
+      <ul class="inspiration-list">
+        {%- for inspiration in inspirations -%}
+          {%- assign insp_label = inspiration.label | default: inspiration.title | default: inspiration -%}
+          {%- assign insp_url = inspiration.url -%}
+          <li>
+            {%- if insp_url -%}
+              <a href="{{ insp_url }}">{{ insp_label }}</a>
+            {%- else -%}
+              {{ insp_label }}
+            {%- endif -%}
+          </li>
+        {%- endfor -%}
+      </ul>
+    </div>
+  </section>
+{%- endif -%}

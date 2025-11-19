@@ -1,13 +1,26 @@
 ---
 layout: form
-title: "Driver"
+title: Driver
 title_mark: Driver
 published_date: 2025-11-11
 refactored_date: 2025-11-11
 authors:
-  - kyle-ingersoll
-  - michael-basil
-excerpt: "Part of the Four Patterns from Institute for Zen Leadership, Driver energy concentrates your focus and moves you forward."
+- kyle-ingersoll
+- michael-basil
+excerpt: Part of the Four Patterns from Institute for Zen Leadership, Driver energy concentrates your focus and moves you forward.
+inspirations:
+- label: Never Split the Difference by Chris Voss
+  url: https://www.amazon.com/Never-Split-Difference-Negotiating-Depended/dp/0062407805
+- label: Negotiation 9 Moves by Black Swan Group
+  url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
+- label: Ki in Daily Life by Koichi Tohei
+  url: https://www.amazon.com/Ki-Daily-Life-Koichi-Tohei/dp/4889960716
+- label: Institute for Zen Leadership
+  url: https://zenleader.global/
+- label: Move to Greatness by Ginny Whitelaw
+  url: https://zenleader.global/resources/store/p/move-to-greatness-book
+- label: FEBI® is a registered trademark of the Institute for Zen Leadership
+  url: https://zenleader.global/resources/febi-assessment
 ---
 
 ## Intention
@@ -62,11 +75,4 @@ When communicating, Driver probes into and resolves conversations.
 
 When mature, Driver allows you to move forward towards your ideals while maintaining connection with everything else.
 
-## Inspiration
 
-- [Never Split the Difference by Chris Voss](https://www.amazon.com/Never-Split-Difference-Negotiating-Depended/dp/0062407805)
-- [Negotiation 9 Moves by Black Swan Group](https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9)
-- [Ki in Daily Life by Koichi Tohei](https://www.amazon.com/Ki-Daily-Life-Koichi-Tohei/dp/4889960716)
-- [Institute for Zen Leadership](https://zenleader.global/)
-- [Move to Greatness by Ginny Whitelaw](https://zenleader.global/resources/store/p/move-to-greatness-book)
-- [FEBI®](https://zenleader.global/resources/febi-assessment) is a registered trademark of the [Institute for Zen Leadership](https://zenleader.global/)

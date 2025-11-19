@@ -1,13 +1,20 @@
 ---
 layout: form
-title: "Three Question Reflection"
+title: Three Question Reflection
 title_mark: Reflection
 published_date: 2025-10-20
 refactored_date: 2025-11-16
 authors:
-  - kyle-ingersoll
-  - michael-basil
-excerpt: "Reflect about your experiences through answering three What and/or How questions either with a group or on your own through Stillness Contemplation."
+- kyle-ingersoll
+- michael-basil
+excerpt: Reflect about your experiences through answering three What and/or How questions either with a group or on your own through Stillness Contemplation.
+inspirations:
+- label: Socratic Method
+  url: https://en.wikipedia.org/wiki/Socratic_method
+- label: Calibrated Questions – Black Swan Group
+  url: https://www.blackswanltd.com/newsletter/taking-the-mystery-out-of-calibrated-questions
+- label: Negotiation 9 Moves from Black Swan Group
+  url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
 ---
 
 ## Intention
@@ -32,8 +39,4 @@ Find a willing [Circle](../circle/), engage the [Mat](../mat/), and begin the se
 
 Following this exercise is a good time to consider authoring an Insight post about the results of the reflection. Getting the insight down while it is fresh in your mind is critical to maintaining energy flow (Ki).
 
-## Inspiration
 
-- [Socratic Method](https://en.wikipedia.org/wiki/Socratic_method)
-- [Calibrated Questions – Black Swan Group](https://www.blackswanltd.com/newsletter/taking-the-mystery-out-of-calibrated-questions)
-- [Negotiation 9 Moves from Black Swan Group](https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9)

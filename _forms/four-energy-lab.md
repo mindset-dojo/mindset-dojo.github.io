@@ -1,13 +1,22 @@
 ---
 layout: form
-title: "Four Energy Lab"
-title_mark: "Lab"
+title: Four Energy Lab
+title_mark: Lab
 published_date: 2025-11-15
 refactored_date: 2025-11-18
 authors:
-  - michael-basil
-  - kyle-ingersoll
-excerpt: "An experiential practice lab for sensing how the Four Energies move through people, systems, and the domains they serve — so that individuals and communities can act with greater clarity, coherence, and care."
+- michael-basil
+- kyle-ingersoll
+excerpt: An experiential practice lab for sensing how the Four Energies move through people, systems, and the domains they serve — so that individuals and communities can act with greater clarity, coherence, and care.
+inspirations:
+- label: Institute for Zen Leadership
+  url: https://zenleader.global
+- label: Mycelial and Lichen Intelligence
+  url: https://www.themarginalian.org/2025/11/02/lichen/
+- label: Draw Toast TED Talk
+  url: https://www.ted.com/talks/tom_wujec_got_a_wicked_problem_first_tell_me_how_you_make_toast/
+- label: FEBI® is a registered trademark of the Institute for Zen Leadership
+  url: https://zenleader.global/resources/febi-assessment
 ---
 
 ## Intention
@@ -83,9 +92,4 @@ When the group returns to a full [Circle](../circle/), the collective picture be
 
 The Four Energy Lab strengthens the field by helping us sense our worlds — and each other — more clearly.
 
-## Inspiration
 
-- [Institute for Zen Leadership](https://zenleader.global)
-- [Mycelial and Lichen Intelligence](https://www.themarginalian.org/2025/11/02/lichen/)
-- [Draw Toast TED Talk](https://www.ted.com/talks/tom_wujec_got_a_wicked_problem_first_tell_me_how_you_make_toast/)
-- [FEBI®](https://zenleader.global/resources/febi-assessment) is a registered trademark of the [Institute for Zen Leadership](https://zenleader.global/)

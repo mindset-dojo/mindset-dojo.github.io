@@ -1,13 +1,30 @@
 ---
 layout: form
-title: "Tone"
+title: Tone
 title_mark: Tone
 published_date: 2025-11-10
 refactored_date: 2025-11-10
 authors:
-  - kyle-ingersoll
-  - michael-basil
-excerpt: "Tone is not merely one's tone of voice, but rather the subliminal expression of the level of consciousness of a conversation — it quietly decides whether others open up, lash out, or shut down."
+- kyle-ingersoll
+- michael-basil
+excerpt: Tone is not merely one's tone of voice, but rather the subliminal expression of the level of consciousness of a conversation — it quietly decides whether others open up, lash out, or shut down.
+inspirations:
+- label: Never Split the Difference by Chris Voss
+  url: https://www.amazon.com/Never-Split-Difference-Negotiating-Depended/dp/0062407805
+- label: Negotiation 9 Move - Tone - by Black Swan Group
+  url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
+- label: Ki in Daily Life by Koichi Tohei
+  url: https://www.amazon.com/Ki-Daily-Life-Koichi-Tohei/dp/4889960716
+- label: Zen Toolkit – Four Patterns
+  url: https://vimeo.com/944675826/c57a7ce142
+- label: Institute for Zen Leadership
+  url: https://zenleader.global/
+- label: Move to Greatness by Ginny Whitelaw
+  url: https://zenleader.global/resources/store/p/move-to-greatness-book
+- label: The Map of Consciousness Explained by David Hawkins
+  url: https://www.amazon.com/Map-Consciousness-Explained-Actualize-Potential/dp/1401959644
+- label: Map of Consciousness Example
+  url: https://aktivsjel.no/wp-content/uploads/2019/12/map-of-consciousness-2048x1236.jpg
 ---
 
 ## Intention
@@ -66,13 +83,4 @@ Thus:
 
 > Tone does not end in mastery, but infinitely begins with resonance.
 
-## Inspiration
 
-- [Never Split the Difference by Chris Voss](https://www.amazon.com/Never-Split-Difference-Negotiating-Depended/dp/0062407805)
-- [Negotiation 9 Move - Tone - by Black Swan Group](https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9)
-- [Ki in Daily Life by Koichi Tohei](https://www.amazon.com/Ki-Daily-Life-Koichi-Tohei/dp/4889960716)
-- [Zen Toolkit – Four Patterns](https://vimeo.com/944675826/c57a7ce142)
-- [Institute for Zen Leadership](https://zenleader.global/)
-- [Move to Greatness by Ginny Whitelaw](https://zenleader.global/resources/store/p/move-to-greatness-book)
-- [The Map of Consciousness Explained by David Hawkins](https://www.amazon.com/Map-Consciousness-Explained-Actualize-Potential/dp/1401959644)
-- [Map of Consciousness Example](https://aktivsjel.no/wp-content/uploads/2019/12/map-of-consciousness-2048x1236.jpg)

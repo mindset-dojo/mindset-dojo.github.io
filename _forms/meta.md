@@ -1,13 +1,20 @@
 ---
 layout: form
-title: "Meta"
+title: Meta
 title_mark: Meta
 published_date: 2025-11-10
 refactored_date: 2025-11-10
 authors:
-  - michael-basil
-  - kyle-ingersoll
-excerpt: "Meta is the awareness that emerges through training. It influences the timing, coordination, and integration of all other forms — awakening the inner sensei that learns to guide from wholeness. Informed by Martial Attitude, Meta learns the rhythm of when to act, when to wait, and when to dissolve."
+- michael-basil
+- kyle-ingersoll
+excerpt: Meta is the awareness that emerges through training. It influences the timing, coordination, and integration of all other forms — awakening the inner sensei that learns to guide from wholeness. Informed by Martial Attitude, Meta learns the rhythm of when to act, when to wait, and when to dissolve.
+inspirations:
+- label: Tenshinkan Dojo
+  url: https://japaneseculturecenter.com/classes/aikido
+- label: Chosei Zen
+  url: https://www.choseizen.org/
+- label: Institute for Zen Leadership
+  url: https://zenleader.global
 ---
 
 ## Intention
@@ -47,8 +54,4 @@ Meta may tend to develop in phases that mirror the dojo social learning progress
 Meta matures quietly, through humility, patience, and play. It arises when practice and life no longer feel separate — when even conflict, stillness, or laughter become expressions of the same training. Notice it when it appears. Honor it when it guides.  
 Trust that it grows wherever sincere practice continues.
 
-## Inspiration
 
-- [Tenshinkan Dojo](https://japaneseculturecenter.com/classes/aikido)  
-- [Chosei Zen](https://www.choseizen.org/)  
-- [Institute for Zen Leadership](https://zenleader.global)

@@ -1,13 +1,38 @@
 ---
 layout: form
-title: "Stance"
+title: Stance
 title_mark: Stance
 published_date: 2025-11-06
 refactored_date: 2025-11-16
 authors:
-  - kyle-ingersoll
-  - michael-basil
-excerpt: "A Stance is the personal expression of one's FEBI® energy archetypes through breath, tone, timing, and attention in relation to a context (others in the interaction and shared energy field)."
+- kyle-ingersoll
+- michael-basil
+excerpt: A Stance is the personal expression of one's FEBI® energy archetypes through breath, tone, timing, and attention in relation to a context (others in the interaction and shared energy field).
+inspirations:
+- label: Ki in Daily Life by Koichi Tohei
+  url: https://www.amazon.com/Ki-Daily-Life-Koichi-Tohei/dp/4889960716
+- label: Tenshinkan Dojo
+  url: https://japaneseculturecenter.com/classes/aikido
+- label: Institute for Zen Leadership
+  url: https://zenleader.global
+- label: Never Split the Difference by Chris Voss
+  url: https://www.amazon.com/Never-Split-Difference-Negotiating-Depended/dp/0062407805
+- label: Negotiation 9 Moves from Black Swan Group
+  url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
+- label: 'Black Swan Group: 3 Negotiator Types'
+  url: https://info.blackswanltd.com/hubfs/Content/3%20Types%20of%20Negotiators.pdf
+- label: What's Better than the Golden Rule?
+  url: https://www.thecaap.org/news/whats-better-than-the-golden-rulenbsp
+- label: Resonate by Ginny Whitelaw
+  url: https://www.choseizen.org/store/p/resonate
+- label: The Zen Leader by Ginny Whitelaw
+  url: https://www.choseizen.org/store/p/the-zen-leader
+- label: Move to Greatness by Ginny Whitelaw
+  url: https://zenleader.global/resources/store/p/move-to-greatness-book
+- label: Zen Toolkit - Two Sides
+  url: https://vimeo.com/944663134/d4f1c4f333
+- label: FEBI® is a registered trademark of the Institute for Zen Leadership
+  url: https://zenleader.global/resources/febi-assessment
 ---
 
 ## Intention
@@ -40,17 +65,4 @@ Invite commitment through very specific questions that seeking a cooperative No 
 
 To complete or clear up the conversation, summarize the conversation in structured form while reflecting their emotional reality (Organizer–Collaborator). If one is dealing with stuck points or edges in an conversation, start with [Two Sides](../two-sides/) (Collaborator–Organizer) and then do a [Three Question Reflection](../three-question-reflection/) (Visionary–Collaborator) with a curious, empathetic [Tone](../tone/) to invite dissolving those stuck points/edges. Remember, having no agreement is better than a unsatisfying agreement. This is because that unsatisfaction breeds resentment which moves the relationship below the line.
 
-## Inspiration
 
-- [Ki in Daily Life by Koichi Tohei](https://www.amazon.com/Ki-Daily-Life-Koichi-Tohei/dp/4889960716)
-- [Tenshinkan Dojo](https://japaneseculturecenter.com/classes/aikido)
-- [Institute for Zen Leadership](https://zenleader.global)
-- [Never Split the Difference by Chris Voss](https://www.amazon.com/Never-Split-Difference-Negotiating-Depended/dp/0062407805)
-- [Negotiation 9 Moves from Black Swan Group](https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9)
-- [Black Swan Group: 3 Negotiator Types](https://info.blackswanltd.com/hubfs/Content/3%20Types%20of%20Negotiators.pdf)
-- [What's Better than the Golden Rule?](https://www.thecaap.org/news/whats-better-than-the-golden-rulenbsp)
-- [Resonate by Ginny Whitelaw](https://www.choseizen.org/store/p/resonate)
-- [The Zen Leader by Ginny Whitelaw](https://www.choseizen.org/store/p/the-zen-leader)
-- [Move to Greatness by Ginny Whitelaw](https://zenleader.global/resources/store/p/move-to-greatness-book)
-- [Zen Toolkit - Two Sides](https://vimeo.com/944663134/d4f1c4f333)
-- [FEBI®](https://zenleader.global/resources/febi-assessment) is a registered trademark of the [Institute for Zen Leadership](https://zenleader.global/)
