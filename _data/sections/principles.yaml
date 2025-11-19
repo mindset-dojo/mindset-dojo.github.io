@@ -28,7 +28,7 @@ principles:
       description: "Start light to set direction and minimize drag."
   form:
     - id: "one"
-      label: "Center from One Point"
+      label: "Focus on One Point"
       description: "Start from one intention, and return to it whenever the form drifts."
     - id: "pen"
       label: "Give the Learner the Pen"
