@@ -22,23 +22,20 @@ You are in a flow state, following the impulse to do something whereever that ca
 
 ### Internal  
 
-When above the line, effortless action (Wu-Wei) emerges from one's being with a sense of calm alertness, feeling like a part of the universe. When below the line, one is in crunch time, tense and blinded by fear.
+When postively trending, effortless action emerges from one's being with a sense of calm alertness, feeling like a part of the universe. When negatively trending, one's awareness shrinks down to a point, driven by fear and frustration to fight time itself.
 
 ### Collective  
 
-Driver is the start of resonance, taking that first step on the journey. It sets the beat of the drum that everyone else follows. With above the line [Collaborator](../collaborator/), it unites people around a point of focus into a movement. With below the line or no [Collaborator](../collaborator/), it leaves behind or runs people over.
+Driver is the start of resonance, taking that first step on the journey. It sets the beat of the drum that everyone else follows. With postively trending [Collaborator](../collaborator/), it unites people around a point of focus into a movement. With negatively trending [Collaborator](../collaborator/), it leaves behind or runs people over.
 
 ---
 
-### Shadow & Variations
+### Meta Compass Directions
 
-Shadow – Just following orders without question and grimly marching forward without considering the people around you. Movement without resonance leads one in circles to nowhere.
-
-Overactive – Working without rest or reflection until one breaks.  
-
-Imploding – Getting frustrated that you can't do anything, depression.  
-
-Disassociated – Work is done for no reason, and for no result.
+- **Flowing + Postively Trending:** Moves decisively with relaxed confidence, turning clarity into constructive action.
+- **Flowing + Negatively Trending:** Becomes forceful and aggressive, pushing forward with ego-driven urgency.
+- **Stagnant + Postively Trending:** Wants to act constructively but freezes, second-guesses, or hesitates under tension.
+- **Stagnant + Negatively Trending:** Shuts down into frustration or withdrawal when action feels futile or dangerous.
 
 Feel into the existing Driver energy waves that are there, and blend with them to influence them.
 
@@ -48,7 +45,7 @@ Driver comes from the momentum born of habit, not forced out when you need it.
 
 ### Implementing Our Principles
 
-Release tension by taking [One Breath](../one-breath), and allow the [Visionary](../visionary/) and [Collaborator](../collaborator/) energy to blend in. You are at your most powerful when relaxed, paradoxically, since you are working with instead of against the flow. Then align your [Three Centers](../three-centers/) and examine [Two Sides](../two-sides/) Feel into the collective resonance to attract the future that wants to happen and find your personal Way, then at the moment of maximum vibration between your local and whole Self (you and your context), **move**. Remember, fear often signals opportunity for growth, and playfulness keeps you in the Game.
+Release tension by taking [One Breath](../one-breath), and allow the [Visionary](../visionary/) and [Collaborator](../collaborator/) energy to blend in. You are at your most powerful when relaxed, paradoxically, since you are working with instead of against the flow. Feel into the collective field to attract the future that wants to happen and find what resonates with you, then at the moment of maximum connection between you and your context, **move**. Remember, fear often signals opportunity for growth, and playfulness keeps you in the Game.
 
 ---
 
@@ -56,9 +53,11 @@ Release tension by taking [One Breath](../one-breath), and allow the [Visionary]
 
 When communicating, Driver probes into and resolves conversations.
 
-- Calibrated Questions move the conversation foward through invitation, not force.  
-- Take responsibility for what you are saying with “I” Messages.
-- Summary ensures alignment so the conversation can conclude cleanly.
+**Tips:**
+
+- Use What and How questions to move the conversation forward through invitation, not force.  
+- Take responsibility for what you are saying by buffering You statements with I statements.
+- Summarize the conversation to ensure alignment so the conversation can conclude cleanly.
 - A confident, firm [Tone](../tone/) invites action and trust.  
 
 When mature, Driver allows you to move forward towards your ideals while maintaining connection with everything else.
