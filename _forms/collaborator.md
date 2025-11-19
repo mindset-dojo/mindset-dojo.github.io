@@ -11,16 +11,12 @@ excerpt: Part of the Four Patterns from Institute for Zen Leadership, Collaborat
 inspirations:
 - label: Never Split the Difference by Chris Voss
   url: https://www.amazon.com/Never-Split-Difference-Negotiating-Depended/dp/0062407805
-- label: Negotiation 9 Moves by Black Swan Group
-  url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
 - label: Ki in Daily Life by Koichi Tohei
   url: https://www.amazon.com/Ki-Daily-Life-Koichi-Tohei/dp/4889960716
 - label: Zen Toolkit – Four Patterns
   url: https://vimeo.com/944675826/c57a7ce142
 - label: Institute for Zen Leadership
   url: https://zenleader.global/
-- label: Move to Greatness by Ginny Whitelaw
-  url: https://zenleader.global/resources/store/p/move-to-greatness-book
 - label: FEBI® is a registered trademark of the Institute for Zen Leadership
   url: https://zenleader.global/resources/febi-assessment
 ---
