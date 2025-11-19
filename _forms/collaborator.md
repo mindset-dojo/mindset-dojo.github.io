@@ -13,8 +13,6 @@ inspirations:
   url: https://www.amazon.com/Never-Split-Difference-Negotiating-Depended/dp/0062407805
 - label: Ki in Daily Life by Koichi Tohei
   url: https://www.amazon.com/Ki-Daily-Life-Koichi-Tohei/dp/4889960716
-- label: Zen Toolkit – Four Patterns
-  url: https://vimeo.com/944675826/c57a7ce142
 - label: FEBI® is a registered trademark of the Institute for Zen Leadership
   url: https://zenleader.global/resources/febi-assessment
 ---
