@@ -47,6 +47,9 @@ Each case delegates to a small, focused template for that section type.
   {%- when 'list' -%}
     {% include sections/list.html section=section %}
 
+  {%- when 'inspirations' -%}
+    {% include sections/inspirations.html section=section %}
+
   {%- when 'markdown' -%}
     {% include sections/markdown.html section=section %}
 
