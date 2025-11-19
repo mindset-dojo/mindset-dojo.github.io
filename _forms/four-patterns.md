@@ -5,9 +5,22 @@ title_mark: Patterns
 published_date: 2025-11-09
 refactored_date: 2025-11-09
 authors:
-  - kyle-ingersoll
-  - michael-basil
-excerpt: "Four Patterns is part of the Zen Toolkit from Institute of Zen Leadership and introduces the archtypical FEBI® energies (Driver, Organizer, Collaborator, Visionary) into embodied practice through motion."
+- kyle-ingersoll
+- michael-basil
+excerpt: Four Patterns is part of the Zen Toolkit from Institute of Zen Leadership and introduces the archtypical FEBI® energies (Driver, Organizer, Collaborator, Visionary) into embodied practice through motion.
+inspirations:
+- label: Institute for Zen Leadership
+  url: https://zenleader.global
+- label: Zen Toolkit - Four Patterns
+  url: https://vimeo.com/944675826/c57a7ce142
+- label: Move to Greatness by Ginny Whitelaw
+  url: https://zenleader.global/resources/store/p/move-to-greatness-book
+- label: Resonate by Ginny Whitelaw
+  url: https://www.choseizen.org/store/p/resonate
+- label: Chosei Zen
+  url: https://www.choseizen.org/
+- label: FEBI® is a registered trademark of the Institute for Zen Leadership
+  url: https://zenleader.global/resources/febi-assessment
 ---
 
 ## Intention
@@ -41,12 +54,3 @@ When moving, go with the flow. Keep shaking your hands, feeling the vibration. T
 ### Visionary (Air)
 
 When moving, feel the possibilities. Move your arms and hands around you, never repeating the same motion, feeling the freedom you have. Allow your tension to fade away.
-
-## Inspirations
-
-- [Institute for Zen Leadership](https://zenleader.global)
-- [Zen Toolkit - Four Patterns](https://vimeo.com/944675826/c57a7ce142)
-- [Move to Greatness by Ginny Whitelaw](https://zenleader.global/resources/store/p/move-to-greatness-book)
-- [Resonate by Ginny Whitelaw](https://www.choseizen.org/store/p/resonate)
-- [Chosei Zen](https://www.choseizen.org/)
-- [FEBI®](https://zenleader.global/resources/febi-assessment) is a registered trademark of the [Institute for Zen Leadership](https://zenleader.global/)

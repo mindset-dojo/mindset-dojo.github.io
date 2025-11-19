@@ -1,12 +1,17 @@
 ---
 layout: form
-title: "High Presence Networking"
+title: High Presence Networking
 title_mark: Presence
 published_date: 2025-11-10
 refactored_date: 2025-11-10
 authors:
-  - michael-basil
-excerpt: "A bridge form for extending dojo training into real communities — where energy, dialogue, and collaboration are alive. High Presence Networking turns social connection into embodied practice."
+- michael-basil
+excerpt: A bridge form for extending dojo training into real communities — where energy, dialogue, and collaboration are alive. High Presence Networking turns social connection into embodied practice.
+inspirations:
+- label: Cloud Security Office Hours
+  url: https://csoh.org/
+- label: Institute for Zen Leadership
+  url: https://zenleader.global
 ---
 
 ## Intention
@@ -60,8 +65,3 @@ This is the fieldwork of dojo presence — where awareness meets community in re
 
 1. **Return and Refine**  
   Each encounter is an opportunity to test your training under real social pressure. The more you bring presence into the field, the more the field reflects coherence back to you.
-
-## Inspiration
-
-- [Cloud Security Office Hours](https://csoh.org/)  
-- [Institute for Zen Leadership](https://zenleader.global)

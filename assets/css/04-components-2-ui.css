@@ -63,6 +63,29 @@
     justify-content: center;
   }
 
+  .inspiration-section {
+    margin-top: 48px;
+  }
+
+  .inspiration-list-wrap {
+    margin-top: 20px;
+  }
+
+  .inspiration-list-wrap[hidden] {
+    display: none;
+  }
+
+  .inspiration-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .inspiration-list li + li {
+    margin-top: 12px;
+  }
+
   /* =======================
      Blockquotes (generic visual treatment)
      ======================= */

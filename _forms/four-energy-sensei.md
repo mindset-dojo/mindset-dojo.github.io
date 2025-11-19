@@ -1,14 +1,25 @@
 ---
 layout: form
-title: "Four Energy Sensei"
+title: Four Energy Sensei
 title_mark: Four Energy
 published_date: 2025-10-20
 refactored_date: 2025-10-27
 authors:
-  - michael-basil
-  - kyle-ingersoll
-  - jeremy-mcmillan
-excerpt: "The love child of Elemental FEBI®, Four Patterns, and Simon Says."
+- michael-basil
+- kyle-ingersoll
+- jeremy-mcmillan
+excerpt: The love child of Elemental FEBI®, Four Patterns, and Simon Says.
+inspirations:
+- label: Institute for Zen Leadership
+  url: https://zenleader.global
+- label: Tenshinkan Dojo Aikido Family Class
+  url: https://japaneseculturecenter.com/classes/aikido/
+- label: FEBI® Pattern Framework
+  url: https://zenleader.global/resources/febi-assessment
+- label: FEBI® Four Patterns Experience
+  url: https://www.youtube.com/watch?v=uVTGeFjsD3s
+- label: FEBI® is a registered trademark of the Institute for Zen Leadership
+  url: https://zenleader.global/resources/febi-assessment
 ---
 
 ## Intention
@@ -37,11 +48,3 @@ You center with intention to have playful resonance. You will relax completely a
 
 1. **Close (2–3 min)**  
   Return to stillness, acknowledge the [Circle](../circle/), and optionally capture a quick practice insight.
-
-## Inspiration
-
-- [Institute for Zen Leadership](https://zenleader.global)
-- [Tenshinkan Dojo Aikido Family Class](https://japaneseculturecenter.com/classes/aikido/)
-- [FEBI® Pattern Framework](https://zenleader.global/resources/febi-assessment)
-- [FEBI® Four Patterns Experience](https://www.youtube.com/watch?v=uVTGeFjsD3s)
-- [FEBI®](https://zenleader.global/resources/febi-assessment) is a registered trademark of the [Institute for Zen Leadership](https://zenleader.global/)

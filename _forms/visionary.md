@@ -1,13 +1,20 @@
 ---
 layout: form
-title: "Visionary"
+title: Visionary
 title_mark: Visionary
 published_date: 2025-11-11
 refactored_date: 2025-11-11
 authors:
-  - kyle-ingersoll
-  - michael-basil
-excerpt: "Part of the Four Patterns from Institute for Zen Leadership, Visionary energy expands one's awareness beyond their immediate context, attracting the future."
+- kyle-ingersoll
+- michael-basil
+excerpt: Part of the Four Patterns from Institute for Zen Leadership, Visionary energy expands one's awareness beyond their immediate context, attracting the future.
+inspirations:
+- label: Never Split the Difference by Chris Voss
+  url: https://www.amazon.com/Never-Split-Difference-Negotiating-Depended/dp/0062407805
+- label: Ki in Daily Life by Koichi Tohei
+  url: https://www.amazon.com/Ki-Daily-Life-Koichi-Tohei/dp/4889960716
+- label: FEBI® is a registered trademark of the Institute for Zen Leadership
+  url: https://zenleader.global/resources/febi-assessment
 ---
 
 ## Intention
@@ -56,13 +63,3 @@ In conversation, Visionary changes one's perception of reality:
 - A soft, inviting [Tone](../tone/) lures in possibility.
 
 When mature, Visionary is embodied through execution.
-
-## Inspiration
-
-- [Never Split the Difference by Chris Voss](https://www.amazon.com/Never-Split-Difference-Negotiating-Depended/dp/0062407805)
-- [Negotiation 9 Moves by Black Swan Group](https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9)
-- [Ki in Daily Life by Koichi Tohei](https://www.amazon.com/Ki-Daily-Life-Koichi-Tohei/dp/4889960716)
-- [Zen Toolkit – Four Patterns](https://vimeo.com/944675826/c57a7ce142)
-- [Institute for Zen Leadership](https://zenleader.global/)
-- [Move to Greatness by Ginny Whitelaw](https://zenleader.global/resources/store/p/move-to-greatness-book)
-- [FEBI®](https://zenleader.global/resources/febi-assessment) is a registered trademark of the [Institute for Zen Leadership](https://zenleader.global/)

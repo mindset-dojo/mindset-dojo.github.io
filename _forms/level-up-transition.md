@@ -1,13 +1,18 @@
 ---
 layout: form
-title: "Level Up Transition"
+title: Level Up Transition
 title_mark: Transition
 published_date: 2025-11-15
 refactored_date: 2025-11-16
 authors:
-  - michael-basil
-  - kyle-ingersoll
-excerpt: "A level-up transition marks the shift from one phase of training to the next. It is a moment to sense, connect, integrate, and cross with awareness."
+- michael-basil
+- kyle-ingersoll
+excerpt: A level-up transition marks the shift from one phase of training to the next. It is a moment to sense, connect, integrate, and cross with awareness.
+inspirations:
+- label: Institute for Zen Leadership
+  url: https://zenleader.global
+- label: Tenshinkan Dojo
+  url: https://japaneseculturecenter.com/classes/aikido
 ---
 
 ## Intention
@@ -48,8 +53,3 @@ As part of leveling up, you will create a short insight article capturing this t
 - What becomes possible for you — and for those you train with — as you move into the next level
 
 This reflective harvest completes the Level Up Transition and becomes part of the living [dojo](../dojo/).
-
-## Inspiration
-
-- [Institute for Zen Leadership](https://zenleader.global)
-- [Tenshinkan Dojo](https://japaneseculturecenter.com/classes/aikido)

@@ -1,13 +1,26 @@
 ---
 layout: form
-title: "Resonate"
+title: Resonate
 title_mark: Resonate
 published_date: 2025-11-10
 refactored_date: 2025-11-10
 authors:
-  - michael-basil
-  - kyle-ingersoll
-excerpt: "A companion training form for reading Resonate - Zen and the Way of Making a Difference by Ginny Whitelaw — deepening embodiment of the Zen Toolkit and FEBI® patterns through practice, reflection, and resonance. Read it as dojo training, not theory."
+- michael-basil
+- kyle-ingersoll
+excerpt: A companion training form for reading Resonate - Zen and the Way of Making a Difference by Ginny Whitelaw — deepening embodiment of the Zen Toolkit and FEBI® patterns through practice, reflection, and resonance. Read it as dojo training, not theory.
+inspirations:
+- label: Resonate - Zen and the Way of Making a Difference by Ginny Whitelaw
+  url: https://www.choseizen.org/store/p/resonate
+- label: Institute for Zen Leadership
+  url: https://zenleader.global
+- label: Chosei Zen
+  url: https://www.choseizen.org/
+- label: Negotiation 9 Move - Calibrated Questions - Black Swan Group
+  url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
+- label: Negotiation 9 Move - Dynamic Silence - Black Swan Group
+  url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
+- label: FEBI® is a registered trademark of the Institute for Zen Leadership
+  url: https://zenleader.global/resources/febi-assessment
 ---
 
 ## Intention
@@ -49,12 +62,3 @@ As you work through the book:
 5. **Integration.** Bring your reflections to Self-Authorship [Circle](../circle/) and [Mat](../mat/) practice as appropriate. Share what’s alive for you; teach through example.  
 
 Reading *Resonate* is a bridge between insight and embodiment — a way to align theory, energy, and presence through disciplined curiosity.
-
-## Inspiration
-
-- [Resonate - Zen and the Way of Making a Difference by Ginny Whitelaw](https://www.choseizen.org/store/p/resonate)  
-- [Institute for Zen Leadership](https://zenleader.global)  
-- [Chosei Zen](https://www.choseizen.org/)
-- [Negotiation 9 Move - Calibrated Questions - Black Swan Group](https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9)
-- [Negotiation 9 Move - Dynamic Silence - Black Swan Group](https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9)  
-- [FEBI®](https://zenleader.global/resources/febi-assessment) is a registered trademark of the [Institute for Zen Leadership](https://zenleader.global/)

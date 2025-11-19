@@ -5,8 +5,15 @@ title_mark: Cultivator
 published_date: 2025-11-13
 refactored_date: 2025-11-13
 authors:
-  - kyle-ingersoll
-excerpt: "A Domain-Focused Cultivator supports the Dojo through their domain expertise tuned in through the Program."
+- kyle-ingersoll
+excerpt: A Domain-Focused Cultivator supports the Dojo through their domain expertise tuned in through the Program.
+inspirations:
+- label: Dojo Consortium
+  url: https://dojoconsortium.org
+- label: SAP Dojo
+  url: https://github.com/sap-samples/dojo
+- label: InnerSource Commons Foundation
+  url: https://innersourcecommons.org
 ---
 
 ## Intention
@@ -20,13 +27,3 @@ You train to apply the Program to your chosen domain of expertise. You meet regu
 ## Implementation
 
 After passing the Grey Level [Threshold](../threshold/), make a significant contribution to the community in your chosen domain. Network with the other Cultivators, express your interest in the designation and mentorship, and start attending Cultivator [Circle](../circle/) meetings. Train hard in both the Program and your chosen domain, make contributions as it makes sense, and get to Green Level. Once you pass the Green Level [Threshold](../threshold/), negotiate sponsorship from existing Cultivators and then make a pull request claiming the designation.
-
-## Inspiration
-
-- [Ki in Daily Life by Koichi Tohei](https://www.amazon.com/Ki-Daily-Life-Koichi-Tohei/dp/4889960716)
-- [Institute for Zen Leadership](https://zenleader.global)
-- [Chosei Zen](https://www.choseizen.org/)
-- [Tenshinkan Dojo](https://japaneseculturecenter.com/classes/aikido)
-- [Dojo Consortium](https://dojoconsortium.org)
-- [SAP Dojo](https://github.com/sap-samples/dojo)
-- [InnerSource Commons Foundation](https://innersourcecommons.org)

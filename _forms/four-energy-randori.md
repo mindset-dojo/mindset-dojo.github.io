@@ -1,13 +1,22 @@
 ---
 layout: form
-title: "Four Energy Randori"
+title: Four Energy Randori
 title_mark: Randori
 published_date: 2025-11-09
 refactored_date: 2025-11-16
 authors:
-  - michael-basil
-  - kyle-ingersoll
-excerpt: "Four Energy Randori is a presence-training form where we meet changing conditions with centeredness and adaptability through the Four Energy Patterns: Driver, Organizer, Collaborator, and Visionary."
+- michael-basil
+- kyle-ingersoll
+excerpt: 'Four Energy Randori is a presence-training form where we meet changing conditions with centeredness and adaptability through the Four Energy Patterns: Driver, Organizer, Collaborator, and Visionary.'
+inspirations:
+- label: Randori in Aikido
+  url: https://en.wikipedia.org/wiki/Randori#In_aikido
+- label: Tenshinkan Dojo
+  url: https://japaneseculturecenter.com/classes/aikido
+- label: Institute for Zen Leadership
+  url: https://zenleader.global
+- label: FEBI® is a registered trademark of the Institute for Zen Leadership
+  url: https://zenleader.global/resources/febi-assessment
 ---
 
 ## Intention
@@ -57,10 +66,3 @@ Each randori adapts to who is present and what the moment demands.
   
 1. **Close (5–10 min)**  
   Reset the field and acknowledge the threshold crossed.
-
-## Inspiration
-
-- [Randori in Aikido](https://en.wikipedia.org/wiki/Randori#In_aikido)  
-- [Tenshinkan Dojo](https://japaneseculturecenter.com/classes/aikido)  
-- [Institute for Zen Leadership](https://zenleader.global)
-- [FEBI®](https://zenleader.global/resources/febi-assessment) is a registered trademark of the [Institute for Zen Leadership](https://zenleader.global/)
