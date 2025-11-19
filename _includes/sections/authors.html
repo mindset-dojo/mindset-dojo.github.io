@@ -29,14 +29,8 @@ Example usages:
   {% include sections/authors.html section=section authors="a,b" %}           {# subset by slugs #}
 {%- endcomment -%}
 
-{%- assign D = section.data -%}
+{%- assign D = section.data | default: {} -%}
 {%- assign designation_type = D.leadership_flow.designation_type | default: '' | downcase | strip -%}
-
-{%- if D.leadership_flow and D.leadership_flow.label -%}
-<section class="md-flow">
-  <h2>{{ D.leadership_flow.label }}</h2>
-</section>
-{%- endif -%}
 
 {%- comment -%} Normalize include.authors (slugs) to an array {%- endcomment -%}
 {%- assign use_override = include.authors and include.authors != "" -%}
@@ -114,7 +108,19 @@ Example usages:
   {%- endif -%}
 {%- endfor -%}
 
-{% include sections/card-grid.html
-  items=author_cards
-  item_partial="sections/author.html"
-  wrapper_class="card-grid-authors" %}
+{%- if section -%}
+<section class="md-flow card-stream">
+  {%- if D.leadership_flow and D.leadership_flow.label -%}
+    <h2>{{ D.leadership_flow.label }}</h2>
+  {%- endif -%}
+  {% include sections/card-grid.html
+    items=author_cards
+    item_partial="sections/author.html"
+    wrapper_class="card-grid-authors" %}
+</section>
+{%- else -%}
+  {% include sections/card-grid.html
+    items=author_cards
+    item_partial="sections/author.html"
+    wrapper_class="card-grid-authors" %}
+{%- endif -%}
