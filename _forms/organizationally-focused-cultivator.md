@@ -16,12 +16,6 @@ inspirations:
   url: https://www.choseizen.org/
 - label: Tenshinkan Dojo
   url: https://japaneseculturecenter.com/classes/aikido
-- label: Dojo Consortium
-  url: https://dojoconsortium.org
-- label: SAP Dojo
-  url: https://github.com/sap-samples/dojo
-- label: InnerSource Commons Foundation
-  url: https://innersourcecommons.org
 ---
 
 ## Intention

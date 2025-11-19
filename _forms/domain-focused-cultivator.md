@@ -8,14 +8,6 @@ authors:
 - kyle-ingersoll
 excerpt: A Domain-Focused Cultivator supports the Dojo through their domain expertise tuned in through the Program.
 inspirations:
-- label: Ki in Daily Life by Koichi Tohei
-  url: https://www.amazon.com/Ki-Daily-Life-Koichi-Tohei/dp/4889960716
-- label: Institute for Zen Leadership
-  url: https://zenleader.global
-- label: Chosei Zen
-  url: https://www.choseizen.org/
-- label: Tenshinkan Dojo
-  url: https://japaneseculturecenter.com/classes/aikido
 - label: Dojo Consortium
   url: https://dojoconsortium.org
 - label: SAP Dojo
