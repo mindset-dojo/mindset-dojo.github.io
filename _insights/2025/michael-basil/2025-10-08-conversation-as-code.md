@@ -7,21 +7,11 @@ refactored_date: 2025-11-07
 authors: 
   - michael-basil
 forms:
-  - integration-under-fire
-  - dojo
-  - threshold
-  - revealed-preference-reflection
-  - stance
-  - one-breath
-  - three-centers
   - tone
   - driver
-  - organizer
   - collaborator
-  - visionary
 excerpt: "Every conversation writes code into the field — tone, timing, and language compile into patterns that shape what becomes possible next."
 ---
-
 Every conversation writes code into the field. Tone, timing, and language compile into patterns shaping what becomes possible next.
 
 Most of our code runs below awareness. Old scripts re-execute: defensiveness, control, self-protection.

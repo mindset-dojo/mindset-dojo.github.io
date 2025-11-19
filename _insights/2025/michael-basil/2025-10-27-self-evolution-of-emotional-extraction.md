@@ -6,25 +6,10 @@ published_date: 2025-10-27
 refactored_date: 2025-11-07
 authors:
   - michael-basil
-forms: 
-  - dojo
-  - circle
-  - mat
-  - three-question-reflection
-  - integration-under-fire
-  - threshold
-  - revealed-preference-reflection
-  - stance
-  - martial-attitude
-  - two-sides
-  - three-centers
-  - four-patterns
+forms:
   - meta
   - tone
   - driver
-  - organizer
-  - collaborator
-  - visionary
 excerpt: |
   When sympathy stops being care and becomes currency, the bond is ready to evolve.  
   This piece traces how emotional extraction refines into awareness—linking the arc from  
@@ -32,7 +17,6 @@ excerpt: |
   Self-Evolution Is Socially Annoying, and Zero-Sympathy Phasing.  
   The extraction ends; the evolution begins.
 ---
-
 Every unhealthy bond begins as an attempt to connect. At first, we invest attention the way we might invest money—hoping for resonance, return, or recognition. We don’t yet realize that our [attention portfolio](../attention-portfolio-intelligence/) determines not just what we notice, but what grows in us. When that portfolio tilts too far toward rescue, repair, or reassurance, we become vulnerable to emotional inflation—a story that feeds by consuming.
 
 At that point, what once felt like love begins to feel like labor. The emotion turns into economy. Attention becomes currency. And the self feels traded rather than met.

@@ -5,20 +5,13 @@ title_mark: Reflection
 authors: 
   - kyle-ingersoll
 forms:
-  - dojo
-  - sensei
-  - integration-under-fire
-  - threshold
   - stance
-  - four-patterns
-  - tone
-  - visionary
   - driver
+  - threshold
 published_date: 2025-07-26
 refactored_date: 2025-11-07
 excerpt: "Through Blue Belt training, I learned that Fearless Leadership begins not with control, but with the awareness to lead, follow, and act through balance."
 ---
-
 Before Blue Belt training, I often approached conversations passively — following a mental script, reacting rather than leading.
 
 Since training, I’ve developed greater awareness and intention. I now enter conversations with a direction in mind and use Driver energy to move them forward. I’m not just participating; I’m steering.

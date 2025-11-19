@@ -7,31 +7,11 @@ refactored_date: 2025-11-07
 authors:
   - kyle-ingersoll
 forms:
-  - integration-under-fire
-  - dojo
-  - circle
-  - mat
-  - sensei
-  - senpai
-  - kohai
-  - metashift-community-demonstration
-  - genuine-gratitude-expression
-  - threshold
   - stance
-  - martial-attitude
-  - stillness-contemplation
-  - four-patterns
-  - two-sides
-  - high-presence-networking
   - resonate
   - tone
-  - driver
-  - organizer
-  - collaborator
-  - visionary
 excerpt: "At ZLOTC, I discovered that every act of teaching is also an act of learning — when we reflect, allow, and connect, Ki extends, and the circle becomes a spiral."
 ---
-
 Recently, [Michael Basil](../../authors/michael-basil/) and [I](../..//authors/kyle-ingersoll/) presented at [ZLOTC (Zen Leader Off the Cushion)](https://zenleader.global/zlotc-registration), hosted by the [Institute for Zen Leadership](https://zenleader.global/).
 Our topic: *Meta Energy*, *Elemental [FEBI(https://zenleader.global/resources/febi-assessment), and the *Essential Flip — From Controlling to Connecting.*
 

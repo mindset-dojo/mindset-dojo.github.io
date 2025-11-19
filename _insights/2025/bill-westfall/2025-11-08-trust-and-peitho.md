@@ -7,13 +7,11 @@ refactored_date: 2025-11-08
 authors:
   - bill-westfall
 forms:
-  - stillness-contemplation
-  - circle
-  - tone
   - visionary
+  - tone
+  - stillness-contemplation
 excerpt: "Reflection on 'trust' in the 'Circle' Mindset form."
 ---
-
 [Circle](../../forms/circle/) is introduced in the gray level training from the Mindset Dojo. "Trust" as a concept is mentioned several times as core to the circle, and so I thought I would examine the idea of trust.
 
 The modern concept of trust in society is generally defined as a belief or confidence that another person, group, or institution will act in a reliable, honest, and beneficial manner. It involves a willingness of the "trustor" to be vulnerable to the actions of the "trustee," expecting that the trustee will act with integrity and in ways that benefit or do not harm the trustor, even though the trustor cannot control the trustee's actions. Trust reduces social complexity by allowing individuals to rely on others without constantly doubting their intentions or outcomes, facilitating cooperation and social cohesion.

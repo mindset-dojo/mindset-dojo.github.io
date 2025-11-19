@@ -7,22 +7,11 @@ refactored_date: 2025-11-07
 authors: 
   - kyle-ingersoll
 forms:
-  - integration-under-fire
-  - threshold
-  - revealed-preference-reflection
-  - stance
-  - martial-attitude
-  - two-sides
-  - three-centers
-  - tone
   - driver
-  - organizer
-  - collaborator
-  - visionary
+  - threshold
+  - tone
 excerpt: "When resonance fails and words no longer reach, the true martial art is to wield even one’s shadow with clarity — using force not to conquer, but to protect the peace that presence built."
 ---
-
-
 The room was quiet.  
 Two leaders stood across an invisible line.  
 One felt the surge — that dark edge between control and chaos.  

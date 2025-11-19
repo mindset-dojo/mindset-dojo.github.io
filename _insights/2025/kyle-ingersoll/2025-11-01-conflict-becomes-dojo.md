@@ -7,24 +7,12 @@ refactored_date: 2025-11-07
 authors:
   - kyle-ingersoll
 forms:
-  - integration-under-fire
-  - dojo
-  - mat
-  - threshold
-  - revealed-preference-reflection
-  - stance
-  - martial-attitude
-  - one-breath
-  - two-sides
-  - three-centers
-  - tone
   - driver
   - collaborator
   - visionary
 excerpt: | 
   When two people meet in conflict with the intention to learn rather than win, tension becomes the dojo where relationship, awareness, and leadership are forged.
 ---
-
 They sat across the table, the air tight between them.  
 Words had stopped, but their Ki still clashed.  
 Each waited for the other to yield.  

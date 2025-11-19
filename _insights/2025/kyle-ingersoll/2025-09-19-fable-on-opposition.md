@@ -5,18 +5,13 @@ title_mark: Opposition
 authors: 
   - kyle-ingersoll
 forms:
-  - dojo
-  - integration-under-fire
+  - driver
   - threshold
   - stance
-  - martial-attitude
-  - driver
-  - visionary
 published_date: 2025-09-19
 refactored_date: 2025-11-07
 excerpt: "Opposition is not just resistance — it is the sharpening edge that deepens our roots, clarifies our direction, and prepares us to rise beyond limits."
 ---
-
 Once, in a quiet grove, a young bamboo shoot stretched eagerly toward the sky.
 
 Each day it reached upward, convinced that growth was only about touching the heavens.

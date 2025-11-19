@@ -6,32 +6,16 @@ published_date: 2025-10-27
 refactored_date: 2025-11-07
 authors:
   - michael-basil
-forms: 
-  - dojo
-  - circle
-  - mat
-  - three-question-reflection
-  - integration-under-fire
-  - threshold
-  - revealed-preference-reflection
-  - stance
-  - martial-attitude
-  - two-sides
-  - three-centers
-  - four-patterns
+forms:
   - meta
-  - tone
-  - driver
-  - organizer
+  - stance
   - collaborator
-  - visionary
 excerpt: >
   Zero-sympathy phasing is not detachment but metabolization—the ability to stay
   fully connected to the emotional field without collapsing into rescue or control.
   It neutralizes exploitative sympathy loops so that genuine, balanced empathy
   can return.
 ---
-
 *(The family system—making corporate politics look hilariously simple and entertaining by comparison, except when job cuts remind us it isn’t a collaborative game.)*  
 
 Well-timed, well-intentioned **zero-sympathy phasing** isn’t detachment; it’s metabolization. It’s the capacity to stay fully connected to the emotional field—relationally and conversationally—without collapsing into rescue or control. This phase neutralizes a subtle but potent form of emotional exploitation: the **collaborator exploit**—the *selfish sympathy ploy.*  

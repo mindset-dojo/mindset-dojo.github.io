@@ -7,25 +7,11 @@ refactored_date: 2025-11-16
 authors:
   - kyle-ingersoll
 forms:
-  - dojo
-  - mat
-  - sensei
-  - integration-under-fire
-  - stance
-  - martial-attitude
-  - threshold
-  - one-breath
-  - two-sides
-  - three-centers
-  - tone
   - driver
-  - organizer
-  - collaborator
-  - visionary
-  - genuine-gratitude-expression
+  - stance
+  - tone
 excerpt: “Under pressure, the student’s awareness shrank until even a priceless teaching seemed ordinary—only when his mind widened again did he recognize the treasure he nearly traded away.”
 ---
-
 A young student nearly traded a treasure for a trinket.
 
 An offer had arrived wrapped in urgency — “act now,” “secure your place,” “don’t miss out.”

@@ -7,21 +7,11 @@ refactored_date: 2025-11-13
 authors: 
   - michael-basil
 forms:
-  - integration-under-fire
-  - dojo
   - threshold
   - stance
-  - two-sides
-  - three-centers
   - driver
-  - organizer
-  - collaborator
-  - visionary
-  - domain-focused-cultivator
-  - organizationally-focused-cultivator
 excerpt: "In the dojo, we’re not trying to build an audience — we’re cultivating a field of thresholds: experiences that transform presence into trust."
 ---
-
 Most people think community building means gathering followers. But following is passive. It accumulates attention, not authorship.
 
 In the dojo, we're not trying to build an audience. We're cultivating a field of thresholds — experiences that transform presence into trust.
