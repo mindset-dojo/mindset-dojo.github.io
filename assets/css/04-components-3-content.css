@@ -80,35 +80,39 @@
      ======================= */
 
   .card-stream-grid {
-    display: inline-grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 230px));
-    gap: 8px;
-    width: auto;
-    max-width: 100%;
-    align-items: stretch;
-    justify-content: center;
-    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 240px));
+    gap: 16px;
+    width: 100%;
+    max-width: 720px;
     margin: 24px auto 0;
+    justify-content: center;
   }
 
   .card-grid-single,
   .card-grid-double {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
     justify-content: center;
+    width: 100%;
+    max-width: 520px;
+    margin: 24px auto 0;
   }
 
-  .card-grid-single .card-stream-item {
-    grid-column: 2 / 3;
+  .card-grid-single {
+    max-width: 240px;
   }
 
-  .card-grid-double .card-stream-item:nth-child(odd):last-child {
-    grid-column: 2 / 3;
+  .card-grid-single .card-stream-item,
+  .card-grid-double .card-stream-item {
+    width: 240px;
   }
 
   .card-stream-item {
     display: flex;
     height: 100%;
     width: 100%;
-    max-width: 230px;
   }
 
   .form-card {
@@ -124,9 +128,22 @@
     min-height: 100%;
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 900px) {
     .card-stream-grid {
-      grid-template-columns: repeat(3, minmax(0, 230px));
+      grid-template-columns: repeat(3, minmax(0, 240px));
+    }
+  }
+
+  @media (max-width: 768px) {
+    .card-stream-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      max-width: 100%;
+    }
+  }
+
+  @media (max-width: 520px) {
+    .card-stream-grid {
+      grid-template-columns: minmax(0, 1fr);
     }
   }
 
