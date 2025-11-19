@@ -1,7 +1,7 @@
 ---
 layout: threshold
 sections_key: author
-mantra: "Awareness is Ki"
+mantra: "Attitude is Ki"
 mantra_mark: "Ki"
 description: |
   Leadership presence coach and systems thinker drawn to early-stage founders and emerging
