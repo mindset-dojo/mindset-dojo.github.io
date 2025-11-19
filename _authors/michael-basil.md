@@ -2,7 +2,7 @@
 layout: threshold
 sections_key: author
 mantra: "Attitude is Ki"
-mantra_mark: "Ki"
+mantra_mark: "Attitude"
 description: |
   Leadership presence coach and systems thinker drawn to early-stage founders and emerging
   talent—bridging Zero Trust, Agile flow, and embodied practice.
