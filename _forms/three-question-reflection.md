@@ -8,6 +8,7 @@ authors:
 - kyle-ingersoll
 - michael-basil
 excerpt: Reflect about your experiences through answering three What and/or How questions either with a group or on your own through Stillness Contemplation.
+icon: fa-solid fa-question
 inspirations:
 - label: Socratic Method
   url: https://en.wikipedia.org/wiki/Socratic_method

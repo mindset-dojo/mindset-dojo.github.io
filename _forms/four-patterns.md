@@ -8,6 +8,7 @@ authors:
 - kyle-ingersoll
 - michael-basil
 excerpt: Four Patterns is part of the Zen Toolkit from Institute of Zen Leadership and introduces the archtypical FEBI® energies (Driver, Organizer, Collaborator, Visionary) into embodied practice through motion.
+icon: fa-solid fa-shapes
 inspirations:
 - label: Institute for Zen Leadership
   url: https://zenleader.global

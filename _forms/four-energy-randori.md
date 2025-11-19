@@ -8,6 +8,7 @@ authors:
 - michael-basil
 - kyle-ingersoll
 excerpt: 'Four Energy Randori is a presence-training form where we meet changing conditions with centeredness and adaptability through the Four Energy Patterns: Driver, Organizer, Collaborator, and Visionary.'
+icon: fa-solid fa-people-arrows
 inspirations:
 - label: Randori in Aikido
   url: https://en.wikipedia.org/wiki/Randori#In_aikido

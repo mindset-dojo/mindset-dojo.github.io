@@ -8,6 +8,7 @@ authors:
 - kyle-ingersoll
 - michael-basil
 excerpt: One Breath is part of the Zen Toolkit from Institute of Zen Leadership and is when one takes 3-5 Hara breaths (Belly Breathing) to center one's self.
+icon: fa-solid fa-wind
 inspirations:
 - label: Institute for Zen Leadership
   url: https://zenleader.global

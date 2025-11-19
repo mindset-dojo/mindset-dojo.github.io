@@ -8,6 +8,7 @@ authors:
 - michael-basil
 - kyle-ingersoll
 excerpt: A level-up transition marks the shift from one phase of training to the next. It is a moment to sense, connect, integrate, and cross with awareness.
+icon: fa-solid fa-arrow-up-right-dots
 inspirations:
 - label: Institute for Zen Leadership
   url: https://zenleader.global

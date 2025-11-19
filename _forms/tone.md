@@ -8,6 +8,7 @@ authors:
 - kyle-ingersoll
 - michael-basil
 excerpt: Tone is not merely one's tone of voice, but rather the subliminal expression of the level of consciousness of a conversation — it quietly decides whether others open up, lash out, or shut down.
+icon: fa-solid fa-volume-high
 inspirations:
 - label: Never Split the Difference by Chris Voss
   url: https://www.amazon.com/Never-Split-Difference-Negotiating-Depended/dp/0062407805

@@ -8,6 +8,7 @@ authors:
 - kyle-ingersoll
 - michael-basil
 excerpt: Part of the Four Patterns from Institute for Zen Leadership, Collaborator energy creates resonance from relationship through alignment.
+icon: fa-solid fa-people-group
 inspirations:
 - label: Never Split the Difference by Chris Voss
   url: https://www.amazon.com/Never-Split-Difference-Negotiating-Depended/dp/0062407805

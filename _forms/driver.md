@@ -8,6 +8,7 @@ authors:
 - kyle-ingersoll
 - michael-basil
 excerpt: Part of the Four Patterns from Institute for Zen Leadership, Driver energy concentrates your focus and moves you forward.
+icon: fa-solid fa-gauge-high
 inspirations:
 - label: Never Split the Difference by Chris Voss
   url: https://www.amazon.com/Never-Split-Difference-Negotiating-Depended/dp/0062407805

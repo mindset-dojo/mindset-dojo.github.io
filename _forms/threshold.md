@@ -8,6 +8,7 @@ authors:
 - michael-basil
 - kyle-ingersoll
 excerpt: A threshold is the line between thought and action, Visionary and Driver energy.
+icon: fa-solid fa-door-open
 inspirations:
 - label: Torii Gate
   url: https://theartofzen.org/the-enchanting-world-of-torii-gates-in-japan/

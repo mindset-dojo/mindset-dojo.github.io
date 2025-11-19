@@ -3,22 +3,12 @@ mantra: "Don't Cope. Condition."
 mantra_mark: "Condition."
 description: "We are culture evolvers."
 sections:
-  - type: text
-    data:
-      label: "Training Forms: Living Library"
-      items:
-        - "Form training reconditions the field in conversational leadership."
-        - "We observe in the wild, distill the form, and evolve it in training."
-        - "Use them as guides—adapt to context, don’t memorize."
-  - type: principles
-    data:
-      principles_title: "Authorship Principles"
-      principles_groups:
-        - "form"
   - type: collection-stream
     data:
       collection: forms
       sort_by: title
       reverse: false
       excerpt_length: 220
+      card_layout: true
+      item_partial: sections/form-card.html
 ...

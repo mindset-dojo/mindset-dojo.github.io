@@ -7,6 +7,7 @@ refactored_date: 2025-11-09
 authors:
 - michael-basil
 excerpt: Four Energy Reflection is an introductory self-awareness form that reveals your natural energy patterns through the FEBI® lens — Driver, Organizer, Collaborator, and Visionary — and invites embodied reflection as the first threshold of practice.
+icon: fa-solid fa-magnifying-glass
 inspirations:
 - label: FEBI® Pattern Framework
   url: https://zenleader.global/resources/febi-assessment

@@ -49,24 +49,28 @@ function initMD () {
   // related content toggles
   const relatedSections = document.querySelectorAll('[data-related-toggle="true"]')
   relatedSections.forEach((section) => {
-    const button = section.querySelector('[data-related-toggle-button]')
+    const buttons = Array.from(section.querySelectorAll('[data-related-toggle-button]'))
     const content = section.querySelector('[data-related-toggle-content]')
-    if (!button || !content) return
+    if (buttons.length === 0 || !content) return
 
-    const showLabel = button.dataset.showLabel || 'Show'
-    const hideLabel = button.dataset.hideLabel || 'Hide'
+    const showLabel = buttons[0].dataset.showLabel || 'Show'
+    const hideLabel = buttons[0].dataset.hideLabel || 'Hide'
 
     const setExpanded = (expanded) => {
       content.hidden = !expanded
-      button.textContent = expanded ? hideLabel : showLabel
-      button.setAttribute('aria-expanded', String(expanded))
+      buttons.forEach((btn) => {
+        btn.textContent = expanded ? hideLabel : showLabel
+        btn.setAttribute('aria-expanded', String(expanded))
+      })
     }
 
     setExpanded(false)
 
-    button.addEventListener('click', () => {
-      const expanded = button.getAttribute('aria-expanded') === 'true'
-      setExpanded(!expanded)
+    buttons.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const expanded = btn.getAttribute('aria-expanded') === 'true'
+        setExpanded(!expanded)
+      })
     })
   })
 }

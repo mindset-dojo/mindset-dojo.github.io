@@ -9,6 +9,7 @@ authors:
 - kyle-ingersoll
 - jeremy-mcmillan
 excerpt: The love child of Elemental FEBI®, Four Patterns, and Simon Says.
+icon: fa-solid fa-chalkboard-user
 inspirations:
 - label: Institute for Zen Leadership
   url: https://zenleader.global

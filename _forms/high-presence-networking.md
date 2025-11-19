@@ -7,6 +7,7 @@ refactored_date: 2025-11-10
 authors:
 - michael-basil
 excerpt: A bridge form for extending dojo training into real communities — where energy, dialogue, and collaboration are alive. High Presence Networking turns social connection into embodied practice.
+icon: fa-solid fa-network-wired
 inspirations:
 - label: Cloud Security Office Hours
   url: https://csoh.org/
