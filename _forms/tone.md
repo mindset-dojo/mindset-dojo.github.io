@@ -82,5 +82,3 @@ Through regular practice, using Meta Compass becomes instinctual, felt instead o
 Thus:
 
 > Tone does not end in mastery, but infinitely begins with resonance.
-
-

@@ -34,5 +34,3 @@ You start with a flowing, postively trending Collaborator-Visionary (with just a
 Beyond the Form, make sure you are authentically aligned with Head, Heart, and Hara before communicating. [One Breath](../one-breath/), [Two Sides](../two-sides/) and [Three Centers](../three-centers/) can be helpful in preparation and discernment.
 
 The key to successfully executing the Form is to tailor the expression of the Form to match the norms of the recipiant, the relationship, and the cultural context. Remember both Platnum and Golden Rules when expressing gratitude.
-
-

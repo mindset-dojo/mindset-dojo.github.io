@@ -53,5 +53,3 @@ Meta may tend to develop in phases that mirror the dojo social learning progress
 
 Meta matures quietly, through humility, patience, and play. It arises when practice and life no longer feel separate — when even conflict, stillness, or laughter become expressions of the same training. Notice it when it appears. Honor it when it guides.  
 Trust that it grows wherever sincere practice continues.
-
-

@@ -72,5 +72,3 @@ In conversation, Organizer invites alignment:
 - A reasonable [Tone](../tone/) allows for optimum performance through psychological safety
 
 When mature, Organizer simply reveals what is already there and invites others to join in.
-
-

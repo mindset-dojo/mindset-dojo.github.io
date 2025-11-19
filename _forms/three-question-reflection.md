@@ -38,5 +38,3 @@ Find a willing [Circle](../circle/), engage the [Mat](../mat/), and begin the se
 ### Post-Exercise
 
 Following this exercise is a good time to consider authoring an Insight post about the results of the reflection. Getting the insight down while it is fresh in your mind is critical to maintaining energy flow (Ki).
-
-

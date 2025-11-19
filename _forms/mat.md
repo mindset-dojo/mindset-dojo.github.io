@@ -25,5 +25,3 @@ You will center with intention to meet fear with presence. Meeting fear with pre
 ## Implementation
 
 One can train on a Mat by themselves or collectively in a [Circle](../circle/). Both types of training require calibrated questions to find stuck points, dynamic silence to invite the other to answer honestly, and paraphrasing what they said to ensure mutual understanding. Again, Webs of Trust are Ki to doing this training safely.
-
-

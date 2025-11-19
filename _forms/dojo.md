@@ -35,5 +35,3 @@ You will experience a playfully serious resonance that will invite you to relax 
 ## Implementation
 
 One engages the [Mat](../mat/) within the [Circle](../circle/), thus making a Dojo. To be more precise, one infuses and leads a [Circle](../circle/) with a playfully serious resonance and centers with intention to meet fear with presence inviting [Circle](../circle/) members to relax completely and deepen the training.
-
-

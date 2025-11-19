@@ -73,5 +73,3 @@ In conversation, Collaborator allows for a shared perception of reality:
 - A caring, soft [Tone](../tone/) shows empathy through one's actions.
 
 When mature, Collaborator creates harmony out of the emergent order.
-
-

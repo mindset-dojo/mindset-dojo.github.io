@@ -91,5 +91,3 @@ When the group returns to a full [Circle](../circle/), the collective picture be
 - A foundation for collective action or deeper practice
 
 The Four Energy Lab strengthens the field by helping us sense our worlds — and each other — more clearly.
-
-

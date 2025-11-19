@@ -65,5 +65,3 @@ This is the fieldwork of dojo presence — where awareness meets community in re
 
 1. **Return and Refine**  
   Each encounter is an opportunity to test your training under real social pressure. The more you bring presence into the field, the more the field reflects coherence back to you.
-
-

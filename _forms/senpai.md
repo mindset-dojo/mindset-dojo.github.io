@@ -31,5 +31,3 @@ You will experience a playfully serious resonance that will invite you to relax 
 ## Implementation
 
 To be a Senpai, one must have passed through the Blue Level Threshold. Teach [Kohai](../kohai/) and other Senpai what you know about Fearless Leadership and MetaShift Method in [Mat](../mat/) sessions.
-
-

@@ -53,5 +53,3 @@ As part of leveling up, you will create a short insight article capturing this t
 - What becomes possible for you — and for those you train with — as you move into the next level
 
 This reflective harvest completes the Level Up Transition and becomes part of the living [dojo](../dojo/).
-
-

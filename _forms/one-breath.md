@@ -36,5 +36,3 @@ Take notes as necessary, then practice the exercise for yourself.
 After that, see how it is expressed in Mindset Dojo training:
 
 One deeply breaths through their belly as slowly as possible. Repeat this breath 3-5 times. Make sure your exhale is longer than your inhale. Also, make sure your big toes touch something when you exhale.
-
-

@@ -74,5 +74,3 @@ When communicating, Driver probes into and resolves conversations.
 - A confident, firm [Tone](../tone/) invites action and trust.  
 
 When mature, Driver allows you to move forward towards your ideals while maintaining connection with everything else.
-
-

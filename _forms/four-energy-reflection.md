@@ -55,5 +55,3 @@ Each published reflection becomes part of the open-source living field of practi
 
 1. **Optional Follow-On (Flexible)**  
   Apply learnings through [Mat](../mat/) practice, journaling, or other Mindset Dojo form work.
-
-

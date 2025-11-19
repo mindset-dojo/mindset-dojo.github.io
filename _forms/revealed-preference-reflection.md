@@ -27,5 +27,3 @@ You sit with your own or another's actions until they make sense from your persp
 ## Implementation
 
 You reflect upon your own or another's actions, and your shadow (what you don't acknowledge about yourself) is revealed through the stuck points. This is critical to achieving a personal understanding of people's motivations, especially in cases of manipulation or self-deception.
-
-

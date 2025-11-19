@@ -35,5 +35,3 @@ You aid the organization and community holistically through mastery of what is t
 ## Implementation
 
 As a Domain-Focused Cultivator, keep making contributions, networking, and training in the Program. Once you pass the Black Level [Threshold](../threshold/), negotiate with other Cultivators sponsorship. Once you get it, make a pull request claiming the Organizationally-Focused Cultivator designation.
-
-

@@ -54,5 +54,3 @@ When moving, go with the flow. Keep shaking your hands, feeling the vibration. T
 ### Visionary (Air)
 
 When moving, feel the possibilities. Move your arms and hands around you, never repeating the same motion, feeling the freedom you have. Allow your tension to fade away.
-
-

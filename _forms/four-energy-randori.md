@@ -66,5 +66,3 @@ Each randori adapts to who is present and what the moment demands.
   
 1. **Close (5–10 min)**  
   Reset the field and acknowledge the threshold crossed.
-
-

@@ -37,5 +37,3 @@ You are feeling the pressure from the stagnant, negatively trending energies aro
 ## Implementation
 
 When challenged, train through looking at your internal mirror while maintaining outward presence. Do [One Breath](../one-breath/) and [Three Centers](../three-centers/) if helpful. Enter a flowing, postively trending Visionary-Organizer (with [Driver](../driver/) and [Collaborator](../collaborator/) support) [Stance](../stance/). Listen to [Meta energy](../meta/) and use the Meta Compass in [Tone](../tone/) to determine what your next [Stance](../stance/) should be. Then **act** from your Gut.
-
-

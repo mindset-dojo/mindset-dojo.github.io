@@ -31,5 +31,3 @@ You will experience a playfully serious resonance that will invite you to relax 
 ## Implementation
 
 To be a Kohai, one must have been invited to the [Mat](../mat/) and crossed the White Level threshold. Learn about and embody Fearless Leadership and MetaShift Method through training.
-
-

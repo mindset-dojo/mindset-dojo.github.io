@@ -48,5 +48,3 @@ You center with intention to have playful resonance. You will relax completely a
 
 1. **Close (2–3 min)**  
   Return to stillness, acknowledge the [Circle](../circle/), and optionally capture a quick practice insight.
-
-

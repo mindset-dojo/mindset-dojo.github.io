@@ -71,5 +71,3 @@ In conversation, Visionary changes one's perception of reality:
 - A soft, inviting [Tone](../tone/) lures in possibility.
 
 When mature, Visionary is embodied through execution.
-
-

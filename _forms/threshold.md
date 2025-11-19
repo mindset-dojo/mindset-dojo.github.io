@@ -50,5 +50,3 @@ When encountering a threshold — whether it appears naturally or is offered —
 When alignment emerges, **act. Cross.**  
 
 Don’t let the moment dissolve into hesitation. ⛩️
-
-
