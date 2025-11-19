@@ -1,0 +1,47 @@
+{%- comment -%}
+Reusable card grid wrapper. Accepts:
+  items: array of documents to render
+  item_partial: include path to render each card
+  initial_limit: hide cards beyond this index (for Show All)
+  total_count: size of the full list (defaults to items.size)
+  wrapper_class: optional extra classes on the grid container
+{%- endcomment -%}
+
+{%- assign items = include.items | default: "" -%}
+{%- assign item_partial = include.item_partial | default: "sections/collection-item.html" -%}
+{%- assign initial_limit = include.initial_limit | default: nil -%}
+{%- assign total_count = include.total_count | default: nil -%}
+{%- assign grid_class = "card-stream-grid" -%}
+{%- if include.wrapper_class and include.wrapper_class != "" -%}
+  {%- assign grid_class = grid_class | append: " " | append: include.wrapper_class -%}
+{%- endif -%}
+
+{%- assign items_array = items | array -%}
+{%- assign total_items = total_count | default: items_array | size -%}
+
+{%- if total_items == 1 -%}
+  {%- assign grid_class = grid_class | append: " card-grid-single" -%}
+{%- elsif total_items == 2 -%}
+  {%- assign grid_class = grid_class | append: " card-grid-double" -%}
+{%- endif -%}
+
+{%- if items_array and items_array != empty -%}
+  <div class="{{ grid_class }}">
+    {%- for item in items_array -%}
+      {%- assign hide_item = false -%}
+      {%- if initial_limit and total_items > initial_limit and forloop.index0 >= initial_limit -%}
+        {%- assign hide_item = true -%}
+      {%- endif -%}
+      <div class="collection-stream-item card-stream-item{% if hide_item %} is-hidden{% endif %}" data-collection-item>
+        {%- case item_partial -%}
+          {%- when "sections/form-card.html" -%}
+            {% include sections/form-card.html post=item %}
+          {%- when "sections/author.html" -%}
+            {% include sections/author.html author=item %}
+          {%- else -%}
+            {% include sections/collection-item.html post=item %}
+        {%- endcase -%}
+      </div>
+    {%- endfor -%}
+  </div>
+{%- endif -%}

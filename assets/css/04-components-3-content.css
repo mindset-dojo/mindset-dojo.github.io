@@ -3,48 +3,34 @@
      Authors cards
      ======================= */
 
-  /* (Ensure a blank line above this rule for Stylelint) */
-  .md-authors section h2 + ul {
-    text-align: center;
-    align-self: center;
-    margin-bottom: 12px;
-    padding: 0;
-  }
-
-  /* (Ensure a blank line above this rule for Stylelint) */
-  .md-authors section.md-author-card > p {
-    text-align: center;
-    margin: 0 0 12px;
-  }
-
-  .md-authors section.md-author-card > p.author-card-mantra {
-    font-style: italic;
-  }
-
   .collection-stream-item.is-hidden {
     display: none;
   }
 
-  .md-authors {
-    display: grid;
-    align-items: initial;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    grid-gap: 12px;
-    justify-items: center;
-  }
-
-  .md-authors section {
+  .card-grid-authors .md-author-card {
     border: 2px solid var(--border-dark-color);
     border-radius: 24px;
-    padding: 20px;
+    padding: 16px;
     background-color: var(--dark-color-primary);
-    max-width: 300px;
     display: flex;
     flex-direction: column;
-    font-size: 14px;
+    gap: 12px;
+    text-align: center;
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+    margin: 0;
   }
 
-  .md-authors section > img {
+  .card-grid-authors .md-author-card > p {
+    margin: 0;
+  }
+
+  .card-grid-authors .md-author-card > p.author-card-mantra {
+    font-style: italic;
+  }
+
+  .card-grid-authors .md-author-card > img {
     width: 100px;
     height: 100px;
     border: 2px solid var(--border-dark-color);
@@ -54,19 +40,27 @@
     overflow: hidden;
   }
 
-  .md-authors section.md-author-card > h2 {
+  .card-grid-authors .md-author-card > h2 {
     font-size: var(--h4);
+    margin: 0;
   }
 
-  .md-authors section h2 + ul li {
+  .card-grid-authors .md-author-card h2 + ul {
+    text-align: center;
+    align-self: center;
+    margin: 0 0 12px;
+    padding: 0;
+  }
+
+  .card-grid-authors .md-author-card h2 + ul li {
     display: inline;
   }
 
-  .md-authors section h2 + ul li:not(:last-of-type)::after {
+  .card-grid-authors .md-author-card h2 + ul li:not(:last-of-type)::after {
     content: ", ";
   }
 
-  .md-authors section .md-group {
+  .card-grid-authors .md-author-card .md-group {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -76,7 +70,7 @@
     font-size: 0;
   }
 
-  .md-authors section.md-author-card h3.author-card-emoji-signature {
+  .card-grid-authors .md-author-card h3.author-card-emoji-signature {
     text-align: center;
     font-size: var(--h4);
   }
@@ -86,15 +80,35 @@
      ======================= */
 
   .card-stream-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    display: inline-grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 230px));
     gap: 8px;
-    width: 100%;
-    align-self: stretch;
+    width: auto;
+    max-width: 100%;
+    align-items: stretch;
+    justify-content: center;
+    justify-items: center;
+    margin: 24px auto 0;
+  }
+
+  .card-grid-single,
+  .card-grid-double {
+    justify-content: center;
+  }
+
+  .card-grid-single .card-stream-item {
+    grid-column: 2 / 3;
+  }
+
+  .card-grid-double .card-stream-item:nth-child(odd):last-child {
+    grid-column: 2 / 3;
   }
 
   .card-stream-item {
     display: flex;
+    height: 100%;
+    width: 100%;
+    max-width: 230px;
   }
 
   .form-card {
@@ -112,7 +126,7 @@
 
   @media (min-width: 768px) {
     .card-stream-grid {
-      grid-template-columns: repeat(3, minmax(0, 1fr));
+      grid-template-columns: repeat(3, minmax(0, 230px));
     }
   }
 

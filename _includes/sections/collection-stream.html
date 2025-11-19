@@ -169,22 +169,29 @@ Parameters:
         hidden>
     {%- endif -%}
     {%- if card_layout -%}
-      <div class="card-stream-grid">
-    {%- endif -%}
-    {%- for post in loop_posts -%}
-      {%- assign hide_item = false -%}
-      {%- if initial_limit and total_posts_count > initial_limit and forloop.index0 >= initial_limit -%}
-        {%- assign hide_item = true -%}
-      {%- endif -%}
-      <div class="collection-stream-item{% if hide_item %} is-hidden{% endif %}{% if card_layout %} card-stream-item{% endif %}" data-collection-item>
+      {% include sections/card-grid.html
+        items=loop_posts
+        item_partial=item_partial
+        initial_limit=initial_limit
+        total_count=total_posts_count %}
+    {%- else -%}
+      {%- for post in loop_posts -%}
+        {%- assign hide_item = false -%}
+        {%- if initial_limit and total_posts_count > initial_limit and forloop.index0 >= initial_limit -%}
+          {%- assign hide_item = true -%}
+        {%- endif -%}
+        <div class="collection-stream-item{% if hide_item %} is-hidden{% endif %}" data-collection-item>
         {%- case item_partial -%}
           {%- when "sections/form-card.html" -%}
             {% include sections/form-card.html post=post %}
+          {%- when "sections/author.html" -%}
+            {% include sections/author.html author=post %}
           {%- else -%}
             {% include sections/collection-item.html post=post excerpt_length=include.excerpt_length %}
         {%- endcase -%}
-      </div>
-    {%- endfor -%}
+        </div>
+      {%- endfor -%}
+    {%- endif -%}
     {%- if initial_limit and total_posts_count > initial_limit -%}
       <div class="collection-stream-toggle-wrap">
         <button
@@ -196,9 +203,6 @@ Parameters:
           aria-expanded="false">
           Show All
         </button>
-      </div>
-    {%- endif -%}
-    {%- if card_layout -%}
       </div>
     {%- endif -%}
     {%- if related_toggle -%}

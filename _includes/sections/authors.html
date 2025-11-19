@@ -1,7 +1,7 @@
 {%- comment -%}
 Authors grid section — collection-only, strict slug mode.
 
-Renders a grid of author cards inside <div class="md-authors">…</div>.
+Renders author cards via the shared card-stream layout.
 
 Data sources:
 - Default: all docs from the `authors` collection → `site.authors`.
@@ -104,13 +104,17 @@ Example usages:
   {%- endif -%}
 {%- endif -%}
 
-<div class="md-authors">
-  {%- for e in entries -%}
-    {%- assign parts = e | split:'|' -%}
-    {%- assign slug  = parts[2] -%}
-    {%- assign doc   = site.authors | where:"slug", slug | first -%}
-    {%- if doc -%}
-      {% include sections/author.html author=doc %}
-    {%- endif -%}
-  {%- endfor -%}
-</div>
+{%- assign author_cards = "" | split:"|" -%}
+{%- for e in entries -%}
+  {%- assign parts = e | split:'|' -%}
+  {%- assign slug  = parts[2] -%}
+  {%- assign doc   = site.authors | where:"slug", slug | first -%}
+  {%- if doc -%}
+    {%- assign author_cards = author_cards | push: doc -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{% include sections/card-grid.html
+  items=author_cards
+  item_partial="sections/author.html"
+  wrapper_class="card-grid-authors" %}
