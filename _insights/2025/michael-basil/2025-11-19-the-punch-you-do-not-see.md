@@ -15,8 +15,6 @@ excerpt: >
   it reveals your reflexes. And reflexes can be trained.
 ---
 
-## The Punch You Don’t See
-
 I went in with a plan.  
 Three reflective questions.  
 A small ritual.  
