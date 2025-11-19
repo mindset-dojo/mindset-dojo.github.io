@@ -10,6 +10,11 @@ sections:
         - "Form training reconditions the field in conversational leadership."
         - "We observe in the wild, distill the form, and evolve it in training."
         - "Use them as guides—adapt to context, don’t memorize."
+  - type: principles
+    data:
+      principles_title: "Authorship Principles"
+      principles_groups:
+        - "form"
   - type: collection-stream
     data:
       collection: forms
