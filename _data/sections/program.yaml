@@ -61,6 +61,8 @@ sections:
               url: /forms/one-breath/
             - label: Tone
               url: /forms/tone/
+            - label: Stance
+              url: /forms/stance/
             - label: Three Question Reflection
               url: /forms/three-question-reflection/
             - label: Genuine Gratitude Expression
@@ -108,8 +110,6 @@ sections:
           flows:
             - label: Four Patterns
               url: /forms/four-patterns/
-            - label: Stance
-              url: /forms/stance/
             - label: Collaborator
               url: /forms/collaborator/
             - label: Mat – Collaborator
