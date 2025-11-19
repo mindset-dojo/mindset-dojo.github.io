@@ -112,7 +112,7 @@
   .card-stream-item {
     display: flex;
     height: 100%;
-    width: 100%;
+    max-width: 240px;
   }
 
   .form-card {
