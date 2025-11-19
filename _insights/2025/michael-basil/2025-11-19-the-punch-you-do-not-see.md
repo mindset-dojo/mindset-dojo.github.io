@@ -71,4 +71,4 @@ that nothing bad is actually happening,
 just multiple nervous systems trying to find rhythm —  
 you discover your reflexes are better than your plan.
 
-And your training carries you farther than your preparation ever could.
+And your training carries you farther than your plan ever could.
