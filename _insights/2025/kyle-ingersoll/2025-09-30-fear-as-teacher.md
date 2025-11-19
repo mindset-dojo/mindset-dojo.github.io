@@ -7,24 +7,11 @@ refactored_date: 2025-11-13
 authors: 
   - kyle-ingersoll
 forms:
-  - integration-under-fire
-  - dojo
-  - three-question-reflection
-  - sensei
-  - threshold
-  - revealed-preference-reflection
-  - stance
-  - one-breath
-  - tone
   - driver
-  - organizer
-  - collaborator
-  - visionary
-  - domain-focused-cultivator
-  - organizationally-foucsed-cultivator
+  - stance
+  - tone
 excerpt: "How fear becomes a teacher and what its shadow reveals about presence and response."
 ---
-
 When people talk about Incident Response, they often think of flashing alerts, hackers in hoodies, or sudden technical heroics. In truth, it’s much more human than that. It’s about how people work when systems fail, how calmly we communicate under stress, and how quickly we transform disruption into recovery.
 
 I learned this across two very different scenes — first as an IT Intern at Richmond Community Schools, and later as DevOps Cultivator for Mindset Dojo. The first time, I stood on the edge of a crisis expressing my leadership through support, not from the front. The second time, I was the one who detected the problem, spoke up, and helped guide resolution. Together, they shaped how I see Incident Response: as a practice of service, integrity, and growth.

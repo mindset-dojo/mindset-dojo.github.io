@@ -7,25 +7,11 @@ refactored_date: 2025-11-07
 authors:
   - michael-basil
 forms:
-  - dojo
-  - circle
-  - mat
-  - stillness-contemplation
-  - integration-under-fire
-  - stance
-  - martial-attitude
-  - two-sides
-  - three-centers
-  - four-patterns
   - meta
-  - tone
-  - driver
+  - stance
   - organizer
-  - collaborator
-  - visionary
 excerpt: "During a timed council trial, a warrior moves through Driver, Organizer, Collaborator, and Visionary stances to create alignment within the first ninety seconds."
 ---
-
 The Council had announced the terms: One hour for the trial. Twenty minutes to reveal the art. No more. No less.
 
 Many prepared by memorizing words, polishing slides, or weaving clever code.

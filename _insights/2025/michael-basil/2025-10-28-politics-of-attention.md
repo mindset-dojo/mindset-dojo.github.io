@@ -6,29 +6,14 @@ published_date: 2025-10-28
 refactored_date: 2025-11-07
 authors:
   - michael-basil
-forms: 
-  - dojo
-  - circle
-  - mat
-  - three-question-reflection
-  - integration-under-fire
-  - revealed-preference-reflection
-  - stance
-  - martial-attitude
-  - two-sides
-  - three-centers
-  - four-patterns
+forms:
   - meta
-  - tone
+  - stance
   - driver
-  - organizer
-  - collaborator
-  - visionary
 excerpt: |
   Attention has become the most contested resource in modern life. 
   The way we give, guard, and negotiate it reveals how we relate—to ourselves, to others, and to the moment we're in.
 ---
-
 In a world that runs on distraction, attention has become a form of currency — the rarest, most negotiated resource we share. Some people spend it carelessly; others guard it like a fortress. But what we often forget is that how we give attention reveals how we relate — to ourselves, to others, and to the moment we’re in.
 
 ---

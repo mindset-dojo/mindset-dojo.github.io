@@ -7,20 +7,11 @@ refactored_date: 2025-11-07
 authors:
   - kyle-ingersoll
 forms:
-  - genuine-gratitude-expression
-  - integration-under-fire
-  - threshold
-  - revealed-preference-reflection
-  - stance
-  - four-patterns
-  - three-centers
-  - tone
   - driver
-  - collaborator
-  - visionary
+  - four-patterns
+  - tone
 excerpt: "Giving without awareness creates imbalance; giving with awareness turns donation into resonance, where both giver and world are enriched."
 ---
-
 He stared at the donation page.
 “Give what you can,” it said.
 

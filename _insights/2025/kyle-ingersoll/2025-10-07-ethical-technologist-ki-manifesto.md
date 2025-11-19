@@ -7,18 +7,11 @@ refactored_date: 2025-11-07
 authors: 
   - kyle-ingersoll
 forms:
-  - integration-under-fire
-  - dojo
-  - revealed-preference-reflection
-  - stance
-  - martial-attitude
   - driver
-  - organizer
-  - collaborator
+  - martial-attitude
   - visionary
 excerpt: "When the coder becomes the cultivator — ethics ceases to be rule-following and becomes resonance itself."
 ---
-
 ## 1. Center
 
 I begin from stillness.  

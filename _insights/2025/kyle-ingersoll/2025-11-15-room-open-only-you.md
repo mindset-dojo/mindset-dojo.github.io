@@ -7,23 +7,11 @@ refactored_date: 2025-11-15
 authors:
   - kyle-ingersoll
 forms:
-  - dojo
-  - mat
-  - sensei
-  - integration-under-fire
   - stance
-  - martial-attitude
-  - threshold
-  - one-breath
-  - three-centers
   - tone
   - driver
-  - organizer
-  - collaborator
-  - visionary
 excerpt: “Two people entered the same room, yet only one found opportunity—because the room opens only for the one who does.”
 ---
-
 **Two people arrived at Cloud Security Office Hours.
 One left with nothing.
 One left with everything.**

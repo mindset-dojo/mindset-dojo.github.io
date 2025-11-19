@@ -5,20 +5,13 @@ title_mark: Reflection
 authors: 
   - kyle-ingersoll
 forms:
-  - dojo
-  - sensei
-  - integration-under-fire
-  - threshold
   - stance
-  - four-patterns
-  - tone
-  - visionary
   - driver
+  - four-patterns
 published_date: 2025-11-17
 refactored_date: 2025-11-17
 excerpt: "Through Red Level training, I learned that Energy Agility must be embodied, not merely understood."
 ---
-
 Crossing the Red Level Threshold felt less like earning a rank and more like finishing a marathon—messy, humbling, and full of shadow work I didn’t expect. Working with the Sensei on the Zen Leader Off the Cushion presentation dragged old patterns into the light, sometimes pulling us both below the line. And just when I thought I’d recovered, the Community’s Alpha Threshold asked even more.
 
 When my Driver burned out, I slid back into Visionary-Organizer—structured, familiar, but not actually restorative. The Sensei kept pointing me toward a Visionary-Collaborator stance instead: What future becomes possible when I stop trying to control it and let people in?

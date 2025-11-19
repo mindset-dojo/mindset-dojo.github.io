@@ -7,18 +7,11 @@ refactored_date: 2025-11-07
 authors:
   - kyle-ingersoll
 forms:
-  - dojo
-  - sensei
-  - stance
-  - four-patterns
   - tone
   - driver
-  - organizer
-  - collaborator
   - visionary
 excerpt: "When the mind empties, body and universe become one — this is Plus Ki."
 ---
-
 A student once asked,  
 “Master, how do I find the flow?”  
 

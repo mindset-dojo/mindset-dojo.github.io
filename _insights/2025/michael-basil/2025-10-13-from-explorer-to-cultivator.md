@@ -7,21 +7,11 @@ refactored_date: 2025-11-13
 authors: 
   - michael-basil
 forms:
-  - dojo
   - threshold
   - stance
-  - three-centers
-  - four-patterns
   - tone
-  - driver
-  - organizer
-  - collaborator
-  - visionary
-  - domain-focused-cultivator
-  - organizationally-focused-cultivator
 excerpt: "In Mindset Dojo, every pull request tests a threshold — transforming exploration into cultivation, and curiosity into coherence."
 ---
-
 In Mindset Dojo, we don’t just explore ideas — we cultivate them.  
 Each thread we open, each pull request we make, is an invitation to cross a threshold.  
 

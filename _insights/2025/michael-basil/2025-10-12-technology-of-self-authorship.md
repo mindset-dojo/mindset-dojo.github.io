@@ -7,20 +7,11 @@ refactored_date: 2025-11-07
 authors: 
   - michael-basil
 forms:
-  - dojo
-  - integration-under-fire
-  - threshold
-  - stance
-  - three-centers
-  - four-patterns
   - tone
-  - driver
-  - organizer
-  - collaborator
+  - threshold
   - visionary
 excerpt: "In Mindset Dojo, we integrate presence through language — weaving body, breath, system, and story into a living practice of awareness and authorship."
 ---
-
 In Mindset Dojo, we don’t extend presence through language — we integrate it.  
 We write.  
 

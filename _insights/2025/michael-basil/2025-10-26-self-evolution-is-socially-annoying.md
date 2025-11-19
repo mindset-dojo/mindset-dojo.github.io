@@ -6,32 +6,16 @@ published_date: 2025-10-26
 refactored_date: 2025-11-07
 authors:
   - michael-basil
-forms: 
-  - dojo
-  - circle
-  - mat
-  - geuine-gratitude-expression
-  - integration-under-fire
-  - threshold
-  - revealed-preference-reflection
-  - stance
-  - martial-attitude
-  - two-sides
-  - three-centers
-  - four-patterns
+forms:
   - meta
-  - tone
   - driver
-  - organizer
-  - collaborator
-  - visionary
+  - stance
 excerpt: >
   Evolution can feel like magic from the inside and disruption from the outside. 
   When awareness deepens, social gravity shifts—and both the person changing and 
   the group around them are invited into a new form of practice. 
   This reflection explores the awkward, essential art of staying connected while we evolve.
 ---
-
 *(What follows is part of my evolving map of understanding, rather than objective conclusions. I’m open to hear what resonates, what snags, what edges or gaps you notice.)*  
 
 ---

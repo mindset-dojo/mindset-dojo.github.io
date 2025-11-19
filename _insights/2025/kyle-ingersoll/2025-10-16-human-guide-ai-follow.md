@@ -7,22 +7,11 @@ refactored_date: 2025-11-13
 authors: 
   - kyle-ingersoll
 forms:
-  - sensei
-  - dojo
-  - integration-under-fire
   - threshold
-  - revealed-preference-reflection
   - stance
-  - tone
-  - driver
-  - organizer
-  - collaborator
   - visionary
-  - domain-focused-cultivator
-  - organizationally-focused-cultivator
 excerpt: "When code becomes debt, only human guidance can teach AI the Way forward."
 ---
-
 During a recent pull request on the Mindset Dojo site, I refactored the Insights Stream code to be modular and added sorting by author. What began as a small change quickly became a **mountain** of code I barely understood.
 
 > I had rushed in, bypassing the step of thinking before acting.

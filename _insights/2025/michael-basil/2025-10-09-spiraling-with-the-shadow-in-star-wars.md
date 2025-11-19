@@ -7,19 +7,11 @@ refactored_date: 2025-11-07
 authors: 
   - michael-basil
 forms:
-  - integration-under-fire
-  - threshold
-  - stance
-  - two-sides
-  - three-centers
   - tone
   - driver
   - organizer
-  - collaborator
-  - visionary
 excerpt: "When we turn toward the shadow — fear, anger, ambition, loss — and bring it into awareness, the circle becomes a spiral."
 ---
-
 Yoda warned Luke: “Fear is the path to the dark side.” His caution was true — yet incomplete. The Jedi sought to rise above shadow, to avoid it altogether. In that avoidance, they became trapped in cycles: light versus dark, again and again.
 
 > “Fear is the path to the dark side” — but also the doorway to integration.

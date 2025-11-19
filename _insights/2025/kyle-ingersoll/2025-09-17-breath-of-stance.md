@@ -5,21 +5,13 @@ title_mark: Stance
 authors: 
   - kyle-ingersoll
 forms:
-  - dojo
-  - integration-under-fire
-  - revealed-preference-reflection
   - stance
-  - four-patterns
   - tone
   - driver
-  - organizer
-  - collaborator
-  - visionary
 published_date: 2025-09-17
 refactored_date: 2025-11-07
 excerpt: "When tension hardens between mismatched energies, Stances offer a way to realign through breath, tone, and presence—shifting both yourself and the field of conversation."
 ---
-
 Two people sit down to talk.  
 
 One moves quickly, eager to press forward.  

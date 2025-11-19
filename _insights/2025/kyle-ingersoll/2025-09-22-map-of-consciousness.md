@@ -5,26 +5,13 @@ title_mark: Map
 authors: 
   - kyle-ingersoll
 forms:
-  - dojo
-  - integration-under-fire
-  - sensei
-  - three-question-reflection
-  - threshold
-  - stance
-  - one-breath
-  - two-sides
-  - three-centers
-  - four-patterns
   - tone
   - driver
-  - organizer
-  - collaborator
-  - visionary
+  - stance
 published_date: 2025-09-22
 refactored_date: 2025-11-07
 excerpt: "When life punches first, the Map of Consciousness helps us notice where we stand — below the line in contraction or above it in creation — and trains us to shift through breath, tone, and awareness."
----  
-
+---
 “Everyone has a plan until they get punched in the face.” — *Mike Tyson*  
 
 That line lands like a gut punch. Whether the punch is literal or metaphorical, life rarely unfolds as planned. And when we’re struck — by conflict, by disappointment, by fear — our reflex often pulls us below the line: tight shoulders, clipped words, shallow breath.  
