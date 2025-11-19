@@ -44,6 +44,25 @@
     outline-offset: 4px;
   }
 
+  .collection-stream-related-action {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 0;
+  }
+
+  .collection-stream-related-content {
+    margin-top: 20px;
+  }
+
+  .collection-stream-related-content[hidden] {
+    display: none;
+  }
+
+  .collection-stream-toggle-wrap {
+    display: flex;
+    justify-content: center;
+  }
+
   /* =======================
      Blockquotes (generic visual treatment)
      ======================= */

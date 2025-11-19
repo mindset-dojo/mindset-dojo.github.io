@@ -4,12 +4,16 @@ layout: post
 
 {{ content }}
 
+{% assign related_insights_id = page.slug | default: page.title | slugify | append: "-related-insights" %}
 {% include sections/collection-stream.html
   section=section
   collection="insights"
   filter_key="forms"
   filter_values=page.slug
   post_display_limit=5
+  show_all_toggle=true
   label="Related Insights"
   show_hr=true
+  related_toggle=true
+  related_toggle_id=related_insights_id
 %}

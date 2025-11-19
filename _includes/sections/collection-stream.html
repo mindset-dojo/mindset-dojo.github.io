@@ -77,6 +77,7 @@ Parameters:
 {%- assign reverse_flag = include.reverse | default: section.data.reverse | default: false -%}
 {%- assign post_display_limit = include.post_display_limit | default: section.data.post_display_limit | default: nil -%}
 {%- assign show_all_toggle = include.show_all_toggle | default: section.data.show_all_toggle | default: false -%}
+{%- assign related_toggle = include.related_toggle | default: false -%}
 
 {%- assign sorted_posts = filtered_posts | sort: sort_key_field -%}
 {%- if reverse_flag -%}
@@ -119,12 +120,45 @@ Parameters:
   {%- endif -%}
   {%- assign section_attrs = 'id="collection-stream" class="md-flow"' -%}
   {%- if initial_limit -%}
-    {%- capture section_attrs -%}id="collection-stream" class="md-flow" data-collection-stream="toggle" data-initial-limit="{{ initial_limit }}"{%- endcapture -%}
+    {%- capture section_attrs -%}{{ section_attrs }} data-collection-stream="toggle" data-initial-limit="{{ initial_limit }}"{%- endcapture -%}
+  {%- endif -%}
+  {%- if related_toggle -%}
+    {%- capture section_attrs -%}{{ section_attrs }} data-related-toggle="true"{%- endcapture -%}
+    {%- assign toggle_id_base = include.related_toggle_id
+      | default: label
+      | default: coll_name
+      | default: 'collection-stream' -%}
+    {%- assign page_slug = page.url | default: page.id | default: page.path | default: 'page' -%}
+    {%- assign page_slug = page_slug | slugify -%}
+    {%- assign toggle_content_id = page_slug | append: "-" | append: toggle_id_base | slugify | append: "-content" -%}
   {%- endif -%}
   <section {{ section_attrs }}>
-    {%- if label -%}<h2>{{ label }}</h2>{%- endif -%}
+    {%- if label -%}
+      <h2>{{ label }}</h2>
+    {%- endif -%}
+    {%- if related_toggle -%}
+      <div class="collection-stream-related-action">
+        <button
+          type="button"
+          class="collection-stream-toggle related-toggle-button"
+          data-related-toggle-button
+          data-show-label="Show"
+          data-hide-label="Hide"
+          aria-expanded="false"
+          aria-controls="{{ toggle_content_id }}">
+          Show
+        </button>
+      </div>
+    {%- endif -%}
     {%- if content_md -%}
       {{ content_md | markdownify }}
+    {%- endif -%}
+    {%- if related_toggle -%}
+      <div
+        id="{{ toggle_content_id }}"
+        class="collection-stream-related-content"
+        data-related-toggle-content
+        hidden>
     {%- endif -%}
     {%- for post in loop_posts -%}
       {%- assign hide_item = false -%}
@@ -136,15 +170,20 @@ Parameters:
       </div>
     {%- endfor -%}
     {%- if initial_limit and total_posts_count > initial_limit -%}
-      <button
-        type="button"
-        class="collection-stream-toggle"
-        data-collection-toggle
-        data-expand-label="Show All"
-        data-collapse-label="Show Less"
-        aria-expanded="false">
-        Show All
-      </button>
+      <div class="collection-stream-toggle-wrap">
+        <button
+          type="button"
+          class="collection-stream-toggle"
+          data-collection-toggle
+          data-expand-label="Show All"
+          data-collapse-label="Show Less"
+          aria-expanded="false">
+          Show All
+        </button>
+      </div>
+    {%- endif -%}
+    {%- if related_toggle -%}
+      </div>
     {%- endif -%}
   </section>
 {%- endif -%}

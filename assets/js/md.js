@@ -45,5 +45,29 @@ function initMD () {
       setExpanded(!isExpanded)
     })
   })
+
+  // related content toggles
+  const relatedSections = document.querySelectorAll('[data-related-toggle="true"]')
+  relatedSections.forEach((section) => {
+    const button = section.querySelector('[data-related-toggle-button]')
+    const content = section.querySelector('[data-related-toggle-content]')
+    if (!button || !content) return
+
+    const showLabel = button.dataset.showLabel || 'Show'
+    const hideLabel = button.dataset.hideLabel || 'Hide'
+
+    const setExpanded = (expanded) => {
+      content.hidden = !expanded
+      button.textContent = expanded ? hideLabel : showLabel
+      button.setAttribute('aria-expanded', String(expanded))
+    }
+
+    setExpanded(false)
+
+    button.addEventListener('click', () => {
+      const expanded = button.getAttribute('aria-expanded') === 'true'
+      setExpanded(!expanded)
+    })
+  })
 }
 document.addEventListener('DOMContentLoaded', initMD)
