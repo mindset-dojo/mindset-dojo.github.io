@@ -22,7 +22,7 @@ You are in a flow state, following the impulse to do something whereever that ca
 
 ### Internal  
 
-When postively trending, effortless action emerges from one's being with a sense of calm alertness, feeling like a part of the universe. When negatively trending, one is in crunch time, tense and blinded by fear.
+When postively trending, effortless action emerges from one's being with a sense of calm alertness, feeling like a part of the universe. When negatively trending, one's awareness shrinks down to a point, driven by fear and frustration to fight time itself.
 
 ### Collective  
 
