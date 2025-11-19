@@ -18,6 +18,7 @@ layout: post
 
 
 {% if page.forms %}
+  {% assign related_forms_id = page.slug | default: page.title | slugify | append: "-related-forms" %}
   {% include sections/collection-stream.html
     section=section
     collection="forms"
@@ -25,5 +26,7 @@ layout: post
     filter_values=page.forms
     label="Related Forms"
     show_hr=true
+    related_toggle=true
+    related_toggle_id=related_forms_id
   %}
 {% endif %}
