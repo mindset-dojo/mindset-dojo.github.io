@@ -24,8 +24,8 @@ principles:
       label: "Presence over Process"
       description: "Agility over bureaucracy — people over plans."
     - id: "move"
-      label: "The First Move Creates the Path"
-      description: "What you add sets both direction and drag—start light so the system stays alive."
+      label: "Movement Creates the Path"
+      description: "Start light to set direction and minimize drag."
   form:
     - id: "one"
       label: "Center from One Point"
