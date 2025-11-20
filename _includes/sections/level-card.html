@@ -1,0 +1,34 @@
+{%- assign level = include.level | default: include.item | default: item -%}
+{%- if level -%}
+  {%- assign flows = level.flows | default: "" -%}
+  <article class="level-card">
+    <div class="level-card-icon">
+      {% include icons/level.svg
+        class="md-level-svg"
+        color=level.color
+        title=level.label %}
+    </div>
+    <h3>{{ level.label }}</h3>
+    {%- if level.intention -%}
+      <p class="level-card-intention">{{ level.intention }}</p>
+    {%- endif -%}
+    {%- if flows and flows != empty -%}
+      <ul>
+        {%- for f in flows -%}
+          {%- assign target = f.url | to_s | strip -%}
+          <li>
+            {%- if target != "" -%}
+              {%- if target | slice: 0, 1 == "/" -%}
+                <a href="{{ target | relative_url }}">{{ f.label }}</a>
+              {%- else -%}
+                <a href="{{ target }}">{{ f.label }}</a>
+              {%- endif -%}
+            {%- else -%}
+              {{ f.label }}
+            {%- endif -%}
+          </li>
+        {%- endfor -%}
+      </ul>
+    {%- endif -%}
+  </article>
+{%- endif -%}

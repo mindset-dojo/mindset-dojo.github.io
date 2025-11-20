@@ -15,37 +15,13 @@ Each level item shape:
 
 {%- assign D = section.data -%}
 {%- if D.items and D.items.size > 0 -%}
-<section class="md-flow">
-  <h2>{{ D.label }}</h2>
-
-  {%- for lv in D.items -%}
-    <br/>
-    <h3>
-      {% include icons/level.svg
-        class="md-level-svg"
-        color=lv.color
-        title=lv.label %}
-    </h3>
-
-    <p><strong>{{lv.label}} - {{ lv.intention }}</strong></p>
-
-    <ul>
-      {%- for f in lv.flows -%}
-        {%- if f.url | slice: 0, 1 == "/" -%}
-          <li>
-            <a href="{{ f.url | relative_url }}">
-              {{ f.label }}
-            </a>
-          </li>
-        {%- else -%}
-          <li>
-            <a href="{{ f.url }}">
-              {{ f.label }}
-            </a>
-          </li>
-        {%- endif -%}
-      {%- endfor -%}
-    </ul>
-  {%- endfor -%}
+<section class="md-flow card-stream">
+  {%- if D.label -%}
+    <h2>{{ D.label }}</h2>
+  {%- endif -%}
+  {% include sections/card-grid.html
+    items=D.items
+    item_partial="sections/level-card.html"
+    wrapper_class="card-grid-levels" %}
 </section>
 {%- endif -%}

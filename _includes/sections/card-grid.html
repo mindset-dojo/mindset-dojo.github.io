@@ -54,6 +54,8 @@ Reusable card grid wrapper. Accepts:
             {% include sections/form-card.html post=item %}
           {%- when "sections/author.html" -%}
             {% include sections/author.html author=item %}
+          {%- when "sections/level-card.html" -%}
+            {% include sections/level-card.html level=item %}
           {%- else -%}
             {% include sections/collection-item.html post=item %}
         {%- endcase -%}
