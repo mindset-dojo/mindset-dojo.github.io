@@ -2,6 +2,8 @@
 layout: post
 ---
 
+{% include sections/form-card.html post=post %}
+
 {{ content }}
 
 {% assign related_insights_id = page.slug | default: page.title | slugify | append: "-related-insights" %}
