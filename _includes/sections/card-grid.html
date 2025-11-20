@@ -32,11 +32,23 @@ Reusable card grid wrapper. Accepts:
       {%- if initial_limit and total_items > initial_limit and forloop.index0 >= initial_limit -%}
         {%- assign hide_item = true -%}
       {%- endif -%}
-      {%- assign tag_list = item.tags | array -%}
+      {%- assign filter_value = "" -%}
+      {%- if include.item_filter_values -%}
+        {%- assign override_value = include.item_filter_values[forloop.index0] -%}
+        {%- if override_value -%}
+          {%- assign filter_value = override_value | downcase -%}
+        {%- endif -%}
+      {%- endif -%}
+      {%- if filter_value == "" -%}
+        {%- assign tag_list = item.tags | array -%}
+        {%- if tag_list and tag_list != empty -%}
+          {%- assign filter_value = tag_list | join: ' ' | downcase -%}
+        {%- endif -%}
+      {%- endif -%}
       <div class="collection-stream-item card-stream-item{% if hide_item %} is-hidden{% endif %}"
            data-collection-item
            data-card-item
-           data-tags="{% if tag_list and tag_list != empty %}{{ tag_list | join: ' ' | downcase }}{% endif %}">
+           data-tags="{{ filter_value }}">
         {%- case item_partial -%}
           {%- when "sections/form-card.html" -%}
             {% include sections/form-card.html post=item %}
