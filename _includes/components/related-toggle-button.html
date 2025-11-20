@@ -1,0 +1,16 @@
+{%- assign wrapper_class = include.wrapper_class | default: "collection-stream-related-action" -%}
+{%- assign show_label = include.show_label | default: "Show" -%}
+{%- assign hide_label = include.hide_label | default: "Hide" -%}
+{%- assign target_id = include.target_id -%}
+<div class="{{ wrapper_class }}">
+  <button
+    type="button"
+    class="collection-stream-toggle related-toggle-button"
+    data-related-toggle-button
+    data-show-label="{{ show_label }}"
+    data-hide-label="{{ hide_label }}"
+    aria-expanded="false"
+    aria-controls="{{ target_id }}">
+    {{ show_label }}
+  </button>
+</div>

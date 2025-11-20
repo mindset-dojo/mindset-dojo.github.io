@@ -148,18 +148,7 @@ Parameters:
       {{ content_md | markdownify }}
     {%- endif -%}
     {%- if related_toggle -%}
-      <div class="collection-stream-related-action">
-        <button
-          type="button"
-          class="collection-stream-toggle related-toggle-button"
-          data-related-toggle-button
-          data-show-label="Show"
-          data-hide-label="Hide"
-          aria-expanded="false"
-          aria-controls="{{ toggle_content_id }}">
-          Show
-        </button>
-      </div>
+      {% include components/related-toggle-button.html target_id=toggle_content_id %}
     {%- endif -%}
     {%- if related_toggle -%}
       <div
@@ -206,18 +195,7 @@ Parameters:
       </div>
     {%- endif -%}
     {%- if related_toggle -%}
-      <div class="collection-stream-related-action collection-stream-related-action-bottom">
-        <button
-          type="button"
-          class="collection-stream-toggle related-toggle-button"
-          data-related-toggle-button
-          data-show-label="Show"
-          data-hide-label="Hide"
-          aria-expanded="false"
-          aria-controls="{{ toggle_content_id }}">
-          Show
-        </button>
-      </div>
+      {% include components/related-toggle-button.html target_id=toggle_content_id wrapper_class="collection-stream-related-action collection-stream-related-action-bottom" %}
     {%- endif -%}
     {%- if related_toggle -%}
       </div>

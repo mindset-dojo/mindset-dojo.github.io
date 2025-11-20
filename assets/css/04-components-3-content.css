@@ -7,6 +7,33 @@
     display: none;
   }
 
+  main :is(h2, h3, h4)[id^="inspirat"] + ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+
+  .form-card {
+    border: 2px solid var(--border-dark-color);
+    border-radius: 24px;
+    padding: 12px;
+    width: 100%;
+    background-color: var(--dark-color-primary);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    min-height: 100%;
+  }
+
+  .form-card p {
+    margin: 0;
+  }
+
+  .form-card p {
+    margin: 0;
+  }
+
   .card-grid-authors .md-author-card {
     border: 2px solid var(--border-dark-color);
     border-radius: 24px;
@@ -89,6 +116,12 @@
     justify-content: center;
   }
 
+  .card-stream-item {
+    display: flex;
+    height: 100%;
+    width: 100%;
+  }
+
   .card-grid-single,
   .card-grid-double {
     display: flex;
@@ -96,7 +129,6 @@
     gap: 16px;
     justify-content: center;
     width: 100%;
-    max-width: 520px;
     margin: 24px auto 0;
   }
 
@@ -104,44 +136,30 @@
     max-width: 240px;
   }
 
+  .card-grid-double {
+    max-width: 520px;
+  }
+
   .card-grid-single .card-stream-item,
   .card-grid-double .card-stream-item {
+    flex: 0 0 240px;
     width: 240px;
   }
 
-  .card-stream-item {
-    display: flex;
-    height: 100%;
-    max-width: 240px;
-  }
-
-  .form-card {
-    border: 2px solid var(--border-dark-color);
-    border-radius: 24px;
-    padding: 12px;
-    width: 100%;
-    background-color: var(--dark-color-primary);
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    min-height: 100%;
-  }
-
-  @media (min-width: 900px) {
+  @media (width >= 900px) {
     .card-stream-grid {
       grid-template-columns: repeat(3, minmax(0, 240px));
     }
   }
 
-  @media (max-width: 768px) {
+  @media (width <= 768px) {
     .card-stream-grid {
       grid-template-columns: repeat(2, minmax(0, 1fr));
       max-width: 100%;
     }
   }
 
-  @media (max-width: 520px) {
+  @media (width <= 520px) {
     .card-stream-grid {
       grid-template-columns: minmax(0, 1fr);
     }
@@ -166,10 +184,6 @@
 
   .form-card h3 a:hover {
     border-bottom-color: currentcolor;
-  }
-
-  .form-card p {
-    margin: 0;
   }
 
   /* =======================
@@ -244,12 +258,6 @@
     text-align: center;
     font-weight: 700;
     margin-top: 1rem;
-  }
-
-  main :is(h2,h3,h4)[id^="inspirat"] + ul {
-    list-style: none;
-    padding: 0;
-    text-align: center;
   }
 
 }
