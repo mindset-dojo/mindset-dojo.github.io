@@ -101,11 +101,6 @@
     max-width: 520px;
   }
 
-  .card-grid-single .card-stream-item,
-  .card-grid-levels .card-stream-item {
-    max-width: 280px;
-  }
-  
   .card-grid-double .card-stream-item {
     flex: 0 0 240px;
     max-width: 240px;
@@ -140,25 +135,6 @@
     flex: 0 0 240px;
     max-width: 240px;
     width: 100%;
-  }
-
-  .card-grid-levels.card-stream-grid[data-visible-items="1"] {
-    display: flex;
-    justify-content: center;
-    max-width: 100%;
-  }
-
-  .card-grid-levels.card-stream-grid[data-visible-items="1"] .card-stream-item {
-    flex: 0 0 280px;
-    max-width: 280px;
-    width: 100%;
-  }
-
-  @media (width <= 640px) {
-    .card-grid-levels.card-stream-grid {
-      grid-template-columns: minmax(0, 1fr);
-      max-width: 100%;
-    }
   }
 
   .level-card ul {
@@ -213,12 +189,6 @@
     font-style: italic;
     margin: 0;
   }
-
-  .card-grid-levels.card-stream-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    max-width: 640px;
-  }
-
 
   .card-grid-authors .md-author-card,
   .card-grid-levels .level-card {
