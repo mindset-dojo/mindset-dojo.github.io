@@ -8,12 +8,6 @@
     display: none;
   }
 
-  main :is(h2, h3, h4)[id^="inspirat"] + ul {
-    list-style: none;
-    padding: 0;
-    text-align: center;
-  }
-
   .card-filter {
     display: flex;
     flex-wrap: wrap;
@@ -41,172 +35,6 @@
   .card-filter-button.is-active {
     background: var(--brand-color-primary);
     color: var(--dark-color-primary);
-  }
-
-  .form-card {
-    border: 2px solid var(--border-dark-color);
-    border-radius: 24px;
-    padding: 12px;
-    width: 100%;
-    background-color: var(--dark-color-primary);
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    min-height: 100%;
-    height: 100%;
-  }
-
-  .form-card p {
-    margin: 0;
-  }
-
-  .card-grid-authors .md-author-card {
-    border: 2px solid var(--border-dark-color);
-    border-radius: 24px;
-    padding: 16px;
-    background-color: var(--dark-color-primary);
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    text-align: center;
-    min-height: 100%;
-    height: 100%;
-    width: 100%;
-    margin: 0;
-  }
-
-  .card-grid-authors .md-author-card > p {
-    margin: 0;
-  }
-
-  .card-grid-authors .md-author-card > p.author-card-mantra {
-    font-style: italic;
-  }
-
-  .card-grid-authors .md-author-card > img {
-    width: 100px;
-    height: 100px;
-    border: 2px solid var(--border-dark-color);
-    border-radius: 50%;
-    align-self: center;
-    margin-bottom: 8px;
-    overflow: hidden;
-  }
-
-  .card-grid-authors .md-author-card > h2 {
-    font-size: var(--h4);
-    margin: 0;
-  }
-
-  .card-grid-authors .md-author-card h2 + ul {
-    text-align: center;
-    align-self: center;
-    margin: 0 0 12px;
-    padding: 0;
-  }
-
-  .card-grid-authors .md-author-card h2 + ul li {
-    display: inline;
-  }
-
-  .card-grid-authors .md-author-card h2 + ul li:not(:last-of-type)::after {
-    content: ", ";
-  }
-
-  .card-grid-authors .md-author-card .md-group {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    column-gap: 16px;
-    margin-bottom: 12px;
-    font-size: 0;
-  }
-
-  .card-grid-authors .md-author-card h3.author-card-emoji-signature {
-    text-align: center;
-    font-size: var(--h4);
-  }
-
-  .card-grid-levels .level-card {
-    border: 2px solid var(--border-dark-color);
-    border-radius: 24px;
-    padding: 16px;
-    background-color: var(--dark-color-primary);
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    text-align: center;
-    min-height: 100%;
-    height: 100%;
-    width: 100%;
-  }
-
-  .level-card-icon {
-    display: flex;
-    justify-content: center;
-  }
-
-  .level-card h3 {
-    margin: 0;
-    font-size: var(--h4);
-  }
-
-  .level-card-intention {
-    font-style: italic;
-    margin: 0;
-  }
-
-  .level-card ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-  }
-
-  .level-card ul li a {
-    color: var(--brand-color-secondary);
-    text-decoration: none;
-    border-bottom: 1px solid transparent;
-  }
-
-  .level-card ul li a:hover {
-    border-bottom-color: currentcolor;
-  }
-
-  .card-grid-levels.card-stream-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    max-width: 640px;
-  }
-
-  .card-grid-levels .card-stream-item {
-    max-width: 280px;
-  }
-
-  .card-grid-levels.card-stream-grid[data-visible-items="1"] {
-    display: flex;
-    justify-content: center;
-    max-width: 100%;
-  }
-
-  .card-grid-levels.card-stream-grid[data-visible-items="1"] .card-stream-item {
-    flex: 0 0 280px;
-    max-width: 280px;
-    width: 100%;
-  }
-
-  @media (width <= 640px) {
-    .card-grid-levels.card-stream-grid {
-      grid-template-columns: minmax(0, 1fr);
-      max-width: 100%;
-    }
-  }
-  
-  .card-filter-button .md-level-svg {
-    height: 32px;
   }
 
   /* =======================
@@ -287,9 +115,22 @@
     width: 100%;
   }
 
-  .form-card-icon {
-    font-size: 48px;
-    color: var(--brand-color-primary);
+  .form-card {
+    border: 2px solid var(--border-dark-color);
+    border-radius: 24px;
+    padding: 12px;
+    width: 100%;
+    background-color: var(--dark-color-primary);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    min-height: 100%;
+    height: 100%;
+  }
+
+  .form-card p {
+    margin: 0;
   }
 
   .form-card h3 {
@@ -306,6 +147,152 @@
 
   .form-card h3 a:hover {
     border-bottom-color: currentcolor;
+  }
+
+  .card-grid-authors .md-author-card,
+  .card-grid-levels .level-card {
+    border: 2px solid var(--border-dark-color);
+    border-radius: 24px;
+    padding: 16px;
+    background-color: var(--dark-color-primary);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
+
+  .card-grid-authors .md-author-card > p {
+    margin: 0;
+  }
+
+  .card-grid-authors .md-author-card > p.author-card-mantra {
+    font-style: italic;
+  }
+
+  .card-grid-authors .md-author-card > img {
+    width: 100px;
+    height: 100px;
+    border: 2px solid var(--border-dark-color);
+    border-radius: 50%;
+    align-self: center;
+    margin-bottom: 8px;
+    overflow: hidden;
+  }
+
+  .card-grid-authors .md-author-card > h2 {
+    font-size: var(--h4);
+    margin: 0;
+  }
+
+  .card-grid-authors .md-author-card h2 + ul {
+    text-align: center;
+    align-self: center;
+    margin: 0 0 12px;
+    padding: 0;
+  }
+
+  .card-grid-authors .md-author-card h2 + ul li {
+    display: inline;
+  }
+
+  .card-grid-authors .md-author-card h2 + ul li:not(:last-of-type)::after {
+    content: ", ";
+  }
+
+  .card-grid-authors .md-author-card .md-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 16px;
+    margin-bottom: 12px;
+    font-size: 0;
+  }
+
+  .card-grid-authors .md-author-card h3.author-card-emoji-signature {
+    text-align: center;
+    font-size: var(--h4);
+  }
+
+  .level-card-icon {
+    display: flex;
+    justify-content: center;
+  }
+
+  .level-card h3 {
+    margin: 0;
+    font-size: var(--h4);
+  }
+
+  .level-card-intention {
+    font-style: italic;
+    margin: 0;
+  }
+
+  .level-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .level-card ul li a {
+    color: var(--brand-color-secondary);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+
+  .level-card ul li a:hover {
+    border-bottom-color: currentcolor;
+  }
+
+  main :is(h2, h3, h4)[id^="inspirat"] + ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+
+  .card-grid-levels.card-stream-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-width: 640px;
+  }
+
+  .card-grid-levels .card-stream-item {
+    max-width: 280px;
+  }
+
+  .card-grid-levels.card-stream-grid[data-visible-items="1"] {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+  }
+
+  .card-grid-levels.card-stream-grid[data-visible-items="1"] .card-stream-item {
+    flex: 0 0 280px;
+    max-width: 280px;
+    width: 100%;
+  }
+
+  @media (width <= 640px) {
+    .card-grid-levels.card-stream-grid {
+      grid-template-columns: minmax(0, 1fr);
+      max-width: 100%;
+    }
+  }
+  
+  .card-filter-button .md-level-svg {
+    height: 32px;
+  }
+
+  .form-card-icon {
+    font-size: 48px;
+    color: var(--brand-color-primary);
   }
 
   /* =======================
