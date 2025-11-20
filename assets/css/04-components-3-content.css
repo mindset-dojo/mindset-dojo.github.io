@@ -115,7 +115,7 @@
   .card-stream-item {
     display: flex;
     height: 100%;
-    width: 240px;
+    max-width: 240px;
   }
 
   .card-grid-single,
@@ -139,7 +139,7 @@
   .card-grid-single .card-stream-item,
   .card-grid-double .card-stream-item {
     flex: 0 0 240px;
-    width: 240px;
+    max-width: 240px;
   }
 
   @media (width >= 900px) {
