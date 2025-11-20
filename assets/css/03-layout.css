@@ -1,4 +1,13 @@
 @layer layout {
+  :root {
+    --card-min: 260px;
+    --card-gap: 16px;
+    --card-grid-max: 720px;
+    --card-radius: 24px;
+    --card-padding: 16px;
+    --card-padding-compact: 12px;
+  }
+
   /* Global spacing for sections */
   section { margin-bottom: 20px; }
 
@@ -81,6 +90,64 @@
       grid-template-columns: 1fr;
       grid-gap: 24px;
     }
+  }
+
+  /* Shared card grid */
+  .card-stream-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(var(--card-min), 1fr));
+    gap: var(--card-gap);
+    width: 100%;
+    max-width: var(--card-grid-max);
+    margin: 24px auto 0;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .card-stream-item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-width: var(--card-min);
+    max-width: var(--card-min);
+  }
+
+  .card-grid-single,
+  .card-grid-double {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--card-gap);
+    justify-content: center;
+    width: 100%;
+    margin: 24px auto 0;
+  }
+
+  .card-grid-single { max-width: var(--card-min); }
+
+  .card-grid-double { max-width: calc(var(--card-min) * 2 + var(--card-gap)); }
+
+  .card-grid-double .card-stream-item {
+    flex: 0 0 var(--card-min);
+    max-width: var(--card-min);
+  }
+
+  @media (width <= 560px) {
+    .card-stream-grid {
+      grid-template-columns: minmax(var(--card-min), 1fr);
+      max-width: 100%;
+    }
+  }
+
+  .card-stream-grid[data-visible-items="1"] {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+  }
+
+  .card-stream-grid[data-visible-items="1"] .card-stream-item {
+    flex: 0 0 var(--card-min);
+    max-width: var(--card-min);
+    width: 100%;
   }
 
   /* FLOW section pattern */

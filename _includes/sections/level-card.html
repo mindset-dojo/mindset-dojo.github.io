@@ -1,7 +1,6 @@
-{%- assign level = include.level | default: include.item | default: item -%}
-{%- if level -%}
+{%- assign level = include.item | default: include.level -%}
   {%- assign flows = level.flows | default: "" -%}
-  <article class="level-card">
+  <article class="md-card level-card">
     <div class="level-card-icon">
       {% include icons/level.svg
         class="md-level-svg"
@@ -31,4 +30,3 @@
       </ul>
     {%- endif -%}
   </article>
-{%- endif -%}

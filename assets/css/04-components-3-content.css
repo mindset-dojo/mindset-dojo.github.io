@@ -64,100 +64,19 @@
      Generic card streams
      ======================= */
 
-  .card-stream-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 240px));
-    gap: 16px;
-    width: 100%;
-    max-width: 720px;
-    margin: 24px auto 0;
-    justify-content: center;
-    justify-items: center;
-  }
-
-  .card-stream-item {
+  .md-card {
+    border: 2px solid var(--border-dark-color);
+    border-radius: var(--card-radius);
+    padding: var(--card-padding);
+    background-color: var(--card-bg, var(--dark-color-primary));
     display: flex;
     flex-direction: column;
+    gap: 12px;
+    text-align: center;
+    min-height: 100%;
+    height: 100%;
     width: 100%;
-    max-width: 240px;
-  }
-
-  .card-grid-single,
-  .card-grid-double {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
-    justify-content: center;
-    width: 100%;
-    margin: 24px auto 0;
-  }
-
-  .card-grid-single {
-    max-width: 240px;
-  }
-
-  .card-grid-double {
-    max-width: 520px;
-  }
-
-  .card-grid-single .card-stream-item,
-  .card-grid-levels .card-stream-item {
-    max-width: 280px;
-  }
-  
-  .card-grid-double .card-stream-item {
-    flex: 0 0 240px;
-    max-width: 240px;
-  }
-
-  @media (width >= 900px) {
-    .card-stream-grid {
-      grid-template-columns: repeat(3, minmax(0, 240px));
-    }
-  }
-
-  @media (width <= 768px) {
-    .card-stream-grid {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      max-width: 100%;
-    }
-  }
-
-  @media (width <= 520px) {
-    .card-stream-grid {
-      grid-template-columns: minmax(0, 1fr);
-    }
-  }
-
-  .card-stream-grid[data-visible-items="1"] {
-    display: flex;
-    justify-content: center;
-    max-width: 100%;
-  }
-
-  .card-stream-grid[data-visible-items="1"] .card-stream-item {
-    flex: 0 0 240px;
-    max-width: 240px;
-    width: 100%;
-  }
-
-  .card-grid-levels.card-stream-grid[data-visible-items="1"] {
-    display: flex;
-    justify-content: center;
-    max-width: 100%;
-  }
-
-  .card-grid-levels.card-stream-grid[data-visible-items="1"] .card-stream-item {
-    flex: 0 0 280px;
-    max-width: 280px;
-    width: 100%;
-  }
-
-  @media (width <= 640px) {
-    .card-grid-levels.card-stream-grid {
-      grid-template-columns: minmax(0, 1fr);
-      max-width: 100%;
-    }
+    margin: 0;
   }
 
   .level-card ul {
@@ -175,19 +94,7 @@
     text-align: center;
   }
 
-  .form-card {
-    border: 2px solid var(--border-dark-color);
-    border-radius: 24px;
-    padding: 12px;
-    width: 100%;
-    background-color: var(--dark-color-primary);
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    min-height: 100%;
-    height: 100%;
-  }
+  .form-card { padding: var(--card-padding-compact); }
 
   .form-card p {
     margin: 0;
@@ -213,27 +120,8 @@
     margin: 0;
   }
 
-  .card-grid-levels.card-stream-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    max-width: 640px;
-  }
-
-
   .card-grid-authors .md-author-card,
-  .card-grid-levels .level-card {
-    border: 2px solid var(--border-dark-color);
-    border-radius: 24px;
-    padding: 16px;
-    background-color: var(--dark-color-primary);
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    text-align: center;
-    min-height: 100%;
-    height: 100%;
-    width: 100%;
-    margin: 0;
-  }
+  .card-grid-levels .level-card { text-align: center; }
 
   .card-grid-authors .md-author-card > p {
     margin: 0;

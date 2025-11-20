@@ -186,15 +186,15 @@ sections:
         - "Open gates for others."
         - "Always return to training."
         - "Grow the field."
+  - type: ctas
+    data:
+      items:
+        - label: "Cross Threshold Zero"
+          ref: connect
   - type: authors
     data:
       leadership_flow:
         label: "⛩️💫 Guides"
         designation_type: program
         limit: 16
-  - type: ctas
-    data:
-      items:
-        - label: "Cross Threshold Zero"
-          ref: connect
 ...

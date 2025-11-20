@@ -1,5 +1,4 @@
-{%- assign doc = include.post | default: post -%}
-{%- if doc -%}
+{%- assign doc = include.item | default: include.post -%}
   {%- assign form_title = doc.title | default: "Form" -%}
   {%- assign form_url = doc.url | relative_url -%}
   {%- assign raw_slug = doc.slug | default: doc.path | split: "/" | last | split: "." | first -%}
@@ -8,7 +7,7 @@
   {%- assign desc_source = doc.card_excerpt | default: doc.excerpt | default: doc.summary | default: doc.description -%}
   {%- assign desc_html = desc_source | default: "" | markdownify -%}
   {%- assign desc_text = desc_html | strip_html | strip_newlines | truncate: 160 -%}
-  <article class="form-card">
+  <article class="md-card form-card">
     <div class="form-card-icon" aria-hidden="true">
       <i class="{{ icon_class }}"></i>
     </div>
@@ -17,4 +16,3 @@
       <p>{{ desc_text }}</p>
     {%- endif -%}
   </article>
-{%- endif -%}

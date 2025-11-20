@@ -2,7 +2,10 @@
 layout: post
 ---
 
-{% include sections/form-card.html post=page %}
+{% include sections/card-grid.html
+  item=page
+  total_count=1
+  item_partial="sections/form-card.html" %}
 
 {{ content }}
 
