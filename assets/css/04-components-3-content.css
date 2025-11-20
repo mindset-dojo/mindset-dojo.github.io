@@ -37,6 +37,12 @@
     color: var(--dark-color-primary);
   }
 
+  main :is(h2, h3, h4)[id^="inspirat"] + ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+
   /* =======================
      Generic card streams
      ======================= */
@@ -113,6 +119,68 @@
     flex: 0 0 240px;
     max-width: 240px;
     width: 100%;
+  }
+
+  .level-card-icon {
+    display: flex;
+    justify-content: center;
+  }
+
+  .level-card h3 {
+    margin: 0;
+    font-size: var(--h4);
+  }
+
+  .level-card-intention {
+    font-style: italic;
+    margin: 0;
+  }
+
+  .level-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .level-card ul li a {
+    color: var(--brand-color-secondary);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+
+  .level-card ul li a:hover {
+    border-bottom-color: currentcolor;
+  }
+
+  .card-grid-levels.card-stream-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-width: 640px;
+  }
+
+  .card-grid-levels.card-stream-grid[data-visible-items="1"] {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+  }
+
+  .card-grid-levels.card-stream-grid[data-visible-items="1"] .card-stream-item {
+    flex: 0 0 280px;
+    max-width: 280px;
+    width: 100%;
+  }
+
+  @media (width <= 640px) {
+    .card-grid-levels.card-stream-grid {
+      grid-template-columns: minmax(0, 1fr);
+      max-width: 100%;
+    }
+  }
+
+  .card-filter-button .md-level-svg {
+    height: 32px;
   }
 
   .form-card {
@@ -216,78 +284,6 @@
   .card-grid-authors .md-author-card h3.author-card-emoji-signature {
     text-align: center;
     font-size: var(--h4);
-  }
-
-  .level-card-icon {
-    display: flex;
-    justify-content: center;
-  }
-
-  .level-card h3 {
-    margin: 0;
-    font-size: var(--h4);
-  }
-
-  .level-card-intention {
-    font-style: italic;
-    margin: 0;
-  }
-
-  .level-card ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-  }
-
-  .level-card ul li a {
-    color: var(--brand-color-secondary);
-    text-decoration: none;
-    border-bottom: 1px solid transparent;
-  }
-
-  .level-card ul li a:hover {
-    border-bottom-color: currentcolor;
-  }
-
-  main :is(h2, h3, h4)[id^="inspirat"] + ul {
-    list-style: none;
-    padding: 0;
-    text-align: center;
-  }
-
-  .card-grid-levels.card-stream-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    max-width: 640px;
-  }
-
-  .card-grid-levels .card-stream-item {
-    max-width: 280px;
-  }
-
-  .card-grid-levels.card-stream-grid[data-visible-items="1"] {
-    display: flex;
-    justify-content: center;
-    max-width: 100%;
-  }
-
-  .card-grid-levels.card-stream-grid[data-visible-items="1"] .card-stream-item {
-    flex: 0 0 280px;
-    max-width: 280px;
-    width: 100%;
-  }
-
-  @media (width <= 640px) {
-    .card-grid-levels.card-stream-grid {
-      grid-template-columns: minmax(0, 1fr);
-      max-width: 100%;
-    }
-  }
-  
-  .card-filter-button .md-level-svg {
-    height: 32px;
   }
 
   .form-card-icon {
