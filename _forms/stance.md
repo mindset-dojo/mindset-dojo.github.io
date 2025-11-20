@@ -9,6 +9,10 @@ authors:
 - michael-basil
 excerpt: A Stance is the personal expression of one's FEBI® energy archetypes through breath, tone, timing, and attention in relation to a context (others in the interaction and shared energy field).
 icon: fa-solid fa-shoe-prints
+tags:
+  - energy
+  - meta
+  - practice
 inspirations:
 - label: Ki in Daily Life by Koichi Tohei
   url: https://www.amazon.com/Ki-Daily-Life-Koichi-Tohei/dp/4889960716

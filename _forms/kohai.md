@@ -10,6 +10,8 @@ authors:
 - kyle-ingersoll
 excerpt: A Kohai follows the Sensei' and Senpai' fearless leadership, and applies MetaShift Method to the best of their ability.
 icon: fa-solid fa-user-graduate
+tags:
+  - role
 inspirations:
 - label: Ki in Daily Life by Koichi Tohei
   url: https://www.amazon.com/Ki-Daily-Life-Koichi-Tohei/dp/4889960716

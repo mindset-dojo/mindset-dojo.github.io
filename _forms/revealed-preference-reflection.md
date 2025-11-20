@@ -8,6 +8,9 @@ authors:
 - kyle-ingersoll
 excerpt: Revealed Preference Reflection is a combination of Stillness Contemplation and Integration Under Fire, analyzing one's desires through their actions.
 icon: fa-solid fa-eye-dropper
+tags:
+  - practice
+  - meta
 inspirations:
 - label: For Something New To Come, Something Old Must Go
   url: https://www.youtube.com/watch?v=_to_w-R0JjQ

@@ -10,6 +10,9 @@ authors:
 - kyle-ingersoll
 excerpt: A Mat is a martial attitude one brings with them to do mutual (Jungian) shadow integration through embodied practice.
 icon: fa-solid fa-border-all
+tags:
+  - container
+  - practice
 inspirations:
 - label: Tenshinkan Dojo
   url: https://japaneseculturecenter.com/classes/aikido

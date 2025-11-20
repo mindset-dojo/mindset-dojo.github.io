@@ -9,6 +9,8 @@ authors:
 - kyle-ingersoll
 excerpt: A form for recognizing genuine contributions of attention and energy — honoring mutual investment, resonance, and presence within and beyond the dojo.
 icon: fa-solid fa-hand-holding-heart
+tags:
+  - practice
 inspirations:
 - label: David R. Hawkins – Map of Consciousness
   url: https://veritaspub.com/map-of-consciousness/

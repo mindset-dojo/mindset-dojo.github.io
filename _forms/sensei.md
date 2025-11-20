@@ -10,6 +10,8 @@ authors:
 - kyle-ingersoll
 excerpt: A Sensei fearlessly leads through modeling, guidance, and support through MetaShift Method.
 icon: fa-solid fa-user-shield
+tags:
+  - role
 inspirations:
 - label: Ki in Daily Life by Koichi Tohei
   url: https://www.amazon.com/Ki-Daily-Life-Koichi-Tohei/dp/4889960716

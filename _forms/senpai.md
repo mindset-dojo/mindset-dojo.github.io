@@ -10,6 +10,8 @@ authors:
 - kyle-ingersoll
 excerpt: A Senpai fearlessly learns MetaShift Method from the model and guidance of the Sensei, and acts as a guide and model for the Kohai.
 icon: fa-solid fa-user-tie
+tags:
+  - role
 inspirations:
 - label: Ki in Daily Life by Koichi Tohei
   url: https://www.amazon.com/Ki-Daily-Life-Koichi-Tohei/dp/4889960716

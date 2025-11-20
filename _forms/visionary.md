@@ -9,6 +9,9 @@ authors:
 - michael-basil
 excerpt: Part of the Four Patterns from Institute for Zen Leadership, Visionary energy expands one's awareness beyond their immediate context, attracting the future.
 icon: fa-solid fa-eye
+tags:
+  - energy
+  - practice
 inspirations:
 - label: Never Split the Difference by Chris Voss
   url: https://www.amazon.com/Never-Split-Difference-Negotiating-Depended/dp/0062407805

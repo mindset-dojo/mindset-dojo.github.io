@@ -9,6 +9,9 @@ authors:
 - michael-basil
 excerpt: Two Sides is part of the Zen Toolkit from Institute of Zen Leadership and is where you evaluate both sides of an argument/narrative to see what is valid and what concerns exist.
 icon: fa-solid fa-scale-unbalanced
+tags:
+  - practice
+  - meta
 inspirations:
 - label: Institute for Zen Leadership
   url: https://zenleader.global

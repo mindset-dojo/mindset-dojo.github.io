@@ -8,6 +8,8 @@ authors:
 - bill-westfall
 excerpt: Stillness Contemplation is to sit in silence and at rest.
 icon: fa-solid fa-water
+tags:
+  - practice
 inspirations:
 - label: Dāmam Definition
   url: https://www.blueletterbible.org/lexicon/h1826/kjv/wlc/0-1/

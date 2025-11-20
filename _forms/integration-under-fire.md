@@ -10,6 +10,9 @@ authors:
 - jeremy-mcmillan
 excerpt: A reflection form for working with compression — meeting lower-consciousness forces without collapsing or bypassing. Integration through practice, not martyrdom.
 icon: fa-solid fa-fire
+tags:
+  - practice
+  - meta
 inspirations:
 - label: Institute for Zen Leadership
   url: https://zenleader.global

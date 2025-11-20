@@ -9,6 +9,8 @@ authors:
 - kyle-ingersoll
 excerpt: Meta is the awareness that emerges through training. It influences the timing, coordination, and integration of all other forms — awakening the inner sensei that learns to guide from wholeness. Informed by Martial Attitude, Meta learns the rhythm of when to act, when to wait, and when to dissolve.
 icon: fa-solid fa-infinity
+tags:
+  - meta
 inspirations:
 - label: Tenshinkan Dojo
   url: https://japaneseculturecenter.com/classes/aikido

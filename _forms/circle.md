@@ -10,6 +10,9 @@ authors:
 - kyle-ingersoll
 excerpt: Circles are brave spaces for mutual exploration and reflection bound together by a web of trust and shared principles.
 icon: fa-solid fa-circle
+tags:
+  - container
+  - practice
 inspirations:
 - label: InnerSource Commons Foundation
   url: https://innersourcecommons.org

@@ -9,6 +9,10 @@ authors:
 - kyle-ingersoll
 excerpt: An experiential practice lab for sensing how the Four Energies move through people, systems, and the domains they serve — so that individuals and communities can act with greater clarity, coherence, and care.
 icon: fa-solid fa-flask
+tags:
+  - practice
+  - energy
+  - meta
 inspirations:
 - label: Institute for Zen Leadership
   url: https://zenleader.global

@@ -9,6 +9,9 @@ authors:
 - kyle-ingersoll
 excerpt: A companion training form for reading Resonate - Zen and the Way of Making a Difference by Ginny Whitelaw — deepening embodiment of the Zen Toolkit and FEBI® patterns through practice, reflection, and resonance. Read it as dojo training, not theory.
 icon: fa-solid fa-wave-square
+tags:
+  - practice
+  - meta
 inspirations:
 - label: Resonate - Zen and the Way of Making a Difference by Ginny Whitelaw
   url: https://www.choseizen.org/store/p/resonate
