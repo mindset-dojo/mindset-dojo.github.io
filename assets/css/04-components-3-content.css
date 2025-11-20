@@ -105,6 +105,7 @@
   .card-grid-levels .card-stream-item {
     max-width: 280px;
   }
+  
   .card-grid-double .card-stream-item {
     flex: 0 0 240px;
     max-width: 240px;
