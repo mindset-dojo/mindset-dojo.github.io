@@ -49,25 +49,63 @@ function initMD () {
   // related content toggles
   const relatedSections = document.querySelectorAll('[data-related-toggle="true"]')
   relatedSections.forEach((section) => {
-    const button = section.querySelector('[data-related-toggle-button]')
+    const buttons = Array.from(section.querySelectorAll('[data-related-toggle-button]'))
     const content = section.querySelector('[data-related-toggle-content]')
-    if (!button || !content) return
+    if (buttons.length === 0 || !content) return
 
-    const showLabel = button.dataset.showLabel || 'Show'
-    const hideLabel = button.dataset.hideLabel || 'Hide'
+    const showLabel = buttons[0].dataset.showLabel || 'Show'
+    const hideLabel = buttons[0].dataset.hideLabel || 'Hide'
 
     const setExpanded = (expanded) => {
       content.hidden = !expanded
-      button.textContent = expanded ? hideLabel : showLabel
-      button.setAttribute('aria-expanded', String(expanded))
+      buttons.forEach((btn) => {
+        btn.textContent = expanded ? hideLabel : showLabel
+        btn.setAttribute('aria-expanded', String(expanded))
+      })
     }
 
     setExpanded(false)
 
-    button.addEventListener('click', () => {
-      const expanded = button.getAttribute('aria-expanded') === 'true'
-      setExpanded(!expanded)
+    buttons.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const expanded = btn.getAttribute('aria-expanded') === 'true'
+        setExpanded(!expanded)
+      })
     })
+  })
+
+  // card filters
+  const cardFilters = document.querySelectorAll('[data-card-filter]')
+  cardFilters.forEach((filter) => {
+    const section = filter.closest('section')
+    if (!section) return
+    const grid = section.querySelector('[data-card-grid]')
+    if (!grid) return
+
+    const buttons = Array.from(filter.querySelectorAll('[data-card-filter-button]'))
+    const items = Array.from(grid.querySelectorAll('[data-card-item]'))
+    if (buttons.length === 0 || items.length === 0) return
+
+    const setFilter = (tag) => {
+      let visibleCount = 0
+      items.forEach((item) => {
+        const tags = (item.dataset.tags || '').split(/\s+/)
+        const match = tag === 'all' || tags.includes(tag)
+        item.classList.toggle('is-hidden-by-filter', !match)
+        if (match && !item.classList.contains('is-hidden')) visibleCount += 1
+      })
+      grid.dataset.visibleItems = String(visibleCount)
+    }
+
+    buttons.forEach((button) => {
+      button.addEventListener('click', () => {
+        const tag = button.dataset.tag || 'all'
+        buttons.forEach((btn) => btn.classList.toggle('is-active', btn === button))
+        setFilter(tag)
+      })
+    })
+
+    setFilter('all')
   })
 }
 document.addEventListener('DOMContentLoaded', initMD)

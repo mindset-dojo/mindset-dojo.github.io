@@ -9,6 +9,10 @@ authors:
 - jeremy-mcmillan
 - kyle-ingersoll
 excerpt: A Dojo is a Circle of learning that embodies Fearless Leadership through practicing MetaShift Method on a Mat.
+icon: fa-solid fa-torii-gate
+tags:
+  - container
+  - practice
 inspirations:
 - label: Ki in Daily Life by Koichi Tohei
   url: https://www.amazon.com/Ki-Daily-Life-Koichi-Tohei/dp/4889960716

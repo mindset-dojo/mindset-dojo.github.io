@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/kucherenko/jscpd/master/schemas/jscpd-schema.json",
+  "threshold": 0,
+  "minLines": 5,
+  "minTokens": 50,
+  "reporters": [
+    "consoleFull"
+  ],
+  "ignore": [
+    "**/_forms/*.md"
+  ]
+}

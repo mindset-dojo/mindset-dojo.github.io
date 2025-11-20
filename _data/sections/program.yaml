@@ -7,6 +7,9 @@ description: |
   like a zone in a training game, gradually increasing your capacity to stay
   connected and responsive under pressure. This is the inverse of distancing:
   training resonance instead of resistance.
+level_defaults:
+  unranked_label: "Unranked"
+  unranked_color: "white"
 sections:
   - type: text
     data:
@@ -28,6 +31,7 @@ sections:
   - type: levels
     data:
       label: "Training Levels"
+      level_filter: true
       items:
         - color: gray
           label: 7th Kyu

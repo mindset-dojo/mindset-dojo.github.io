@@ -1,7 +1,7 @@
 {%- comment -%}
 Authors grid section — collection-only, strict slug mode.
 
-Renders a grid of author cards inside <div class="md-authors">…</div>.
+Renders author cards via the shared card-stream layout.
 
 Data sources:
 - Default: all docs from the `authors` collection → `site.authors`.
@@ -29,13 +29,30 @@ Example usages:
   {% include sections/authors.html section=section authors="a,b" %}           {# subset by slugs #}
 {%- endcomment -%}
 
-{%- assign D = section.data -%}
+{%- assign D = section.data | default: {} -%}
 {%- assign designation_type = D.leadership_flow.designation_type | default: '' | downcase | strip -%}
-
-{%- if D.leadership_flow and D.leadership_flow.label -%}
-<section class="md-flow">
-  <h2>{{ D.leadership_flow.label }}</h2>
-</section>
+{%- assign level_filter = D.level_filter | default: false -%}
+{%- assign level_filter_values = nil -%}
+{%- assign level_filter_options = nil -%}
+{%- assign level_filter_slugs = nil -%}
+{%- assign program_level_items = nil -%}
+{%- assign program_data = nil -%}
+{%- assign level_defaults = nil -%}
+{%- assign unranked_label = "Unranked" -%}
+{%- assign unranked_color = "white" -%}
+{%- if level_filter -%}
+  {%- assign level_filter_values = "" | split:"|" -%}
+  {%- assign level_filter_options = "" | split:"|" -%}
+  {%- assign level_filter_slugs = "" | split:"|" -%}
+  {%- assign program_data = site.data.sections.program | default: {} -%}
+  {%- assign level_defaults = program_data.level_defaults | default: {} -%}
+  {%- assign unranked_label = level_defaults.unranked_label | default: unranked_label -%}
+  {%- assign unranked_color = level_defaults.unranked_color | default: unranked_color -%}
+  {%- assign program_level_items = program_data.sections
+    | where: "type", "levels"
+    | map: "data"
+    | map: "items"
+    | first -%}
 {%- endif -%}
 
 {%- comment -%} Normalize include.authors (slugs) to an array {%- endcomment -%}
@@ -104,13 +121,97 @@ Example usages:
   {%- endif -%}
 {%- endif -%}
 
-<div class="md-authors">
-  {%- for e in entries -%}
-    {%- assign parts = e | split:'|' -%}
-    {%- assign slug  = parts[2] -%}
-    {%- assign doc   = site.authors | where:"slug", slug | first -%}
-    {%- if doc -%}
-      {% include sections/author.html author=doc %}
+{%- assign author_cards = "" | split:"|" -%}
+{%- for e in entries -%}
+  {%- assign parts = e | split:'|' -%}
+  {%- assign slug  = parts[2] -%}
+  {%- assign doc   = site.authors | where:"slug", slug | first -%}
+  {%- if doc -%}
+    {%- assign author_cards = author_cards | push: doc -%}
+    {%- if level_filter -%}
+      {%- assign level_raw = doc.program_level | default: nil -%}
+      {%- assign author_level_label = "" -%}
+      {%- assign author_level_color = unranked_color -%}
+      {%- assign level_value = -999 -%}
+      {%- if level_raw != nil and level_raw != '' and level_raw != 'null' -%}
+        {%- assign level_value = level_raw | plus: 0 -%}
+      {%- endif -%}
+      {%- if program_level_items and level_raw != nil and level_raw != '' and level_raw != 'null' -%}
+        {%- assign level_entry = program_level_items | where: "level", level_value | first -%}
+        {%- if level_entry -%}
+          {%- assign author_level_label = level_entry.label | default: "" -%}
+          {%- assign author_level_color = level_entry.color | default: author_level_color -%}
+        {%- endif -%}
+      {%- endif -%}
+      {%- if author_level_label == "" -%}
+        {%- assign author_level_label = unranked_label -%}
+        {%- assign author_level_color = unranked_color -%}
+      {%- endif -%}
+      {%- assign level_slug = author_level_label | slugify -%}
+      {%- assign level_filter_values = level_filter_values | push: level_slug -%}
+      {%- assign option_sort_level = level_value -%}
+      {%- if author_level_label == unranked_label -%}
+        {%- assign option_sort_level = -999 -%}
+      {%- endif -%}
+      {%- assign sort_value = option_sort_level | plus: 1000 | prepend: "0000" | slice: -4, 4 -%}
+      {%- capture option_key -%}{{ sort_value }}|||{{ level_slug }}|||{{ author_level_label }}|||{{ author_level_color }}{%- endcapture -%}
+      {%- unless level_filter_slugs contains level_slug -%}
+        {%- assign level_filter_slugs = level_filter_slugs | push: level_slug -%}
+        {%- assign level_filter_options = level_filter_options | push: option_key -%}
+      {%- endunless -%}
     {%- endif -%}
-  {%- endfor -%}
-</div>
+  {%- endif -%}
+{%- endfor -%}
+
+{%- if level_filter and level_filter_options and level_filter_options != empty -%}
+  {%- assign level_filter_options = level_filter_options | sort | reverse -%}
+{%- endif -%}
+
+{%- assign grid_filter_values = nil -%}
+{%- if level_filter -%}
+  {%- assign grid_filter_values = level_filter_values -%}
+{%- endif -%}
+
+{%- if section -%}
+<section class="md-flow card-stream">
+  {%- if D.leadership_flow and D.leadership_flow.label -%}
+    <h2>{{ D.leadership_flow.label }}</h2>
+  {%- endif -%}
+  {%- if level_filter and level_filter_options and level_filter_options.size > 0 -%}
+    <div class="card-filter" data-card-filter>
+      <button type="button"
+              class="card-filter-button is-active"
+              data-card-filter-button
+              data-tag="all">All</button>
+      {%- for option in level_filter_options -%}
+        {%- assign option_parts = option | split:"|||" -%}
+        {%- assign option_slug = option_parts[1] -%}
+        {%- assign option_label = option_parts[2] -%}
+        {%- assign option_color = option_parts[3] | default: "gray" -%}
+        <button type="button"
+                class="card-filter-button"
+                data-card-filter-button
+                data-tag="{{ option_slug }}"
+                aria-label="{{ option_label }}"
+                title="{{ option_label }}">
+          {% include icons/level.svg
+             class="md-level-svg card-filter-level"
+             color=option_color
+             title=option_label %}
+        </button>
+      {%- endfor -%}
+    </div>
+  {%- endif -%}
+  {% include sections/card-grid.html
+    items=author_cards
+    item_partial="sections/author.html"
+    wrapper_class="card-grid-authors"
+    item_filter_values=grid_filter_values %}
+</section>
+{%- else -%}
+  {% include sections/card-grid.html
+    items=author_cards
+    item_partial="sections/author.html"
+    wrapper_class="card-grid-authors"
+    item_filter_values=grid_filter_values %}
+{%- endif -%}

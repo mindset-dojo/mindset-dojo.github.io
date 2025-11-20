@@ -7,6 +7,10 @@ refactored_date: 2025-11-13
 authors:
 - kyle-ingersoll
 excerpt: A Domain-Focused Cultivator supports the Dojo through their domain expertise tuned in through the Program.
+icon: fa-solid fa-seedling
+tags:
+  - role
+  - meta
 inspirations:
 - label: Dojo Consortium
   url: https://dojoconsortium.org

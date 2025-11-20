@@ -9,6 +9,11 @@ authors:
 - michael-basil
 - jeremy-mcmillan
 excerpt: Martial Attitude is the continuous integration and deployment of awareness and action, cultivating fluid trust through presence.
+icon: fa-solid fa-user-ninja
+tags:
+  - practice
+  - meta
+  - energy
 inspirations:
 - label: Aikido
   url: https://en.wikipedia.org/wiki/Aikido

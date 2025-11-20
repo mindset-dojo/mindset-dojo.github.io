@@ -7,6 +7,10 @@ refactored_date: 2025-11-13
 authors:
 - kyle-ingersoll
 excerpt: A Organizationally-Focused Cultivator supports the community through their deep knowledge of the Program, the Dojo, and The Way.
+icon: fa-solid fa-diagram-project
+tags:
+  - role
+  - meta
 inspirations:
 - label: Ki in Daily Life by Koichi Tohei
   url: https://www.amazon.com/Ki-Daily-Life-Koichi-Tohei/dp/4889960716

@@ -14,38 +14,57 @@ Each level item shape:
 {%- endcomment -%}
 
 {%- assign D = section.data -%}
-{%- if D.items and D.items.size > 0 -%}
-<section class="md-flow">
-  <h2>{{ D.label }}</h2>
-
-  {%- for lv in D.items -%}
-    <br/>
-    <h3>
-      {% include icons/level.svg
-        class="md-level-svg"
-        color=lv.color
-        title=lv.label %}
-    </h3>
-
-    <p><strong>{{lv.label}} - {{ lv.intention }}</strong></p>
-
-    <ul>
-      {%- for f in lv.flows -%}
-        {%- if f.url | slice: 0, 1 == "/" -%}
-          <li>
-            <a href="{{ f.url | relative_url }}">
-              {{ f.label }}
-            </a>
-          </li>
-        {%- else -%}
-          <li>
-            <a href="{{ f.url }}">
-              {{ f.label }}
-            </a>
-          </li>
-        {%- endif -%}
-      {%- endfor -%}
-    </ul>
-  {%- endfor -%}
-</section>
+{%- assign items = D.items -%}
+{%- if items and items.size > 0 -%}
+  {%- assign enable_filter = D.level_filter | default:false -%}
+  {%- assign filter_values = nil -%}
+  {%- assign filter_options = nil -%}
+  {%- if enable_filter -%}
+    {%- assign filter_values = "" | split:"|" -%}
+    {%- assign filter_options = "" | split:"|" -%}
+    {%- for lv in items -%}
+      {%- assign slug = lv.label | default: lv.intention | slugify -%}
+      {%- assign label = lv.label | default: "Level" -%}
+      {%- assign color = lv.color | default: "gray" -%}
+      {%- assign filter_values = filter_values | push: slug -%}
+      {%- assign order_key = forloop.index0 | plus: 1000 | prepend:"0000" | slice:-4,4 -%}
+      {%- capture option_key -%}{{ order_key }}|||{{ slug }}|||{{ label }}|||{{ color }}{%- endcapture -%}
+      {%- assign filter_options = filter_options | push: option_key -%}
+    {%- endfor -%}
+  {%- endif -%}
+  <section class="md-flow card-stream">
+    {%- if D.label -%}
+      <h2>{{ D.label }}</h2>
+    {%- endif -%}
+    {%- if enable_filter and filter_options and filter_options.size > 0 -%}
+      <div class="card-filter" data-card-filter>
+        <button type="button"
+                class="card-filter-button is-active"
+                data-card-filter-button
+                data-tag="all">All</button>
+        {%- for option in filter_options -%}
+          {%- assign parts = option | split:"|||" -%}
+          {%- assign slug = parts[1] -%}
+          {%- assign label = parts[2] -%}
+          {%- assign color = parts[3] -%}
+          <button type="button"
+                  class="card-filter-button"
+                  data-card-filter-button
+                  data-tag="{{ slug }}"
+                  aria-label="{{ label }}"
+                  title="{{ label }}">
+            {% include icons/level.svg
+               class="md-level-svg card-filter-level"
+               color=color
+               title=label %}
+          </button>
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
+    {% include sections/card-grid.html
+      items=items
+      item_partial="sections/level-card.html"
+      wrapper_class="card-grid-levels"
+      item_filter_values=filter_values %}
+  </section>
 {%- endif -%}
