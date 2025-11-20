@@ -9,6 +9,7 @@ sections:
       sort_by: title
       reverse: false
       excerpt_length: 220
+      tag_filter: true
       card_layout: true
       item_partial: sections/form-card.html
 ...

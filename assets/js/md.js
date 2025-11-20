@@ -73,5 +73,36 @@ function initMD () {
       })
     })
   })
+
+  // card filters
+  const cardFilters = document.querySelectorAll('[data-card-filter]')
+  cardFilters.forEach((filter) => {
+    const section = filter.closest('section')
+    if (!section) return
+    const grid = section.querySelector('[data-card-grid]')
+    if (!grid) return
+
+    const buttons = Array.from(filter.querySelectorAll('[data-card-filter-button]'))
+    const items = Array.from(grid.querySelectorAll('[data-card-item]'))
+    if (buttons.length === 0 || items.length === 0) return
+
+    const setFilter = (tag) => {
+      items.forEach((item) => {
+        const tags = (item.dataset.tags || '').split(/\s+/)
+        const match = tag === 'all' || tags.includes(tag)
+        item.classList.toggle('is-hidden-by-filter', !match)
+      })
+    }
+
+    buttons.forEach((button) => {
+      button.addEventListener('click', () => {
+        const tag = button.dataset.tag || 'all'
+        buttons.forEach((btn) => btn.classList.toggle('is-active', btn === button))
+        setFilter(tag)
+      })
+    })
+
+    setFilter('all')
+  })
 }
 document.addEventListener('DOMContentLoaded', initMD)

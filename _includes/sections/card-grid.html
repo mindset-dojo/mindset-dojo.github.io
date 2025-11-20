@@ -26,13 +26,17 @@ Reusable card grid wrapper. Accepts:
 {%- endif -%}
 
 {%- if items_array and items_array != empty -%}
-  <div class="{{ grid_class }}">
+  <div class="{{ grid_class }}" data-card-grid>
     {%- for item in items_array -%}
       {%- assign hide_item = false -%}
       {%- if initial_limit and total_items > initial_limit and forloop.index0 >= initial_limit -%}
         {%- assign hide_item = true -%}
       {%- endif -%}
-      <div class="collection-stream-item card-stream-item{% if hide_item %} is-hidden{% endif %}" data-collection-item>
+      {%- assign tag_list = item.tags | array -%}
+      <div class="collection-stream-item card-stream-item{% if hide_item %} is-hidden{% endif %}"
+           data-collection-item
+           data-card-item
+           data-tags="{% if tag_list and tag_list != empty %}{{ tag_list | join: ' ' | downcase }}{% endif %}">
         {%- case item_partial -%}
           {%- when "sections/form-card.html" -%}
             {% include sections/form-card.html post=item %}

@@ -82,6 +82,7 @@ Parameters:
 {%- assign card_layout = include.card_layout | default: section.data.card_layout | default: false -%}
 {%- assign item_partial = include.item_partial | default: section.data.item_partial | default: "sections/collection-item.html" -%}
 {%- assign related_toggle = include.related_toggle | default: false -%}
+{%- assign tag_filter = include.tag_filter | default: section.data.tag_filter | default: false -%}
 
 {%- assign sorted_posts = filtered_posts | sort: sort_key_field -%}
 {%- if reverse_flag -%}
@@ -118,6 +119,21 @@ Parameters:
 {%- endif -%}
 {%- assign show_hr = include.show_hr | default: section.data.show_hr | default: false -%}
 
+{%- assign filter_tags = "" | split:"|" -%}
+{%- if tag_filter -%}
+  {%- for post in sorted_posts -%}
+    {%- if post.tags -%}
+      {%- for tag in post.tags -%}
+        {%- assign tag_down = tag | downcase -%}
+        {%- unless filter_tags contains tag_down -%}
+          {%- assign filter_tags = filter_tags | push: tag_down -%}
+        {%- endunless -%}
+      {%- endfor -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- assign filter_tags = filter_tags | sort -%}
+{%- endif -%}
+
 {%- if posts_count > 0 -%}
   {%- if show_hr -%}
     <hr>
@@ -146,6 +162,20 @@ Parameters:
     {%- endif -%}
     {%- if content_md -%}
       {{ content_md | markdownify }}
+    {%- endif -%}
+    {%- if tag_filter and filter_tags.size > 0 -%}
+      <div class="card-filter" data-card-filter>
+        <button type="button"
+                class="card-filter-button is-active"
+                data-card-filter-button
+                data-tag="all">All</button>
+        {%- for tag in filter_tags -%}
+          <button type="button"
+                  class="card-filter-button"
+                  data-card-filter-button
+                  data-tag="{{ tag }}">{{ tag | capitalize }}</button>
+        {%- endfor -%}
+      </div>
     {%- endif -%}
     {%- if related_toggle -%}
       {% include components/related-toggle-button.html target_id=toggle_content_id %}

@@ -3,7 +3,8 @@
      Authors cards
      ======================= */
 
-  .collection-stream-item.is-hidden {
+  .collection-stream-item.is-hidden,
+  .collection-stream-item.is-hidden-by-filter {
     display: none;
   }
 
@@ -11,6 +12,29 @@
     list-style: none;
     padding: 0;
     text-align: center;
+  }
+
+  .card-filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    margin: 16px auto;
+  }
+
+  .card-filter-button {
+    border: 1px solid var(--border-dark-color);
+    border-radius: 999px;
+    padding: 8px 20px;
+    background: transparent;
+    color: var(--light-color-primary);
+    cursor: pointer;
+    font-size: var(--text-s);
+  }
+
+  .card-filter-button.is-active {
+    background: var(--brand-color-primary);
+    color: var(--dark-color-primary);
   }
 
   .form-card {
