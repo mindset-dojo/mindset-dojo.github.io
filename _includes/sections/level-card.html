@@ -19,9 +19,9 @@
           <li>
             {%- if target != "" -%}
               {%- if target | slice: 0, 1 == "/" -%}
-                <a href="{{ target | relative_url }}">{{ f.label }}</a>
+                <a class="card-link" href="{{ target | relative_url }}">{{ f.label }}</a>
               {%- else -%}
-                <a href="{{ target }}">{{ f.label }}</a>
+                <a class="card-link" href="{{ target }}">{{ f.label }}</a>
               {%- endif -%}
             {%- else -%}
               {{ f.label }}
