@@ -169,15 +169,6 @@
     border-bottom-color: currentcolor;
   }
 
-  .level-card ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-  }
-
   .level-card ul li a {
     color: var(--brand-color-secondary);
     text-decoration: none;
@@ -186,6 +177,15 @@
 
   .level-card ul li a:hover {
     border-bottom-color: currentcolor;
+  }
+
+  .level-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
   }
 
   .card-grid-levels.card-stream-grid {
