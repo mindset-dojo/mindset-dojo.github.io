@@ -4,7 +4,7 @@
   "minLines": 5,
   "minTokens": 50,
   "reporters": [
-    "console"
+    "consoleFull"
   ],
   "ignore": [
     "**/_forms/*.md"
