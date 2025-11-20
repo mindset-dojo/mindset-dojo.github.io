@@ -130,25 +130,6 @@
     margin: 0;
   }
 
-  .level-card ul li a {
-    color: var(--brand-color-secondary);
-    text-decoration: none;
-    border-bottom: 1px solid transparent;
-  }
-
-  .level-card ul li a:hover {
-    border-bottom-color: currentcolor;
-  }
-
-  .level-card ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-  }
-
   .card-grid-levels.card-stream-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     max-width: 640px;
@@ -192,6 +173,25 @@
 
   .form-card h3 a:hover {
     border-bottom-color: currentcolor;
+  }
+
+  .level-card ul li a {
+    color: var(--brand-color-secondary);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+
+  .level-card ul li a:hover {
+    border-bottom-color: currentcolor;
+  }
+
+  .level-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
   }
 
   .card-grid-levels.card-stream-grid[data-visible-items="1"] .card-stream-item {
