@@ -134,6 +134,7 @@
     max-width: 720px;
     margin: 24px auto 0;
     justify-content: center;
+    justify-items: center;
   }
 
   .card-stream-item {
