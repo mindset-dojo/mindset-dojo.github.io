@@ -1,39 +1,14 @@
 ---
-mantra: "Don’t Control. Co-Create."
-mantra_mark: "Co-Create."
+mantra: "Don’t Close. Open Source."
+mantra_mark: "Open Source."
 description: |
   An open-source dojo — presence expressed through shared stewardship.
   The project evolves through reciprocity, clarity, and the rhythm of those
   actively training. Open source is part of the training game itself.
 sections:
-  - type: text
-    data:
-      label: "Dojo Infrastructure: Open Source’d"
-      items:
-        - "Built openly on GitHub — transparency sets the tone."
-        - "Start by exploring the repo and sensing where your presence can help."
-        - "Each small move strengthens the field and clarifies the path."
-        - "Reach out to a Cultivator before making your first contribution."
-        - "Reciprocity is how the gate opens."
-  - type: text
-    data:
-      label: "Open Source as Practice"
-      items:
-        - "Every commit is a calibration toward coherence."
-        - "Every refactor is a bow toward clarity."
-        - "Every review is a gesture of mutual stewardship."
-        - "Treat the codebase like the mat — with presence and respect."
-  - type: text
-    data:
-      label: "Ways to Contribute"
-      items:
-        - "Refactor language, structure, or flows toward coherence."
-        - "Propose improvements that reduce friction and increase clarity."
-        - "Offer patterns, insights, or practices that help others move with ease."
-        - "Support others through review, conversation, and steady presence."
   - type: quote
     data:
-      text: "Ideas spark, pull requests land — Cultivators help with alignment."
+      text: "Ideas spark, pull requests land — connect with a Cultivator to engage."
   - type: text
     data:
       label: "Mantra"
@@ -48,7 +23,7 @@ sections:
   - type: ctas
     data:
       items:
-        - label: "Tend the Garden"
+        - label: "Cross GitHub Threshold"
           ref: repo
   - type: authors
     data:
