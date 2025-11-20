@@ -7,7 +7,7 @@
   {%- assign desc_source = doc.card_excerpt | default: doc.excerpt | default: doc.summary | default: doc.description -%}
   {%- assign desc_html = desc_source | default: "" | markdownify -%}
   {%- assign desc_text = desc_html | strip_html | strip_newlines | truncate: 160 -%}
-  <article class="form-card">
+  <article class="md-card form-card">
     <div class="form-card-icon" aria-hidden="true">
       <i class="{{ icon_class }}"></i>
     </div>

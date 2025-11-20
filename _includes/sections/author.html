@@ -12,7 +12,7 @@ if called without an author object.
 
 {% assign author = include.item | default: include.author %}
 
-<section class="md-author-card">
+<section class="md-card md-author-card">
   {% assign author_slug = author.slug | to_s | strip | slugify %}
   {% assign author_name = author.name | default: "Author" %}
   {% assign profile_url = '/authors/' | append: author_slug | append: '/' | relative_url %}
