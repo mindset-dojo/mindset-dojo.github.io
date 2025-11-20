@@ -37,12 +37,6 @@
     color: var(--dark-color-primary);
   }
 
-  main :is(h2, h3, h4)[id^="inspirat"] + ul {
-    list-style: none;
-    padding: 0;
-    text-align: center;
-  }
-
   /* =======================
      Generic card streams
      ======================= */
@@ -120,19 +114,10 @@
     max-width: 240px;
     width: 100%;
   }
-
-  .form-card {
-    border: 2px solid var(--border-dark-color);
-    border-radius: 24px;
-    padding: 12px;
-    width: 100%;
-    background-color: var(--dark-color-primary);
+  main :is(h2, h3, h4)[id^="inspirat"] + ul {
+    list-style: none;
+    padding: 0;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    min-height: 100%;
-    height: 100%;
   }
 
   .level-card-icon {
@@ -148,6 +133,20 @@
   .level-card-intention {
     font-style: italic;
     margin: 0;
+  }
+
+  .form-card {
+    border: 2px solid var(--border-dark-color);
+    border-radius: 24px;
+    padding: 12px;
+    width: 100%;
+    background-color: var(--dark-color-primary);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    min-height: 100%;
+    height: 100%;
   }
 
   .form-card p {
