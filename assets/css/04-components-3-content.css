@@ -37,6 +37,35 @@
     color: var(--dark-color-primary);
   }
 
+  .card-filter-button .md-level-svg {
+    height: 32px;
+  }
+
+  /* =======================
+     Card link styles
+     ======================= */
+
+  .form-card h3 a {
+    color: var(--brand-color-secondary);
+    font-style: italic;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+  }
+
+  .form-card h3 a:hover {
+    border-bottom-color: currentcolor;
+  }
+
+  .level-card ul li a {
+    color: var(--brand-color-secondary);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+
+  .level-card ul li a:hover {
+    border-bottom-color: currentcolor;
+  }
+
   /* =======================
      Generic card streams
      ======================= */
@@ -134,20 +163,6 @@
     }
   }
 
-  .card-filter-button .md-level-svg {
-    height: 32px;
-  }
-
-  .level-card ul li a {
-    color: var(--brand-color-secondary);
-    text-decoration: none;
-    border-bottom: 1px solid transparent;
-  }
-
-  .level-card ul li a:hover {
-    border-bottom-color: currentcolor;
-  }
-
   .level-card ul {
     list-style: none;
     padding: 0;
@@ -185,18 +200,6 @@
     margin: 0;
     font-size: var(--h4);
   }
-
-  .form-card h3 a {
-    color: var(--brand-color-secondary);
-    font-style: italic;
-    text-decoration: none;
-    border-bottom: 2px solid transparent;
-  }
-
-  .form-card h3 a:hover {
-    border-bottom-color: currentcolor;
-  }
-
 
   .level-card-icon {
     display: flex;
@@ -299,7 +302,7 @@
   .collection-item {
     text-align: center;
   }
-  
+
   .post-article {
     max-width: 700px;
     background: transparent;
@@ -313,7 +316,7 @@
 
   /* For lists inside .post-body: */
   :where(.post-body ul) {
-    display: inline-block;       
+    display: inline-block;
     width: 100%;
     margin: 0;
   }
@@ -365,5 +368,4 @@
     font-weight: 700;
     margin-top: 1rem;
   }
-
 }
