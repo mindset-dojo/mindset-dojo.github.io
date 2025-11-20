@@ -54,6 +54,7 @@
     flex-direction: column;
     gap: 12px;
     min-height: 100%;
+    height: 100%;
   }
 
   .form-card p {
@@ -149,7 +150,9 @@
 
   .card-stream-item {
     display: flex;
+    flex-direction: column;
     height: 100%;
+    width: 100%;
     max-width: 240px;
   }
 
