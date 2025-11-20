@@ -30,10 +30,6 @@
     margin: 0;
   }
 
-  .form-card p {
-    margin: 0;
-  }
-
   .card-grid-authors .md-author-card {
     border: 2px solid var(--border-dark-color);
     border-radius: 24px;
@@ -119,7 +115,7 @@
   .card-stream-item {
     display: flex;
     height: 100%;
-    width: 100%;
+    width: 240px;
   }
 
   .card-grid-single,
