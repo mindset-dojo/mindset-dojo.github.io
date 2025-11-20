@@ -43,8 +43,17 @@
 
   /* =======================
      Card link styles
-     (ordered for no-descending-specificity)
      ======================= */
+
+  .level-card ul li a {
+    color: var(--brand-color-secondary);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+
+  .level-card ul li a:hover {
+    border-bottom-color: currentcolor;
+  }
 
   .form-card h3 a {
     color: var(--brand-color-secondary);
@@ -54,16 +63,6 @@
   }
 
   .form-card h3 a:hover {
-    border-bottom-color: currentcolor;
-  }
-
-  .level-card ul li a {
-    color: var(--brand-color-secondary);
-    text-decoration: none;
-    border-bottom: 1px solid transparent;
-  }
-
-  .level-card ul li a:hover {
     border-bottom-color: currentcolor;
   }
 
