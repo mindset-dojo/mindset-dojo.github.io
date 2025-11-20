@@ -25,7 +25,7 @@ I asked Perplexity AI to tell me the advantages of hypotheticals:
    Hypotheticals allow participants to imagine "what if" scenarios that help anticipate outcomes, evaluate risks and benefits, and make more informed decisions.
 
 2. **To Clarify Abstract or Complex Ideas**  
-   Using a hypothetical example can concretize abstract concepts by providing a relatable, imaginary scenario. 
+   Using a hypothetical example can concretize abstract concepts by providing a relatable, imaginary scenario.
 
 3. **To Stimulate Critical Thinking and Multiple Perspectives**  
    Hypotheticals encourage examining an issue from varying angles and self-reflection. They promote critical reasoning by exposing participants to alternative viewpoints.
@@ -47,7 +47,7 @@ This list is a great summary of the issues with using hypotheticals. The bleed o
 
 There are then several key points for the use (and when not to use) hypotheticals:
 
-1. They are not suited for critical, especially acute, decision making. For example, anyone who has run a website knows that there are key real world conditions when you have a site down. In the middle of a crisis, hypotheticals would almost always waste time and resources from quickly fixing the issue.
+1. They are not suited for critical, especially acute, decision making. For example, anyone who has run a web site knows that there are key real world conditions when you have a site down. In the middle of a crisis, hypotheticals would almost always waste time and resources from quickly fixing the issue.
 
 2. Try to remove any "triggering" aspects of a hypothetical, like politics or life/death scenarios. Even a hypothetical with these topics will suffer from subjectivity, since people may have strong feelings about those related aspects.
 
