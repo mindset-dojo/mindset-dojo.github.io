@@ -9,7 +9,7 @@ Notes:
   - honor hide_author so grouped-by-author lists can render an author card once
 {%- endcomment -%}
 
-{%- assign post = include.post -%}
+{%- assign post = include.item | default: include.post -%}
 {%- assign excerpt_len = include.excerpt_length | default: 220 -%}
 {%- assign hide_author = include.hide_author | default: false -%}
 

@@ -5,9 +5,11 @@ Reusable card grid wrapper. Accepts:
   initial_limit: hide cards beyond this index (for Show All)
   total_count: size of the full list (defaults to items.size)
   wrapper_class: optional extra classes on the grid container
+  item: optional single item to render (when not providing an array)
 {%- endcomment -%}
 
-{%- assign items = include.items | default: "" -%}
+{%- assign items = include.items -%}
+{%- assign single_item = include.item -%}
 {%- assign item_partial = include.item_partial | default: "sections/collection-item.html" -%}
 {%- assign initial_limit = include.initial_limit | default: nil -%}
 {%- assign total_count = include.total_count | default: nil -%}
@@ -16,8 +18,14 @@ Reusable card grid wrapper. Accepts:
   {%- assign grid_class = grid_class | append: " " | append: include.wrapper_class -%}
 {%- endif -%}
 
-{%- assign items_array = items | array -%}
-{%- assign total_items = total_count | default: items_array | size -%}
+{%- assign items_array = nil -%}
+{%- if single_item -%}
+  {%- assign items_array = "" | split:"|" | push: single_item -%}
+  {%- assign total_items = total_count | default: 1 -%}
+{%- else -%}
+  {%- assign items_array = items | array -%}
+  {%- assign total_items = total_count | default: items_array | size -%}
+{%- endif -%}
 
 {%- if total_items == 1 -%}
   {%- assign grid_class = grid_class | append: " card-grid-single" -%}
@@ -61,13 +69,13 @@ Reusable card grid wrapper. Accepts:
            data-tags="{{ filter_value }}">
         {%- case item_partial -%}
           {%- when "sections/form-card.html" -%}
-            {% include sections/form-card.html post=item %}
+            {% include sections/form-card.html item=item post=item %}
           {%- when "sections/author.html" -%}
-            {% include sections/author.html author=item %}
+            {% include sections/author.html item=item author=item %}
           {%- when "sections/level-card.html" -%}
-            {% include sections/level-card.html level=item %}
+            {% include sections/level-card.html item=item level=item %}
           {%- else -%}
-            {% include sections/collection-item.html post=item %}
+            {% include sections/collection-item.html item=item post=item %}
         {%- endcase -%}
       </div>
     {%- endfor -%}

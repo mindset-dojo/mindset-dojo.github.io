@@ -2,10 +2,8 @@
 layout: post
 ---
 
-{%- assign form_items = "" | split:"|" -%}
-{%- assign form_items = form_items | push: page -%}
 {% include sections/card-grid.html
-  items=form_items
+  item=page
   total_count=1
   item_partial="sections/form-card.html" %}
 

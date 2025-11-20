@@ -1,5 +1,4 @@
-{%- assign doc = include.post | default: post -%}
-{%- if doc -%}
+{%- assign doc = include.item | default: include.post -%}
   {%- assign form_title = doc.title | default: "Form" -%}
   {%- assign form_url = doc.url | relative_url -%}
   {%- assign raw_slug = doc.slug | default: doc.path | split: "/" | last | split: "." | first -%}
@@ -17,4 +16,3 @@
       <p>{{ desc_text }}</p>
     {%- endif -%}
   </article>
-{%- endif -%}
