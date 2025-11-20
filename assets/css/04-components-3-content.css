@@ -43,20 +43,9 @@
 
   /* =======================
      Card link styles
+     (ordered for no-descending-specificity)
      ======================= */
 
-  /* Level-card links FIRST */
-  .level-card ul li a {
-    color: var(--brand-color-secondary);
-    text-decoration: none;
-    border-bottom: 1px solid transparent;
-  }
-
-  .level-card ul li a:hover {
-    border-bottom-color: currentcolor;
-  }
-
-  /* Form-card links AFTER */
   .form-card h3 a {
     color: var(--brand-color-secondary);
     font-style: italic;
@@ -65,6 +54,16 @@
   }
 
   .form-card h3 a:hover {
+    border-bottom-color: currentcolor;
+  }
+
+  .level-card ul li a {
+    color: var(--brand-color-secondary);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+
+  .level-card ul li a:hover {
     border-bottom-color: currentcolor;
   }
 
@@ -328,7 +327,7 @@
     text-align: center;
   }
 
-  /* Post body context variants */
+  /* Post body context variants (moved from UI) */
   .post-body .md-grid-2 blockquote,
   .post-body .md-grid-3 blockquote {
     position: relative;
@@ -354,6 +353,7 @@
     border-bottom-left-radius: 24px;
   }
 
+  /* Ensuring paragraphs inside the blockquote behave nicely */
   .post-body .md-grid-2 blockquote p,
   .post-body .md-grid-3 blockquote p {
     margin: 0.5em 0;
