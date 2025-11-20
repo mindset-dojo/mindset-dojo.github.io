@@ -50,15 +50,15 @@ sections:
         - "Become a Cultivator."
         - "Open pathways for others."
         - "Grow the field."
+  - type: ctas
+    data:
+      items:
+        - label: "Tend the Garden"
+          ref: repo
   - type: authors
     data:
       leadership_flow:
         label: "⛩️💫 Cultivators"
         designation_type: project
         limit: 8
-  - type: ctas
-    data:
-      items:
-        - label: "Tend the Garden"
-          ref: repo
 ...

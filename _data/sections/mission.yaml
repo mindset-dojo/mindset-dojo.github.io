@@ -54,14 +54,14 @@ sections:
   - type: quote
     data:
       text: "In a fast-changing world, human connection is a superpower to train."
-  - type: authors
-    data:
-      leadership_flow:
-        label: "⛩️🌿 Self-Authors"
-        limit: 16
   - type: ctas
     data:
       items:
         - label: "Cross the Threshold"
           ref: program
+  - type: authors
+    data:
+      leadership_flow:
+        label: "⛩️🌿 Self-Authors"
+        limit: 16
 ...
