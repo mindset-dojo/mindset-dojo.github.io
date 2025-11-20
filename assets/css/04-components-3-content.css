@@ -102,6 +102,9 @@
   }
 
   .card-grid-single .card-stream-item,
+  .card-grid-levels .card-stream-item {
+    max-width: 280px;
+  }
   .card-grid-double .card-stream-item {
     flex: 0 0 240px;
     max-width: 240px;
@@ -215,9 +218,6 @@
     max-width: 640px;
   }
 
-  .card-grid-levels .card-stream-item {
-    max-width: 280px;
-  }
 
   .card-grid-authors .md-author-card,
   .card-grid-levels .level-card {
