@@ -114,11 +114,6 @@
     max-width: 240px;
     width: 100%;
   }
-  main :is(h2, h3, h4)[id^="inspirat"] + ul {
-    list-style: none;
-    padding: 0;
-    text-align: center;
-  }
 
   .level-card-icon {
     display: flex;
@@ -165,23 +160,6 @@
     max-width: 100%;
   }
 
-  .card-grid-levels.card-stream-grid[data-visible-items="1"] .card-stream-item {
-    flex: 0 0 280px;
-    max-width: 280px;
-    width: 100%;
-  }
-
-  @media (width <= 640px) {
-    .card-grid-levels.card-stream-grid {
-      grid-template-columns: minmax(0, 1fr);
-      max-width: 100%;
-    }
-  }
-
-  .card-filter-button .md-level-svg {
-    height: 32px;
-  }
-
   .form-card {
     border: 2px solid var(--border-dark-color);
     border-radius: 24px;
@@ -215,6 +193,24 @@
   .form-card h3 a:hover {
     border-bottom-color: currentcolor;
   }
+
+  .card-grid-levels.card-stream-grid[data-visible-items="1"] .card-stream-item {
+    flex: 0 0 280px;
+    max-width: 280px;
+    width: 100%;
+  }
+
+  @media (width <= 640px) {
+    .card-grid-levels.card-stream-grid {
+      grid-template-columns: minmax(0, 1fr);
+      max-width: 100%;
+    }
+  }
+
+  .card-filter-button .md-level-svg {
+    height: 32px;
+  }
+
 
   .card-grid-authors .md-author-card,
   .card-grid-levels .level-card {
