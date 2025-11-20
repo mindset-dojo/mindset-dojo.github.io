@@ -87,11 +87,14 @@ function initMD () {
     if (buttons.length === 0 || items.length === 0) return
 
     const setFilter = (tag) => {
+      let visibleCount = 0
       items.forEach((item) => {
         const tags = (item.dataset.tags || '').split(/\s+/)
         const match = tag === 'all' || tags.includes(tag)
         item.classList.toggle('is-hidden-by-filter', !match)
+        if (match && !item.classList.contains('is-hidden')) visibleCount += 1
       })
+      grid.dataset.visibleItems = String(visibleCount)
     }
 
     buttons.forEach((button) => {

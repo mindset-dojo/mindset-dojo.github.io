@@ -26,7 +26,17 @@ Reusable card grid wrapper. Accepts:
 {%- endif -%}
 
 {%- if items_array and items_array != empty -%}
-  <div class="{{ grid_class }}" data-card-grid>
+  {%- assign visible_count = 0 -%}
+  {%- for item in items_array -%}
+    {%- assign hide_item = false -%}
+    {%- if initial_limit and total_items > initial_limit and forloop.index0 >= initial_limit -%}
+      {%- assign hide_item = true -%}
+    {%- endif -%}
+    {%- if hide_item == false -%}
+      {%- assign visible_count = visible_count | plus: 1 -%}
+    {%- endif -%}
+  {%- endfor -%}
+  <div class="{{ grid_class }}" data-card-grid data-visible-items="{{ visible_count }}">
     {%- for item in items_array -%}
       {%- assign hide_item = false -%}
       {%- if initial_limit and total_items > initial_limit and forloop.index0 >= initial_limit -%}
