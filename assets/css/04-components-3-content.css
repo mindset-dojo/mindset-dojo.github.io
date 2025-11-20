@@ -135,40 +135,6 @@
     margin: 0;
   }
 
-  .form-card {
-    border: 2px solid var(--border-dark-color);
-    border-radius: 24px;
-    padding: 12px;
-    width: 100%;
-    background-color: var(--dark-color-primary);
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    min-height: 100%;
-    height: 100%;
-  }
-
-  .form-card p {
-    margin: 0;
-  }
-
-  .form-card h3 {
-    margin: 0;
-    font-size: var(--h4);
-  }
-
-  .form-card h3 a {
-    color: var(--brand-color-secondary);
-    font-style: italic;
-    text-decoration: none;
-    border-bottom: 2px solid transparent;
-  }
-
-  .form-card h3 a:hover {
-    border-bottom-color: currentcolor;
-  }
-
   .level-card ul li a {
     color: var(--brand-color-secondary);
     text-decoration: none;
@@ -214,6 +180,40 @@
 
   .card-filter-button .md-level-svg {
     height: 32px;
+  }
+
+  .form-card {
+    border: 2px solid var(--border-dark-color);
+    border-radius: 24px;
+    padding: 12px;
+    width: 100%;
+    background-color: var(--dark-color-primary);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    min-height: 100%;
+    height: 100%;
+  }
+
+  .form-card p {
+    margin: 0;
+  }
+
+  .form-card h3 {
+    margin: 0;
+    font-size: var(--h4);
+  }
+
+  .form-card h3 a {
+    color: var(--brand-color-secondary);
+    font-style: italic;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+  }
+
+  .form-card h3 a:hover {
+    border-bottom-color: currentcolor;
   }
 
   .card-grid-authors .md-author-card,
@@ -283,6 +283,12 @@
   .card-grid-authors .md-author-card h3.author-card-emoji-signature {
     text-align: center;
     font-size: var(--h4);
+  }
+
+  main :is(h2, h3, h4)[id^="inspirat"] + ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
   }
 
   .form-card-icon {
