@@ -35,7 +35,7 @@ Form based practice may seem repetitive at times, but repetition brings shape. I
 
 A transition becomes visible when you notice yourself moving differently: how you listen, how you speak, how you recover, how you sense the field. These are the markers of the shift.
 
-As you notice these shifts, pay gattention to how the four principles may be emerging in your practice — sometimes faintly, sometimes unmistakably.
+As you notice these shifts, pay attention to how the four principles may be emerging in your practice — sometimes faintly, sometimes unmistakably.
 
 ## Implementation
 

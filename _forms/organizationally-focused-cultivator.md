@@ -37,6 +37,7 @@ In this role, you increasingly sense the architecture behind the forms—how the
 As a Domain-Focused Cultivator, keep making contributions, networking, and training in the Program. Once you pass the Black Level [Threshold](../threshold/), negotiate with other Cultivators for sponsorship. Once you receive it, make a pull request claiming the Organizationally-Focused Cultivator designation.
 
 As you step into shaping the dojo at an architectural level, let your work be grounded in the following principles:
+
 - **Focus on One Point** — design and refine from a single intention, returning whenever the form drifts.  
 - **Give the Learner the Pen** — create openings for others to step in, discover, and author their own growth.  
 - **Let Experience Do the Writing** — include only what has been embodied in real practice, not imagined from theory.  
