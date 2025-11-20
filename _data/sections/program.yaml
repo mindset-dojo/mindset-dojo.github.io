@@ -11,23 +11,9 @@ level_defaults:
   unranked_label: "Unranked"
   unranked_color: "white"
 sections:
-  - type: text
-    data:
-      label: "At the Threshold"
-      items:
-        - "Training begins with contact — not concept."
-        - "Orient to the field, where principles set the tone for the training game."
-        - "Each level is a threshold, not a rank — a way of integrating presence."
-        - "Before entering Orientation, reach out to a Sensei or Senpai for context."
-        - "Human connection is the first threshold."
-  - type: principles
-    data:
-      principles_title: "Root Principles"
-      principles_groups:
-        - "program"
   - type: quote
     data:
-      text: "Human skills can be trained like martial arts — one level at a time."
+      text: "A threshold appears — connect with a Senpai or Sensei to step in."
   - type: levels
     data:
       label: "Training Levels"

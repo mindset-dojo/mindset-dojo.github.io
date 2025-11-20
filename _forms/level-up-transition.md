@@ -35,25 +35,37 @@ Form based practice may seem repetitive at times, but repetition brings shape. I
 
 A transition becomes visible when you notice yourself moving differently: how you listen, how you speak, how you recover, how you sense the field. These are the markers of the shift.
 
+As you notice these shifts, pay attention to how the four principles may be emerging in your practice — sometimes faintly, sometimes unmistakably.
+
 ## Implementation
 
 Connect with others in this phase — not as a requirement, but as a practice.
 
 - Reach out to peers and reflect together on how each of you has changed.  
-- Engage a [Senpai](../senpai/) and or [Sensei](../sensei/) for a conversation to sense what is emerging in you.  
+- Engage a [Senpai](../senpai/) or [Sensei](../sensei/) for a conversation to sense what is emerging in you.  
 - Notice where leadership begins to arise naturally — not assigned, not claimed, simply present.  
 - Bring awareness to the [Thresholds](../threshold/) you have crossed in this level: what you carried in, what transformed, and what remains unresolved.  
 - Sense into the gaps and edges you are aware of now that you couldn’t see before.
 
+As part of implementation, revisit the four principles to sense how they are beginning to take shape in this phase of training. There is no expectation of mastery — simply awareness.
+
+- **Relax Completely** — Where did softening or releasing tension give you more room to move or choose?  
+- **Center with Intention** — When did you return to center instead of reacting? What helped?  
+- **Meet Fear with Presence** — What fears surfaced in this level? How did you relate to them?  
+- **Resonate Playfully** — Where did ease, humor, or creative flow return as tension cleared?
+
+Revisit these questions each time you cross a level. Over time, you’ll sense a clear arc in how these principles show up.
+
 ### Reflective Harvest
 
-As part of leveling up, you will create a short insight article capturing this transition.  In your written insight, reflect on:
+As part of leveling up, you will create a short insight article capturing this transition. In your written insight, reflect on:
 
 - Your experience crossing this [Threshold](../threshold/)  
 - What shifted in your practice, presence, or patterns  
 - What you learned from [Circle](../circle/), [Mat](../mat) and other form-based training  
 - What was distilled from the previous phase  
 - What gaps and edges remain and how you intend to relate to them  
+- How the four principles showed up (or didn’t yet) in this phase — and what that revealed about your patterns  
 - What becomes possible for you — and for those you train with — as you move into the next level
 
 This reflective harvest completes the Level Up Transition and becomes part of the living [dojo](../dojo/).
