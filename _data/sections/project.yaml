@@ -34,11 +34,6 @@ sections:
   - type: quote
     data:
       text: "Ideas spark, pull requests land — Cultivators help with alignment."
-  - type: principles
-    data:
-      principles_title: "Engagement Principles"
-      principles_groups:
-        - "project"
   - type: text
     data:
       label: "Mantra"
