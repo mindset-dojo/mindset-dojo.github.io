@@ -9,7 +9,7 @@ authors:
 excerpt: When you notice another person is indecisive/lacks Driver, you can create a Threshold for them to go through.
 icon: fa-solid fa-scissors
 tags:
-  - container
+  - meta
   - practice
 inspirations:
 - label: Never Split the Difference by Chris Voss
