@@ -68,6 +68,8 @@ sections:
               url: /forms/two-sides/
             - label: Driver
               url: /forms/driver/
+            - label: Driver Cut
+              url: /forms/driver-cut/
             - label: Mat – Driver
               url: /forms/mat/
             - label: Dyad Randori – Driver
