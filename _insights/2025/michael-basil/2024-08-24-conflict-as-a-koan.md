@@ -34,7 +34,7 @@ One of the most profound shifts I experienced during this journey was in how I v
 Like any gardener, I faced challenges. The Spiral Dynamics model, for instance, felt overly prescriptive at times, trying to categorize the complexity of human behavior. I wrestled with how to apply it effectively but found ways to use it without letting it limit my understanding. Similarly, the Mini-FEBI (Focus Energy Balance Indicator) awareness exercise didn’t seem deep enough to anchor the growth I needed, prompting me to explore more robust tools. As I complete my certification in FEBI later this year, I anticipate introducing the full assessment into the Mindset Dojo curriculum, making the experience deeper and more meaningful.
 
 ## Harvesting the Fruits: Personal Development
- 
+
 As my understanding deepened, I began to see the benefits manifesting in my life. The Zen Leader’s “10 Essential Flips” became tools for navigating challenges, whether it was shifting from control to connection or from driving results to attracting the future. These insights not only improved my personal relationships but also supported my transition from software development to personal development.
 
 My mission, guided by my North Star, is to inspire people to create their fullest potential. The internal work done in the circles has started to show externally, helping me connect others with personal development experiences that align with their needs.
