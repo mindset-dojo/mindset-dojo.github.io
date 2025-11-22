@@ -6,7 +6,7 @@ published_date: 2025-11-22
 refactored_date: 2025-11-22
 authors:
 - kyle-ingersoll
-excerpt: When you notice another person is indecsisive/lacks Driver, you can create a Threshold for them to go through.
+excerpt: When you notice another person is indecisive/lacks Driver, you can create a Threshold for them to go through.
 icon: fa-solid fa-scissors
 tags:
   - container
@@ -20,7 +20,7 @@ inspirations:
 
 ## Intention
 
-When you notice another person is indecsisive/lacks [Driver](../driver/), you can create a [Threshold](../threshold/) for them to go through to get that [Driver](../driver/) energy flowing. That forces a decision from the body, not just the mind going along with an interesting idea.
+When you notice another person is indecisive/lacks [Driver](../driver/), you can create a [Threshold](../threshold/) for them to go through to get that [Driver](../driver/) energy flowing. That forces a decision from the body, not just the mind going along with an interesting idea.
 
 ## Experience
 
