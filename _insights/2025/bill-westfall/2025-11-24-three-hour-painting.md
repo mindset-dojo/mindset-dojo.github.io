@@ -31,9 +31,9 @@ Since I am not an art student, I decided to change the rules. I did the followin
 
 My notes were very long by the end, and according to Medium website, would be a 17 minute read. I will link it [here] (https://medium.com/@shimtestbill/3-hours-with-a-jackson-pollock-painting-3ab08d0a9808)
 
-Since I mentioned the notes, I need to make this disclaimer: I don't think you should waste time in reading them :) 
+Since I mentioned the notes, I need to make this disclaimer: I don't think you should waste time in reading them :)
 
-While the note taking was a hugely fun and enlightening experience, I think it was the doing of the notes that was key, not the product. But feel free to read if you are so inclined :) 
+While the note taking was a hugely fun and enlightening experience, I think it was the doing of the notes that was key, not the product. But feel free to read if you are so inclined :)
 
 While not completely in a form of stillness (since there was a lot of note taking), this exercise was much more still than the experience of many people now, especially those of us who are online. More than the stillness of body, it was the stillness of mind that was key.
 
