@@ -40,7 +40,7 @@ At first, it feels like a quiet observer watching practice unfold — the sense 
 
 Train the other forms. Train them sincerely, repeatedly, and with curiosity. Meta cannot be summoned by will; it develops through embodied integration.  
 
-Each form — from [Stance](../stance/) to [Circle](../circle/), from [Stillness Contemplation](../stillness-contemplation/) to [Three-Question Reflection](../three-question-reflection/) — provides conditions for Meta to emerge. As your Self-authorship grows, awareness begins to widen. Sometimes Meta shows up as insight after a difficult exchange, sometimes as intuition mid-conversation, sometimes as silence that steadies the field.  
+Each form — from [Stance](../stance/) to [Circle](../circle/), from [Stillness Contemplation](../stillness-contemplation/) to [Three-Question Reflection](../three-question-reflection/) — provides conditions for Meta to emerge. As you train Stance-authorship, awareness begins to widen. Sometimes Meta shows up as insight after a difficult exchange, sometimes as intuition mid-conversation, sometimes as silence that steadies the field.  
 
 Acknowledge it. Let it participate. Allow it to mature without grasping for control. Informed by [Martial Attitude](../martial-attitude/), Meta learns the deeper rhythm of right timing — when awareness must move decisively, and when stillness itself is the most skillful move.
 
