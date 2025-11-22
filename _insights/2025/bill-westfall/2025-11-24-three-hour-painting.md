@@ -29,7 +29,7 @@ Since I am not an art student, I decided to change the rules. I did the followin
 6. No limitations on thought. Let your mind wander in stream of conciousness style
 7. Taking notes is OK. In fact, the entire 3 hours was spent taking notes, except for the time looking at the painting
 
-My notes were very long by the end, and according to Medium website, would be a 17 minute read. I will link it [here] (https://medium.com/@shimtestbill/3-hours-with-a-jackson-pollock-painting-3ab08d0a9808)
+My notes were very long by the end, and according to Medium site, would be a 17 minute read. I will link it [here] (https://medium.com/@shimtestbill/3-hours-with-a-jackson-pollock-painting-3ab08d0a9808)
 
 Since I mentioned the notes, I need to make this disclaimer: I don't think you should waste time in reading them :)
 
