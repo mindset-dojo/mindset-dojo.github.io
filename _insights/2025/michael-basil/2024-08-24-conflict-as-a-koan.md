@@ -1,6 +1,6 @@
 ---
 layout: insight
-title: "Insight Garden: Conflict as a Koan"
+title: "Conflict as a Koan"
 title_mark: Koan
 authors: 
   - michael-basil
