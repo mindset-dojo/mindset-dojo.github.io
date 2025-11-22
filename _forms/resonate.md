@@ -63,6 +63,6 @@ As you work through the book:
    - Which pattern or form calls for deeper integration?  
    - How will I carry this awareness into my next conversation or practice?  
 
-5. **Integration.** Bring your reflections to Self-Authorship [Circle](../circle/) and [Mat](../mat/) practice as appropriate. Share what’s alive for you; teach through example.  
+5. **Integration.** Bring your reflections to Authorship [Circle](../circle/) and [Mat](../mat/) practice as appropriate. Share what’s alive for you; teach through example.  
 
 Reading *Resonate* is a bridge between insight and embodiment — a way to align theory, energy, and presence through disciplined curiosity.

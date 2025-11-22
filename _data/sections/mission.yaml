@@ -2,55 +2,56 @@
 mantra: "Level Up."
 mantra_mark: "Level Up."
 description: |
-  Mindset Dojo is human-to-human live training for modern personal development,
-  communication, and leadership. In a world shaped by AI, rapid change, and
-  rising complexity, the ability to stay grounded, connect clearly, and
-  navigate relationships with confidence has become a critical human skill.
+  Mindset Dojo is live, human-to-human training for modern personal development,
+  communication, and leadership. In an era shaped by AI, rapid change, and rising
+  complexity, the ability to stay grounded, connect clearly, and navigate relationships
+  with confidence has become an essential human advantage.
 
-  Our training is delivered as simple, embodied mentorship practiced through
-  experiential sessions, practice labs, and real conversations. Each session
-  builds practical skills you can use immediately in work, relationships, and
-  everyday life. As you train your Self, your Network, and your World, you
-  begin to move through life with more clarity, presence, and authorship.
+  Our approach is simple and embodied: real mentorship, experiential practice labs,
+  and live conversations that strengthen presence, relational clarity, and emotional
+  intelligence. Each session builds practical skills you can apply immediately — in work,
+  relationships, and everyday life.
+
+  As you train, your stance stabilizes — and your presence, agency, and influence grow with it.
 sections:
   - type: text
     data:
       label: "Your Self"
       items:
         - "Build presence, emotional stability, and inner clarity under pressure."
-        - "Shift your energetic patterns and recover your center in real time."
-        - "Develop Self-Authorship — the ability to lead your inner world."
+        - "Shift your patterns and return to center in real time."
+        - "Strengthen your inner leadership and the agency to choose your stance."
   - type: text
     data:
       label: "Your Network"
       items:
         - "Strengthen the relational skill that shapes every conversation."
-        - "Communicate with more ease, honesty, and natural authority."
-        - "Transform reactive patterns into generative, collaborative ones."
+        - "Communicate with ease, honesty, and grounded authority."
+        - "Transform reactive patterns into collaborative, generative ones."
   - type: text
     data:
       label: "Your World"
       items:
-        - "Learn to influence culture through steady presence and behavior."
+        - "Influence culture through steady presence and consistent behavior."
         - "Create environments where clarity and psychological safety grow."
-        - "Show up as a grounded, empowering force in your circles that matter."
+        - "Show up as a grounded, empowering force in the circles that matter."
   - type: quote
     data:
-      text: "Human skills can be trained like martial arts — one level at a time."
+      text: "The stance you train becomes the presence you carry."
   - type: text
     data:
       label: "The Experience"
       items:
-        - "Human-to-human live mentorship — experiential, simple, and embodied."
+        - "Live human-to-human mentorship: experiential, simple, and embodied."
         - "Guided through practice labs, real conversations, and real interactions."
         - "Playful forms that build rhythm, awareness, and confidence with each rep."
   - type: text
     data:
       label: "The Transformation"
       items:
-        - "Less reactivity, more clarity — especially in hard moments."
-        - "Stronger relationships built on presence, honesty, and connection."
-        - "A more grounded inner compass that improves how you lead and live."
+        - "Less reactivity, more clarity — especially in challenging moments."
+        - "Stronger relationships grounded in presence, honesty, and connection."
+        - "A clearer inner compass that elevates how you lead, decide, and live."
   - type: quote
     data:
       text: "In a fast-changing world, human connection is a superpower to train."
@@ -62,6 +63,6 @@ sections:
   - type: authors
     data:
       leadership_flow:
-        label: "⛩️🌿 Self-Authors"
+        label: "⛩️🌿 Stance-Authors"
         limit: 16
 ...
