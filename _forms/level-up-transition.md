@@ -33,13 +33,13 @@ Transitions often feel subtle at first — a new steadiness, a softening of old 
 
 Form based practice may seem repetitive at times, but repetition brings shape. It reveals patterns that carried you through the previous phase, and it shows where gaps and edges still remain — in presence, in coherence, or in embodiment.
 
-A transition becomes visible when you notice yourself moving differently: how you listen, how you speak, how you recover, how you sense the field. These are the markers of the shift.
+A transition becomes visible when you notice yourself moving differently: how you listen, how you speak, how you recover, how you sense the field — and how your stance begins to author your responses rather than your conditioning.
 
 As you notice these shifts, pay attention to how the four principles may be emerging in your practice — sometimes faintly, sometimes unmistakably.
 
 ## Implementation
 
-Connect with others in this phase — not as a requirement, but as a practice.
+Connect with others in this phase — not as a requirement, but as a practice in shared awareness and stance.
 
 - Reach out to peers and reflect together on how each of you has changed.  
 - Engage a [Senpai](../senpai/) or [Sensei](../sensei/) for a conversation to sense what is emerging in you.  
@@ -47,14 +47,14 @@ Connect with others in this phase — not as a requirement, but as a practice.
 - Bring awareness to the [Thresholds](../threshold/) you have crossed in this level: what you carried in, what transformed, and what remains unresolved.  
 - Sense into the gaps and edges you are aware of now that you couldn’t see before.
 
-As part of implementation, revisit the four principles to sense how they are beginning to take shape in this phase of training. There is no expectation of mastery — simply awareness.
+As part of implementation, revisit the four principles to sense how they are taking shape in your nervous system and behavior during this phase. There is no expectation of mastery — simply awareness.
 
 - **Relax Completely** — Where did softening or releasing tension give you more room to move or choose?  
 - **Center with Intention** — When did you return to center instead of reacting? What helped?  
 - **Meet Fear with Presence** — What fears surfaced in this level? How did you relate to them?  
-- **Resonate Playfully** — Where did ease, humor, or creative flow return as tension cleared?
+- **Stance is Ki** — When did you author your stance instead of slipping into old conditioning? What shifted when your presence—not your pattern—set the tone?
 
-Revisit these questions each time you cross a level. Over time, you’ll sense a clear arc in how these principles show up.
+Revisit these questions each time you cross a level. Over time, your stance, presence, and patterns will reveal a clear arc.
 
 ### Reflective Harvest
 

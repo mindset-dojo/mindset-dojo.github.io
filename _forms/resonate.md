@@ -36,7 +36,7 @@ The book illuminates how resonance moves through mind, body, and voice; how fear
 - Relax completely
 - Center with intention  
 - Meet fear with presence  
-- Playful resonance is Ki  
+- Stance is Ki  
 
 Read slowly. Let the ideas land in your nervous system, not just your intellect. Every insight is an invitation to practice.
 
