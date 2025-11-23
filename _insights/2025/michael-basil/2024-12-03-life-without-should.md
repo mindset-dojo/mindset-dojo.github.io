@@ -47,4 +47,4 @@ I encourage you to try this experiment for an hour or a day. Remove ‘should’
 
 If you try it, I’d love to hear what you experience. Share your thoughts and insights in the comments below.
 
-#emotionalintelligence #selfawareness #mindset #dojo 🌿
+#emotionalintelligence selfawareness mindset dojo 
