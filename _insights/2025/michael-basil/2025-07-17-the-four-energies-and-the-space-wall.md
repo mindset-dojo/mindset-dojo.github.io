@@ -32,7 +32,7 @@ Collaborator — to move together.
 
 Just then, their ship jolted to a stop.
 
-Outside, blocking the passage into the new galaxy, stood a colossal space titan — its body woven from gravity and stardust, its hands spinning nunchucks made of moons. 
+Outside, blocking the passage into the new galaxy, stood a colossal space titan — its body woven from gravity and stardust, its hands spinning nunchucks made of moons.
 
 “YOU SHALL NOT PASS.”
 The titan’s voice echoed across dimensions.
@@ -66,7 +66,7 @@ The family looked to each other — and then they moved.
 
 They shifted into perfect flow. No words.
 Just mu — the emptiness of resistance.
-Just meu — the Gen Z energy of we-don’t-need-to-try-too-hard-because-we’re-already-that-synced. 
+Just meu — the Gen Z energy of we-don’t-need-to-try-too-hard-because-we’re-already-that-synced.
 
 They circled, they flowed, they connected.
 Their Sigma Energy activated —
