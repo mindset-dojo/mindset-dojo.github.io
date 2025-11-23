@@ -2,59 +2,62 @@
 mantra: "Level Up."
 mantra_mark: "Level Up."
 description: |
-  Mindset Dojo is live, human-to-human training for modern personal development,
-  communication, and leadership. In an era shaped by AI, rapid change, and rising
-  complexity, the ability to stay grounded, connect clearly, and navigate relationships
-  with confidence has become an essential human advantage.
+  Mindset Dojo is where humans train the capacity modern life requires:
+  the ability to regulate energy, author stance, and restore flow in
+  relationships, teams, and families.
 
-  Our approach is simple and embodied: real mentorship, experiential practice labs,
-  and live conversations that strengthen presence, relational clarity, and emotional
-  intelligence. Each session builds practical skills you can apply immediately — in work,
-  relationships, and everyday life.
+  In a world shaped by AI, speed, and constant uncertainty, the new competitive
+  advantage is not information — it’s presence. It’s the ability to stay clear
+  under pressure, to stabilize a room, and to influence without force.
 
-  As you train, your stance stabilizes — and your presence, agency, and influence grow with it.
+  This isn’t self-help. It isn’t theory. It’s training.
+  Live, human-to-human, experiential training that builds the reflexes your nervous
+  system was never taught but absolutely depends on.
+
+  Flow isn’t accidental. It’s trained. And once you learn to author your stance,
+  you become a node of clarity in a world that desperately needs distributed stability.
 sections:
   - type: text
     data:
       label: "Your Self"
       items:
-        - "Build presence, emotional stability, and inner clarity under pressure."
-        - "Shift your patterns and return to center in real time."
-        - "Strengthen your inner leadership and your agency to choose stance."
+        - "Develop presence, stability, and clarity in the moments that matter."
+        - "Author your stance instead of reacting from old patterns."
+        - "Build the energetic integrity that makes you unshakeable."
   - type: text
     data:
       label: "Your Network"
       items:
-        - "Strengthen the relational skill that shapes every conversation."
-        - "Communicate with ease, honesty, and grounded authority."
-        - "Transform reactive patterns into collaborative, generative ones."
+        - "Learn to restore flow when conversations get tense or stuck."
+        - "Communicate with grounded honesty and attuned authority."
+        - "Create relationships that can withstand pressure and stay connected."
   - type: text
     data:
       label: "Your World"
       items:
-        - "Influence culture through steady presence and consistent behavior."
-        - "Create environments where clarity and psychological safety grow."
-        - "Show up as a grounded, empowering force in the circles that matter."
+        - "Become a stabilizing force in teams, families, and communities."
+        - "Influence culture through presence, not performance."
+        - "Model the clarity and robustness that invite others into flow."
   - type: quote
     data:
-      text: "The stance you train becomes the presence you carry."
+      text: "Author Your Stance → Regulate Your Energy → Restore the Flow."
   - type: text
     data:
       label: "The Experience"
       items:
-        - "Live human-to-human mentorship: experiential, simple, and embodied."
-        - "Guided through practice labs, real conversations, and real interactions."
+        - "Live human-to-human mentorship and embodied guidance."
+        - "Practice labs that simulate real tension and teach real flow."
         - "Playful forms that build rhythm, awareness, and confidence each rep."
   - type: text
     data:
       label: "The Transformation"
       items:
-        - "Less reactivity, more clarity — especially in challenging moments."
-        - "Stronger relationships grounded in presence, honesty, and connection."
-        - "A clearer inner compass that elevates how you lead, decide, and live."
+        - "Less reactivity, more clarity — especially when stressed."
+        - "Stronger relationships grounded in integrity, connection, and presence."
+        - "A stance you can trust, even when life pushes hard."
   - type: quote
     data:
-      text: "In a fast-changing world, human connection is a superpower to train."
+      text: "Harder at first. Easier eventually. Robust in reality."
   - type: ctas
     data:
       items:
