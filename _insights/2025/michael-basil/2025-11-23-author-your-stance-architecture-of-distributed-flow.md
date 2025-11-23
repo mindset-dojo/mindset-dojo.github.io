@@ -15,8 +15,6 @@ excerpt: |
   The smallest unit of that capacity is simple: Author Your Stance.
 ---
 
-# Author Your Stance: The Architecture of Distributed Flow
-
 For decades we’ve treated emotional clarity, conflict resolution, and culture change
 as centralized functions:
 
@@ -34,7 +32,7 @@ And the smallest unit of distributed flow is simple:
 
 **Author Your Stance.**
 
->  Fire Your Boss. Fire Your Attorney. Fire Your Therapist.  
+> Fire Your Boss. Fire Your Attorney. Fire Your Therapist.  
 
 Not the people — the dependency.
 
@@ -45,9 +43,7 @@ Clarity doesn’t come from hierarchy.
 Flow doesn’t come from outsourcing.  
 Regulation doesn’t come from waiting.
 
-It comes from the part of you that can pause, sense, and choose:
-
-**“This is my stance.”**
+It comes from the part of you that can pause, sense, and choose: **“This is my stance.”**
 
 ## Why Stance Comes First
 
@@ -67,7 +63,7 @@ a clean, intentional state the system can trust.
 
 You become a stable node in a distributed network.
 
-## Flow Isn’t Magic. It’s Trained.
+## Flow Isn’t Magic. It’s Trained
 
 This isn’t self-help or positive thinking.  
 It’s embodied training.
