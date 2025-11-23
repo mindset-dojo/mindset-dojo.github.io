@@ -1,7 +1,7 @@
 ---
 layout: insight
 title: "The Four Energies and the Space Wall"
-title_mark: Energies
+title_mark: Four Energies
 authors: 
   - michael-basil
 forms:
