@@ -40,13 +40,8 @@ Driver Energy: Engaged.
 “MOVE!” she called.
 One foot on the rock, one hand extended, one steady breath — she pulled Lila back to land, like a true Aikido lifeguard.
 
-Lila stood up, soaked but smiling. “I’m fine,” she said. “I think I needed that.”
+Lila stood up, soaked but smiling. “I’m fine,” she said. “I think I needed that."
 
-Get Michael Basil’s stories in your inbox
-Join Medium for free to get updates from this writer.
-
-Enter your email
-Subscribe
 Jack handed her a towel. “You just got pattern-shifted by a fish.”
 
 “Exactly,” she said. “Time to shift back.”
@@ -74,7 +69,7 @@ Her mom smiled. “Two koi. And a cookie.”
 
 —
 
- Moral of the Fable:
+## Moral of the Fable:
 
 You can fall in. You can feel shaky.
 But with all four energies — and a towel —
