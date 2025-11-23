@@ -1,7 +1,7 @@
 ---
 layout: insight
 title: "Houston we Have a Paridigm Shift"
-title_mark: 
+title_mark: Paridigm
 authors: 
   - michael-basil
 forms:
