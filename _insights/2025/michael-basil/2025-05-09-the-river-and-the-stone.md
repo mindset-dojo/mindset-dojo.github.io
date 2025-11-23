@@ -42,9 +42,6 @@ The Stone, for the first time, felt something shift.
 
 Not resistance. Not force.
 
-Get Michael Basil’s stories in your inbox
-Join Medium for free to get updates from this writer.
-
 But rhythm.
 
 And in that stillness, something unexpected happened.
