@@ -1,14 +1,14 @@
 ---
 layout: insight
 title: "The River and the Stone"
-title_mark: Without
+title_mark: and
 authors: 
   - michael-basil
 forms:
   - dojo
   - circle
-published_date: 2024-12-03
-refactored_date: 2024-12-03
+published_date: 2025-05-09
+refactored_date: 2025-05-09
 excerpt: A gentle story of a River and a Stone reveals how true change doesn’t come from force, persuasion, or resistance, but from presence. When we stop flowing around discomfort and meet it with stillness and clarity, we create the conditions for connection — and a new path forward shaped not by pressure, but by listening.
 ---
 
