@@ -5,7 +5,7 @@ title_mark: Koan
 authors: 
   - michael-basil
 forms:
-  - dojo
+  - circle
   - integration-under-fire
   - level-up-transition
 published_date: 2024-08-24

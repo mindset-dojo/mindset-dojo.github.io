@@ -7,6 +7,7 @@ authors:
 forms:
   - dojo
   - circle
+  - four-patterns
 published_date: 2025-07-16
 refactored_date: 2025-07-16
 excerpt: In a household filled with the energy of LEGO bricks and playful disagreements, a simple conflict becomes a lesson in collaboration. When we listen to each other’s underlying needs and match our approaches, we unlock the power of different energies — Organizer, Driver, Visionary, and Collaborator — creating space for connection and sweet solutions.
