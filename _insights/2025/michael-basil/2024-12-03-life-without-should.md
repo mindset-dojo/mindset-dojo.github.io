@@ -46,5 +46,3 @@ I’ve seen this practice work wonders for myself and others. It consistently fo
 I encourage you to try this experiment for an hour or a day. Remove ‘should’ from your vocabulary, and notice what shifts. How does it affect your thinking, your communication, or even your emotional state?
 
 If you try it, I’d love to hear what you experience. Share your thoughts and insights in the comments below.
-
-#emotionalintelligence selfawareness mindset dojo 
