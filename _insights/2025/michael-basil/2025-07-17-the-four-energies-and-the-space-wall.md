@@ -1,6 +1,6 @@
 ---
 layout: insight
-title: "The Four Energies and the space wall"
+title: "The Four Energies and the Space Wall"
 title_mark: Energies
 authors: 
   - michael-basil
@@ -9,7 +9,7 @@ forms:
   - circle
 published_date: 2025-07-17
 refactored_date: 2025-07-17
-excerpt:
+excerpt: A family of Pattern Keepers ventures to the edge of the galaxy, where a cosmic titan challenges not their strength, but their harmony. By blending Organizer, Visionary, Driver, and Collaborator energies — and moving with presence rather than force — they unlock a new way forward. The Space Wall opens not to power, but to flow, unity, and the courage to move together.
 ---
 
 Once upon a solar wind, somewhere between the spiral arms of the known galaxy and the shimmering edge of the unknown, a small starship glided forward. Inside: a family.
@@ -94,7 +94,7 @@ They flew forward.
 
 In the distance, their mom — the silent Witness — watched from a lightship, a small proud smile on her face. She had seen it all.
 
-Moral of the Fable:
+## Moral of the Fable
 
 The Space Wall isn’t the end.
 It’s the beginning of something we must meet together.
