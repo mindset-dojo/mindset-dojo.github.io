@@ -7,7 +7,6 @@ authors:
 forms:
   - dojo
   - circle
-  - mat
 published_date: 2024-12-03
 refactored_date: 2024-12-03
 excerpt: Removing the word “should” from our language interrupts unhelpful patterns, raises awareness, and opens space for curiosity and deeper understanding. This simple practice can transform conflicts, clarify emotions, and reveal insights that often remain hidden behind habitual thinking.

@@ -7,6 +7,7 @@ authors:
 forms:
   - dojo
   - circle
+  - four-patterns
 published_date: 2025-07-17
 refactored_date: 2025-07-17
 excerpt: A family of Pattern Keepers ventures to the edge of the galaxy, where a cosmic titan challenges not their strength, but their harmony. By blending Organizer, Visionary, Driver, and Collaborator energies — and moving with presence rather than force — they unlock a new way forward. The Space Wall opens not to power, but to flow, unity, and the courage to move together.
