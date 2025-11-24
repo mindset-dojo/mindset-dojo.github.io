@@ -5,7 +5,7 @@ description: |
   Mindset Dojo trains the social skills, technical skills, and human reflexes
   needed for real high-pressure environments. This is done through a High
   Precision Mentorship Approach which channels martial-arts relational
-  precision, nervous-system awareness, open-source technical mastery, and
+  precision, nervous-system awareness, open-source exploration, and
   the signal-clarifying support of automation and AI.
 
   These channels create a practical way to build clarity, readiness, and clean
@@ -26,9 +26,9 @@ sections:
     data:
       label: "Our Aim"
       items:
-        - "Restore clarity in fast, high-pressure environments."
         - "Reconnect people with grounded, human-to-human mentorship."
         - "Develop leaders who stay steady when others cannot."
+        - "Restore clarity in fast, high-pressure environments."
   - type: text
     data:
       label: "What We Train"
@@ -69,7 +69,7 @@ sections:
       items:
         - "Training relational timing and precision."
         - "Building nervous-system clarity under load."
-        - "Practicing mastery through open-source iteration."
+        - "Practicing mastery through open-source authorship."
         - "Using AI to clarify signal and accelerate learning."
   - type: ctas
     data:
