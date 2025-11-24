@@ -10,7 +10,7 @@ forms:
   - four patterns
 published_date: 2025-09-20
 refactored_date: 2025-09-20
-excerpt: In a once-silent library, children from around the world begin reading, laughing, and sharing stories aloud — and instead of creating chaos, their voices weave into a living harmony. The library becomes a place where quiet reflection and joyful resonance coexist, inviting each child to choose their own way of belonging. A new sign captures its spirit: Enter with care. Leave with resonance.
+excerpt: "In a once-silent library, children from around the world begin reading, laughing, and sharing stories aloud — and instead of creating chaos, their voices weave into a living harmony. The library becomes a place where quiet reflection and joyful resonance coexist, inviting each child to choose their own way of belonging. A new sign captures its spirit: Enter with care. Leave with resonance."
 ---
 
 There was once a great library where children came from every corner of the world. The shelves held stories of oceans and deserts, forests and stars, laughter and tears.
