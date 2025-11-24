@@ -33,7 +33,6 @@ Kiro shouted, “How do we steer through this?!”
 And Lina remembered what Dadsei had told them:
 “You are not separate from the Ocean. The Ocean is like the Force — flowing as you, through you, around you, always. There is no division.”
 
-
 So instead of fighting the waves, they relaxed and steered with the current. Suddenly the ocean didn’t feel scary — it felt like dancing with water.
 
 But just as they were getting the hang of it, they saw a traveler standing on a cliff, looking ready to jump.
@@ -46,4 +45,4 @@ The siblings sailed on, laughing about banana leaks and pancake flips. They knew
 
 Moral of the fable:
 
-Tend to your boat (yourself). Relax completely. Flow as the Universal, like the Force. And when fear comes, remember: you are not separate — you are already whole. 
+Tend to your boat (yourself). Relax completely. Flow as the Universal, like the Force. And when fear comes, remember: you are not separate — you are already whole.
