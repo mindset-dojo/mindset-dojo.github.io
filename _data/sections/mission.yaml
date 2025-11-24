@@ -26,16 +26,16 @@ sections:
     data:
       label: "Our Purpose"
       items:
-        - "To restore clarity and coherence in environments shaped by speed, pressure, and complexity."
-        - "To reconnect people with mentorship that is grounded, precise, and human-to-human."
-        - "To develop leaders and learners who can stay steady and effective when others cannot."
+        - "Restore clarity in fast, high-pressure environments."
+        - "Reconnect people with grounded, human-to-human mentorship."
+        - "Develop leaders who stay steady when others cannot."
   - type: text
     data:
       label: "What We Train"
       items:
-        - "The social skills that make collaboration work in high-pressure moments."
-        - "The technical skills that support clean communication and knowledge transfer."
-        - "The human reflexes that keep people coherent when complexity rises."
+        - "Social skills for clear collaboration under pressure."
+        - "Technical skills for clean, accurate knowledge transfer."
+        - "Human reflexes that sustain coherence in complexity."
   - type: quote
     data:
       text: "Pressure reveals the channel. Training refines it."
@@ -43,23 +43,23 @@ sections:
     data:
       label: "As a Learner"
       items:
-        - "You are curious and become eager to engage with those who are more practiced."
-        - "You seek mentorship grounded in clarity, timing, and real-world feedback."
-        - "You build confidence and competence through simple, repeatable practice."
+        - "Curious and eager to engage with more practiced mentors."
+        - "Seeking mentorship grounded in clarity and timing."
+        - "Building confidence through repeatable practice."
   - type: text
     data:
       label: "As a Mentor"
       items:
-        - "You are curious and become patient when engaging early learners."
-        - "You guide others with precision and clean signal in high-pressure environments."
-        - "You pass on your craft effectively by keeping your channel open and steady."
+        - "Curious and patient with early learners."
+        - "Guiding others with precision and clean signal."
+        - "Passing on your craft with an open, steady channel."
   - type: text
     data:
       label: "As a Practitioner"
       items:
-        - "Stay coherent when complexity rises in teams, relationships, and systems."
-        - "Restore flow when interactions become tense, confusing, or misaligned."
-        - "Strengthen leadership and collaboration dynamics that hold steady under pressure."
+        - "Staying coherent when pressure and complexity rise."
+        - "Restoring flow when conversations get stuck."
+        - "Strengthening collaboration that holds under strain."
   - type: quote
     data:
       text: "When the signal is clear, people level up fast."
@@ -67,10 +67,10 @@ sections:
     data:
       label: "The Experience"
       items:
-        - "Training relational timing and precision the way martial artists do."
-        - "Building nervous-system awareness to stay clear under pressure."
-        - "Practicing technical mastery through open-source style iteration and feedback."
-        - "Using automation and AI to clarify signal, reduce noise, and accelerate learning."
+        - "Training relational timing and precision."
+        - "Building nervous-system clarity under load."
+        - "Practicing mastery through open-source iteration."
+        - "Using AI to clarify signal and accelerate learning."
   - type: ctas
     data:
       items:
