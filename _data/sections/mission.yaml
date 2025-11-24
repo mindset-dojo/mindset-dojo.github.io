@@ -2,62 +2,75 @@
 mantra: "Level Up."
 mantra_mark: "Level Up."
 description: |
-  Mindset Dojo is where humans train the capacity modern life requires:
-  the ability to regulate energy, author stance, and restore flow in
-  relationships, teams, and families.
+  Mindset Dojo trains the social skills, technical skills, and human reflexes
+  needed for real high-pressure environments. This is done through a High
+  Precision Mentorship Approach which channels martial-arts relational
+  precision, nervous-system awareness, open-source technical mastery, and
+  the signal-clarifying support of automation and AI.
 
-  In a world shaped by AI, speed, and constant uncertainty, the new competitive
-  advantage is not information — it’s presence. It’s the ability to stay clear
-  under pressure, to stabilize a room, and to influence without force.
+  These channels create a practical way to build clarity, readiness, and clean
+  communication in the moments where leadership and collaboration usually break
+  down — when the stakes rise, when signals get noisy, or when guidance becomes
+  hard to give or receive.
 
-  This isn’t self-help. It isn’t theory. It’s training.
-  Live, human-to-human, experiential training that builds the reflexes your nervous
-  system was never taught but absolutely depends on.
+  Mindset Dojo is for professionals who value real mentorship: seasoned
+  practitioners who want to improve and pass on their craft with precision,
+  and emerging learners searching for guidance they can actually feel and apply.
 
-  Flow isn’t accidental. It’s trained. And once you learn to author your stance,
-  you become a node of clarity in a world that desperately needs distributed stability.
+  This is not coaching or performance. It is intentional, honest, human-to-human
+  practice that strengthens your stance and refines the channel through which
+  learning, feedback, and collaboration move. When the channel is clear, both
+  mentor and mentee grow with far less friction.
 sections:
   - type: text
     data:
-      label: "Your Self"
+      label: "Our Aim"
       items:
-        - "Develop presence, stability, and clarity in the moments that matter."
-        - "Author your stance instead of reacting from old patterns."
-        - "Build the energetic integrity that makes you unshakeable."
+        - "Restore clarity in fast, high-pressure environments."
+        - "Reconnect people with grounded, human-to-human mentorship."
+        - "Develop leaders who stay steady when others cannot."
   - type: text
     data:
-      label: "Your Network"
+      label: "What We Train"
       items:
-        - "Learn to restore flow when conversations get tense or stuck."
-        - "Communicate with grounded honesty and attuned authority."
-        - "Create relationships that can withstand pressure and stay connected."
-  - type: text
-    data:
-      label: "Your World"
-      items:
-        - "Become a stabilizing force in teams, families, and communities."
-        - "Influence culture through presence, not performance."
-        - "Model the clarity and robustness that invite others into flow."
+        - "Social skills for clear collaboration under pressure."
+        - "Technical skills for clean, accurate knowledge transfer."
+        - "Human reflexes that sustain coherence in complexity."
   - type: quote
     data:
-      text: "Author Your Stance → Regulate Your Energy → Restore the Flow."
+      text: "Pressure reveals the channel. Training refines it."
+  - type: text
+    data:
+      label: "As a Learner"
+      items:
+        - "Curious and eager to engage with more practiced mentors."
+        - "Seeking mentorship grounded in clarity and timing."
+        - "Building confidence through repeatable practice."
+  - type: text
+    data:
+      label: "As a Mentor"
+      items:
+        - "Curious and patient with early learners."
+        - "Guiding others with precision and clean signal."
+        - "Passing on your craft with an open, steady channel."
+  - type: text
+    data:
+      label: "As a Practitioner"
+      items:
+        - "Staying coherent when pressure and complexity rise."
+        - "Restoring flow when conversations get stuck."
+        - "Strengthening collaboration that holds under strain."
+  - type: quote
+    data:
+      text: "When the signal is clear, people level up fast."
   - type: text
     data:
       label: "The Experience"
       items:
-        - "Live human-to-human mentorship and embodied guidance."
-        - "Practice labs that simulate real tension and teach real flow."
-        - "Playful forms that build rhythm, awareness, and confidence each rep."
-  - type: text
-    data:
-      label: "The Transformation"
-      items:
-        - "Less reactivity, more clarity — especially when stressed."
-        - "Stronger relationships grounded in integrity, connection, and presence."
-        - "A stance you can trust, even when life pushes hard."
-  - type: quote
-    data:
-      text: "Harder at first. Easier eventually. Robust in reality."
+        - "Training relational timing and precision."
+        - "Building nervous-system clarity under load."
+        - "Practicing mastery through open-source iteration."
+        - "Using AI to clarify signal and accelerate learning."
   - type: ctas
     data:
       items:
@@ -66,6 +79,6 @@ sections:
   - type: authors
     data:
       leadership_flow:
-        label: "⛩️🌿 Stance-Authors"
+        label: "⛩️🌿 Practitioners"
         limit: 16
 ...
