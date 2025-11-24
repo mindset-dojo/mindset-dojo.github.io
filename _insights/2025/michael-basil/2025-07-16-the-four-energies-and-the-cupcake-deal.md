@@ -1,7 +1,7 @@
 ---
 layout: insight
 title: "The Four Energies and the Cupcake Deal"
-title_mark: energies
+title_mark: Four Energies
 authors: 
   - michael-basil
 forms:
