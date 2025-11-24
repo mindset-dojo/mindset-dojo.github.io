@@ -69,7 +69,7 @@ Her mom smiled. “Two koi. And a cookie.”
 
 —
 
-## Moral of the Fable:
+## Moral of the Fable
 
 You can fall in. You can feel shaky.
 But with all four energies — and a towel —
