@@ -25,7 +25,7 @@ about: |
   
   With a computer engineering degree from the University of Illinois, I carried that same pattern awareness into large-scale systems including identity innovation with a U.S. patent, DevSecOps modernization, enterprise software, and organizational transformation. Through this work I learned that the hardest problems in technology and leadership are rarely technical. They are complexity problems involving misaligned identities, unclear boundaries, incoherent roles, unspoken tension, and narratives that distort under load.
   
-  Mindset Dojo emerged as an open-source human-systems project where we explore and harvest insights from these edge spaces including nervous-system readiness, identity drift, relational gaps, and leadership under pressure. It is not a commercial coaching practice. It is a laboratory for understanding how people and systems break, adapt, and realign.
+  Mindset Dojo emerged as an open-source human-systems project where we explore and harvest insights from edge spaces including nervous-system readiness, identity drift, relational gaps, and leadership under pressure. It serves as a laboratory for understanding how people and systems break, adapt, and realign.
   
   Today I operate at the intersection of digital identity and human identity where access, trust, and presence matter most. I work with individuals and teams navigating high-stakes environments where technical systems, human systems, and growth demands meet.
   
