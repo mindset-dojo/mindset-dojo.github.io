@@ -34,11 +34,11 @@ sections:
       label: "What We Train"
       items:
         - "Social skills for clear collaboration under pressure."
-        - "Technical skills for clean, accurate knowledge transfer."
+        - "Technical skills for transmission of expertise."
         - "Human reflexes that sustain coherence in complexity."
   - type: quote
     data:
-      text: "Pressure reveals the channel. Training refines it."
+      text: "Pressure reveals conditioning. Training evolves it."
   - type: text
     data:
       label: "As a Learner"
@@ -57,7 +57,7 @@ sections:
     data:
       label: "As a Practitioner"
       items:
-        - "Staying coherent when pressure and complexity rise."
+        - "Returning to coherence when pressure and complexity rise."
         - "Restoring flow when conversations get stuck."
         - "Strengthening collaboration that holds under strain."
   - type: quote
@@ -70,7 +70,7 @@ sections:
         - "Training relational timing and precision."
         - "Building nervous-system clarity under load."
         - "Practicing mastery through open-source authorship."
-        - "Using AI to clarify signal and accelerate learning."
+        - "Using AI to clarify signal and deepen learning."
   - type: ctas
     data:
       items:
