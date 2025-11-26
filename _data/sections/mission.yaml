@@ -3,38 +3,38 @@ mantra: "Level Up?!"
 mantra_mark: "Level Up?!"
 description: |
   Mindset Dojo trains the social skills, technical skills, and human reflexes
-  needed for real high-pressure environments. This is done through a High
-  Precision Mentorship Approach which channels martial-arts relational
-  precision, nervous-system awareness, open-source exploration, and
-  the signal-clarifying support of automation and AI.
+  needed to stay steady and connected in a fast-changing world. We do this
+  through a High-Precision Mentorship Approach that blends martial-arts-inspired
+  relational timing, nervous-system awareness, open-source exploration, and the
+  clarifying support of AI used as a tool and mirror — never a mask.
 
-  These channels create a practical way to build clarity, readiness, and clean
-  communication in the moments where leadership and collaboration usually break
-  down — when the stakes rise, when signals get noisy, or when guidance becomes
-  hard to give or receive.
+  This approach creates a practical way to build presence, clarity, and clean
+  communication in the moments where leadership, collaboration, and connection
+  usually break down: when pressure rises, signals get noisy, or real
+  conversations become hard to give or receive.
 
-  Mindset Dojo is for professionals who value real mentorship: seasoned
-  practitioners who want to improve and pass on their craft with precision,
-  and emerging learners searching for guidance they can actually feel and apply.
+  Mindset Dojo is for professionals who value real mentorship — seasoned
+  practitioners refining their craft, and emerging learners seeking guidance they
+  can actually feel and apply.
 
   This is not coaching or performance. It is intentional, honest, human-to-human
-  practice that strengthens your stance and refines the channel through which
-  learning, feedback, and collaboration move. When the channel is clear, both
-  mentor and mentee grow with far less friction.
+  practice that strengthens your stance and the channel through which learning,
+  feedback, and collaboration move. When the signal is clear, both mentor and
+  learner grow with far less friction.
 sections:
   - type: text
     data:
       label: "Our Aim"
       items:
         - "Reconnect people with grounded, human-to-human mentorship."
-        - "Develop leaders who stay steady when others cannot."
-        - "Restore clarity in fast, high-pressure environments."
+        - "Explore AI in ways that bring people closer."
+        - "Strengthen presence and leadership in challenging situations."
   - type: text
     data:
       label: "What We Train"
       items:
         - "Social skills for clear collaboration under pressure."
-        - "Technical skills for transmission of expertise."
+        - "Technical skills for transmitting expertise with clarity"
         - "Human reflexes that sustain coherence in complexity."
   - type: quote
     data:
@@ -43,23 +43,23 @@ sections:
     data:
       label: "As a Learner"
       items:
-        - "Curious and eager to engage with more practiced mentors."
-        - "Seeking mentorship grounded in clarity and timing."
-        - "Building confidence through repeatable practice."
+        - "Curious and ready to practice with more experienced partners."
+        - "Seeking guidance grounded in clarity, timing, and real conversation."
+        - "Building confidence through repeatable, embodied practice."
   - type: text
     data:
       label: "As a Mentor"
       items:
-        - "Curious and patient with early learners."
-        - "Guiding others with precision and clean signal."
-        - "Passing on your craft with an open, steady channel."
+        - "Patient and curious with emerging learners."
+        - "Guiding with precision, clean signal, and grounded presence."
+        - "Passing on your craft through steady, human-to-human connection."
   - type: text
     data:
       label: "As a Practitioner"
       items:
-        - "Returning to coherence when pressure and complexity rise."
+        - "Returning to coherence when pressure spikes"
         - "Restoring flow when conversations get stuck."
-        - "Strengthening collaboration that holds under strain."
+        - "Keeping collaboration intact under strain."
   - type: quote
     data:
       text: "When the signal is clear, people level up fast."
@@ -67,10 +67,10 @@ sections:
     data:
       label: "The Experience"
       items:
-        - "Training relational timing and precision."
+        - "Training precision in how you listen and respond."
         - "Building nervous-system clarity under load."
-        - "Practicing mastery through open-source authorship."
-        - "Using AI to clarify signal and deepen learning."
+        - "Developing mastery through open-source authorship."
+        - "Exploring AI to deepen learning — not replace connection."
   - type: ctas
     data:
       items:
