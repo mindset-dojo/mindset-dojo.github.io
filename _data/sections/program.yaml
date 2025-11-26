@@ -13,7 +13,7 @@ level_defaults:
 sections:
   - type: quote
     data:
-      text: "A threshold appears — connect with a Senpai or Sensei to step in."
+      text: "A threshold appears — connect with a Senpai or Sensei to enter."
   - type: levels
     data:
       label: "Training Levels"
