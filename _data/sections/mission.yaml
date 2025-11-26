@@ -57,7 +57,7 @@ sections:
     data:
       label: "As a Practitioner"
       items:
-        - "Returning to coherence when pressure spikes"
+        - "Returning to coherence when pressure spikes."
         - "Restoring flow when conversations get stuck."
         - "Keeping collaboration intact under strain."
   - type: quote
