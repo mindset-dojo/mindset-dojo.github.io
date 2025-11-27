@@ -2,25 +2,21 @@
 mantra: "Continuous Discernment"
 mantra_mark: "Discernment"
 description: |
-  Mindset Dojo trains the one capability modern professionals need most:
-  continuous discernment, the ability to stay clear, connected, and grounded
-  while navigating AI acceleration, social complexity, and real work under
-  pressure.
+  Mindset Dojo trains a single capability:
+  Continuous Discernment — the ability to stay clear, connected, and grounded
+  in an AI-accelerated world.
 
-  We blend martial-arts-inspired timing, nervous-system awareness, open-source
-  exploration, and the intelligent use of AI as a tool and mirror, never a
-  mask. This strengthens you during the moments where collaboration breaks down, such as
-  when signals get noisy, shortcuts get tempting, or real conversations become
-  difficult.
+  Continuous Discernment strengthens your inner models so external ones—AI
+  systems, algorithmic influence loops, and social hierarchies—can't silently
+  steer your perception or decision-making.
+
+  This is high-precision, human-to-human practice. You train with real partners
+  in real conversations, building clarity, timing, and presence under social
+  and technical load.
 
   The dojo is for professionals who value real mentorship: practitioners
-  refining their craft, technologists sharpening judgment, and emerging leaders
-  learning to stay human in complex and fast-changing environments.
-
-  This is not coaching or productivity training. It is high-precision,
-  human-to-human practice that strengthens your stance and the channel through
-  which feedback, leadership, and technical clarity move. When the signal is
-  clean, both mentor and learner level up with far less friction.
+  refining their craft, technologists sharpening judgment, and emerging
+  leaders learning to stay human in fast-moving environments.
 sections:
   - type: markdown
     data:
@@ -36,28 +32,20 @@ sections:
     data:
       label: "What We Train"
       items:
-        - "Social skills for clear collaboration in complex environments."
+        - "Social discernment for clean, honest collaboration."
         - "Technical discernment for evaluating code, models, and ideas."
-        - "Human reflexes that sustain coherence when signals get noisy."
+        - "Human reflexes that stay stable when life gets noisy."
   - type: text
     data:
-      label: "What This Is"
+      label: "If This Resonates ..."
       items:
-        - "A modern dojo for clear thinking under social and technical load."
-        - "A hybrid of mentorship, practice, and open-source contribution."
-        - "A community using AI as mirror and tool without replacing voice."
-        - "A place to train judgment, timing, and presence with real partners."
-  - type: text
-    data:
-      label: "How We Evolve"
-      items:
-        - "From uncertainty to grounded clarity in fast-moving situations."
-        - "From shortcuts to steady and reliable judgment."
-        - "From performance habits to clean and honest communication."
-        - "From reacting under pressure to leading with presence."
+        - "AI is moving fast, and you’re feeling hesitant or confused."
+        - "Strong personalities crowd out the social room you need."
+        - "Spicy conversations make you react too fast or hold back."
+        - "Open-source calls, but you’re stuck talking about starting."
   - type: quote
     data:
-      text: "Pressure reveals conditioning. Discernment reshapes it."
+      text: "Discernment grows with training. The door is open for you."
   - type: ctas
     data:
       items:
