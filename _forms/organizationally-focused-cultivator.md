@@ -6,7 +6,7 @@ published_date: 2025-11-13
 refactored_date: 2025-11-13
 authors:
 - kyle-ingersoll
-excerpt: An Organizationally-Focused Cultivator supports the community through their deep knowledge of the Program, the Dojo, and The Way.
+excerpt: An Organizationally-Focused Cultivator supports the community in phases through their deep knowledge of the Program, the Dojo, and The Way.
 icon: fa-solid fa-diagram-project
 tags:
   - responsibility
@@ -24,19 +24,24 @@ inspirations:
 
 ## Intention
 
-An Organizationally-Focused Cultivator supports the community through their deep knowledge of the Program, [the Dojo](../dojo/), and The Way. They guide, harmonize, and model training authorship, lead Cultivator [Circle](../circle/) meetings regularly, and cultivate community culture and brand coherence. They have passed the Black Level [Threshold](../threshold/), and gained existing Cultivators’ endorsement.
+An Organizationally-Focused Cultivator supports the community through their deep knowledge of the Program, [the Dojo](../dojo/), and The Way. They guide, harmonize, and model training authorship, lead Cultivator [Circle](../circle/) meetings, and cultivate community culture and brand coherence. They have passed the Black Level [Threshold](../threshold/), and gained existing Cultivators’ endorsement.
+
+Designation is **phase-based and dynamic**: it reflects current engagement, alignment, and contribution rather than permanent status. While this role carries higher responsibility and requires active presence, participation naturally ebbs and flows in response to the needs of the Dojo and the capacity of the Cultivator. Existing Cultivators endorse participation and help maintain alignment with community standards.
 
 ## Experience
 
-You aid the organization and community holistically through mastery of what is taught in the Program and beyond. You work to not merely refine processes, but presence itself. You mentor aspiring and existing Domain-Focused Cultivators. You also align the practices of [the Dojo](../dojo/) with The Way.
+You contribute holistically to the organization and community through mastery of what is taught in the Program and beyond. You work to refine not just processes but presence itself. You mentor aspiring and existing Domain-Focused Cultivators and help ensure that [the Dojo](../dojo/) practices remain aligned with The Way.  
 
-In this role, you increasingly sense the architecture behind the forms—how they emerge, how they guide others, and how they remain alive over time. Organizational cultivation is as much stewardship of form-shaping as it is stewardship of people.
+Organizational cultivation emphasizes **stewardship over form and community**, noticing how practices emerge, evolve, and sustain coherence over time. Recognition of your designation is maintained through demonstrated impact, visible alignment, and thoughtful engagement.
 
 ## Implementation
 
-As a Domain-Focused Cultivator, keep making contributions, networking, and training in the Program. Once you pass the Black Level [Threshold](../threshold/), negotiate with other Cultivators for sponsorship. Once you receive it, make a pull request claiming the Organizationally-Focused Cultivator designation.
+- Enter the Organizationally-Focused phase by actively contributing, mentoring, and guiding the Dojo at an architectural level while being a Domain-Focused Contributor. Live in that future Self as you work towards passing the Black Level [Threshold](../threshold) and gaining other cultivators' sponsorship to make that designation official.  
+- Your designation is **continuously affirmed** through contributions and peer observation. If engagement naturally decreases, designation reflects current activity without punitive loss; re-engagement restores affirmation.  
+- Maintain high responsibility by actively shaping culture, mentoring others, and safeguarding The Way.  
+- Continue training and applying the Program and architectural understanding of the Dojo. Mentorship, facilitation, and community stewardship are the core measures of impact.  
 
-As you step into shaping the dojo at an architectural level, let your work be grounded in the following principles:
+As you cultivate organizational alignment, your work is guided by these Principles:
 
 - **Focus on One Point** — design and refine from a single intention, returning whenever the form drifts.  
 - **Give the Learner the Pen** — create openings for others to step in, discover, and author their own growth.  

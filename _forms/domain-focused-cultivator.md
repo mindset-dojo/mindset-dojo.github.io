@@ -6,7 +6,7 @@ published_date: 2025-11-13
 refactored_date: 2025-11-13
 authors:
 - kyle-ingersoll
-excerpt: A Domain-Focused Cultivator supports the Dojo through their domain expertise tuned in through the Program.
+excerpt: A Domain-Focused Cultivator supports the Dojo in phases through their domain expertise tuned in through the Program.
 icon: fa-solid fa-seedling
 tags:
   - responsibility
@@ -22,17 +22,22 @@ inspirations:
 
 ## Intention
 
-A Domain-Focused Cultivator supports [the Dojo](../dojo/) through their domain expertise tuned in through the Program. They show up to Cultivator [Circle](../circle/) meetings regularly, and volunteer their experience in a mutually beneficial way. They are at least Green Level, and vouched for by existing Cultivators.  
+A Domain-Focused Cultivator engages with [the Dojo](../dojo/) through their domain expertise, participating as their focus, energy, and context allow. They are at least Green Level, and vouched for by existing Cultivators. They show up to Cultivator [Circle](../circle/) meetings regularly, and volunteer their experience in a mutually beneficial way during the phase. Designation is continuously re-evaluated based on active contribution and engagement rather than fixed thresholds. Cultivators may move in and out of phases of participation while maintaining alignment with the Dojo’s goals.
 
 ## Experience
 
-You train to apply the Program to your chosen domain of expertise. You meet regularly with other Cultivators to work on projects, learn from mentors, and ensure that [the Dojo](../dojo/) is well-maintained. You give what makes sense above the basic responsibilities to maintain the designation, and receive what makes sense in return. In short, you get back what you put in.
+You train and contribute to your chosen domain while participating in Cultivator Circles and mentoring relationships. Contributions are recognized proportionally: the more present and aligned your action, the more your designation is affirmed. Your impact is measured by shared progress, not by a permanent title.
 
 As you work within your domain, you'll begin noticing how clarity, alignment, and movement arise from shared action rather than debate, and how transparency lightens even complex efforts. Domain cultivation becomes a living expression of responsiveness.
 
 ## Implementation
 
-After clearing the Grey Level [Threshold](../threshold/), make a significant contribution to the community in your chosen domain. Network with other Cultivators, express your interest in the designation and mentorship, and start attending Cultivator [Circle](../circle/) meetings. Train hard in both the Program and your chosen domain, make contributions as it makes sense, and get to Green Level. Once you pass the Green Level [Threshold](../threshold/), negotiate sponsorship from existing Cultivators and then make a pull request claiming the designation.
+To enter the Domain-Focused Cultivator phase:
+
+- Engage with a project or Circle and express your intent to contribute after you pass the Green Level [Threshold](../threshold/).
+- Contributions are ongoing; your designation is maintained through demonstrated alignment, impact, and active collaboration.
+- Engagement is naturally flexible: if you step back or focus elsewhere, the designation reflects your current level of active participation rather than removing recognition entirely.
+- Re-evaluation is continuous: peers and mentors observe contributions and affirm the designation as engagement persists.
 
 As you cultivate your domain, let your work be guided the following principles:  
 
