@@ -22,11 +22,11 @@ inspirations:
 
 ## Intention
 
-A Cultivator engages with [the Dojo](../dojo/) using their domain expertise to support going through a Program [Threshold](../threshold/) in a reasonable amount of time agreed upon with the [Sensei](../sensei/). Instead of contributing money, they contribute labor to ensure fair energy exchange when passing the [Threshold](../threshold/). They volunteer their experience in a mutually beneficial way during the agreed upon phase.
+A Cultivator engages with the [Dojo](../dojo/) using their domain expertise to support going through a Program [Threshold](../threshold/) in a reasonable amount of time agreed upon with the [Sensei](../sensei/). Instead of contributing money, they contribute labor to ensure fair energy exchange when passing the [Threshold](../threshold/). They volunteer their experience in a mutually beneficial way during the agreed upon phase.
 
 ## Experience
 
-You train and contribute to the Dojo while meeting with the Sensei as it makes sense about your contributions and progress towards the Program Level [Threshold](../threshold/).
+You train and contribute to the [Dojo](../dojo/) while meeting with the [Sensei](../sensei/) as it makes sense about your contributions and progress towards the Program Level [Threshold](../threshold/).
 
 As you work for the community, you'll begin noticing how clarity, alignment, and movement arise from shared action rather than debate, and how transparency lightens even complex efforts. Cultivation becomes a living expression of responsiveness.
 
