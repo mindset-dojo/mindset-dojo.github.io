@@ -28,7 +28,7 @@ A Project Cultivator engages with the [Dojo](../dojo/) using their domain expert
 
 You train and contribute to the [Dojo](../dojo/) while meeting with the [Sensei](../sensei/) as it makes sense about your contributions and progress towards the Program Level [Threshold](../threshold/).
 
-As you work for the community, you'll begin noticing how clarity, alignment, and movement arise from shared action rather than debate, and how transparency lightens even complex efforts. Cultivation becomes a living expression of responsiveness.
+As you work with the community, you'll begin noticing how clarity, alignment, and movement arise from shared action rather than debate, and how transparency lightens even complex efforts. Cultivation becomes a living expression of responsiveness.
 
 ## Implementation
 
