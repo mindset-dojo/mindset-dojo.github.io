@@ -37,26 +37,23 @@ sections:
         - "Human reflexes that stay stable when life gets noisy."
   - type: text
     data:
-      label: "If This Sounds Familiar…"
+      label: "If This Sounds Familiar..."
       items:
-        - "AI is moving faster than your ability to stay clear and confident."
-        - "You sometimes trust AI more than your own judgment — and that concerns you."
-        - "You overthink conversations, or replay them wishing you’d stayed steadier."
-        - "You hesitate in high-pressure moments, or react too quickly and regret it."
-        - "You want honest collaboration, but group dynamics often pull you off center."
-        - "You feel your perception gets shaped — by speed, by stress, by algorithms."
-        - "You know you're capable of deeper clarity than you're currently showing."
-        - "You want to feel more grounded, more yourself, in moments that matter."
-  - type: markdown
-    data:
-      label: "Threshold Invitation"
-      text: |
-        If any of this feels true, the dojo is here.  
-        Train with real partners.  
-        Strengthen the part of you the world keeps trying to steer.
+        - "AI moves fast and you’re not sure you’re keeping up."
+        - "You trust AI at times more than your own judgment."
+        - "You’re unsure when AI helps vs when it shapes you."
+        - "You overthink conversations before or after they happen."
+        - "You lose your clarity around strong personalities."
+        - "Group dynamics pull you off center too easily."
+        - "You hesitate in key moments and speak too late."
+        - "You react too fast under pressure and regret it."
+        - "You struggle to stay grounded when stakes rise."
+        - "You know you're capable, but doubt still shows up."
+        - "You want deeper calm and clarity in tense moments."
+        - "Stress and speed distort your perception and choices."
   - type: quote
     data:
-      text: "Pressure reveals conditioning. Discernment reshapes it."
+      text: "Your perception is your power. Train it."
   - type: ctas
     data:
       items:
