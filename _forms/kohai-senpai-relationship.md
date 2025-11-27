@@ -11,7 +11,7 @@ authors:
 excerpt: A relational tradition where people support each other through experience, example, and care. The Senpai offers guidance; the Kohai receives it. These roles shift naturally as practice deepens.
 icon: fa-solid fa-people-arrows
 tags:
-  - relationship
+  - responsibility
 inspirations:
 - label: Ki in Daily Life by Koichi Tohei
   url: https://www.amazon.com/Ki-Daily-Life-Koichi-Tohei/dp/4889960716

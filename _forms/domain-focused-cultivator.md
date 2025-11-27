@@ -9,7 +9,7 @@ authors:
 excerpt: A Domain-Focused Cultivator supports the Dojo through their domain expertise tuned in through the Program.
 icon: fa-solid fa-seedling
 tags:
-  - role
+  - responsibility
   - meta
 inspirations:
 - label: Dojo Consortium
