@@ -2,27 +2,37 @@
 mantra: "Continuous Discernment"
 mantra_mark: "Discernment"
 description: |
-  Mindset Dojo trains one capability: Continuous Discernment — the ability
-  to stay grounded and see clearly as life and technology accelerate.
+  Mindset Dojo trains one capability: Continuous Discernment — the skill
+  of staying grounded, perceptive, and centered as life and technology
+  accelerate.
 
-  We develop new lenses that reveal hidden biases in ourselves, in groups,
-  and in the motivated models and AI systems quietly shaping perception.
+  You’re navigating fast-moving systems, strong personalities, and AI
+  models that influence how you think and feel. You want clearer
+  perception, steadier footing, and a way to show up cleanly when it
+  matters. We understand that. This dojo exists for exactly that.
 
-  AI supports the practice, but only at the edges. It serves as the warm-up
-  that activates awareness and surfaces bias patterns, and the cool-down
-  that helps you integrate and refine your internal models after training.
+  We train through lenses that reveal hidden biases — in ourselves, in
+  groups, and in the motivated models shaping modern perception. This
+  isn’t judgment; it’s clarity. It’s seeing what’s actually there.
 
-  The real work happens human-to-human. Through practice you cultivate
-  clear reflexes and stable stances — timing, presence, attunement, energy,
-  and relational clarity under load — felt first in the heart and gut.
+  AI supports the practice, but only at the edges. It’s the warm-up that
+  activates awareness and surfaces patterns, and the cool-down that helps
+  you integrate and refine your internal models after training.
 
-  Mentorship moves in cycles. You commit with intention, train with focus,
-  integrate, breathe, and return when the next threshold calls. This keeps
-  the field coherent and reduces drag for everyone actively training.
+  The real work is human-to-human: timing, presence, attunement, energy,
+  and relational clarity under load. These are felt first in the heart
+  and gut, and then expressed through clear reflexes and stable stances
+  that hold under pressure.
+
+  Training moves in cycles. You commit with intention, practice with
+  focus, integrate, breathe, and return when the next threshold calls. 
+  This rhythm keeps the field coherent, the energy clean, and the growth
+  real.
 
   A natural byproduct of this work is shared authorship. As we train, we
-  distill insights and reflections into an open-source “book” repository —
-  a living library of discernment written by those who walk the path.
+  distill insights and reflections into an open-source “book”
+  repository — a living record of the path shaped by experience, not
+  theory.
 sections:
   - type: markdown
     data:
@@ -32,7 +42,7 @@ sections:
       label: "Our Aim"
       items:
         - "Grow discernment through clear, bias-revealing lenses."
-        - "Strengthen presence and clarity under real pressure."
+        - "Strengthen presence, timing, and clarity under pressure."
         - "Cultivate a high-intention energetic field for training."
   - type: text
     data:
