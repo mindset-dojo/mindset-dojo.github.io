@@ -178,6 +178,6 @@ sections:
   - type: authors
     data:
       leadership_flow:
-        label: "⛩️💫 Practitioners"
+        label: "⛩️💫 Authors"
         limit: 16
 ...

@@ -2,21 +2,36 @@
 mantra: "Continuous Discernment"
 mantra_mark: "Discernment"
 description: |
-  Mindset Dojo trains a single capability:
-  Continuous Discernment — the ability to stay clear, connected, and grounded
-  in an AI-accelerated world.
+  Mindset Dojo trains one capability: Continuous Discernment — the skill
+  of staying grounded and clear as life and technology move faster than
+  your instincts can keep up.
 
-  Continuous Discernment strengthens your inner models so external ones—AI
-  systems, algorithmic influence loops, and social hierarchies—can't silently
-  steer your perception or decision-making.
+  Maybe you’ve noticed this. The pace increases. Conversations tilt.
+  Strong personalities take the room. AI systems suggest choices before
+  you’ve fully thought them through. You can feel the pressure, even when
+  you’re holding steady on the surface.
 
-  This is high-precision, human-to-human practice. You train with real partners
-  in real conversations, building clarity, timing, and presence under social
-  and technical load.
+  You want steadier footing. You want to respond without overreacting.
+  You want to stay centered, even when others aren’t. This dojo exists
+  for exactly that.
 
-  The dojo is for professionals who value real mentorship: practitioners
-  refining their craft, technologists sharpening judgment, and emerging
-  leaders learning to stay human in fast-moving environments.
+  We help you see bias clearly — in yourself, in groups, and in the AI
+  models shaping modern perception. Not to judge it, but to stay oriented
+  when things get noisy.
+
+  AI supports the training, but only at the edges: warm-up for awareness,
+  cool-down for integration. The real work is human-to-human: timing,
+  presence, attunement, energy, and clarity under load.
+
+  These skills are trained into the body as steady reflexes and grounded
+  stances — helping you stay yourself when it matters most.
+
+  Training moves in cycles. You commit with intention, practice with
+  focus, integrate, breathe, and return when the next threshold calls.
+  This rhythm keeps the field clean and the work effective.
+
+  As we train, we also document what we learn — building an open-source
+  “book” that grows from lived experience, not theory.
 sections:
   - type: markdown
     data:
@@ -25,24 +40,23 @@ sections:
     data:
       label: "Our Aim"
       items:
-        - "To cultivate continuous discernment in an AI-accelerated world."
-        - "To reconnect people with grounded, real-time mentorship."
-        - "To strengthen presence and relational clarity under pressure."
+        - "Grow discernment through clear, bias-revealing lenses."
+        - "Strengthen presence, timing, and clarity under pressure."
+        - "Cultivate a high-intention energetic field for training."
   - type: text
     data:
       label: "What We Train"
       items:
-        - "Social discernment for clean, honest collaboration."
-        - "Technical discernment for evaluating code, models, and ideas."
-        - "Human reflexes that stay stable when life gets noisy."
+        - "Social Discernment for clear, grounded collaboration."
+        - "Technical Discernment for clarity with code and ideas."
+        - "Embodied reflexes and stances under real-world load."
   - type: text
     data:
       label: "If This Resonates ..."
       items:
-        - "AI is moving fast, and you’re feeling hesitant or confused."
-        - "Strong personalities crowd out the social room you need."
-        - "Spicy conversations make you react too fast or hold back."
-        - "Open-source calls, but you’re stuck talking about starting."
+        - "AI feels persuasive and you want to see through its biases."
+        - "Strong personalities distort the social field and drain clarity."
+        - "Tense moments trigger habits you want to unwind cleanly."
   - type: quote
     data:
       text: "Discernment grows with training. The door is open for you."
@@ -54,6 +68,6 @@ sections:
   - type: authors
     data:
       leadership_flow:
-        label: "⛩️💫 Practitioners"
+        label: "⛩️💫 Authors"
         limit: 16
 ...
