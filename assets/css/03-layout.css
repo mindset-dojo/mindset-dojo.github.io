@@ -167,17 +167,6 @@
     align-items: stretch;
   }
 
-  main > section.md-flow-markdown > p,
-  main > section.md-flow-markdown > ul,
-  main > section.md-flow-markdown > ol,
-  main > section.md-flow-markdown > li,
-  main > section.md-flow-markdown > h1,
-  main > section.md-flow-markdown > h2,
-  main > section.md-flow-markdown > h3,
-  main > section.md-flow-markdown > h4 {
-    text-align: left;
-  }
-
   main > section.md-flow > h2,
   main > section.md-flow > p {
     max-width: 700px;
@@ -223,6 +212,17 @@
     margin: 20px auto 40px;
     padding-left: 32px;
     border-left: 8px solid var(--brand-color-primary);
+  }
+
+  main > section.md-flow.md-flow-markdown > p,
+  main > section.md-flow.md-flow-markdown > ul,
+  main > section.md-flow.md-flow-markdown > ol,
+  main > section.md-flow.md-flow-markdown > li,
+  main > section.md-flow.md-flow-markdown > h1,
+  main > section.md-flow.md-flow-markdown > h2,
+  main > section.md-flow.md-flow-markdown > h3,
+  main > section.md-flow.md-flow-markdown > h4 {
+    text-align: left;
   }
 
   @media (width <= 600px) {
