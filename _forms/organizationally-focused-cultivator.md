@@ -3,7 +3,7 @@ layout: form
 title: "(Organizationally-Focused) Cultivator"
 title_mark: Cultivator
 published_date: 2025-11-13
-refactored_date: 2025-11-13
+refactored_date: 2025-11-27
 authors:
 - kyle-ingersoll
 excerpt: An Organizationally-Focused Cultivator supports the community in phases through their deep knowledge of the Program, the Dojo, and The Way.

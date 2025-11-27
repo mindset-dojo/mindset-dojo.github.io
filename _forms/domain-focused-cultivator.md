@@ -3,7 +3,7 @@ layout: form
 title: "(Domain-Focused) Cultivator"
 title_mark: Cultivator
 published_date: 2025-11-13
-refactored_date: 2025-11-13
+refactored_date: 2025-11-27
 authors:
 - kyle-ingersoll
 excerpt: A Domain-Focused Cultivator supports the Dojo in phases through their domain expertise tuned in through the Program.
