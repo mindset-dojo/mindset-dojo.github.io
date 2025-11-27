@@ -214,6 +214,17 @@ main > section.card-stream {
     border-left: 8px solid var(--brand-color-primary);
   }
 
+  main > section.md-flow-markdown > p,
+  main > section.md-flow-markdown > ul,
+  main > section.md-flow-markdown > ol,
+  main > section.md-flow-markdown > li,
+  main > section.md-flow-markdown > h1,
+  main > section.md-flow-markdown > h2,
+  main > section.md-flow-markdown > h3,
+  main > section.md-flow-markdown > h4 {
+    text-align: left;
+  }
+
   @media (width <= 600px) {
     main > section.md-flow { 
       padding: 1rem 0.5rem; 
