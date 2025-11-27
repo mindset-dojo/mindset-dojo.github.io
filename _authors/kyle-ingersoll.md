@@ -11,8 +11,6 @@ join_date: 2024-08-01
 program_level: -1
 program_level_date: 2025-11-13
 leadership_designations:
-  - type: program
-    value: Senpai
   - type: project
     value: DevOps Cultivator
 emoji_signature: ⛩️🖥️

@@ -46,9 +46,9 @@ Acknowledge it. Let it participate. Allow it to mature without grasping for cont
 
 Meta may tend to develop in phases that mirror the dojo social learning progression:
 
-**Meta as Inner [Kohai](../kohai/)** — Awareness becomes a spectator. You begin to notice patterns of energy, attention, and reaction as they unfold — often after the fact. The inner student awakens to its own training.
+**Meta as Inner [Kohai](../kohai-senpai-relationship/)** — Awareness becomes a spectator. You begin to notice patterns of energy, attention, and reaction as they unfold — often after the fact. The inner student awakens to its own training.
 
-**Meta as Inner [Senpai](../senpai/)** — Awareness becomes a coordinator. You start to anticipate the rhythms of Driver, Organizer, Collaborator, and Visionary. Timing improves. You sense which energy to invite next and begin to guide others through presence rather than direction.
+**Meta as Inner [Senpai](../kohai-senpai-relationship/)** — Awareness becomes a coordinator. You start to anticipate the rhythms of Driver, Organizer, Collaborator, and Visionary. Timing improves. You sense which energy to invite next and begin to guide others through presence rather than direction.
 
 **Meta as Inner [Sensei](../sensei/)** — Awareness becomes the dojo itself. The energies move through you without conflict. Guidance and humility coexist. You embody the field that teaches — steady under pressure, fluid in contact, responsive in flow.  
 

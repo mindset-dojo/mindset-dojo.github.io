@@ -34,7 +34,7 @@ Four Energy Randori integrates the dojo’s practices into one living field. It 
 
 In Four Energy Randori, the “attack” is not a person—it is the moment. You engage changing conditions through conversation, timing, attention, conflict, collaboration, stillness, or relational pressure.
 
-With guidance from [Sensei](../sensei/) and support from [Senpai](../senpai/), you’ll train through solo sensing, dyads, triads, and group flow:
+With guidance from [Sensei](../sensei/), you’ll train through solo sensing, dyads, triads, and group flow:
 
 - Notice your default stance and energetic signature.  
 - Shift intentionally among the Four Energies:
