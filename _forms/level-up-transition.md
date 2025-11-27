@@ -23,7 +23,7 @@ inspirations:
 
 A level-up transition is not a reward or a promotion. It is a shift in awareness. A moment when you realize that your practice has begun to change you — and that a new phase of training is opening.
 
-This form supports that shift. It slows the moment down so you can recognize what is moving, what is deepening, and what is ready to be crossed. It invites you to connect with peers, [Senpai](../senpai/), and [Sensei](../sensei/), because progress in a [dojo](../dojo/) is never a solitary act.
+This form supports that shift. It slows the moment down so you can recognize what is moving, what is deepening, and what is ready to be crossed. It invites you to connect with peers and [Sensei](../sensei/), because progress in a [dojo](../dojo/) is never a solitary act.
 
 A level-up transition is a chance to sense where you are, where you’ve been, and where you are now being invited.
 
@@ -42,7 +42,7 @@ As you notice these shifts, pay attention to how the four principles may be emer
 Connect with others in this phase — not as a requirement, but as a practice in shared awareness and stance.
 
 - Reach out to peers and reflect together on how each of you has changed.  
-- Engage a [Senpai](../senpai/) or [Sensei](../sensei/) for a conversation to sense what is emerging in you.  
+- Engage [Sensei](../sensei/) for a conversation to sense what is emerging in you.  
 - Notice where leadership begins to arise naturally — not assigned, not claimed, simply present.  
 - Bring awareness to the [Thresholds](../threshold/) you have crossed in this level: what you carried in, what transformed, and what remains unresolved.  
 - Sense into the gaps and edges you are aware of now that you couldn’t see before.

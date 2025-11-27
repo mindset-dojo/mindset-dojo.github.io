@@ -33,4 +33,4 @@ You will experience a playfully serious resonance that will cause you to relax c
 
 ## Implementation
 
-To be a Sensei, one must have passed the Black Level Threshold and be vouched for by existing Sensei (relational trust [Threshold](../threshold)). Teach [Senpai](../senpai/) and [Kohai](../kohai/) what you know about Fearless Leadership and MetaShift Method in [Mat](../mat/) sessions.
+To be a Sensei, one must have passed the Black Level Threshold and be vouched for by existing Sensei (relational trust [Threshold](../threshold)). Teach [Kohai and Senpai](../kohai-senpai-relationship/) what you know about Fearless Leadership and MetaShift Method in [Mat](../mat/) sessions.

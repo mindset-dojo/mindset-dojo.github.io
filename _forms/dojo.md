@@ -30,7 +30,7 @@ inspirations:
 
 ## Intention
 
-A Dojo is a [Circle](../circle/) of learning that embodies Fearless Leadership through practicing MetaShift Method on a [Mat](../mat/). The [Sensei](../sensei/), [Senpai](../senpai/), and [Kohai](../kohai/) model and guide and follow as it makes sense for their level of learning and responsibility.
+A Dojo is a [Circle](../circle/) of learning that embodies Fearless Leadership through practicing MetaShift Method on a [Mat](../mat/). The [Sensei](../sensei/), [Kohai, and Senpai](../kohai-senpai-relationship/), model and guide and follow as it makes sense for their level of learning and responsibility.
 
 ## Experience
 

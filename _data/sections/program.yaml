@@ -13,7 +13,7 @@ level_defaults:
 sections:
   - type: quote
     data:
-      text: "A threshold appears — connect with a Senpai or Sensei to enter."
+      text: "A threshold appears — connect with a Sensei to enter."
   - type: levels
     data:
       label: "Training Levels"
@@ -32,8 +32,8 @@ sections:
               url: /forms/circle/
             - label: Mat
               url: /forms/mat/
-            - label: Kohai
-              url: /forms/kohai/
+            - label: Kohai Senpai Relationship
+              url: /forms/kohai-senpai-relationship/
             - label: Stillness Contemplation
               url: /forms/stillness-contemplation/
             - label: Four Energy Reflection
@@ -89,8 +89,6 @@ sections:
               url: /forms/mat/
             - label: Triad Randori – Organizer
               url: /forms/four-energy-randori/
-            - label: Senpai
-              url: /forms/senpai/
             - label: Level Up Transition
               url: /forms/level-up-transition/
         - color: purple
@@ -180,7 +178,6 @@ sections:
   - type: authors
     data:
       leadership_flow:
-        label: "⛩️💫 Guides"
-        designation_type: program
+        label: "⛩️💫 Practitioners"
         limit: 16
 ...

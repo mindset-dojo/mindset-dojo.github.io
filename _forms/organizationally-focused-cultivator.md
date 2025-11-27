@@ -9,7 +9,7 @@ authors:
 excerpt: An Organizationally-Focused Cultivator supports the community through their deep knowledge of the Program, the Dojo, and The Way.
 icon: fa-solid fa-diagram-project
 tags:
-  - role
+  - responsibility
   - meta
 inspirations:
 - label: Ki in Daily Life by Koichi Tohei

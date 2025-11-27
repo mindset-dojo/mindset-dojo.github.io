@@ -8,7 +8,7 @@ authors:
   - bill-westfall
 forms:
   - stillness-contemplation
-  - kohai
+  - kohai-senpai-relationship
 principles:
   - relax
   - center
