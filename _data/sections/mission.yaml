@@ -40,20 +40,14 @@ sections:
       label: "If This Sounds Familiar..."
       items:
         - "AI moves fast and you’re not sure you’re keeping up."
-        - "You trust AI at times more than your own judgment."
         - "You’re unsure when AI helps vs when it shapes you."
         - "You overthink conversations before or after they happen."
         - "You lose your clarity around strong personalities."
-        - "Group dynamics pull you off center too easily."
-        - "You hesitate in key moments and speak too late."
-        - "You react too fast under pressure and regret it."
-        - "You struggle to stay grounded when stakes rise."
-        - "You know you're capable, but doubt still shows up."
-        - "You want deeper calm and clarity in tense moments."
+        - "You hesitate in key moments or react too fast."
         - "Stress and speed distort your perception and choices."
   - type: quote
     data:
-      text: "Your perception is your power. Train it."
+      text: "When perception steadies, everything changes."
   - type: ctas
     data:
       items:
