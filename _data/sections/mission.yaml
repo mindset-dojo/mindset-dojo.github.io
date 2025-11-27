@@ -2,21 +2,32 @@
 mantra: "Continuous Discernment"
 mantra_mark: "Discernment"
 description: |
-  Mindset Dojo trains a single capability:
-  Continuous Discernment — the ability to stay clear, connected, and grounded
-  in an AI-accelerated world.
+  Mindset Dojo trains one capability: Continuous Discernment — the ability to
+  see clearly and stay grounded even when life and technology generate noise.
 
-  Continuous Discernment strengthens your inner models so external ones—AI
-  systems, algorithmic influence loops, and social hierarchies—can't silently
-  steer your perception or decision-making.
+  We develop new lenses that reveal hidden biases — in ourselves, in groups, and
+  in the motivated models and AI systems shaping modern perception. With these
+  lenses, you learn to stay grounded instead of being quietly steered.
 
-  This is high-precision, human-to-human practice. You train with real partners
-  in real conversations, building clarity, timing, and presence under social
-  and technical load.
+  Training is AI-augmented, but only at the edges. AI serves as the warm-up that
+  activates awareness, surfaces bias patterns, and gets your system online. It
+  also acts as the cool-down that helps you integrate, reflect, and refine your
+  internal models after the real work.
 
-  The dojo is for professionals who value real mentorship: practitioners
-  refining their craft, technologists sharpening judgment, and emerging
-  leaders learning to stay human in fast-moving environments.
+  The real training lives in the heart and gut. Human-to-human practice builds
+  clear reflexes and stable stances — timing, presence, attunement, energy, and
+  relational clarity under load. These capacities are trained with those who
+  train with us in the field, becoming embodied and natural when it matters most.
+
+  Mentorship is cycle-based and phase-aware, with high intention and meaningful
+  duration. You commit to a rhythm, train through a cycle, integrate, breathe,
+  and return when the next threshold calls. This keeps the energetic field
+  coherent and reduces drag for those actively training.
+
+  A natural byproduct of this practice is shared authorship. As we train, we
+  distill insights, patterns, reflections, and lived experience into an
+  open-source "book" repository — a living library of discernment crafted
+  collaboratively by those walking the path.
 sections:
   - type: markdown
     data:
@@ -25,24 +36,24 @@ sections:
     data:
       label: "Our Aim"
       items:
-        - "To cultivate continuous discernment in an AI-accelerated world."
-        - "To reconnect people with grounded, real-time mentorship."
-        - "To strengthen presence and relational clarity under pressure."
+        - "Grow discernment through clear, bias-revealing lenses."
+        - "Strengthen presence and clarity under real pressure."
+        - "Protect a high-intention energetic field for training."
   - type: text
     data:
       label: "What We Train"
       items:
-        - "Social discernment for clean, honest collaboration."
-        - "Technical discernment for evaluating code, models, and ideas."
-        - "Human reflexes that stay stable when life gets noisy."
+        - "Social Discernment for clean, grounded collaboration."
+        - "Technical Discernment for clarity with code and ideas."
+        - "Embodied reflexes and stances under real-world load."
   - type: text
     data:
       label: "If This Resonates ..."
       items:
-        - "AI is moving fast, and you’re feeling hesitant or confused."
-        - "Strong personalities crowd out the social room you need."
-        - "Spicy conversations make you react too fast or hold back."
-        - "Open-source calls, but you’re stuck talking about starting."
+        - "AI feels persuasive and you want to see through its biases."
+        - "Strong personalities distort the field and drain clarity."
+        - "Tense moments trigger habits you want to unwind cleanly."
+        - "You want to build, but need a clearer internal signal."
   - type: quote
     data:
       text: "Discernment grows with training. The door is open for you."
@@ -54,6 +65,6 @@ sections:
   - type: authors
     data:
       leadership_flow:
-        label: "⛩️💫 Practitioners"
+        label: "⛩️💫 Authors"
         limit: 16
 ...
