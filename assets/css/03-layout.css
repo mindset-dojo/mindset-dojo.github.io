@@ -151,21 +151,32 @@
   }
 
   /* FLOW section pattern */
-main > section.md-flow {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  padding: 2rem 1rem;
-  max-width: 700px;
-  margin: 0 auto;
-}
+  main > section.md-flow {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 2rem 1rem;
+    max-width: 700px;
+    margin: 0 auto;
+  }
 
-main > section.card-stream {
-  padding-left: 0;
-  padding-right: 0;
-  align-items: stretch;
-}
+  main > section.card-stream {
+    padding-left: 0;
+    padding-right: 0;
+    align-items: stretch;
+  }
+
+  main > section.md-flow-markdown > p,
+  main > section.md-flow-markdown > ul,
+  main > section.md-flow-markdown > ol,
+  main > section.md-flow-markdown > li,
+  main > section.md-flow-markdown > h1,
+  main > section.md-flow-markdown > h2,
+  main > section.md-flow-markdown > h3,
+  main > section.md-flow-markdown > h4 {
+    text-align: left;
+  }
 
   main > section.md-flow > h2,
   main > section.md-flow > p {
@@ -212,17 +223,6 @@ main > section.card-stream {
     margin: 20px auto 40px;
     padding-left: 32px;
     border-left: 8px solid var(--brand-color-primary);
-  }
-
-  main > section.md-flow-markdown > p,
-  main > section.md-flow-markdown > ul,
-  main > section.md-flow-markdown > ol,
-  main > section.md-flow-markdown > li,
-  main > section.md-flow-markdown > h1,
-  main > section.md-flow-markdown > h2,
-  main > section.md-flow-markdown > h3,
-  main > section.md-flow-markdown > h4 {
-    text-align: left;
   }
 
   @media (width <= 600px) {
