@@ -6,7 +6,7 @@ published_date: 2025-11-13
 refactored_date: 2025-11-27
 authors:
 - kyle-ingersoll
-excerpt: A Cultivator supports the Dojo to cover the energy costs of crossing a Level Threshold with their expertise tuned in through the Program.
+excerpt: A Project Cultivator supports the Dojo to cover the energy costs of crossing a Level Threshold with their expertise tuned in through the Program.
 icon: fa-solid fa-seedling
 tags:
   - responsibility
@@ -22,7 +22,7 @@ inspirations:
 
 ## Intention
 
-A Cultivator engages with the [Dojo](../dojo/) using their domain expertise to support going through a Program [Threshold](../threshold/) in a reasonable amount of time agreed upon with the [Sensei](../sensei/). Instead of contributing money, they contribute labor to ensure fair energy exchange when passing the [Threshold](../threshold/). They volunteer their experience in a mutually beneficial way during the agreed upon phase.
+A Project Cultivator engages with the [Dojo](../dojo/) using their domain expertise to support going through a Program [Threshold](../threshold/) in a reasonable amount of time agreed upon with the [Sensei](../sensei/). Instead of contributing money, they contribute labor to ensure fair energy exchange when passing the [Threshold](../threshold/). They volunteer their experience in a mutually beneficial way during the agreed upon phase.
 
 ## Experience
 
@@ -32,7 +32,7 @@ As you work for the community, you'll begin noticing how clarity, alignment, and
 
 ## Implementation
 
-To enter the Cultivator phase:
+To enter the Project Cultivator phase:
 
 - Express your intent to contribute to the Project and Community with the [Sensei](../sensei/).
 - Work with the [Sensei](../sensei/) to align the contribution phase with crossing a Level [Threshold](../threshold/) in a reasonable amount of time.
