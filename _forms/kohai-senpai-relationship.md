@@ -42,12 +42,14 @@ No one “earns” these titles—they express the natural flow of learning betw
 This relationship creates a warm, grounded atmosphere where learning happens through presence and example, not authority.
 
 As Kohai, you practice:
+
 - Observing closely  
 - Asking honest questions  
 - Receiving guidance with openness  
 - Showing respect through effort  
 
 As Senpai, you practice:
+
 - Modeling steadiness and humility  
 - Offering guidance without superiority  
 - Supporting others with care and clarity  
