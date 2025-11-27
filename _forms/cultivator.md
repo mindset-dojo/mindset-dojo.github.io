@@ -6,7 +6,7 @@ published_date: 2025-11-13
 refactored_date: 2025-11-27
 authors:
 - kyle-ingersoll
-excerpt: A Cultivator supports the Dojo through the process of crossing a Level Threshold with their expertise tuned in through the Program.
+excerpt: A Cultivator supports the Dojo to cover the energy costs of crossing a Level Threshold with their expertise tuned in through the Program.
 icon: fa-solid fa-seedling
 tags:
   - responsibility
