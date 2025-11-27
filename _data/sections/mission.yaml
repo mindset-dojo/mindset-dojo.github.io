@@ -32,25 +32,26 @@ sections:
     data:
       label: "What We Train"
       items:
-        - "Social discernment for clean collaboration."
+        - "Social discernment for clean, honest collaboration."
         - "Technical discernment for evaluating code, models, and ideas."
         - "Human reflexes that stay stable when life gets noisy."
   - type: text
     data:
-      label: "What This Is"
+      label: "If This Sounds Familiar…"
       items:
-        - "A modern dojo for clear thinking under load."
-        - "A place to train judgment, timing, and presence."
-        - "A community using AI as tool and mirror, not mask."
-        - "Deliberate practice with real partners, not theory."
-  - type: text
+        - "You stay clear until pressure hits — then old patterns take over."
+        - "You work with AI, but feel its influence more than your own."
+        - "You want honest collaboration, but conversations often get noisy or unclear."
+        - "You lead others, yet your attention is pulled by systems you don't control."
+        - "You sense your perception gets shaped—by speed, stress, or algorithms."
+        - "You know you're capable of deeper clarity and steadier presence."
+  - type: markdown
     data:
-      label: "How We Evolve"
-      items:
-        - "From being shaped by external systems to shaping your response."
-        - "From shortcuts to reliable, grounded judgment."
-        - "From performance habits to clean communication."
-        - "From reacting to leading with presence."
+      label: "Threshold Invitation"
+      text: |
+        If any of this feels true, the dojo is here.  
+        Train with real partners.  
+        Strengthen the part of you the world keeps trying to steer.
   - type: quote
     data:
       text: "Pressure reveals conditioning. Discernment reshapes it."
