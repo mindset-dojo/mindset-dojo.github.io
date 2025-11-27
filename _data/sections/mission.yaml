@@ -3,35 +3,35 @@ mantra: "Continuous Discernment"
 mantra_mark: "Discernment"
 description: |
   Mindset Dojo trains one capability: Continuous Discernment — the skill
-  of staying grounded, perceptive, and centered as life and technology
-  accelerate.
+  of staying grounded and clear as life and technology move faster than
+  your instincts can keep up.
 
-  You’re navigating fast-moving systems, strong personalities, and AI
-  models that influence how you think and feel. You want clearer
-  perception, steadier footing, and a way to show up cleanly when it
-  matters. We understand that. This dojo exists for exactly that.
+  Maybe you’ve noticed this. The pace increases. Conversations tilt.
+  Strong personalities take the room. AI systems suggest choices before
+  you’ve fully thought them through. You can feel the pressure, even when
+  you’re holding steady on the surface.
 
-  We train through lenses that reveal hidden biases — in ourselves, in
-  groups, and in the motivated models shaping modern perception. This
-  isn’t judgment; it’s clarity. It’s seeing what’s actually there.
+  You want steadier footing. You want to respond without overreacting.
+  You want to stay centered, even when others aren’t. This dojo exists
+  for exactly that.
 
-  AI supports the practice, but only at the edges. It’s the warm-up that
-  activates awareness and surfaces patterns, and the cool-down that helps
-  you integrate and refine your internal models after training.
+  We help you see bias clearly — in yourself, in groups, and in the AI
+  models shaping modern perception. Not to judge it, but to stay oriented
+  when things get noisy.
 
-  The real work is human-to-human: timing, presence, attunement, energy,
-  and relational clarity under load. These capacities are trained into the 
-  body — steady reflexes and grounded stances that stay clear under pressure.
+  AI supports the training, but only at the edges: warm-up for awareness,
+  cool-down for integration. The real work is human-to-human: timing,
+  presence, attunement, energy, and clarity under load.
+
+  These skills are trained into the body as steady reflexes and grounded
+  stances — helping you stay yourself when it matters most.
 
   Training moves in cycles. You commit with intention, practice with
-  focus, integrate, breathe, and return when the next threshold calls. 
-  This rhythm keeps the field coherent, the energy clean, and the growth
-  real.
+  focus, integrate, breathe, and return when the next threshold calls.
+  This rhythm keeps the field clean and the work effective.
 
-  A natural byproduct of this work is shared authorship. As we train, we
-  distill insights and reflections into an open-source “book”
-  repository — a living record of the path shaped by experience, not
-  theory.
+  As we train, we also document what we learn — building an open-source
+  “book” that grows from lived experience, not theory.
 sections:
   - type: markdown
     data:
@@ -47,7 +47,7 @@ sections:
     data:
       label: "What We Train"
       items:
-        - "Social Discernment for clean, grounded collaboration."
+        - "Social Discernment for clear, grounded collaboration."
         - "Technical Discernment for clarity with code and ideas."
         - "Embodied reflexes and stances under real-world load."
   - type: text
