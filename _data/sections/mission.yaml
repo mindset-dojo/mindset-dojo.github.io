@@ -39,12 +39,14 @@ sections:
     data:
       label: "If This Sounds Familiar…"
       items:
-        - "You stay clear until pressure hits — then old patterns take over."
-        - "You work with AI, but feel its influence more than your own."
-        - "You want honest collaboration, but conversations often get noisy or unclear."
-        - "You lead others, yet your attention is pulled by systems you don't control."
-        - "You sense your perception gets shaped—by speed, stress, or algorithms."
-        - "You know you're capable of deeper clarity and steadier presence."
+        - "AI is moving faster than your ability to stay clear and confident."
+        - "You sometimes trust AI more than your own judgment — and that concerns you."
+        - "You overthink conversations, or replay them wishing you’d stayed steadier."
+        - "You hesitate in high-pressure moments, or react too quickly and regret it."
+        - "You want honest collaboration, but group dynamics often pull you off center."
+        - "You feel your perception gets shaped — by speed, by stress, by algorithms."
+        - "You know you're capable of deeper clarity than you're currently showing."
+        - "You want to feel more grounded, more yourself, in moments that matter."
   - type: markdown
     data:
       label: "Threshold Invitation"
