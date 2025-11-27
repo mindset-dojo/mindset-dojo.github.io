@@ -72,7 +72,7 @@ sections:
               url: /forms/mat/
             - label: Dyad Randori – Driver
               url: /forms/four-energy-randori/
-            - label: Domain-Focused Cultivator
+            - label: Cultivator
               url: /forms/domain-focused-cultivator/
             - label: Level Up Transition
               url: /forms/level-up-transition/
@@ -155,8 +155,6 @@ sections:
               url: /forms/four-energy-lab/
             - label: Sensei
               url: /forms/sensei/
-            - label: Organizationally-Focused Cultivator
-              url: /forms/organizationally-focused-cultivator/
             - label: Level Up Transition
               url: /forms/level-up-transition/
   - type: text
