@@ -1,57 +1,34 @@
 ---
-title: "Continuous Agency"
 mantra: "Continuous Agency"
 mantra_mark: "Agency"
 description: |
-  Continuous Agency is the core capability we train at Mindset Dojo: the
-  ability to see patterns clearly, shift them deliberately, and stay grounded,
-  intentional, and self-authored as life, technology, and social fields
-  accelerate around you. This page introduces the mindset, method, and
-  open-source approach behind the training.
-context: |
-  People want to stop living inside patterns they didn’t choose.
-  
-  Patterns shape perception. Perception shapes behavior. Behavior shapes
-  outcomes. And most of that happens long before conscious choice appears.
-  
-  Mindset Dojo trains one capability: Continuous Discernment — the skill
-  of noticing patterns as they arise, interrupting the ones that limit you,
-  and re-patterning toward clarity, agency, and grounded action.
-  
-  This isn’t theoretical. Patterns live in the body: reflexes, tensions,
-  impulses, habits, emotional signatures, narrative loops. Repatterning
-  requires awareness, honesty, and embodied practice — not willpower.
-  
-  The training helps you see clearly:
-  
-  - the patterns shaping you,
-  - the patterns shaping groups,
-  - the patterns shaping modern AI systems.
-  
-  Narrative follows pattern, not the other way around. When you shift the
-  underlying pattern, your story, behavior, and possibilities shift too.
-  
-  Pattern literacy increases agency. With new ways of seeing, you unlock
-  new ways of directing your energy — socially, emotionally, technically,
-  and creatively.
-  
-  This dojo is an open-source project. We document what we discover,
-  test it in real conversations and embodied practice, and refine our
-  understanding together. Open-source patterns create open-source
-  possibility.
-  
+  Mindset Dojo trains one core capability: Continuous Agency — the skill of
+  recognizing patterns as they arise and shifting them before they shape your
+  choices. Patterns shape perception. Perception shapes behavior. Behavior
+  shapes outcomes. Most of this happens before you’re aware of it.
+
+  Continuous Agency gives you back the moment-to-moment freedom that old
+  habits, group dynamics, and AI-driven suggestion loops quietly erode. When
+  you see the pattern, you regain the choice. When you shift the pattern, you
+  shift the outcome.
+
+  This training is embodied, not theoretical. Patterns live in reflexes,
+  tensions, emotions, impulses, narratives, and relational fields. Repatterning
+  requires awareness, honesty, and practice — not willpower.
+
+  Mindset Dojo is an open-source project. We document what we learn, test it in
+  live conversation and embodied drills, and refine our understanding together.
+  Open-source patterns create open-source possibility.
+
   Crossing the threshold is voluntary — and irreversible. Once you see
   patterns clearly, you don’t unsee them.
 sections:
-  - type: markdown
-    data:
-      field: context
   - type: text
     data:
       label: "What We Train"
       items:
         - "Pattern Literacy — seeing the structures that shape perception."
-        - "Continuous Discernment — clean, moment-to-moment clarity."
+        - "Continuous Agency — choosing before the habit chooses for you."
         - "Embodied Repatterning — training reflexes, energy, and stance."
         - "Social & Technical Discernment — clean influence without collapse."
   - type: text
@@ -66,9 +43,9 @@ sections:
     data:
       label: "If This Resonates ..."
       items:
-        - "You feel the pull of old habits and want to unwind them cleanly."
+        - "You feel old habits pulling you in directions you didn’t choose."
         - "You sense bias — in yourself, in groups, in AI — and want clarity."
-        - "You want to respond with presence rather than react from pressure."
+        - "You want to act with presence instead of reacting from pressure."
         - "You want a training ground where awareness becomes embodied skill."
   - type: quote
     data:
