@@ -1,7 +1,14 @@
 ---
-mantra: "Continuous Discernment"
-mantra_mark: "Discernment"
+title: "Continuous Agency"
+mantra: "Continuous Agency"
+mantra_mark: "Agency"
 description: |
+  Continuous Agency is the core capability we train at Mindset Dojo: the
+  ability to see patterns clearly, shift them deliberately, and stay grounded,
+  intentional, and self-authored as life, technology, and social fields
+  accelerate around you. This page introduces the mindset, method, and
+  open-source approach behind the training.
+context: |
   People want to stop living inside patterns they didn’t choose.
   
   Patterns shape perception. Perception shapes behavior. Behavior shapes
@@ -21,8 +28,8 @@ description: |
   - the patterns shaping groups,
   - the patterns shaping modern AI systems.
   
-  Narrative follows pattern, not the other way around. When you shift
-  the underlying pattern, your story, behavior, and possibilities shift too.
+  Narrative follows pattern, not the other way around. When you shift the
+  underlying pattern, your story, behavior, and possibilities shift too.
   
   Pattern literacy increases agency. With new ways of seeing, you unlock
   new ways of directing your energy — socially, emotionally, technically,
@@ -36,6 +43,9 @@ description: |
   Crossing the threshold is voluntary — and irreversible. Once you see
   patterns clearly, you don’t unsee them.
 sections:
+  - type: markdown
+    data:
+      field: context
   - type: text
     data:
       label: "What We Train"
@@ -62,7 +72,7 @@ sections:
         - "You want a training ground where awareness becomes embodied skill."
   - type: quote
     data:
-      text: "Patterns are trainable. Discernment grows with practice."
+      text: "Patterns are trainable. Agency grows with practice."
   - type: ctas
     data:
       items:
