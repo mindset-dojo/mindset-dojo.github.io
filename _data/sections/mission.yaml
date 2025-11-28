@@ -2,64 +2,67 @@
 mantra: "Continuous Discernment"
 mantra_mark: "Discernment"
 description: |
+  People want to stop living inside patterns they didn’t choose.
+  
+  Patterns shape perception. Perception shapes behavior. Behavior shapes
+  outcomes. And most of that happens long before conscious choice appears.
+  
   Mindset Dojo trains one capability: Continuous Discernment — the skill
-  of staying grounded and clear as life and technology move faster than
-  your instincts can keep up.
-
-  Maybe you’ve noticed this. The pace increases. Conversations tilt.
-  Strong personalities take the room. AI systems suggest choices before
-  you’ve fully thought them through. You can feel the pressure, even when
-  you’re holding steady on the surface.
-
-  You want steadier footing. You want to respond without overreacting.
-  You want to stay centered, even when others aren’t. This dojo exists
-  for exactly that.
-
-  We help you see bias clearly — in yourself, in groups, and in the AI
-  models shaping modern perception. Not to judge it, but to stay oriented
-  when things get noisy.
-
-  AI supports the training, but only at the edges: warm-up for awareness,
-  cool-down for integration. The real work is human-to-human: timing,
-  presence, attunement, energy, and clarity under load.
-
-  These skills are trained into the body as steady reflexes and grounded
-  stances — helping you stay yourself when it matters most.
-
-  Training moves in cycles. You commit with intention, practice with
-  focus, integrate, breathe, and return when the next threshold calls.
-  This rhythm keeps the field clean and the work effective.
-
-  As we train, we also document what we learn — building an open-source
-  “book” that grows from lived experience, not theory.
+  of noticing patterns as they arise, interrupting the ones that limit you,
+  and re-patterning toward clarity, agency, and grounded action.
+  
+  This isn’t theoretical. Patterns live in the body: reflexes, tensions,
+  impulses, habits, emotional signatures, narrative loops. Repatterning
+  requires awareness, honesty, and embodied practice — not willpower.
+  
+  The training helps you see clearly:
+  
+  - the patterns shaping you,
+  - the patterns shaping groups,
+  - the patterns shaping modern AI systems.
+  
+  Narrative follows pattern, not the other way around. When you shift
+  the underlying pattern, your story, behavior, and possibilities shift too.
+  
+  Pattern literacy increases agency. With new ways of seeing, you unlock
+  new ways of directing your energy — socially, emotionally, technically,
+  and creatively.
+  
+  This dojo is an open-source project. We document what we discover,
+  test it in real conversations and embodied practice, and refine our
+  understanding together. Open-source patterns create open-source
+  possibility.
+  
+  Crossing the threshold is voluntary — and irreversible. Once you see
+  patterns clearly, you don’t unsee them.
 sections:
-  - type: markdown
-    data:
-      field: description
-  - type: text
-    data:
-      label: "Our Aim"
-      items:
-        - "Grow discernment through clear, bias-revealing lenses."
-        - "Strengthen presence, timing, and clarity under pressure."
-        - "Cultivate a high-intention energetic field for training."
   - type: text
     data:
       label: "What We Train"
       items:
-        - "Social Discernment for clear, grounded collaboration."
-        - "Technical Discernment for clarity with code and ideas."
-        - "Embodied reflexes and stances under real-world load."
+        - "Pattern Literacy — seeing the structures that shape perception."
+        - "Continuous Discernment — clean, moment-to-moment clarity."
+        - "Embodied Repatterning — training reflexes, energy, and stance."
+        - "Social & Technical Discernment — clean influence without collapse."
+  - type: text
+    data:
+      label: "Why This Matters"
+      items:
+        - "Strong personalities and noisy systems distort perception."
+        - "AI models shape choices before you fully notice."
+        - "Old patterns reinforce old narratives and limit agency."
+        - "New patterns open new behavior, interaction, and outcomes."
   - type: text
     data:
       label: "If This Resonates ..."
       items:
-        - "AI feels persuasive and you want to see through its biases."
-        - "Strong personalities distort the social field and drain clarity."
-        - "Tense moments trigger habits you want to unwind cleanly."
+        - "You feel the pull of old habits and want to unwind them cleanly."
+        - "You sense bias — in yourself, in groups, in AI — and want clarity."
+        - "You want to respond with presence rather than react from pressure."
+        - "You want a training ground where awareness becomes embodied skill."
   - type: quote
     data:
-      text: "Discernment grows with training. The door is open for you."
+      text: "Patterns are trainable. Discernment grows with practice."
   - type: ctas
     data:
       items:
