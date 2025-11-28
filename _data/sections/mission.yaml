@@ -23,6 +23,9 @@ description: |
   Crossing the threshold is voluntary — and irreversible. Once you see
   patterns clearly, you don’t unsee them.
 sections:
+  - type: markdown
+    data:
+      field: description
   - type: text
     data:
       label: "What We Train"
