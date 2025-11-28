@@ -57,8 +57,6 @@ sections:
               url: /forms/three-question-reflection/
             - label: Genuine Gratitude Expression
               url: /forms/genuine-gratitude-expression/
-            - label: Project Cultivator
-              url: /forms/cultivator/
             - label: Level Up Transition
               url: /forms/level-up-transition/
         - color: green
