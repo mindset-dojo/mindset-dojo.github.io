@@ -1,6 +1,6 @@
 ---
 layout: insight
-title: "Uninstalling the Levers Into Your Nervous System"
+title: "Uninstalling the Levers In Your Nervous System"
 title_mark: "Uninstalling the Levers"
 published_date: 2025-11-29
 refactored_date: 2025-11-29
