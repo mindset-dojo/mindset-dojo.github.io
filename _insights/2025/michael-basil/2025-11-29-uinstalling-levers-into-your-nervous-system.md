@@ -67,5 +67,5 @@ our choices return to center,
 presence comes back online,  
 agency becomes continuous.
 
-Patterns are uninstallable.  
+Patterns are trainable. 
 Agency grows with practice.
