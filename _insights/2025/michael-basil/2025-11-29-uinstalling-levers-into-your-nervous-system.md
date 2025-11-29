@@ -34,11 +34,15 @@ Sometimes it’s behavioral:
 
 It doesn’t require intent. Patterns do the work.
 
+Not every hijack is intentional — some people trip your levers accidentally, others learn them and adapt. Discernment between the two is its own training.
+
 If our nervous system has an automatic response — fawn, freeze, collapse, appease, rage, shutdown — then anyone who touches the right cue can steer you. Partners, parents, managers, strangers. Even groups.
 
 And it gets more complicated:
 
 Digital bad actors learned this before the rest of us. Social engineering, algorithmic pressure, and AI-shaped prompts all exploit human levers. But the powers-that-be in both personal and professional environments use the same mechanics — consciously or not.
+
+Some people stop once the misunderstanding clears. Others, consciously or not, shift to a new lever when the old one no longer works — not out of malice, but out of patterned habit. That’s when discernment matters most.
 
 Hijacks don’t start with domination. They start with you getting hooked in a way you can’t articulate, responding to something you don’t fully understand, tightening around a fear you can’t quite name. You only notice the hijack after the pattern has already played you.
 
@@ -58,7 +62,9 @@ Not because the outside world became less manipulative, but because the internal
 
 The hijack loses power when the hook has nothing to grab.
 
-This is not becoming invulnerable. It is becoming *un-hijackable* — not by shutting down, but by seeing the pattern before it runs.
+Uninstalling your own levers is the foundation; learning who repeatedly reaches for them is the advanced work.
+
+This is not becoming invulnerable. It is becoming *relatively un-exploitable* — not by shutting down, but by seeing the pattern before it runs.
 
 Most of the levers into our nervous systems were installed long before today. You can uninstall them through awareness, practice, and retraining.
 
