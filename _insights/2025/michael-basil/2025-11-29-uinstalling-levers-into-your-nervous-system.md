@@ -60,7 +60,7 @@ The hijack loses power when the hook has nothing to grab.
 
 This is not becoming invulnerable. It is becoming *un-hijackable* — not by shutting down, but by seeing the pattern before it runs.
 
-Most of the levers into our nervous systems were installed long before today. You can uninstall them the way patterns were installed: through awareness, honesty, practice.
+Most of the levers into our nervous systems were installed long before today. You can uninstall them through awareness, practice, and retraining.
 
 When the lever no longer triggers the old response,  
 our choices return to center,  
