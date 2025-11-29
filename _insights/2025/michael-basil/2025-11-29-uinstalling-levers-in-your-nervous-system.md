@@ -64,7 +64,7 @@ The hijack loses power when the hook has nothing to grab.
 
 Uninstalling your own levers is the foundation; learning who repeatedly reaches for them is the advanced work.
 
-This is not becoming invulnerable. It is becoming *relatively un-exploitable* — not by shutting down, but by seeing the pattern before it runs.
+This is not becoming invulnerable. It is becoming *relatively un-exploitable* — not by shutting down, but by neutralizing the pattern as it runs.
 
 Most of the levers into our nervous systems were installed long before today. You can uninstall them through awareness, practice, and retraining.
 
