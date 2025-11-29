@@ -1,8 +1,8 @@
 ---
 layout: threshold
 sections_key: author
-mantra: "Don't Demand. Do."
-mantra_mark: "Do."
+mantra: "Self-Sovereignty is Ki"
+mantra_mark: "Self-Sovereignty"
 description: >
   College and Mindset Dojo Student. Skilled in metacognition, conversations, and computer. Last follower of the previous two incarnations of Mindset Dojo, and first of this version. 
 name: Kyle Ingersoll
