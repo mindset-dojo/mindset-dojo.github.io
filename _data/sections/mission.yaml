@@ -1,27 +1,35 @@
 ---
-mantra: "Continuous Agency"
+mantra: "Pattern Agency"
 mantra_mark: "Agency"
 description: |
-  Mindset Dojo trains one core capability: Continuous Agency — the skill of
-  recognizing patterns as they arise and shifting them before they shape your
-  choices. Patterns shape perception. Perception shapes behavior. Behavior
-  shapes outcomes. Most of this happens before you’re aware of it.
+  Mindset Dojo trains one capability: Pattern Agency — the ability to return
+  to real-time awareness and influence the pattern you're in before it
+  dictates your next move.
 
-  Continuous Agency gives you back the moment-to-moment freedom that old
-  habits, group dynamics, and AI-driven suggestion loops quietly erode. When
-  you see the pattern, you regain the choice. When you shift the pattern, you
-  shift the outcome.
+  Patterns act fast. They set your perception, tone, timing, and stance
+  before you’ve formed a conscious thought. By the time you analyze, the
+  moment has already taken shape.
 
-  This training is embodied, not theoretical. Patterns live in reflexes,
-  tensions, emotions, impulses, narratives, and relational fields. Repatterning
-  requires awareness, honesty, and practice — not willpower.
+  Pattern Agency restores the actual decision window. You stop chasing the
+  moment and re-enter it — able to integrate, neutralize, evolve, or let the
+  pattern pass cleanly.
 
-  Mindset Dojo is an open-source project. We document what we learn, test it in
-  live conversation and embodied drills, and refine our understanding together.
-  Open-source patterns create open-source possibility.
+  This is not mindset theory. This is applied practice. Embodied. Observable.
+  Testable in real conversation, conflict, and collaboration.
 
-  Crossing the threshold is voluntary — and irreversible. Once you see
-  patterns clearly, you don’t unsee them.
+  Patterns live in physiology, micro-behaviors, and relational signals. They
+  update through reps, clarity, and honest feedback loops — not inspiration.
+
+  Mindset Dojo is open-source in the literal sense. Every practitioner is an
+  author. Reflection is not optional; it’s the mechanism that consolidates
+  training. Wins, misses, adjustments — all of it becomes part of your
+  repatterning.
+
+  Together we’re creating an open-source book: a shared record of training
+  journeys as people rewrite their patterns in real time.
+
+  Crossing the threshold is voluntary — and permanent. Once you learn to read
+  patterns and author your actions, unconscious momentum stops being acceptable.
 sections:
   - type: markdown
     data:
@@ -30,29 +38,29 @@ sections:
     data:
       label: "What We Train"
       items:
-        - "Pattern Literacy — seeing the structures that shape perception."
-        - "Continuous Agency — choosing before the habit chooses for you."
-        - "Embodied Repatterning — training reflexes, energy, and stance."
-        - "Social & Technical Discernment — clean influence without collapse."
+        - "Pattern Literacy — seeing the actual system you're in."
+        - "Pattern Agency — choosing inside the real-time window."
+        - "Embodied Repatterning — upgrading reflexes, stance, and energy."
+        - "Authorship Integration — turning reflection into new patterning."
   - type: text
     data:
       label: "Why This Matters"
       items:
-        - "Strong personalities and noisy systems distort perception."
-        - "AI models shape choices before you fully notice."
-        - "Old patterns reinforce old narratives and limit agency."
-        - "New patterns open new behavior, interaction, and outcomes."
+        - "Patterns move earlier than awareness."
+        - "Strong personalities and AI-driven systems push your attention off-course."
+        - "Old reflexes create the same reactions and outcomes."
+        - "Real-time agency changes what you do next, and what becomes possible."
   - type: text
     data:
       label: "If This Resonates ..."
       items:
-        - "You feel old habits pulling you in directions you didn’t choose."
-        - "You sense bias — in yourself, in groups, in AI — and want clarity."
-        - "You want to act with presence instead of reacting from pressure."
-        - "You want a training ground where awareness becomes embodied skill."
+        - "You feel pulled by habits you didn’t consciously choose."
+        - "You want clean signal in noisy environments — human or AI-driven."
+        - "You want to act from clarity instead of reacting from pressure."
+        - "You’re ready to train, reflect, and evolve with intention."
   - type: quote
     data:
-      text: "Patterns are trainable. Agency grows with practice."
+      text: "You're ready to author your own training journey."
   - type: ctas
     data:
       items:
