@@ -15,7 +15,7 @@ excerpt: "Anyone can hijack your nervous system if they land on the right lever.
 
 Most people imagine “hijacking” as something dramatic — manipulation, abuse, coercion. But the reality is quieter:
 
-> Anyone can hijack you once they find the lever into your nervous system.
+> Anyone can hijack you once they find the lever in your nervous system.
 
 Sometimes the lever is emotional:
 
