@@ -14,7 +14,7 @@ leadership_designations: []
 emoji_signature: ⛩️🖥️
 custom_url: https://kyle.mindset.dojo.center
 about: |
-  ### Socio-Technical Engineer
+  ### Socio-Technical Engineer and Defender
 
   My interest in privacy in high school — and a growing suspicion of surveillance — pulled me toward **Linux** and the principles of **Free Software**. Early on I saw software as a place to defend individual agency: tools people can run, study, share, and modify. That seed convinced me that technical skill should serve freedom, not status.
 
