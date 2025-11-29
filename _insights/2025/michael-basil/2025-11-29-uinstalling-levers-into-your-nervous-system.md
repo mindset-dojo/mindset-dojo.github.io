@@ -13,8 +13,7 @@ forms:
 excerpt: "Anyone can hijack your nervous system if they land on the right lever. The path to agency isn’t fighting the hijack—it’s uninstalling the mechanism."
 ---
 
-Most people imagine “hijacking” as something dramatic — manipulation, abuse, coercion.  
-But the reality is quieter:
+Most people imagine “hijacking” as something dramatic — manipulation, abuse, coercion. But the reality is quieter:
 
 > Anyone can hijack you once they find the lever into your nervous system.
 
