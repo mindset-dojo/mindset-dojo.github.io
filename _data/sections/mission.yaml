@@ -1,5 +1,5 @@
 ---
-mantra: "Level up?"
+mantra: "Level Up?"
 mantra_mark: "Level Up?"
 description: |
   Mindset Dojo is a collaborative research lab for mindset, behavior,
@@ -7,9 +7,15 @@ description: |
   contribute to. It runs on GitHub Pages, and the community can help
   you get started if GitHub is new to you.
 
-  In fast, confusing, or high-pressure moments — especially in today’s
-  AI-accelerated world — mindset determines how much agency you have.
-  Small, consistent practices make the biggest difference.
+  In fast, uncertain, or high-pressure moments — especially in today’s
+  AI-accelerated world — mindset determines how much agency you have. A
+  small shift in awareness can change how you navigate conflict,
+  relationships, leadership, or complex work.
+
+  This project is open-source because mindset work becomes more
+  effective when it’s transparent, collaborative, and shared. The book
+  is built from real reflections, experiments, and practice logs — a
+  living dataset of how people grow, adapt, and show up under pressure.
 sections:
   - type: markdown
     data:
@@ -17,14 +23,12 @@ sections:
   - type: quote
     data:
       text: |
-        One of the most effective habits I've found, in teams and in life,
-        is a weekly reflection shared openly. It costs nothing, builds
-        clarity, strengthens culture, and pairs beautifully with modern AI.
+        Weekly reflection is one of the simplest, most effective habits I've
+        found. It costs nothing, builds clarity, and pairs beautifully with
+        modern AI.
 
-        With the help of key contributors, who are the first authors,
-        I open-sourced this work because getting started alone is hard.
-        Here, authorship is collaborative. You're invited to explore,
-        reflect, and contribute at your own pace.
+        With the help of key contributors, we open-sourced this work so no one
+        has to start alone.
 
         — Michael Basil, Founder
   - type: text
@@ -55,7 +59,7 @@ sections:
         - "You learn by exploring, not consuming."
   - type: quote
     data:
-      text: "The door opens as you're ready..."
+      text: "The door opens as you're ready…"
   - type: ctas
     data:
       items:
