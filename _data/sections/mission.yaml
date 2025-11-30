@@ -8,8 +8,8 @@ description: |
   you get started if GitHub is new to you.
 
   In fast, uncertain, or high-pressure moments — especially in today’s
-  AI-accelerated world — mindset determines how much agency you have. A
-  small shift in awareness can change how you navigate conflict,
+  AI-accelerated world — mindset determines how much agency you have.
+  A small shift in awareness can change how you navigate conflict,
   relationships, leadership, or complex work.
 
   This project is open-source because mindset work becomes more
@@ -33,21 +33,13 @@ sections:
         — Michael Basil, Founder
   - type: text
     data:
-      label: "Start Here"
-      items:
-        - "Explore the book in your browser."
-        - "Browse authors and their reflections."
-        - "Fork the repo to make it your own."
-        - "Run it locally to begin your journey."
-  - type: text
-    data:
       label: "Pathway"
       items:
         - "Explore — wander and follow curiosity."
         - "Fork — create your own working copy."
         - "Reflect — try a weekly practice log."
-        - "Connect — reach out to authors you like."
-        - "Train — join sessions if you feel called."
+        - "Connect — browse authors and reach out if you feel called."
+        - "Train — join Circle sessions if you feel called."
   - type: text
     data:
       label: "Why Open-Source?"
@@ -64,7 +56,7 @@ sections:
     data:
       items:
         - label: "Cross the Threshold"
-          ref: program
+          ref: authors
   - type: authors
     data:
       leadership_flow:
