@@ -1,84 +1,65 @@
 ---
-mantra: "Pattern Agency"
-mantra_mark: "Agency"
+mantra: "Level Up?"
+mantra_mark: "Level Up?"
 description: |
-  Your behavior has a runtime. Most people never inspect it.
+  Mindset Dojo is a collaborative research lab for mindset, behavior,
+  and presence — a living open-source book you can read, fork, and
+  contribute to. It runs on GitHub Pages, and the community can help
+  you get started if GitHub is new to you.
 
-  Patterns are your defaults — fast, automatic responses that fire before your
-  thinking mind is online. They shape your tone, timing, and stance in real
-  situations long before you consciously choose.
+  In fast, uncertain, or high-pressure moments — especially in today’s
+  AI-accelerated world — mindset determines how much agency you have. A
+  small shift in awareness can change how you navigate conflict,
+  relationships, leadership, or complex work.
 
-  This isn't psychology. It's real-time systems behavior. If you don’t
-  understand your defaults, your defaults control you.
-
-  When you sense the pattern early, the story can’t run you.
-
-  Today, AI systems accelerate information flow, amplify noise, and push human
-  attention into tighter loops. If you don't know your own patterns, AI will
-  pull them for you — faster, and with fewer guardrails.
-
-  Mindset Dojo trains one capability: Pattern Agency — the skill of seeing
-  your patterns as they execute and reclaiming the decision window instead of
-  letting momentum or machine-driven pace make the call.
-
-  Pattern Agency moves social-emotional learning out of the “soft” domain and
-  into the “systems” domain — where it becomes observable, debuggable, and
-  trainable.
-
-  Mindset Dojo is also an open-source book. Every practitioner becomes a
-  contributor. Your reflections — wins, misses, adjustments — are commits
-  that update your behavioral runtime and add to the shared record of this
-  community.
-
-  You train where it actually counts: real conversations, incident bridges,
-  conflict moments, AI-accelerated interactions, and high-pressure situations.
-  No theory. No motivational fluff. Just reps, signal clarity, and honest
-  feedback loops.
-
-  Once you can read your own runtime, unintentional behavior stops being an
-  acceptable default — and you’re ready to contribute your chapter to the book.
+  This project is open-source because mindset work becomes more
+  effective when it’s transparent, collaborative, and shared. The book
+  is built from real reflections, experiments, and practice logs — a
+  living dataset of how people grow, adapt, and show up under pressure.
 sections:
   - type: markdown
     data:
       field: description
-  - type: text
-    data:
-      label: "What We Train"
-      items:
-        - "Pattern Literacy — inspecting your behavioral runtime."
-        - "Pattern Agency — reclaiming the real-time decision window."
-        - "Embodied Repatterning — upgrading your automatic responses."
-        - "Authorship Integration — turning reflection into durable updates."
-  - type: text
-    data:
-      label: "Why This Matters"
-      items:
-        - "Your defaults activate faster than conscious thought."
-        - "Pressure and strong personalities push you into old scripts."
-        - "AI systems amplify speed, noise, and pressure."
-        - "Outdated reflexes create recurring problems."
-        - "When narrative dominates signal, transformation fails."
-        - "Real-time agency produces cleaner decisions and outcomes."
-  - type: text
-    data:
-      label: "Where Patterns Show Up"
-      items:
-        - "Incident bridges and security escalations."
-        - "AI-assisted workflows and rapid-response loops."
-        - "Design debates and cross-team friction."
-        - "Moments where you react before you intend to."
-        - "Any high-stakes or ambiguous situation."
-  - type: text
-    data:
-      label: "If This Resonates ..."
-      items:
-        - "You see reactions fire that you didn't consciously choose."
-        - "You want clarity under both human and AI-driven pressure."
-        - "You want to upgrade your defaults, not keep running them."
-        - "You're willing to train, reflect, and contribute."
   - type: quote
     data:
-      text: "You're ready to author your own training journey."
+      text: |
+        Weekly reflection is one of the simplest, most effective habits I've
+        found. It costs nothing, builds clarity, and pairs beautifully with
+        modern AI.
+
+        With the help of key contributors, we open-sourced this work so no one
+        has to start alone.
+
+        — Michael Basil, Founder
+  - type: text
+    data:
+      label: "Start Here"
+      items:
+        - "Explore the book in your browser."
+        - "Browse authors and their reflections."
+        - "Fork the repo to make it your own."
+        - "Run it locally to begin your journey."
+  - type: text
+    data:
+      label: "Pathway"
+      items:
+        - "Explore — wander and follow curiosity."
+        - "Fork — create your own working copy."
+        - "Reflect — try a weekly practice log."
+        - "Connect — reach out to authors you like."
+        - "Train — join sessions if you feel called."
+  - type: text
+    data:
+      label: "Why Open-Source?"
+      items:
+        - "Mindset behaves like a system."
+        - "Open-source lowers the barrier to entry."
+        - "Weekly reflection builds real skill."
+        - "Shared logs form a living dataset."
+        - "You learn by exploring, not consuming."
+  - type: quote
+    data:
+      text: "The door opens as you're ready…"
   - type: ctas
     data:
       items:
