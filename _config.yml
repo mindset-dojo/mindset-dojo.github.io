@@ -27,6 +27,7 @@ defaults:
       article: true
 
 action_links:
+  authors: /authors/
   program: /program/
   connect: https://connect.mindset.dojo.center
 
