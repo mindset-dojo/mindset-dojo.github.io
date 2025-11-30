@@ -1,7 +1,7 @@
 ---
 layout: insight
-title: "Threshold and Stillness Contemplation insight"
-title_mark: Demonstration
+title: "Threshold and Stillness Contemplation Insight"
+title_mark: Threshold
 published_date: 2025-10-23
 refactored_date: 2025-11-07
 authors:
