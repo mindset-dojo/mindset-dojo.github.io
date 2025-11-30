@@ -11,9 +11,13 @@ description: |
   This isn't psychology. It's real-time systems behavior. If you don’t
   understand your defaults, your defaults control you.
 
+  Today, AI systems accelerate information flow, amplify noise, and push human
+  attention into tighter loops. If you don't know your own patterns, AI will
+  pull them for you — faster and with fewer guardrails.
+
   Mindset Dojo trains one capability: Pattern Agency — the skill of seeing
   your patterns as they execute and reclaiming the decision window instead of
-  letting momentum make the call.
+  letting momentum or machine-driven pace make the call.
 
   Mindset Dojo is also an open-source book. Every practitioner becomes a
   contributor. Your reflections — wins, misses, adjustments — are commits
@@ -21,8 +25,9 @@ description: |
   this community.
 
   You train where it actually counts: real conversations, incident bridges,
-  conflict moments, and high-pressure interactions. No theory. No
-  motivational fluff. Just reps, signal clarity, and honest feedback loops.
+  conflict moments, AI-accelerated interactions, and high-pressure situations.
+  No theory. No motivational fluff. Just reps, signal clarity, and honest
+  feedback loops.
 
   Once you can read your own runtime, unintentional behavior stops being an
   acceptable default — and you’re ready to contribute your chapter to the book.
@@ -43,14 +48,15 @@ sections:
       label: "Why This Matters"
       items:
         - "Your defaults activate faster than conscious thought."
-        - "Pressure and strong personalities push you into old scripts."
-        - "Outdated reflexes create recurring problems."
+        - "AI systems amplify speed, noise, and pressure."
+        - "Old patterns replay in new environments."
         - "Real-time agency produces cleaner decisions and outcomes."
   - type: text
     data:
       label: "Where Patterns Show Up"
       items:
         - "Incident bridges and security escalations."
+        - "AI-assisted workflows and rapid-response loops."
         - "Design debates and cross-team friction."
         - "Moments where you react before you intend to."
         - "Any high-stakes or ambiguous situation."
@@ -59,7 +65,7 @@ sections:
       label: "If This Resonates ..."
       items:
         - "You see reactions fire that you didn't consciously choose."
-        - "You want clarity under pressure, not noise or escalation."
+        - "You want clarity under both human and AI-driven pressure."
         - "You want to upgrade your defaults, not keep running them."
         - "You're willing to train, reflect, and contribute."
   - type: quote
