@@ -13,7 +13,7 @@ forms:
 excerpt: "Simple beginning Zen principles applied to larger spiritual insight."
 ---
 
-Threshold — An Insight gained through experience
+## Threshold — An Insight gained through experience
 
 You’re standing at the edge of a decision — maybe in a TOC, maybe in a field environment, maybe at a desk with a Soldier waiting for direction. The air is still, but something underneath is already shifting: the readiness before movement, the internal recalibration that happens before you speak, decide, or act.
 
@@ -41,7 +41,7 @@ And what I’ve learned is this:
 A threshold is never about the task.
 It’s about who you become when you step through it.
 
-Experience
+## Experience
 
 Threshold moments show up everywhere in the Army.
 Before a briefing.
@@ -60,17 +60,15 @@ Doing nothing is still a decision — and your body knows the difference between
 
 So each threshold becomes a place to cultivate yourself. Not a confrontation. Not a test. An invitation to check your centers:
 
-Mind: Do I understand the situation?
-
-Heart: Am I connected to the people affected?
-
-Gut: Am I steady enough to move?
+> Mind: Do I understand the situation?  
+> Heart: Am I connected to the people affected?  
+> Gut: Am I steady enough to move?  
 
 When all three align, even partially, clarity emerges. The threshold loses its charge. Movement becomes simple, clean, grounded.
 
 And then you step.
 
-Implementation
+## Implementation
 
 What the Army taught me — more than doctrine, more than tactics — is that thresholds are relational. When you invite someone to cross one with you, you enter the threshold too. Authority doesn’t shield you from the consequences of the door you open.
 
@@ -91,14 +89,12 @@ You don’t let the moment dissolve into old patterns or unspoken hesitation.
 Because thresholds aren’t about opportunities.
 They’re about authorship.
 
-Each crossing is a quiet declaration:
-This is who I am becoming.
-This is how I stand with my people.
-This is how I move in my world.
+> Each crossing is a quiet declaration:  
+> This is who I am becoming.  
+> This is how I stand with my people.  
+> This is how I move in my world.  
 
 And every time I choose to cross with awareness — informed by my service, shaped by my experiences, grounded in integrity — I strengthen the network of trust around me. A network not built on uniform, rank, or shared belief, but on presence, coherence, and the lived practice of showing up fully.
 
 This is my Threshold.
-And this is the stance I continue to refine.
-
-⛩️
+And this is the stance I continue to refine. ⛩️
