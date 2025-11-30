@@ -1,35 +1,32 @@
 ---
 mantra: "Pattern Agency"
 mantra_mark: "Agency"
+
 description: |
-  Mindset Dojo trains one capability: Pattern Agency — the ability to return
-  to real-time awareness and influence the pattern you're in before it
-  dictates your next move.
+  Your behavior has a runtime. Most people never inspect it.
 
-  Patterns act fast. They set your perception, tone, timing, and stance
-  before you’ve formed a conscious thought. By the time you analyze, the
-  moment has already taken shape.
+  Patterns are your defaults — fast, automatic responses that fire before your
+  thinking mind is online. They shape your tone, timing, and stance in real
+  situations long before you consciously choose.
 
-  Pattern Agency restores the actual decision window. You stop chasing the
-  moment and re-enter it — able to integrate, neutralize, evolve, or let the
-  pattern pass cleanly.
+  This isn't psychology. It's real-time systems behavior. If you don’t
+  understand your defaults, your defaults control you.
 
-  This is not mindset theory. This is applied practice. Embodied. Observable.
-  Testable in real conversation, conflict, and collaboration.
+  Mindset Dojo trains one capability: Pattern Agency — the skill of seeing
+  your patterns as they execute and reclaiming the decision window instead of
+  letting momentum make the call.
 
-  Patterns live in physiology, micro-behaviors, and relational signals. They
-  update through reps, clarity, and honest feedback loops — not inspiration.
+  Mindset Dojo is also an open-source book. Every practitioner becomes a
+  contributor. Your reflections — wins, misses, adjustments — are commits
+  that update your own behavioral runtime and add to the shared record of
+  this community.
 
-  Mindset Dojo is open-source in the literal sense. Every practitioner is an
-  author. Reflection is not optional; it’s the mechanism that consolidates
-  training. Wins, misses, adjustments — all of it becomes part of your
-  repatterning.
+  You train where it actually counts: real conversations, incident bridges,
+  conflict moments, and high-pressure interactions. No theory. No
+  motivational fluff. Just reps, signal clarity, and honest feedback loops.
 
-  Together we’re creating an open-source book: a shared record of training
-  journeys as people rewrite their patterns in real time.
-
-  Crossing the threshold is voluntary — and permanent. Once you learn to read
-  patterns and author your actions, unconscious momentum stops being acceptable.
+  Once you can read your own runtime, unintentional behavior stops being an
+  acceptable default — and you’re ready to author your part of the book.
 sections:
   - type: markdown
     data:
@@ -38,26 +35,34 @@ sections:
     data:
       label: "What We Train"
       items:
-        - "Pattern Literacy — seeing the actual system you're in."
-        - "Pattern Agency — choosing inside the real-time window."
-        - "Embodied Repatterning — upgrading reflexes, stance, and energy."
-        - "Authorship Integration — turning reflection into new patterning."
+        - "Pattern Literacy — inspecting your behavioral runtime."
+        - "Pattern Agency — reclaiming the real-time decision window."
+        - "Embodied Repatterning — upgrading your automatic responses."
+        - "Authorship Integration — turning reflection into durable updates."
   - type: text
     data:
       label: "Why This Matters"
       items:
-        - "Patterns move earlier than awareness."
-        - "Strong personalities and AI systems pull your attention off-course."
-        - "Old reflexes create the same reactions and outcomes."
-        - "Real-time agency changes your next move and your outcomes."
+        - "Your defaults activate faster than conscious thought."
+        - "Pressure and strong personalities push you into old scripts."
+        - "Outdated reflexes create recurring problems."
+        - "Real-time agency produces cleaner decisions and outcomes."
+  - type: text
+    data:
+      label: "Where Patterns Show Up"
+      items:
+        - "Incident bridges and security escalations."
+        - "Design debates and cross-team friction."
+        - "Moments where you react before you intend to."
+        - "Any high-stakes or ambiguous situation."
   - type: text
     data:
       label: "If This Resonates ..."
       items:
-        - "You feel pulled by habits you didn’t consciously choose."
-        - "You want clean signal in noisy environments — human or AI-driven."
-        - "You want to act from clarity instead of reacting from pressure."
-        - "You’re ready to train, reflect, and evolve with intention."
+        - "You see reactions fire that you didn't consciously choose."
+        - "You want clarity under pressure, not noise or escalation."
+        - "You want to upgrade your defaults, not keep running them."
+        - "You're willing to train, reflect, and contribute."
   - type: quote
     data:
       text: "You're ready to author your own training journey."
