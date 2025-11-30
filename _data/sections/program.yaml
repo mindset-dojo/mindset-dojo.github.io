@@ -70,8 +70,6 @@ sections:
               url: /forms/driver/
             - label: Mat – Driver
               url: /forms/mat/
-            - label: Dyad Randori – Driver
-              url: /forms/four-energy-randori/
             - label: Level Up Transition
               url: /forms/level-up-transition/
         - color: blue
@@ -85,8 +83,6 @@ sections:
               url: /forms/organizer/
             - label: Mat – Organizer
               url: /forms/mat/
-            - label: Triad Randori – Organizer
-              url: /forms/four-energy-randori/
             - label: Level Up Transition
               url: /forms/level-up-transition/
         - color: purple
@@ -100,8 +96,6 @@ sections:
               url: /forms/collaborator/
             - label: Mat – Collaborator
               url: /forms/mat/
-            - label: Group Circle Randori – Collaborator
-              url: /forms/four-energy-randori/
             - label: Level Up Transition
               url: /forms/level-up-transition/
         - color: brown
@@ -115,8 +109,6 @@ sections:
               url: /forms/visionary/
             - label: Mat – Visionary
               url: /forms/mat/
-            - label: Group Circle Randori – Visionary
-              url: /forms/four-energy-randori/
             - label: Level Up Transition
               url: /forms/level-up-transition/
         - color: red
@@ -130,10 +122,6 @@ sections:
               url: /forms/integration-under-fire/
             - label: Mat – Integration Under Fire
               url: /forms/mat/
-            - label: Group Circle Randori – Integration Under Fire
-              url: /forms/four-energy-randori/
-            - label: Four Energy Lab - Secondary
-              url: /forms/four-energy-lab/
             - label: Level Up Transition
               url: /forms/level-up-transition/
         - color: black
@@ -147,10 +135,6 @@ sections:
               url: /forms/meta/
             - label: Mat – Meta & Martial Attitude
               url: /forms/mat/
-            - label: Real-Life Randori
-              url: /forms/four-energy-randori/
-            - label: Four Energy Lab - Primary
-              url: /forms/four-energy-lab/
             - label: Sensei
               url: /forms/sensei/
             - label: Level Up Transition
