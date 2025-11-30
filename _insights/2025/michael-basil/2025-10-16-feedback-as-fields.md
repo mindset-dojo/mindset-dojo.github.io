@@ -7,25 +7,11 @@ refactored_date: 2025-11-07
 authors: 
   - michael-basil
 forms:
-  - dojo
-  - sensei
-  - senpai
-  - kohai
-  - integration-under-fire
-  - revealed-preference-reflection
-  - stance
-  - martial-attitude
-  - two-sides
-  - three-centers
+  - driver
   - four-patterns
   - tone
-  - driver
-  - organizer
-  - collaborator
-  - visionary
 excerpt: "As Mindset Dojo moves from late-alpha toward beta, feedback becomes our training ground — a way to find balance, alignment, and presence in motion."
 ---
-
 As the Mindset Dojo initiative moves from its late-alpha phase toward beta, we’re inviting more people to train with us — to practice presence through mentorship and authorship.  
 
 That means more feedback.  

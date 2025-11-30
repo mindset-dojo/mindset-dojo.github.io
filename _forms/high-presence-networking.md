@@ -1,12 +1,21 @@
 ---
 layout: form
-title: "High Presence Networking"
+title: High Presence Networking
 title_mark: Presence
 published_date: 2025-11-10
 refactored_date: 2025-11-10
 authors:
-  - michael-basil
-excerpt: "A bridge form for extending dojo training into real communities — where energy, dialogue, and collaboration are alive. High Presence Networking turns social connection into embodied practice."
+- michael-basil
+excerpt: A bridge form for extending dojo training into real communities — where energy, dialogue, and collaboration are alive. High Presence Networking turns social connection into embodied practice.
+icon: fa-solid fa-network-wired
+tags:
+  - practice
+  - meta
+inspirations:
+- label: Cloud Security Office Hours
+  url: https://csoh.org/
+- label: Institute for Zen Leadership
+  url: https://zenleader.global
 ---
 
 ## Intention
@@ -36,20 +45,27 @@ This is the fieldwork of dojo presence — where awareness meets community in re
 
 ## Implementation
 
-1. **Choose with Intention.** Pick a community that aligns with your growth edge — professional, creative, or contemplative — and commit to showing up regularly for awhile.
+### Steps
 
-2. **Enter as a Practice.** Before joining a session or discussion, take [One Breath](../one-breath/) to center. Let go of the need to perform or impress. Arrive to listen and blend.  
+1. **Choose with Intention**  
+  Pick a community that aligns with your growth edge—professional, creative, or contemplative—and commit to showing up regularly for a while.
 
-3. **Engage through Resonance.**  
-   - Notice when you’re reacting or rehearsing.  
-   - Redirect attention to the field and its shared rhythm.  
-   - Contribute with clarity, curiosity, and care.  
+1. **Enter as a Practice**  
+  Before joining a session or discussion, take [One Breath](../one-breath/) to center. Let go of the need to perform or impress. Arrive to listen and blend.
 
-4. **Reflect Afterwards.**  Pause for a short [Stillness Contemplation](../stillness-contemplation/). Ask: *What energy did I bring? What energy did I receive?* Capture any insights for your next Self-Authorship [Circle](../circle/) or [Mat](../mat/) session.  
+1. **Engage through Resonance**  
+  Relax completly, center with intention, and ...
+    - Notice when you’re reacting or rehearsing.  
+    - Redirect attention to the field and its shared rhythm.  
+    - Contribute with clarity, curiosity, and care.
 
-5. **Return and Refine.** Each encounter is an opportunity to test your training under real social pressure. The more you bring presence into the field, the more the field reflects coherence back to you.
+1. **Reflect Afterwards**  
+  Commit the following to internalize and align learning:
+    - Pause for a short [Stillness Contemplation](../stillness-contemplation/).  
+    - Ask:  
+        - *What energy did I bring?*  
+        - *What energy did I receive?*  
+    - Capture insights for your next Authorship [Circle](../circle/) or [Mat](../mat/) session.
 
-## Inspiration
-
-- [Cloud Security Office Hours](https://csoh.org/)  
-- [Institute for Zen Leadership](https://zenleader.global)
+1. **Return and Refine**  
+  Each encounter is an opportunity to test your training under real social pressure. The more you bring presence into the field, the more the field reflects coherence back to you.

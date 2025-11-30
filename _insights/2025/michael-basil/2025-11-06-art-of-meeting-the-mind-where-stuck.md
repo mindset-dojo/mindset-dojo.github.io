@@ -7,27 +7,11 @@ refactored_date: 2025-11-07
 authors:
   - michael-basil
 forms:
-  - dojo
-  - circle
-  - mat
-  - stillness-contemplation
-  - integration-under-fire
-  - threshold
-  - stance
-  - martial-attitude
-  - one-breath
-  - two-sides
-  - three-centers
-  - four-patterns
   - meta
   - tone
-  - driver
-  - organizer
-  - collaborator
-  - visionary
+  - stance
 excerpt: "Whenever attention is stuck—whether in frustration, overthinking, or burnout—the way forward isn’t to push harder. It’s to meet awareness where it’s holding on, and draw a threshold toward movement."
 ---
-
 In nearly every relationship—personal, professional, or collective—one invisible force shapes connection: **attention.** Where it goes, energy flows. Where it gets stuck, frustration grows.
 
 We’re living through a **presence deficit**—not a shortage of intelligence or goodwill, but of embodied awareness. When attention is fragmented, reactive, or hijacked, we lose our capacity to meet each other in real time. That’s where practice begins.

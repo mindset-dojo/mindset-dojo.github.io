@@ -6,26 +6,14 @@ published_date: 2025-10-24
 refactored_date: 2025-11-07
 authors:
   - michael-basil
-forms: 
-  - dojo
-  - integration-under-fire
-  - revealed-preference-reflection
-  - stance
-  - martial-attitude
-  - two-sides
-  - three-centers
-  - four-patterns
+forms:
   - meta
-  - tone
   - driver
-  - organizer
-  - collaborator
-  - visionary
+  - tone
 excerpt: |
   Every living system runs on one scarce resource: attention. How we train it determines what grows, what withers, and what evolves. 
   This piece explores how Lean, Agile, and finance principles converge in the art of managing the attention portfolio — and how awareness itself becomes alpha.
 ---
-
 Every living system — an organization, a family, a self — runs on one scarce resource: **attention.**  How we train it determines what grows, what withers, and what evolves.  
 
 In Lean and Agile practice, this is *flow management*: seeing where value — or energy — moves freely and where it jams.  In finance, it’s *portfolio management*: allocating capital across risk and return, rebalancing as conditions change.  In life, it’s **presence management** — the stewardship of our attention portfolio.  

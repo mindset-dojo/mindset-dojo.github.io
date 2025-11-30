@@ -44,6 +44,48 @@
     outline-offset: 4px;
   }
 
+  .collection-stream-related-action {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 0;
+  }
+
+  .collection-stream-related-content {
+    margin-top: 20px;
+  }
+
+  .collection-stream-related-content[hidden] {
+    display: none;
+  }
+
+  .collection-stream-toggle-wrap {
+    display: flex;
+    justify-content: center;
+  }
+
+  .inspiration-section {
+    margin-top: 48px;
+  }
+
+  .inspiration-list-wrap {
+    margin-top: 20px;
+  }
+
+  .inspiration-list-wrap[hidden] {
+    display: none;
+  }
+
+  .inspiration-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .inspiration-list li + li {
+    margin-top: 12px;
+  }
+
   /* =======================
      Blockquotes (generic visual treatment)
      ======================= */

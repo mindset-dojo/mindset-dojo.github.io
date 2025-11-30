@@ -1,19 +1,15 @@
 ---
-mantra: "Don't Cope. Condition."
-mantra_mark: "Condition."
+mantra: "Don't Complain. Train."
+mantra_mark: "Train."
 description: "We are culture evolvers."
 sections:
-  - type: text
-    data:
-      label: "Training Forms: Living Library"
-      items:
-        - "Form training reconditions the field in conversational leadership."
-        - "We observe in the wild, distill the form, and evolve it in training."
-        - "Use them as guides—adapt to context, don’t memorize."
   - type: collection-stream
     data:
       collection: forms
       sort_by: title
       reverse: false
       excerpt_length: 220
+      tag_filter: true
+      card_layout: true
+      item_partial: sections/form-card.html
 ...

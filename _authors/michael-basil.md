@@ -1,11 +1,9 @@
 ---
 layout: threshold
 sections_key: author
-mantra: "Awareness is Ki"
-mantra_mark: "Ki"
-description: |
-  Leadership presence coach and systems thinker drawn to early-stage founders and emerging
-  talent—bridging Zero Trust, Agile flow, and embodied practice.
+mantra: "Attitude is Ki"
+mantra_mark: "Attitude"
+description: Pattern-led systems thinker integrating digital identity, secure flow, and complexity navigation across human and technical systems.
 name: Michael Basil
 active: true
 join_date: 2019-01-01
@@ -14,77 +12,27 @@ program_level_date: 2025-01-12
 leadership_designations:
   - type: program
     value: Sensei
-  - type: project
-    value: Authorship Cultivator
 emoji_signature: ⛩️🌿
 custom_url: https://michael.basil.one
 about: |
-  ### Leadership 🌱 Culture ☯ Technology
+  ### Pattern-Led Architect, Advisor & Author
   
-  I never expected taming parrots and navigating soccer scrums to lead me to
-  coaching leaders—but looking back, it makes perfect sense.
-
-  Growing up in my mom’s parrot shop, I learned early to read patterns of tension
-  and trust—calming unruly macaws by relaxing into edge zones. On the soccer
-  pitch, I found rhythm in motion, shifting fluidly between opportunistic striker
-  and lockdown defender. Later, I trained for elegant simplicity with a computer
-  engineering degree from the University of Illinois and spent my early career
-  driving Agile and technology transformation across complex organizations.
-
-  Through a series of deeply challenging personal and professional lessons, I came
-  to see that trying to control everything—inside or out—was itself the obstacle.
-  What once felt like strength revealed its limits. Letting go—and allowing for
-  connection—became the real discipline. In that space, I began to understand the
-  human experience—the invisible networks of emotion, energy, and attention that
-  shape how we relate, decide, and lead.
-
-  Mindset Dojo and the MetaShift Method emerged from that awareness—centering on
-  conversational presence when it matters most, and meeting people at the depth
-  required to bring real value.
-
-  Over time, my technical lineage in computer engineering, enterprise software, and
-  identity innovation (including a U.S. patent) integrated with this human-systems
-  focus. What’s formed is a method for cultivating trust, precision, and agility
-  across secure technical systems and human systems alike—equally applicable in
-  code review, incident response, post-mortem reflection, organizational change,
-  or difficult family conversations.
-
-  I’m drawn to inflection points where technical complexity and human tension meet—
-  where clarity becomes a competitive advantage. That includes helping early-stage
-  startups, scaling leadership teams, and emerging talent stepping into their first
-  leadership experiences—people hungry to learn fast, build well, and lead with
-  presence.
+  I never expected taming parrots and navigating soccer scrums to prepare me for the world of identity, architecture, and human systems. Looking back, it makes perfect sense.
+  
+  Growing up in my mom’s parrot shop, I learned to sense tension, trust, and edge-states by calming unruly macaws through relaxation rather than force. On the soccer pitch, I learned to move inside dynamic systems by reading flow, shifting rhythm, and adjusting position to keep the field coherent.
+  
+  With a computer engineering degree from the University of Illinois, I carried that same pattern-led approach into large-scale systems—from identity innovation with a U.S. patent to DevSecOps modernization, enterprise software, and organizational transformation. Along the way, I discovered that the hardest problems in technology and leadership are rarely technical. They’re complexity problems involving misaligned identities, unclear boundaries, incoherent roles, unspoken tension, and narratives that distort under load.
+  
+  Mindset Dojo emerged as an open-source human-systems project exploring what happens at the edges: nervous-system readiness, identity drift, relational gaps, and decision-making under pressure. It serves as a laboratory for understanding how people and systems break, adapt, and realign.
+  
+  Today I operate at the intersection of digital identity and human identity—where access, trust, and clarity matter most. I work with individuals and teams navigating high-stakes environments where technical systems, human systems, and growth demands converge.
+  
+  If you’re building something meaningful and find yourself at an inflection point—where alignment and coherent identity determine what becomes possible next—let’s talk.
 
   ⛩️🌿
 
-  ### Offering
-
-  #### Presence Training
-
-  Immersive sessions in Mindset Dojo / MetaShift Method—training conversational
-  presence for moments that matter (executive challenges, incidents, retros,
-  alignment, and high-stakes relationships).
-
-  #### Early-Stage Mentorship
-
-  Focused guidance for founders, students, and first-time leaders navigating their
-  first growth curves—where learning through feedback, reflection, and small
-  experiments builds confidence and clarity in motion.
-
-  #### Strategic Engagement
-
-  Multi-dimensional engagement that meets deep technical, relational, and
-  organizational complexity—integrating Zero Trust, Agile flow, and Human
-  Experience principles to align growth with grounded presence.
-
-  #### Resident Expertise
-  
-  In-residence support through scaling or reinvention—bridging DevSecOps, Zero
-  Trust identity, Agile transformation, and embodied leadership to stabilize
-  delivery and culture.
-
   ### Connect
-  
+
   - [Email](mailto:michael@basil.one)
   - [LinkedIn](https://link.basil.one)
   - [Resume](https://resume.michael.basil.one)

@@ -5,9 +5,22 @@ title_mark: Breath
 published_date: 2025-11-09
 refactored_date: 2025-11-09
 authors:
-  - kyle-ingersoll
-  - michael-basil
-excerpt: "One Breath is part of the Zen Toolkit from Institute of Zen Leadership and is when one takes 3-5 Hara breaths (Belly Breathing) to center one's self."
+- kyle-ingersoll
+- michael-basil
+excerpt: One Breath is part of the Zen Toolkit from Institute of Zen Leadership and is when one takes 3-5 Hara breaths (Belly Breathing) to center one's self.
+icon: fa-solid fa-wind
+tags:
+  - practice
+  - meta
+inspirations:
+- label: Institute for Zen Leadership
+  url: https://zenleader.global
+- label: Zen Toolkit - One Breath
+  url: https://vimeo.com/944618879/47e96945a4
+- label: Resonate by Ginny Whitelaw
+  url: https://www.choseizen.org/store/p/resonate
+- label: Chosei Zen
+  url: https://www.choseizen.org/
 ---
 
 ## Intention
@@ -27,10 +40,3 @@ Take notes as necessary, then practice the exercise for yourself.
 After that, see how it is expressed in Mindset Dojo training:
 
 One deeply breaths through their belly as slowly as possible. Repeat this breath 3-5 times. Make sure your exhale is longer than your inhale. Also, make sure your big toes touch something when you exhale.
-
-## Inspirations
-
-- [Institute for Zen Leadership](https://zenleader.global)
-- [Zen Toolkit - One Breath](https://vimeo.com/944618879/47e96945a4)
-- [Resonate by Ginny Whitelaw](https://www.choseizen.org/store/p/resonate)
-- [Chosei Zen](https://www.choseizen.org/)

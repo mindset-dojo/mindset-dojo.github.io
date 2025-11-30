@@ -36,13 +36,14 @@ Each case delegates to a small, focused template for that section type.
       post_display_limit=section.data.post_display_limit
       filter_key=section.data.filter_key
       filter_values=resolved_filter_values
+      card_layout=section.data.card_layout
+      item_partial=section.data.item_partial
+      related_toggle=section.data.related_toggle
+      related_toggle_id=section.data.related_toggle_id
     -%}
 
   {%- when 'ctas' -%}
     {% include sections/ctas.html section=section %}
-
-  {%- when 'designations' -%}
-    {% include sections/designations.html section=section data=data %}
   
   {%- when 'levels' -%}
     {% include sections/levels.html section=section %}
@@ -50,11 +51,11 @@ Each case delegates to a small, focused template for that section type.
   {%- when 'list' -%}
     {% include sections/list.html section=section %}
 
+  {%- when 'inspirations' -%}
+    {% include sections/inspirations.html section=section %}
+
   {%- when 'markdown' -%}
     {% include sections/markdown.html section=section %}
-
-  {%- when 'principles' -%}
-    {% include sections/principles.html section=section %}
 
   {%- when 'quote' -%}
     {% include sections/quote.html section=section %}

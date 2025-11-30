@@ -4,4 +4,6 @@ mantra_mark: "Author."
 description: "Meet the authors whose presence shapes Mindset Dojo."
 sections:
   - type: authors
+    data:
+      level_filter: true
 ...

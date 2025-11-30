@@ -7,22 +7,11 @@ refactored_date: 2025-11-07
 authors:
   - michael-basil
 forms:
-  - dojo
-  - integration-under-fire
-  - revealed-preference-reflection
   - stance
-  - martial-attitude
-  - two-sides
-  - three-centers
-  - four-patterns
   - tone
   - driver
-  - organizer
-  - collaborator
-  - visionary
 excerpt: "When guarantees fade and change becomes constant, presence becomes the most reliable investment."
 ---
-
 A lot of people I know — myself included — were raised to believe  
 that if we invested our trust in the system,  
 the system would reward that trust in predictable ways.  

@@ -1,28 +1,44 @@
 ---
 layout: form
-title: "Three Question Reflection"
+title: Three Question Reflection
 title_mark: Reflection
 published_date: 2025-10-20
-refactored_date: 2025-10-25
+refactored_date: 2025-11-16
 authors:
-  - michael-basil
-  - kyle-ingersoll
-excerpt: "Reflect in a Mat Breakout session about your experiences through answering 3 calibrated questions with your assigned group."
+- kyle-ingersoll
+- michael-basil
+excerpt: Reflect about your experiences through answering three What and/or How questions either with a group or on your own through Stillness Contemplation.
+icon: fa-solid fa-question
+tags:
+  - practice
+  - meta
+inspirations:
+- label: Socratic Method
+  url: https://en.wikipedia.org/wiki/Socratic_method
+- label: Calibrated Questions – Black Swan Group
+  url: https://www.blackswanltd.com/newsletter/taking-the-mystery-out-of-calibrated-questions
+- label: Negotiation 9 Moves from Black Swan Group
+  url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
 ---
 
 ## Intention
 
-Reflect in a [Mat](../mat/) session about your experiences through answering 3 calibrated questions for your assigned group. This will help distill what you are learning and improve inner alignment.
+Reflect about your experiences through answering three What and/or How questions either with a group or on your own through [Stillness Contemplation](../stillness-contemplation/). This will help distill what you are learning and improve inner alignment.
 
 ## Experience
 
-You center with intention to meet fear with presence. After doing so, you relax completely due to the playful resonance of the group. Following this exercise is a good time to consider authoring an Insight post.
+Sometimes, you are joyful, sometimes you are disquieted from what emerges. Often, you feel a stuck point dissolve.
 
 ## Implementation
 
-Find a willing [Circle](../circle/), engage the [Mat](../mat/), and begin the session. After checking in and centering, work through the three calibrated questions. Doing so allows the group to share their answers and to collectively learn.
+### Individual
 
-## Inspiration
+You probe yourself deeply with open-ended questions, leaving space open for what answers may follow through mental silence. Then you listen to what emerges, without getting attached to any narratives that may come with it.
 
-- [Socratic Method](https://en.wikipedia.org/wiki/Socratic_method)
-- [Calibrated Questions – Black Swan Group](https://www.blackswanltd.com/newsletter/taking-the-mystery-out-of-calibrated-questions)  
+### Group
+
+Find a willing [Circle](../circle/), engage the [Mat](../mat/), and begin the session. After checking in and centering, work through the three questions. Doing so allows the group to share their answers and to collectively learn.
+
+### Post-Exercise
+
+Following this exercise is a good time to consider authoring an Insight post about the results of the reflection. Getting the insight down while it is fresh in your mind is critical to maintaining energy flow (Ki).

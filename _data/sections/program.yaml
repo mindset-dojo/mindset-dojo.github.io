@@ -7,25 +7,17 @@ description: |
   like a zone in a training game, gradually increasing your capacity to stay
   connected and responsive under pressure. This is the inverse of distancing:
   training resonance instead of resistance.
+level_defaults:
+  unranked_label: "Unranked"
+  unranked_color: "white"
 sections:
-  - type: text
+  - type: quote
     data:
-      label: "At the Threshold"
-      items:
-        - "Training begins with contact — not concept."
-        - "Orient to the field, where principles set the tone for the training game."
-        - "Each level is a threshold, not a rank — a way of integrating presence."
-        - "Leadership designations steward the rhythm and keep the field alive."
-        - "Before entering Orientation, reach out to a Sensei or Senpai for context."
-        - "Human connection is the first threshold."
-  - type: principles
-    data:
-      principles_title: "Root Principles"
-      principles_groups:
-        - "program"
+      text: "A threshold appears — connect with a Sensei to enter."
   - type: levels
     data:
       label: "Training Levels"
+      level_filter: true
       items:
         - color: gray
           label: 7th Kyu
@@ -40,14 +32,16 @@ sections:
               url: /forms/circle/
             - label: Mat
               url: /forms/mat/
-            - label: Kohai
-              url: /forms/kohai/
+            - label: Kohai Senpai Relationship
+              url: /forms/kohai-senpai-relationship/
             - label: Stillness Contemplation
               url: /forms/stillness-contemplation/
             - label: Four Energy Reflection
               url: /forms/four-energy-reflection/
-            - label: Four Element Sensei
-              url: /forms/four-element-sensei/
+            - label: Four Energy Sensei
+              url: /forms/four-energy-sensei/
+            - label: Level Up Transition
+              url: /forms/level-up-transition/
         - color: yellow
           label: 6th Kyu
           level: -6
@@ -57,12 +51,14 @@ sections:
               url: /forms/one-breath/
             - label: Tone
               url: /forms/tone/
+            - label: Stance
+              url: /forms/stance/
             - label: Three Question Reflection
               url: /forms/three-question-reflection/
-            - label: 5 minute Sitting Meditation Dyad
-              url: /forms/sitting-meditation/
             - label: Genuine Gratitude Expression
               url: /forms/genuine-gratitude-expression/
+            - label: Level Up Transition
+              url: /forms/level-up-transition/
         - color: green
           label: 5th Kyu
           level: -5
@@ -70,16 +66,12 @@ sections:
           flows:
             - label: Two Sides
               url: /forms/two-sides/
-            - label: 5 minute Solo Sitting Meditation session
-              url: /forms/sitting-meditation/
             - label: Driver
               url: /forms/driver/
             - label: Mat – Driver
               url: /forms/mat/
-            - label: Dyad Randori – Driver
-              url: /forms/randori/
-            - label: Domain-Focused Cultivator
-              url: /forms/domain-focused-cultivator/
+            - label: Level Up Transition
+              url: /forms/level-up-transition/
         - color: blue
           label: 4th Kyu
           level: -4
@@ -87,16 +79,12 @@ sections:
           flows:
             - label: Three Centers
               url: /forms/three-centers/
-            - label: 10 minute Sitting Meditation Dyad
-              url: /forms/sitting-meditation/
             - label: Organizer
               url: /forms/organizer/
             - label: Mat – Organizer
               url: /forms/mat/
-            - label: Triad Randori – Organizer
-              url: /forms/randori/
-            - label: Senpai
-              url: /forms/senpai/
+            - label: Level Up Transition
+              url: /forms/level-up-transition/
         - color: purple
           label: 3rd Kyu
           level: -3
@@ -104,16 +92,12 @@ sections:
           flows:
             - label: Four Patterns
               url: /forms/four-patterns/
-            - label: Stance
-              url: /forms/stance/
-            - label: 10 minute Solo Sitting Meditation session
-              url: /forms/sitting-meditation/
             - label: Collaborator
               url: /forms/collaborator/
             - label: Mat – Collaborator
               url: /forms/mat/
-            - label: Group Circle Randori – Collaborator
-              url: /forms/randori/
+            - label: Level Up Transition
+              url: /forms/level-up-transition/
         - color: brown
           label: 2nd Kyu
           level: -2
@@ -121,14 +105,12 @@ sections:
           flows:
             - label: High Presence Networking
               url: /forms/high-presence-networking
-            - label: 15 minute Sitting Meditation Dyad
-              url: /forms/sitting-meditation/
             - label: Visionary
               url: /forms/visionary/
             - label: Mat – Visionary
               url: /forms/mat/
-            - label: Group Circle Randori – Visionary
-              url: /forms/randori/
+            - label: Level Up Transition
+              url: /forms/level-up-transition/
         - color: red
           label: 1st Kyu
           level: -1
@@ -136,60 +118,46 @@ sections:
           flows:
             - label: Resonate
               url: /forms/resonate/
-            - label: 15 minute Solo Sitting Meditation session
-              url: /forms/sitting-meditation/
             - label: Integration Under Fire
               url: /forms/integration-under-fire/
             - label: Mat – Integration Under Fire
               url: /forms/mat/
-            - label: Group Circle Randori – Integration Under Fire
-              url: /forms/randori/
-            - label: MetaShift Community Demonstration
-              url: /forms/metashift-community-demonstration/
+            - label: Level Up Transition
+              url: /forms/level-up-transition/
         - color: black
           label: Shodan
           level: 1
           intention: Meta
           flows:
-            - label: 30 minute Group Sitting Meditation
-              url: /forms/sitting-meditation/
             - label: Martial Attitude
               url: /forms/martial-attitude/
             - label: Meta
               url: /forms/meta/
             - label: Mat – Meta & Martial Attitude
               url: /forms/mat/
-            - label: Real-Life Randori
-              url: /forms/randori/
             - label: Sensei
               url: /forms/sensei/
-            - label: Organizationally-Focused Cultivator
-              url: /forms/organizationally-focused-cultivator/
-  - type: designations
+            - label: Level Up Transition
+              url: /forms/level-up-transition/
+  - type: text
     data:
-      label: "Leadership Designations"
+      label: "Mantra"
       items:
-        - label: Senpai
-          intentions:
-            - label: "Model and enhance training among emerging leaders"
-            - label: "Join Mat sessions regularly, lead periodically"
-            - label: "Create and share Insights regularly, guiding earlier learners"
-            - label: "Blue Level+"
-        - label: Sensei
-          intentions:
-            - label: "Model and guide leadership throughout the community"
-            - label: "Lead Mat sessions regularly"
-            - label: "Create and share Insights regularly, guiding growing leaders"
-            - label: "Black Level, vouched for by existing Sensei"
-  - type: authors
-    data:
-      leadership_flow:
-        label: "⛩️💫 Guides"
-        designation_type: program
-        limit: 16
+        - "Enter."
+        - "Train."
+        - "Level up."
+        - "Open gates within."
+        - "Open gates for others."
+        - "Always return to training."
+        - "Grow the field."
   - type: ctas
     data:
       items:
         - label: "Cross Threshold Zero"
           ref: connect
+  - type: authors
+    data:
+      leadership_flow:
+        label: "⛩️💫 Authors"
+        limit: 16
 ...

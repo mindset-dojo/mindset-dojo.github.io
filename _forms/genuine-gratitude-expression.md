@@ -3,34 +3,37 @@ layout: form
 title: Genuine Gratitude Expression
 title_mark: Gratitude
 published_date: 2025-10-23
-refactored_date: 2025-10-26
+refactored_date: 2025-11-18
 authors:
-  - michael-basil
-excerpt: "A form for recognizing genuine contributions of attention and energy — honoring mutual investment, resonance, and presence within and beyond the dojo."
+- michael-basil
+- kyle-ingersoll
+excerpt: A form for recognizing genuine contributions of attention and energy — honoring mutual investment, resonance, and presence within and beyond the dojo.
+icon: fa-solid fa-hand-holding-heart
+tags:
+  - practice
+inspirations:
+- label: David R. Hawkins – Map of Consciousness
+  url: https://veritaspub.com/map-of-consciousness/
+- label: Institute for Zen Leadership — Leadership Off the Cushion
+  url: https://zenleader.global/
+- label: Tenshinkan Dojo
+  url: https://japaneseculturecenter.com/classes/aikido
+- label: What's Better than the Golden Rule?
+  url: https://www.thecaap.org/news/whats-better-than-the-golden-rulenbsp
 ---
 
 ## Intention
 
-To **recognize and honor genuine contributions of attention and energy** within and beyond the dojo.  
-This form cultivates awareness of how others have shifted focus, extended care, or shown up with presence — and invites us to respond with acknowledgment that is personal, grounded, and aligned with both our values and theirs.
-
-In an age where attention is overextended and often fragmented, genuine gratitude becomes a form of **Fearless Leadership**. It restores coherence between perception and appreciation. When expressed with awareness, gratitude functions as a form of relational centering — strengthening the field that connects us and sustaining the energetic fabric of the network.
+When people go above and beyond what they are required to do in terms of care or presence, acknowledge that. Gratitude is critical to sustaining healthy relationships, so make that a regular practice.
 
 ## Experience
 
-In a dojo, every session begins and ends with a bow — a simple, shared gesture that acknowledges the mat, the teacher, and those we train with.  
-**Genuine Gratitude Expression** extends that same embodied awareness beyond the [Mat](../mat/). It is the *bow of attention* — an energetic recognition of those who have shared presence, offered challenge, or contributed care.  
-
-Following a shared practice, collaboration, or demonstration, the practitioner takes time to sense where attention and energy have truly been exchanged. This reflection includes noticing who has shown care, contribution, or courageous presence — and recognizing that every such act represents a redirection of finite human energy. The practitioner considers what this effort may have required from the other person or community, what intention was behind it, and what value it has added to the shared field.  
-
-The expression of gratitude may take the form of words, gestures, or quiet acknowledgment, but what matters most is attunement — seeing and appreciating the other in a way that resonates with how they receive respect. Through this practice, gratitude becomes less about courtesy and more about coherence — the movement that keeps relational Ki flowing.
+You acknowledge the investment of finite energy and are genuinely grateful for the value you recieved from that investment, whether that was showing care, contribution, presence, or constructive challenging. You tailor that acknowledgement through showing it through [Tone](../tone/) and matching their [Stance](../stance/) to achieve resonance.
 
 ## Implementation
 
-As practitioners progress through the program, **Genuine Gratitude Expression** becomes a deeper study in relational awareness. When one feels ready to engage this practice intentionally, it is encouraged to learn from the model and to enter into conversation with [Senpai](../senpai/) and [Sensei](../sensei/) to explore how gratitude can be most skillfully and authentically expressed. Through dialogue, the practitioner learns to attune to timing, tone, and context, understanding that gratitude is not simply stated but embodied.
+You start with a flowing, postively trending Collaborator-Visionary (with just a touch of Organizer to support) [Stance](../stance/). Use Meta Compass in [Tone](../tone/) to make sure you are in the correct [Stance](../stance/) and have the correct [Tone](../tone/) before demonstrating this Form. Executing this Form incorrectly or without genuine gratitude can lead to significant backlash and resentment.
 
-## Inspirations
+Beyond the Form, make sure you are authentically aligned with Head, Heart, and Hara before communicating. [One Breath](../one-breath/), [Two Sides](../two-sides/) and [Three Centers](../three-centers/) can be helpful in preparation and discernment.
 
-- [David R. Hawkins – Map of Consciousness](https://veritaspub.com/map-of-consciousness/)  
-- [Institute for Zen Leadership — Leadership Off the Cushion](https://zenleader.global/)  
-- [Tenshinkan Dojo](https://japaneseculturecenter.com/classes/aikido)
+The key to successfully executing the Form is to tailor the expression of the Form to match the norms of the recipiant, the relationship, and the cultural context. Remember both Platnum and Golden Rules when expressing gratitude.

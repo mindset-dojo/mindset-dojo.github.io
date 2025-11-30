@@ -7,16 +7,11 @@ refactored_date: 2025-11-07
 authors: 
   - kyle-ingersoll
 forms:
-  - dojo
-  - sensei
-  - integration-under-fire
+  - driver
   - threshold
   - stance
-  - visionary
-  - driver
 excerpt: "Paradox is the hidden gate of leadership, where resistance dissolves and the small self expands into the boundless flow of Ki."
 ---
-
 In the dojo, the Instructor asks:  
 
 **“When you push, what pushes back?”**  

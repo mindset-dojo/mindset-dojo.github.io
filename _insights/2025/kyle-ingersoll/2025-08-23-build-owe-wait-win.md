@@ -5,18 +5,13 @@ title_mark: Owe
 authors: 
   - kyle-ingersoll
 forms:
-  - dojo
-  - integration-under-fire
-  - sensei
   - stance
-  - four-patterns
-  - visionary
   - organizer
+  - four-patterns
 published_date: 2025-08-23
 refactored_date: 2025-11-07
 excerpt: "A reflection on the MetaShift from Visionary to Organizer energy, where doing nothing—*for now*—becomes the wisest move."
 ---
-
 At **Mindset Dojo**, I recently experienced what we call a **MetaShift** — moving from *Visionary energy* into *Organizer energy.*
 
 This happened during a Signal conversation with Sensei, who asked me a question that reframed everything:

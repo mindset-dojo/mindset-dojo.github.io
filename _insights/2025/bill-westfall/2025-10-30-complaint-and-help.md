@@ -7,13 +7,11 @@ refactored_date: 2025-11-07
 authors:
   - bill-westfall
 forms:
-  - stillness-contemplation
-  - stance
   - tone
+  - stance
   - visionary
 excerpt: "Reflection on the 'Don't Train, Complain...?' Mindset Dojo insight."
 ---
-
 [Don't Train, Complain...?](../dont-train-complain/) is a gray level training insight from the Mindset Dojo. This insight looks at complaint as a foothold into training and reflexive reaction. I wanted to dive deeper into the concept of 'complaint', since this has a negative context generally.
 
 The Bible concordance I used brought up the first reference to complaint as Exodus 2:23, which reads:

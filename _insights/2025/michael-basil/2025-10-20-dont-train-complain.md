@@ -7,23 +7,11 @@ refactored_date: 2025-11-07
 authors:
   - michael-basil
 forms:
-  - dojo
-  - integration-under-fire
-  - threshold
-  - revealed-preference-reflection
-  - stance
-  - martial-attitude
-  - two-sides
-  - three-centers
-  - four-patterns
-  - tone
   - driver
-  - organizer
-  - collaborator
-  - visionary
+  - stance
+  - four-patterns
 excerpt: "Every practitioner begins with a complaint — it’s the first mirror of the dojo. This piece opens the gate: an orientation to frustration, Self-learning, and the quiet art of turning noise into clarity."
 ---
-
 If that line sparks a reaction — good.  
 Maybe you feel a little agitation, a little pushback:  
 

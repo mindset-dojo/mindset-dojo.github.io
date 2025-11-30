@@ -10,9 +10,11 @@ This file now guards the markup with `if include.author` so it won't error
 if called without an author object.
 {%- endcomment -%}
 
-<section class="md-author-card">
-  {% assign author_slug = include.author.slug | to_s | strip | slugify %}
-  {% assign author_name = include.author.name | default: "Author" %}
+{% assign author = include.item | default: include.author %}
+
+<section class="md-card md-author-card">
+  {% assign author_slug = author.slug | to_s | strip | slugify %}
+  {% assign author_name = author.name | default: "Author" %}
   {% assign profile_url = '/authors/' | append: author_slug | append: '/' | relative_url %}
   {% assign avatar_path = '/media/author-avatar/' | append: author_slug | append: '.jpg' | relative_url %}
 
@@ -25,12 +27,12 @@ if called without an author object.
 
   <h2><a href="{{ profile_url }}">{{ author_name }}</a></h2>
 
-  {%- if include.author.emoji_signature -%}
-    <h3 class="author-card-emoji-signature"> {{ include.author.emoji_signature }} </h3>
+  {%- if author.emoji_signature -%}
+    <h3 class="author-card-emoji-signature"> {{ author.emoji_signature }} </h3>
   {%- endif -%}
 
-  {%- assign mantra_value = include.author.mantra | to_s | strip -%}
-  {%- assign mantra_mark_value = include.author.mantra_mark | to_s | strip -%}
+  {%- assign mantra_value = author.mantra | to_s | strip -%}
+  {%- assign mantra_mark_value = author.mantra_mark | to_s | strip -%}
   {%- assign has_mantra = mantra_value != "" and mantra_value != "null" -%}
   {%- assign has_mantra_mark = mantra_mark_value != "" and mantra_mark_value != "null" -%}
   {%- if has_mantra or has_mantra_mark -%}
@@ -54,7 +56,7 @@ if called without an author object.
     <p class="author-card-mantra">{{ mantra_rendered | strip }}</p>
   {%- endif -%}
 
-  {%- assign ld = include.author.leadership_designations -%}
+  {%- assign ld = author.leadership_designations -%}
   {%- if ld -%}
     {%- assign lines = "" | split: "" -%}
     {%- for item in ld -%}
@@ -68,10 +70,10 @@ if called without an author object.
     {%- endif -%}
   {%- endif -%}
 
-  {%- if include.author.program_level -%}
+  {%- if author.program_level -%}
     <div class="md-group">
-      {%- if include.author.program_level -%}
-        {% assign program_level = include.author.program_level | plus: 0 %}
+      {%- if author.program_level -%}
+        {% assign program_level = author.program_level | plus: 0 %}
         {% assign level = site.data.sections.program.sections | where: "type", "levels" | map: "data" | map: "items" | first | where: "level", program_level | first %}
         {% include icons/level.svg
           class="md-level-svg"

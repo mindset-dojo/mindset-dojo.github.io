@@ -5,22 +5,13 @@ title_mark: Not Knowing
 authors: 
   - kyle-ingersoll
 forms:
-  - sensei
-  - integration-under-fire
-  - dojo
-  - mat
-  - revealed-preference-reflection
   - stance
-  - one-breath
-  - four-patterns
-  - sitting-meditation
   - tone
-  - visionary
+  - dojo
 published_date: 2025-09-08
 refactored_date: 2025-11-07
 excerpt: "A reflection on how the Mat Sessions and community practice of Mindset Dojo helped me transform ego-driven self-improvement into humble, fearless growth through beginner’s mind."
 ---
-
 When I first came into **Mindset Dojo**, I carried a lot of good energy. I’ve always had that when engaging with community. But I’ll admit — I was also a bit **egotistical**. I thought I knew my shadow, but on another level I was completely blind to it.
 
 Because I didn’t have a **beginner’s mindset**, I sometimes convinced myself I already knew enough. In Zen, they say to always keep a beginner’s mind — because the moment you think you know everything, you stop improving. That was me: eager, visionary, driven, but not fully open.
@@ -39,7 +30,7 @@ That’s why **Mindset Dojo means so much to me**.
 
 Here, I’ve found both **structure and intention**. The rhythm of our Mat Sessions — arrival, centering, breathing, flows, and reflection — grounds my energy and gives me a framework to keep growing.
 
-The **breathing and meditation practices** in particular have helped me slow down, focus, and connect with what matters most.
+The **breathing and stillness practices** in particular have helped me slow down, focus, and connect with what matters most.
 
 ---
 

@@ -7,13 +7,11 @@ refactored_date: 2025-11-07
 authors:
   - bill-westfall
 forms:
-  - stillness-contemplation
-  - revealed-preference-reflection
   - stance
   - visionary
+  - stillness-contemplation
 excerpt: "Simple beginning Zen principles applied to larger spiritual insight."
 ---
-
 As a beginner on the Mindset journey, I have an interest in applying Zen to my current interests.  As I currently see it as an outsider to the philosophy, Zen is a Buddhist philosophical practice that, in part, focuses on quieting the mind and spirit.
 
 I will attempt to show how this can both be applied to another item of interest, the Bible topic concordance.

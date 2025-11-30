@@ -6,22 +6,13 @@ authors:
   - michael-basil
   - kyle-ingersoll
 forms:
-  - integration-under-fire
-  - dojo
-  - sensei
-  - stance
-  - martial-attitude
-  - one-breath
-  - two-sides
-  - four-patterns
   - tone
-  - organizer
+  - stance
   - collaborator
 published_date: 2025-08-03
 refactored_date: 2025-11-07
 excerpt: "When tone shifts, awareness follows—revealing the MetaShift from control to connection that transforms every conversation into practice."
 ---
-
 There’s a moment that happens—right before the tone shifts.  
 You’re in a conversation. Maybe it’s tense. Maybe it’s subtle. Something feels off.  
 

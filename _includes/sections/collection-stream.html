@@ -11,6 +11,8 @@ Parameters:
   reverse: boolean to reverse results (include.reverse or section.data.reverse)
   excerpt_length: passed to collection-item include
   post_display_limit: max items to show
+  item_partial: include to render each item (default sections/collection-item.html)
+  card_layout: when true, renders items in a grid card layout
 {%- endcomment -%}
 
 {%- assign coll_name = include.collection | default: section.data.collection -%}
@@ -77,6 +79,10 @@ Parameters:
 {%- assign reverse_flag = include.reverse | default: section.data.reverse | default: false -%}
 {%- assign post_display_limit = include.post_display_limit | default: section.data.post_display_limit | default: nil -%}
 {%- assign show_all_toggle = include.show_all_toggle | default: section.data.show_all_toggle | default: false -%}
+{%- assign card_layout = include.card_layout | default: section.data.card_layout | default: false -%}
+{%- assign item_partial = include.item_partial | default: section.data.item_partial | default: "sections/collection-item.html" -%}
+{%- assign related_toggle = include.related_toggle | default: false -%}
+{%- assign tag_filter = include.tag_filter | default: section.data.tag_filter | default: false -%}
 
 {%- assign sorted_posts = filtered_posts | sort: sort_key_field -%}
 {%- if reverse_flag -%}
@@ -113,38 +119,116 @@ Parameters:
 {%- endif -%}
 {%- assign show_hr = include.show_hr | default: section.data.show_hr | default: false -%}
 
+{%- assign filter_tags = "" | split:"|" -%}
+{%- if tag_filter -%}
+  {%- for post in sorted_posts -%}
+    {%- if post.tags -%}
+      {%- for tag in post.tags -%}
+        {%- assign tag_down = tag | downcase -%}
+        {%- unless filter_tags contains tag_down -%}
+          {%- assign filter_tags = filter_tags | push: tag_down -%}
+        {%- endunless -%}
+      {%- endfor -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- assign filter_tags = filter_tags | sort -%}
+{%- endif -%}
+
 {%- if posts_count > 0 -%}
   {%- if show_hr -%}
     <hr>
   {%- endif -%}
-  {%- assign section_attrs = 'id="collection-stream" class="md-flow"' -%}
+  {%- assign section_classes = "md-flow" -%}
+  {%- if card_layout -%}
+    {%- assign section_classes = section_classes | append: " card-stream" -%}
+  {%- endif -%}
+  {%- assign section_attrs = 'id="collection-stream" class="' | append: section_classes | append: '"'-%}
   {%- if initial_limit -%}
-    {%- capture section_attrs -%}id="collection-stream" class="md-flow" data-collection-stream="toggle" data-initial-limit="{{ initial_limit }}"{%- endcapture -%}
+    {%- capture section_attrs -%}{{ section_attrs }} data-collection-stream="toggle" data-initial-limit="{{ initial_limit }}"{%- endcapture -%}
+  {%- endif -%}
+  {%- if related_toggle -%}
+    {%- capture section_attrs -%}{{ section_attrs }} data-related-toggle="true"{%- endcapture -%}
+    {%- assign toggle_id_base = include.related_toggle_id
+      | default: label
+      | default: coll_name
+      | default: 'collection-stream' -%}
+    {%- assign page_slug = page.url | default: page.id | default: page.path | default: 'page' -%}
+    {%- assign page_slug = page_slug | slugify -%}
+    {%- assign toggle_content_id = page_slug | append: "-" | append: toggle_id_base | slugify | append: "-content" -%}
   {%- endif -%}
   <section {{ section_attrs }}>
-    {%- if label -%}<h2>{{ label }}</h2>{%- endif -%}
+    {%- if label -%}
+      <h2>{{ label }}</h2>
+    {%- endif -%}
     {%- if content_md -%}
       {{ content_md | markdownify }}
     {%- endif -%}
-    {%- for post in loop_posts -%}
-      {%- assign hide_item = false -%}
-      {%- if initial_limit and total_posts_count > initial_limit and forloop.index0 >= initial_limit -%}
-        {%- assign hide_item = true -%}
-      {%- endif -%}
-      <div class="collection-stream-item{% if hide_item %} is-hidden{% endif %}" data-collection-item>
-        {% include sections/collection-item.html post=post excerpt_length=include.excerpt_length %}
+    {%- if tag_filter and filter_tags.size > 0 -%}
+      <div class="card-filter" data-card-filter>
+        <button type="button"
+                class="card-filter-button is-active"
+                data-card-filter-button
+                data-tag="all">All</button>
+        {%- for tag in filter_tags -%}
+          <button type="button"
+                  class="card-filter-button"
+                  data-card-filter-button
+                  data-tag="{{ tag }}">{{ tag | capitalize }}</button>
+        {%- endfor -%}
       </div>
-    {%- endfor -%}
+    {%- endif -%}
+    {%- if related_toggle -%}
+      {% include components/related-toggle-button.html target_id=toggle_content_id %}
+    {%- endif -%}
+    {%- if related_toggle -%}
+      <div
+        id="{{ toggle_content_id }}"
+        class="collection-stream-related-content"
+        data-related-toggle-content
+        hidden>
+    {%- endif -%}
+    {%- if card_layout -%}
+      {% include sections/card-grid.html
+        items=loop_posts
+        item_partial=item_partial
+        initial_limit=initial_limit
+        total_count=total_posts_count %}
+    {%- else -%}
+      {%- for post in loop_posts -%}
+        {%- assign hide_item = false -%}
+        {%- if initial_limit and total_posts_count > initial_limit and forloop.index0 >= initial_limit -%}
+          {%- assign hide_item = true -%}
+        {%- endif -%}
+        <div class="collection-stream-item{% if hide_item %} is-hidden{% endif %}" data-collection-item>
+        {%- case item_partial -%}
+          {%- when "sections/form-card.html" -%}
+            {% include sections/form-card.html post=post %}
+          {%- when "sections/author.html" -%}
+            {% include sections/author.html author=post %}
+          {%- else -%}
+            {% include sections/collection-item.html post=post excerpt_length=include.excerpt_length %}
+        {%- endcase -%}
+        </div>
+      {%- endfor -%}
+    {%- endif -%}
     {%- if initial_limit and total_posts_count > initial_limit -%}
-      <button
-        type="button"
-        class="collection-stream-toggle"
-        data-collection-toggle
-        data-expand-label="Show All"
-        data-collapse-label="Show Less"
-        aria-expanded="false">
-        Show All
-      </button>
+      <div class="collection-stream-toggle-wrap">
+        <button
+          type="button"
+          class="collection-stream-toggle"
+          data-collection-toggle
+          data-expand-label="Show All"
+          data-collapse-label="Show Less"
+          aria-expanded="false">
+          Show All
+        </button>
+      </div>
+    {%- endif -%}
+    {%- if related_toggle -%}
+      {% include components/related-toggle-button.html target_id=toggle_content_id wrapper_class="collection-stream-related-action collection-stream-related-action-bottom" %}
+    {%- endif -%}
+    {%- if related_toggle -%}
+      </div>
     {%- endif -%}
   </section>
 {%- endif -%}

@@ -1,25 +1,42 @@
 ---
 layout: form
-title: "Resonate"
+title: Resonate
 title_mark: Resonate
 published_date: 2025-11-10
 refactored_date: 2025-11-10
 authors:
-  - michael-basil
-  - kyle-ingersoll
-excerpt: "A companion training form for reading Resonate - Zen and the Way of Making a Difference by Ginny Whitelaw — deepening embodiment of the Zen Toolkit and FEBI™ patterns through practice, reflection, and resonance. Read it as dojo training, not theory."
+- michael-basil
+- kyle-ingersoll
+excerpt: A companion training form for reading Resonate - Zen and the Way of Making a Difference by Ginny Whitelaw — deepening embodiment of the Zen Toolkit and FEBI® patterns through practice, reflection, and resonance. Read it as dojo training, not theory.
+icon: fa-solid fa-wave-square
+tags:
+  - practice
+  - meta
+inspirations:
+- label: Resonate - Zen and the Way of Making a Difference by Ginny Whitelaw
+  url: https://www.choseizen.org/store/p/resonate
+- label: Institute for Zen Leadership
+  url: https://zenleader.global
+- label: Chosei Zen
+  url: https://www.choseizen.org/
+- label: Negotiation 9 Move - Calibrated Questions - Black Swan Group
+  url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
+- label: Negotiation 9 Move - Dynamic Silence - Black Swan Group
+  url: https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9
+- label: FEBI® is a registered trademark of the Institute for Zen Leadership
+  url: https://zenleader.global/resources/febi-assessment
 ---
 
 ## Intention
 
-*Resonate* is best read as training — a practice in deepening your relationship with the Zen Toolkit forms and the living energies of the FEBI™ patterns. As you move through it, revisit and refine [One Breath](../one-breath/), [Two Sides](../two-sides/), [Three Centers](../three-centers/), and [Four Patterns](../four-patterns/) — Driver, Organizer, Collaborator, and Visionary — not as concepts but as living expressions of Ki in motion.  
+*Resonate* is best read as training — a practice in deepening your relationship with the Zen Toolkit forms and the living energies of the [FEBI®](https://zenleader.global/resources/febi-assessment) patterns. As you move through it, revisit and refine [One Breath](../one-breath/), [Two Sides](../two-sides/), [Three Centers](../three-centers/), and [Four Patterns](../four-patterns/) — Driver, Organizer, Collaborator, and Visionary — not as concepts but as living expressions of Ki in motion.  
 
 The book illuminates how resonance moves through mind, body, and voice; how fear constricts it; and how integration restores coherence. Use this reading as a way to reconnect with the root principles that anchor all dojo training:
 
 - Relax completely
 - Center with intention  
 - Meet fear with presence  
-- Playful resonance is Ki  
+- Stance is Ki  
 
 Read slowly. Let the ideas land in your nervous system, not just your intellect. Every insight is an invitation to practice.
 
@@ -46,14 +63,6 @@ As you work through the book:
    - Which pattern or form calls for deeper integration?  
    - How will I carry this awareness into my next conversation or practice?  
 
-5. **Integration.** Bring your reflections to Self-Authorship [Circle](../circle/) and [Mat](../mat/) practice as appropriate. Share what’s alive for you; teach through example.  
+5. **Integration.** Bring your reflections to Authorship [Circle](../circle/) and [Mat](../mat/) practice as appropriate. Share what’s alive for you; teach through example.  
 
 Reading *Resonate* is a bridge between insight and embodiment — a way to align theory, energy, and presence through disciplined curiosity.
-
-## Inspiration
-
-- [Resonate - Zen and the Way of Making a Difference by Ginny Whitelaw](https://www.choseizen.org/store/p/resonate)  
-- [Institute for Zen Leadership](https://zenleader.global)  
-- [Chosei Zen](https://www.choseizen.org/)
-- [Negotiation 9 Move - Calibrated Questions - Black Swan Group](https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9)
-- [Negotiation 9 Move - Dynamic Silence - Black Swan Group](https://www.blackswanltd.com/newsletter/infographic-the-black-swan-groups-negotiation-9)  

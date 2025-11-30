@@ -1,23 +1,19 @@
 {%- comment -%}
 Renders <li><a>…</a></li> items for a list of nav entries.
 Expects:
-  - include.items        : array of { label, href?, href_key?, external? }
+  - include.items        : array of { label, href?, href_key? }
   - include.current_norm : normalized current path (with trailing slash)
 {%- endcomment -%}
 {%- for item in include.items -%}
     {%- assign href_value = item.href -%}
     {%- if item.href_key -%}{%- assign href_value = site[item.href_key] -%}{%- endif -%}
     <li role="presentation">
-        {%- if item.external -%}
-            <a href="{{ href_value }}" role="menuitem">{{ item.label }}</a>
+        {%- assign href_path = href_value | replace:'/index.html','/' | relative_url -%}
+        {%- assign href_norm = href_path | append:'/' | replace:'//','/' -%}
+        {%- if include.current_norm == href_norm -%}
+            <a href="{{ href_path }}" role="menuitem" aria-current="page">{{ item.label }}</a>
         {%- else -%}
-            {%- assign href_path = href_value | replace:'/index.html','/' | relative_url -%}
-            {%- assign href_norm = href_path | append:'/' | replace:'//','/' -%}
-            {%- if include.current_norm == href_norm -%}
-                <a href="{{ href_path }}" role="menuitem" aria-current="page">{{ item.label }}</a>
-            {%- else -%}
-                <a href="{{ href_path }}" role="menuitem">{{ item.label }}</a>
-            {%- endif -%}
+            <a href="{{ href_path }}" role="menuitem">{{ item.label }}</a>
         {%- endif -%}
     </li>
 {%- endfor -%}

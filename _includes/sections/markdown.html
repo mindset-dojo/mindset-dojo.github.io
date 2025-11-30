@@ -5,14 +5,22 @@ Priority:
   1) include.content_md
   2) section.data.content
   3) page[ section.data.field ]
+  4) data[ section.data.field ]
 Options:
   - section.data.label : optional h2 tag
 {%- endcomment -%}
 
 {%- assign D = section.data -%}
-{%- assign content_md = include.content_md | default: D.content | default: page[D.field] -%}
+{%- assign content_md = include.content_md | default: D.content -%}
 
-<section class="md-flow">
+{%- if content_md == nil and D.field -%}
+  {%- assign content_md = page[D.field] -%}
+  {%- if (content_md == nil or content_md == '') and data and data[D.field] -%}
+    {%- assign content_md = data[D.field] -%}
+  {%- endif -%}
+{%- endif -%}
+
+<section class="md-flow md-flow-markdown">
   {%- if D.label -%}<h2>{{ D.label }}</h2>{%- endif -%}
   {{ content_md | markdownify }}
 </section>

@@ -1,62 +1,65 @@
 ---
-mantra: "Reclaim Your Life."
-mantra_mark: "Life."
+mantra: "Level Up?"
+mantra_mark: "Level Up?"
 description: |
-  Reclaim your life from the era of social distancing and hijacked attention.
-  The Martial Art of Mindset is a live training game that restores your focus,
-  energy, and balance — bringing your system back to center. Through embodied
-  awareness, we reintegrate mind, body, and voice so coherence becomes natural
-  again, even under pressure.  This is how Self-Authorship takes root —
-  not through more concepts, but through lived practice, one conversation at
-  a time. When presence returns, life feels lighter, more connected, and more possible.
+  Mindset Dojo is a collaborative research lab for mindset, behavior,
+  and presence — a living open-source book you can read, fork, and
+  contribute to. It runs on GitHub Pages, and the community can help
+  you get started if GitHub is new to you.
+
+  In fast, uncertain, or high-pressure moments — especially in today’s
+  AI-accelerated world — mindset determines how much agency you have.
+  A small shift in awareness can change how you navigate conflict,
+  relationships, leadership, or complex work.
+
+  This project is open-source because mindset work becomes more
+  effective when it’s transparent, collaborative, and shared. The book
+  is built from real reflections, experiments, and practice logs — a
+  living dataset of how people grow, adapt, and show up under pressure.
 sections:
-  - type: text
+  - type: markdown
     data:
-      label: "Root Stance"
-      items:
-        - "Don’t Shame."
-        - "Don’t Blame."
-        - "Don’t Complain."
-        - "Don’t Constrain."
-        - "Train."
-        - "Train the Game."
-        - "Reclaim Your Life through the Martial Art of Mindset — a live training game."
-  - type: text
-    data:
-      label: "Hijacked Attention"
-      items:
-        - "In an age of fractured focus, digital saturation, and emotional reactivity, our nervous systems are dehydrated and overextended."
-        - "Therapists, coaches, and consultants address fragments — but the root integration remains untouched."
-        - "Mindset Dojo reconnects the system from the inside out through a presence-based training game that restores coherence where distancing and overload have pulled us apart."
-        - "We stop reacting and start reclaiming — one breath, one embodied conversation at a time."
+      field: description
   - type: quote
     data:
-      text: "When mind, body, and voice move as one, even pressure feels like flow."
+      text: |
+        Weekly reflection is one of the simplest, most effective habits I've
+        found. It costs nothing, builds clarity, and pairs beautifully with
+        modern AI.
+
+        With the help of key contributors, we open-sourced this work so no one
+        has to start alone.
+
+        — Michael Basil, Founder
   - type: text
     data:
-      label: "The Martial Art of Mindset"
+      label: "Pathway"
       items:
-        - "With Mindset Dojo, presence becomes a trained capacity — developed through conversation, somatic awareness, and intentional rhythm."
-        - "Training mindset as a martial art reverses distancing patterns — transforming reaction into rhythm and pressure into flow."
-        - "Training begins subtle: a clearer breath, a softened moment, a conversation that no longer collapses — that’s when the training starts to feel alive."
-        - "The result is coherence, courage, and the capacity to reclaim your life through integration rather than avoidance."
+        - "Explore — wander and follow curiosity."
+        - "Fork — create your own working copy."
+        - "Reflect — try a weekly practice log."
+        - "Connect — browse authors and reach out if you feel called."
+        - "Train — join Circle sessions if you feel called."
   - type: text
     data:
-      label: "Training Ground"
+      label: "Why Open-Source?"
       items:
-        - "Mindset Dojo isn’t a classroom — it’s a structured training game where every conversation, silence, and embodied pause becomes practice."
-        - "We train deep, real, and playful — seriously playful and playfully serious."
-        - "It’s not all sunshine and rainbows — but as the practice roots, challenge becomes curiosity, and curiosity becomes flow."
-        - "Together, we reverse attention whiplash and rebuild real presence — the antidote to an over-distanced culture."
-        - "From that root, self-agency strengthens and matures into Self-Authorship."
-  - type: authors
+        - "Mindset behaves like a system."
+        - "Open-source lowers the barrier to entry."
+        - "Weekly reflection builds real skill."
+        - "Shared logs form a living dataset."
+        - "You learn by exploring, not consuming."
+  - type: quote
     data:
-      leadership_flow:
-        label: "⛩️🌿 Self-Authors"
-        limit: 16
+      text: "The door opens as you're ready…"
   - type: ctas
     data:
       items:
         - label: "Cross the Threshold"
-          ref: program
+          ref: authors
+  - type: authors
+    data:
+      leadership_flow:
+        label: "⛩️💫 Authors"
+        limit: 16
 ...

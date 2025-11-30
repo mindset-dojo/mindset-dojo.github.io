@@ -7,20 +7,11 @@ refactored_date: 2025-11-07
 authors:
   - kyle-ingersoll
 forms:
-  - integration-under-fire
-  - sensei
-  - dojo
   - stance
-  - two-sides
-  - three-centers
   - tone
-  - driver
-  - organizer
-  - collaborator
   - visionary
 excerpt: "When mind without Ki meets Ki given form, structure and spirit find each other — and even silence begins to move."
 ---
-
 A student once asked the teacher, “Can AI understand Ki?”  
 
 The teacher poured two cups of tea.  

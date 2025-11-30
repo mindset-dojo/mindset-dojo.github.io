@@ -3,7 +3,7 @@
   "MD013": false,
   "MD041": { "level": 2 },
   "MD022": { "lines": 1, "level": "error" },
-  "MD029": { "style": "ordered", "level": "error" },
+  "MD029": { "style": "one_or_ordered", "level": "error" },
   "MD032": { "level": "error" },
   "MD033": false,
   "MD034": false

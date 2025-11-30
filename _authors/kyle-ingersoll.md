@@ -1,8 +1,8 @@
 ---
 layout: threshold
 sections_key: author
-mantra: "Don't Demand. Do."
-mantra_mark: "Do."
+mantra: "Self-Sovereignty is Ki"
+mantra_mark: "Self-Sovereignty"
 description: >
   College and Mindset Dojo Student. Skilled in metacognition, conversations, and computer. Last follower of the previous two incarnations of Mindset Dojo, and first of this version. 
 name: Kyle Ingersoll
@@ -10,15 +10,11 @@ active: true
 join_date: 2024-08-01
 program_level: -1
 program_level_date: 2025-11-13
-leadership_designations:
-  - type: program
-    value: Senpai
-  - type: project
-    value: DevOps Cultivator
+leadership_designations: []
 emoji_signature: ⛩️🖥️
 custom_url: https://kyle.mindset.dojo.center
 about: |
-  ### Socio-Technical Engineer
+  ### Socio-Technical Engineer and Defender
 
   My interest in privacy in high school — and a growing suspicion of surveillance — pulled me toward **Linux** and the principles of **Free Software**. Early on I saw software as a place to defend individual agency: tools people can run, study, share, and modify. That seed convinced me that technical skill should serve freedom, not status.
 

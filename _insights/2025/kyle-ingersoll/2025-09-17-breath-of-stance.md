@@ -5,21 +5,13 @@ title_mark: Stance
 authors: 
   - kyle-ingersoll
 forms:
-  - dojo
-  - integration-under-fire
-  - revealed-preference-reflection
   - stance
-  - four-patterns
   - tone
   - driver
-  - organizer
-  - collaborator
-  - visionary
 published_date: 2025-09-17
 refactored_date: 2025-11-07
 excerpt: "When tension hardens between mismatched energies, Stances offer a way to realign through breath, tone, and presence—shifting both yourself and the field of conversation."
 ---
-
 Two people sit down to talk.  
 
 One moves quickly, eager to press forward.  
@@ -37,7 +29,7 @@ Inspired by Black Swan, we added **Stances** into the Dojo practice to give that
 
 A stance is not a type. It’s not a label.  
 
-It’s your *unique expression of FEBI™ energy in this moment* — the way your breath, tone, timing, and attention combine into a conversational posture.  
+It’s your *unique expression of [FEBI®](https://zenleader.global/resources/febi-assessment) energy in this moment* — the way your breath, tone, timing, and attention combine into a conversational posture.  
 
 People share the potential for each of the core energies — **Visionary, Organizer, Collaborator, Driver** — but every person’s stance is an idiosyncratic expression of those energies.  
 
@@ -47,7 +39,7 @@ That is why we call them **Stances**: they’re personal, they move, they can be
 
 ## The essential insights  
 
-- **Different people, different stances.** Each person’s FEBI™ energies show up in their own rhythm, tone, and style of conversation. Your perception of another’s stance guides what you do next.  
+- **Different people, different stances.** Each person’s FEBI energies show up in their own rhythm, tone, and style of conversation. Your perception of another’s stance guides what you do next.  
 - **You can shift your stance.** Posture and breath change quickly; so can conversational posture. When you shift, you invite shift.  
 - **Platinum and Golden.** Don’t assume sameness. Meet people as they are — align with the stance you perceive, not the stance you prefer, *at first*. Connect in a way that creates a circuit, and listen for opportunities to make a shift.  
 

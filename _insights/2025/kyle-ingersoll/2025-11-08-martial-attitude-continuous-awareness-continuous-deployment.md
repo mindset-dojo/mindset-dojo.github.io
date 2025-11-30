@@ -7,23 +7,11 @@ refactored_date: 2025-11-08
 authors:
   - kyle-ingersoll
 forms:
-  - dojo
-  - mat
-  - sensei
-  - integration-under-fire
-  - stance
-  - martial-attitude
   - threshold
-  - two-sides
-  - three-centers
   - tone
-  - driver
-  - organizer
-  - collaborator
-  - visionary
+  - martial-attitude
 excerpt: "Martial Attitude is not opposition but attunement — the clarity to meet force with harmony, transforming conflict into coherence."
 ---
-
 ## Story
 
 A student once asked, “Sensei, how can I trust another when the world itself cannot be trusted?”

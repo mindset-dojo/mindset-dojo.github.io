@@ -8,23 +8,11 @@ authors:
   - michael-basil
   - kyle-ingersoll
 forms:
-  - integration-under-fire
-  - dojo
-  - circle
-  - mat
-  - threshold
-  - stance
-  - martial-attitude
-  - two-sides
-  - three-centers
   - tone
   - driver
-  - organizer
   - collaborator
-  - visionary
 excerpt: "In the Dojo, leadership is cultivation, not control. Circles replace chains of command. Authorship replaces ownership."
 ---
-
 In the Dojo, leadership is cultivation, not control.  
 
 What happens when the voice that usually decides steps back and listens instead?

@@ -27,18 +27,15 @@ defaults:
       article: true
 
 action_links:
+  authors: /authors/
   program: /program/
-  project: /project/
   connect: https://connect.mindset.dojo.center
-  repo: https://github.com/mindset-dojo/mindset-dojo.github.io
 
 header_links:
   - label: MISSION
     href: /
   - label: PROGRAM
     href: /program/
-  - label: PROJECT
-    href: /project/
   - label: FORMS
     href: /forms/
   - label: AUTHORS
@@ -50,14 +47,13 @@ footer_primary_links:
   - label: PROGRAM
     href: /program/
   - label: PROJECT
-    href: /project/
+    href: https://github.com/mindset-dojo/mindset-dojo.github.io
   - label: FORMS
     href: /forms/
   - label: AUTHORS
     href: /authors/
   - label: CONTACT
     href: https://connect.mindset.dojo.center
-    external: true
 
 footer_secondary_links:
   - label: Privacy Policy
