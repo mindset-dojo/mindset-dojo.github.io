@@ -122,7 +122,7 @@ The Gardener smiled.
 
 “Yes. A vow’s ending is less important than its returning. Those who return grow wiser. Those who refuse repeat the same pain.”
 
-## 5. The Purpose of the Bridges
+## The Purpose of the Bridges
 
 As they walked back toward the Valley, Mira spoke with new understanding:
 
