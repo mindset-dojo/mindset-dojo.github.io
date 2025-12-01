@@ -1,6 +1,6 @@
 ---
 layout: insight
-title: The Three Bridges of Riverlight Valley
+title: The Bridges of Riverlight Valley
 title_mark: Bridges
 published_date: 2025-12-01
 refactored_date: 2025-12-01
@@ -14,7 +14,7 @@ excerpt: A simple fable for children and adults alike—teaching how rules evolv
 
 A Mindset Dojo Fable on Safety, Strength, Vows, and Returning...
 
-## 1. The Little Bridge — Rules for Safety
+## The Little Bridge — Rules for Safety
 
 In Riverlight Valley, every child crossed a small wooden bridge on their way to the training garden. The planks were narrow, the river rushed fast, and the wind sometimes tugged at your balance.
 
@@ -34,7 +34,7 @@ The Gardener smiled:
 
 Lio walked a little slower that day.
 
-## 2. The Middle Bridge — Principles for Strength
+## The Middle Bridge — Principles for Strength
 
 Years passed. The children grew taller, steadier, and more thoughtful.
 
@@ -61,7 +61,7 @@ He pointed to the carvings in the stone:
 
 The children crossed slowly, feeling the difference in their steps.
 
-## 3. The Great Bridge — Vows for the Ones You Love
+## The Great Bridge — Vows for the Ones You Love
 
 When the children became young adults, the Gardener led them to the Great Bridge—a magnificent red arch stretching over the widest part of the river.
 
@@ -84,7 +84,7 @@ The Gardener gazed across the whole Valley:
 
 > “A vow shapes the future—not just for you, but for everyone who crosses your path after.”
 
-## 4. The Bridge of Returning — Honoring What Was Promised
+## The Bridge of Returning — Honoring What Was Promised
 
 After explaining the Great Bridge, the Gardener guided the young adults to a quiet alcove beneath its arch. The river sounded deeper here, as if it carried old truths.
 
@@ -122,7 +122,7 @@ The Gardener smiled.
 
 “Yes. A vow’s ending is less important than its returning. Those who return grow wiser. Those who refuse repeat the same pain.”
 
-## 5. The Purpose of the Three Bridges
+## 5. The Purpose of the Bridges
 
 As they walked back toward the Valley, Mira spoke with new understanding:
 
@@ -130,7 +130,7 @@ As they walked back toward the Valley, Mira spoke with new understanding:
 
 The Gardener nodded.
 
-“Safety → Strength → Steadiness. The Three Bridges of a good life.”
+“Safety → Strength → Steadiness. Foundational Bridges for a good life.”
 
 And from that day on, whenever anyone in Riverlight Valley felt unsure about right and wrong, they asked themselves:
 
