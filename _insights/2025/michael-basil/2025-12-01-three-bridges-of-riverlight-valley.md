@@ -12,7 +12,7 @@ forms:
 excerpt: A simple fable for children and adults alike—teaching how rules evolve into principles, how principles evolve into vows, and how true integrity is found not only in keeping promises but in returning to them when we’ve lost our way.
 ---
 
-*A Mindset Dojo Fable on Safety, Strength, Vows, and Returning*
+(*A Mindset Dojo Fable on Safety, Strength, Vows, and Returning*)
 
 ## 1. The Little Bridge — Rules for Safety
 
@@ -26,7 +26,7 @@ Many children grumbled at the rule. It felt old-fashioned and strict.
 
 One day a young fox named Lio asked the Old Gardener:
 
-> “Why do we need this rule? I already know not to fall.”
+“Why do we need this rule? I already know not to fall.”
 
 The Gardener smiled:
 
@@ -44,7 +44,7 @@ There were no rules posted here.
 
 Mira the owl asked,
 
-> *“Why no sign?”*
+“Why no sign?”
 
 The Gardener replied:
 
@@ -78,7 +78,7 @@ It was a promise about the kind of person you choose to become, especially when 
 
 Lio whispered:
 
-> “What makes a vow different from the others?”
+“What makes a vow different from the others?”
 
 The Gardener gazed across the whole Valley:
 
@@ -90,33 +90,33 @@ After explaining the Great Bridge, the Gardener guided the young adults to a qui
 
 Lio asked softly:
 
-> “What happens if someone loses their way after making a vow?”
+“What happens if someone loses their way after making a vow?”
 
 The Gardener placed a hand on the warm stone.
 
-### “Every vow has two journeys,” he said. “The journey forward—and the journey of returning.”
+“Every vow has two journeys,” he said. “The journey forward—and the journey of returning.”
 
 “Returning to what?” Mira asked.
 
-> “To the truth,” he said. To the parts of ourselves we hid. To the mistakes we blamed on others. To the fears we weren’t ready to face.”
+“To the truth,” he said. To the parts of ourselves we hid. To the mistakes we blamed on others. To the fears we weren’t ready to face.”
 
 He let the silence hold the weight of his words.
 
-> “A vow is not only kept by walking it. It is also kept by returning when we’ve strayed.”
+“A vow is not only kept by walking it. It is also kept by returning when we’ve strayed.”
 
 Lio hesitated.
 
-> “But what if, after returning, we discover the vow can’t be walked anymore?”
+“But what if, after returning, we discover the vow can’t be walked anymore?”
 
 The Gardener nodded.
 
-> “Then the vow must be adjourned with honesty—not with excuses, not with anger, not with stories that make one heart right and the other wrong.”
+“Then the vow must be adjourned with honesty—not with excuses, not with anger, not with stories that make one heart right and the other wrong.”
 
-> “For if a vow is ended without returning, the person wanders in circles, making and breaking promises without understanding why—creating harm without seeing the pattern.”
+“For if a vow is ended without returning, the person wanders in circles, making and breaking promises without understanding why—creating harm without seeing the pattern.”
 
 Mira whispered:
 
-> “So the returning is the real courage.”
+“So the returning is the real courage.”
 
 The Gardener smiled.
 
