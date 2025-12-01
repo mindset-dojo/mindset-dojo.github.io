@@ -12,7 +12,7 @@ forms:
 excerpt: A simple fable for children and adults alike—teaching how rules evolve into principles, how principles evolve into vows, and how true integrity is found not only in keeping promises but in returning to them when we’ve lost our way.
 ---
 
-(*A Mindset Dojo Fable on Safety, Strength, Vows, and Returning*)
+A Mindset Dojo Fable on Safety, Strength, Vows, and Returning...
 
 ## 1. The Little Bridge — Rules for Safety
 
