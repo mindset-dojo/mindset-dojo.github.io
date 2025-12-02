@@ -5,7 +5,11 @@ title_mark: "Base Camp"
 published_date: 2025-12-02 
 refactored_date: 2025-12-02  
 authors:  
-  - kyle-ingersoll  
+  - kyle-ingersoll
+forms:
+  - three-question-reflection
+  - integration-under-fire
+  - stance  
 excerpt: A sequel to the Gilded Labyrinth; a traveler meets the mountain of Self-Sovereignty and learns to begin with a base camp instead of a heroic leap.  
 ---  
 

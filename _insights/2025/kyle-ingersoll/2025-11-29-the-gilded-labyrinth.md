@@ -5,7 +5,11 @@ title_mark: Labyrinth
 published_date: 2025-11-29
 refactored_date: 2025-11-29
 authors:
-- kyle-ingersoll
+  - kyle-ingersoll
+forms:
+  - three-question-reflection
+  - integration-under-fire
+  - stance
 excerpt: A fable about prestige, fear, clarity, and choosing sovereignty over golden traps.
 ---
 
