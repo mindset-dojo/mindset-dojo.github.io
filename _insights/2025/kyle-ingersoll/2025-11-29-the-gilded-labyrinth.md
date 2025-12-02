@@ -39,3 +39,7 @@ The second time I left because I understood.**
 He stepped away from the gleaming gate and onto the open road—toward wide horizons, toward the life the maze could never grant. Behind him, the Labyrinth glittered as it continued its slow decay, still capturing others with its shine.
 
 He walked on, sovereign.
+
+---
+
+Read the sequel, [Base Camp Below The Mountain](../base-camp-below-mountain/).
