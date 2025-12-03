@@ -1,0 +1,40 @@
+---
+mantra: "Don't Pause. Support."
+mantra_mark: "Support."
+description: |
+  Support Mindset Dojo by fueling an open-source training ground for
+  mindset, nervous-system skill, and leadership experiments. These
+  contributions keep hosting, contributor onboarding, and Sensei time
+  accessible so anyone can train, document, and publish their practice.
+sections:
+  - type: markdown
+    data:
+      field: description
+  - type: text
+    data:
+      label: "Contribution Pathways"
+      items:
+        - "<a href=\"https://50.contribute.mindset.dojo.center/\" target=\"_blank\" rel=\"noopener\">$50 Pulse Support</a> - make space for one new reflection log."
+        - "<a href=\"https://100.contribute.mindset.dojo.center/\" target=\"_blank\" rel=\"noopener\">$100 Dojo Fuel</a> - cover hosting plus transcription for a story."
+        - "<a href=\"https://250.contribute.mindset.dojo.center/\" target=\"_blank\" rel=\"noopener\">$250 Circle Boost</a> - fund facilitation for a community session."
+        - "<a href=\"https://500.contribute.mindset.dojo.center/\" target=\"_blank\" rel=\"noopener\">$500 Mat Catalyst</a> - underwrite a month of Sensei guidance."
+        - "<a href=\"https://1000.contribute.mindset.dojo.center/\" target=\"_blank\" rel=\"noopener\">$1000 Forge Builder</a> - sponsor a new experiment or tooling sprint."
+  - type: text
+    data:
+      label: "Stay Connected"
+      items:
+        - "Email Sensei Michael: <a href=\"mailto:michael@basil.one\">michael@basil.one</a>"
+        - "Live video support happens through <a href=\"https://connect.mindset.dojo.center\">Connect</a>. Bring your current edge."
+  - type: text
+    data:
+      label: "Open-Source Momentum"
+      items:
+        - "<a href=\"https://github.com/mindset-dojo/mindset-dojo.github.io\" target=\"_blank\" rel=\"noopener\">GitHub Repo</a> - please star it so others find the project, then fork it when you're ready to contribute."
+  - type: ctas
+    data:
+      items:
+        - label: "Book a Live Support Call"
+          ref: connect
+        - label: "Star & Fork on GitHub"
+          url: https://github.com/mindset-dojo/mindset-dojo.github.io
+...
