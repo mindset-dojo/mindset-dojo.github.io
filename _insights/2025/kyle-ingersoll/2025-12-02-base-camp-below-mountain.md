@@ -55,4 +55,3 @@ Wind moved through the tents. Below us, the Gilded Labyrinth glittered. Somewher
 
 For the first time in a long time, I didn’t tighten my laces and push on.
 I stayed at Base Camp and let the old story catch its breath long enough to loosen its grip.
-
