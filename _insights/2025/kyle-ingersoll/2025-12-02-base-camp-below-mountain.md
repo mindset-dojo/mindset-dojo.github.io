@@ -23,7 +23,7 @@ One was grades and scholarships. Another was prestige: shiny logos, famous progr
 
 All of them pointed to the same distant peak: *“If you climb high enough, you’ll finally be safe.”*
 
-My legs shook. My thoughts frayed into to-do lists and what-ifs. I dropped my pack beside a small fire ring and told myself I’d only rest for a moment before pushing on.
+My legs shook. My thoughts frayed into todo lists and what-ifs. I dropped my pack beside a small fire ring and told myself I’d only rest for a moment before pushing on.
 
 An older traveler sat nearby, pouring hot water into a dented metal cup.
 
