@@ -52,7 +52,9 @@ Share who you are and what you are practicing by shipping both an author card an
      - [Email](mailto:jane@example.com)
      - [LinkedIn](https://linkedin.com/in/janedoe)
    ---
+
    ```
+
    - Mirror any additional optional fields you see in existing author cards to stay consistent.
 2. Create your first Insight under `_insights/<year>/<your-slug>/`, e.g., `_insights/2025/jane-doe/2025-06-15-beginner-mind.md`:
 
@@ -70,7 +72,9 @@ Share who you are and what you are practicing by shipping both an author card an
    excerpt: |
      One or two sentences that invite the reader in.
    ---
+
    ```
+
    - Keep the tone reflective, practice-oriented, and Markdown-first.
 3. Commit and push; GitHub Pages will render your author card and publish your Insight on the next build.
 
