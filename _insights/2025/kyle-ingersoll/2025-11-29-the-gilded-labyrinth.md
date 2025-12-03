@@ -3,7 +3,7 @@ layout: insight
 title: The Gilded Labyrinth
 title_mark: Labyrinth
 published_date: 2025-11-29
-refactored_date: 2025-11-29
+refactored_date: 2025-12-03
 authors:
   - kyle-ingersoll
 forms:
