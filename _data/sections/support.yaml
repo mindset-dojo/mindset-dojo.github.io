@@ -20,7 +20,7 @@ sections:
         - "<a href=\"https://1000.contribute.mindset.dojo.center/\" target=\"_blank\" rel=\"noopener\">$1000 Forge Builder</a>"
   - type: text
     data:
-      label: "Stay Connected"
+      label: "Connection Channels"
       items:
         - "Email: <a href=\"mailto:sensei@dojo.center\">sensei@dojo.center</a>"
         - "Video: <a href=\"https://connect.mindset.dojo.center\">Connect</a>"
