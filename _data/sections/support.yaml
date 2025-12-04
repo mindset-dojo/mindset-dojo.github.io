@@ -3,9 +3,8 @@ mantra: "Don't Pause. Support."
 mantra_mark: "Support."
 description: |
   Support Mindset Dojo by fueling an open-source training ground for
-  mindset, nervous-system skill, and leadership experiments. These
-  contributions keep hosting, contributor onboarding, and Sensei time
-  accessible so anyone can train, document, and publish their practice.
+  AI integrated mindset, tactical, and leadership skill. These
+  contributions keep energy flowing so more can train, document, and publish their practice.
 sections:
   - type: markdown
     data:
@@ -14,17 +13,17 @@ sections:
     data:
       label: "Contribution Pathways"
       items:
-        - "<a href=\"https://50.contribute.mindset.dojo.center/\" target=\"_blank\" rel=\"noopener\">$50 Pulse Support</a> - make space for one new reflection log."
-        - "<a href=\"https://100.contribute.mindset.dojo.center/\" target=\"_blank\" rel=\"noopener\">$100 Dojo Fuel</a> - cover hosting plus transcription for a story."
-        - "<a href=\"https://250.contribute.mindset.dojo.center/\" target=\"_blank\" rel=\"noopener\">$250 Circle Boost</a> - fund facilitation for a community session."
-        - "<a href=\"https://500.contribute.mindset.dojo.center/\" target=\"_blank\" rel=\"noopener\">$500 Mat Catalyst</a> - underwrite a month of Sensei guidance."
-        - "<a href=\"https://1000.contribute.mindset.dojo.center/\" target=\"_blank\" rel=\"noopener\">$1000 Forge Builder</a> - sponsor a new experiment or tooling sprint."
+        - "<a href=\"https://50.contribute.mindset.dojo.center/\" target=\"_blank\" rel=\"noopener\">$50 Pulse Support</a>"
+        - "<a href=\"https://100.contribute.mindset.dojo.center/\" target=\"_blank\" rel=\"noopener\">$100 Dojo Fuel</a>"
+        - "<a href=\"https://250.contribute.mindset.dojo.center/\" target=\"_blank\" rel=\"noopener\">$250 Circle Boost</a>"
+        - "<a href=\"https://500.contribute.mindset.dojo.center/\" target=\"_blank\" rel=\"noopener\">$500 Mat Catalyst</a>"
+        - "<a href=\"https://1000.contribute.mindset.dojo.center/\" target=\"_blank\" rel=\"noopener\">$1000 Forge Builder</a>"
   - type: text
     data:
       label: "Stay Connected"
       items:
-        - "Email Sensei Michael: <a href=\"mailto:michael@basil.one\">michael@basil.one</a>"
-        - "Live video support happens through <a href=\"https://connect.mindset.dojo.center\">Connect</a>. Bring your current edge."
+        - "Email Sensei: <a href=\"mailto:sensei@dojo.center\">sensei@dojo.center</a>"
+        - "Video call: <a href=\"https://connect.mindset.dojo.center\">Connect</a>."
   - type: text
     data:
       label: "Open-Source Momentum"
@@ -33,7 +32,7 @@ sections:
   - type: ctas
     data:
       items:
-        - label: "Book a Live Support Call"
+        - label: "Schedule Conversation"
           ref: connect
         - label: "Star & Fork on GitHub"
           url: https://github.com/mindset-dojo/mindset-dojo.github.io
