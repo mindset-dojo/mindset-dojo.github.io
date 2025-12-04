@@ -1,0 +1,39 @@
+---
+mantra: "Don't Hesitate. Support."
+mantra_mark: "Support."
+description: |
+  Support Mindset Dojo by fueling an open-source training ground for
+  AI integrated mindset, tactical, and leadership skill. These
+  contributions keep energy flowing so more can train and publish their practice.
+sections:
+  - type: markdown
+    data:
+      field: description
+  - type: text
+    data:
+      label: "Contribution Pathways"
+      items:
+        - "<a href=\"https://50.contribute.mindset.dojo.center/\" target=\"_blank\" rel=\"noopener\">$50 Pulse Support</a>"
+        - "<a href=\"https://100.contribute.mindset.dojo.center/\" target=\"_blank\" rel=\"noopener\">$100 Dojo Fuel</a>"
+        - "<a href=\"https://250.contribute.mindset.dojo.center/\" target=\"_blank\" rel=\"noopener\">$250 Circle Boost</a>"
+        - "<a href=\"https://500.contribute.mindset.dojo.center/\" target=\"_blank\" rel=\"noopener\">$500 Mat Catalyst</a>"
+        - "<a href=\"https://1000.contribute.mindset.dojo.center/\" target=\"_blank\" rel=\"noopener\">$1000 Forge Builder</a>"
+  - type: text
+    data:
+      label: "Connection Channels"
+      items:
+        - "Email: <a href=\"mailto:sensei@dojo.center\">sensei@dojo.center</a>"
+        - "Video: <a href=\"https://connect.mindset.dojo.center\">Connect</a>"
+  - type: text
+    data:
+      label: "Open-Source Momentum"
+      items:
+        - "<a href=\"https://github.com/mindset-dojo/mindset-dojo.github.io\" target=\"_blank\" rel=\"noopener\">GitHub Repo</a> - please star it so others find the project, then fork it when you're ready to contribute."
+  - type: ctas
+    data:
+      items:
+        - label: "Schedule Conversation"
+          ref: connect
+        - label: "Star & Fork on GitHub"
+          url: https://github.com/mindset-dojo/mindset-dojo.github.io
+...

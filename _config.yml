@@ -46,14 +46,12 @@ footer_primary_links:
     href: /
   - label: PROGRAM
     href: /program/
-  - label: PROJECT
-    href: https://github.com/mindset-dojo/mindset-dojo.github.io
   - label: FORMS
     href: /forms/
   - label: AUTHORS
     href: /authors/
-  - label: CONTACT
-    href: https://connect.mindset.dojo.center
+  - label: SUPPORT
+    href: /support/
 
 footer_secondary_links:
   - label: Privacy Policy
