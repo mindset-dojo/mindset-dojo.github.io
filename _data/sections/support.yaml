@@ -4,7 +4,7 @@ mantra_mark: "Support."
 description: |
   Support Mindset Dojo by fueling an open-source training ground for
   AI integrated mindset, tactical, and leadership skill. These
-  contributions keep energy flowing so more can train, document, and publish their practice.
+  contributions keep energy flowing so more can train and publish their practice.
 sections:
   - type: markdown
     data:
@@ -22,8 +22,8 @@ sections:
     data:
       label: "Stay Connected"
       items:
-        - "Email Sensei: <a href=\"mailto:sensei@dojo.center\">sensei@dojo.center</a>"
-        - "Video call: <a href=\"https://connect.mindset.dojo.center\">Connect</a>."
+        - "Email: <a href=\"mailto:sensei@dojo.center\">sensei@dojo.center</a>"
+        - "Video: <a href=\"https://connect.mindset.dojo.center\">Connect</a>"
   - type: text
     data:
       label: "Open-Source Momentum"
