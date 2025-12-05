@@ -81,7 +81,7 @@ By honoring that request completely, he proved to himself that he didn’t.
 
 ---
 
-**Insight**
+## Insight
 
 Sometimes the only way to see a Ring clearly is to plan, in detail, what wearing it would actually do to you and to everyone outside the walls.
 
