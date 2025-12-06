@@ -13,6 +13,10 @@ forms:
 excerpt: The Tower made me plan exactly how I’d use its Ring—living safe in lit compounds while the world outside burned—and by the time I finished tracing that colonial expat future, I knew I’d rather build Orchards in the dark than live forever in their light.
 ---
 
+Read the companion story: [The College on the Hill](../college-on-hill/)
+
+---
+
 There was once a student who lived between ruins and promises.
 
 He had seen what uniforms did to people. His father came home from guarding cages a little more armored each year. Later, in cheap paperbacks and ebooks, the student met consultants and security engineers who sold their genius to empires and woke up one day as villains in their own memoirs.
