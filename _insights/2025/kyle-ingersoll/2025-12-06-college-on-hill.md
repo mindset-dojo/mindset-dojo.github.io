@@ -105,7 +105,7 @@ He kept walking toward places that might, one day, grow into Orchards instead.
 
 ---
 
-**Insight**
+## Insight
 
 Sometimes you come to the same door twice.
 
