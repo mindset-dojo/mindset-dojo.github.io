@@ -13,6 +13,10 @@ forms:
 excerpt: I chased the Tower’s Ring so I could finally force open the College on the Hill, only to realize that the load would break my body and the life behind that door would break my soul.
 ---
 
+Read the companion story: [The Ring and The Shadow](../ring-and-shadow/)
+
+---
+
 There was once a student who arrived at community college burned out and cracked.
 
 In high school he had done everything: all the rigor, all the expectations, all the masking. His autistic nervous system survived on fumes. He graduated with trophies and fractures no one saw.
