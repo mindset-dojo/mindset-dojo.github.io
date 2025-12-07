@@ -42,7 +42,7 @@ This draft is designed for the people who shape how systems behave.
 - Product managers and engineering leaders balancing innovation with risk  
 - Founders and startup teams needing velocity without fragility  
 
-Zero Trust Mindset is not a compliance checklist.  
+Zero Trust Mindset (ZTM) is not a compliance checklist.  
 It is a stance, a way of perceiving and shaping systems as they evolve.
 
 ## Why a Mindset, and Why Now
@@ -63,11 +63,11 @@ AI asks how we adapt as boundaries and identities shift continuously.
 
 Zero Trust complements this lineage by asking:
 
-**How do we treat trust as a dynamic condition, verified continuously, shaped by context, and never assumed?**
+How do we treat trust as a dynamic condition, verified continuously, shaped by context, and never assumed?
 
 ## The Personal Commitment, the “I”
 
-**I choose to invest energy in the short term, even when it feels slower or unfamiliar, because doing so opens space for clarity, creativity, and safer innovation in the medium and long term.**
+I choose to invest energy in the short term, even when it feels slower or unfamiliar, because doing so opens space for clarity, creativity, and safer innovation in the medium and long term.
 
 - I reduce future firefighting.  
 - I avoid architectural regret and hidden risk.  
@@ -79,7 +79,7 @@ Zero Trust Mindset expands my creative range.
 
 ## The Team and Organizational Commitment, the “We”
 
-**We invest energy now to create the conditions for scale, innovation, and resilient collaboration as we grow.**
+We invest energy now to create the conditions for scale, innovation, and resilient collaboration as we grow.
 
 - We reduce fragility in ways that free bandwidth for exploration.  
 - We remove hidden dependencies that slow teams down.  
@@ -91,7 +91,7 @@ Zero Trust Mindset expands our organizational possibilities.
 
 ## Four Values of Zero Trust Mindset  
 
-*(Inspired by the clarity of the [Agile Manifesto](https://agilemanifesto.org))*
+Inspired by the clarity of the [Agile Manifesto](https://agilemanifesto.org)...
 
 These values describe the habits and stances that make Zero Trust practical, human centered, and supportive of innovation.
 
@@ -160,7 +160,7 @@ The stance is never rigid, always adjusting to meet the moment with strength and
 
 ---
 
-## Zero Trust Mindset in the Lineage of Modern Work
+## ZTM The Lineage of Modern Work
 
 Zero Trust Mindset is not a barrier to innovation.  
 It is the stance that makes innovation safe and sustainable.
