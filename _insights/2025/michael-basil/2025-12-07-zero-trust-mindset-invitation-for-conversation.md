@@ -24,7 +24,7 @@ But architecture alone is not enough.
 Policies alone are not enough.  
 Buying tools is not enough.
 
-This article explores the mindset behind Zero Trust.  
+This article explores the mindset driving Zero Trust.  
 The human, organizational, and developmental posture that makes the architecture workable, sustainable, and supportive of innovation.
 
 This is an invitation for conversation.  
