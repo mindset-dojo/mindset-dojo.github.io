@@ -160,7 +160,7 @@ The stance is never rigid, always adjusting to meet the moment with strength and
 
 ---
 
-## ZTM and The Lineage of Modern Work
+## ZTM and the Lineage of Modern Work
 
 Zero Trust Mindset is not a barrier to innovation.  
 It is the stance that makes innovation safe and sustainable.
