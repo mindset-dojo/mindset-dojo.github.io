@@ -13,9 +13,9 @@ forms:
 excerpt: An open conversation for builders, engineers, security leaders, and the organizations they serve exploring the human and organizational mindset beneath Zero Trust architecture.
 ---
 
-### An open conversation for builders, engineers, security leaders, and the organizations they serve.
+*An open conversation for builders, engineers, security leaders, and the organizations they serve*
 
-Modern systems grow fast and fail in surprising ways. 
+Modern systems grow fast and fail in surprising ways.  
 Teams move quickly, boundaries blur, workloads drift across clouds, and identities, both human and non-human, multiply faster than yesterday’s architecture can handle.
 
 For many teams, “Zero Trust” exists primarily as a security architecture standard, most formally articulated in [NIST Special Publication 800-207](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-207.pdf).
