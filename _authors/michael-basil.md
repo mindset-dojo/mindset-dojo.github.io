@@ -15,7 +15,7 @@ leadership_designations:
 emoji_signature: ⛩️🌿
 custom_url: https://michael.basil.one
 about: |
-  ### Pattern-Led Architect, Advisor & Author
+  ### Customer-Focused Engineer and Strategist | Zero Trust Mindset
   
   I never expected taming parrots and navigating soccer scrums to prepare me for the world of identity, architecture, and human systems. Looking back, it makes perfect sense.
   
