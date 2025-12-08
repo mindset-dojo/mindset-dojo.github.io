@@ -19,7 +19,7 @@ Read the companion story: [The Ring and The Shadow](../ring-and-shadow/)
 
 There was once a student who arrived at community college burned out and cracked.
 
-In high school he had done everything: all the rigor, all the expectations, all the masking. His autistic-and-ADHD nervous system survived on fumes, constantly whiplashed between hyperfocus and overwhelm, shutdown and sprint. He graduated with trophies and fractures no one saw.
+In high school he had done everything: all the rigor, all the expectations, all the masking. His nervous system conditioning (autistic-and-ADHD) survived on fumes, constantly whiplashed between hyperfocus and overwhelm, shutdown and sprint. He graduated with trophies and fractures no one saw.
 
 Community college became a kind of convalescence. Part-time terms. Online classes. Long rides through suburbs. Majors changed when the system didn’t fit. His transcript looked strange: high GPA, low credits. He wasn’t lazy; he was pacing his life so he didn’t shatter again.
 
@@ -39,7 +39,7 @@ Admissions liked him—until they opened the transcript.
 To them, it was policy.
 To his body, it was déjà vu: the exact load that had nearly broken him.
 
-He walked the campus and did the math. Fifteen credits, plus commuting, plus the invisible work of being autistic and ADHD in a new environment. He had already watched that movie once. He knew how it ended.
+He walked the campus and did the math. Fifteen credits, plus commuting, plus the invisible work of having autistic and ADHD conditioning in a new environment. He had already watched that movie once. He knew how it ended.
 
 He could force it and likely shatter.
 Or walk away and let the dream go.
