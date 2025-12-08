@@ -106,4 +106,4 @@ bundle exec jekyll serve
 
 ### Engage
 
-- ⛩️ <https://mindset.dojo.center>
+- ⛩️ <https://mindset.dojo.center> 🙇
