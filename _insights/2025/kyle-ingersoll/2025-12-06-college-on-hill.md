@@ -19,7 +19,7 @@ Read the companion story: [The Ring and The Shadow](../ring-and-shadow/)
 
 There was once a student who arrived at community college burned out and cracked.
 
-In high school he had done everything: all the rigor, all the expectations, all the masking. His autistic nervous system survived on fumes. He graduated with trophies and fractures no one saw.
+In high school he had done everything: all the rigor, all the expectations, all the masking. His autistic-and-ADHD nervous system survived on fumes, constantly whiplashed between hyperfocus and overwhelm, shutdown and sprint. He graduated with trophies and fractures no one saw.
 
 Community college became a kind of convalescence. Part-time terms. Online classes. Long rides through suburbs. Majors changed when the system didn’t fit. His transcript looked strange: high GPA, low credits. He wasn’t lazy; he was pacing his life so he didn’t shatter again.
 
@@ -39,7 +39,7 @@ Admissions liked him—until they opened the transcript.
 To them, it was policy.
 To his body, it was déjà vu: the exact load that had nearly broken him.
 
-He walked the campus and did the math. Fifteen credits, plus commuting, plus the invisible work of being autistic in a new environment. He had already watched that movie once. He knew how it ended.
+He walked the campus and did the math. Fifteen credits, plus commuting, plus the invisible work of being autistic and ADHD in a new environment. He had already watched that movie once. He knew how it ended.
 
 He could force it and likely shatter.
 Or walk away and let the dream go.
@@ -85,14 +85,14 @@ The structure of the pipeline was “learn to question it well, then go work for
 
 And he saw the shape of his own plan for what it was:
 
-* Use the Tower’s Ring to grind through a course load his body had already rejected,
+* Use the Tower’s Ring to grind through a course load his autistic-and-ADHD body had already rejected,
 * to force open a college that criticized empire,
 * so he could more efficiently climb toward serving that empire somewhere else.
 
 The hypocrisy wasn’t just institutional. It was his: seeking a place that taught critique of the Labyrinth, while plotting to use that critique as a polished passport deeper into it.
 
 The first time the Hill’s door closed, his body had said no while his mind still idolized the place.
-Now, with the memory of the Ring still echoing in his chest, his conscience joined in.
+Now, with the Ring’s weight and his own Shadow still lingering, his conscience joined in.
 
 He let the ladder go. He let the Hill remain on the horizon—a place he could respect, but no longer chase as his salvation.
 
