@@ -110,4 +110,4 @@ He kept walking toward places that might, one day, grow into Orchards instead.
 Sometimes you come to the same door twice.
 
 The first time, your body tells you it can’t afford the price of admission.
-The second time, with the Ring’s weight and its Shadow still lingering, your conscience realizes it doesn’t want what’s on the other side.
+The second time, with the Ring’s weight and your own Shadow still lingering, your conscience realizes it doesn’t want what’s on the other side.
