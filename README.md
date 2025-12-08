@@ -106,5 +106,5 @@ bundle exec jekyll serve
 
 ### Engage
 
-- Contributions: [CONTRIBUTING](CONTRIBUTING.md)
 - [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](?tab=codespaces)
+- ⛩️ <https://mindset.dojo.center>
