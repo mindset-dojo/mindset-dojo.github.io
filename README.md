@@ -102,9 +102,8 @@ bundle exec jekyll serve
 
 - Small, focused pull requests make review easy.
 - Be direct, respectful, and mission-aligned: reflective, practice-ready, and action-oriented.
-- See [LICENSE](LICENSE.md) for reuse expectations and [CONTRIBUTING](CONTRIBUTING.md) to collaborate.
+- See [LICENSE](LICENSE.md) for reuse expectations.
 
 ### Engage
 
-- [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](?tab=codespaces)
 - ⛩️ <https://mindset.dojo.center>
