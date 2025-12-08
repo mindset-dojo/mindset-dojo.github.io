@@ -1,10 +1,10 @@
 ## 🥋 Mindset Dojo
 
-⛩️ <https://mindset.dojo.center>
+Mindset Dojo is an open-source research lab advancing AI-integrated technology leadership and next-generation engineering practices.
 
-### Purpose
+Ensure you read through the homepage for context and initial guidance. ⛩️ <https://mindset.dojo.center>
 
-Mindset Dojo is an open-source dojo for practicing the shift from intention to action. If you want a gentle first step, fork this repository, light up a GitHub Pages site, and publish your first author card and Insight article.
+If you want a gentle first exploratory step, fork this repository, light up a GitHub Pages site, and publish your first author card and Insight article.
 
 ### Quickstart: run your fork on GitHub Pages
 
