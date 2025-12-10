@@ -6,7 +6,7 @@ authors:
   - kyle-ingersoll
 forms:
   - stance
-  - organizer
+  - blameless-postmortum
   - four-patterns
 published_date: 2025-08-23
 refactored_date: 2025-11-07

@@ -9,7 +9,7 @@ authors:
 forms:
   - threshold
   - stance
-  - visionary
+  - blameless-postmortum
 excerpt: "When code becomes debt, only human guidance can teach AI the Way forward."
 ---
 During a recent pull request on the Mindset Dojo site, I refactored the Insights Stream code to be modular and added sorting by author. What began as a small change quickly became a **mountain** of code I barely understood.
