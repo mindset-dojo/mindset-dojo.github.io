@@ -1,12 +1,12 @@
 ---
 layout: form
-title: Blameless Postmortum
+title: Blameless Postmortem
 title_mark: Blameless
 published_date: 2025-12-10
 refactored_date: 2025-12-10
 authors:
 - kyle-ingersoll
-excerpt: Blameless Postmortum is Three Question Reflection done after a major incident or conflict within a Circle, where the blame is not put on the people, but the process that allowed that failure to occur.
+excerpt: Blameless Postmortem is Three Question Reflection done after a major incident or conflict within a Circle, where the blame is not put on the people, but the process that allowed that failure to occur.
 icon: fa-solid fa-fire-extinguisher
 tags:
   - meta
@@ -18,7 +18,7 @@ inspirations:
 
 # Intention
 
-Blameless Postmortum is [Three Question Reflection](../three-question-reflection/) done after a major incident or conflict within a [Circle](../circle/), where the blame is not put on the people, but the process that allowed that failure to occur.
+Blameless Postmortem is [Three Question Reflection](../three-question-reflection/) done after a major incident or conflict within a [Circle](../circle/), where the blame is not put on the people, but the process that allowed that failure to occur.
 
 ## Experience
 
