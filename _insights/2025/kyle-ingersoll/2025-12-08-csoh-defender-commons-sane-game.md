@@ -15,7 +15,7 @@ excerpt: Cloud Security Office Hours brings together practitioners from big tech
 
 ## Introduction
 
-As long term participants in Cloud Security Office Hours, [Kyle Ingersoll](../../kyle-ingersoll/) and [Michael Basil](../../michael-basil/) were asked to give a session about the fundamentals of Open Source and GitHub.
+As long term participants in Cloud Security Office Hours, [Kyle Ingersoll](../../authors/kyle-ingersoll/) and [Michael Basil](../../authors/michael-basil/) were asked to give a session about the fundamentals of Open Source and GitHub.
 
 They accepted, and decided that instead of writing a reflection article afterwards, they would use the article itself as the collaboration vehicle. Through distilled quotes, the CSOH community's personalities and passion can shine through.
 
