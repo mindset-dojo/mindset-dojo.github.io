@@ -16,7 +16,7 @@ inspirations:
   url: https://sre.google/workbook/postmortem-culture/
 ---
 
-# Intention
+## Intention
 
 Blameless Postmortem is [Three Question Reflection](../three-question-reflection/) done after a major incident or conflict within a [Circle](../circle/), where the blame is not put on the people, but the process that allowed that failure to occur.
 
