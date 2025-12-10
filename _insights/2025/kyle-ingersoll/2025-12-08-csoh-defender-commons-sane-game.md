@@ -1,7 +1,7 @@
 ---  
 layout: insight  
-title: "What I Love about Cloud Security Office Hours"  
-title_mark: "Love"  
+title: "Cloud Security Office Hours: The Defender’s Commons That Keeps Us Sane and in the Game"  
+title_mark: "Sane"  
 published_date: 2025-12-08
 refactored_date: 2025-12-10
 authors:  
