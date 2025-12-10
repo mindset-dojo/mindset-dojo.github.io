@@ -32,6 +32,10 @@ The following quotes are the voices of [Cloud Security Office Hours](https://cso
 
 ---
 
+> **Group 0 Quote goes here: Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.**
+
+---
+
 > **Group 1 Quote goes here: Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.**
 
 ---
