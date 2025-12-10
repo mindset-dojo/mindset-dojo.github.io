@@ -29,7 +29,47 @@ Prompts for the quotes include:
 
 The following quotes are the voices of Cloud Security Office Hours community members—practitioners from big tech companies, startups, consultancies, and public service roles—sharing what this space means to them and how it helps them navigate the realities of modern cloud security.
 
-> **[Wall of quotes from CSOH community members goes here]**
+---
+
+> **Group 1 Quote goes here: Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.**
+
+---
+
+> **Group 2 Quote goes here: Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.**
+
+---
+
+> **Group 3 Quote goes here: Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.**
+
+---
+
+> **Group 4 Quote goes here: Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.**
+
+---
+
+> **Group 5 Quote goes here: Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.**
+
+---
+
+> **Group 6 Quote goes here: Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.**
+
+---
+
+> **Group 7 Quote goes here: Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.**
+
+---
+
+> **Group 8 Quote goes here: Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.**
+
+---
+
+> **Group 9 Quote goes here: Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.**
+
+---
+
+> **Group 10 Quote goes here: Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.**
+
+---
 
 ## Conclusion
 
