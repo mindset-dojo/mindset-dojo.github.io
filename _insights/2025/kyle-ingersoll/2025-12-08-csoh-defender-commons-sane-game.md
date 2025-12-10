@@ -32,7 +32,7 @@ The following quotes are the voices of [Cloud Security Office Hours](https://cso
 
 ---
 
-> **Group 1 Quote goes here: Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.**
+> **“Cloud Security Office Hours feels like group therapy for defenders in the career maze—and a quiet commons where we learn how we actually want to do this work together.” - Kyle Ingersoll, Cloud Security Enthusist**
 
 ---
 
