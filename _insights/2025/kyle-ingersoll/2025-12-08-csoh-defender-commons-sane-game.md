@@ -1,11 +1,12 @@
 ---  
 layout: insight  
 title: "Cloud Security Office Hours: The Defender’s Commons That Keeps Us Sane and in the Game"  
-title_mark: "Sane"  
+title_mark: "Sane and in the Game"  
 published_date: 2025-12-08
 refactored_date: 2025-12-10
 authors:  
   - kyle-ingersoll
+  - michael-basil
 forms:
   - three-question-reflection
   - stillness-contemplation
@@ -15,19 +16,19 @@ excerpt: Cloud Security Office Hours brings together practitioners from big tech
 
 ## Introduction
 
-As long term participants in Cloud Security Office Hours, [Kyle Ingersoll](../../authors/kyle-ingersoll/) and [Michael Basil](../../authors/michael-basil/) were asked to give a session about the fundamentals of Open Source and GitHub.
+As long term participants in Cloud Security Office Hours, we ([Kyle Ingersoll](../../authors/kyle-ingersoll/) and [Michael Basil](../../authors/michael-basil/)) were asked to give a session about the fundamentals of Open Source and GitHub.
 
-They accepted, and decided that instead of writing a reflection article afterwards, they would use the article itself as the collaboration vehicle. Through distilled quotes, the CSOH community's personalities and passion can shine through.
+We accepted, and decided that instead of writing a reflection article afterwards, we use the article itself as the collaboration vehicle. Through distilled quotes, the CSOH community's personalities and passion can shine through.
 
-Prompts for the quotes include:
+Prompts for the reflection include:
 
 - Why I come to Cloud Security Office Hours
 - Why others might consider joining
 - A contribution I’m imagining for next year
 
-## Wall of CSOH Community Member Quotes
+## Real CSOH Community Member Quotes
 
-The following quotes are the voices of Cloud Security Office Hours community members—practitioners from big tech companies, startups, consultancies, and public service roles—sharing what this space means to them and how it helps them navigate the realities of modern cloud security.
+The following quotes are the voices of [Cloud Security Office Hours](https://csoh.org) community members—practitioners from big tech companies, startups, consultancies, and public service roles—sharing what this space means to them and how it helps them navigate the realities of modern cloud security.
 
 ---
 
@@ -73,4 +74,4 @@ The following quotes are the voices of Cloud Security Office Hours community mem
 
 ## Conclusion
 
-If this article pulls at you, join the [CSOH Commmunity](https://csoh.org/) Zoom Call on Friday mornings.
+If this article resonates, consider joining the [CSOH Commmunity](https://csoh.org/) Zoom Call on a Friday morning!
