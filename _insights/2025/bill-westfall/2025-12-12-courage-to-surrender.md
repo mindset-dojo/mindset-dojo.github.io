@@ -20,7 +20,7 @@ I viewed a video this week that had an opinionated take on the "Orans positure".
 
 I don't want to talk about the specific Catholic position on this, since that is an issue between a person and their belief. I have heard this criticism outside the context of the Catholic church, so I want to address the issue generally.
 
-The Orans posture is a bodily stance where you hold your hands and arms out at with palms facing upward; commonly used in meditation, prayer and church services. 
+The Orans posture is a bodily stance where you hold your hands and arms out at with palms facing upward; commonly used in meditation, prayer and church services.
 The Orans posture originated as an ancient gesture of supplication in Near Eastern and Egyptian cultures from the Late Bronze Age, symbolizing prayer toward deities. Early Christians adopted it, as seen in catacomb art, and it remained common for both laity and clergy in Western liturgy through the ninth century.
 In Eastern meditation, Sukhasana (Easy Pose) is the similar position that involves sitting cross-legged on the floor or a cushion, with legs comfortably crossed, spine straight, and hands resting palms-up on the knees or thighs.​ This position is for promoting stability for mindfulness, Zen, or Vipassana practices. Palms facing upward (often in Jnana mudra, thumbs touching index fingers) invites openness and energy flow.
 
