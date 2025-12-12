@@ -37,11 +37,11 @@ Share who you are and what you are practicing by shipping both an author card an
    mantra_mark: Repeat
    active: true
    join_date: 2025-01-01
-   program_level: -1
+   program_level: -8
    program_level_date: 2025-06-01
    leadership_designations: []
    emoji_signature: "✍️"
-   custom_url: https://example.com
+   custom_url: https://optional.custom.url.com
    about: |
      ### Summary
 
