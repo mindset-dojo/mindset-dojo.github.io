@@ -41,7 +41,7 @@ Share who you are and what you are practicing by shipping both an author card an
    program_level_date: 2025-06-01
    leadership_designations: []
    emoji_signature: "✍️"
-   custom_url: https://example.com
+   custom_url: 
    about: |
      ### Summary
 
