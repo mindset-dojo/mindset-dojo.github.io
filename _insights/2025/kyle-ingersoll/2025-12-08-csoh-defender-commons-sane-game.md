@@ -40,7 +40,9 @@ The following quotes are the voices of [Cloud Security Office Hours](https://cso
 
 ---
 
-> **Group 2 Quote goes here: Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.**
+> **"No more static keys,
+> Cloud roles grant temporary trust,
+> tokens pass, work flows" - Dane Kantner**
 
 ---
 
