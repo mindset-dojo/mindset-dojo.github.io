@@ -7,6 +7,7 @@ refactored_date: 2025-12-10
 authors:  
   - kyle-ingersoll
   - michael-basil
+  - stryker
 forms:
   - three-question-reflection
   - stillness-contemplation
@@ -36,7 +37,7 @@ The following quotes are the voices of [Cloud Security Office Hours](https://cso
 
 ---
 
-> **Group 1 Quote goes here: Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.**
+> **"YAML hates it when you forget double spaces. Also, this was fun! I hope. I think." ~[Stryker](../../authors/stryker)**
 
 ---
 
