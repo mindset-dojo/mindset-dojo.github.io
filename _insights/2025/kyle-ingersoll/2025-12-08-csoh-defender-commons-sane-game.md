@@ -7,6 +7,7 @@ refactored_date: 2025-12-10
 authors:  
   - kyle-ingersoll
   - michael-basil
+  - stryker
 forms:
   - three-question-reflection
   - stillness-contemplation
@@ -32,15 +33,17 @@ The following quotes are the voices of [Cloud Security Office Hours](https://cso
 
 ---
 
-> **Group 0 Quote goes here: Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.**
+> **“Cloud Security Office Hours feels like group therapy for defenders in the career maze—and a quiet commons where we learn how we actually want to do this work together.” - Kyle Ingersoll**
 
 ---
 
-> **Group 1 Quote goes here: Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.**
+> **"YAML hates it when you forget double spaces. Also, this was fun! I hope. I think." ~[Stryker](../../authors/stryker)**
 
 ---
 
-> **Group 2 Quote goes here: Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.**
+> **"No more static keys,
+> Cloud roles grant temporary trust,
+> tokens pass, work flows" - Dane Kantner**
 
 ---
 
@@ -60,7 +63,7 @@ The following quotes are the voices of [Cloud Security Office Hours](https://cso
 
 ---
 
-> **Group 7 Quote goes here: Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.**
+> *TG9yZW0gaXBzdW0gZG9sb3Igc2l0IGFtZXQgY29uc2VjdGV0dXIgYWRpcGlzY2luZyBlbGl0LiBTaXQgYW1ldCBjb25zZWN0ZXR1ciBhZGlwaXNjaW5nIGVsaXQgcXVpc3F1ZSBmYXVjaWJ1cyBleC4gQWRpcGlzY2luZyBlbGl0IHF1aXNxdWUgZmF1Y2lidXMgZXggc2FwaWVuIHZpdGFlIHBlbGxlbnRlc3F1ZS4=*
 
 ---
 
