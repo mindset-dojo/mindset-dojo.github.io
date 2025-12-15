@@ -42,6 +42,7 @@ A moment that matters.
 Because how you respond — too aggressively, too passively, or poorly timed — can mean the difference between **neutralizing a manipulation pattern** and **throwing the relationship out with the bathwater**.
 
 That relationship might be:
+
 - family  
 - a leadership team  
 - an organizational culture  
@@ -61,6 +62,7 @@ A false map is anchored early — not to explore reality, but to stabilize it. T
 The map isn’t entirely false. It’s **incomplete in a specific direction**.
 
 It leaves out:
+
 - real constraints  
 - second-order effects  
 - energy, timing, and fit  
@@ -74,6 +76,7 @@ That’s why others nod along — and why you sense misalignment first.
 ### The risk of getting it wrong
 
 When a false map takes hold, the pull is toward extremes:
+
 - expose it  
 - attack it  
 - submit to it  
@@ -90,6 +93,7 @@ That’s how people throw the baby out with the bathwater.
 A **mature security mindset** — a *martial mindset* — doesn’t rush to comply or collide.
 
 Like Aikido, it favors:
+
 - timing over force  
 - breath over reaction  
 - wise distance over domination  
