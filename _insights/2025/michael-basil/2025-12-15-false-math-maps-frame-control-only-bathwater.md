@@ -120,4 +120,4 @@ By the time logic arrives, a response is already forming.
 
 This capacity is built through **situational practice and reflection** — learning to notice activation, stay centered, and choose responses that reduce harm rather than amplify it.
 
-Lean into the converastion to Level Up.
+Lean into the conversation to Level Up.
