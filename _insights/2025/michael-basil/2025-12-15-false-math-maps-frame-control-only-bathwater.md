@@ -1,9 +1,9 @@
 ---
 layout: insight
 title: False Math, Maps, Frame Control — and How to Recalibrate Without Throwing the Baby Out With the Bathwater
-title_mark: False Math
-published_date: 2025-12-14
-refactored_date: 2025-12-14
+title_mark: Recalibrate
+published_date: 2025-12-15
+refactored_date: 2025-12-15
 authors:
   - michael-basil
 forms:
