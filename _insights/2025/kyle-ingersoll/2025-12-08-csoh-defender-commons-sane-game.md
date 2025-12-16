@@ -31,7 +31,7 @@ Here is our demonstration of a reflection quote contribution:
 
 > **“Cloud Security Office Hours feels like group therapy for defenders in the career maze—and a quiet commons where we learn how we actually want to do this work together.” - Kyle Ingersoll**
 
-Making this contribution demonstrated the connection between the repo and the rendered output through GitHub Pages. We worked through forking the repository, enabling GitHub Pages, modifying the local fork, inspecting to make sure it was rendering properly, making a upstream pull request, and negotating the contribution to merge.
+Making this contribution demonstrated the connection between the repository and the rendered output through GitHub Pages. We worked through forking the repository, enabling GitHub Pages, modifying the local fork, inspecting to make sure it was rendering properly, making a upstream pull request, and negotating the contribution to merge.
 
 ---
 
