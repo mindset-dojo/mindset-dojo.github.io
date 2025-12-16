@@ -1,7 +1,7 @@
 ---
 layout: insight
-title: What Makes Change Finally Root Deeply
-title_mark: Root Deeply
+title: What Makes Change Adoption Finally Root Deeply
+title_mark: Change Adoption
 published_date: 2025-12-16
 refactored_date: 2025-12-16
 authors:
