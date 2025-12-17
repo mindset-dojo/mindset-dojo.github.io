@@ -158,7 +158,7 @@ credit unions, co-ops, public options, transparent rails, free software—system
 
 ---
 
-**Insight**
+## Insight
 
 Sometimes a real gift comes from a system you still don’t trust.
 

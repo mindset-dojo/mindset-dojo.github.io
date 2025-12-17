@@ -255,7 +255,7 @@ The only safety worth having is the kind you don’t have to betray anyone to ke
 
 ---
 
-**Insight**
+## Insight
 
 There are victories that make you untouchable.
 
