@@ -3,10 +3,13 @@ layout: insight
 title: "A Demonstration Becomes a Dojo"
 title_mark: Demonstration
 published_date: 2025-10-23
-refactored_date: 2025-11-07
+refactored_date: 2025-12-17
 authors:
   - michael-basil
+  - kyle-ingersoll
 forms:
+  - martial-attitude
+  - stance
   - high-presence-networking
   - resonate
 excerpt: "A reflection on our recent MetaShift Community Demonstration with Zen Leader — Off the Cushion, where the wisdom of the crowd helped clarify our signature form: Martial Attitude as a Stance."
