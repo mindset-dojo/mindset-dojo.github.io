@@ -79,7 +79,7 @@ The cooks called it **Duty**. The servers called it **Security**.
 
 And above it, strung between the banners, one word kept repeating:
 
-*Legitimacy.*
+> ***Legitimacy.***
 
 The student watched people step forward with bowls. Many smiled as if they were finally warm.
 
@@ -99,7 +99,7 @@ He saw what the city never put on its banners: **the stew was made from people.*
 
 He understood it in one clean sentence:
 
-**My safety would be built on their suffering.**
+> **My safety would be built on their suffering.**
 
 And once he saw that, he couldn’t unsee it. A ladleful wasn’t “honorable service.” It was a small, willing agreement to live warm on a mountain of consequences that would never land on him.
 
@@ -201,7 +201,7 @@ The student reached for the first latch anyway.
 
 At the next bend in the road, they found a small workbench under a tree. No guards. No insignia. Just tools and a note nailed to the wood:
 
-**Build something that keeps someone else warm without burning anyone.**
+> **Build something that keeps someone else warm without burning anyone.**
 
 Shadow snorted. “That’s not how warmth works.”
 
