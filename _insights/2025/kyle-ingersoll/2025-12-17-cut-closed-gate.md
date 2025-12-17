@@ -34,6 +34,6 @@ And in that question, the blade turned inward. He saw that the very energy he tr
 
 Only when he softened into his One Point, let the breath settle, and extended Ki outward again — lightly, openly — did he understand the Sensei’s teaching:
 
-**A true Threshold is an invitation, not a test.
-A true Cut removes confusion, not people.
-And a true Driver is never rushed — only aligned.**
+> **A true Threshold is an invitation, not a test.  
+> A true Cut removes confusion, not people.  
+> And a true Driver is never rushed — only aligned.**  
