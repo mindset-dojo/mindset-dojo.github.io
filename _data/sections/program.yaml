@@ -118,9 +118,7 @@ sections:
           flows:
             - label: Resonate
               url: /forms/resonate/
-            - label: Integration Under Fire
-              url: /forms/integration-under-fire/
-            - label: Mat – Integration Under Fire
+            - label: Mat – Resonate & Resonance
               url: /forms/mat/
             - label: Level Up Transition
               url: /forms/level-up-transition/
@@ -131,9 +129,7 @@ sections:
           flows:
             - label: Martial Attitude
               url: /forms/martial-attitude/
-            - label: Meta
-              url: /forms/meta/
-            - label: Mat – Meta & Martial Attitude
+            - label: Mat – Martial Attitude
               url: /forms/mat/
             - label: Sensei
               url: /forms/sensei/
