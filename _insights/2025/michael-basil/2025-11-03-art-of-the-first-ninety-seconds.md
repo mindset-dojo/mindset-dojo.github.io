@@ -7,7 +7,6 @@ refactored_date: 2025-11-07
 authors:
   - michael-basil
 forms:
-  - meta
   - stance
   - driver
 excerpt: "A meta reflection on composing Driver, Organizer, Collaborator, and Visionary energies within the first ninety seconds to regulate trust."

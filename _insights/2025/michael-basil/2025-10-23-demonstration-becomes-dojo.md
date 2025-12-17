@@ -8,7 +8,6 @@ authors:
   - michael-basil
 forms:
   - high-presence-networking
-  - meta
   - resonate
 excerpt: "A reflection on our recent MetaShift Community Demonstration with Zen Leader — Off the Cushion, where the wisdom of the crowd helped clarify our signature form: Integration Under Fire."
 ---
