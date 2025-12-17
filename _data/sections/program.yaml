@@ -118,6 +118,8 @@ sections:
           flows:
             - label: Resonate
               url: /forms/resonate/
+            - label: Resonance
+              url: /forms/resonance/
             - label: Mat – Resonance
               url: /forms/mat/
             - label: Level Up Transition
