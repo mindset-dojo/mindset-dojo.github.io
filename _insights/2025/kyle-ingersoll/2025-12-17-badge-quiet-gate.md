@@ -41,13 +41,45 @@ At first, the offer shone like a sunrise.
 
 In the student’s mind, he saw the badge. He saw the gates opening. He saw the word *honorable* stamped across his name like an unbreakable seal. He felt the relief in his chest: *finally—proof.*
 
-Then something else appeared.
+He blinked, and the road was back under his feet.
 
-It wasn’t an enemy. It wasn’t even a person.
+Ahead, the land rose into walls—stone, steel, and order. A fortified city stood where the horizon had been, its banners snapping like certainty in the wind. People moved toward its gates in neat lines, papers in hand, eyes forward.
 
-It was a stew.
+At the entrance, a guard in a clean uniform held out his palm.
 
-A great iron pot sat at the center of a fortified city. Steam rose from it day and night. The cooks called it Duty. The servers called it Security. The banners above it read *Legitimacy*.
+“Name,” the guard said.
+
+The student gave it.
+
+“Purpose.”
+
+The student hesitated—just long enough to feel Shadow step closer behind him—then answered, “To serve.”
+
+The guard studied him, then nodded as if he’d heard the right password. He lifted a stamp—heavy, official—and pressed it onto the student’s paper. The sound was dull and final.
+
+“Good,” the guard said. “You picked a lucky day.”
+
+He tilted his head toward the inside of the walls, where music carried faintly over the stone.
+
+“Festival of Legitimacy,” the guard added, almost proud. “Once a year we feed the new ones. Warmth for the willing. A bowl for anyone who swears in.”
+
+The student felt a rush of relief, almost dizzying, as if the world itself had nodded.
+
+“Enter,” the guard said, and the gate swung open.
+
+Inside, the streets were bright with banners and steam. Fires burned under iron cauldrons. Servers moved like priests. People laughed with bowls in their hands, cheeks flushed, shoulders loose—as if something hard had finally been solved.
+
+In the center of it all sat the great pot.
+
+A stew.
+
+In the center of the festival sat a great iron pot, blackened by years of use. Steam rolled off it in thick, comforting waves, and the crowd moved around it like it was a hearth.
+
+The cooks called it **Duty**. The servers called it **Security**.
+
+And above it, strung between the banners, one word kept repeating:
+
+*Legitimacy.*
 
 The student watched people step forward with bowls. Many smiled as if they were finally warm.
 
