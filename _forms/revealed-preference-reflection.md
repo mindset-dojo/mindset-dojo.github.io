@@ -6,7 +6,7 @@ published_date: 2025-11-02
 refactored_date: 2025-11-02
 authors:
 - kyle-ingersoll
-excerpt: Revealed Preference Reflection is a combination of Stillness Contemplation and Integration Under Fire, analyzing one's desires through their actions.
+excerpt: Revealed Preference Reflection is a combination of Stillness Contemplation and Martial Attitude as a Stance, analyzing one's desires through their actions.
 icon: fa-solid fa-eye-dropper
 tags:
   - practice
@@ -22,7 +22,7 @@ inspirations:
 
 ## Intention
 
-Revealed Preference Reflection is a combination of [Stillness Contemplation](../stillness-contemplation) and [Integration Under Fire](../integration-under-fire), analyzing one's desires through their actions continuously. Through crossing a [Threshold](../threshold) and sacrificing something, like time or energy, to do so one reveals their priorities.
+Revealed Preference Reflection is a combination of [Stillness Contemplation](../stillness-contemplation) and [Martial Attitude](../martial-attitude) as a [Stance](../stance), analyzing one's desires through their actions continuously. Through crossing a [Threshold](../threshold) and sacrificing something, like time or energy, to do so one reveals their priorities.
 
 ## Experience
 

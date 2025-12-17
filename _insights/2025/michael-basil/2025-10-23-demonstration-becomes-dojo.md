@@ -9,7 +9,7 @@ authors:
 forms:
   - high-presence-networking
   - resonate
-excerpt: "A reflection on our recent MetaShift Community Demonstration with Zen Leader — Off the Cushion, where the wisdom of the crowd helped clarify our signature form: Integration Under Fire."
+excerpt: "A reflection on our recent MetaShift Community Demonstration with Zen Leader — Off the Cushion, where the wisdom of the crowd helped clarify our signature form: Martial Attitude as a Stance."
 ---
 Last weekend, Kyle Ingersoll and I had the opportunity to share with the [ZLOTC (Zen Leader Off the Cushion)](https://zenleader.global/zlotc-registration) community — hosted by the [Institute for Zen Leadership](https://zenleader.global/).
 
@@ -19,7 +19,7 @@ We arrived to demonstrate a form that has become foundational at the red level �
 
 What unfolded during the session was deeply clarifying.
 
-Through the *wisdom of the crowd* and the live energy of this invitation, we were able to distill and name what had previously been one of our more intuitive, less defined practices: **Integration Under Fire**.
+Through the *wisdom of the crowd* and the live energy of this invitation, we were able to distill and name what had previously been one of our more intuitive, less defined practices: [Martial Attitude](../martial-attitude) as a [Stance](../stance).
 
 It surfaced as our signature form — the practice of staying centered and responsive when intensity, uncertainty, and opportunity converge.  
 Rather than resist the energy, we align with it.  
