@@ -114,18 +114,18 @@ sections:
         - color: red
           label: 1st Kyu
           level: -1
-          intention: Integration
+          intention: Resonance
           flows:
             - label: Resonate
               url: /forms/resonate/
-            - label: Mat – Resonate & Resonance
+            - label: Mat – Resonance
               url: /forms/mat/
             - label: Level Up Transition
               url: /forms/level-up-transition/
         - color: black
           label: Shodan
           level: 1
-          intention: Meta
+          intention: Martial Attitude
           flows:
             - label: Martial Attitude
               url: /forms/martial-attitude/
