@@ -22,7 +22,7 @@ We arrived to demonstrate a form that has become foundational at the red level â
 
 What unfolded during the session was deeply clarifying.
 
-Through the *wisdom of the crowd* and the live energy of this invitation, we were able to distill and name what had previously been one of our more intuitive, less defined practices: [Martial Attitude](../martial-attitude) as a [Stance](../stance).
+Through the *wisdom of the crowd* and the live energy of this invitation, we were able to distill and name what had previously been one of our more intuitive, less defined practices: [Martial Attitude](../../forms/martial-attitude/) as a [Stance](../../forms/stance/).
 
 It surfaced as our signature form â€” the practice of staying centered and responsive when intensity, uncertainty, and opportunity converge.  
 Rather than resist the energy, we align with it.  
