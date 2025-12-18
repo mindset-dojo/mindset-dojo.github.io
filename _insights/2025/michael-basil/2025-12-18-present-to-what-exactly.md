@@ -26,6 +26,9 @@ In one village, the Wayfinder sat in the circle as people spoke of the weather, 
 They measured presence by posture:  
 eyes forward, hands empty, feet still.
 
+They spoke often of safety, and of getting things right the first time.  
+But rarely of returning when things went wrong.
+
 When the Wayfinder took out a small glowing stone to speak with a distant Gardener—someone actively preparing soil for a new orchard—the villagers bristled.
 
 “You’re not here,” they said.  
@@ -55,8 +58,11 @@ Some spoke of rain.
 Some spoke of aches.  
 But when someone stepped onto the mat, others met them—fully.
 
+Mistakes were not hidden there.  
+They were met, adjusted, and revisited.
+
 If a student left to train elsewhere for a moment, no one accused them of absence.  
-They trusted the rhythm.
+They trusted the rhythm—and the commitment to return.
 
 When the Wayfinder invested energy there, it came back shaped—  
 not perfect, but responsive.
@@ -70,6 +76,9 @@ Still later, the Wayfinder returned to the first village and said:
 “I am willing to return.  
 Again and again.  
 To improve the present and the future.  
+Not because it is perfect—  
+but because it is *workable*.
+
 But I will not pretend presence where nothing is tended.”
 
 The villagers replied,  
@@ -84,7 +93,8 @@ He gathered his seeds.
 From then on, he followed a simple rule:
 
 Presence is not where the body sits.  
-Presence is where attention *cultivates life*.
+Presence is where attention *cultivates life*—  
+with a willingness to come back, adjust, and try again.
 
 Some fields wanted performance.  
 Some wanted control.  
@@ -92,7 +102,7 @@ Some wanted the past poured endlessly onto the present.
 
 But the Wayfinder chose only fields that consented to growth.
 
-And when asked why he sometimes turned away,  
+And when asked why he sometimes tuned in elsewhere,  
 he would smile and say,
 
 > “I am always present. I am just careful about *what* I help grow.”
@@ -100,4 +110,5 @@ he would smile and say,
 ## Insight
 
 Presence without purpose is exhaustion.  
+Presence without return is performance.  
 Presence with commitment becomes practice.
