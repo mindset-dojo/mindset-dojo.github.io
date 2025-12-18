@@ -2,8 +2,8 @@
 layout: insight
 title: "You Are Free to Deny Free Will (But You Should Accept It)"
 title_mark: 
-published_date: 2025-12-19
-refactored_date: 2025-12-19
+published_date: 2025-12-17
+refactored_date: 2025-12-17
 authors:
   - bill-westfall
 forms:
