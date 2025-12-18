@@ -49,9 +49,9 @@ Connect with others in this phase — not as a requirement, but as a practice in
 
 As part of implementation, revisit the four principles to sense how they are taking shape in your nervous system and behavior during this phase. There is no expectation of mastery — simply awareness.
 
-- **Relax Completely** — Release excess energy.  
-- **Center with Intention** — Choose your axis. 
-- **Set the Tone** — Establish the field. 
+- **Relax Completely** — Release excess energy.
+- **Center with Intention** — Choose your axis.
+- **Set the Tone** — Establish the field.
 - **Stance is Ki** — Let posture carry energy.
 
 Revisit these questions each time you cross a level. Over time, your stance, presence, and patterns will reveal a clear arc.
