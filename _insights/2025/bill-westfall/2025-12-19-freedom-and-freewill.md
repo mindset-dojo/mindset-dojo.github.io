@@ -31,23 +31,23 @@ I think anyone trying to answer that would ask me for my conditions and explanat
 
 Someone might argue that's because the scenario is too complex for us currently to understand , because there are too many parameters involved. But here's an argument against that:
 
-Quantum superposition principle states that quantum systems exist in a combination of multiple states simultaneously, described by probability amplitudes rather than a definite state.  Superposition supports the results of the famous double slit experiment in physics, where we can only know the probability of a state. 
+Quantum superposition principle states that quantum systems exist in a combination of multiple states simultaneously, described by probability amplitudes rather than a definite state.  Superposition supports the results of the famous double slit experiment in physics, where we can only know the probability of a state.
 
 While particles don't exhibit free will in the human sense, we can see that parsing things down to the quantum level we still can't determine a state given a system, we can only have a probability.
 
-So this means we have issues with materialistic predictability at both the human decision and quantum levels. 
+So this means we have issues with materialistic predictability at both the human decision and quantum levels.
 Some would argue we could make predictions at a Newtonian, large object level, that is in between complexity of particles and humans. But here is a case where that didn't work out:
 
 In 2012, Felix Baumgartner jumped from space to break the highest parachute sky dive record. He jumped from 127,852 feet, and landed safely in the New Mexico desert.
-For a period during his jump, he began to spin in circles at an extremely fast speed. There was a fear that he would black out from the G forces present in the spin. He eventually controlled his spin and landed safely. 
-But given this was a highly funded and trained for jump, the parameters possible almost led to the jumper passing out. 
+For a period during his jump, he began to spin in circles at an extremely fast speed. There was a fear that he would black out from the G forces present in the spin. He eventually controlled his spin and landed safely.
+But given this was a highly funded and trained for jump, the parameters possible almost led to the jumper passing out.
 If predictability was possible at the Newtonian scale, we can also see that this is not possible to any truly reliable manner.
 
 Where does that leave free will?
 
 I believe given our inability to predict the material world at any given level, and the truth that human decision making would be at a higher level than even those levels, there is not a possible coherent universe where the current state of people in the universe and their decision in real time in it is possible without free will.
 
-I also believe free will is critical to the concept of Mindset awareness and growth. The understanding that we can change the things that are within our sphere of influence is critical to making our Mindset functional. We want to understand these things that can be changed within ourselves and our sphere so that we can choose what to focus on, and how we want to adjust those parameters for maximum benefit. 
-If we did not have free will, there would be limited or no value out of a Mindset training, because we would be predestined to be the way we are. 
+I also believe free will is critical to the concept of Mindset awareness and growth. The understanding that we can change the things that are within our sphere of influence is critical to making our Mindset functional. We want to understand these things that can be changed within ourselves and our sphere so that we can choose what to focus on, and how we want to adjust those parameters for maximum benefit.
+If we did not have free will, there would be limited or no value out of a Mindset training, because we would be predestined to be the way we are.
 
 At the very least, it is beneficial to believe in free will to accept the possibility that your Mindset can change for the better. The possible value that would results far outweighs any benefit (if there are any) from believing in a materialist, determinist world.
