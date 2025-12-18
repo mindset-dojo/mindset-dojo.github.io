@@ -7,7 +7,6 @@ refactored_date: 2025-11-07
 authors:
   - michael-basil
 forms:
-  - meta
   - stance
   - organizer
 excerpt: "During a timed council trial, a warrior moves through Driver, Organizer, Collaborator, and Visionary stances to create alignment within the first ninety seconds."

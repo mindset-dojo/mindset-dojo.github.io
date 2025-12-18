@@ -78,7 +78,7 @@ What we mean by that is simple:
 - **Negatively trending** (pride, fear, anger, shame, etc.): we are moving *away* from coherance.
 - **Positively trending** (love, reason, peace, enlightenment, etc.): we are moving *towards* coherance.
 
-Blend with the energies and invite further up if they are postively trending to elevate the emotional state. If the energy wave is negatively trending, don't fight fire with fire. Blend into and connect with the energy without being consumed by it and offer a lifeline for your partner or yourself to allow a positive shift. See further details in [Integration under Fire](../integration-under-fire/).
+Blend with the energies and invite further up if they are postively trending to elevate the emotional state. If the energy wave is negatively trending, don't fight fire with fire. Blend into and connect with the energy without being consumed by it and offer a lifeline for your partner or yourself to allow a positive shift. See further details in [Martial Attitude](../martial-attitude) and [Stance](../stance).
 
 ### Conclusion
 

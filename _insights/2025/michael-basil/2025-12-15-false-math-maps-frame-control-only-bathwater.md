@@ -8,7 +8,6 @@ authors:
   - michael-basil
 forms:
   - stillness-contemplation
-  - meta
   - martial-attitude
 excerpt: >
   Have you ever sensed something was off when a “reasonable” explanation took over a

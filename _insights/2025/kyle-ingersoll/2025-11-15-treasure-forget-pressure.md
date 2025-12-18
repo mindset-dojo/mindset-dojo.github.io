@@ -7,7 +7,6 @@ refactored_date: 2025-11-16
 authors:
   - kyle-ingersoll
 forms:
-  - driver
   - stance
   - tone
 excerpt: “Under pressure, the student’s awareness shrank until even a priceless teaching seemed ordinary—only when his mind widened again did he recognize the treasure he nearly traded away.”
