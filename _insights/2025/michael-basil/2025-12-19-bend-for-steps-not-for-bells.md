@@ -9,7 +9,7 @@ authors:
 forms:
   - stillness-contemplation
   - collaborator
-excerpt: Collaborator energy often mobilizes on signal rather than movement. This insight marks a pattern disruption: collaboration responds to coordinated steps, not to bells that only test responsiveness.
+excerpt: "Collaborator energy often mobilizes on signal rather than movement. This insight marks a pattern disruption: collaboration responds to coordinated steps, not to bells that only test responsiveness."
 ---
 
 In a wide valley crossed by many paths, there grew different kinds of plants.
