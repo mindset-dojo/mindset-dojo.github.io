@@ -140,7 +140,7 @@ Your family.
 Even the conversations you have with yourself.
 
 You stop asking, *“What should I say?”*  
-And start asking, *“What energy is here—and can I stay present with it?”*
+And start asking, *“What energy is here—and what stance lets me stay present with it?”*
 
 That’s the language beneath our conversations.
 
