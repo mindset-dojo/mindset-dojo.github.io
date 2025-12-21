@@ -107,6 +107,7 @@ Not to be polite.
 But to give your body time to register what’s actually happening.
 
 In that breath, you notice:
+
 - what form of energy is present  
 - how it feels in your body  
 - what impulse is trying to take over  
