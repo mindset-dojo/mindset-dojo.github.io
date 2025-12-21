@@ -1,6 +1,6 @@
 ---
 layout: insight
-title: 'The "Stay Positive" Mindset Trap'
+title: The Stay Positive Mindset Trap
 title_mark: Mindset Trap
 published_date: 2025-12-21
 refactored_date: 2025-12-21
