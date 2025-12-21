@@ -12,7 +12,7 @@ forms:
 excerpt: "When positivity is offered before presence, it can lift attention away from the body and create more tension, not less. This piece explores a quieter alternative: noticing what happens beneath the words and returning to center so energy can move, even in a storm."
 ---
 
-This piece is a companion to [The Language Beneath Our Conversations](../../the-language-beneath-our-conversations).  
+This piece is a companion to [The Language Beneath Our Conversations](../the-language-beneath-our-conversations).  
 If you haven’t read that one yet, it’s worth starting there. This article continues the inquiry by looking at a familiar phrase that often appears when things get hard.
 
 “Stay positive.”
