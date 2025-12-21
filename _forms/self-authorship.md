@@ -25,7 +25,7 @@ inspirations:
 
 ## Intention
 
-Through regular writing to integrate the results of [Three Question Reflection](../three-question-reflection/), Self-Authors gain the ability to rewrite their own narrative through adjusting their [Stance](../stance/). As the writer progresses through the program, they can earn and maintain an Self-Authorship leadership designation. 
+Through regular writing to integrate the results of [Three Question Reflection](../three-question-reflection/), Self-Authors gain the ability to rewrite their own narrative through adjusting their [Stance](../stance/). As the writer progresses through the program, they can earn and maintain an Self-Authorship leadership designation.
 
 ## Experience
 
