@@ -81,7 +81,7 @@ I didn’t want to do all of Beta Threshold in one semester—college and recove
 
 And that’s where the title became literal:
 
-**Silence in the Dojo, Guardrails in the Repo.**
+**Silence in the Dojo, Guardrails in the Repository.**
 
 ### The MVP: scale by encoding intention
 
@@ -123,4 +123,4 @@ And the most “Aikido” move I can make as a builder is not to grip harder—b
 
 Silence in the dojo doesn’t mean absence. It means the container is doing its job. People can feel the boundaries without being grabbed.
 
-That’s what I’m building next: a repo that holds our intention so the humans can bring presence—so Fearless Leadership can spread through FEBI energy literacy and the open-source book we’re writing together.
+That’s what I’m building next: a repository that holds our intention so the humans can bring presence—so Fearless Leadership can spread through FEBI energy literacy and the open-source book we’re writing together.
