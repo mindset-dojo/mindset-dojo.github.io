@@ -10,7 +10,9 @@ active: true
 join_date: 2024-08-01
 program_level: -1
 program_level_date: 2025-11-13
-leadership_designations: []
+leadership_designations:
+  - type: program
+    value: Trusted Author
 emoji_signature: ⛩️🖥️
 custom_url: https://kyle.mindset.dojo.center
 about: |
