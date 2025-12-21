@@ -81,7 +81,9 @@ I didn’t want to do all of Beta Threshold in one semester—college and recove
 
 And that’s where the title became literal:
 
-**Silence in the Dojo, Guardrails in the Repository.**
+<!-- textlint-disable terminology -->
+**Silence in the Dojo, Guardrails in the Repo.**
+<!-- textlint-enable -->
 
 ### The MVP: scale by encoding intention
 
