@@ -17,8 +17,6 @@ excerpt: >
   present before responding.
 ---
 
-## The Language Beneath Our Conversations
-
 I want you to think of the most difficult person you regularly have to talk to.
 
 Don’t say their name.  
