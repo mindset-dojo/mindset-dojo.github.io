@@ -30,7 +30,7 @@ tension.
 
 I’m going to say something I don’t recommend.
 
-If you have the option, don’t choose it.
+If you have the option, don’t choose it (generally speaking).
 
 But it might be the best communication training program on earth.
 
