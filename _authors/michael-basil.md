@@ -3,7 +3,7 @@ layout: threshold
 sections_key: author
 mantra: "Attitude is Ki"
 mantra_mark: "Attitude"
-description: Pattern-led systems thinker integrating digital identity, secure flow, and complexity navigation across human and technical systems.
+description: Exploring how people and systems find direction under pressure across technology, leadership, and human dynamics.
 name: Michael Basil
 active: true
 join_date: 2019-01-01
@@ -15,24 +15,28 @@ leadership_designations:
 emoji_signature: ⛩️🌿
 custom_url: https://michael.basil.one
 about: |
-  ### Pattern-Led Architect, Advisor & Author
+  ### Technology, Language, and Leadership
   
-  I never expected taming parrots and navigating soccer scrums to prepare me for the world of identity, architecture, and human systems. Looking back, it makes perfect sense.
+  I never expected taming parrots and navigating soccer scrums to prepare me for work in technology transformation and human systems. Looking back, it makes perfect sense.
   
-  Growing up in my mom’s parrot shop, I learned to sense tension, trust, and edge-states by calming unruly macaws through relaxation rather than force. On the soccer pitch, I learned to move inside dynamic systems by reading flow, shifting rhythm, and adjusting position to keep the field coherent.
+  Growing up in my mom’s parrot shop, I learned to sense tension, trust, and edge-states by calming unruly macaws through presence rather than force. On the soccer pitch, I learned how systems stay coherent or fall apart based on rhythm, position, and shared direction.
   
-  With a computer engineering degree from the University of Illinois, I carried that same pattern-led approach into large-scale systems—from identity innovation with a U.S. patent filing to DevSecOps modernization, enterprise software, and organizational transformation. Along the way, I discovered that the hardest problems in technology and leadership are rarely technical. They’re complexity problems involving misaligned identities, unclear or assumed boundaries, incoherent roles, unspoken tension, and narratives that distort under load.
+  With a computer engineering degree from the University of Illinois, I carried that pattern awareness into digital identity, secure DevOps, enterprise platforms, and organizational transformation. Over time, a consistent pattern emerged: the hardest problems in technology and leadership are rarely technical. They arise when the language shaping decisions, roles, and relationships loses coherence under pressure.
   
-  Mindset Dojo emerged as an open-source human-systems project exploring what happens at the edges: nervous-system readiness, identity drift, relational gaps, and decision-making under pressure. It serves as a laboratory for understanding how people and systems break, adapt, and realign.
+  Mindset Dojo emerged from this inquiry as an open-source practice-ground exploring the language beneath our conversations. It is a place to study how people and systems break, adapt, and realign when the stakes are high.
   
-  Today I operate at the intersection of digital identity and human identity—where access, trust, and clarity matter most. I work with individuals and teams navigating high-stakes environments where technical systems, human systems, and growth demands converge.
+  Today, I work with individuals and teams navigating moments of transition, ambiguity, or acceleration. The work often begins not with answers, but with orienting toward a clearer future state and restoring shared direction while operating in the present.
   
-  If you’re building something meaningful and find yourself at an inflection point—where alignment and coherent identity determine what becomes possible next—let’s talk.
-
+  ### Working Together
+  
+  From time to time, I work one-on-one or with small groups who find themselves at an inflection point. These conversations are not about quick fixes. They are about slowing down enough to surface what is shaping the system, clarify direction, and move forward with coherence.
+  
+  If that feels relevant, you are welcome to reach out and begin a conversation.
+  
   ⛩️🌿
-
+  
   ### Connect
-
+  
   - [Email](mailto:michael@basil.one)
   - [LinkedIn](https://link.basil.one)
   - [Resume](https://resume.michael.basil.one)
