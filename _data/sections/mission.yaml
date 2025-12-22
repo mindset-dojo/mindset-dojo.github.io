@@ -2,20 +2,32 @@
 mantra: "Level Up"
 mantra_mark: "Level Up"
 description: |
-  In fast, uncertain, or high-pressure moments — especially in today’s
-  AI-accelerated world — mindset determines how much agency you have.
-  A small shift in awareness can change how you navigate conflict,
-  relationships, leadership, or complex work.
+  Mindset Dojo is a practice-ground for developing clarity, coherence, and
+  direction when the stakes are high.
 
-  Mindset Dojo is a collaborative research lab for mindset, behavior,
-  and presence — a living open-source book you can read, fork, and
-  contribute to. It runs on GitHub Pages, and the community can help
-  you get started if GitHub is new to you.
+  We focus on the language beneath our conversations the often unseen layer
+  where meaning, trust, identity, and momentum are shaped. When this layer
+  is coherent, people and systems move with purpose. When it breaks down,
+  even the best strategies stall.
 
-  This project is open-source because mindset work becomes more
-  effective when it’s transparent, collaborative, and shared. The book
-  is built from real reflections, experiments, and practice logs — a
-  living dataset of how people grow, adapt, and show up under pressure.
+  The Dojo brings together practitioners working across leadership,
+  technology transformation, secure delivery, AI-enabled work, and
+  organizational change. We study real moments of pressure and transition
+  and translate them into shared practices that help individuals and teams
+  orient toward what they are becoming.
+
+  Mindset Dojo is open-source by design. This work deepens when it is
+  transparent, lived, and shared. Essays, reflections, experiments, and
+  practice logs form a growing body of insight into how people and systems
+  level up their capacity under pressure.
+
+  We are currently in a phase of steady cultivation. In 2026, we expect to
+  extend invitations to expand the author community and are exploring an
+  early working concept for a book and talk series centered on
+  The Language Beneath Our Conversations.
+
+  If this resonates and you feel called to lean in, you are welcome to
+  reach out and start a conversation.
 sections:
   - type: markdown
     data:
@@ -23,32 +35,23 @@ sections:
   - type: quote
     data:
       text: |
-        Weekly reflection is one of the simplest, most effective habits I've
-        found. It costs nothing, builds clarity, and pairs beautifully with
-        modern AI.
+        Weekly reflection is one of the simplest and most effective ways
+        I know to build clarity and direction over time. It costs nothing
+        and pairs beautifully with modern AI.
 
-        With the help of key contributors, we open-sourced this work so no one
-        has to start alone.
+        With the help of early contributors, we chose to open this work
+        so that no one has to start alone.
 
         — Michael Basil, Founder
   - type: text
     data:
       label: "Pathway"
       items:
-        - "Explore — wander and follow curiosity."
-        - "Fork — create your own working copy."
-        - "Reflect — try a weekly practice log."
+        - "Explore — follow curiosity and notice what resonates."
+        - "Fork — create a working copy and make it your own."
+        - "Reflect — experiment with weekly practice logs."
         - "Connect — browse authors and reach out if you feel called."
-        - "Train — join Circle sessions if you feel called."
-  - type: text
-    data:
-      label: "Why Open-Source?"
-      items:
-        - "Mindset behaves like a system."
-        - "Open-source lowers the barrier to entry."
-        - "Weekly reflection builds real skill."
-        - "Shared logs form a living dataset."
-        - "You learn by exploring, not consuming."
+        - "Practice — join live circles or shared inquiries when available."
   - type: quote
     data:
       text: "The door opens as you're ready…"
