@@ -27,7 +27,7 @@ In ethical or character contexts (e.g., moral exhortation, virtue language), *te
 
 I then wanted to work the term backwards in time to ancient Hebrew. The closest I could find was the word that is used for "finished" in modern English.
 
-In Hebrew, the word shalam means: to be safe (in mind, body or estate); figuratively, to be (causatively, make) completed. 
+In Hebrew, the word shalam means: to be safe (in mind, body or estate); figuratively, to be (causatively, make) completed.
 
 So as we go back in time and language, the idea of perfection gets even more diluted. In this case, completeness is only the figurative meaning of the word, the actual meaning being "safe".
 
@@ -39,7 +39,7 @@ I asked AI for works of literature on the concept of perfection, and was happy t
 
 Frankenstein's goal is to create an ideal human form, only to produce a grotesque creature that shatters illusions of human mastery over life. Victor's hubris in pursuing godlike perfection leads to isolation, ruin, and the creature's vengeful rejection of its own imperfect existence.
 
-Frankenstein is a perfect distillation of the distorted quest to achieve our own concept of perfection. 
+Frankenstein is a perfect distillation of the distorted quest to achieve our own concept of perfection.
 
 In the end, I believe the dangerous track of perfection starts at the misguided attempt to even define it. Older cultures did not define it in our current way, except as an unattainable idea, like Plato's forms.
 
