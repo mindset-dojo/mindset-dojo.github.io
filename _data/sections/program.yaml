@@ -26,6 +26,8 @@ sections:
           flows:
             - label: Threshold
               url: /forms/threshold/
+            - label: Self-Authorship
+              url: /forms/self-authorship/
             - label: Dojo
               url: /forms/dojo/
             - label: Circle
