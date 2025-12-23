@@ -106,6 +106,7 @@ There is another practice that matters here — and it’s often misunderstood.
 The Stoics called it *negative visualization*.
 
 Not pessimism.  
+Not rumination.  
 Not spiraling.
 
 But completing the fear instead of suppressing it.
