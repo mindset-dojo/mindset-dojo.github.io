@@ -40,7 +40,7 @@ As you progress through the program, you can earn and maintain a Self-Authorship
 
 Contributing Author is at least Yellow Level, and publishes regularly. They get to publish Insight articles without human review if they pass the automated quality gates.
 
-Trusted Author is at least Red Level, and publishes regularly. They can override the automated quality gates for Insight articles, if needed, with the approval of another Trusted Author and publish. They also review changes to: Insights if necessary, Forms, and Principles.
+Trusted Author is at least Red Level, and publishes regularly. They can override the automated quality gates for Insight articles, and self-publish. They also review Insights if necessary.
 
 While a Contributing Author can change or introduce a Form with approval from a Trusted Author, only a Trusted Author with approval from another Trusted Author can change Principles.
 
