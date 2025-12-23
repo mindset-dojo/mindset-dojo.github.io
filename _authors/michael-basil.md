@@ -12,8 +12,6 @@ program_level_date: 2025-01-12
 leadership_designations:
   - type: program
     value: Sensei
-  - type: program
-    value: Trusted Author
 emoji_signature: ⛩️🌿
 custom_url: https://michael.basil.one
 about: |
