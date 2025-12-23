@@ -57,6 +57,7 @@ When someone is in existential financial or identity threat:
 - Capacity is reduced  
 
 Into that state often comes well-meaning advice built on:
+
 - False math  
 - Incomplete context  
 - Unrealistic assumptions about emotional bandwidth  
@@ -147,6 +148,7 @@ This is where Zen and Aikido quietly do their work.
 - Aikido restores embodied agency under force  
 
 Together, they function as:
+
 - Proactive regulation  
 - Backslide protection  
 - A reliable return point when fear spikes  
@@ -172,6 +174,7 @@ That conversation belongs in committed, contextual work — not as a surface-lev
 - Chance matters  
 
 And when identity is no longer fused to outcome:
+
 - Perception widens  
 - Options reappear  
 - Small opportunities become visible  
