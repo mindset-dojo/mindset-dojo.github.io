@@ -6,7 +6,7 @@ published_date: 2025-12-21
 refactored_date: 2025-12-21
 authors:
 - kyle-ingersoll
-excerpt: Through regular writing to integrate the results of Three Question Reflection, Self-Authors gain the ability to rewrite their own narrative through adjusting their Stance.
+excerpt: Through regular writing to integrate the results of practices like Stillness Contemplation and Three Question Reflection, Self-Authors gain the ability to rewrite their own narrative through adjusting their Stance.
 icon: fa-solid fa-pen
 tags:
   - responsibility
@@ -25,7 +25,7 @@ inspirations:
 
 ## Intention
 
-Through regular writing to integrate the results of [Three Question Reflection](../three-question-reflection/), Self-Authors gain the ability to rewrite their own narrative through adjusting their [Stance](../stance/). As the writer progresses through the program, they can earn and maintain an Self-Authorship leadership designation.
+Through regular writing to integrate the results of practices like [Stillness Contemplation](../stillness-contemplation/) and [Three Question Reflection](../three-question-reflection/), Self-Authors gain the ability to rewrite their own narrative through adjusting their [Stance](../stance/). As the writer progresses through the program, they can earn and maintain an Self-Authorship leadership designation.
 
 ## Experience
 
