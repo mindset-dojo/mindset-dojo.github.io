@@ -42,6 +42,4 @@ Contributing Author is at least Yellow Level, and publishes regularly. They get 
 
 Trusted Author is at least Red Level, and publishes regularly. They can override the automated quality gates for Insight articles, and self-publish. They also review Insights if necessary.
 
-While a Contributing Author can change or introduce a Form with approval from a Trusted Author, only a Trusted Author with approval from another Trusted Author can change Principles.
-
 Write regularly, make sure to reflect upon and discuss your writings with others in an [Authorship Circle](../circle/), and you are well on your way to gaining a Self-Authorship leadership designation!
