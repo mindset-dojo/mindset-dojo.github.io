@@ -2,7 +2,7 @@
 layout: threshold
 sections_key: author
 mantra: "Inner Ki, Outer KPI"
-mantra_mark: "Inner Ki,"
+mantra_mark: "Inner Ki"
 description: >
   College and Mindset Dojo Student. Skilled in metacognition, conversations, and computer. Last follower of the previous two incarnations of Mindset Dojo, and first of this version. 
 name: Kyle Ingersoll
