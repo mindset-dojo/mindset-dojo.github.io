@@ -91,7 +91,9 @@ if you genuinely have something materially tangible that could help —
 you can offer it.
 
 As an offer.  
-Not a projection.
+Not a projection.  
+Not a distraction.  
+Not an extraction.  
 
 Most people get this order wrong.  
 They rush — and never reach the offer.  
