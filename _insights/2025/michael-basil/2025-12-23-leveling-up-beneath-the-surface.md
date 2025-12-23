@@ -91,6 +91,7 @@ Mindset Dojo is not organized as a funnel designed to push people toward an outc
 It is designed as a **value stream**—a sequence of experiences through which value is delivered early, deepened through use, and expanded through choice.
 
 From a customer success and ethical growth perspective, the emphasis is on:
+
 - early usefulness  
 - progressive clarity  
 - increasing self-authorship  
