@@ -20,9 +20,9 @@ excerpt: >
 
 ## Who this is for
 
-This piece is written primarily for people already involved with Mindset Dojo—formally or informally—as a way to make our implicit model explicit and invite thoughtful critique.
+This piece is written primarily for practitioners working in **customer success, product, ethical sales, marketing, and business development**—especially those who are uneasy with extractive funnels, manufactured urgency, or persuasion that collapses complexity too early.
 
-It is also written for practitioners working in **customer success, product, ethical sales, marketing, and business development**—especially those who are uneasy with extractive funnels, manufactured urgency, or persuasion that collapses complexity too early.
+It is also written for people already involved with Mindset Dojo—formally or informally—as a way to make our implicit model explicit and invite thoughtful critique.
 
 If you are responsible for growth, adoption, or engagement *and* care about trust, agency, and long-term coherence, this article is an invitation to think alongside us.
 
