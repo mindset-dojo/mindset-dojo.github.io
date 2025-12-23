@@ -17,6 +17,9 @@ env/
 .venv*/
 .pytest_cache/
 
+# Node.js
+package-lock.json
+
 # GitHub Actions
 # (keep workflows; ignore only generated logs/artifacts)
 *.log

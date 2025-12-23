@@ -55,8 +55,8 @@ sections:
               url: /forms/stance/
             - label: Three Question Reflection
               url: /forms/three-question-reflection/
-            - label: Genuine Gratitude Expression
-              url: /forms/genuine-gratitude-expression/
+            - label: Self-Authorship
+              url: /forms/self-authorship/
             - label: Level Up Transition
               url: /forms/level-up-transition/
         - color: green

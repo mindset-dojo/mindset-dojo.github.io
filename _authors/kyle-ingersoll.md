@@ -1,8 +1,8 @@
 ---
 layout: threshold
 sections_key: author
-mantra: "Self-Sovereignty is Ki"
-mantra_mark: "Self-Sovereignty"
+mantra: "Inner Ki, Outer KPI"
+mantra_mark: "Inner Ki"
 description: >
   College and Mindset Dojo Student. Skilled in metacognition, conversations, and computer. Last follower of the previous two incarnations of Mindset Dojo, and first of this version. 
 name: Kyle Ingersoll
@@ -10,7 +10,9 @@ active: true
 join_date: 2024-08-01
 program_level: -1
 program_level_date: 2025-11-13
-leadership_designations: []
+leadership_designations:
+  - type: program
+    value: Trusted Author
 emoji_signature: ⛩️🖥️
 custom_url: https://kyle.mindset.dojo.center
 about: |
