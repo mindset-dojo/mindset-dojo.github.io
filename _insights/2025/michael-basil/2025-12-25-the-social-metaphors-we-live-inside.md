@@ -19,7 +19,7 @@ That might be personal transformation, navigating a career or relationship trans
 
 In all of these contexts, we eventually run into the same thing: ideas that make sense, intentions that are sincere, and energy that still get stuck.
 
-Often, what is stuck is not the strategy.
+Often, what creates the stuckness is not the strategy.
 
 It is the story.
 
