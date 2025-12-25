@@ -1,7 +1,7 @@
 ---
 layout: threshold
 sections_key: author
-mantra: "State before Strategy"
+mantra: "Shift State, Then Strategize"
 mantra_mark: "State"
 description: Exploring how people and systems find direction under pressure across technology, leadership, and human dynamics.
 name: Michael Basil
