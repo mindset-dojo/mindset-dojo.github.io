@@ -56,8 +56,8 @@ Once you feel more grounded, respond at the level of values or process rather th
 
 You might say something like:
 
-What matters to me is staying regulated and responding to what is actually happening.  
-I care about how we handle this, even if we see it differently.
+- What matters to me is staying regulated and responding to what is actually happening.  
+- I care about how we handle this, even if we see it differently.
 
 This is not disengagement.
 
@@ -70,13 +70,13 @@ The pull simply dissolves.
 
 Once things settle, a short reflection helps train you out of the knot over time.
 
-What story felt threatened, mine or theirs?  
-What was I trying to protect in that moment, truth, identity, or safety?  
-What would it look like to act with integrity without needing to be understood?
+- What story felt threatened, mine or theirs?  
+- What was I trying to protect in that moment, truth, identity, or safety?  
+- What would it look like to act with integrity without needing to be understood?
 
 ### What changes over time
 
-If you return to this loop again and again, awareness, grounding, reflection, something shifts.
+> If you return to this loop again and again, awareness, grounding, reflection, something shifts.
 
 Conflicts still arise.  
 But they no longer hook you the same way.
