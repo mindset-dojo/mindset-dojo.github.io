@@ -39,6 +39,7 @@ It’s energy.
 What I’m discovering more and more is that not everyone relates to these moments the same way.
 
 Sometimes the commitment is:
+
 - True only in that moment  
 - True in a particular mood or context  
 - Overtaken later by competing attention pulls I’m not part of  
@@ -63,7 +64,7 @@ In professional or business contexts especially, many people experience that as 
 
 That belief still lives in my body.
 
-What’s changed — through Mindset, Zen, Aikido, and other practices — is my recovery time. I may still feel the impact, but I don’t stay stuck in it for long. I reset and flow back into the day more quickly and more easily.
+What’s changed — through Mindset, Zen, Aikido, and other practices — is my reset time. I may still feel the impact, but I don’t stay stuck in it for long. I reset and flow back into the day more quickly and more easily.
 
 ---
 
@@ -76,16 +77,18 @@ It’s in whether the attention stays committed as circumstances shift.
 
 ---
 
-## The practice I’m developing
+## The reflex I’m developing
 
 My approach now isn’t to correct others.
 
 It’s to discern earlier:
+
 - When a commitment is likely to hold  
 - When it only feels true in the moment  
 - For which situations it’s wise to double-check before investing energy  
 
 Practically, that can look like:
+
 - Gently confirming as a meeting approaches  
 - Canceling when there’s no response  
 - Doing so in a respectful way that leaves a clear doorway back if and when real availability returns  
