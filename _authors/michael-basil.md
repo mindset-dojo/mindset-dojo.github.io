@@ -2,7 +2,7 @@
 layout: threshold
 sections_key: author
 mantra: "Shift State, Then Strategize"
-mantra_mark: "State"
+mantra_mark: "Shift State"
 meta: Helping capable professionals think clearly and feel more centered during disruption, transition, and high-stakes change.
 name: Michael Basil
 active: true
