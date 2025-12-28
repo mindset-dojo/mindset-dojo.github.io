@@ -3,7 +3,7 @@ layout: threshold
 sections_key: author
 mantra: null
 mantra_mark: null
-description: null
+meta: null
 name: Patrick Burke
 active: true
 join_date: 2024-12-01

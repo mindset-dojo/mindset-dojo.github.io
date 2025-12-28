@@ -3,7 +3,7 @@ layout: threshold
 sections_key: author
 mantra: null
 mantra_mark: null
-description: null
+meta: null
 name: Christian Aspinwall
 active: true
 join_date: 2025-11-13
