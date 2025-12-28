@@ -58,9 +58,9 @@ about: |
   These conversations are not about quick fixes or certainty.
   They are about slowing down enough to:
   
-  - restore orientation
-  - clarify what is actually at stake
-  - and move forward with greater coherence
+  - Restore orientation
+  - Clarify what is actually at stake
+  - Move forward with greater coherence
 
   If this feels relevant to where you are, you’re welcome to reach out.
   There’s no prescribed path — just a conversation to see whether the fit is right.

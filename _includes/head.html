@@ -9,9 +9,10 @@
     | default: data.mantra
     | default: site.title -%}
 
-  {%- assign raw_desc = page.meta
-    | default: page.description
+  {%- assign raw_desc = data.meta
     | default: data.description
+    | default: page.meta
+    | default: page.description
     | default: page.excerpt
     | default: site.description
     | default: site.title -%}

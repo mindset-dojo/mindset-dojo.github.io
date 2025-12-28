@@ -23,7 +23,7 @@ description: |
 
   The Dojo is open-source by design. We’ve chosen to open-source the
   authorship itself — essays, practice reflections, experiments, and
-  practice logs — as a shared commons, so people can find others like them
+  practice reflections — as a shared commons, so people can find others like them
   and not have to start alone.
 
   If this resonates, you’re welcome to explore, observe, or reach out.
@@ -35,14 +35,9 @@ sections:
   - type: quote
     data:
       text: |
-        Weekly reflection is one of the simplest and most effective ways
-        I know to regain orientation and build clarity over time. It costs
-        nothing and pairs beautifully with modern AI.
-
-        With the help of early contributors, we chose to open-source
-        the authorship itself as a commons — so people navigating similar
-        moments can recognize each other and begin from somewhere real.
-
+        Reflection restores orientation.
+        Shared reflection creates recognition.
+        That’s often enough to begin.
         — Michael Basil, Founder
   - type: text
     data:
