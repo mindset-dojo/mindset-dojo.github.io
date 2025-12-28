@@ -1,33 +1,33 @@
 ---
 mantra: "Level Up"
 mantra_mark: "Level Up"
+meta: A practice-ground for capable professionals navigating disruption or transition who want to think clearly and feel more centered as they resolve what’s next.
 description: |
-  Mindset Dojo is a practice-ground for developing clarity, coherence, and
-  direction when the stakes are high.
+  Mindset Dojo is a place for capable people navigating disruption,
+  transition, or high-stakes uncertainty — who want a better way to
+  think, and feel more centered and resourced, as they resolve what’s next.
 
-  We focus on the language beneath our conversations the often unseen layer
-  where meaning, trust, identity, and momentum are shaped. When this layer
-  is coherent, people and systems move with purpose. When it breaks down,
-  even the best strategies stall.
+  Many of us reach phases where the old playbooks stop working:
+  a role ends, a direction shifts, or the stakes rise faster than clarity.
+  What’s often missing isn’t intelligence or effort, but a space to orient —
+  to think clearly, with others, without pressure.
 
-  The Dojo brings together practitioners working across leadership,
-  technology transformation, secure delivery, AI-enabled work, and
-  organizational change. We study real moments of pressure and transition
-  and translate them into shared practices that help individuals and teams
-  orient toward what they are becoming.
+  Mindset Dojo brings together people who believe that thinking and
+  building skills together is a better way to navigate these phases
+  than doing it alone. We work at the level beneath tactics and advice —
+  where language, stance, and attention quietly shape what becomes possible.
 
-  Mindset Dojo is open-source by design. This work deepens when it is
-  transparent, lived, and shared. Essays, reflections, experiments, and
-  practice logs form a growing body of insight into how people and systems
-  level up their capacity under pressure.
+  This is not a program promising answers.
+  It is a practice-ground for developing clearer judgment, steadier
+  responses, and greater capacity under pressure — over time.
 
-  We are currently in a phase of steady cultivation. In 2026, we expect to
-  extend invitations to expand the author community and are exploring an
-  early working concept for a book and talk series centered on
-  The Language Beneath Our Conversations.
+  The Dojo is open-source by design. We’ve chosen to open-source the
+  authorship itself — essays, practice reflections, experiments, and
+  practice reflections — as a shared commons, so people can find others like them
+  and not have to start alone.
 
-  If this resonates and you feel called to lean in, you are welcome to
-  reach out and start a conversation.
+  If this resonates, you’re welcome to explore, observe, or reach out.
+  There is no required path — only thresholds you cross when you’re ready.
 sections:
   - type: markdown
     data:
@@ -35,26 +35,22 @@ sections:
   - type: quote
     data:
       text: |
-        Weekly reflection is one of the simplest and most effective ways
-        I know to build clarity and direction over time. It costs nothing
-        and pairs beautifully with modern AI.
-
-        With the help of early contributors, we chose to open this work
-        so that no one has to start alone.
-
+        Reflection restores orientation.
+        Shared reflection creates recognition.
+        That’s often enough to begin.
         — Michael Basil, Founder
   - type: text
     data:
-      label: "Pathway"
+      label: "Ways In"
       items:
-        - "Explore — follow curiosity and notice what resonates."
-        - "Fork — create a working copy and make it your own."
-        - "Reflect — experiment with weekly practice logs."
-        - "Connect — browse authors and reach out if you feel called."
-        - "Practice — join live circles or shared inquiries when available."
+        - "Explore — notice what resonates and what doesn’t."
+        - "Read & Reflect — engage with essays and practice reflections."
+        - "Contribute — add your perspective when it feels useful."
+        - "Connect — browse authors and reach out when there’s alignment."
+        - "Practice Together — join live conversations or circles when available."
   - type: quote
     data:
-      text: "The door opens as you're ready…"
+      text: "The door opens as you're ready..."
   - type: ctas
     data:
       items:
