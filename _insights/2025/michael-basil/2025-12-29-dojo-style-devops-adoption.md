@@ -52,7 +52,7 @@ In reality:
 The moment you try to change principles, **pattern thrashing** begins.
 
 Teams attempt new approaches.  
-Old reflexes surface as anti-patterns.  
+Old reflexes surface as antipatterns.  
 Friction increases.
 
 This isn’t failure — it’s feedback.
@@ -113,6 +113,7 @@ Adoption didn’t start with a program.
 It started with a **circle**.
 
 An open, recurring space where people could:
+
 - Be curious  
 - Ask questions  
 - Get unstuck  
@@ -182,6 +183,7 @@ It came from alignment:
 - **Adoption** was treated as a social system  
 
 The dojo created:
+
 - A safe place to practice new principles  
 - A way to surface resistance early  
 - A steady drumbeat that kept learning visible  
