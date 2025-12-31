@@ -135,6 +135,7 @@ Recognition is central.
 Change spreads not because people understand a model, but because they **recognize themselves in others’ experiences**, adapt the language locally, and retell those experiences authentically.
 
 When recognition happens:
+
 - tension lowers *for that person*  
 - engagement becomes easier  
 - movement feels voluntary  
@@ -182,7 +183,7 @@ It **holds the center** the wave returns to.
 
 Across contexts, one signal appears consistently:
 
-> **Once people have experienced these patterns, they stop using qualifiers.**
+> Once people have experienced these patterns, they stop using qualifiers.
 
 They no longer say:
 
