@@ -270,4 +270,4 @@ This model helps answer questions such as:
 > Dojo preserves form, first principles, and depth of practice.  
 > Change integrates through waves.**
 
-When this rhythm is understood, adoption stops feeling forced and starts feeling natural.
+When this rhythm is understood, adoption stops feeling forced and starts feeling inevitable.
