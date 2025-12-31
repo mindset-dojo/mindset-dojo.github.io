@@ -15,7 +15,7 @@ excerpt: >
   tension, recognition, and wave-like integration—to move change through people, teams, and networks.
 ---
 
-*This article is for people who have tried to help change actually take hold—whether in customer success, DevOps, agile, AI, organizational design, transformation programs, or as independent change agents—and have noticed that what works deeply doesn’t always spread, and what spreads doesn’t always change behavior.*
+*This article is for people who have tried to help change actually take hold—whether in customer success, DevOps, Agile, AI, organizational design, transformation programs, or as independent change agents—and have noticed that what works deeply doesn’t always spread, and what spreads doesn’t always change behavior.*
 
 ### A Theory of Change Adoption and Integration as a Wave
 
@@ -28,7 +28,7 @@ They adopt the language for a time.
 
 And then—often quietly—behavior settles back into familiar patterns.
 
-I’ve seen this repeatedly across years of experimentation inside **:contentReference[oaicite:0]{index=0}**, across multiple departments and teams, as well as in other organizations and in open, public experiments outside formal institutions.
+I’ve seen this repeatedly across years of experimentation inside large enterprises like SAP, across multiple departments and teams, as well as in small and medium sized organizations and in open, public experiments outside formal institutions.
 
 What follows is not a theory born from failure alone.  
 It emerged from **where change worked, where it didn’t, and—most importantly—where it continued to move**.
@@ -60,6 +60,7 @@ Nothing in a living system moves without tension.
 But tension is not uniform.
 
 Different people move under different conditions:
+
 - Some are drawn forward by curiosity and contradiction  
 - Others need recognition and familiarity first  
 - Some lean into pressure  
@@ -78,6 +79,7 @@ That modulation happens through **patterns of interaction**.
 This model did not begin as a framework.
 
 It emerged from observing the same dynamics across:
+
 - multiple departments and initiatives  
 - different leadership styles and readiness profiles  
 - structured enablement efforts  
@@ -85,6 +87,7 @@ It emerged from observing the same dynamics across:
 - internal transformation work and open, public experimentation  
 
 In some contexts, **Dojo-style work produced real capability**:
+
 - practices held under pressure  
 - behaviors changed, not just language  
 - people developed discernment and skill  
@@ -92,6 +95,7 @@ In some contexts, **Dojo-style work produced real capability**:
 But those efforts often struggled to *spread*.
 
 In other contexts, **Circle-based communities thrived**:
+
 - participation was high  
 - trust formed quickly  
 - people told their own stories  
@@ -120,6 +124,7 @@ A **Circle** is an adaptive, low-gradient pattern.
 It shapes how people orient, make sense of what’s happening, and recognize themselves in what is emerging.
 
 Circle enables:
+
 - shared language formation  
 - storytelling in one’s own voice  
 - recognition (“people like me are here”)  
@@ -138,6 +143,7 @@ Circles are **ephemeral and versatile**.
 They evolve quickly with local context, appear and fade, and seed new Circles elsewhere.
 
 This adaptability allows Circles to:
+
 - reduce friction  
 - invite participation  
 - modulate tension for others  
@@ -156,11 +162,13 @@ Unlike Circle, the Dojo evolves **much more slowly**.
 Its strength comes from being grounded in **first principles**, not local adaptation.
 
 The Dojo forms a **root system and trunk**:
+
 - roots anchored in fundamentals  
 - a trunk that carries practice across time  
 - stability that allows real capability to form  
 
 Because of this grounding, the Dojo:
+
 - preserves form  
 - protects rigor  
 - allows practice to deepen across waves of change  
@@ -177,10 +185,12 @@ Across contexts, one signal appears consistently:
 > **Once people have experienced these patterns, they stop using qualifiers.**
 
 They no longer say:
+
 - “that leadership circle”  
 - “that DevOps dojo”  
 
 They say:
+
 - **“The Circle”**  
 - **“The Dojo”**
 
@@ -266,8 +276,6 @@ This model helps answer questions such as:
 
 ## The Governing Insight
 
-> **Circle enables recognition, local language, and influence.  
-> Dojo preserves form, first principles, and depth of practice.  
-> Change integrates through waves.**
+> Circle enables recognition, local language, and influence. Dojo preserves form, first principles, and depth of practice. Change integrates through waves.
 
 When this rhythm is understood, adoption stops feeling forced and starts feeling inevitable.
