@@ -11,7 +11,7 @@ forms:
 excerpt: A working sensemaking map for people at a career crossroads, exploring why hiring processes often feel constricting and how capability, recognition, and marketing surfaces interact.
 ---
 
-*(for people at a career crossroads)*
+*This article is for people at a career crossroads...*
 
 When navigating a job transition, it’s common to feel like the task is to “market yourself.”  
 That framing often feels off — and for good reason.
@@ -31,6 +31,7 @@ What follows is a **working sensemaking map** — a model that continues to evol
 **The person is not the product.**
 
 A person expresses capabilities:
+
 - experience
 - judgment under pressure
 - pattern recognition
@@ -71,6 +72,7 @@ Helping the right people recognize relevance.
 
 **Marketing Surfaces / Interfaces**  
 Places where recognition can occur:
+
 - resume  
 - cover letter  
 - LinkedIn  
@@ -88,11 +90,13 @@ Each surface answers a different question.
 A structured capability brief.
 
 It answers:
+
 - What kinds of problems has this person stepped into?
 - Have they done it before?
 - Can they be trusted in this context?
 
 Different sections signal different things:
+
 - **Headline** → problem space + level  
 - **Summary** → orientation and value focus  
 - **Experience titles** → how the market categorizes the work  
@@ -108,6 +112,7 @@ Multiple versions aren’t dishonest — they’re tuning.
 Situational alignment.
 
 It reduces perceived risk at the moment of choice by answering:
+
 - Why this role?
 - Why now?
 - Why this person?
@@ -134,6 +139,7 @@ Attention isn’t the goal.
 Recognition happens when language matches lived experience.
 
 Different audiences need different recognition:
+
 - recruiters scanning quickly  
 - hiring managers under pressure  
 - internal referrers translating value  
@@ -145,6 +151,7 @@ This is why variation across interfaces is normal — and necessary.
 ## Learning Through the Process
 
 Moving through these interfaces teaches things:
+
 - what gets emphasized
 - what gets omitted
 - where language tightens
@@ -157,6 +164,7 @@ This learning is developmental, not just tactical.
 ## Where Tools and Training Help
 
 Not hacks or scripts — but tools for:
+
 - sensemaking under pressure  
 - tuning language to context  
 - practicing high-stakes conversations  
