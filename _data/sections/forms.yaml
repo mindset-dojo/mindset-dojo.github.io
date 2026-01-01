@@ -10,6 +10,11 @@ sections:
   - type: markdown
     data:
       field: description
+  - type: ctas
+    data:
+      items:
+        - label: Learn More
+          ref: connect
   - type: collection-stream
     data:
       collection: forms
