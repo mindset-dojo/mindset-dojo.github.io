@@ -154,8 +154,8 @@
   main > section.md-flow {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    align-items: center;
+    text-align: left;
+    align-items: stretch;
     padding: 2rem 1rem;
     max-width: 700px;
     margin: 0 auto;
@@ -170,7 +170,7 @@
   main > section.md-flow > h2,
   main > section.md-flow > p {
     max-width: 700px;
-    text-align: center;
+    text-align: left;
     margin: 0 auto 1rem;
     padding: 0 1rem;
   }
@@ -179,7 +179,7 @@
     max-width: 700px;
     margin: 0 auto 1.5rem;
     padding-left: 0;
-    text-align: center;
+    text-align: left;
   }
 
   main > section.md-flow > ul li { 
@@ -190,7 +190,7 @@
   main > section.md-flow > dl {
     max-width: 700px;
     margin: 0 auto 1.5rem;
-    text-align: center;
+    text-align: left;
     padding: 0;
   }
 
@@ -217,12 +217,20 @@
   main > section.md-flow.md-flow-markdown > p,
   main > section.md-flow.md-flow-markdown > ul,
   main > section.md-flow.md-flow-markdown > ol,
-  main > section.md-flow.md-flow-markdown > li,
   main > section.md-flow.md-flow-markdown > h1,
   main > section.md-flow.md-flow-markdown > h2,
   main > section.md-flow.md-flow-markdown > h3,
   main > section.md-flow.md-flow-markdown > h4 {
     text-align: left;
+    width: 100%;
+  }
+
+  /* Keep headings centered while body text stays left-aligned */
+  main > section.md-flow.md-flow-markdown > h1,
+  main > section.md-flow.md-flow-markdown > h2,
+  main > section.md-flow.md-flow-markdown > h3,
+  main > section.md-flow.md-flow-markdown > h4 {
+    text-align: center;
   }
 
   @media (width <= 600px) {
