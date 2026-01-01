@@ -1,6 +1,6 @@
 ---
 layout: threshold
 permalink: /
-css_id: mission
-sections_key: mission
+css_id: home
+sections_key: home
 ---

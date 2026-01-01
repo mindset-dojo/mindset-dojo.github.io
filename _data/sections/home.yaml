@@ -1,0 +1,18 @@
+---
+title: Principles First
+title_mark: Principles First
+meta: Principles first mindset training and authorship commons
+description: |
+  Mindset Dojo is a community for people who want to explore what it means to live a principles-first life — especially when it matters most.
+
+  This is a place for reflection, conversation, and practice, grounded in the belief that how we relate to pressure shapes who we become.
+sections:
+  - type: markdown
+    data:
+      field: description
+  - type: ctas
+    data:
+      items:
+        - label: Learn More
+          ref: orientation
+...

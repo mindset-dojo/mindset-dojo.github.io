@@ -27,29 +27,30 @@ defaults:
       article: true
 
 action_links:
-  authors: /authors/
-  program: /program/
+  commons: /commons/
   connect: https://connect.mindset.dojo.center
+  orientation: /orientation/
+  program: /program/
 
 header_links:
-  - label: MISSION
+  - label: HOME
     href: /
   - label: PROGRAM
     href: /program/
   - label: FORMS
     href: /forms/
-  - label: AUTHORS
-    href: /authors/
+  - label: COMMONS
+    href: /commons/
 
 footer_primary_links:
-  - label: MISSION
+  - label: HOME
     href: /
   - label: PROGRAM
     href: /program/
   - label: FORMS
     href: /forms/
-  - label: AUTHORS
-    href: /authors/
+  - label: COMMONS
+    href: /commons/
   - label: SUPPORT
     href: /support/
 

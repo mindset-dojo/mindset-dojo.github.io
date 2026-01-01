@@ -1,8 +1,12 @@
 ---
-mantra: "Don't Complain. Train."
-mantra_mark: "Train."
+title: "Don't Complain. Train."
+title_mark: "Train."
+meta: null
 description: "We are culture evolvers."
 sections:
+  - type: markdown
+    data:
+      field: description
   - type: collection-stream
     data:
       collection: forms

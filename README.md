@@ -31,10 +31,10 @@ Share who you are and what you are practicing by shipping both an author card an
    ---
    layout: threshold
    sections_key: author
-   name: Jane Doe
+   name: Alex Doe
    description: Short bio sentence.
-   mantra: "What you repeat, you become"
-   mantra_mark: Repeat
+   title: "What you repeat, you become"
+   title_mark: Repeat
    active: true
    join_date: 2025-01-01
    program_level: -8

@@ -1,0 +1,19 @@
+---
+title: The Commons
+title_mark: The Commons
+meta: null
+description: |
+  Reflections from members of the Mindset Dojo community.
+
+  Writing here is one way people practice thinking in public.  
+  Reading and offering thoughtful feedback are forms of participation too.
+
+  These reflections explore how principles hold — or drift — under real pressure, across many life and work contexts.
+sections:
+  - type: markdown
+    data:
+      field: description
+  - type: authors
+    data:
+      level_filter: true
+...

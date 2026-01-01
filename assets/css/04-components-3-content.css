@@ -127,7 +127,7 @@
     margin: 0;
   }
 
-  .card-grid-authors .md-author-card > p.author-card-mantra {
+  .card-grid-authors .md-author-card > p.author-card-title {
     font-style: italic;
   }
 

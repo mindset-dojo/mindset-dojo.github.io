@@ -31,18 +31,18 @@ if called without an author object.
     <h3 class="author-card-emoji-signature"> {{ author.emoji_signature }} </h3>
   {%- endif -%}
 
-  {%- assign mantra_value = author.mantra | to_s | strip -%}
-  {%- assign mantra_mark_value = author.mantra_mark | to_s | strip -%}
-  {%- assign has_mantra = mantra_value != "" and mantra_value != "null" -%}
-  {%- assign has_mantra_mark = mantra_mark_value != "" and mantra_mark_value != "null" -%}
-  {%- if has_mantra or has_mantra_mark -%}
-    {%- capture mantra_rendered -%}
-      {%- if has_mantra_mark -%}
-        {%- capture mark_html -%}<mark>{{ mantra_mark_value }}</mark>{%- endcapture -%}
-        {%- if has_mantra -%}
-          {%- assign replaced = mantra_value | replace_first: mantra_mark_value, mark_html -%}
-          {%- if replaced == mantra_value -%}
-            {{ mantra_value }} {{ mark_html }}
+  {%- assign title_value = author.title | to_s | strip -%}
+  {%- assign title_mark_value = author.title_mark | to_s | strip -%}
+  {%- assign has_title = title_value != "" and title_value != "null" -%}
+  {%- assign has_title_mark = title_mark_value != "" and title_mark_value != "null" -%}
+  {%- if has_title or has_title_mark -%}
+    {%- capture title_rendered -%}
+      {%- if has_title_mark -%}
+        {%- capture mark_html -%}<mark>{{ title_mark_value }}</mark>{%- endcapture -%}
+        {%- if has_title -%}
+          {%- assign replaced = title_value | replace_first: title_mark_value, mark_html -%}
+          {%- if replaced == title_value -%}
+            {{ title_value }} {{ mark_html }}
           {%- else -%}
             {{ replaced }}
           {%- endif -%}
@@ -50,10 +50,10 @@ if called without an author object.
           {{ mark_html }}
         {%- endif -%}
       {%- else -%}
-        {{ mantra_value }}
+        {{ title_value }}
       {%- endif -%}
     {%- endcapture -%}
-    <p class="author-card-mantra">{{ mantra_rendered | strip }}</p>
+    <p class="author-card-title">{{ title_rendered | strip }}</p>
   {%- endif -%}
 
   {%- assign ld = author.leadership_designations -%}
