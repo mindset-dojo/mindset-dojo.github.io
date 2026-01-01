@@ -28,7 +28,7 @@ defaults:
 
 action_links:
   commons: /commons/
-  connect: https://connect.mindset.dojo.center
+  connect: /connect/
   orientation: /orientation/
   program: /program/
 
@@ -41,6 +41,8 @@ header_links:
     href: /forms/
   - label: COMMONS
     href: /commons/
+  - label: CONNECT
+    href: /connect/
 
 footer_primary_links:
   - label: HOME
@@ -51,6 +53,8 @@ footer_primary_links:
     href: /forms/
   - label: COMMONS
     href: /commons/
+  - label: CONNECT
+    href: /connect/
   - label: SUPPORT
     href: /support/
 
