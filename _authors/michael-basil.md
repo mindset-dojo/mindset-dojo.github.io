@@ -17,53 +17,37 @@ custom_url: https://michael.basil.one
 about: |
   ### Orientation Under Pressure
 
-  I work with capable people who find themselves in moments where the old
-  playbooks stop working — a role ends, a direction shifts, or the stakes
-  rise faster than clarity.
+  I work with capable people and teams who find themselves in moments where the old playbooks stop working — a role ends, a direction shifts, or the stakes rise faster than clarity.
 
-  My work is less about advice or optimization and more about helping people
-  **think clearly and feel more centered as they resolve what's next**.
+  My work is less about advice or optimization and more about helping people **shift state first**, so they can think clearly and act from principle when pressure is on.
 
   When state shifts, strategy becomes possible.
 
-  Over the years, working across technology transformation, secure delivery,
-  leadership, and organizational change, one pattern has repeated:
-  the hardest problems are rarely technical. They emerge when the language
-  shaping decisions and relationships loses coherence under pressure.
+  Over time — across technology transformation, secure delivery, leadership, and organizational change — one pattern has repeated: the hardest challenges are rarely technical. They emerge when language, roles, and decision-making lose coherence under pressure.
 
-  Mindset Dojo grew out of this inquiry as an open-source practice-ground
-  focused on the language and stance beneath our conversations — where
-  direction, trust, and momentum are quietly formed or lost.
-  
+  In organizational settings, this shows up as stalled adoption, fragmented ownership, and initiatives that never quite gain traction — not because the strategy is wrong, but because the conditions for alignment and trust haven’t been established.
+
+  Mindset Dojo grew out of this inquiry as a principles-first practice-ground focused on the language and stance beneath our conversations — where direction, trust, and momentum are quietly formed or lost.
+
   ### How I Came to This Work
 
   I didn’t arrive here through theory alone.
 
-  Growing up around animals and competitive team environments taught me early
-  how tension, rhythm, and presence shape outcomes more reliably than force.
-  Later, as a computer engineer working in large-scale systems and leadership
-  contexts, I saw the same dynamics play out in human and organizational systems.
+  Growing up around animals and competitive team environments taught me early how tension, rhythm, and presence shape outcomes more reliably than force. Later, as a computer engineer working in large-scale systems and leadership contexts, I saw the same dynamics play out in human and organizational systems.
 
-  Over time, I became interested not just in *what* decisions were being made,
-  but in **the conditions under which better decisions become possible** —
-  especially during disruption or transition.
+  Over time, I became interested less in *what* decisions were being made and more in **the conditions under which better decisions become possible** — especially during disruption, transition, or sustained pressure.
 
   That question continues to guide my work.
 
   ### Working Together
 
-  From time to time, I work one-on-one or with small groups who are at an
-  inflection point — professionally, organizationally, or personally.
+  From time to time, I work one-on-one or with small groups who are at an inflection point — professionally, organizationally, or personally.
 
-  These conversations are not about quick fixes or certainty.
-  They are about slowing down enough to:
-  
-  - Restore orientation
-  - Clarify what is actually at stake
-  - Move forward with greater coherence
+  These conversations are not about quick fixes or certainty.  
+
+  They are about slowing down enough to restore orientation, clarify what is actually at stake, and move forward with greater coherence.
 
   If this feels relevant to where you are, you’re welcome to reach out.
-  There’s no prescribed path — just a conversation to see whether the fit is right.
   
   ⛩️🌿
   
