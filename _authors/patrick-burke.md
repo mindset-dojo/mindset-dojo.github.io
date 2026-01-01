@@ -1,8 +1,8 @@
 ---
 layout: threshold
 sections_key: author
-mantra: null
-mantra_mark: null
+title: null
+title_mark: null
 meta: null
 name: Patrick Burke
 active: true

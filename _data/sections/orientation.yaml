@@ -1,0 +1,26 @@
+---
+title: Welcome
+title_mark: Welcome
+meta: Orientation to the Mindset Dojo community and practice
+description: |
+  People here believe principles matter most under pressure, and that the mind can be trained to return to those principles when we drift.
+
+  When we train how we relate to pressure, tension, and uncertainty, we show up more in line with our principles — more often, and more sustainably.
+
+  People engage in different ways. Some reflect and share their thinking through writing. Some explore ideas together in conversation. Some apply mindset training, tools, and lenses that support awareness and flexibility in difficult situations.
+
+  This work shows up across many contexts — leadership, technology, martial arts, family, friendships, and personal practice.
+
+  You don’t need to know where you fit to begin. You’re welcome to explore, or reach out if you’d like to understand how this might apply in your world.
+sections:
+  - type: markdown
+    data:
+      field: description
+  - type: ctas
+    data:
+      items:
+        - label: Explore the Commons
+          ref: commons
+        - label: Learn More
+          ref: connect
+...

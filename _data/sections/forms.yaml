@@ -1,8 +1,20 @@
 ---
-mantra: "Don't Complain. Train."
-mantra_mark: "Train."
-description: "We are culture evolvers."
+title: "Don't Complain. Train."
+title_mark: "Train."
+meta: Participation forms for training and practice
+description: |
+  Forms support participation for community members who are actively training or engaging in specific practices within the program.
+
+  If you’d like more context about any of these forms or how they’re used, feel free to reach out.
 sections:
+  - type: markdown
+    data:
+      field: description
+  - type: ctas
+    data:
+      items:
+        - label: Learn More
+          ref: connect
   - type: collection-stream
     data:
       collection: forms

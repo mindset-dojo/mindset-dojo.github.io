@@ -1,0 +1,18 @@
+---
+title: Connect
+title_mark: Connect
+meta: Contact and connection with Mindset Dojo
+description: |
+  If something here resonates — or if you’re curious how this work might apply in your context — you’re welcome to reach out.
+sections:
+  - type: markdown
+    data:
+      field: description
+  - type: text
+    data:
+      label: Reach Out
+      items:
+        - "Email: <a href=\"mailto:sensei@dojo.center\">sensei@dojo.center</a>"
+        - "Video: <a href=\"https://connect.mindset.dojo.center\">Schedule</a>"
+        - "GitHub: <a href=\"https://github.com/mindset-dojo/mindset-dojo.github.io\">Engage</a>"
+...

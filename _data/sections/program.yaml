@@ -1,19 +1,25 @@
 ---
-mantra: "Don't Resist. Resonate."
-mantra_mark: "Resonate."
+title: Training
+title_mark: Training
+meta: Principles-first mindset training under pressure
 description: |
-  A layered training journey — presence, nervous-system skill, and
-  conversational leadership applied in real contexts. Each level functions
-  like a zone in a training game, gradually increasing your capacity to stay
-  connected and responsive under pressure. This is the inverse of distancing:
-  training resonance instead of resistance.
+  This page primarily serves people who are actively training, and is shared publicly to provide context for how the practice works.
+
+  Some people here choose to train more deliberately, developing their capacity to stay oriented to principles when pressure and tension increase. The training method offers structured ways to explore this relationship over time — strengthening awareness, flexibility, tone, and situational stance through repeated practice rather than conceptual understanding alone.
+
+  If you’d like more context about the training or how it’s used in practice, feel free to reach out.
 level_defaults:
   unranked_label: "Unranked"
   unranked_color: "white"
 sections:
-  - type: quote
+  - type: markdown
     data:
-      text: "A threshold appears — connect with a Sensei to enter."
+      field: description
+  - type: ctas
+    data:
+      items:
+        - label: Learn More
+          ref: connect
   - type: levels
     data:
       label: "Training Levels"
@@ -137,25 +143,4 @@ sections:
               url: /forms/sensei/
             - label: Level Up Transition
               url: /forms/level-up-transition/
-  - type: text
-    data:
-      label: "Mantra"
-      items:
-        - "Enter."
-        - "Train."
-        - "Level up."
-        - "Open gates within."
-        - "Open gates for others."
-        - "Always return to training."
-        - "Grow the field."
-  - type: ctas
-    data:
-      items:
-        - label: "Cross Threshold Zero"
-          ref: connect
-  - type: authors
-    data:
-      leadership_flow:
-        label: "⛩️💫 Authors"
-        limit: 16
 ...

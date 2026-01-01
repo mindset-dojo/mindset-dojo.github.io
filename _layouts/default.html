@@ -8,13 +8,12 @@
   <main aria-label="Content">
     {%- assign data = site.data.sections[page.sections_key] -%}
 
-    {%- assign base_h1     = page.mantra
-                               | default: page.title
-                               | default: data.mantra
+    {%- assign base_h1     = page.title
+                               | default: data.title
                                | default: site.title -%}
     {%- assign h1_mark_val = page.title_mark
-                               | default: page.mantra_mark
-                               | default: data.mantra_mark -%}
+                               | default: page.title_mark
+                               | default: data.title_mark -%}
 
     {%- if base_h1 -%}
       {%- if h1_mark_val -%}

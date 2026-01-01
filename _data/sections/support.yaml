@@ -1,39 +1,24 @@
 ---
-mantra: "Don't Drift. Engage."
-mantra_mark: "Engage."
+title: Support the Dojo
+title_mark: Support
+meta: Stewardship and contribution to Mindset Dojo
 description: |
-  Support Mindset Dojo by fueling an open-source training ground for
-  AI integrated mindset, tactical, and leadership skill. These
-  contributions keep energy flowing so more can train and publish their practice.
+  Mindset Dojo is sustained through shared responsibility and contribution.
+
+  Some forms of participation — especially deeper training — involve mutual support, commitment, and care for the people and practices involved.
+
+  If you’d like to support the dojo and the commons it holds, you’re welcome to contribute.
 sections:
   - type: markdown
     data:
       field: description
   - type: text
     data:
-      label: "Contribution Pathways"
+      label: Contribution
       items:
         - "<a href=\"https://50.contribute.mindset.dojo.center/\" target=\"_blank\" rel=\"noopener\">$50 Pulse</a>"
         - "<a href=\"https://100.contribute.mindset.dojo.center/\" target=\"_blank\" rel=\"noopener\">$100 Spark</a>"
         - "<a href=\"https://250.contribute.mindset.dojo.center/\" target=\"_blank\" rel=\"noopener\">$250 Ground</a>"
         - "<a href=\"https://500.contribute.mindset.dojo.center/\" target=\"_blank\" rel=\"noopener\">$500 Catalyze</a>"
         - "<a href=\"https://1000.contribute.mindset.dojo.center/\" target=\"_blank\" rel=\"noopener\">$1000 Temper</a>"
-  - type: text
-    data:
-      label: "Connection Channels"
-      items:
-        - "Email: <a href=\"mailto:sensei@dojo.center\">sensei@dojo.center</a>"
-        - "Video: <a href=\"https://connect.mindset.dojo.center\">Connect</a>"
-  - type: text
-    data:
-      label: "Open-Source Momentum"
-      items:
-        - "<a href=\"https://github.com/mindset-dojo/mindset-dojo.github.io\" target=\"_blank\" rel=\"noopener\">GitHub Repo</a> - please star it so others find the project, then fork it when you're ready to contribute."
-  - type: ctas
-    data:
-      items:
-        - label: "Schedule Conversation"
-          ref: connect
-        - label: "Star & Fork on GitHub"
-          url: https://github.com/mindset-dojo/mindset-dojo.github.io
 ...
