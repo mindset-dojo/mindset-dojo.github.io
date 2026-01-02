@@ -136,4 +136,3 @@ The Iron Palace is the distorted shortcut: a **synthetic Orchard** that offers t
 > **But the very pursuit of “untouchable” costs your One Point: your stance, your authorship.**
 
 The real Orchard builds safety slower—redundancy and chosen interdependence—so you don’t need a throne to exist.
-
