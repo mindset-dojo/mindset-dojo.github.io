@@ -70,8 +70,8 @@ The student flinched.
 
 The Sensei didn’t raise his voice.
 
-> **“In this world, everyone gets touched.”**
-> **“The question is whether you lose yourself when it happens.”**
+> **“In this world, everyone gets touched.”**  
+> **“The question is whether you lose yourself when it happens.”**  
 
 The student stared at the water. Something in him wanted to argue—then couldn’t find the words.
 
@@ -104,8 +104,8 @@ The water held level.
 
 Then the Sensei’s voice lowered, not in anger, but in precision.
 
-> **“The leash is never shown first.”**
-> **“First they show you the sword.”**
+> **“The leash is never shown first.”**  
+> **“First they show you the sword.”**  
 
 Then he reached out and lightly took the student’s wrist—no pain, no threat—just enough contact to guide. With a small turn and a half-step, he drew the student a fraction off his line, off his balance, like a door being opened an inch.
 
