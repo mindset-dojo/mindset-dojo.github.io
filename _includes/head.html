@@ -129,4 +129,8 @@
       {{ article_json_ld | strip }}
     </script>
   {%- endif -%}
+
+  {%- if site.google_analytics_id -%}
+    {%- include analytics.html -%}
+  {%- endif -%}
 </head>
