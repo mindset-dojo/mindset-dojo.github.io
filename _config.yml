@@ -29,8 +29,8 @@ defaults:
 action_links:
   commons: /commons/
   connect: /connect/
-  orientation: /orientation/
   program: /program/
+  welcome: /welcome/
 
 header_links:
   - label: HOME
