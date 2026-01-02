@@ -17,7 +17,7 @@ A student stood at the gate of the Gilded Labyrinth, staring up at the high wall
 
 Above the gate hung a banner:
 
-**“Be useful now. Be safe later.”**
+> **“Be useful now. Be safe later.”**
 
 He’d tried other doors—transfer doors, scholarship doors, doors that only opened if you had the right timing—and could wear the right wiring like a mask. Most were locked. Some demanded a price that felt like a lifetime.
 
@@ -34,7 +34,7 @@ And wrapped around the Tower’s base stood the Iron Palace: the sword that kept
 
 From within its walls came an offer—quiet, absolute:
 
-**“Join us, and you’ll be taken care of.”**
+> **“Join us, and you’ll be taken care of.”**
 
 It sounded like an Orchard grown overnight: a tribe, a floor, a purpose—safety without the slow work of roots.
 
@@ -62,9 +62,16 @@ The Sensei’s gaze didn’t waver. “I know how that feels,” he said. “I�
 
 He nodded once. “So tell me this—do you want the mission… or do you want what the mission gives you permission to do?”
 
-The student flinched. “The mission is the permission. It’s the story that makes force feel righteous. And I want what that buys—power no one can question.”
+The student flinched.
 
-“In this world,” the Sensei said, “everyone gets touched. The question is whether you lose yourself when it happens.”
+> **“The mission is the permission.”**
+
+“It’s the story that makes force feel righteous. And I want what that buys—power no one can question.”
+
+The Sensei didn’t raise his voice.
+
+> **“In this world, everyone gets touched.”**
+> **“The question is whether you lose yourself when it happens.”**
 
 The student stared at the water. Something in him wanted to argue—then couldn’t find the words.
 
@@ -83,19 +90,22 @@ The Sensei placed a hand near the bowl but didn’t touch it.
 The student’s stomach tightened, as if “no-worth” had a weight.
 “But I need safety. Independence. I can’t rely on one person. Or one institution.”
 
-The Sensei smiled. “Good. Then stop calling dominance ‘independence.’”
+The Sensei smiled.
+
+> **“Good. Then stop calling dominance ‘independence.’”**
 
 He slid the bowl forward. “Here is the Orchard’s way of being touched without losing yourself: **redundancy**.”
 
 He pointed to the water.
 
-“Not above. Not below. Still here.”
+> **“Not above. Not below. Still here.”**
 
 The water held level.
 
 Then the Sensei’s voice lowered, not in anger, but in precision.
 
-“The leash is never shown first,” the Sensei said. “First they show you the sword.”
+> **“The leash is never shown first.”**
+> **“First they show you the sword.”**
 
 Then he reached out and lightly took the student’s wrist—no pain, no threat—just enough contact to guide. With a small turn and a half-step, he drew the student a fraction off his line, off his balance, like a door being opened an inch.
 
@@ -119,8 +129,11 @@ And for the first time, “nobody” felt a little more like belonging than eras
 
 ## Insight
 
-The Labyrinth doesn’t trap you with locks—it traps you with sunk-cost “yeses” until turning back feels impossible.
+> **The Labyrinth doesn’t trap you with locks—it traps you with sunk-cost “yeses” until turning back feels impossible.**
 
-The Iron Palace is the distorted shortcut: a **synthetic Orchard** that offers tribe, purpose, and a promised floor—fast—if you accept permission as your spine. **But the very pursuit of “untouchable” costs your One Point: your stance, your authorship.**
+The Iron Palace is the distorted shortcut: a **synthetic Orchard** that offers tribe, purpose, and a promised floor—fast—if you accept permission as your spine.
+
+> **But the very pursuit of “untouchable” costs your One Point: your stance, your authorship.**
 
 The real Orchard builds safety slower—redundancy and chosen interdependence—so you don’t need a throne to exist.
+
