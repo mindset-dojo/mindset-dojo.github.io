@@ -121,6 +121,6 @@ And for the first time, “nobody” felt a little more like belonging than eras
 
 The Labyrinth doesn’t trap you with locks—it traps you with sunk-cost “yeses” until turning back feels impossible.
 
-The Iron Palace is the distorted shortcut: a **synthetic Orchard** that offers tribe, purpose, and a promised floor—fast—if you accept permission as your spine. But “untouchable” bought that way costs your One Point: your stance, your authorship. 
+The Iron Palace is the distorted shortcut: a **synthetic Orchard** that offers tribe, purpose, and a promised floor—fast—if you accept permission as your spine. **But the very pursuit of “untouchable” costs your One Point: your stance, your authorship.**
 
 The real Orchard builds safety slower—redundancy and chosen interdependence—so you don’t need a throne to exist.
