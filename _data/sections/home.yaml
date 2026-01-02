@@ -14,5 +14,5 @@ sections:
     data:
       items:
         - label: Learn More
-          ref: orientation
+          ref: welcome
 ...
