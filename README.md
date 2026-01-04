@@ -25,7 +25,7 @@ If you want a gentle first exploratory step, fork this repository, light up a Gi
 
 Share who you are and what you are practicing by shipping both an author card and a first Insight.
 
-1. Add your author card under `_authors/` with your slug, e.g., `_authors/jane-doe.md`:
+1. Add your author card under `_authors/` with your slug, e.g., `_authors/alex-doe.md`:
 
    ```yaml
    ---
@@ -49,14 +49,14 @@ Share who you are and what you are practicing by shipping both an author card an
 
      ### Connect
 
-     - [Email](mailto:jane@example.com)
-     - [LinkedIn](https://linkedin.com/in/janedoe)
+     - [Email](mailto:alex@example.com)
+     - [LinkedIn](https://linkedin.com/in/alexdoe)
    ---
 
    ```
 
    - Mirror any additional optional fields you see in existing author cards to stay consistent.
-2. Create your first Insight under `_insights/<year>/<your-slug>/`, e.g., `_insights/2025/jane-doe/2025-06-15-beginner-mind.md`:
+2. Create your first Insight under `_insights/<year>/<your-slug>/`, e.g., `_insights/2025/alex-doe/2025-06-15-beginner-mind.md`:
 
    ```yaml
    ---
@@ -66,7 +66,7 @@ Share who you are and what you are practicing by shipping both an author card an
    published_date: 2025-06-15
    refactored_date: 2025-06-15
    authors:
-     - jane-doe
+     - alex-doe
    forms:
      - threshold
    excerpt: |
