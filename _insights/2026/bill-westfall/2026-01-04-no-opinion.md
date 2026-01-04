@@ -50,7 +50,7 @@ I asked AI for some information on miscarriage and this is what it said:
 "Globally, an estimated 23 million pregnancies end in miscarriage each year, equating to about 44 losses every minute."
 "Most miscarriages—around 80%—occur very early, during the first trimester (up to 13 weeks of pregnancy), with the highest risk in the first few weeks after conception. Of these early losses, a large portion happen before 6 weeks, often before many people even confirm pregnancy via ultrasound, sometimes classified as chemical pregnancies shortly after implantation."
 
-So if we had to practically police miscarriages for possible instances of manslughter, how would we be able to track 23 million of them every year? Somewhat like the pro choice argument, we hit an incredulous implementation. 
+So if we had to practically police miscarriages for possible instances of manslughter, how would we be able to track 23 million of them every year? Somewhat like the pro choice argument, we hit an incredulous implementation.
 
 The abortion debate has some very interesting aspects of it:
 
