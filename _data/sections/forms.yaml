@@ -24,4 +24,3 @@ sections:
       tag_filter: true
       card_layout: true
       item_partial: sections/form-card.html
-...

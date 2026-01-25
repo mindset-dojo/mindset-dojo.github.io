@@ -15,4 +15,3 @@ sections:
   - type: authors
     data:
       level_filter: true
-...

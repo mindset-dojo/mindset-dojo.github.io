@@ -32,4 +32,3 @@ sections:
       item_partial: sections/form-card.html
       related_toggle: true
       related_toggle_id: author-forms
-...
