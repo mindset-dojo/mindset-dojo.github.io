@@ -3,58 +3,29 @@ title: Mindset Dojo
 
 google_analytics_id: G-7PD1BFF7RG
 
-collections:
-  authors:
-    output: true
-    permalink: /authors/:name/
-  insights:
-    output: true
-    permalink: /insights/:slug/
-  forms:
-    output: true
-    permalink: /forms/:slug/
+collections: {}
 
-defaults:
-  - scope:
-      path: ""
-      type: insights
-    values:
-      article: true
-  - scope:
-      path: ""
-      type: forms
-    values:
-      article: true
+defaults: []
 
 action_links:
-  commons: /commons/
   connect: /connect/
-  program: /program/
   welcome: /welcome/
 
 header_links:
   - label: HOME
     href: /
-  - label: PROGRAM
-    href: /program/
-  - label: COMMONS
-    href: /commons/
+  - label: WELCOME
+    href: /welcome/
   - label: CONNECT
     href: /connect/
 
 footer_primary_links:
   - label: HOME
     href: /
-  - label: PROGRAM
-    href: /program/
-  - label: FORMS
-    href: /forms/
-  - label: COMMONS
-    href: /commons/
+  - label: WELCOME
+    href: /welcome/
   - label: CONNECT
     href: /connect/
-  - label: SUPPORT
-    href: /support/
 
 footer_secondary_links:
   - label: Privacy Policy
