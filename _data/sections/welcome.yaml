@@ -30,4 +30,3 @@ sections:
       items:
         - label: Connect
           ref: connect
-...
