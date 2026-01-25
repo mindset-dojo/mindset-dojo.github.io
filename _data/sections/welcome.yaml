@@ -1,17 +1,26 @@
 ---
 title: Welcome
 title_mark: Welcome
-meta: Orientation to the Mindset Dojo community and practice
+meta: Orientation to the Mindset Dojo work
 description: |
-  People here believe principles matter most under pressure, and that the mind can be trained to return to those principles when we drift.
+  Mindset Dojo explores why well-intended strategic change efforts often stall —
+  even when the goals are clear, the incentives are aligned, and the people involved
+  are capable and motivated.
 
-  When we train how we relate to pressure, tension, and uncertainty, we show up more in line with our principles — more often, and more sustainably.
+  Over time, patterns form.
+  They shape how decisions are made, how risk is handled, and how change is absorbed.
+  When those patterns remain unseen, change slows or fractures.
+  When they are recognized and worked with, movement becomes possible again.
 
-  People engage in different ways. Some reflect and share their thinking through writing. Some explore ideas together in conversation. Some apply mindset training, tools, and lenses that support awareness and flexibility in difficult situations.
+  This work is currently being re-formed into a small set of applied patterns,
+  presented through a narrative format inspired by *The Goal*,
+  *Fearless Change*, and real-world adoption efforts.
 
-  This work shows up across many contexts — leadership, technology, martial arts, family, friendships, and personal practice.
+  That work is not yet published.
 
-  You don’t need to know where you fit to begin. You’re welcome to explore, or reach out if you’d like to understand how this might apply in your world.
+  If you are navigating a situation where strategic change feels stuck
+  and want to think it through with someone grounded in this domain,
+  you’re welcome to reach out.
 sections:
   - type: markdown
     data:
@@ -19,8 +28,6 @@ sections:
   - type: ctas
     data:
       items:
-        - label: Explore the Commons
-          ref: commons
-        - label: Learn More
+        - label: Connect
           ref: connect
 ...
